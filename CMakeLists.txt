@@ -87,7 +87,7 @@ if(UNIX)
 		add_definitions(-std=c++17)
 	endif()
 else()
-	SET ( CMAKE_CXX_FLAGS "-D_X64 -D_WINDOWS /EHsc" )
+	SET ( CMAKE_CXX_FLAGS "-D_X64 -D_WINDOWS /EHsc /std:c++17" )
 	include_directories(${SolutionDir}/Dependencies/libevent/WIN32-Code/)
 endif()
 

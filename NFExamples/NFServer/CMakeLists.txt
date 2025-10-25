@@ -9,10 +9,35 @@ add_executable(NFServer ${NFServer_ROOT_Cpp} ${NFServer_ROOT_Hpp})
 
 
 target_link_libraries(NFServer NFPluginLoader)
+target_link_libraries(NFServer NFCore)
+target_link_libraries(NFServer NFMessageDefine)
+target_link_libraries(NFServer NFKernelPlugin)
+target_link_libraries(NFServer NFNetPlugin)
+target_link_libraries(NFServer NFConfigPlugin)
+
+# Server plugins
+target_link_libraries(NFServer NFDBLogicPlugin)
+target_link_libraries(NFServer NFDBNet_ClientPlugin)
+target_link_libraries(NFServer NFDBNet_ServerPlugin)
+target_link_libraries(NFServer NFGameServerPlugin)
+target_link_libraries(NFServer NFGameServerNet_ClientPlugin)
+target_link_libraries(NFServer NFGameServerNet_ServerPlugin)
+target_link_libraries(NFServer NFLoginLogicPlugin)
+target_link_libraries(NFServer NFLoginNet_ClientPlugin)
+target_link_libraries(NFServer NFLoginNet_ServerPlugin)
+target_link_libraries(NFServer NFLoginNet_HttpServerPlugin)
+target_link_libraries(NFServer NFMasterServerPlugin)
+target_link_libraries(NFServer NFMasterNet_ServerPlugin)
+target_link_libraries(NFServer NFMasterNet_HttpServerPlugin)
+target_link_libraries(NFServer NFProxyLogicPlugin)
+target_link_libraries(NFServer NFProxyServerNet_ClientPlugin)
+target_link_libraries(NFServer NFProxyServerNet_ServerPlugin)
+target_link_libraries(NFServer NFWorldNet_ClientPlugin)
+target_link_libraries(NFServer NFWorldNet_ServerPlugin)
 
 
 if (UNIX)
-	add_dependencies(NFServer NFCore)
+	add_dependencies(NFServer NFCore NFMessageDefine NFKernelPlugin NFNetPlugin NFConfigPlugin NFPluginLoader NFDBLogicPlugin NFDBNet_ClientPlugin NFDBNet_ServerPlugin NFGameServerPlugin NFGameServerNet_ClientPlugin NFGameServerNet_ServerPlugin NFLoginLogicPlugin NFLoginNet_ClientPlugin NFLoginNet_ServerPlugin NFLoginNet_HttpServerPlugin NFMasterServerPlugin NFMasterNet_ServerPlugin NFMasterNet_HttpServerPlugin NFProxyLogicPlugin NFProxyServerNet_ClientPlugin NFProxyServerNet_ServerPlugin NFWorldNet_ClientPlugin NFWorldNet_ServerPlugin)
 
 	#if (CMAKE_BUILD_TYPE MATCHES "Release")
 	#	target_link_libraries(NFServer libSDL2.a)
@@ -23,7 +48,7 @@ if (UNIX)
 	target_link_libraries(NFServer -static-libstdc++ -pthread)
 
 else()
-
+	add_dependencies(NFServer NFCore NFMessageDefine NFKernelPlugin NFNetPlugin NFConfigPlugin NFPluginLoader NFDBLogicPlugin NFDBNet_ClientPlugin NFDBNet_ServerPlugin NFGameServerPlugin NFGameServerNet_ClientPlugin NFGameServerNet_ServerPlugin NFLoginLogicPlugin NFLoginNet_ClientPlugin NFLoginNet_ServerPlugin NFLoginNet_HttpServerPlugin NFMasterServerPlugin NFMasterNet_ServerPlugin NFMasterNet_HttpServerPlugin NFProxyLogicPlugin NFProxyServerNet_ClientPlugin NFProxyServerNet_ServerPlugin NFWorldNet_ClientPlugin NFWorldNet_ServerPlugin)
 endif()
 
 set_target_properties( NFServer PROPERTIES OUTPUT_NAME_DEBUG "NFServer")

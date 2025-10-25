@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <XML>
 	<Object Id="DBServer_1" Area="1" CpuCount="1" IP="127.0.0.1" MaxOnline="5000" Port="18001" ServerID="8" Type="8" UDPPort="0" WSPort="0" WebPort="0" />
+	<Object Id="GameServer_6" Area="1" CpuCount="1" IP="127.0.0.1" MaxOnline="5000" Port="16006" ServerID="6" Type="6" UDPPort="0" WSPort="0" WebPort="0" />
 	<Object Id="GameServer_16001" Area="1" CpuCount="1" IP="127.0.0.1" MaxOnline="5000" Port="16001" ServerID="16001" Type="6" UDPPort="0" WSPort="0" WebPort="0" />
 	<Object Id="GameServer_16002" Area="1" CpuCount="1" IP="127.0.0.1" MaxOnline="5000" Port="16002" ServerID="16002" Type="6" UDPPort="0" WSPort="0" WebPort="0" />
 	<Object Id="GameServer_16003" Area="1" CpuCount="1" IP="127.0.0.1" MaxOnline="5000" Port="16003" ServerID="16003" Type="6" UDPPort="0" WSPort="0" WebPort="0" />

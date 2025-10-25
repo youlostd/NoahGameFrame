@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<XML>
+	<Object Id="MySQLServer_1" Host="127.0.0.1" Port="3306" Database="noahgameframe" User="root" Password="" ServerID="002" />
+</XML>
