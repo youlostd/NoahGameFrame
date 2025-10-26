@@ -1,0 +1,4 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 7 then ShadowZoneLIB3 . clearDungeon ( ) 
+d . notice ( "Shadow tower: %s was revealed! You can proceed to next floor!" , c_mob_name ( 29382 ) ) ; 
+ShadowZoneLIB3 . spawnPortalGate ( ) 
+ return end 

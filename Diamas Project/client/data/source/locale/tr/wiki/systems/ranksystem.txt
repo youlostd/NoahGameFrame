@@ -1,0 +1,66 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/ranksystem.png]
+[CENTER_ALIGN]Rankpoints
+
++1,000,000       E = Tanrı                   K = Tanrıça		
++900,000         E = Tanrısal                K = Tanrısal	
++800,000         E = Avcı                    K = Melek
++700,000         E = Witcher                 K = Peri
++600.000         E = Ragnarok                K = Tatlı
++500.000         E = Void Walker             K = Star Child	
++400.000         E = Raikage                 K = Ginger	
++300.000         E = İmparator               K = Knightwalker	
++200.000         E = Virtüöz                 K = Seraphine		
++100.000         E = Hükümdar                K = İmparatoriçe		
++90.000          E = Ruh Hırsızı             K = Ruh Hırsızı
++86,000          E = Hokage                  K = Hokage	
++76,000          E = Anbu                    K = Anbu	
++70,000          E = Majör                   K = Komutan
++66.000          E = Super Saiyajin          K = Karifura
++60.000          E = Saiyajin                K = Kunoichi	
++56.000          E = Gladyatör               K = Büyülü
++50.000          E = Gezgin                  K = Efsanevi
++46,000          E = Efsanevi                K = İlahi
++40,000          E = İlahi                   K = Ölümsüz
++36,000          E = Ölümsüz                 K = Tapılası
++30,000          E = Tapılası                K = Kutsal
++28,000          E = Kutsal                  K = Çariçe
++26,000          E = Baron                   K = Baron
++24,000          E = Prens                   K = Prenses
++22,000          E = Asil                    K = Zamansız
++20.000          E = Mistik                  K = Benzersiz
++12,000          E = Benzersiz               K = Onurlu 
++8,000           E = Onurlu                  K = Yumuşak
++4.000           E = İyi huylu               K = Sevimli
++2.000           E = Sempatik                K = Küçük			
+
+
++/- 0                    = Rütbesiz
+
+-2.000           E = Utanmaz                 K = Utanmaz 
+-4,000           E = Haylaz                  K = Haylaz
+-8.000           E = Cahil                   K = Kavgacı
+-12,000          E = Kötücül                 K = Kötücül 
+-20,000          E = Suçlu                   K = Suçlu
+-26,000          E = Nefret dolu             K = Nefret dolu
+-30,000          E = Toksik                  K = Toksik
+-36.000          E = Şeytani                 K = Şeytani
+-40,000          E = Zalim                   K = Zalim
+-46.000          E = Suikastçı               K = Sürgün
+-50,000          E = Günahkâr                K = Lanetli
+-56,000          E = Lanetli                 K = Huysuz
+-60,000          E = Tanrısız                K = Tanrısız
+-70,000          E = İblis                   K = İblis
+-80,000          E = Gölge avcısı            K = Succubus
+-90,000          E = Kana susamış            K = Kana susamış
+-100,000         E = Dönek                   K = Dönek
+-200.000         E = Ölüm Şövalyesi          K = Cadı
+-300.000         E = Ghoul                   K = Ghoula
+-400.000         E = Kâbus                   K = Kâbus
+-500.000         E = Ölümsüz                 K = Kijo
+-600.000         E = Oni                     K = Fallen Angel
+-700.000         E = Lucifer                 K = Blood Goddess
+-800.000         E = Blood God               K = Hell Lady
+-1,000,000       E = Şeytan                  K = Lilith
+
+

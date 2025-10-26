@@ -1,0 +1,20 @@
+if item . get_vnum ( ) == 30846 and ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 4 and d . getf ( "ShadowZone_4f_KillMonsters" ) == 0 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local StatuePosition = settings [ "reaper_statue_pos" ] 
+local BossPosition = settings [ "second_boss_pos" ] 
+ShadowZoneLIB3 . clearDungeon ( ) 
+item . remove ( ) 
+npc . kill ( ) 
+d . spawn_mob_dir ( 29381 , StatuePosition [ 1 ] , StatuePosition [ 2 ] , StatuePosition [ 3 ] ) ; 
+d . set_unique ( "ShadowReaper" , d . spawn_mob ( 24383 , BossPosition [ 1 ] , BossPosition [ 2 ] ) ) 
+if d . getf ( "ShadowZone_wrong_count_f" ) == 1 then 
+d . unique_set_maxhp ( "ShadowReaper" , settings [ "REAPER_HP_1" ] ) 
+elseif d . getf ( "ShadowZone_wrong_count_f" ) == 2 then 
+d . unique_set_maxhp ( "ShadowReaper" , settings [ "REAPER_HP_2" ] ) 
+elseif d . getf ( "ShadowZone_wrong_count_f" ) == 3 then 
+d . unique_set_maxhp ( "ShadowReaper" , settings [ "REAPER_HP_3" ] ) 
+elseif d . getf ( "ShadowZone_wrong_count_f" ) == 4 then 
+d . unique_set_maxhp ( "ShadowReaper" , settings [ "REAPER_HP_4" ] ) 
+else 
+return 
+end 
+ return end 

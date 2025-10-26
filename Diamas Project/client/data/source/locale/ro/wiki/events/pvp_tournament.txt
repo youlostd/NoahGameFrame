@@ -1,0 +1,70 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/pvptournament.tga]
+[CENTER_ALIGN;FONT_SIZE=18]PvP Turnier
+
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Allgemeine Informationen
+*2. Event Erklärung
+*3. Levelbereiche
+*4. Belohnungen
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=120; CENTER_ALIGN]
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen
+
+Du kannst das PvP Turnier über den Hauptmann betreten.
+Jede Runde werden die Duellanten zufällig ermittelt. Es treten alle Rassen gegen alle Rassen an.
+Wenn du die Map betreten hast, gehe zu Admiral Angmur um dich für das PvP Turnier anzumelden.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=210; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Event Erklärung
+
+Wenn du dich auf die PvP Turnier Map geportet hast, findest du in der Mitte der Map Admiral Angmur.
+Bei diesem musst du dich anmelden, ansonsten nimmst du nicht am Turnier teil. Um das Turnier fair zu
+gestalten, gibt es verschiedene Levelbereiche. Achte also immer genau auf die Ankündigungen welcher
+Levelbereich gerade stattfindet, damit du dich auch im richtigen Levelbereich anmeldest.
+Es gibt 4 Arenen, in denen die Kämpfe ausgetragen werden. Sobald eine Arena frei ist, kann es also
+passieren, das du in die Arena teleportiert wirst und deinen Gegner auffindest.
+
+Wenn du in die Arena teleportiert wurdest hast du 50 Sekunden Zeit um dich vorzubereiten.
+Während der Zeit hast du die Möglichkeit dein richtiges Equipment anzuziehen.
+Keine Sorge, du wirst bis zum Start des Duells jede Sekunde TP erhalten, damit du auch
+sicher mit vollem Leben startest. Die Duelle finden in dem Modus "Best of 3" statt.
+Es gibt nur einen Gewinner.
+
+Während des Kampes sind folgende Items/Funktionen deaktiviert:
+
+*Roter Trank (S), (M) and (L)
+*Elixier der Sonne (S), (M) and (L)
+*Reittiere
+*Haustiere
+*Buffi Siegel
+*Team Buffs
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=525; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Levelbereiche
+
+Damit jeder Spieler an dem Turnier teilnehmen kann, gibt es beim PvP Turnier folgende 5 Levelbereiche:
+
+*Level 35-60
+*Level 61-75
+*Level 76-95
+*Level 96-105
+*Level 106-115
+
+Jeder Levelbereich hat einen einzigen Gewinner.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=690; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Belohnungen
+
+Die Belohnungen für das jeweilige PvP Turnier findet ihr im Forum in dem jeweiligen
+Foren Thread zum aktuellen PvP Turnier.
+
+
+

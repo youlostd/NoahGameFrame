@@ -1,0 +1,7 @@
+say_title ( gameforge . find_squareguard . _10_targetVid ) 
+say ( gameforge . guild_manage . _120_say ) 
+local s = select ( gameforge . locale . guild . yes , gameforge . locale . guild . no ) 
+if s == 1 then 
+pc . remove_from_guild ( ) 
+pc . warp_force ( pc . get_map_index ( ) , pc . get_x ( ) * 100 , pc . get_y ( ) * 100 ) 
+end 

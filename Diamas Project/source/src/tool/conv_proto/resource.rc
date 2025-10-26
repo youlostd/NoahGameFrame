@@ -1,0 +1,6 @@
+#define METIN2_COMPONENT_DESCRIPTION "Convert Mob/Item Proto"
+#define METIN2_COMPONENT_INTERNALNAME "ConvProto"
+#define METIN2_COMPONENT_FILENAME "conv_proto"
+#define METIN2_COMPONENT_TYPE VFT_APP
+
+#include <version_info.rc>

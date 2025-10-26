@@ -1,0 +1,39 @@
+quest werbung begin
+    state start begin
+        when login with game.get_event_flag("agb") == 1 begin
+			local delay = 1800
+			if get_global_time() - pc.getqf("agbtime") < delay and pc.getqf("agbtime") != 0 then
+				return
+			else
+				pc.setqf("agbtime", get_global_time())
+				notice("Handel von virtuellen Gütern gegen Echtgeld ist verboten, und wird mit einem Permanenten Bann auf die komplette IP bestraft!")
+				notice("Jeder Versuch des oben genannten Handels wird bestraft. Dabei zählt es nicht ob du oder dein Freund diesen Handel durchgeführt haben!")
+				notice("Bitte ändere Regelmäßig deine Accountdaten ! Passwörter mit bestenfalls 12 Zeichen und niemals gleiche/ähnliche Daten wie auf anderen Servern!")
+				notice("Wir übernehmen keine Haftung solltest du die oben genannten Punkte nicht einhalten, oder gehackt werden!")
+				notice("Bei Fragen/Problemen kannst du dich gerne an einen Teamler wenden, oder unser Forum besuchen ! http://board.akami.bz/")
+				notice("Trading with virtual goods for real money is not allowed and shall be punished with a permanent ban on the entire IP!")
+				notice("Any attempt by the aforementioned trade will be punished. It does not count if you or your friend have done this trade!")
+				notice("If you have questions / problems you can easily feel free to contact a Teamler, or visit our forum! http://board.akami.bz/")
+				notice("Please change your account information regularly! Passwords with at best 12 characters and never the same / similar data on other servers!")
+				notice("We accept no liability you should not comply with the above points, or be hacked!")
+
+			end
+		end -- when agb end
+		
+        when login with game.get_event_flag("werbung") == 1 begin
+			local delay = 600
+			if get_global_time() - pc.getqf("time") < delay and pc.getqf("time") != 0 then
+				return
+			else
+				pc.setqf("time", get_global_time())
+				notice("Werde jetzt Fan auf unserer Facebook-Seite, um immer die aktuellsten Informationen zu haben! https://www.facebook.com ")
+				notice("Registriere dich in unserem Forum, um ein Teil einer großen Community zu werden! http://board.akami.bz/")
+				notice("Du möchtest neue Leute kennenlernen, oder einfach ein Ort finden um mit deinen Freunden zu reden? Komm auf unseren Discord Server! https://discord.gg/yqXk7cX ")
+				notice("Du brauchst dringend Drachenmünzen, doch weißt nicht wie du an sie rankommst, oder bist noch Schüler? Dann nimm an unseren wöchentlichen Gewinnspielen auf Facebook Teil !")
+				--notice("Ihr mögt Let's Plays, und schaut euch allgemein gerne Video über Akami an ? Dann schaut bei unseren Let's Playern Vorbei!")
+				--notice("yt.com/userJulezZ , yt.com/user/MrDieLangeweile , yt.com/user/CHiiLouTxPl4Y4 , yt.com/user/Avalancex3 , yt.com/user/SaschaLP ")
+
+			end
+		end -- when werbung end
+	end -- state end
+end -- quest end

@@ -1,0 +1,12 @@
+[DELAY value;0]
+Die Sura sind Kämpfer, die in den Besitz[ENTER]
+magischer Kräfte gelangten, als sie sich[ENTER]
+bereit erklärten, die Saat des Teufels in[ENTER]
+ihren Armen aufgehen zu lassen. Dadurch sind[ENTER]
+sie in der Lage, sich im Nahkampf gekonnt[ENTER]
+mit dem Schwert zu behaupten oder im[ENTER]
+Fernkampf dem Gegner durch Magie Schaden[ENTER]
+[WAIT]
+zuzufügen. Durch Spezialisierung verbessern[ENTER]
+die Sura ihre Angriffszauber oder erwerben[ENTER]
+zusätzliche Verstärkungszauber.

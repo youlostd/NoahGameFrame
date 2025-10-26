@@ -1,0 +1,7 @@
+[DELAY value;0]
+La forza degli shamani[ENTER]
+deriva dalla saggezza[ENTER]
+accumulata in anni di studi[ENTER]
+intensi e dall'utilizzo di[ENTER]
+incantesimi e magie durante[ENTER]
+le battaglie.

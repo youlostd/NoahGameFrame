@@ -1,0 +1,17 @@
+quest event_summer2015 begin
+	state start begin
+		when kill with game.get_event_flag("summer_drop") !=0 begin
+			if npc.get_race() >= 8000 and npc.get_race() <= 8200 then
+				if drop_gamble_with_flag("summer_drop") then
+					syschat("Du hast einen Sommer Ball gefunden.")
+					if number(1, 2) == 1 then
+					 game.drop_item_with_ownership(71508, 1)
+					else
+					 game.drop_item_with_ownership(71509, 1)
+
+					end
+				end
+			end
+		end
+	end
+end

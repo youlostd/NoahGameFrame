@@ -1,0 +1,278 @@
+quest map_warp begin
+    state start begin
+        when 9012.chat.gameforge.map_warp._10_npcChat  begin
+            say_title(gameforge.map_warp._20_sayTitle)
+            say(gameforge.map_warp._30_say)
+
+            local main_set =  select(gameforge.locale.guild.yes, gameforge.locale.guild.no)
+            if main_set == 2 then
+                return
+            end
+
+            if pc.get_level() <= 10 then
+                say_title(gameforge.map_warp._20_sayTitle)
+                say(gameforge.map_warp._40_say)
+                return
+            end
+
+            local map = pc.get_map_index()
+            local empire = pc.get_empire()
+            local level = pc.get_level()
+            local cost = math.floor(level / 5) * 1000
+
+            if cost < 1000 then
+                cost = 1000
+            end
+
+            say_title(gameforge.map_warp._20_sayTitle)
+            say(gameforge.map_warp._50_say)
+            say_reward(string.format(gameforge.map_warp._60_sayReward, cost))
+            
+            if map == 1 or map == 3 or map == 21 or map == 23 or map == 41 or map == 43 then
+
+                local guild_map_names = {
+                    gameforge.map_warp._11_array,
+                    gameforge.map_warp._12_array,
+                    gameforge.map_warp._13_array,
+                }
+
+                guild_map_name = guild_map_names[empire]
+                local added_guild_map = {
+                    gameforge.map_warp._17_array,
+                    gameforge.map_warp._18_array,
+                    gameforge.map_warp._19_array,
+                }
+
+                added_guild_map = added_guild_map[empire]
+                local empire_castle={
+                    gameforge.map_warp._14_array,
+                    gameforge.map_warp._15_array,
+                    gameforge.map_warp._16_array,
+                }
+                empire_castle =empire_castle[empire]
+                local sub_set = 0
+                if level < 60 then -- weniger als 60 : die Privatkarte von Gild, das Drache, die Wuste Youngbi, Der Eisberg im Westen
+                    if pc.count_item(30180) == 0 then
+                        sub_set =  select(guild_map_name, gameforge.locale.map_name_4, gameforge.locale.map_name_3, gameforge.locale.map_name_1,added_guild_map, gameforge.arena_manager._200_tableInsert)
+                        if sub_set == 6 then -- Schliessen
+                            return
+                        end
+                    else 
+                        sub_set =  select(guild_map_name, gameforge.locale.map_name_4, gameforge.locale.map_name_3, gameforge.locale.map_name_1, added_guild_map, gameforge.map_warp._97_select, gameforge.arena_manager._200_tableInsert)
+                        if sub_set == 7 then -- Schliessen
+                            return
+                        end
+                    end
+                    
+
+                else -- mehr als 61 :die Wuste Youngbi, der Eisberg im Westen, das Schlangengeistturm, die Pfirsischblumendorf
+                    if pc.count_item(30180) == 0 then
+                        sub_set =  select(guild_map_name, gameforge.locale.map_name_4, gameforge.locale.map_name_3, gameforge.locale.map_name_1,added_guild_map, gameforge.locale.levelup.prev_quest_go)
+                    else
+                        sub_set =  select(guild_map_name, gameforge.locale.map_name_4, gameforge.locale.map_name_3, gameforge.locale.map_name_1,added_guild_map, gameforge.map_warp._97_select,gameforge.locale.levelup.prev_quest_go)
+                    end
+                    if sub_set == 6 and pc.count_item(30180) == 0 then 
+                        sub_set = sub_set +1
+                    end
+                    if sub_set == 7 then -- weiter
+                        say_title(gameforge.map_warp._20_sayTitle)
+                        say(gameforge.map_warp._70_say)
+                        say_reward(string.format(gameforge.map_warp._80_sayReward, cost))
+                        sub_set =  select(gameforge.locale.map_name_2, gameforge.map_warp._90_select, gameforge.map_warp._94_select,gameforge.map_warp._95_select, gameforge.map_warp._96_select, gameforge.arena_manager._200_tableInsert) + 6 
+                        if sub_set == 12 then 
+                            return
+                        end
+                        if sub_set == 11 then -- vorher
+                            say_title(gameforge.map_warp._20_sayTitle)
+                            say(gameforge.map_warp._100_say)
+                            say_reward(string.format(gameforge.map_warp._110_sayReward, cost))
+                            say(gameforge.map_warp._120_sayReward)
+                  if pc.count_item(30180) == 0 then
+                  sub_set =  select(guild_map_name, gameforge.locale.map_name_4, gameforge.locale.map_name_3, gameforge.locale.map_name_1,added_guild_map, gameforge.locale.levelup.prev_quest_go)
+                else
+                sub_set =  select(guild_map_name, gameforge.locale.map_name_4, gameforge.locale.map_name_3, gameforge.locale.map_name_1, added_guild_map, gameforge.map_warp._97_select,gameforge.locale.levelup.prev_quest_go)
+                  end
+
+                            if sub_set == 6 and pc.count_item(30180) == 0 then 
+                                sub_set = sub_set +1
+                            end
+                            if sub_set == 7 then -- weiter
+                                say_title(gameforge.map_warp._20_sayTitle)
+                                say(gameforge.map_warp._130_say)
+                                say_reward(string.format(gameforge.map_warp._140_sayReward, cost))
+                                sub_set =  select(gameforge.locale.map_name_2, gameforge.map_warp._90_select,  gameforge.map_warp._94_select, gameforge.map_warp._95_select, gameforge.arena_manager._200_tableInsert) + 6
+                                if sub_set == 11 then 
+                                    return
+                                end
+                            end
+                        end
+                    end
+                end
+
+                if pc.gold < cost then
+                    say_title(gameforge.map_warp._20_sayTitle)
+                    say(gameforge.map_warp._150_say)
+                    say_reward(string.format(gameforge.map_warp._160_sayReward, cost))
+                    return
+                end
+
+                pc.changegold(-cost)
+
+                local warp = {
+                    {
+                        { 4, 7600, 4300 },
+                        { 24, 300, 1000 },
+                        { 44, 41400, 13000 },
+                    },
+                    {
+                        { 64,78100,94700 },
+                        { 64,22100,119800 },
+                        { 64,137400,74100 },
+                    },
+                    {
+                        { 63,11800,141900 },
+                        { 63,15600,14600 },
+                        { 63,139000,14200 },
+                    },
+                    {
+                        { 61,76600,64400 },
+                        { 61,76600,64400 },
+                        { 61,76600,64400 },
+                    },
+                    {--added_guild_map
+                    {6 ,0, 0},
+                    {26 ,0, 0},
+                    {46 ,0, 0},
+                            
+                   } ,
+                    {
+                        { 287800, 799700 },
+                        { 275500, 800000 },
+                        { 277000, 788000 },
+                    },
+                    {
+                        { 62,9700,65700 },
+                        { 62,9700,65700 },
+                        { 62,9700,65700 },
+                    },
+                    {
+                        { 65,51700,58100 },
+                        { 65,51700,58100 },
+                        { 65,51700,58100 },
+                    },
+
+                    {
+                        { 68,70100,70400 },
+                        { 68,70100,70400 },
+                        { 68,70100,70400 },
+                    },
+                    {
+                        { 68,70100,70400 },
+                        { 68,70100,70400 },
+                        { 68,70100,70400 },
+                    },
+                }
+                test_chat(warp[sub_set][empire][1]..warp[sub_set][empire][2])
+                say_title(gameforge.map_warp._20_sayTitle)
+                say(gameforge.map_warp._170_say)
+                
+                
+                wait()
+                if pc.is_dead() == false then
+                    pc.warp(warp[sub_set][empire][1], warp[sub_set][empire][2], warp[sub_set][empire][3])
+                else
+                    return
+                end
+
+
+            else -- Falls jedes Dorf nicht 1,2 Dorf ist,ist es moglich zum 1,2 Dorf im Reich zuruckzukehren
+                local sub_set2 = 4
+                if pc.count_item(30180) == 0 then
+                    if empire==1 then
+                        sub_set2 =  select(gameforge.map_warp._180_select, gameforge.map_warp._190_select, gameforge.arena_manager._200_tableInsert)
+                    elseif  empire ==2 then
+                        sub_set2 =  select(gameforge.map_warp._200_select, gameforge.map_warp._210_select, gameforge.arena_manager._200_tableInsert)
+                    elseif  empire ==3 then
+                        sub_set2 =  select(gameforge.map_warp._220_select, gameforge.map_warp._230_select, gameforge.arena_manager._200_tableInsert)
+                    end
+                    if sub_set2 == 3 then
+                        return
+                    end
+                else
+                    if empire==1 then
+                        sub_set2 =  select(gameforge.map_warp._180_select, gameforge.map_warp._190_select, gameforge.map_warp._97_select, gameforge.arena_manager._200_tableInsert)
+                    elseif  empire ==2 then
+                        sub_set2 =  select(gameforge.map_warp._200_select, gameforge.map_warp._210_select, gameforge.map_warp._97_select, gameforge.arena_manager._200_tableInsert)
+                    elseif  empire ==3 then
+                        sub_set2 =  select(gameforge.map_warp._220_select, gameforge.map_warp._230_select, gameforge.map_warp._97_select, gameforge.arena_manager._200_tableInsert)
+                    end
+                    if sub_set2 == 4 then
+                        return
+                    end
+                end
+                if sub_set2 != 4 then
+                    if pc.gold < cost then
+                        say_title(gameforge.map_warp._20_sayTitle)
+                        say(gameforge.map_warp._150_say)
+                        say_reward(string.format(gameforge.map_warp._160_sayReward, cost))
+                    else
+                        if sub_set2 == 1 then
+                            say_title(gameforge.map_warp._20_sayTitle)
+                            say(gameforge.map_warp._240_say)
+                            wait()
+                            if  pc.is_dead() == false then
+                                if empire == 1 then
+                                    pc.warp(1, 647*100, 588*100) -- 4743 9548
+                                elseif empire == 2 then
+                                    pc.warp(21, 638*100, 640*100) -- 638 1664
+                                elseif empire == 3 then
+                                    pc.warp(41, 383*100, 644*100) -- 9599 2692
+                                end
+                            else
+                                return
+                            end
+                        elseif sub_set2 == 2 then
+                            say_title(gameforge.map_warp._20_sayTitle)
+                            say(gameforge.map_warp._250_say)
+                            wait()
+                            if pc.is_dead() == false then
+                                if empire == 1 then
+                                    pc.warp(3, 459*100, 637*100)
+                                elseif empire == 2 then
+                                    pc.warp(23, 431*100, 352*100)
+                                elseif empire == 3 then
+                                    pc.warp(43, 447*100, 412*100)
+                                end
+                            else
+                                return
+                            end
+                        elseif sub_set2 == 3 then
+                            say_title(gameforge.map_warp._20_sayTitle)
+                            say(gameforge.map_warp._250_say)
+                            wait()
+                            if pc.is_dead() == false then
+                                if empire == 1 then
+                                    pc.warp(64, 318*100, 1341*100)
+                                elseif empire == 2 then
+                                    pc.warp(64, 195*100, 1344*100)
+                                elseif empire == 3 then
+                                    pc.warp(64, 210*100, 1224*100)
+                                end
+                            else
+                                return
+                            end
+                        end
+                        pc.changegold(-cost)
+                    end
+                end
+            end
+        end -- end_of_chat
+		when 20083.chat.gameforge.map_warp._10_npcChat begin  
+				say(gameforge.map_warp._20_say)
+				say_title(gameforge.map_warp._30_sayTitle)
+				say(gameforge.map_warp._40_say)
+            say_reward(gameforge.map_warp._50_sayReward)
+		end	
+  
+    end -- end_of_state
+end -- end_of_quest

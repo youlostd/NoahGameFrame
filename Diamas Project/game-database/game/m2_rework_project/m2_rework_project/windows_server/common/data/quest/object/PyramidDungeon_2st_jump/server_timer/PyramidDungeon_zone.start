@@ -1,0 +1,16 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = PyramidDungeonLIB . Settings ( ) ; local position = settings [ "3f_stone_pos" ] ; local n = number ( 1 , 8 ) ; 
+d . jump_all ( settings [ "insidePos_3f" ] [ 1 ] , settings [ "insidePos_3f" ] [ 2 ] ) ; 
+d . setf ( "PyramidDungeon_level" , 3 ) ; d . setf ( "PyramidDungeon_3f_stones_q" , 0 ) ; 
+for i = 1 , 3 begin 
+if ( i ~= n ) then 
+d . set_unique ( "fake" .. i , d . spawn_mob ( 8473 , position [ i ] [ 1 ] , position [ i ] [ 2 ] ) ) 
+end 
+end 
+local vid = d . spawn_mob ( 8473 , position [ n ] [ 1 ] , position [ n ] [ 2 ] ) 
+d . set_unique ( "real" , vid ) 
+d . regen_file ( "data/dungeon/pyramid_dungeon/regen_3f_a.txt" ) ; 
+d . notice ( "Ancient pyramid: Find and destroy right %s within 21 minutes!" , c_mob_name ( 8473 ) ) ; 
+d . notice ( "Ancient pyramid: Be careful, something strong is hiding inside of them!" ) 
+server_timer ( "PyramidDungeon_3f_stone" , 21 * 60 , d . get_map_index ( ) ) 
+end 

@@ -1,0 +1,119 @@
+quest pet_system begin
+    state start begin
+        function get_pet_info(itemVnum)
+            pet_info_map = {
+            --  [ITEM VNUM] MOB_VNUM, DEFAULT NAME
+                [53001]     = { 34001, gameforge.pet_system._010_say ,1},
+                [53002]     = { 34002, gameforge.pet_system._020_say ,1},
+				[53003]     = { 34003, gameforge.pet_system._040_say ,1},
+				[53004]     = { 34009, gameforge.pet_system._050_say ,1},
+				[53005]     = { 34004, gameforge.pet_system._050_say, 1},
+				[53006]     = { 34006, gameforge.pet_system._090_say, 1},
+                [53007]     = { 34008, gameforge.pet_system._060_say, 1},
+                [53008]     = { 34007, gameforge.pet_system._070_say, 1},
+				[53009]     = { 34005, gameforge.pet_system._080_say, 1},
+                [53010]     = { 34010, gameforge.pet_system._100_say, 1},
+                [53011]     = { 34011, gameforge.pet_system._110_say, 1},
+                [53012]     = { 34012, gameforge.pet_system._120_say, 1},
+                [53013]     = { 34032, gameforge.pet_system._210_say, 1},
+				[53014]     = { 34033, gameforge.pet_system._130_say, 1},
+				[53015]     = { 34034, gameforge.pet_system._510_say, 1},
+				[53016]     = { 34035, gameforge.pet_system._170_say, 1},
+				[53017]     = { 34017, gameforge.pet_system._220_say, 1},
+				[53018]     = { 34018, gameforge.pet_system._160_say, 1},
+				[53019]     = { 34019, gameforge.pet_system._520_say, 1},
+				[53020]     = { 34020, gameforge.pet_system._180_say, 1},
+				[53021]     = { 34021, gameforge.pet_system._230_say, 1},
+				[53022]     = { 34022, gameforge.pet_system._160_say, 1},
+				[53023]     = { 34023, gameforge.pet_system._530_say, 1},
+				[53024]     = { 34024, gameforge.pet_system._190_say, 1},
+				[53025]     = { 34025, gameforge.pet_system._240_say, 1},
+				[53026]     = { 34026, gameforge.pet_system._200_say, 1},
+				[53027]     = { 34027, gameforge.pet_system._540_say, 1},
+				[53028]     = { 34028, gameforge.pet_system._200_say, 1},
+				[53029]     = { 34016, gameforge.pet_system._160_say, 1},
+				[53030]     = { 34013, gameforge.pet_system._130_say, 1},
+				[53031]     = { 34014, gameforge.pet_system._140_say, 1},
+				[53032]     = { 34015, gameforge.pet_system._150_say, 1},
+				[53033]     = { 34029, gameforge.pet_system._250_say, 1},
+				[53034]     = { 34036, gameforge.pet_system._260_say, 1},
+				[53035]     = { 34036, gameforge.pet_system._270_say, 1},
+				[53036]     = { 34030, gameforge.pet_system._280_say, 1},
+				[53037]     = { 34031, gameforge.pet_system._290_say, 1},
+				[53038]     = { 34039, gameforge.pet_system._300_say, 1},
+				[53039]     = { 34040, gameforge.pet_system._310_say, 1},
+				[53040]     = { 34001, gameforge.pet_system._320_say, 1},
+				[53041]     = { 34041, gameforge.pet_system._050_say, 1},
+				[53042]     = { 34042, gameforge.pet_system._350_say, 1},
+				[53043]     = { 34041, gameforge.pet_system._050_say, 1},
+				[53044]     = { 34042, gameforge.pet_system._350_say, 1},
+				[53045]     = { 34043, gameforge.pet_system._380_say, 1},
+				[53046]     = { 34044, gameforge.pet_system._390_say, 1},
+				[53047]     = { 34042, gameforge.pet_system._350_say, 1},
+				[53048]     = { 34006, gameforge.pet_system._090_say, 1},
+                [53049]     = { 34008, gameforge.pet_system._060_say, 1},
+                [53050]     = { 34007, gameforge.pet_system._070_say, 1},
+				[53051]     = { 34005, gameforge.pet_system._080_say, 1},
+				[53052]     = { 34013, gameforge.pet_system._360_say, 1},
+				[53053]     = { 34014, gameforge.pet_system._370_say, 1},
+				[53054]     = { 34014, gameforge.pet_system._370_say, 1},
+				[53055]     = { 34050, gameforge.pet_system._550_say, 1},
+				[71203]     = { 20369, gameforge.pet_system._260_say, 1},
+				[54000]     = { 35000, gameforge.pet_system._500_say, 1},
+				[54001]     = { 35001, gameforge.pet_system._400_say, 1},
+				[54002]     = { 35002, gameforge.pet_system._410_say, 1},
+				[54003]     = { 35003, gameforge.pet_system._420_say, 1},
+				[54004]     = { 35004, gameforge.pet_system._430_say, 1},
+				[54005]     = { 35005, gameforge.pet_system._440_say, 1},
+				[54006]     = { 35006, gameforge.pet_system._450_say, 1},
+				[54007]     = { 35007, gameforge.pet_system._460_say, 1},
+				[54008]     = { 35008, gameforge.pet_system._470_say, 1},
+				[54009]     = { 35009, gameforge.pet_system._480_say, 1},
+				[54010]     = { 35010, gameforge.pet_system._490_say, 1},
+                -- GF specials
+                [38200]     = { 34006, gameforge.pet_system._090_say, 0},
+                [38201]     = { 34006, gameforge.pet_system._090_say, 0},
+
+            }
+
+            itemVnum = tonumber(itemVnum)
+
+            return pet_info_map[itemVnum]
+        end
+		function get_spawn_effect_file(idx)
+			effect_table = {
+				[0] = nil,
+				[1] = "d:\\\\ymir work\\\\effect\\\\etc\\\\appear_die\\\\npc2_appear.mse",
+			}
+			return effect_table [idx]
+		end
+        when 38200.use or 38201.use or 53007.use or 53013.use or 53012.use or 53011.use or 53055.use or 53004.use or 53010.use or 53006.use  or 53005.use or 53002.use or 53001.use or 53003.use or 53008.use or 53009.use or
+			 53014.use or 53015.use  or 53016.use or 53017.use or 53018.use or 53019.use or 53020.use or 53021.use or 53022.use or 53023.use or 53024.use or 53025.use or 53026.use or 53027.use or 53028.use 
+			 or 53029.use or 53030.use or 53054.use or 53047.use or 54001.use or 54002.use or 54003.use or 54004.use or 54005.use or 54006.use or 54007.use or 54008.use or 54009.use or 54010.use or 53048.use or 53049.use or 53050.use or 53051.use or 53052.use or 53053.use or 53031.use or 53033.use or 53034.use or 53032.use or 71203.use or 53035.use or 53036.use  or 53038.use  or 53039.use  or 53040.use or 53041.use or 53042.use or 53043.use or 53044.use or 53037.use or 53045.use or 53046.use begin
+            local pet_info = pet_system.get_pet_info(item.vnum)
+
+            if null != pet_info then
+
+                local mobVnum = pet_info[1]
+                local petName = pet_info[2]
+				local spawn_effect_file_name = pet_system.get_spawn_effect_file(pet_info[3])
+
+                if true == pet.is_summon(mobVnum) then
+					if spawn_effect_file_name != nil then
+						pet.spawn_effect (mobVnum, spawn_effect_file_name)
+					end
+                    pet.unsummon(mobVnum)
+                else
+                    if pet.count_summoned() < 1 then
+                        pet.summon(mobVnum, petName, false)
+                    else
+                        syschat(gameforge.pet_system._030_chat)
+                    end
+					if spawn_effect_file_name != nil then
+						pet.spawn_effect (mobVnum, spawn_effect_file_name)
+					end
+                end -- if pet.is_summon
+            end  -- if null != pet_info
+        end -- when
+    end -- state
+end -- quest

@@ -1,0 +1,67 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/ranksystem.png]
+[CENTER_ALIGN]Rankpoints
+
++1,000,000        M = Dio                      F = Dea		
++900,000          M = Eccelso                  F = Eccelsa
++800,000          M = Cacciatore               F = Angelo	
++700,000          M = Mago                     F = Fata
++600.000          M = Ragnarok                 F = Magistrale
++500.000          M = Signore del Vuoto        F = Figlia delle Stelle	
++400.000          M = Raikage                  F = Ginger	
++300.000          M = Imperatore               F = Cavaliere
++200.000          M = Virtuoso                 F = Serafina		
++100.000          M = Sovrano                  F = Imperatrice		
++90.000           M = Ladro d'Anime            F = Ladra d'Anime
++86,000           M = Hokage                   F = Hokage	
++76,000           M = Anbu                     F = Anbu	
++70,000           M = Maggiore                 F = Comandante
++66.000           M = Super Sayan              F = Karifura
++60.000           M = Sayan                    F = Kunoichi	
++56.000           M = Gladiatore               F = Incantata
++50.000           M = Shinobi                  F = Leggendaria
++46,000           M = Leggendario              F = Divina
++40,000           M = Divino                   F = Immortale
++36,000           M = Immortale                F = Sacra
++30,000           M = Sacro                    F = Benedetta
++28,000           M = Benedetto                F = Tsarina
++26,000           M = Barone                   F = Baronessa
++24,000           M = Principe                 F = Principessa
++22,000           M = Nobile                   F = Infinita
++20.000           M = Mistico                  F = Unica
++12,000           M = Unico                    F = Onorevole
++8,000            M = Onorevole                F = Tenera
++4.000            M = Buono                    F = Buona
++2.000            M = Gentile                  F = Gentile	
+
+
++/- 0                    = Neutro
+
+--2.000           M = Sfrontato                     F = Sfrontata
+-4,000            M = Cattivo                       F = Cattiva
+-8.000            M = Aggressiva                    F = Aggressiva
+-12,000           M = Pericoloso                    F = Pericolosa
+-20,000           M = Guerrigliero                  F = Guerrigliera
+-26,000           M = Odioso                        F = Odiosa
+-30,000           M = Tossico                       F = Tossica
+-36.000           M = Diabolico                     F = Diabolica
+-40,000           M = Crudele                       F = Crudele
+-46.000           M = Assassino                     F = Esiliata
+-50,000           M = Maledetto                     F = Dannata
+-56,000           M = Dannato                       F = Maledetta
+-60,000           M = Senza Dio                     F = Senza Dio
+-70,000           M = Demone                        F = Demone
+-80,000           M = Cacciatore d'Ombre            F = Succube
+-90,000           M = Sanguinario                   F = Sanguinaria
+-100,000          M = Rinnegato                     F = Rinnegata
+-200.000          M = Cavaliere della Morte         F = Strega
+-300.000          M = Ghoul                         F = Ghoul
+-400.000          M = Oppressore                    F = Oppressore
+-500.000          M = Zombie                        F = Kijo
+-600.000          M = Oni                           F = Angelo Caduto
+-700.000          M = Lucifero                      F = Diavolessa
+-800.000          M = Dio Sanguinario               F = Dea Sanguinaria
+-1,000,000        M = Satana                        F = Lilith
+
+
+

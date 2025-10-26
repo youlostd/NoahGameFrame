@@ -1,0 +1,71 @@
+if pc . in_dungeon ( 242 ) then local stage = getDungeonStage ( ) 
+local race = npc . race if stage == 1 and race == 2766 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+local isLastMonster = getMonsterCount ( ) == getNeededMonsterCount ( ) 
+if isLastMonster then 
+game . drop_item ( 30721 , 1 ) 
+end 
+elseif stage == 2 and race == 2767 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+local isLastMonster = getMonsterCount ( ) == getNeededMonsterCount ( ) 
+if isLastMonster then 
+game . drop_item ( 30721 , 1 ) 
+end 
+elseif stage == 3 and race == 28430 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 28430 , 255 , 265 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 4 and race == 28430 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/slime_dungeon_new_3/" .. "stage_8.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 5 and race == 2766 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+local isLastMonster = getMonsterCount ( ) == getNeededMonsterCount ( ) 
+if isLastMonster then 
+game . drop_item ( 30721 , 1 ) 
+end 
+elseif stage == 6 and race == 28430 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/slime_dungeon_new_3/" .. "stage_11.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 7 and race == 2767 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+local isLastMonster = getMonsterCount ( ) == getNeededMonsterCount ( ) 
+if isLastMonster then 
+game . drop_item ( 30721 , 1 ) 
+end 
+elseif stage == 8 and race == 28430 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/slime_dungeon_new_3/" .. "stage_15.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 9 and race == 2766 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+local isLastMonster = getMonsterCount ( ) == getNeededMonsterCount ( ) 
+if isLastMonster then 
+game . drop_item ( 30721 , 1 ) 
+end 
+elseif stage == 10 and race == 2768 or race == 27681 then 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 1 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 2768 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNGEON_ID_SLIME_3 , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( race ) ) 
+pc . update_dungeon_progress ( DUNGEON_ID_SLIME_3 ) 
+d . completed ( ) 
+setDungeonWarpLocation ( 167 , 264 , 184 ) 
+server_timer ( "exit_dungeon_final" , 15 , pc . get_map_index ( ) ) 
+end 
+ return end 

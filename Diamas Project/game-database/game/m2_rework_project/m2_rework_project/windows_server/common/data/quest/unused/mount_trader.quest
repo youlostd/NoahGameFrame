@@ -1,0 +1,47 @@
+quest mount_trader begin
+	state start begin
+		when login or levelup with pc.get_level() == 5  begin
+			set_state(information)
+		end
+	end
+	state information begin
+		when letter begin
+			local v = find_npc_by_vnum(20349)
+			if v != 0 then
+				target.vid("__TARGET__", v, c_mob_name(20349))
+			end
+			send_letter(gameforge.mount_trader._10_sendLetter)
+		end
+
+		when button or info begin
+			say_title(gameforge.mount_trader._20_sayTitle)
+			--say_size(480,130)
+			say(gameforge.mount_trader._30_say)
+		end
+
+		when __TARGET__.target.click or 20349.chat."Talk" begin
+			say_title(c_mob_name(20349))
+			target.delete("__TARGET__")
+			say(gameforge.mount_trader._60_say)
+			wait()
+			say_pc_name()
+			say(gameforge.mount_trader._70_say)
+			wait()
+			say_title(c_mob_name(20349))
+			say(gameforge.mount_trader._80_say)
+			wait()
+			say_pc_name()
+			say(gameforge.mount_trader._90_say)
+			wait()
+			say_title(c_mob_name(20349))
+			say(gameforge.mount_trader._100_say)
+			
+			command("cube open")
+			clear_letter()
+			set_state(__COMPLETE__)
+		end
+	end
+	
+	state __COMPLETE__ begin
+	end
+end

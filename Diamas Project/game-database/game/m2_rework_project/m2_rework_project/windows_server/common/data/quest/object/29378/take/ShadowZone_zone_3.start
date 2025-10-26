@@ -1,0 +1,8 @@
+if item . get_vnum ( ) == 30846 and ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 4 and d . getf ( "ShadowZone_4f_KillMonsters" ) == 0 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local StatuePosition = settings [ "reaper_statue_pos" ] 
+item . remove ( ) 
+npc . kill ( ) 
+d . setf ( "ShadowZone_4f_KillMonsters" , 1 ) ; 
+d . spawn_mob_dir ( 29379 , StatuePosition [ 1 ] , StatuePosition [ 2 ] , StatuePosition [ 3 ] ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_4a.txt" ) ; 
+ return end 

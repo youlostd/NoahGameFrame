@@ -1,0 +1,7 @@
+if ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 6 then if d . getf ( "ShadowZone_death_count" ) == 9 then 
+d . notice ( "Shadow tower: You died three times. You have failed." ) 
+d . exit_all ( ) 
+else 
+d . setf ( "ShadowZone_death_count" , d . getf ( "ShadowZone_death_count" ) + 1 ) 
+end 
+ return end 

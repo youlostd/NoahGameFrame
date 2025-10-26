@@ -1,0 +1,6 @@
+#define METIN2_COMPONENT_DESCRIPTION "Python library (cythonized)"
+#define METIN2_COMPONENT_INTERNALNAME "cythonized_library"
+#define METIN2_COMPONENT_FILENAME "cythonized_library.exe"
+#define METIN2_COMPONENT_TYPE VFT_DLL
+
+#include <version_info.rc>

@@ -1,0 +1,40 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/gaya.tga]
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Allgemeine Informationen
+*2. Wie bekommt man Gaya
+*3. Was kann man mit Gaya kaufen
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=80; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen
+
+Das aktuelle Gaya Guthaben sieht man Links neben der Yanganzeige.
+Gaya kann mit einem Gaya Coupon vom Gayahandel gehandelt werden.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=165; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Wie bekommt man Gaya
+
+Gaya muss beim Gayahändler mit 10 Schmucksteinen, 500k Yang und einen Stein +0 bis +3 hergestellt werden.
+Es gibt auch die Möglichkeit 10 Gaya aufeinmal herzustellen, dafür benötigt man 100 Schmucksteine, 5kk Yang und 10 Steine +0 bis +3.
+Bei beiden Optionen ist das herstellen zu 100%, dies kann nicht fehlschlagen.
+
+[IMG=d:/ymir work/ui/wiki/divider_small.tga; Y=260; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1 Woher bekommt man Schmucksteine?
+
+Schmucksteine können von fast allen Bossmonstern, Bosstruhen und Events erbeutet werden.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=330; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Was kann man mit Gaya kaufen
+
+Mit Gaya kann man wertvolle Gegenstände beim Gayahandel erkaufen, dieser hat immer 12 Gegenstände zur Auswahl.
+
+
+
+

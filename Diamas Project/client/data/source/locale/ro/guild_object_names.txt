@@ -1,0 +1,73 @@
+20139	Banner Breaslã (Violet)
+14401	Copac (2)
+20140	Banner Breaslã (Albastru/Verde)
+14202	Zid Spate
+20141	Banner Breaslã (Roºu/Auriu)
+14100	Casã (1)
+14101	Zid (1-1)
+14102	Zid (1-2)
+14103	Zid (1-3)
+14104	Poartã (1)
+14105	Zid (1)
+14407	Copac (8)
+14309	Piatrã (10)
+14110	Casã (2)
+14111	Zid (2-1)
+14112	Zid (2-2)
+14113	Zid (2-3)
+14114	Poartã (2)
+14115	Zid (2)
+14120	Casã (3)
+14121	Zid (3-1)
+14122	Zid (3-2)
+14123	Zid (3-3)
+14124	Poartã (3)
+14125	Zid (3)
+14301	Piatrã (2)
+14200	Simbol Breaslã
+14302	Piatrã (3)
+14303	Piatrã (4)
+14013	Fierar Arme
+14014	Fierar Armuri
+14015	Bijutier
+14400	Copac (1)
+14304	Piatrã (5)
+14402	Copac (3)
+14403	Copac (4)
+14404	Copac (5)
+14405	Copac (6)
+14406	Copac (7)
+14305	Piatrã (6)
+14408	Copac (9)
+14306	Piatrã (7)
+14033	Punct de Instruire
+14307	Piatrã (8)
+14201	Zid Faþã
+14308	Piatrã (9)
+14043	Prelucrãtor Diamante
+14300	Piatrã (1)
+14045	Prelucrãtor Lemn
+14046	Prelucrãtor Cupru
+14047	Prelucrãtor Argint
+14048	Prelucrãtor Aur
+14049	Prelucrãtor Jad
+14050	Prelucrãtor Ebonitã
+14051	Prelucrãtor Perle
+14052	Prelucrãtor Platinã
+14053	Prelucrãtor Cristal
+14054	Prelucrãtor Ametist
+14055	Prelucrãtor Lacrimã
+14204	Zid Dreapta
+14061	Altarul Puterii
+14062	Altarul Puterii
+14063	Altarul Puterii
+14203	Zid Stânga
+14071	Depozit Breaslã
+14072	Depozit Breaslã
+14073	Depozit Breaslã
+14074	Prel. Cristal Spirit
+14075	Prelucrãtor Rubin
+14076	Prelucrãtor Granat
+14077	Prelucrãtor Smarald
+14078	Prelucrãtor Safir
+14079	Prelucrãtor Turmalin

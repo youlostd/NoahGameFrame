@@ -1,0 +1,163 @@
+if pc . in_dungeon ( 231 ) then local stage = getDungeonStage ( ) 
+local race = npc . race if stage == 1 and race == 273 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8401 , 291 , 256 ) 
+d . spawn_mob ( 8401 , 357 , 233 ) 
+d . spawn_mob ( 8401 , 386 , 272 ) 
+d . spawn_mob ( 8401 , 350 , 298 ) 
+d . spawn_mob ( 8401 , 359 , 272 ) 
+d . spawn_mob ( 8401 , 369 , 245 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 2 and race == 8401 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_2thfloor.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+end 
+elseif stage == 3 and race == 277 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 274 , 142 , 110 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 4 and race == 274 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_rejoin_pos ( 73300 , 52300 ) 
+d . jump_all_delayed ( 733 , 523 , 3 ) 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_3thfloor.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 28 ) 
+end 
+elseif stage == 5 and race == 279 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8401 , 731 , 523 ) 
+d . spawn_mob ( 8401 , 770 , 521 ) 
+d . spawn_mob ( 8401 , 802 , 519 ) 
+d . spawn_mob ( 8401 , 842 , 496 ) 
+d . spawn_mob ( 8401 , 846 , 439 ) 
+d . spawn_mob ( 8401 , 851 , 401 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 6 and race == 8401 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_4thfloor.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+end 
+elseif stage == 7 and race == 281 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 274 , 733 , 167 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 8 and race == 274 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_rejoin_pos ( 85300 , 85300 ) 
+d . jump_all_delayed ( 853 , 853 , 3 ) 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_5thfloor.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 40 ) 
+end 
+elseif stage == 9 and race == 275 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8401 , 743 , 862 ) 
+d . spawn_mob ( 8401 , 706 , 873 ) 
+d . spawn_mob ( 8401 , 723 , 893 ) 
+d . spawn_mob ( 8401 , 681 , 852 ) 
+d . spawn_mob ( 8401 , 732 , 838 ) 
+d . spawn_mob ( 8401 , 747 , 890 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 10 and race == 8401 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_6thfloor.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 35 ) 
+end 
+elseif stage == 11 and race == 276 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 278 , 708 , 863 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 12 and race == 278 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_7thfloor.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+end 
+elseif stage == 13 and race == 282 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8401 , 743 , 862 ) 
+d . spawn_mob ( 8401 , 706 , 873 ) 
+d . spawn_mob ( 8401 , 723 , 893 ) 
+d . spawn_mob ( 8401 , 681 , 852 ) 
+d . spawn_mob ( 8401 , 732 , 838 ) 
+d . spawn_mob ( 8401 , 747 , 890 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 14 and race == 8401 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_rejoin_pos ( 38600 , 81300 ) 
+d . jump_all_delayed ( 386 , 813 , 3 ) 
+d . set_unique ( "stone" , d . spawn_mob ( 8402 , 329 , 862 ) ) 
+server_loop_timer ( "check_stone_hp_2" , 1 , getDungeonMapIndex ( ) ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 16 and race == 282 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_unique ( "stone" , d . spawn_mob ( 8402 , 329 , 902 ) ) 
+d . unique_set_hp_perc ( "stone" , 50 ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 18 and race == 280 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_unique ( "stone" , d . spawn_mob ( 8402 , 307 , 834 ) ) 
+d . unique_set_hp_perc ( "stone" , 25 ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 19 and race == 8402 then 
+clear_server_timer ( "check_stone_hp_2" , getDungeonMapIndex ( ) ) 
+d . spawn_mob ( 280 , 314 , 881 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+elseif stage == 20 and race == 280 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_9thfloor.txt" ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 21 and race == 283 or race == 2831 then 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 1 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 283 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNGEON_ID_DEMON , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( race ) ) 
+pc . update_dungeon_progress ( DUNGEON_ID_DEMON ) 
+setCooldownUsingDungeonInfo ( DUNGEON_ID_DEMON ) 
+d . completed ( ) 
+setDungeonWarpLocation ( 167 , 264 , 184 ) 
+server_timer ( "exit_dungeon_final" , 15 , pc . get_map_index ( ) ) 
+end 
+ return end 

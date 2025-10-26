@@ -1,0 +1,10 @@
+if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 4 then local settings = PyramidDungeonLIB . Settings ( ) ; 
+if d . is_unique_dead ( "real_boss" ) then 
+PyramidDungeonLIB . clearDungeon ( ) 
+d . notice ( "Ancient pyramid: This was the real %s" , c_mob_name ( 4156 ) ) ; 
+d . notice ( "Ancient pyramid: You will be moved to next floor in few seconds" ) 
+server_timer ( "PyramidDungeon_4th_jump" , 5 , d . get_map_index ( ) ) 
+else 
+d . notice ( "Ancient pyramid: This was a fake %s!" , c_mob_name ( 4156 ) ) ; 
+end 
+ return end 

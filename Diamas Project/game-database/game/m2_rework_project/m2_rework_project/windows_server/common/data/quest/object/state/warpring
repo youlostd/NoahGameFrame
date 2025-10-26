@@ -1,0 +1,85 @@
+warpring={["start"]=0,warp= function (tbl)local level = pc . get_level ( ) 
+if tbl . minlevel and level < tbl . minlevel then 
+say ( gameforge . newwarpring . say1 ) 
+say ( gameforge . newwarpring . say2 .. tbl . minlevel ) 
+select ( gameforge . newwarpring . say3 ) 
+return 
+elseif tbl . maxlevel and level > tbl . maxlevel then 
+say ( gameforge . newwarpring . say4 ) 
+say ( gameforge . newwarpring . say5 .. tbl . maxlevel ) 
+select ( gameforge . newwarpring . say3 ) 
+return 
+end 
+local warpneedstrings = warpring . get_warpneedstrings ( tbl ) 
+if table . getn ( warpneedstrings ) > 0 then 
+say ( gameforge . newwarpring . say9 ) 
+say ( gameforge . newwarpring . say10 ) 
+for _ , v in ipairs ( warpneedstrings ) begin 
+say ( v ) 
+end 
+say ( "" ) 
+say ( gameforge . newwarpring . say11 ) 
+if select ( gameforge . newwarpring . say12 , gameforge . newwarpring . say3 ) == 2 then return end 
+end 
+if not warpring . check_and_remove_warpneeds ( tbl ) then 
+say ( gameforge . newwarpring . say13 ) 
+select ( gameforge . newwarpring . say3 ) 
+return 
+end 
+pc . warp ( tbl . koord [ 1 ] , tbl . koord [ 2 ] , tbl . koord [ 3 ] ) 
+end ,get_warpneedstrings= function (tbl)local warpneeds = { } 
+if tbl . itemneed and table . getn ( tbl . itemneed ) > 0 then 
+for _ , v in ipairs ( tbl . itemneed ) begin 
+table . insert ( warpneeds , "- " .. v [ 2 ] .. "x " .. c_item_name ( v [ 1 ] ) ) 
+end 
+end 
+if tbl . goldneed and tbl . goldneed > 0 then 
+table . insert ( warpneeds , "- " .. tbl . goldneed .. " Yang" ) 
+end 
+return warpneeds 
+end ,check_warpneeds= function (tbl)if tbl . itemneed and table . getn ( tbl . itemneed ) > 0 then 
+for _ , v in ipairs ( tbl . itemneed ) begin 
+if pc . count_item ( v [ 1 ] ) < v [ 2 ] then 
+return false 
+end 
+end 
+end 
+if tbl . goldneed and tbl . goldneed > 0 then 
+if pc . get_gold ( ) < tbl . goldneed then 
+return false 
+end 
+end 
+return true 
+end ,remove_warpneeds= function (tbl)if tbl . itemneed and table . getn ( tbl . itemneed ) > 0 then 
+for _ , v in ipairs ( tbl . itemneed ) begin 
+pc . remove_item ( v [ 1 ] , v [ 2 ] ) 
+end 
+end 
+if tbl . goldneed and tbl . goldneed > 0 then 
+pc . change_gold ( - tbl . goldneed ) 
+end 
+end ,check_and_remove_warpneeds= function (tbl)if not warpring . check_warpneeds ( tbl ) then 
+return false 
+end 
+warpring . remove_warpneeds ( tbl ) 
+return true 
+end ,get_warpnames= function (tbl)local level = pc . get_level ( ) 
+local names = { } 
+for _ , v in ipairs ( tbl ) begin 
+if v . minlevel and level < v . minlevel then 
+v . name = v . name .. " (Lv. " .. v . minlevel .. ")" 
+elseif v . maxlevel and level > v . maxlevel then 
+v . name = v . name .. " (Lv. " .. v . maxlevel .. ")" 
+end 
+table . insert ( names , v . name ) 
+end 
+return names 
+end ,showwarps= function (tbl)local warpnames = warpring . get_warpnames ( tbl ) 
+local s = tbl [ select3 ( warpnames ) ] or false 
+if not s then return end 
+if s . koord then 
+warpring . warp ( s ) 
+return 
+end 
+warpring . showwarps ( s ) 
+end }

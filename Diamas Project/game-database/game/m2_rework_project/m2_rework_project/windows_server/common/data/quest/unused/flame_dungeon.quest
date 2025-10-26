@@ -1,0 +1,717 @@
+quest flame_dungeon begin
+	state start begin	
+	
+	function setting()
+		return 
+		{
+		["bossroom_entry_pos"] = {351, 685, 723},
+		["boss_pos"] = {686,637},
+		["doors_pos"] = {
+			{320,394},
+			{293,359},
+			{333,321},
+			{378,320},
+			{400,355},
+			{394,401}
+		},
+		["idoors_pos"] = {
+			{268,447},
+			{234,359},
+			{300,264},
+			{454,217},
+			{470,355},
+			{467,469}
+		},
+		["doors_dir"] = {135,90,210,152,90,223},
+		["idoors_dir"] = {135,90,210,135,90,239},
+		["dungeon_entry_pos"] = {351, 338, 595},
+		["DUNGEON_MAN_bpos"] = {690,722},
+		["DUNGEON_MAN_pos"] = {354,362},
+		["LEVEL2_STONE_pos"] = {195,352},
+		["LEVEL4_TARGET_pos"] = {470,175},
+		["LEVEL5_STONE_pos"] = {
+				{486, 345},
+				{511, 336},
+				{525, 349},
+				{521, 365},
+				{503, 372},
+				{486, 365},
+				{500, 354}
+		},
+		["LEVEL6_TARGET_pos"] = {511,480},
+		["outside_entry_pos"] = {75, 234,173},
+		["YAK_pos"] = {376, 397}
+		
+		}
+	end
+	function is_flamed(idx)
+		return idx >= 351 * 10000 and idx < (351 + 1) *10000
+	end
+	function make_dungeon()
+		local setting = flame_dungeon.setting()
+		if not party.is_party() then
+			d.new_jump(setting.dungeon_entry_pos[1], setting.dungeon_entry_pos[2], setting.dungeon_entry_pos[3])
+		else
+			d.new_jump_party(setting.dungeon_entry_pos[1], setting.dungeon_entry_pos[2], setting.dungeon_entry_pos[3])
+		end
+
+		d.regen_file("data/dungeon/flame_dungeon/npc.txt")
+		d.setf("level",0)
+		d.setf("boss_killed", 0)
+		for i=1,6 do
+			d.set_unique("door"..i, d.spawn_mob_ac_dir(20387, setting.doors_pos[i][1], setting.doors_pos[i][2],setting.doors_dir[i]))
+		end
+		for i=1,6 do
+			d.set_unique("idoor"..i, d.spawn_mob_ac_dir(20388, setting.idoors_pos[i][1], setting.idoors_pos[i][2],setting.idoors_dir[i]))
+		end
+		d.setf("clear_count",0)
+		d.setf("started",0)
+		d.setf("dungeon_enter",0)
+	end	
+	
+	function go_boss()
+		local setting = flame_dungeon.setting()
+		if pc.get_level() < 75 then
+            say(gameforge.flame_dungeon._580_notice)
+            return
+		else
+				 say_title(gameforge.flame_dungeon._0101_say)
+                say(gameforge.flame_dungeon._010_say)
+				local warp =  select(gameforge.flame_dungeon._020_select, gameforge.locale.cancel)
+				if warp == 1 then
+					d.setf("level",17)
+					d.jump_all(setting.bossroom_entry_pos[2],setting.bossroom_entry_pos[3])
+					d.set_regen_file ("data/dungeon/flame_dungeon/".."fd_fild_boss.txt")
+					d.spawn_mob(6091,setting.boss_pos[1],setting.boss_pos[2])
+				end
+
+		end
+	end
+	function level_clear()
+		d.setf("level",0)
+		d.clear_regen()
+		d.purge_area(76*100,56*100,750*100,750*100)
+	end
+
+	function clear_timer(inx)
+		clear_server_timer ("flame_dungeon_0m_left_timer", inx)
+		clear_server_timer ("flame_dungeon_1m_left_timer", inx)
+		clear_server_timer ("flame_dungeon_5m_left_timer", inx)
+		clear_server_timer ("flame_dungeon_10m_left_timer", inx)
+		clear_server_timer ("flame_dungeon_15m_left_timer", inx)
+		clear_server_timer ("flame_dungeon_30m_left_timer", inx)
+		clear_server_timer ("flame_dungeon_45m_left_timer", inx)
+		clear_server_timer ("killed_A_1", inx)
+		clear_server_timer ("flame_dungeon_ticket_remove", inx)	
+	end
+	
+		when login begin
+			local idx = pc.get_map_index()
+			local setting = flame_dungeon.setting()
+			if idx == 351 then
+				pc.warp(75, 234,173)
+			elseif flame_dungeon.is_flamed(idx) then
+				pc.set_warp_location(75, 234,173)
+				local ticketGroup = 71174
+				if d.getf("dungeon_enter") == 0 then
+					local canPass = false
+					if pc.count_item(ticketGroup) >= 1 then
+						canPass = true
+					end
+
+					if get_global_time() - pc.getf("flame_dungeon","exit_time") < 1 * 0 then
+						notice_multiline(gameforge.flame_dungeon._050_notice,d.notice)
+						say(gameforge.flame_dungeon._060_say)
+						timer("flame_dungeon_warp_timer", 5)
+					elseif not canPass then
+						notice_multiline(gameforge.flame_dungeon._070_notice,d.notice)
+						say(gameforge.flame_dungeon._080_say)
+						timer("flame_dungeon_warp_timer", 5)
+					elseif pc.get_level() < 75 then
+						notice_multiline(gameforge.flame_dungeon._090_notice,d.notice)
+						say(gameforge.flame_dungeon._100_say)
+						timer("flame_dungeon_warp_timer", 5)
+					end
+				elseif pc.getf("flame_dungeon","ticket_delete") == 0 then
+					if pc.count_item(ticketGroup) >= 1 then
+						pc.remove_item(ticketGroup, 1)
+					end
+					pc.setf("flame_dungeon","ticket_delete",1)
+				end
+			else
+				pc.setf("flame_dungeon","ticket_delete",0)
+			end
+		end
+		when flame_dungeon_warp_timer.timer begin
+			local setting = flame_dungeon.setting()
+			pc.warp(75, 234,173)
+		end
+		when logout begin
+			local idx = pc.get_map_index()
+			if flame_dungeon.is_flamed(idx) then 
+				if d.getf("dungeon_enter") == 1 then
+					pc.setf("flame_dungeon","exit_time",get_global_time())
+				end
+				
+
+			end
+		end
+		when 20394.chat.gameforge.flame_dungeon._110_npcChat begin
+		
+			local setting = flame_dungeon.setting()
+			if party.is_party() then
+				local party_check = 0
+				if d.find(party.getf("dungeon_index")) then
+					party_check = (d.getf_from_map_index("party_leader_pid", party.getf("dungeon_index")) == party.get_leader_pid())
+				end
+				
+				local party_boss_killed = 0
+				if d.find(party.getf("dungeon_index")) then
+					party_boss_killed = (d.getf_from_map_index("boss_killed", party.getf("dungeon_index")) == 1)
+				end
+				
+				if d.find(party.getf("dungeon_index")) and party_check and not party_boss_killed then
+					if get_global_time() - pc.getf("flame_dungeon","exit_time") < 60 * 60 then --ZEIT !!
+						local dungeon_level = d.getf_from_map_index("level", party.getf("dungeon_index"))
+						if dungeon_level == 17 then 
+							pc.warp(party.getf("dungeon_index"), setting.bossroom_entry_pos[2] * 100, setting.bossroom_entry_pos[3] * 100)
+						else
+							pc.warp(party.getf("dungeon_index"), setting.dungeon_entry_pos[2] * 100, setting.dungeon_entry_pos[3] * 100)
+						end
+					else 
+						say_title(c_mob_name(20394))
+                        say(gameforge.flame_dungeon._590_say)
+					end
+				else
+					local pids = {party.get_member_pids()}
+					local noTicketMembers = {}
+					local notEnoughLevelMembers = {}
+					local ticketCheck = true
+					local levelCheck = true
+					local ticketGroup = 71174
+					for i, pid in next, pids, nil do
+						q.begin_other_pc_block(pid)
+						local canPass = false
+						if pc.count_item(ticketGroup) >= 1 then
+							canPass = true
+						end
+						
+						if not canPass then
+							table.insert(noTicketMembers, pc.get_name())
+							ticketCheck = false
+						end
+						if pc.level < 75 then
+							table.insert(notEnoughLevelMembers, pc.get_name())
+							levelCheck = false
+						end
+						q.end_other_pc_block()
+					end
+
+					if not ticketCheck then
+						say_title(c_mob_name(20394))
+						say(gameforge.flame_dungeon._610_say)
+						for i, name in next, noTicketMembers, nil do
+							say(color(1,1,0), "    "..name)
+						end
+						if levelCheck then
+							return
+						end
+					end
+
+					if not levelCheck then
+						say_title(c_mob_name(20394))
+						say(gameforge.flame_dungeon._630_say)
+						for i, name in next, notEnoughLevelMembers, nil do
+							say(color(1,1,0), "    "..name)
+						end
+						return
+					end
+
+					if party.is_leader() then
+						say(gameforge.flame_dungeon._120_say)
+						local warp =  select(gameforge.flame_dungeon._130_select, gameforge.locale.cancel)
+						if warp == 1 then
+							if party.is_map_member_flag_lt("exit_time", get_global_time() - 1 * 1 ) then
+								flame_dungeon.make_dungeon()
+							else
+								say(gameforge.flame_dungeon._600_say)
+							end
+						end
+						party.setf("flame_dungeon_boss_kill_count", 0)
+					else
+						say(gameforge.flame_dungeon._150_say)
+					end
+				end
+			else
+
+				
+				local boss_killed = 0
+				if d.find(pc.getqf("dungeon_index")) then
+					boss_killed = (d.getf_from_map_index("boss_killed", pc.getqf("dungeon_index")) == 1)
+				end
+				
+				if d.find(pc.getqf("dungeon_index")) and not boss_killed then
+					if get_global_time() - pc.getf("flame_dungeon","exit_time") < 60 * 60 then --ZEIT !!
+						local dungeon_level = d.getf_from_map_index("level", pc.getqf("dungeon_index"))
+						if dungeon_level == 17 then 
+							pc.warp(pc.getqf("dungeon_index"), setting.bossroom_entry_pos[2] * 100, setting.bossroom_entry_pos[3] * 100)
+						else
+							pc.warp(pc.getqf("dungeon_index"), setting.dungeon_entry_pos[2] * 100, setting.dungeon_entry_pos[3] * 100)
+						end
+					else 
+						say_title(c_mob_name(20394))
+                        say(gameforge.flame_dungeon._590_say)
+					end
+				else
+					local noTicketMembers = {}
+					local notEnoughLevelMembers = {}
+					local ticketCheck = true
+					local levelCheck = true
+
+					local canPass = false
+					if pc.count_item(71174) >= 1 then
+						canPass = true
+					end
+					
+					if not canPass then
+						table.insert(noTicketMembers, pc.get_name())
+						ticketCheck = false
+					end
+					
+					if pc.level < 75 then
+						table.insert(notEnoughLevelMembers, pc.get_name())
+						levelCheck = false
+					end
+
+					if not ticketCheck then
+						say_title(c_mob_name(20394))
+						say(gameforge.flame_dungeon._610_say)
+						for i, name in next, noTicketMembers, nil do
+							say(color(1,1,0), "    "..name)
+						end
+						if levelCheck then
+							return
+						end
+					end
+
+					if not levelCheck then
+						say_title(c_mob_name(20394))
+						say(gameforge.flame_dungeon._630_say)
+						for i, name in next, notEnoughLevelMembers, nil do
+							say(color(1,1,0), "    "..name)
+						end
+						return
+					end
+
+					say(gameforge.flame_dungeon._120_say)
+					local warp =  select(gameforge.flame_dungeon._130_select, gameforge.locale.cancel)
+					if warp == 1 then
+						flame_dungeon.make_dungeon()
+					end
+					pc.setqf("flame_dungeon_boss_kill_count", 0)
+				
+				end
+			end
+		end
+
+
+		when flame_dungeon_45m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				notice_multiline(string.format(gameforge.flame_dungeon._180_notice, 45),d.notice)
+				notice_multiline(gameforge.flame_dungeon._170_notice,d.notice)
+				server_timer('flame_dungeon_30m_left_timer', 15*60, d.get_map_index())
+			end
+		end
+		when flame_dungeon_30m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				notice_multiline(string.format(gameforge.flame_dungeon._180_notice, 30),d.notice)
+				notice_multiline(gameforge.flame_dungeon._170_notice,d.notice)
+				server_timer('flame_dungeon_15m_left_timer', 15*60, d.get_map_index())
+			end
+		end
+		when flame_dungeon_15m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				notice_multiline(string.format(gameforge.flame_dungeon._180_notice, 15),d.notice)
+				notice_multiline(gameforge.flame_dungeon._170_notice,d.notice)
+				server_timer('flame_dungeon_5m_left_timer', 10*60, d.get_map_index())
+			end
+		end
+		when flame_dungeon_5m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				notice_multiline(string.format(gameforge.flame_dungeon._180_notice, 5),d.notice)
+				notice_multiline(gameforge.flame_dungeon._170_notice,d.notice)
+				server_timer('flame_dungeon_1m_left_timer', 4*60, d.get_map_index())
+			end
+		end
+		when flame_dungeon_1m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				notice_multiline(string.format(gameforge.flame_dungeon._180_notice, 1),d.notice)
+				notice_multiline(gameforge.flame_dungeon._170_notice,d.notice)
+				server_timer ("flame_dungeon_0m_left_timer", 60, d.get_map_index())
+			end
+		end
+		when flame_dungeon_0m_left_timer.server_timer begin
+			local setting = flame_dungeon.setting()
+			if d.select(get_server_timer_arg()) then		
+				notice_multiline(gameforge.flame_dungeon._190_notice,d.notice)
+				notice_multiline(gameforge.flame_dungeon._200_notice,d.notice)
+				server_timer("dungeon_end_timer",10, d.get_map_index())	
+			end
+		end	
+
+
+		when 20385.chat.gameforge.flame_dungeon._210_npcChat with npc.lock() begin
+			local setting = flame_dungeon.setting()
+
+			if d.getf("boss_killed") == 1 then
+				flame_dungeon.clear_timer(d.get_map_index())		
+				d.set_warp_location(75, 234,173) 
+				d.exit_all()
+				d.setf("party_leader_pid", 0)
+				
+				npc.unlock()
+				return
+			end
+		
+			if d.getf("started") == 0 then
+				say(gameforge.flame_dungeon._230_say)
+				say(gameforge.flame_dungeon._240_say)
+				wait()
+				d.setf("started",1)
+				d.setf("start_time", get_global_time())
+				server_timer ("flame_dungeon_45m_left_timer",15*60, d.get_map_index())
+				notice_multiline(gameforge.flame_dungeon._250_notice,d.notice)
+				notice_multiline(gameforge.flame_dungeon._170_notice,d.notice)
+				if party.is_party() then
+					local pids = {party.get_member_pids()}
+					local ticketGroup = 71174
+					for i, pid in next, pids, nil do
+						q.begin_other_pc_block(pid)
+						local canPass = false
+						if pc.count_item(ticketGroup) >= 1 then
+							canPass = true
+							pc.remove_item(ticketGroup, 1)
+						end
+						
+						if not canPass then
+							pc.warp(75, 234,173)
+						end
+						q.end_other_pc_block()
+					end
+				else
+					local ticketGroup = 71174
+					local canPass = false
+					if pc.count_item(ticketGroup) >= 1 then
+						canPass = true
+						pc.remove_item(ticketGroup, 1)
+					end
+					
+					if not canPass then
+						pc.warp(75, 234,173)
+					end
+				end
+				d.setqf2("flame_dungeon","ticket_delete",1)
+				d.setf("dungeon_enter",1)
+				
+				if party.is_party() then
+					party.setf("dungeon_index", d.get_map_index())
+					d.setf("party_leader_pid", party.get_leader_pid())
+				else
+					pc.setqf("dungeon_index", d.get_map_index())
+				end
+			end
+			if d.getf("level") < 7 then
+				if d.getf("clear_count") == 6 then 
+					d.setf("level",7)
+				else
+					local rand = number(1,6)
+					local setlev = 0
+					d.setf("level",7)
+					for i=1,50 do
+						setlev = setlev + 1
+						if setlev > 6 then
+							setlev = 1
+						end
+						if not d.is_unique_dead("door"..setlev) then
+							rand = rand - 1
+							if rand == 0 then
+								d.setf("level",setlev)
+								d.setf("clear_count",d.getf("clear_count")+1)
+								break
+							end	
+						end
+					end
+				end
+			end
+				if d.getf("level") == 1 then
+					say(gameforge.flame_dungeon._260_say)
+					notice_multiline(gameforge.flame_dungeon._260_say,d.notice)
+					d.kill_unique("door1")
+					d.kill_unique("idoor1")
+					d.setf("level",11)
+					d.regen_file ("data/dungeon/flame_dungeon/".."fd_a.txt")
+					server_loop_timer('killed_A_1', 12, d.get_map_index())
+				elseif d.getf("level") == 11 then
+					say(gameforge.flame_dungeon._270_say)
+					say_title(gameforge.flame_dungeon._280_sayTitle .. d.count_monster())
+				elseif d.getf("level") == 2 then
+						say(gameforge.flame_dungeon._290_say)
+						say(gameforge.flame_dungeon._300_say)
+						notice_multiline(gameforge.flame_dungeon._290_say,d.notice)
+						notice_multiline(gameforge.flame_dungeon._300_say,d.notice)
+						d.spawn_mob(20386, setting.LEVEL2_STONE_pos[1], setting.LEVEL2_STONE_pos[2])
+						d.kill_unique("door2")
+						d.kill_unique("idoor2")
+						d.set_regen_file ("data/dungeon/flame_dungeon/".."fd_b.txt")
+						d.setf("level",12)
+				elseif d.getf("level") == 12 then
+					say(gameforge.flame_dungeon._310_say)
+				elseif d.getf("level") == 3 then
+					say(gameforge.flame_dungeon._260_say)
+					notice_multiline(gameforge.flame_dungeon._260_say,d.notice)
+					d.kill_unique("door3")
+					d.kill_unique("idoor3")
+					d.setf("level",13)
+					d.regen_file ("data/dungeon/flame_dungeon/".."fd_c.txt")
+					server_loop_timer('killed_A_1', 5, d.get_map_index())
+				elseif d.getf("level") == 13 then
+					say(gameforge.flame_dungeon._270_say)
+					say_title(gameforge.flame_dungeon._280_sayTitle..d.count_monster())
+				elseif d.getf("level") == 4 then -- 474 178
+					say(gameforge.flame_dungeon._320_notice)
+					notice_multiline(gameforge.flame_dungeon._320_notice,d.notice)
+					d.setf("level",14)
+					d.kill_unique("door4")
+					d.kill_unique("idoor4")
+					d.set_regen_file ("data/dungeon/flame_dungeon/".."fd_d.txt")
+					d.spawn_mob(6051,setting.LEVEL4_TARGET_pos[1],setting.LEVEL4_TARGET_pos[2] ) 
+				elseif d.getf("level") == 14 then
+					say(gameforge.flame_dungeon._330_say)
+					say(gameforge.flame_dungeon._340_say)
+				elseif d.getf("level") == 5 then -- 510 355
+					say(gameforge.flame_dungeon._350_say)
+					say(gameforge.flame_dungeon._360_say)
+					notice_multiline(gameforge.flame_dungeon._350_say,d.notice)
+					notice_multiline(gameforge.flame_dungeon._360_say,d.notice)
+					d.kill_unique("door5")
+					d.kill_unique("idoor5")
+					d.setf("level",15)
+					d.set_regen_file ("data/dungeon/flame_dungeon/".."fd_e.txt")
+					local vis = { 0,0,0,0,0,0,0}
+					for i=1,7 do
+						vis[i] = 0
+					end
+					for i = 1, 7 do
+						local ran = number(1,7)
+						local st = 0
+						for j = 1, 50 do
+							st = st + 1
+							if st > 7 then
+								st = 1
+							end
+							if vis[st] == 0 then
+								ran = ran - 1
+								if ran == 0 then
+									vis[st] = 1
+									d.set_unique("stone5_"..st, d.spawn_mob(20386, setting.LEVEL5_STONE_pos[i][1], setting.LEVEL5_STONE_pos[i][2]))
+									break
+								end
+							end
+						end
+					end  
+				elseif d.getf("level") == 15 then
+					say(gameforge.flame_dungeon._370_say)
+				elseif d.getf("level") == 6 then -- 507 490
+					say(gameforge.flame_dungeon._380_say) 
+					notice_multiline(gameforge.flame_dungeon._380_say,d.notice)
+					d.setf("level",16)
+					d.kill_unique("door6")
+					d.kill_unique("idoor6")
+					d.set_regen_file ("data/dungeon/flame_dungeon/".."fd_f.txt")
+					d.spawn_mob(8057, setting.LEVEL6_TARGET_pos[1],setting.LEVEL6_TARGET_pos[2]) 
+				elseif d.getf("level") == 16 then
+					say(gameforge.flame_dungeon._390_say)
+					say(gameforge.flame_dungeon._400_say)
+				elseif d.getf("level") == 7  then
+					-- setskin(NOWINDOW)
+                    flame_dungeon.go_boss()
+				else
+					say(gameforge.flame_dungeon._410_say)
+					
+				end
+			npc.unlock()		
+		end
+	
+
+		when dungeon_end_timer.server_timer begin
+			local setting = flame_dungeon.setting()
+			if d.select(get_server_timer_arg()) then
+				flame_dungeon.clear_timer(d.get_map_index())		
+				d.set_warp_location(75, 234,173) 
+				d.exit_all()
+				d.setf("party_leader_pid", 0)
+			end
+		end
+
+		when killed_A_1.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				if d.getf("level") == 11 or d.getf("level") == 13 then
+					if d.count_monster() <= 0 then
+						notice_multiline(gameforge.flame_dungeon._420_notice,d.notice)
+						notice_multiline(gameforge.flame_dungeon._430_notice,d.notice)
+						d.setf("level", 0)
+					end
+				end
+			end		
+		end
+
+
+		when 20386.take with flame_dungeon.is_flamed(pc.get_map_index()) and item.vnum == 30329 and d.getf("level") == 12 begin -- 2!?co¡L?!¡Ñ ¢F¡Â!c¡Lue ¢F?O¡LuuA!i¢FO!¡Ñ
+			local i = number(1, 1)
+			if i == 1 then
+				npc.purge()
+				item.remove()
+				notice_multiline(gameforge.flame_dungeon._440_notice,d.notice)
+				notice_multiline(gameforge.flame_dungeon._430_notice,d.notice)
+				flame_dungeon.level_clear()
+			else
+				item.remove()
+				say(gameforge.flame_dungeon._450_say)
+			end
+		end
+
+		when 6051.kill with flame_dungeon.is_flamed(pc.get_map_index()) and d.getf("level") == 14 begin
+			notice_multiline(gameforge.flame_dungeon._460_notice,d.notice)
+			notice_multiline(gameforge.flame_dungeon._430_notice,d.notice)
+			flame_dungeon.level_clear()
+		end
+
+		when 20386.take with flame_dungeon.is_flamed(d.get_map_index()) and item.vnum == 30330 and d.getf("level") == 15 begin 
+			local setting = flame_dungeon.setting()
+			if npc.get_vid() == d.get_unique_vid("stone5_1") then 
+				npc.purge()
+				item.remove()
+				notice_multiline(gameforge.flame_dungeon._470_say,d.notice)
+				d.setf("stonekill",2)
+				if d.count_monster() < 30 then
+					d.regen_file ("data/dungeon/flame_dungeon/".."fd_e.txt")
+				end
+			elseif npc.get_vid() == d.get_unique_vid("stone5_2") then 
+				if d.getf("stonekill") == 2 then -- 2coca¢DicoA!i A!?AI A!A!?E¢Di!I 2coca¢Dico¢F¡Â¢FR!AO ¢F¡Â!c¡Lue¢F?| ¢F?O¢F¡ÂueA!i ¢FO!¡Ñ
+					npc.purge()
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._480_say,d.notice)
+					d.setf("stonekill",3)
+					if d.count_monster() < 30 then
+						d.regen_file ("data/dungeon/flame_dungeon/".."fd_e.txt")
+					end
+				else
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._490_say,d.notice)
+				end
+			elseif npc.get_vid() == d.get_unique_vid("stone5_3") then
+				if d.getf("stonekill") == 3 then
+					npc.purge()
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._500_say,d.notice)
+					d.setf("stonekill",4)
+					if d.count_monster() < 30 then
+						d.regen_file ("data/dungeon/flame_dungeon/".."fd_e.txt")
+					end
+				else
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._490_say,d.notice)
+				end
+			elseif npc.get_vid() == d.get_unique_vid("stone5_4") then
+				if d.getf("stonekill") == 4 then
+					npc.purge()
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._510_say,d.notice)
+					d.setf("stonekill",5)
+					if d.count_monster() < 30 then
+						d.regen_file ("data/dungeon/flame_dungeon/".."fd_e.txt")
+					end
+				else
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._490_say,d.notice)
+				end
+			elseif npc.get_vid() == d.get_unique_vid("stone5_5") then
+				if d.getf("stonekill") == 5 then
+					npc.purge()
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._520_say,d.notice)
+					d.setf("stonekill",6)
+					if d.count_monster() < 30 then
+						d.regen_file ("data/dungeon/flame_dungeon/".."fd_e.txt")
+					end
+				else
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._490_say,d.notice)
+				end
+			elseif npc.get_vid() == d.get_unique_vid("stone5_6") then
+				if d.getf("stonekill") == 6 then
+					npc.purge()
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._530_say,d.notice)
+					d.setf("stonekill",7)
+					if d.count_monster() < 30 then
+						d.regen_file ("data/dungeon/flame_dungeon/".."fd_e.txt")
+					end
+				else
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._490_say,d.notice)
+				end
+			else 
+				if d.getf("stonekill") == 7 then
+					npc.purge()
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._440_notice,d.notice)
+					notice_multiline(gameforge.flame_dungeon._430_notice,d.notice)
+					flame_dungeon.level_clear()
+				else
+					item.remove()
+					notice_multiline(gameforge.flame_dungeon._490_say,d.notice)
+				end
+			end
+		end
+		
+		when kill with flame_dungeon.is_flamed(pc.get_map_index()) begin
+			local i = number(1, 15)
+			if i == 1 then
+				if d.getf("level") == 12 then
+					game.drop_item (30329, 1)
+				elseif d.getf("level") == 15 then
+					game.drop_item (30330, 1)
+				end
+			end
+		end
+		when 8057.kill with flame_dungeon.is_flamed(d.get_map_index()) and d.getf("level") ==16 begin
+			notice_multiline(gameforge.flame_dungeon._540_notice,d.notice)
+			notice_multiline(gameforge.flame_dungeon._430_notice,d.notice)
+			flame_dungeon.level_clear()
+		end
+
+		when 6091.kill with flame_dungeon.is_flamed(d.get_map_index()) begin
+		    d.setf("boss_killed", 1)
+			notice_multiline(gameforge.flame_dungeon._550_notice,d.notice)
+			notice_multiline(gameforge.flame_dungeon._560_notice,d.notice)
+			notice_all(gameforge.flame_dungeon._190_notice_all1 .. pc.get_name() .. gameforge.flame_dungeon._190_notice_all2) --- GLOBAL NOTICE
+			server_timer("dungeon_end_timer", 60, d.get_map_index())
+			--flame_dungeon.level_clear()
+			
+			
+			if party.is_party() then
+				party.setf("flame_dungeon_boss_kill_count", 1)
+			else
+				pc.setqf("flame_dungeon_boss_kill_count", 1)
+			end
+			if party.is_party() then
+				highscore.register("fd_pt_time", get_global_time() - d.getf("start_time"), 0)
+			else
+				highscore.register("fd_time", get_global_time() - d.getf("start_time"), 0)
+			end
+			
+			pc.setqf("6091_kills", pc.getqf("6091_kills") +  1)
+		end
+	end
+end

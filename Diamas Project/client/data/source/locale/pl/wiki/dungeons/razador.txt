@@ -1,0 +1,42 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/razador.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Voraussetzungen:
+*Benötigtes Level: 95 - 109
+*Eintrittsitem: Feuriger Passierschein
+[RIGHT_ALIGN]Fire Ticket
+[IMG=d:/ymir work/ui/wiki/31089.tga; Y=5; X=500]
+
+[COLOR=0xffd700;FONT_SIZE=15]Peculiarity:
+*Die Rotdrachen-Festung hat eine Abklingzeit von 90 Minuten.
+*Der Dungeon kann sowohl mit als auch ohne Gruppe betreten werden.
+*Man hat insgesamt 60 Minuten um die Rotdrachen-Festung erfolgreich zu absolvieren.
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Die verschiedenen Ebenen:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=145; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1
+
+[X_PADDING=20]Töte alle Ignator und ziehe die Goldenen Zahnräder auf die Säulen
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2
+
+[X_PADDING=20]Töte alle Monster und ziehe den Schlüsselstein auf die Säule
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 3
+
+[X_PADDING=20]Töte die Metinsteine in der richtigen Reihenfolge. Der Questpfeil
+[X_PADDING=20]über dem richtigen Metinstein hilft dir.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 4
+
+[X_PADDING=20]Töte alle Monster
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 5
+
+[X_PADDING=20]Töte den Metinstein. Besonderheit: Bei 45% spawnt eine Monsterwelle, die du
+[X_PADDING=20]Besonderheit: Bei 45% spawnt eine Monsterwelle, die du besiegen musst.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 6
+
+[X_PADDING=20]Töte Razador

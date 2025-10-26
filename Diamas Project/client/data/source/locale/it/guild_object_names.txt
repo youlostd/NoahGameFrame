@@ -1,0 +1,73 @@
+20139	Banner della gilda (lilla)
+14401	Albero (2)
+20140	Banner della gilda (blu/verde)
+14202	Muro Posteriore
+20141	Banner della gilda (rosso/oro)
+14100	Casa (1)
+14101	Muro di Pietra (1-1)
+14102	Muro di Pietra (1-2)
+14103	Muro di Pietra (1-3)
+14104	Portone (1)
+14105	Muro (1)
+14407	Albero (8)
+14309	Pietra (10)
+14110	Casa (2)
+14111	Muro di Pietra (2-1)
+14112	Muro di Pietra (2-2)
+14113	Muro di Pietra (2-3)
+14114	Portone (2)
+14115	Muro (2)
+14120	Casa (3)
+14121	Muro di Pietra (3-1)
+14122	Muro di Pietra (3-2)
+14123	Muro di Pietra (3-3)
+14124	Portone (3)
+14125	Muro (3)
+14301	Pietra (2)
+14200	Stemma della gilda
+14302	Pietra (3)
+14303	Pietra (4)
+14013	Negozio di Armi
+14014	Negozio di Armature
+14015	Gioielleria
+14400	Albero (1)
+14304	Pietra (5)
+14402	Albero (3)
+14403	Albero (4)
+14404	Albero (5)
+14405	Albero (6)
+14406	Albero (7)
+14305	Pietra (6)
+14408	Albero (9)
+14306	Pietra (7)
+14033	Centro d'Allenamento
+14307	Pietra (8)
+14201	Muro Frontale
+14308	Pietra (9)
+14043	Fornace di Diamanti
+14300	Pietra (1)
+14045	Forno Legno Fos.
+14046	Fornace di Rame
+14047	Fornace di Argento
+14048	Fornace di Oro
+14049	Fornace di Giada
+14050	Fornace di Ebano
+14051	Fornace di Perle
+14052	Fornace di Platino
+14053	Fornace di Cristalli
+14054	Fornace di Ametista
+14055	Forn. Lacr. di Cielo
+14204	Muro Destro
+14061	Altare della Forza
+14062	Altare della Forza
+14063	Altare della Forza
+14203	Muro Sinistro
+14071	Magazzino Gilda
+14072	Magazzino Gilda
+14073	Magazzino Gilda
+14074	Forn. Cristal. Anime
+14075	Forno di Rubino
+14076	Forno di Granato
+14077	Forno di Smeraldo
+14078	Forno di Zaffiro
+14079	Forno di Tormalina

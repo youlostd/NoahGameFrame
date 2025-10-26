@@ -1,0 +1,33 @@
+define ACCE_NPC 60003
+quest acce begin
+	state start begin
+		when ACCE_NPC.chat.gameforge.acce._10_npcChat begin
+			say_title(string.format(gameforge.acce._20_sayTitle, c_mob_name(ACCE_NPC)))
+			say(gameforge.acce._30_say)
+		end
+		
+		when ACCE_NPC.chat.gameforge.acce._40_npcChat begin
+			say_title(string.format(gameforge.acce._20_sayTitle, c_mob_name(ACCE_NPC)))
+			say(gameforge.acce._50_say)
+			local confirm =  select(gameforge.yes, gameforge.locale.no)
+			if confirm == 2 then
+				return
+			end
+			
+			setskin(NOWINDOW)
+			pc.acce_open_combine()
+		end
+		
+		when ACCE_NPC.chat.gameforge.acce._60_npcChat begin
+			say_title(string.format(gameforge.acce._20_sayTitle, c_mob_name(ACCE_NPC)))
+			say(gameforge.acce._70_say)
+			local confirm =  select(gameforge.yes, gameforge.locale.no)
+			if confirm == 2 then
+				return
+			end
+			
+			setskin(NOWINDOW)
+			pc.acce_open_absorb()
+		end
+	end
+end

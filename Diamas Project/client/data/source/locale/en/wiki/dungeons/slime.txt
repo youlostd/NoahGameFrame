@@ -1,0 +1,38 @@
+
+[BANNER_IMG = ]
+[COLOR=0xffd700;FONT_SIZE=15]Voraussetzungen:
+*Benötigtes Level: 75
+*Eintrittsitem Schrumpfkopf
+[RIGHT_ALIGN]Shrunken Head
+[IMG=d:/ymir work/ui/wiki/30319.tga; Y=5; X=493]
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Du hast nur 15 Minuten um den Dungeon abzuschließen!
+
+
+[CENTER_ALIGN;FONT_SIZE=18]The Phases:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=145; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1
+
+[X_PADDING=20]Zerstöre den Slime Metin
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2
+
+[X_PADDING=20]Vernichte alle Monster
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 3
+
+[X_PADDING=20]Sieh dir die Säule genauer an
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 4
+
+[X_PADDING=20]Zerstöre alle Metins
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 5
+
+[X_PADDING=20]Fülle das Gefäß mit Schleim und bringe es zur Säule
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 6
+
+[X_PADDING=20]Töte die Slime Queen

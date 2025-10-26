@@ -1,0 +1,44 @@
+quest petdrop begin
+	state start begin
+
+        when kill begin
+			
+			
+			if drop_gamble_with_flag("pet_drop") then
+				if npc.get_race() == 101 then
+                    pc.give_item2_select(223340)
+                    item.set_socket(0, 101)
+                end
+				
+				if npc.get_race() == 102 then
+                    pc.give_item2_select(223340)
+                    item.set_socket(0, 102)
+
+				end				
+				
+				
+				
+				
+				
+			end
+			
+			
+			if drop_gamble_with_flag("pet_drop_boss") then
+				if npc.get_race() == 110 then
+                    pc.give_item2_select(223340)
+                    item.set_socket(0, 110)
+                end
+				
+				if npc.get_race() == 111 then
+                    pc.give_item2_select(223340)
+                    item.set_socket(0, 111)
+					item.set_socket(1, -10)
+					item.set_socket(2, 10000000)
+				
+				
+				end				
+			end	
+
+		end
+	end
+end

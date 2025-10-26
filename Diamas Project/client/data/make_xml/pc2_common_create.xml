@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/pc2/common:d:/ymir work/pc2/common/" ArchivePath="../bin/pack/pc2_common.pak" XmlPath="xml/pc2_common_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

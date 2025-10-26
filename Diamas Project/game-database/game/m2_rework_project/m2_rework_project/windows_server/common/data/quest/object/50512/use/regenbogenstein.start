@@ -1,0 +1,42 @@
+if pc . in_dungeon ( ) then 
+say ( "Du kannst das Item hier nicht nutzen!" ) 
+return 
+end 
+if pc . get_skill_group ( ) == 0 then 
+say_title ( gameforge . regenbogenstein . _10_say ) 
+say ( gameforge . regenbogenstein . _11_say ) 
+say ( gameforge . regenbogenstein . _12_say ) 
+return 
+end 
+say_title ( gameforge . regenbogenstein . _13_say ) 
+local result = regenbogenstein . BuildPerfectMasterSkillList ( pc . get_job ( ) , pc . get_skill_group ( ) ) 
+local vnum_list = result [ 1 ] 
+local name_list = result [ 2 ] 
+if table . getn ( vnum_list ) == 0 then 
+say ( gameforge . regenbogenstein . _14_say ) 
+return 
+end 
+local menu_list = { } 
+table . foreach ( name_list , function ( i , name ) table . insert ( menu_list , name ) end ) 
+table . insert ( menu_list , gameforge . regenbogenstein . _15_say ) 
+local s = select_table ( menu_list ) 
+if table . getn ( menu_list ) == s then 
+return 
+end 
+local skill_name = name_list [ s ] 
+local skill_vnum = vnum_list [ s ] 
+say_title ( gameforge . regenbogenstein . _16_say ) 
+say ( "" ) 
+say ( gameforge . regenbogenstein . _17_say ) 
+if select ( gameforge . regenbogenstein . _18_say , gameforge . regenbogenstein . _19_say ) == 2 then return end 
+if pc . get_skill_level ( skill_vnum ) == 40 then 
+say ( gameforge . regenbogenstein . _111_say ) 
+return 
+end 
+if pc . count_item ( 50512 ) > 0 then 
+pc . set_skill_level ( skill_vnum , 40 ) 
+say ( gameforge . regenbogenstein . _112_say ) 
+else 
+say ( gameforge . regenbogenstein . _113_say ) 
+end 
+pc . remove_item ( 50512 , 1 ) 

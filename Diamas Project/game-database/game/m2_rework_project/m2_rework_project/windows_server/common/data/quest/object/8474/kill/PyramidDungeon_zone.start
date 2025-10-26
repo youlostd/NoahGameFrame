@@ -1,0 +1,14 @@
+if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 5 then local settings = PyramidDungeonLIB . Settings ( ) ; local Stone_count = 6 ; 
+if d . getf ( "PyramidDungeon_5f_Stone1" ) == 1 then 
+d . setf ( "PyramidDungeon_5f_Stone1" , 2 ) ; 
+game . drop_item ( settings [ "Item_5floor" ] , 1 ) ; 
+elseif d . getf ( "PyramidDungeon_5f_Stone2" ) == 1 then 
+d . setf ( "PyramidDungeon_5f_Stone2_k" , d . getf ( "PyramidDungeon_5f_Stone2_k" ) + 1 ) ; 
+if ( d . getf ( "PyramidDungeon_5f_Stone2_k" ) < Stone_count ) then 
+d . notice ( "Ancient pyramid: %s stones has left!" , Stone_count - d . getf ( "PyramidDungeon_5f_Stone2_k" ) ) 
+else 
+d . setf ( "PyramidDungeon_5f_Stone2" , 2 ) ; 
+game . drop_item ( settings [ "Item_5floor" ] , 1 ) ; 
+end 
+end 
+ return end 

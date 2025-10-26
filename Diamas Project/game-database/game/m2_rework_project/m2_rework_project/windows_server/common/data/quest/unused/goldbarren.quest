@@ -1,0 +1,34 @@
+--[[
+-- Barren Quest
+-- lvl x
+-- Copyright Â©Zymos
+]]
+
+quest yang_barren begin
+    state start begin
+    when 80003.use or 80004.use or 80005.use or 80006.use or 80007.use or 80009.use or 80010.use or 80011.use or 80012.use or 80013.use with game.get_event_flag("goldbarren") == 1 begin
+        local vnum = item.get_vnum()
+        local barren = {
+        [80003] = {50000}, --Silberbarren(50k Yang)
+        [80004] = {100000}, --Silberbarren(100k Yang)
+        [80005] = {500000}, --Goldbarren(500k Yang)
+        [80006] = {1000000}, --Goldbarren(1kk Yang)
+        [80007] = {2000000}, --Goldbarren(2kk Yang)
+        [80009] = {10000000}, --Goldbarren(10kk Yang)
+        [80010] = {25000000}, --Goldbarren(25kk Yang)
+        [80011] = {50000000}, --Goldbarren(50kk Yang)
+        [80012] = {100000000}, --Goldbarren(100kk Yang)
+        [80013] = {500000000} --Goldbarren(250kk Yang)
+        }
+        local give_yang = barren[vnum][1]
+        local check_can_gold = pc.get_gold() + give_yang
+        if tonumber(check_can_gold) >= tonumber(1999999999999) then
+            syschat("Du trägst zuviel Yang bei dir.")
+        else
+            syschat("Du bekommst "..give_yang.." Yang.")
+            pc.change_gold(give_yang)
+            item.set_count(item.get_count() - 1)
+        end
+    end
+    end
+end  

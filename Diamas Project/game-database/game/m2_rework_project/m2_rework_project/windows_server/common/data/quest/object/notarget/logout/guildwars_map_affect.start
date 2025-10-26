@@ -1,0 +1,2 @@
+if isInDungeonRange ( 171 ) then affect . remove ( ) 
+ return end 

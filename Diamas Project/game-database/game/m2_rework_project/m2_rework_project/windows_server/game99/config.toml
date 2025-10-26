@@ -1,0 +1,4 @@
+hostname = "Game_99"
+channel = 99
+game-port = "13099"
+world-boss-master = true

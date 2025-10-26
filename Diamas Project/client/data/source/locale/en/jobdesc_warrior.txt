@@ -1,0 +1,6 @@
+[DELAY value;10]
+Thanks to their skills as[ENTER]
+well as their heavy armour,[ENTER]
+Warriors play an important[ENTER]
+role in close combat[ENTER]
+situations.

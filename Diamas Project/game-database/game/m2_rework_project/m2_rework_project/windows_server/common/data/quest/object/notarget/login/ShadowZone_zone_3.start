@@ -1,0 +1,19 @@
+if ShadowZoneLIB3 . isActive ( ) then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local OutsidePosition = settings [ "outside_pos" ] 
+d . set_warp_location ( settings [ "outside_index" ] , OutsidePosition [ 1 ] , OutsidePosition [ 2 ] ) ; 
+if d . getf ( "ShadowZone_floor" ) == 0 then 
+if ( party . is_party ( ) and party . is_leader ( ) or not party . is_party ( ) ) then 
+local FirstFloorTimer = settings [ "timer_first_floor" ] ; 
+d . setf ( "ShadowZone_floor" , 1 ) ; 
+d . setf ( "ShadowZone_FirstStone" , 1 ) ; 
+d . setf ( "ShadowZone_floor1_timer" , FirstFloorTimer ) ; 
+d . setf ( "ShadowZone_nocool_timer" , 1 ) ; 
+pc . setqf ( "dungeon_start_time" , get_global_time ( ) ) 
+d . set_regen_file ( settings [ "regen_file" ] .. "regen_1a.txt" ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_1b.txt" ) ; 
+d . notice ( "Shadow tower: Destroy all %s! You have only limited time! Hurry up!" , c_mob_name ( 28494 ) ) ; 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_FirstFloor" , FirstFloorTimer , d . get_map_index ( ) ) 
+end 
+end 
+ return end 

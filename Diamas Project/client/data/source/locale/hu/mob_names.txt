@@ -1,0 +1,2716 @@
+101	Vadkutya
+102	Farkas
+103	Alfa farkas
+104	Kékfarkas
+105	Alfa kékfarkas
+106	Szürkefarkas
+107	Alfa szürkefarkas
+108	Vaddisznó
+109	Vörös vaddisznó
+8302	Ragnarok-Metin
+8438	Pukei-Metin3
+110	Medve
+111	Szürkemedve
+112	Feketemedve
+113	Barnamedve
+114	Tigris
+115	Fehér tigris
+131	Átkozott farkas
+132	Átkozott alfa farkas
+133	Átkozott kékfarkas
+134	Átkozott alfa kékfarkas
+135	Átkozott szürkefarkas
+136	Átk. alfa szürkefarkas
+16017	Gnoll Lord
+16018	Supreme Gnoll Guard
+16019	Rakshasa
+16020	Martyaxwar
+16021	Lemures Prince
+16022	Lemures Bodyguard
+16023	General Kappa
+16024	Triton
+16025	General Lobster
+16026	King Crab
+16027	Gnoll Lord+
+16028	Supreme Gnoll Guard+
+16029	Rakshasa+
+16030	Martyaxwar+
+16031	Lemures Prince+
+16032	Lemures Bodyguard+
+16033	General Kappa+
+16034	Triton+
+16035	General Lobster+
+16036	King Crab+
+16037	Property Manager
+16038	Drunken Citizen
+16039	Driving Dealer
+16040	Wonda-Rim
+16041	Horse
+16042	Fight Horse
+16043	Military Horse
+16044	Lee Chung
+16045	Admiral Angmur
+16046	Yon-I-Walker
+16047	Myonghorang the Wise
+16048	Guardian of the Colony
+16049	Property Manager+
+16050	Drunken Citizen+
+16051	Driving Dealer+
+16052	Wonda-Rim+
+16053	horse+
+16054	Fight Horse+
+16055	Military Horse+
+16056	Lee Chung+
+16057	Admiral Angmur+
+16058	Yon-I-Walker+
+16059	Myonghorang the Wise+
+16060	Guardian of the Colony+
+11191	Night Angel
+137	Átk. vaddisznó
+138	Átk. vörös vaddisznó
+139	Átkozott medve
+140	Átkozott szürkemedve
+141	Átkozott feketemedve
+142	Átkozott barnamedve
+143	Átkozott tigris
+144	Átkozott fehér tigris
+151	Cung-Mok
+152	Mu-Rang
+153	Jug-Hyul
+154	Young-Ji
+155	Li-An
+171	Éhes vadkutya
+172	Éhes farkas
+173	Éhes alfa farkas
+174	Éhes kékfarkas
+175	Éhes alfa kékfarkas
+176	Éhes szürkefarkas
+177	Éhes alfa szürkefarkas
+178	Éhes vaddisznó
+179	Éhes vörös vaddisznó
+180	Éhes medve
+181	Éhes szürkemedve
+182	Éhes feketemedve
+183	Éhes barnamedve
+184	Éhes tigris
+185	Éhes fehér tigris
+191	Lykos
+192	Scrofa
+193	Bera
+194	Kagán
+301	Fehér eskü katona
+302	Fehér eskü íjász
+303	Fehér eskü generális
+304	Fehér eskü parancsnok
+331	Fehér eskü katona
+332	Fehér eskü íjász
+333	Fehér eskü generális
+334	Fehér eskü parancsnok
+351	Gyáva fehér eskü katona
+352	Gyáva fehér eskü íjász
+353	Gyáva f. eskü generális
+354	Gyáva f. eskü parancsnok
+391	Mi-Jung
+392	Eun-Jung
+393	Se-Rang
+394	Jin-Hee
+395	Lelketlen Mi-Jung
+396	Lelketlen Eun-Jung
+397	Lelketlen Se-Rang
+398	Lelketlen Jin-Hee
+401	Feketeszél-katona
+402	Feketeszél-mániákus
+403	Feketeszél-íjász
+404	Feketeszél-Jak-To
+405	Feketeszél-To-Su
+406	Feketeszél-Gu-Ryung
+431	Fekete viharkatona
+432	Fekete viharmániákus
+433	Fekete viharíjász
+434	Fekete vihar-Joh-Hwan
+435	Fekete vihar-Kyuk-Jan
+436	Fekete vihar-Pho-Hwan
+451	Gonosz fek. viharkatona
+452	Gon. fek. viharmániákus
+453	Gonosz fek. viharíjász
+454	Gonosz f. vihar-Joh-Hwan
+455	Gon. f. vihar-Kyuk-Jang
+456	Gon. f. vihar-Pho-Hwan
+491	Mahon
+492	Bo
+493	Goo-Pae
+494	Chuong
+501	Vad gyalogsági katona
+502	Vad kegyenc
+503	Vad íjász
+504	Vad generális
+531	Brutális katona
+532	Brutális kegyenc
+533	Brutális íjász
+534	Brutális specialista
+551	Erős vad gyalogos
+552	Erős vad kegyenc
+553	Erős vad íjász
+554	Erős vad generális
+591	Brutális kapitány
+595	Brutális Geum-Chul
+601	Ork
+602	Ork felderítő
+603	Ork harcos
+604	Ork varázsló
+631	Büszke ork
+632	Büszke ork kém
+633	Büszke ork harcos
+634	Büszke ork varázsló
+635	Büszke ork generális
+636	Fekete ork
+637	Fekete ork óriás
+651	Bátor nagy ork
+652	Bátor nagy ork kém
+653	Bátor nagy ork harcos
+654	Bátor nagy ork varázsló
+655	Bátor nagy ork generális
+656	Bátor fekete ork
+657	Bátor fekete ork óriás
+691	Főork
+692	Sötét főork
+693	Szellem orkvezér
+701	Sötét Fanatikus
+702	Sötét Arahan
+703	Sötét harcos
+704	Sötét Arahan vezér
+705	Sötét hóhér
+706	Sötét Kínzó
+707	Sötét Idéző
+731	Büszke sötét fanatikus
+732	Büszke sötét Arahan
+733	Büszke sötét harcos
+734	Büszke sötét ezredes
+735	Büszke sötét vadász
+736	Büszke sötét kínzó
+737	Büszke sötét idéző
+751	Magas fanatikus
+752	Magas Arahan
+753	Magas Arahan harcos
+754	Magas fő-Arahan
+755	Magas hóhér
+756	Magas kínzó
+757	Magas ördögűző
+771	Brutális fanatikus
+772	Brutális Arahan
+773	Brutális Arahan harcos
+774	Brutális fő-Arahan
+775	Brutális hóhér
+776	Brutális kínzó
+777	Brutális ördögűző
+791	Sötét vezető
+792	Sötét szellem-vezető
+793	Elit sötét vezető
+794	Elit szellem-vezető
+795	Elit harcos
+796	Elit sötét harcos
+901	Hulla-szellem
+902	Fertőzött kutya
+903	Fertőzött ember
+904	Fertőzött kardharcos
+905	Fertőzött lándzsás
+906	Fertőzött íjász
+907	Fertőzött vezér
+931	Dühös hulla-szellem
+932	Dühös fertőzött kutya
+933	Dühös fertőzött ember
+934	Dühös fertőzött harcos
+935	Dühös fertőzött lándzsás
+936	Dühös fertőzött íjász
+937	Dühös fertőzött vezér
+991	Fertőzött tojás
+992	Pestishordozó
+993	Óriási pestishordozó
+1001	Démon harcos
+1002	Démon íjász
+1003	Démon lándzsaharcos
+1004	Démon sámán
+1031	Gonosz katona
+1032	Gonosz íjász
+1033	Gonosz lándzsás
+1034	Gonosz sámán
+1035	Gyűlölet lelke
+1036	Káosz lelke
+1037	Gonosz démon vezér
+1038	Koponya Kardmester
+1039	Repülő Koponya
+1040	Halhatatlan lélek
+1041	Démoni állat
+1061	Kegyetlen szellemkatona
+1062	Kegyetlen szellem-íjász
+1063	Kegy. szellem-lándzsás
+1064	Kegyetlen szellem-sámán
+1065	Gyűlölet kegy. szelleme
+1066	Káosz kegyetlen szelleme
+1067	Vezér kegyetlen szelleme
+1068	Szellem Kardmester
+1069	Gonosz Repülő Koponya
+1070	Halhatatlan lélek
+1071	Démoni állat
+1091	Démon király
+1092	Büszke démon király
+1093	Kaszás
+1094	Gonosz démon király
+1095	Kék halál
+1096	ÁřťçąÍżŐ
+1101	Elvarázsolt Jég
+1102	Jég Gyilkos Bálna
+1103	Jég Rovar
+1104	Jég Oroszlán
+1105	Fagyos Jégember
+1106	Jeti
+1107	Jég Gólem
+1131	Alvilági Jég Szilánkok
+1132	Alvilági JégGyilkosBálna
+1133	Alvilági Jég Rovar
+1134	Alvilági Jég Oroszlán
+1135	Alvilági Jégember
+1136	Alvilági Jeti
+1137	Alvilági Jég Gólem
+1151	Jég ördög
+1152	Jégfogú gyilkos bálna
+1153	Jég rovar
+1154	Seol-Gu
+1155	Jég ember
+1156	Jég óriás
+1157	Jég gólem
+1171	Gonosz elvarázsolt jég
+1172	Gonosz jég gyilkos bálna
+1173	Gonosz jég rovar
+1174	Gonosz jég oroszlán
+1175	Gonosz jég ember
+1176	Gonosz jeti
+1177	Gonosz jég gólem
+1191	Jég boszorkány
+1192	Nagy jég boszorkány
+1193	Nagy jég boszorkány (Run)
+1301	Fabéka katona
+1302	Fabéka vezér
+1303	Kísértet
+1304	Sárga tigris szellem
+1305	Kecskebéka generális
+1306	Gonosz sárga tigris szel
+1307	Gonosz sárga tigris szel
+1308	Gonosz sárga tigris szel
+1309	Gonosz sárga tigris szel
+1310	Gonosz sárga tigris szel
+1331	Nagy fabéka katona
+1332	Nagy fabéka vezér
+1333	Nagy kísértet
+1334	Nagy sárga tigris szelle
+1335	Nagy kecskebéka generáli
+1401	Romboló
+1402	Baltás harcos
+1403	Ezerharcos
+1501	Kő gólem
+1502	Kő-óriás
+1503	Óriás szikla gólem
+1601	Ogre harcos
+1602	Ogre mészáros
+1603	Rettenthetetlen ork
+1901	Kilencfarkú
+1902	Elit kilencfarkú
+1903	Elit kilencfarkú
+1904	Elit Kilencfarkú
+1905	Elit Kilencfarkú
+1906	Elit Kilencfarkú
+2001	Bébi pók
+2002	Mérgespók
+2003	Vörös mérgespók
+2004	Ollós pók
+2005	Katona pók
+2031	Bébi mérgespók
+2032	Halálos mérgespók
+2033	Vörös halálos mérgespók
+2034	Ollós mérgespók
+2035	Katona mérgespók
+2036	Büszke katona mérgespók
+2051	Gonosz bébi mérgespók
+2052	Gon. halálos mérgespók
+2053	Gonosz vörös mérgespók
+2054	Gonosz ollós mérgespók
+2055	Gon. katona mérgespók
+2061	Kicsi mérgespók
+2062	Halálos mérgespók
+2063	Vörös halálos mérgespók
+2064	Ollós mérgespók
+2065	Katona mérgespók
+2071	Brutális bébi mérgespók
+2072	Brutális halál.mérgespók
+2073	Brut. vörös mérgespók
+2074	Brut. ollós mérgespók
+2075	Brutális katona pók
+2076	Brut. erős mérgespók
+2091	Pók-királynő
+2092	Pók-bárónő
+2093	Sötét pók-királynő
+2094	Pók-báró
+2095	Póktojás
+2101	Sivatagi róka
+2102	Sivatagi repülő szem
+2103	Skorpiókirály
+2104	Fiatal Skorpióember
+2105	Skorpió íjász
+2106	Kígyó kardharcos
+2107	Kígyó íjász
+2108	Sivatagi bandita
+2131	Bestia Skorpióember
+2132	Skorpió íjász
+2133	Kígyó kardharcos
+2134	Kígyó íjász
+2135	Sivatagi bandita
+2151	Erős sivatagi róka
+2152	Erős dervis
+2153	Erős skorpiókirály
+2154	Erős skorpióember
+2155	Erős skorpió íjász
+2156	Erős kígyó kardharcos
+2157	Erős kígyó íjász
+2158	Erős sivatagi bandita
+2191	Nagy sivatagi teknősbéka
+2192	Sötét sivatagi teknős
+2201	Harci tigris szolga
+2202	Lángszellem
+2203	Harci tigris
+2204	Láng
+2205	Lángharcos
+2206	Lángkirály
+2207	Sötét lángkirály
+2231	Erős harci tigris szolga
+2232	Erős láng lélek
+2233	Erős harci tigris
+2234	Erős láng
+2235	Erős láng harcos
+2291	Vörös sárkány
+2301	Szellemfa
+2302	Szellemtuskó
+2303	Tündér
+2304	Szellemfűz
+2305	Gonosz fa
+2306	Óriási szellemfa
+2307	Szellemfa fejedelem
+2311	Vörös szellemfa
+2312	Vörös szellemtuskó
+2313	Vörös tündér
+2314	Vörös szellemfűz
+2315	Vörös gonosz fa
+2401	Setaou Harcos
+2402	Setaou Vadász
+2403	Setaou látnok
+2404	Setaou Vezér
+2411	Setaou Katona
+2412	Setaou Íjász
+2413	Setaou Bíró
+2414	Setaou Parancsnok
+2415	Setaou Parancsnok
+2431	ĂľŔÇş´ťç
+2432	ĂľŔÇąĂş´
+2433	ĂľŔÇšýťç
+2434	ĂľŔÇŔĺźö
+2451	ÁřĂľŔÇş´ťç
+2452	ÁřĂľŔÇąĂş´
+2453	ÁřĂľŔÇšýťç
+2454	ÁřĂľŔÇŔĺźö
+2491	Yonghan Parancsnok
+2492	Yonghan Tábornok
+2493	Beran-Setaou
+2494	Huashin Parancsnok
+2495	Huashin Tábornok
+2501	Pokol medúza
+2502	Pokolkutya
+2503	Zombi
+2504	Pokol-tiszt
+2505	Pokol-őr
+2506	Kétfejű Pokol-íjász
+2507	Pokolkarom
+2508	Pokolharcos
+2509	Pokol-íjász
+2510	Pokol-lándzsás
+2511	Pokol-lelkész
+2512	Pokol-őrnagy
+2513	Pokol-mészáros
+2514	Pokol-generális
+2541	Gonosz pokolharcos
+2542	Gonosz Pokol-íjász
+2543	Gonosz pokol-lándzsás
+2544	Gonosz pokol-lelkész
+2545	Gonosz pokol-őrnagy
+2546	Gonosz pokol-mészáros
+2547	Gonosz pokol-generális
+2591	Tartaros
+2592	Pokol-fattyú
+2593	Pokol-fattyú
+2594	Pokol-fattyú
+2595	Erebos
+2596	Azrael megidézettje
+2597	Charon
+2598	Azrael
+2600	Zodiákus farkas
+2601	Zodiákus kékfarkas
+2602	Zodiákus Lykos
+2603	Zodiákus íjász
+2604	Zodiákus vaddisznó
+2605	Vörös zodiákus vaddisznó
+2606	Zodiákus Scrofa
+2607	Zodiákus Mi-Jung
+2608	Zodiákus Bera
+2609	Zodiákus medve
+2610	Zodiákus szürkemedve
+2611	Zodiákus barnamedve
+2612	Zodiákus Eun-Jung
+2613	Zodiákus Kagán
+2614	Zodiákus tigris
+2615	Fehér zodiákus tigris
+2616	Zodiákus Se-Rang
+2617	Zodiákus Jin-Hee
+2618	Zodiákus bébi pók
+2619	Zodiákus mérgespók
+2620	Vörös zodiákus mérgespók
+2621	Zodiákus ollós pók
+2622	Zodiákus katona pók
+2623	Zodiákus láng szellem
+2624	Zodiákus harci tigris
+2625	Zodiákus láng
+2626	Zodiákus láng harcos
+2627	Zodiákus Lángkirály
+2628	Söt. zodiákus Lángkirály
+2629	Vad zodiákus gyalogos
+2630	Vad zodiákus kegyenc
+2631	Vad zodiákus íjász
+2632	Vad zodiákus generális
+2633	Brut. zodiákus kapitány
+2634	Elvarázsolt zodiákus jég
+2635	Zod. jég gyilkos bálna
+2636	Zodiákus jég rovar
+2637	Zodiákus jég oroszlán
+2638	Fagyos zodiákus jégember
+2639	Zodiákus jeti
+2640	Zodiákus jég gólem
+2641	Zodiákus sivatagi róka
+2642	Zodiákus skorpiókirály
+2643	Zod. kígyó kardharcos
+2644	Zodiákus kígyó íjász
+2645	Zod. sivatagi bandita
+2646	Zod. feketeszél-katona
+2647	Zod. feketeszél-mániákus
+2648	Zod. feketeszél-íjász
+2649	Zodiákus Mahon
+2650	Zodiákus Bo
+2651	Zodiákus Goo-Pae
+2652	Zodiákus Chuong
+2653	Brut. zod. skorpióember
+2654	Zodiákus skorpió íjász
+2655	Zodiákus dervis
+2656	Zodiákus fabéka katona
+2657	Zodiákus fabéka vezér
+2658	Zodiákus kísértet
+2659	Zodiákus romboló
+2660	Zodiákus baltás harcos
+2661	Zodiákus ezerharcos
+2662	Sötét zodiákus fanatikus
+2663	Zodiákus arahan
+2664	Sötét zodiákus harcos
+2665	Sötét zod. arahan vezér
+2666	Sötét zodiákus hóhér
+2667	Sötét zodiákus kínzó
+2668	Zodiákus idéző
+2669	Büszke zodiákus ork
+2670	Büszke zodiákus ork kém
+2671	Büszke zod. ork harcos
+2672	Büszke zod. ork varázsló
+2673	Büszke zo. ork generális
+2674	Fekete zodiákus ork
+2675	Fekete zod. ork óriás
+2676	Zod. vörös tolvaj amazon
+2677	Zo. vö. tolvaj orgyilkos
+2678	Zod. vörös tolvaj mágus
+2679	Zod. vörös tolvaj hóhér
+2680	Zod. tarisznyarák harcos
+2681	Zodiákus skorpió lövész
+2682	Zod. garnélarák katona
+2683	Zodiákus ördögi remete
+2684	Zod. pánc. tarisznyarák
+2685	Gigantikus zod. harapó
+2686	Gigantikus zod. mészáros
+2687	Zodiákus mágus
+2688	Zodiákus duplantikus
+2689	Zodiákus ogre hóhér
+2690	Zodiákus ogre íjász
+2691	Zodiákus fegyveres ogre
+2692	Zodiákus ogre mágus
+2700	Vargulf
+2701	Vargulf katona
+2702	Vargulf tábornok
+2703	Kerberosz
+2704	Kígyó kerberosz
+2705	Sárkány kerberosz
+2706	Kentaur
+2707	Kentaur harcos
+2708	Kentaur tábornok
+2709	Moloch
+2710	Moloch harcos
+2711	Moloch tábornok
+2712	Halálhozó
+2713	Fertőzött halálhozó
+2714	Bűzös halálhozó
+2715	Zephyr
+2716	Zephyr harcos
+2717	Zephyr tábornok
+2718	Uruk
+2719	Uruk harcos
+2720	Uruk tábornok
+2721	Zodifánt
+2722	Zodifánt harcos
+2723	Zodifánt tábornok
+2724	Spártai
+2725	Spártai katona
+2726	Spártai tábornok
+2727	Csont gladiátor
+2728	Csont gladiátor katona
+2729	Csont gladiátor tábornok
+2730	Szkarabeusz saggitarius
+2731	Szkarabeusz gigantus
+2732	Szkarabeusz virgo
+2733	Vas íjász
+2734	Vas harcos
+2735	Vas tábornok
+2736	Szökevény
+2737	Damage_Trap
+2750	Zi tiszt
+2751	Zi őrző
+2752	Zi tábornok
+2760	Chou tiszt
+2761	Chou őrző
+2762	Chou tábornok
+2770	Yin tiszt
+2771	Yin őrző
+2772	Yin tábornok
+2780	Mao tiszt
+2781	Mao őrző
+2782	Mao tábornok
+2790	Chen tiszt
+2791	Chen őrző
+2792	Chen tábornok
+2800	Si tiszt
+2801	Si őrző
+2802	Si tábornok
+2810	Wu tiszt
+2811	Wu őrző
+2812	Wu tábornok
+2820	Wei tiszt
+2821	Wei őrző
+2822	Wei tábornok
+2830	Anime-Farmmap-Mu-Tai
+2831	Shen őrző
+2832	Shen tábornok
+2840	You tiszt
+2841	You őrző
+2842	You tábornok
+2850	Xu tiszt
+2851	Xu őrző
+2852	Xu tábornok
+2860	Hai tiszt
+2861	Hai őrző
+2862	Hai tábornok
+2900	Patkány metinje
+2901	Bivaly metinje
+2902	Tigris metinje
+2903	Sárkány metinje
+2904	Kígyó metinje
+2905	Ló metinje
+2906	Kecske metinje
+2907	Majom metinje
+2908	Kutya metinje
+3001	Gnoll harcos
+3002	Gnoll íjász
+3003	Gnoll védelmező
+3004	Gnoll mágus
+3005	Gnoll tábornok
+3090	Gnoll Nagyúr
+3091	Legfőbb Gnoll-őr
+3101	Egyszemű harcos
+3102	Küklopsz katona
+3103	Küklopsz mágus
+3104	Küklopsz hóhér
+3105	Outis tábornok
+3190	Argosz
+3191	Polyphemos
+3201	Mantikór harcos
+3202	Mantikór katona
+3203	Mantikór mágus
+3204	Mantikór hóhér
+3205	Kór tábornok
+3290	Rakshasa
+3291	Martyaxwar
+3301	Lemur harcos
+3302	Lemur katona
+3303	Lemur mágus
+3304	Lemur hóhér
+3305	Lemur tábornok
+3390	Lemur herceg
+3391	Lemur testőr
+3401	Tritoni muréna
+3402	Cápa katona
+3403	Tritoni mágus
+3404	Tritoni vadász
+3405	Tritoni hasító
+3490	Kappa tábornok
+3491	Triton
+3501	Vörös tolvaj amazon
+3502	Vörös tolvaj orgyilkos
+3503	Vörös tolvaj mágus
+3504	Vörös tolvaj hóhér
+3505	Fekete tábornok
+3551	Brut.vörös tolvaj amazon
+3552	Brut.v.tolvaj orgyilkos
+3553	Brut. vörös tolvaj mágus
+3554	Brut. vörös tolvaj hóhér
+3555	Fehér tábornok
+3590	Arccsont
+3591	Vörös főnök
+3595	Brutális Arccsont
+3596	Brutális Vörös főnök
+3601	Tarisznyarák harcos
+3602	Skorpió lövész
+3603	Garnélarák katona
+3604	Ördögi remete
+3605	Páncélozott tarisznyarák
+3690	Homár tábornok
+3691	Tarisznyarák király
+3701	Gigantikus harapó
+3702	Gigantikus mészáros
+3703	Gigantikus mágus
+3704	Duplantikus
+3705	Kampós kapitány
+3790	Gargoyle
+3791	Wubba király
+3801	Hangork
+3802	Íjász ogre
+3803	Fegyveres ogre
+3804	Ogre mágus
+3805	Ogg tábornok
+3890	Shruk kapitány
+3891	A Nagy Ogre
+3901	Fűz-ember
+3902	Eoten
+3903	Skouman
+3904	Kampós kapitány
+3905	Mu-Shu
+3906	Yah-Ki
+3907	Moghu
+3908	Carnifex
+3909	Albus tábornok
+3910	Skeletos
+3911	Aku-Boku
+3912	Arboretum
+3913	Sycomore
+3949	Portál: Új kontinens
+3950	Kappa
+3951	Lagúna kappa
+3952	Mélyvízi kappa
+3953	Kappa vezető
+3954	Muréna katona
+3955	Mélyvízi muréna katona
+3956	Szirén királynő
+3957	Hidra megidézettje
+3958	Hidra megidézettje
+3959	Hidra megidézettje
+3960	Hidra
+3961	Hidra
+3962	Hidra
+3963	Hidra
+3964	Hidra
+3965	Hidra kincse
+3970	TEST
+5001	Tanaka kalóz
+5002	Hae-Tae
+5003	Majom
+5004	Tanaka kalóz
+5101	Gyenge majomkatona
+5102	Gyenge majomhajító
+5103	Gyenge majomharcos
+5104	Gyenge majomgenerális
+5111	Majomkatona
+5112	Majomhajító
+5113	Majomharcos
+5114	Majomgenerális
+5115	Kőmajom
+5116	Majomvezér
+5121	Erős majomkatona
+5122	Erős majomhajító
+5123	Erős majomharcos
+5124	Erős majomgenerális
+5125	Erős kőmajom
+5126	Erős aranymajom
+5127	Erős majomvezér
+5131	Okos kicsi majomkatona
+5132	Okos kicsi majomhajító
+5133	Okos kicsi majomharcos
+5134	Okos kicsi majomgenerál.
+5141	Ravasz majomkatona
+5142	Ravasz majomhajító
+5143	Ravasz majomharcos
+5144	Ravasz majomgenerális
+5145	Ravasz kőmajom
+5146	Ravasz majomvezér
+5151	Gonosz majomkatona
+5152	Gonosz majomhajító
+5153	Gonosz majomharcos
+5154	Gonosz majomgenerális
+5155	Gonosz kőmajom
+5156	Gonosz aranymajom
+5157	Gonosz majomvezér
+5161	Sziklamajom
+5162	Gyalogló majom
+5163	Majomfejedelem
+5201	Vadkutya
+5202	Vaddisznó
+5203	Vörös vaddisznó
+5204	Medve
+5205	Barnamedve
+5206	Feketemedve
+5207	Éhes barnamedve
+5208	Tigris
+5209	Fehér tigris
+6001	Parázs-lángszellem
+6002	Parázs-lángtigris
+6003	Parázs-láng
+6004	Parázs-lángharcos
+6005	Parázs-lángkirály
+6006	Parázs-lángtroll
+6007	Parázs-lángszakáll
+6008	Parázs-lángtábornok
+6009	Parázs-lángvezér
+6051	Ignitor
+6091	Razador
+6101	Fagykristály
+6102	Fagybogár
+6103	Fagyember
+6104	Fagyjeti
+6105	Fagygólem
+6106	Fagytroll
+6107	Fagyszakáll
+6108	Fagytábornok
+6109	Fagyfejedelem
+6110	Magmajeti
+6111	Magmagólem
+6112	Magmarovar
+6113	Magmaember
+6114	Magmakristály
+6115	Magma-Wyvern
+6116	Sárkányfigyelő Idall
+6117	Idall kegyence
+6118	Sárkányszobor
+6151	Szel
+6191	Nemere
+6192	Jotun Thrym
+6193	Sárkánykirálynő Meley
+6201	Magmajeti
+6202	Magmagólem
+6203	Magmarovar
+6204	Magmaember
+6205	Magmakristály
+6206	Magma-Wyvern
+6207	Sárkányfigyelő Idall
+6209	Sárkányszobor
+6301	Ochao harcos
+6302	Ochao katona
+6303	Ochao mágus
+6304	Ochao hóhér
+6305	Ochao tábornok
+6306	Erős Ochao harcos
+6307	Erős Ochao katona
+6308	Erős Ochao mágus
+6309	Erős Ochao hóhér
+6310	Erős Ochao tábornok
+6391	Ochao nagyúr
+6392	Ochao testőr
+6393	Erős Ochao fejedelem
+6394	Erős Ochao testőr
+6401	En-Tai harcos
+6402	En-Tai katona
+6403	En-Tai druida
+6404	En-Tai gyógyító
+6405	En-Tai őr
+6406	En-Tai romboló
+6407	En-Tai uralkodó
+6408	Bagjanamu
+6409	Ochao gyógyító
+6410	Erős En-Tai harcos
+6411	Erős En-Tai katona
+6412	Erős En-Tai druida
+6413	Erős En-Tai gyógyító
+6414	Erős En-Tai romboló
+6415	Beran-Setaou esemény
+6416	Nemere esemény
+6417	Razador esemény
+6418	Jotun Thrym esemény
+6419	Vörös sárkány esemény
+6420	Árnyék harcos
+6421	Baashido
+6422	Gyötrelem Metinje
+7001	Majomkatona
+7002	Majomlovas
+7003	Gimu majomkatona
+7004	Majomparancsnok
+7005	Kőmajom
+7006	Aranymajom
+7007	Majomgenerális
+7008	Tu-Gui dolgozó
+7009	Tu-Gui katona vizsgáló
+7010	Tu-Gui fehér parancsnok
+7012	Bi-Ma-Gui-An
+7013	Skorpiókirály
+7014	Okos skorpióember
+7015	Skorpió íjász
+7016	Kígyó kardharcos
+7017	Kígyó íjász
+7018	Sivatagi bandita
+7019	Tu-ji katona
+7020	Hwa-ryung
+7021	Tu-Ji csavargó
+7022	Cham-Ma
+7023	Teawha-Mu
+7024	Juk-gui
+7025	Dung-Juk
+7026	Juk-Mok
+7027	Hwaryu Juk
+7028	Fekete Juk-Guimok
+7029	Jég ördög
+7030	Jégfogú gyilkos bálna
+7031	Jég rovar
+7032	Seol-Gu
+7033	Jég ember
+7034	Jég óriás
+7035	Jég gólem
+7036	Jég ördög
+7037	Jégfogú gyilkos bálna
+7038	Jég rovar
+7039	Seol-Gu
+7040	Jég ember
+7041	Jég óriás
+7042	Jég gólem
+7043	Jég ördög
+7044	Jégfogú gyilkos bálna
+7045	Jég rovar
+7046	Seol-Gu
+7047	Jég ember
+7048	Jég óriás
+7049	Jég gólem
+7050	Sivatagi repülő szem
+7051	Skorpiókirály
+7052	Fiatal Skorpióember
+7053	Skorpió íjász
+7054	Kígyó kardharcos
+7055	Kígyó íjász
+7056	Sivatagi bandita
+7057	Sivatagi repülő szem
+7058	Skorpiókirály
+7059	Fiatal Skorpióember
+7060	Skorpió íjász
+7061	Kígyó kardharcos
+7062	Kígyó íjász
+7063	Sivatagi bandita
+7064	Sivatagi repülő szem
+7065	Skorpiókirály
+7066	Fiatal Skorpióember
+7067	Skorpió íjász
+7068	Kígyó kardharcos
+7069	Kígyó íjász
+7070	Sivatagi bandita
+7071	Harci tigris szolga
+7072	Láng szellem
+7073	Harci tigris
+7074	Láng
+7075	Láng harcos
+7076	Harci tigris szolga
+7077	Láng szellem
+7078	Harci tigris
+7079	Láng
+7080	Láng harcos
+7081	Harci tigris szolga
+7082	Láng szellem
+7083	Harci tigris
+7084	Láng
+7085	Láng harcos
+7086	Szellemtuskó
+7087	Tündér
+7088	Szellemfűz
+7089	Gonosz fa
+7090	Szellemtuskó
+7091	Tündér
+7092	Szellemfűz
+7093	Gonosz fa
+7094	Szellemtuskó
+7095	Tündér
+7096	Szellemfűz
+7101	Ágyú
+7102	Ágyú
+7103	Jégzápor ostromgép
+7104	Jégzápor ostromgép
+7105	Torony
+7106	Tűzhely
+7107	Tűzhely
+7108	Tűzhely
+7109	Tűzhely
+7110	Tűzhely
+7111	Tűzhely
+7112	Tűzhely
+7113	Cheeta
+7114	Kraton
+7115	Charly
+7116	Nini
+7117	Zulu
+7118	Majom-harcos Deka
+7119	Majom-harcos Oba
+7120	Keung király
+7121	Kiros
+7122	Manchu
+7123	Sgok
+7124	Indrik
+8001	Bánat Metinje
+8002	Harc Metinje
+8003	Csata Metinje
+8004	Mohóság Metinje
+8005	Fekete Metinje
+8006	Sötétség Metinje
+8007	Féltékenység Metinje
+8008	Lélek Metinje
+8009	Árnyék Metinje
+8010	Keménység Metinje
+8011	Ördög Metinje
+8012	Bukás Metinje
+8013	Halál Metinje
+8014	Gyilkosság Metinje
+8015	Keménység Metinje
+8016	Ördög Metinje
+8017	Bukás Metinje
+8018	Halál Metinje
+8019	Gyilkosság Metinje
+8020	Shinsoo szikla
+8021	Jinno szikla
+8022	Chunjo szikla
+8023	Császár szikla
+8024	Metin Pung-Ma
+8025	Metin Ma-An
+8026	Metin Tu-Young
+8027	Metin Jeon-Un
+8031	Hegy metinje
+8032	Bosszú Metinje
+8033	Magány metinje
+8034	Gőg metinje
+8035	Megváltás metinje
+8036	Árulás metinje
+8037	Nezehtelés metinje
+8038	Megtorlás metinje
+8039	Büszkeség metinje
+8040	Rosszakarat metinje
+8041	Húsvét Metin
+8042	Húsvét Metin
+8043	Húsvét Metin
+8044	Húsvét Metin
+8045	Húsvét Metin
+8046	Húsvét Metin
+8047	Húsvét Metin
+8048	Húsvét Metin
+8049	Húsvét Metin
+8050	Húsvét Metin
+8051	Homály metinje
+8052	Parázs metinje
+8053	Hiúság metinje
+8054	Harag metinje
+8055	Balsors metinje
+8056	Rosszindulat metinje
+8057	Tisztítótűz metinje
+8058	Hideg metinje
+8158	Metinje Dragon
+8059	Fa-lények metinje
+8060	Sütőtök Metin
+8061	Erdők Metinje
+8101	Bánat Metinje
+8102	Harc Metinje
+8103	Csata Metinje
+8104	Mohóság Metinje
+8105	Fekete Metinje
+8106	Sötétség Metinje
+8107	Féltékenység Metinje
+8108	Lélek Metinje
+8109	Árnyék Metinje
+8110	Keménység Metinje
+8111	Ördög Metinje
+8112	Bukás Metinje
+8113	Halál Metinje
+8114	Gyilkosság Metinje
+8115	Hold metinje
+8200	Csokoládé Metinkő
+8201	Csokoládé Metinkő - PvM
+8203	Megvilágosodás Metinje
+8204	Húsvét Metin
+8205	Húsvét Metin
+8206	Húsvét Metin
+8501	Vad kutya
+8502	Vaddisznó
+8503	Medve
+8504	Fehér tigris
+8505	Fekete ork óriás
+8506	Fabéka vezér
+8507	Sivatagi bandita
+8508	Ezoterikus kínzó
+8509	Ezoterikus ördögűző
+8510	Lángharcos
+8511	Jég gólem
+8600	żőąÍ´ëÁˇŔĺ
+8601	żőąÍ´ëÁˇŔĺ
+8602	šĐął´ëÁÖął
+8603	šĐął´ëÁÖął
+8604	¸íťçąÍżŐ
+8605	¸íťçąÍżŐ
+8606	ťç˝Ĺ
+8607	ťç˝Ĺ
+8608	ą¸šĚČŁ
+8609	ą¸šĚČŁ
+8610	´ŠˇˇĹőšüąÍ
+8611	´ŠˇˇĹőšüąÍ
+8612	żŠżŐ°ĹšĚ
+8613	żŠżŐ°ĹšĚ
+8614	°Ĺ´ëťç¸ˇ°ĹşĎ
+8615	°Ĺ´ëťç¸ˇ°ĹşĎ
+8616	Billy Loomis
+8617	Jack Torrance
+8618	Chucky
+8619	Jigsaw
+8620	Jason
+8621	Michael Myers
+8622	Freddy Krüger
+8623	Bőrpofa
+9001	Fegyverkereskedő
+9002	Fegyverzet-kereskedő
+9003	Vegyeskereskedő Eladónő
+9004	Esemény segítő
+9005	Raktáros
+9006	Öregasszony
+9007	Fegyverkereskedő
+9008	Fegyverzet-kereskedő
+9009	Halász
+9010	Itemshop
+9011	Esküvőszervező
+9012	Teleportos
+10001	Yayang_Terület 4002 8995
+10002	Yongan_terület 4503 9050
+10003	Bokjung_ter. 1118 2161
+10004	Joan_terület 876 2131
+10005	Bakra_terület 9064 2214
+10006	Pyungmoo_ter. 9372 2188
+10007	Yongan_terület 4188 9560
+10008	Yayang_Terület 3179 8332
+10009	Joan_terület 897 1127
+10010	Bokjung_ter. 1759 2210
+10011	Pyongmoo_ter. 9343 3143
+10012	Bakra_terület 8348 2926
+10013	Hwang_templom 5536 1441
+10014	Seungryong 3326 7468
+10015	Yongbi_sivatag 3467 6329
+10016	Kuahlo_Dong 600 4960
+10017	Hwang_templom 5906 1102
+10018	Gumsan_torony 2165 7270
+10019	Yayang_Terület 3211 9009
+10020	Jungrang 1356 43
+10021	Bokjung_ter. 1168 2920
+10022	Waryong 2219 93
+10023	Bakra_terület 9098 2948
+10024	Imha 2718 130
+10025	Sohan-hegy 4993 2984
+10026	Lungsam 2887 57
+10027	Lungsam 2866 437
+10028	Vörös-erdő 11199 708
+10029	Kígyórét 10590 7262
+10030	Yongbi_sivatag 3519 6223
+10031	Kígyórét 10590 7262
+10032	Óriások_földje 8283 7635
+10033	Zin-barlang 10594 7525
+10034	2_Zin-barlang 10594 7525
+10035	Deon-Zeon 917 5253
+10036	2_Deon-Zeon 7041 4642
+10037	ŔÚžçÇö 3809 8233
+10038	˝Ĺźöźş 9752 1330
+10039	şšÁ¤Çö 1917 2900
+10040	Ářłëźş 9239 1836
+10041	šÚśóÇö 8316 2154
+10042	ĂľÁśźş 9772 1850
+10043	ź­ÇŃťę 3819 2969
+10044	˝Ĺźöźş 10189 1484
+10045	ź­ÇŃťę 3819 2969
+10046	˝Ĺźöźş 9774 1501
+10047	˝Âˇć°î 2699 6752
+10048	Ářłëźş 9679 1994
+10049	˝Âˇć°î 2699 6752
+10050	Ářłëźş 9256 2012
+10051	żľşńťç¸ˇ 3478 6189
+10052	ĂľÁśźş 9780 1995
+10053	żľşńťç¸ˇ 3478 6189
+10054	ĂľÁśźş 10190 2002
+10055	ľľż°Č­Áö 6011 6874
+10056	ź­ÇŃťę 4368 2158
+10057	˝Âˇć°î 3355 7558
+10058	šĐąłťçżř 5943 1337
+10059	ź­ÇŃťę 0 10496
+10060	šĐąłťçżř 1536 10496
+10061	ľľż°Č­Áö 4608 10496
+10062	˝Âˇć°î 6144 10496
+10063	ąÍ¸ń¸˛ 3031 266
+10064	ŔűąÍ¸ń¸˛ 11133 534
+10065	˝ĹąÍ¸ń¸˛ 7754 10553
+10066	˝ĹŔűąÍ¸ń¸˛ 9915 11195
+10067	Majom_kazamata 7752 4477
+10068	Yayang_Terület 4062 8756
+10069	Majom_kazamata 8520 4477
+10070	Bokjung_ter. 1611 2130
+10071	Majom_kazamata 9288 4477
+10072	Bakra_terület 8727 2100
+10073	Yongbi_sivatag 3061 6202
+10074	Majom_kazamata 1352 6532
+10075	Yongbi_sivatag 2879 5407
+10076	Majom_kazamata 1352 7300
+10077	Zin-Sa-Gui 9 12078
+10078	˝Âˇć°î 2842 8106
+10079	Barlang1 1459 13236
+10080	ĂľŔÇľżąź2Ăţ 2413 12755
+10081	ĂľŔÇľżąź1Ăţ 99 13618
+10082	żľžČŔžźş 5028 9998
+10083	ĂľŔÇľżąź1Ăţ 1360 14972
+10084	ĂľŔÇľżąź2Ăţ 2414 14289
+10085	ĂľŔÇľżąź1Ăţ 99 15154
+10086	ÁśžČŔžźş 616 1148
+10087	ĂľŔÇľżąź1Ăţ 1360 16508
+10088	ĂľŔÇľżąź2Ăţ 2414 15825
+10089	ĂľŔÇľżąź1Ăţ 99 16690
+10090	ĆňšŤŔžźş 9609 3188
+10091	ĂľŔÇľżąź1Ăţ 1360 18044
+10092	ĂľŔÇľżąź2Ăţ 2414 17361
+10093	Sárkány_Kapu 1731 12205
+10094	Sárkány_Kapu 1733 13743
+10095	Sárkány_Kapu 1728 15277
+10096	Sárkány_Kapu 1724 16824
+10097	SD2 7040 5235
+10098	SD3 984 5711
+10099	Fok 11043 17885
+10100	Fok 10963 16744
+10101	Nefrit 10869 16558
+10102	Fok 11664 16779
+10103	Mennydörgés 11345 16546
+10104	Mennydörgés 11921 16550
+10105	Gautama 12263 16811
+10106	łě¸˛Áö 8168 15050
+10501	. 345 361
+10502	. 106 547
+10503	. 75 368
+10504	. 89 746
+10505	. 520 352
+10506	. 541 45
+10507	. 211 109
+10508	. 615 49
+10509	. 284 705
+10510	. 145 310
+10511	. 553 285
+10512	. 487 274
+10513	. 626 291
+10514	. 285 569
+10515	. 80 303
+10516	. 315 238
+10517	. 416 272
+10518	. 72 498
+10519	. 215 495
+10520	. 523 415
+10521	. 72 498
+10522	. 518 480
+10523	. 583 379
+10524	. 459 558
+10601	. 345 361
+10602	. 520 352
+10603	. 487 274
+10604	. 75 368
+10605	. 211 109
+10606	. 215 495
+10607	. 315 238
+10608	. 520 352
+10609	. 284 705
+10610	. 145 310
+10611	. 416 272
+10612	. 80 303
+10613	. 72 498
+10614	. 106 547
+10615	. 523 415
+10616	. 541 45
+10617	. 72 121
+10618	. 518 480
+10619	. 89 746
+10620	. 285 569
+10621	. 615 49
+10622	. 72 498
+10623	. 583 379
+10624	. 459 558
+10625	. 609 553
+10626	. 594 338
+10701	. 75 368
+10702	. 541 45
+10703	. 615 49
+10704	. 284 705
+10705	. 520 352
+10706	. 553 285
+10707	. 145 310
+10708	. 345 361
+10709	. 523 415
+10710	. 72 498
+10711	. 626 291
+10712	. 487 274
+10713	. 72 498
+10714	. 106 547
+10715	. 518 480
+10716	. 285 569
+10717	. 80 303
+10718	. 211 109
+10719	. 416 272
+10720	. 215 495
+10721	. 315 238
+10722	. 89 746
+10723	. 583 379
+10724	. 459 558
+10725	. 609 553
+10726	. 594 338
+10801	. 70 581
+10802	. 69 664
+10803	. 132 660
+10804	. 184 566
+10805	. 285 567
+10806	. 272 636
+10807	. 191 667
+10808	. 345 563
+10809	. 400 570
+10810	. 68 806
+10811	. 140 811
+10812	. 189 722
+10813	. 274 722
+10814	.233 780
+10815	. 318 780
+10816	. 273 833
+10817	.356 717
+10818	.412 712
+10819	. 372 776
+10820	. 354 840
+10821	. 366 817
+10822	. 420 841
+10823	. 94 846
+10824	. 63 864
+10825	. 131 866
+10826	. 59 920
+10827	. 91 940
+10828	. 135 919
+10829	. 194 870
+10830	. 243 862
+10831	. 312 861
+10832	. 373 893
+10833	. 406 880
+10834	. 422 935
+10835	. 500 807
+11000	Gondnok
+11001	Csata irányító
+11002	Gondnok
+11003	Csata irányító
+11004	Gondnok
+11005	Csata irányító
+11100	Gondnok
+11101	Csata irányító
+11102	Gondnok
+11103	Csata irányító
+11104	Gondnok
+11105	Csata irányító
+11106	°ćşńş´
+11107	°ćşńş´
+11108	°ćşńş´
+11109	°ćşńş´
+11110	°ćşńş´
+11111	°ćşńş´
+11112	°ćşńş´
+11113	°ćşńş´
+11114	°ćşńş´
+11115	°ćşńş´
+11116	°ćşńş´
+11117	°ćşńş´
+11505	Arany béka
+11506	şŔČ­
+11507	şŔČ­
+11508	şŔČ­
+11509	şŔČ­
+11510	şŔČ­
+12000	Tábortűz
+13000	Fa kapu
+13001	Kő kapu
+14000	Műhely
+14001	Műhely
+14002	Műhely
+14003	Műhely
+14004	Műhely
+14005	Műhely
+14006	Műhely
+14007	Műhely
+14008	Műhely
+14009	Műhely
+14010	Oltár
+14011	Oltár
+14012	Oltár
+14013	Oltár
+14014	Oltár
+14015	Oltár
+14016	Oltár
+14017	Oltár
+14018	Oltár
+14019	Oltár
+14020	Főhadiszállás
+14021	Főhadiszállás
+14022	Főhadiszállás
+14023	Főhadiszállás
+14024	Főhadiszállás
+14025	Főhadiszállás
+14026	Főhadiszállás
+14027	Főhadiszállás
+14028	Főhadiszállás
+14029	Főhadiszállás
+14030	Kiképző tábor
+14031	Kiképző tábor
+14032	Kiképző tábor
+14033	Kiképző tábor
+14034	Kiképző tábor
+14035	Kiképző tábor
+14036	Kiképző tábor
+14037	Kiképző tábor
+14038	Kiképző tábor
+14039	Kiképző tábor
+14040	Kemence
+14041	Kemence
+14042	Kemence
+14043	Kemence
+14044	Kemence
+14045	Kemence
+14046	Kemence
+14047	Kemence
+14048	Kemence
+14049	Kemence
+20001	Alkimista
+20002	Aranyo
+20003	Ah-Yu
+20004	Koldus
+20005	Yonah
+20006	Mirine
+20007	Raktáros
+20008	Octavio
+20009	Öreg ember
+20010	Házaló
+20011	Uriel
+20012	Yu-Rang
+20013	Halász
+20014	Taurean
+20015	Deokbae
+20016	Kovács
+20017	Yu-Hwan
+20018	Baek-Go
+20019	Yang-Shin
+20020	Áruló Balso
+20021	Ariyoung
+20022	Huahn-So
+20023	Soon
+20024	Harang
+20025	.
+20026	Ji-Ryu
+20027	Gillian
+20028	Mirine testvére
+20029	Póni
+20030	Ló
+20031	Télapó
+20032	Karácsonyfa
+20033	Karácsonyfa
+20034	Karácsonyfa
+20035	Zászló
+20036	Zászló
+20037	Zászló
+20038	..
+20039	.
+20040	Telek kezelő
+20041	Részeg
+20042	Házaló
+20043	.
+20044	Fegyverkovács
+20045	Páncélkovács
+20046	Ékszerész
+20047	Gyémánt erezet
+20048	Borostyánkő ér
+20049	Megkövesedett fa ér
+20050	Réz ér
+20051	Ezüst ér
+20052	Arany ér
+20053	Jáde ér
+20054	Ébenfa ér
+20055	Kagyló lerakódás
+20056	Fehérarany ér
+20057	Kristály ér
+20058	Ametiszt ér
+20059	Mennyei Könny Ér
+20060	Gyémánt alkimista
+20061	Borostyán alkimista
+20062	Megköv. fa alkimista
+20063	Réz alkimista
+20064	Ezüst alkimista
+20065	Arany alkimista
+20066	Jáde alkimista
+20067	Ébenfa alkimista
+20068	Gyöngy alkimista
+20069	Fehérarany alkimista
+20070	Kristály alkimista
+20071	Ametiszt alkimista
+20072	Mennyei könny alkimista
+20073	Ősi pecsét
+20074	Demon Tower Guardian (next stage)
+20075	Demon Tower Guardian (next stage)
+20076	Demon Tower Guardian (next stage)
+20077	Oltár Őr
+20078	Oltár Őr
+20079	Oltár Őr
+20080	Kiképzés vezető
+20081	Ellopott folyosói pecsét
+20082	Mester
+20083	Jegal-Tunseok
+20084	Chaegirab biológus
+20085	Jimjunja
+20086	Handu-Up
+20087	Wonda-Rim
+20088	Chuk-Sal
+20089	Eastercrafting - Pung-Ho
+20090	Heuk-Young
+20091	Seon-Pyeong
+20092	Hwa-Hee
+20093	Koe-Pung
+20094	Hong-Hae
+20095	Seon-Hae
+20096	˝Ă°ř°Ł ŔĚľżźŽ
+20097	Várkapu
+20098	Várkapu
+20099	Várkapu
+20101	Fehér ló
+20102	Barna ló
+20103	Fekete ló
+20104	Fehér ló
+20105	Barna ló
+20106	Fekete ló
+20107	Fehér ló
+20108	Barna ló
+20109	Fekete ló
+20110	Vadkan
+20111	Farkas
+20112	Tigris
+20113	Oroszlán
+20114	white lion
+20115	Harci Vadkan
+20116	Harci farkas
+20117	Vihar tigris
+20118	Harci oroszlán
+20119	Nemes fekete ló
+20120	ĂťŔÇŔü°ŠČŁ
+20121	ÁřŔűŔÇŔü°ŠČŁ
+20122	Č˛ŔÇŔü°ŠČŁ
+20123	łěŔÇŔü°ŠČŁ
+20124	ČćŔÇŔü°ŠČŁ
+20125	šéŔÇŔü°ŠČŁ
+20126	Télapó
+20127	Évfordulós Lobogó 1
+20128	Évfordulós Lobogó 2
+20129	Évfordulós Lobogó 3
+20130	Évfordulós Lobogó 4
+20131	Évfordulós Lobogó 5
+20132	Évfordulós Lobogó 6
+20133	Évfordulós Lobogó 7
+20134	Nap lobogó
+20135	Karácsonyi lobogó
+20139	Céh Lobogó (lila)
+20140	Céh Lobogó (kék/zöld)
+20141	Céh Lobogó (piros/arany)
+20138	Ramadán lobogó
+20142	Halloween lobogó
+20143	Húsvéti lobogó
+20201	Ŕü°Šżř
+20202	Ŕü°Šśű
+20203	Ŕü°ŠČŁ
+20204	Ŕü°ŠťçŔÚ
+20205	ł­ĆřÇŃ Ŕü°Šżř
+20206	ł­ĆřÇŃ Ŕü°Šśű
+20207	ł­ĆřÇŃ Ŕü°ŠČŁ
+20208	ł­ĆřÇŃ Ŕü°ŠťçŔÚ
+20209	żë¸ÍÇŃ Ŕü°Šżř
+20210	żë¸ÍÇŃ Ŕü°Šśű
+20211	żë¸ÍÇŃ Ŕü°ŠČŁ
+20212	żë¸ÍÇŃ Ŕü°ŠťçŔÚ
+20213	Ŕü°ŠźýźřˇĎ
+20214	ł­ĆřÇŃ Ŕü°ŠźýźřˇĎ
+20215	żë¸ÍÇŃ Ŕü°ŠźýźřˇĎ
+20216	Ŕü°ŠžĎźřˇĎ
+20217	ł­ĆřÇŃ Ŕü°ŠžĎźřˇĎ
+20218	żë¸ÍÇŃ Ŕü°ŠžĎźřˇĎ
+20219	blackpony
+20220	ĹŠ¸Ž˝ş¸ś˝ş źřˇĎ
+20221	Ŕü°Ššéżő
+20222	Ŕü°ŠĆŇ´ő
+20223	Ŕü°ŠźŽˇćŔÚ
+20224	ł­ĆřÇŃ Ŕü°ŠźŽˇćŔÚ
+20225	żë¸ÍÇŃ Ŕü°ŠźŽˇćŔÚ
+20226	ČćŔŻ´ĎÄÜ
+20227	šéŔŻ´ĎÄÜ
+20228	Ŕü°Š¸ÍÁś
+20229	ł­ĆřÇŃ Ŕü°Š¸ÍÁś
+20230	żë¸ÍÇŃ Ŕü°Š¸ÍÁś
+20231	Ŕü°ŠČćšü
+20232	Ŕü°ŠÇĽšü
+20233	Muffin (barna tartozék)
+20234	Nugget (barna tartozék)
+20235	Muffin (kék tartozék)
+20236	Nugget (kék tartozék)
+20237	Muffin (zöld tartozék)
+20238	Nugget (zöld tartozék)
+20239	Villám
+20240	Ágas
+20241	Nugget (sötétkék)
+20242	Muffin (rózsaszín)
+20243	NoNAme
+20244	Nirvana sárkány
+20245	Samsara sárkány
+20246	Manny
+20247	Ellie
+20248	Barna harci teve
+20249	Fekete harci teve
+20250	Láva-gyík
+20251	Jég-gyík
+20253	Appaloosa
+20254	Fehér nyúl
+20255	Holdbéli nyúl
+20257	Berni
+20258	Kék Barry
+20259	Kerberosz (arany)
+20260	Kerberosz (ezüst)
+20300	Testi küzdelem oktató
+20301	Mentális küzdelem oktató
+20302	Tőrharc oktató
+20303	Íjászat oktató
+20304	Mágikus fegyverek oktató
+20305	Fekete mágia oktató
+20306	Sárkány hatalom oktató
+20307	Gyógyítás oktató
+20320	Testi küzdelem oktató
+20321	Mentális küzdelem oktató
+20322	Tőrharc oktató
+20323	Íjászat oktató
+20324	Mágikus fegyverek oktató
+20325	Fekete mágia oktató
+20326	Sárkány hatalom oktató
+20327	Gyógyítás oktató
+20340	Testi küzdelem oktató
+20341	Mentális küzdelem oktató
+20342	Tőrharc oktató
+20343	Íjászat oktató
+20344	Mágikus fegyverek oktató
+20345	Fekete mágia oktató
+20346	Sárkány hatalom oktató
+20347	Gyógyítás oktató
+20348	Démon-torony őr
+20349	Lovászinas
+20350	Kazamata őr
+20351	Teremőr
+20352	Hasun emlékmű
+20353	Seul Rong emlékmű
+20354	Város őr
+20355	Kapitány
+20356	Ginzeng gyűjtő
+20357	Weol emlékmű
+20358	Névtelen virág
+20359	Öreg doboz papírokkal
+21359	Öreg doboz papírokkal
+20360	Wha emlékmű
+20361	Su emlékmű
+20362	Mok emlékmű
+20363	Gum emlékmű
+20364	Nakajima
+20365	To emlékmű
+20366	Sa-Soe
+20367	Katakomba őr
+20368	Házaló
+20369	Lee Chung
+20370	Mérgezett katona
+20371	Régi sírkő
+20372	Viharvert kőtábla
+20373	Testőr
+20374	Őr
+20375	Fa barikád
+20376	Kim Rim
+20377	Yak-Hwan
+20378	Angmur Admirális
+20379	Sérült katona
+20380	Yon-I-Walker
+20381	Konfuciusz
+20382	Sziklavirág
+20383	Jae-Seon Kim
+20384	Karácsonyfa
+20385	Am-heh szurdok
+20386	Isfet emlékköve
+20387	Végzetzár
+20388	Sárkánykapu
+20389	NoNAme
+20390	Taramor sírköve
+20391	Nap-növény
+20392	Halott katona
+20393	Sebesült katona
+20394	Tűzföld-őr
+20395	Dungeon
+20396	Ŕűźöťó´Ü ĆÇ¸Ĺżř
+20397	Jégoroszlán
+20398	Sarkvidéki kocka
+20399	Északi Sárkányoszlop
+21399	Északi Sárkányoszlop
+20400	Bölcs Myonghorang
+20401	Kolóniaőr
+20402	Henry
+20403	Amarok
+20404	Nagual
+20405	Socket-Debugger
+20406	NoNAme
+20407	Fenrir
+20408	Templomőr
+20409	Az Erdő Őre
+20410	Az Erdő Cserkésze
+20411	Az Erdő Csatlósa
+20412	Erdőőr-vezető
+20413	Kawuco
+20414	Andastre
+20415	Átjáró
+20416	Sütőtök Sam
+20417	Okey asztal
+20419	Sárkányfigyelő Dolnarr
+20420	Arany sárkányláda
+20421	Sárkányfigyelő Jaharr
+20422	Sárkánytojás
+20423	Lélekkristály-alkimista
+20424	Rubin-alkimista
+20425	Gránát-alkimista
+20426	Smaragd-alkimista
+20427	Zafír-alkimista
+20428	Turmalin-alkimista
+20429	Harci övezet-felügyelő
+20430	Cherie
+20431	Évfordulós Kereskedő
+20432	Hidra tojás
+20433	Harcos szobor
+20434	Árbóc
+20435	Meley nyomai
+20436	Hajókormány
+20437	Faanyag javításhoz
+20438	Milbon szerzetes
+20439	Zi portál
+20440	Chou portál
+20441	Yin portál
+20442	Mao portál
+20443	Chen portál
+20444	Si portál
+20445	Wu portál
+20446	Wei portál
+20447	Shen portál
+20448	You portál
+20449	Xu portál
+20450	Hai portál
+20451	Zodiákus kereskedő
+20452	Zi szobor
+20453	Chou szobor
+20454	Yin szobor
+20455	Mao szobor
+20456	Chen szobor
+20457	Si szobor
+20458	Wu szobor
+20459	Wei szobor
+20460	Shen szobor
+20461	You szobor
+20462	Xu szobor
+20463	Hai szobor
+20464	Ágyú
+20465	Zodiákus portál
+20500	Sárkánytojás
+20501	Gaya láda
+20502	Yut Nori asztal
+20503	Gaya kereskedő
+20504	Gaya piac
+20505	Yut pálcikák
+20506	Kapd el a Királyt asztal
+30000	°łŔÎťóÁĄ
+30001	°łŔÎťóÁĄ
+30002	1001 éjszaka
+30003	Grillkirály
+30004	Kincsvadász
+30005	Takarékláng
+30006	Fegyverkereskedő
+30007	Páncél-márkeszerviz
+30008	Alkimista
+30101	Kud szobra
+30102	Bazalt obeliszk
+30103	Teknős szikla
+30104	Rúnahalom
+30111	1. Végzet-kapu
+30112	2. Végzet-kapu
+30113	3. Végzet-kapu
+30114	4. Végzet-kapu
+30115	5. Végzet-kapu
+30116	6. Végzet-kapu
+30117	7. Végzet-kapu
+30118	8. Végzet-kapu
+30119	9. Végzet-kapu
+30120	Gyógyfű Táska
+30121	Egy Sura szelleme
+30122	Egy Harcos szelleme
+30123	Sötét Oltár
+30124	Sura-Csontváz 1
+30125	Sura-Csontváz 2
+30126	Sura-Csontváz 3
+30127	Sura-Csontváz 4
+30128	Sura-Csontváz 5
+30129	Húsvéti Nyúl
+31129	Húsvéti Nyúl
+32129	Húsvéti Nyúl
+30130	Sírkő
+30131	B. úr
+30132	B. úr
+30301	Lélekkristály-ér
+30302	Rubin-ér
+30303	Gránát-ér
+30304	Smaragd-ér
+30305	Zafír-ér
+30306	Turmalin-ér
+30307	Summer
+30308	Postaláda
+33001	¸đÇč°ĄŔÇ ÇŘ°ń
+33002	Történész
+33003	Böjtölő polgár
+33004	Böjtölő polgár
+33005	Böjtölő polgár
+33006	Böjtölő polgár
+33007	Böjtölő polgár
+33008	Sütőtök Jack
+34001	Tűzfőnix
+34002	Rénszarvasgida
+34003	Jégfőnix
+34004	Baby Azrael
+34005	Porky
+34006	Rufusz
+34007	Kán
+34008	Leonidász
+34009	Baby Azrael
+34010	Bambi
+34011	Knuud
+34012	Bao Bao
+34013	Pufók Minihóhér
+34014	Pufók Minihóhér (arany)
+34015	Csonti
+34016	Jáde főnix
+34017	Sarki Porky
+34018	Fagyos Rufusz
+34019	Sarkvidéki Kán
+34020	Hó-Leonidász
+34021	Sheldon
+34022	Cooper
+34023	Párduckölyök
+34024	Leopárdkölyök
+34026	Tökfej
+34027	Kis seprű
+34028	Hópehely
+34029	Száncsengő
+34030	Cupido
+34031	Tomboló szív
+34032	Piros holdsarló
+34033	Kék holdsarló
+34034	Eweriel
+34035	Ramblue
+34036	Kis sárkány
+34037	Kis sárkány (hős)
+34039	Baby Huashin
+34041	Kismajom
+34042	Kismajom (Hős)
+34045	Mini pók
+34046	Mini pók (Hős)
+34049	Mini Razador
+34050	Mini Razador (Hős)
+34053	Mini Nemere
+34054	Mini Nemere (Hős)
+34055	Bruce
+34056	Wayne
+34057	Robin
+34058	Valentino
+34059	Valentinia
+34060	Valentino
+34061	Valentinia
+34062	Holdlámpás (Narancs)
+34063	Holdlámpás (Kék)
+34064	Mini Meley
+34065	Mini Meley
+34066	Bonsai
+34067	Ms Jiangshi+
+34068	Mr Jiangshi+
+34069	Jiangshi Jnr
+34070	Piros manó
+34071	Zöld manó
+34072	Segítő manó
+34073	Mini Azrael
+34074	Mini Azrael (Hős)
+34075	Dagi Minihóhér
+34076	Dagi Minihóhér (Hős)
+34080	Kis Baashido
+34081	Kis Baashido (Hős)
+34082	Nessie
+34083	Nessie (hős)
+34084	Donnie
+34085	Frank
+34086	Huu
+34087	Boo
+34088	Rémség
+34090	Színes lámpás
+34091	Zöld lámpás
+34092	Oswald Úr
+34093	Cobblepot Úr
+34094	Chesterfield Úr
+34095	Griff
+34096	Saleo
+34097	Astrabell
+34098	Helexna
+34099	Chaotika
+34100	Farkas Janesz
+34101	Farkasinho
+34102	Kis Catenaccio
+34133	Valentine-Dog
+34135	Yuumi
+34125	Valentine-Bear
+34126	Valentine-Dragon
+60000	Céh-adminisztrátor
+60001	Céh-adminisztrátor
+60002	Céh-adminisztrátor
+60003	Theowahdan
+
+1083	Satan's Pillar of Power
+10836	portal
+10837	portal
+10838	portal
+10839	portal
+1084	Luzifer's Pillar of Power
+10840	portal
+10841	portal
+10842	portal
+10843	portal
+10844	portal
+10845	portal
+10846	portal
+10847	portal
+1085	Leviathan's Pillar of Power
+1086	Belial's Pillar of Power
+1087	Satan Lord of the Fire
+1088	Luzifer Lord of the Wind
+1089	Leviathan Lord of the Water
+1090	Belial Lord of the Earth
+1097	Rotglanz-Tod
+1098	Violettlicht-Tod
+1099	Goldschimmer-Tod
+20252	Snow Wolf
+20256	Ignisius
+20261	White Rabbit
+20262	Ignisius
+20263	Cerberus
+20264	Ignisius
+20265	Spektralross
+20266	Spektralross
+20267	Flying Valentine-Bunny
+20308	unused
+20309	unused
+20310	unused
+20311	unused
+20312	unused
+20313	unused
+20314	unused
+20315	unused
+20316	unused
+20317	unused
+20318	unused
+20319	unused
+20328	unused
+20329	unused
+20330	unused
+20331	unused
+20332	unused
+20333	unused
+20334	unused
+20335	unused
+20336	unused
+20337	unused
+20338	unused
+20339	unused
+20499	Hydra
+20514	Wingmen (G)
+20515	Wingmen (R)
+20516	Wingmen (B)
+20599	Dimension-Guardian [3. Farmmap]
+20801	Fish
+20802	Fish
+20803	Fish
+20804	Fish
+20805	Fish
+20806	Fish
+20807	Fish
+20808	Fish
+20809	Fish
+20810	Fish
+20811	Fish
+20812	Fish
+20813	Fish
+20814	Fish
+20815	Fish
+20816	Fish
+20817	Fish
+20818	Fish
+20819	Fish
+2496	Dark Beran-Setaou
+2497	Violettlicht-Drache
+2498	Baron Nashor
+271	Kushala Daora-Sola
+272	Kushala Daora-Talo
+273	Kushala Daora-Tero
+274	Kushala Daora-Haro
+275	Kushala Daora-Hera
+276	Kushala Daora-Lorem
+277	Kushala Daora-Tora
+278	Kushala Daora-Paro
+279	Kushala Daora-Panem
+280	Kushala Daora-Mando
+281	Kushala Daora-Mundo
+282	Kushala Daora-Heron
+283	Kushala Daora-Mu-Tai
+2831	Kushala Daora-Mu-Tai (EPIC)
+34025	Miss-Jiangshi
+34038	unknown
+34040	Kleiner-Feger
+34043	unknown
+34044	unknown
+34047	unknown
+34048	unknown
+34051	unknown
+34052	unknown
+34077	Eissplitter
+34078	unknown
+34079	unknown
+34089	Rufus (blue)
+34103	Boney
+34104	Little Broomstick
+34105	Snowflake
+34106	Blue Crescent Moon
+35000	unknown
+35001	unknown
+35002	unknown
+35003	unknown
+35004	unknown
+35005	unknown
+35006	unknown
+35007	unknown
+35008	unknown
+35009	unknown
+35010	unknown
+35011	unknown
+35012	unknown
+35013	unknown
+35014	unknown
+35015	unknown
+35016	unknown
+35017	unknown
+35018	unknown
+35019	unknown
+35020	unknown
+35100	Mini Silvas(1)
+35101	Mini Silvas(2)
+35102	Mini Silvas(3)
+35110	Mini Augue(1)
+35111	Mini Augue(2)
+35112	Mini Augue(3)
+35120	Mini Betharram(1)
+35121	Mini Betharram(2)
+35122	Mini Betharram(3)
+35123	Eevee
+35124	Espeon
+35125	Flareon
+35126	Jolteon
+35127	Meowth
+35128	Umbreon
+35129	Vaporeon
+40000	Shaman
+40001	Alchemist
+40002	Tammy
+40003	Ah-Yu
+40004	Beggar
+40005	Yonah
+40006	Mirine
+40007	Storekeeper
+40008	Octavio
+40009	Old Man
+40010	Peddler
+40011	Uriel
+40012	Yu-Rang
+40013	Fisherman
+40014	Taurean
+40015	Deokbae
+40016	Blacksmith
+40017	Yu-Hwan
+40018	Berni
+40019	Bobby
+40020	Traitor Balso
+40021	Ariyoung
+40022	Huahn-So
+40023	Soon
+40024	Harang
+40090	Heuk-Young
+40091	Seon-Pyeong
+40092	Hwa-Hee
+40093	Koe-Pung
+40094	Hong-Hae
+41018	Snowmann
+41053	Snowmann
+41060	Easter Egg
+41061	Easter Egg
+41062	Easter Egg
+41063	Easter Egg
+41064	Easter Egg
+41065	Easter Egg
+5171	Cursed Ape Soldier
+5172	Cursed Ape Thrower
+5173	Cursed Ape Fighter
+5174	Cursed Ape General
+5175	Cursed Stoneape
+5176	Cursed Goldape
+5177	Cursed Apeleader
+5178	Ape Lord Ogong
+694	Big Chief Orc
+7097	Evil Tree
+801	Hell-Ghost
+802	Dark Soul
+8028	Metin of Moon
+8029	Metin of Hwang
+803	Hell-Beast
+804	Hell-Swordmaster
+805	Demons Hell-Beast
+806	Hell Demon King
+8062	Pumpkin-Metin
+8063	Pumpkin-Metin
+8064	Pumpkin-Metin
+8065	Pumpkin-Metin
+8066	Pumpkin-Metin
+8067	Pumpkin-Metin
+8068	Pumpkin-Metin
+8069	Pumpkin-Metin
+807	Demon Eye
+8070	Seelenkristallader-Metin
+8071	Schokoladen-Metin
+8072	Schokoladen-Metin
+8073	Schokoladen-Metin
+8074	Schokoladen-Metin
+8075	Schokoladen-Metin
+8076	Schokoladen-Metin
+8077	Schokoladen-Metin
+8078	Schokoladen-Metin
+8079	Schokoladen-Metin
+808	Parasite demon Eye
+8080	Schokoladen-Metin
+8081	Metin of Moon
+809	Gossip Demon
+810	Deadly Demon
+811	Hell-Undead
+812	Dreaded Demon
+813	Hell-Chaos
+814	Hell-Shaman
+815	Racked Soul
+816	Hell's Wolf
+817	Hell's Nightmare
+8310	Anime-Metin
+8401	Kushala Daora-Metin1
+8402	Kushala Daora-Metin2
+8411	Metin of blood
+8412	Underground-Stone
+8413	Underground-Stone
+8414	Piercing Stone
+8416	Barroth-Metin
+8417	Barroth-Metin
+8418	Barroth-Metin2
+8550	Goldschimmer-Metin
+8559	Metin of Ochao
+8624	Ghost Tree Lord
+8700	Terrus (L)
+8701	Terrus Warrior
+
+8710	Terra (F)
+8711	Terra Warrior
+8712	Terra Magician
+8713	Terra Guardian
+8720	Ignisus Refuse
+8721	Ignisus Dragon
+8722	Ignisus Pig
+8723	Ignisus (L)
+8730	Ignis Refuse
+8731	Ignis Dragon
+8732	Ignis Pig
+8733	Ignis Scorpion
+8740	Glacius Jelly
+8741	Glacius Foxy
+8742	Glacius (L)
+8743	Glacius Magician
+8750	Kadashi-Wezu
+8751	Kadashi-Weza
+8752	Kadashi-Talo
+8753	Kadashi-Tola
+9201	Hell-Door
+9202	Dark door
+9203	Hell-Guardian [3. Farmmap]
+9210	Crystal-Seal
+9211	Crystal-Portal
+9212	Crystal-Siegel
+9213	Crystal-Portal
+9214	Dungeon
+9216	Fish-Leader
+9217	Magic-Clam
+9218	Ocean-Pillar
+9219	Anchor
+9220	Underwater-Guardian [3. Farmmap]
+940	Crystal-Soldier
+941	Ragnarok-Guruu
+942	Ragnarok-Safi
+943	Crystal-Beast
+944	Dark Crystal-Scorpion
+945	Ragnarok-Muhan
+946	Brutal Crystal-Beast
+947	Malignent Larv
+948	Crystal-Beast
+949	Ragnarok-Mu-Tai
+950	Crystal Dragon
+965	Green Piranha
+966	Original-Piranha
+967	Jellyfish
+968	Shark
+969	Bloodthirsty Shark
+970	Rainbow-Shark
+971	Shark-Monster
+972	Star
+973	Brutal Star-Creature
+974	Underwater-Frog
+975	Sea-Creature
+976	Strong Sea-Creature
+977	Sea-Killer
+978	Strong Sea-Killer
+979	Drunken dead Sailor
+980	Haunted Sailor
+981	Dead Sailor
+982	Underwater-Pirate
+983	Gavel-Pirate
+984	Old Underwater-Pirate
+985	Pirate-Chief
+986	Brutal Fish
+987	Upper-Pirate
+988	Brutal Pirate-Chief
+760	Bloody Rhinoo
+761	Amore's Bear
+762	Hate's Harpy
+763	Pink Troll
+764	Young Valen. Tree
+765	Valentine Tree
+8428	Metin of Love
+8440	Metin of Love - PvP
+8429	Chocolate
+9229	Lady Valentine - PvM
+9230	Rhodolite Ore
+9231	Monument of Love
+9232	Rhodolite
+9233	Lady Valentine
+9234	Unknown Herb
+9235	Dryad
+710	Shiva-Safi
+711	Shiva-Guruu
+712	Jagras-Mabu
+713	Shiva-Muhan
+714	Jagras-Nabu
+715	Jagras-Kamul
+716	Jagras-Babu
+717	Jagras-Guruu
+718	Jagras-Suran
+719	Jagras-Mu-Tai
+8424	Shiva-Metin
+8425	Jagras-Metin
+8426	Jagras-Metin2
+8427	Jagras-Metin3
+9225	Dungeon
+9226	Owl Totem
+9227	Lira
+9228	Owl Feather
+766	Slime
+767	Aggressive slime
+768	Slime queen
+8430	Slime metin
+9236	Thu-Rang
+9237	Seal stone
+9238	Slime
+460	Terra-Muhan
+461	Terra-Safi
+462	Pukei-Gazu
+463	Artemis-Guruu
+464	Artemis-Safi
+465	Artemis-Muhan
+466	Pukei-Mihan
+467	Terra-Guruu
+468	Pukei-Mango
+469	Pukei-Mu
+470	Eden-Mu-Tai
+471	Terra-Mu-Tai
+472	Pukei-Mu-Tai
+473	Pukei-Mila
+474	Pukei-Nisa
+475	Pukei-Sima
+476	Pukei-Rima
+477	Pukei-Misa
+478	Pukei-Wisa
+479	Pukei-Laso
+480	Pukei-Wani
+481	Pukei-Shima
+8431	Pukei-Metin
+8432	Pukei-Metin2
+8433	Eden-Metin
+9239	Garden door
+9241	Dungeon
+9242	Old container
+9243	Enchanted fountain
+9244	Poisoned botani
+9245	Mushrooms
+9246	Honey hive
+860	Eden-Muhan
+861	Eden-Guruu
+862	Odogaron-Juzu
+863	Odogaron-Fama
+864	Odogaron-Hamu
+865	Odogaron-Metin
+866	Eden-Safi
+867	Odogaron-Manta
+9263	Kadashi-Mu-Tai
+8300	Kadashi-Metin
+8304	Kadashi-Metin2
+868	Odogaron-Huma
+869	Odogaron-Matu
+870	Rathian-Kazamu
+871	Rathian-Kaza
+872	Odogaron-Zara
+873	Rathian-Kazanu
+874	Odogaron-Tama
+875	Odogaron-Fata
+876	Odogaron-Kazu
+877	Odogaron-Metin2
+878	Odogaron-Mu-Tai
+879	Artemis-Mu-Tai
+880	Rathian-Mu-Tai
+9207	Crafter Tier 4
+9208	PVM Crafter
+686	Owl Villager
+687	Owl Priest
+688	Owl General
+689	Shiva-Mu-Tai
+670	Barroth-Kula
+671	Barroth-Daizu
+672	Barroth-Yamu
+673	Barroth-Hisu
+674	Barroth-Jazu
+675	Barroth-Kele
+676	Barroth-Mu-Tai
+8421	Aqua-Metin
+951	Jungle Flower(high)
+952	Hungry Jungle Flower(high)
+953	Black Gorilla(high)
+954	Brown Gorilla(high)
+955	Green Lizard(high)
+956	Red Lizard(high)
+957	Small Blue Crab(high)
+958	Small Green Crab(high)
+959	Aqua-Safi
+960	Aqua-Guruu
+961	Aqua-Muhan
+962	Defensive Lobster(high)
+963	Water Monster(high)
+964	Aqua-Mu-Tai
+9215	Summer-Event
+9951	Jungle Flower(low)
+9952	Hungry Jungle Flower(low)
+9953	Black Gorilla(low)
+9954	Brown Gorilla(low)
+9955	Green Lizard(low)
+9956	Red Lizard(low)
+9957	Small Blue Crab(low)
+9958	Small Green Crab(low)
+9959	Strong Crab(low)
+9960	Agressive Strong Crab(low)
+9961	Big Lobster(low)
+9962	Defensive Lobster(low)
+9963	Water Monster(low)
+9964	Giant Crab(low)
+9330	Rathian-Salu
+9331	Rathian-Saula
+9332	Rathian-Raga
+9333	Rathian-Gamba
+8303	Rathian-Metin2
+9335	Damned Queen of Moths
+9334	Rathian-Metin
+8406	Terra-Metin
+8407	Artemis-Metin
+8408	Metin of Jungle(low)
+8450	Metin of Beach(low)
+8410	Metin of Jungle(high)
+8452	Metin of Beach(high)
+8409	Metin of Jungle(2)(low)
+8451	Metin of Beach(2)(low)
+8415	Metin of Jungle(2)(high)
+8453	Metin of Beach(2)(high)
+482	Female Buman(low)
+483	Evil Female Buman(low)
+484	Small Bunny(low)
+485	Spring Baby Ent(low)
+486	Easter Rat(low)
+487	Evil Easter Rabbit(low)
+8434	Easter Metin
+8435	Easter Egg
+8436	Evil Egg
+9247	Old Bridge
+9248	Wooden Door
+9249	Wooden Fence
+9250	Easter Rabbit
+1482	Female Buman(medium)
+1483	Evil Female Buman(medium)
+1484	Small Bunny(medium)
+1485	Spring Baby Ent(medium)
+1486	Easter Rat(medium)
+1487	Evil Easter Rabbit(medium)
+18434	Easter Metin(medium)
+18435	Easter Egg(medium)
+18436	Evil Egg(medium)
+2482	Female Buman(hard)
+2483	Evil Female Buman(hard)
+2484	Small Bunny(hard)
+2485	Spring Baby Ent(hard)
+2486	Easter Rat(hard)
+2487	Evil Easter Rabbit(hard)
+28434	Easter Metin(hard)
+28435	Easter Egg(hard)
+28436	Evil Egg(hard)
+482	Oster-Dungeon-Talon (20-55)
+483	Oster-Dungeon-Kazo (20-55)
+484	Oster-Dungeon-Hera (20-55)
+485	Oster-Dungeon-Palo (20-55)
+486	Oster-Dungeon-Tano (20-55)
+487	Oster-Dungeon-Mu-Tai (20-55)
+488	Oster-Dungeon-Mu-Tai (20-55) (EPIC)
+8434	Oster-Dungeon-Metin (20-55)
+8435	Oster-Dungeon-Metin2 (20-55)
+8436	Oster-Dungeon-Metin3 (20-55)
+1482	Oster-Dungeon-Talon (100-125)
+1483	Oster-Dungeon-Kazo (100-125)
+1484	Oster-Dungeon-Hera (100-125)
+1485	Oster-Dungeon-Palo (100-125)
+1486	Oster-Dungeon-Tano (100-125)
+1487	Oster-Dungeon-Mu-Tai (100-125)
+1488	Oster-Dungeon-Mu-Tai (100-125) (EPIC)
+18434	Oster-Dungeon-Metin (100-125)
+18435	Oster-Dungeon-Metin2 (100-125)
+18436	Oster-Dungeon-Metin3 (100-125)
+2482	Oster-Dungeon-Talon (150)
+2483	Oster-Dungeon-Kazo (150)
+2484	Oster-Dungeon-Hera (150)
+2485	Oster-Dungeon-Palo (150)
+2486	Oster-Dungeon-Tano (150)
+2487	Oster-Dungeon-Mu-Tai (150)
+2488	Oster-Dungeon-Mu-Tai (150) (EPIC)
+28434	Oster-Dungeon-Metin (150)
+28435	Oster-Dungeon-Metin2 (150)
+28436	Oster-Dungeon-Metin3 (150)
+48521	Heavently Horse
+48522	Satan
+48523	Blue Wolf of Souls
+48524	Bone Dragon
+48525	Smilodon
+48526	Frosty
+48527	Crystal Dragon
+48528	Crystal Horse
+48529	Stone Deer
+48530	Antelope
+48531	Purple Dragon
+48532	Rhaegar
+48533	Ice Phoenix
+48534	Asmodeus
+48535	Sharknado
+48536	Arceus
+48537	Hounted Mount
+48538	Stone Crab
+48539	Halloween-Mount
+48540	Fire Phoenix
+48541	Angel Horse
+48542	Shark
+48543	Medusa Horse
+48544	Monster
+48545	Natural Beest
+48546	Shark
+48547	Great Eagle Owl
+48548	Brave Seahorse
+48549	Bone Dog
+48550	Lannister
+48551	Hell Beast
+48552	Heavens Beast
+48553	Spirit
+48554	Vehicle
+48555	Butterfly
+48557	Spider
+48558	Deathbringer
+48559	Bull
+48562	Wild Boar
+48563	Karanda
+48567	White Tiger
+48568	Magma Dragon
+48569	Count Batcular
+9430	World-Boss (PvP)
+9431	World-Boss (PvM)
+48560	Queen Elf
+48561	Queen Elf+
+48570	Burmese Cat
+48571	Burmese Cat+
+48580	Tabaluga
+48581	Tabaluga+
+48590	Dark Spyro
+48591	Dark Spyro+
+38521	Putty
+38522	Quapsel (green)
+38523	Quapsel (blue)
+38524	Baby Drako
+38525	Bulbasaur
+38526	Tom Nook
+38527	Brown Catkin
+38528	Splendid Chicks
+38529	Mouth Dragon
+38530	Horned Dragon
+38531	Devil Dragon Baby
+38532	Brown Fenrir
+38533	Giant Fox
+38534	Green Frog
+38535	Small Pug
+38536	Three-Bone Head
+38537	Hippo
+38539	Hippo
+38539	Little Owl
+38540	Small ChaoChao
+38541	Beetle Man
+38542	Ivern
+38543	Ivern
+38544	Natural Turtle
+38545	Baby Skeleton Dragon
+38546	Worm
+2524	Hell Officer
+2525	Hell Guard
+2526	Double-head Hell Archer
+2527	Infernal Claw
+1760	Bloody Rhinoo
+1761	Amore's Bear
+1762	Hate's Harpy
+1763	Pink Troll
+1764	Young Valen. Tree
+1765	Valentine Tree
+38428	Metin of Love
+38429	Chocolate
+39229	Lady Valentine - PvP
+39230	Rhodolite Ore
+39231	Monument of Love
+39232	Rhodolite
+39233	Lady Valentine
+39234	Unknown Herb
+39235	Dryad
+38550	Fenrir
+38551	Rainbow Dash
+38552	Balto
+38553	Lemmy
+38554	Skipper
+38555	Selkie
+38556	Baba Jega
+38557	Pina
+16007	Fisherman (Event)
+24361	Vaal Hazak-Hero
+24362	Vaal Hazak-Talo
+24363	Vaal Hazak-Sona
+24364	Vaal Hazak-Sano
+24365	Vaal Hazak-Bali
+24366	Vaal Hazak-Balo
+24367	Vaal Hazak-Hara
+24368	Vaal Hazak-Hera
+24369	Vaal Hazak-Hora
+24370	Vaal Hazak-Kali
+24371	Vaal Hazak-Tali
+24372	Vaal Hazak-Sala
+24373	Vaal Hazak-Sola
+24374	Vaal Hazak-Sela
+24375	Vaal Hazak-Palim
+24376	Vaal Hazak-Pene
+24377	Vaal Hazak-Haro
+24378	Vaal Hazak-Ragna
+24379	Vaal Hazak-Roga
+24380	Vaal Hazak-Rega
+24381	Vaal Hazak-Raga
+24382	Vaal Hazak-Meno
+24383	Vaal Hazak-Mani
+24384	Vaal Hazak-Muno
+24385	Vaal Hazak-Mundo
+24386	Vaal Hazak-Tepa
+24387	Vaal Hazak-Tempa
+24388	Vaal Hazak-Mu-Tai
+24482	Vaal Hazak-Tela
+24483	Vaal Hazak-Tena
+24484	Vaal Hazak-Sana
+24485	Vaal Hazak-Lorim
+24486	Vaal Hazak-Laro
+24487	Vaal Hazak-Heca
+24488	Vaal Hazak-Haca
+28494	Vaal Hazak-Hoca
+28495	Vaal Hazak-Opim
+28496	Vaal Hazak-Opam
+28497	Vaal Hazak-Ope
+28498	Vaal Hazak-Rando
+28499	Vaal Hazak-Mendo
+29376	Shadow zone guard
+9376	Vaal Hazak
+29377	Shadow seal stone
+29378	Statue of reaper
+29379	Statue of reaper
+29380	Statue of reaper
+29381	Statue of reaper
+29382	Shadow gate
+29383	Shadow pillar
+29384	Shadow pillar
+29385	Shadow pillar
+29386	Shadow chest
+
+4139	Kulve Taroth-Hero
+4140	Kulve Taroth-Talo
+4141	Kulve Taroth-Sona
+4142	Kulve Taroth-Sano
+4143	Kulve Taroth-Bali
+4144	Kulve Taroth-Balo
+4145	Kulve Taroth-Hara
+4146	Kulve Taroth-Hera
+4147	Kulve Taroth-Hora
+4148	Kulve Taroth-Kali
+4149	Kulve Taroth-Tali
+4150	Kulve Taroth-Sala
+4151	Kulve Taroth-Sola
+4152	Kulve Taroth-Sela
+4153	Kulve Taroth-Palim
+4154	Kulve Taroth-Pene
+4155	Kulve Taroth-Haro
+4156	Kulve Taroth-Ragna
+4157	Kulve Taroth-Roga
+4158	Kulve Taroth-Mu-Tai
+8472	Kulve Taroth-Metin1
+8473	Kulve Taroth-Metin2
+8474	Kulve Taroth-Metin3
+8475	Kulve Taroth-Metin4
+8476	Kulve Taroth-Metin5
+9338	Guardian of the pyramid
+9339	Ancient seal
+9340	Effigy of anubis
+9341	The pillar of wadjet
+9342	Ankh key
+9337	Sphinx treasure
+10301	. 96 565
+10302	. 528 581
+10303	. 279 517
+10304	. 784 802
+10305	. 992 742
+10306	. 1193 485
+10307	. 323 739
+10308	. 238 737
+10309	. 665 492
+10310	. 947 482
+10311	. 1070 818
+10312	. 628 847
+10313	. 1052 661
+10314	. 1033 117
+10315	. 1023 559
+10316	. 357 439
+10317	. 782 802
+10318	. 742 571
+10319	. 451 631
+10320	. 947 635
+10321	. 238 640
+10322	. 1193 584
+10323	. 555 478
+10324	. 936 743
+10325	. 1128 877
+10326	. 449 463
+10327	. 552 770
+10328	. 807 649
+10329	. 1205 801
+10330	. 151 679
+10331	. 707 770
+10332	. 96 472
+48600	NEWMOUNT1
+48601	NEWMOUNT2
+48602	NEWMOUNT3
+48603	NEWMOUNT4
+766	Anime-Dungeon-Haro (20-55)
+767	Anime-Dungeon-Bali (20-55)
+768	Anime-Dungeon-Mu-Tai (20-55)
+8430	Anime-Dungeon-Metin (20-55)
+9236	Thu-Rang
+9237	Anime-Dungeon-NPC1
+9238	Anime-Dungeon-NPC2
+1766	Anime-Dungeon-Haro (100-125)
+1767	Anime-Dungeon-Bali (100-125)
+1768	Anime-Dungeon-Mu-Tai (100-125)
+18430	Anime-Dungeon-Metin (100-125)
+19236	Thu-Rang
+19237	Anime-Dungeon-NPC1
+19238	Anime-Dungeon-NPC2
+2766	Anime-Dungeon-Haro (150)
+2767	Anime-Dungeon-Bali (150)
+2768	Anime-Dungeon-Mu-Tai (150)
+28430	Anime-Dungeon-Metin (150)
+29236	Thu-Rang
+29237	Anime-Dungeon-NPC1
+29238	Anime-Dungeon-NPC2
+3766	Anime-Dungeon-Haro (150+)
+3767	Anime-Dungeon-Bali (150+)
+3768	Anime-Dungeon-Mu-Tai (150+)
+38430	Anime-Dungeon-Metin (150+)
+39236	Thu-Rang
+39237	Anime-Dungeon-NPC1
+39238	Anime-Dungeon-NPC2
+
+30911	Supreme Gnoll Guard (EPIC)
+33911	Lemures Bodyguard (EPIC)
+37911	King Wubba (EPIC)
+36901	General Lobster (EPIC)
+8702	Rathalos-Metin1
+8703	Rathalos-Metin2
+8704	Stone of commemorate 
+9393	Jianhong
+9394	Zhihao
+9395	Crystal
+9396	Crystal
+9397	Crystal
+9398	Crystal
+9399	Ancient seal
+9400	Ancient seal
+9401	Brazier
+9402	Brazier
+9403	Ancient chest

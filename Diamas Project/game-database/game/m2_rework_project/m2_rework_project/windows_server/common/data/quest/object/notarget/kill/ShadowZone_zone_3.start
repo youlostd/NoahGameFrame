@@ -1,0 +1,63 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 2 and d . getf ( "ShadowZone_2f_KillMonsters" ) == 1 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local KILL_COUNT = settings [ "KILL_COUNT_2_FLOOR" ] ; 
+local n = d . getf ( "ShadowZone_2f_KillCount" ) + 1 
+d . setf ( "ShadowZone_2f_KillCount" , n ) 
+if pc . get_x ( ) > 961 and pc . get_y ( ) > 423 and pc . get_x ( ) < 1164 and pc . get_y ( ) < 612 then 
+if n >= KILL_COUNT then 
+game . drop_item ( 30845 , 1 ) 
+d . setf ( "ShadowZone_2f_KillCount" , 0 ) 
+d . setf ( "ShadowZone_2f_KillMonsters" , 0 ) 
+end 
+end 
+ return end if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 4 and d . getf ( "ShadowZone_4f_KillMonsters" ) == 1 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local KILL_COUNT = settings [ "KILL_COUNT_4_FLOOR" ] ; 
+local n = d . getf ( "ShadowZone_4f_KillCount" ) + 1 
+d . setf ( "ShadowZone_4f_KillCount" , n ) 
+if pc . get_x ( ) > 585 and pc . get_y ( ) > 98 and pc . get_x ( ) < 743 and pc . get_y ( ) < 212 then 
+if n >= KILL_COUNT then 
+game . drop_item ( 30846 , 1 ) 
+d . setf ( "ShadowZone_4f_KillCount" , 0 ) 
+d . setf ( "ShadowZone_4f_KillMonsters" , 0 ) 
+end 
+end 
+ return end if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 8 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local DropChance = settings [ "drop_chance_8f" ] 
+if pc . get_x ( ) > 31 and pc . get_y ( ) > 1126 and pc . get_x ( ) < 166 and pc . get_y ( ) < 1274 then 
+if d . getf ( "ShadowZone_8F_Drop" ) == 1 then 
+if number ( 1 , DropChance ) == 70 then 
+game . drop_item ( 30849 , 1 ) ; 
+end 
+end 
+end 
+ return end if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_9f_Monsters" ) == 1 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local KILL_COUNT = settings [ "KILL_COUNT_9_FLOOR" ] 
+local n = d . getf ( "ShadowZone_9th_count" ) + 1 
+d . setf ( "ShadowZone_9th_count" , n ) 
+if n >= KILL_COUNT then 
+if d . getf ( "ShadowZone_9f_StoneFail" ) == 1 then 
+d . notice ( "Shadow tower: One more wave is coming!" ) 
+d . setf ( "ShadowZone_9f_StoneFail" , 0 ) 
+d . setf ( "ShadowZone_9th_count" , 0 ) 
+server_timer ( "ShadowZone_NinethFloor_2" , settings [ "time_to_jump" ] , d . get_map_index ( ) ) 
+else 
+ShadowZoneLIB3 . clearDungeon ( ) ; 
+d . setf ( "ShadowZone_9th_count" , 0 ) 
+d . setf ( "ShadowZone_9f_Monsters" , 0 ) ; 
+d . setf ( "ShadowZone_9f_Boss" , 1 ) ; 
+d . notice ( "Shadow tower: A monster is coming, its unknown!" ) ; 
+server_timer ( "ShadowZone_NinethFloor_3_3" , settings [ "time_to_jump" ] , d . get_map_index ( ) ) ; 
+end 
+end 
+ return end if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 9 and d . getf ( "ShadowZone_9f_Boss" ) == 1 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local Position = settings [ "final_boss_pos" ] 
+local FinalBossTimer = settings [ "time_to_kill_final_boss" ] 
+local Floor = d . getf ( "ShadowZone_floor" ) 
+if npc . get_vid ( ) == d . get_unique_vid ( "RandomBoss_3" ) then 
+d . setf ( "ShadowZone_9f_Boss" , 0 ) 
+d . notice ( "Shadow tower: You are almost at the end. But the worst is just about to come!" ) 
+d . setf ( "ShadowZone_FinalBoss" , 1 ) 
+d . regen_file ( settings [ "regen_file" ] .. "regen_boss.txt" ) ; 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_FinalBoss_kill" , FinalBossTimer , d . get_map_index ( ) ) 
+end 
+ return end 

@@ -1,0 +1,15 @@
+say_title ( " PvP turnuvasi " ) 
+say ( "Su ana kadar " .. tostring ( attender_count ) .. " oyuncu kayit oldu." ) 
+if ae_pvp_tournament ~= nil then 
+say ( "" ) 
+return 
+end 
+say ( " Kayitlari kapatmak istiyor musun? " ) 
+say ( "" ) 
+local s = select ( "Evet " , "Hayir " ) 
+if s == 1 then 
+say_title ( "Kayitlari kapat:" ) 
+say ( "Kayitlari kapattin." ) 
+say ( "" ) 
+pvp_manager . close_registrations ( ) 
+end 

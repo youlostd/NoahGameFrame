@@ -1,0 +1,14 @@
+executable("format_proto") {
+  sources = [
+    "Actions.cpp",
+    "Main.cpp",
+    "resource.rc",
+  ]
+
+  deps = [
+    "//external/boost/libs/program_options",
+    "//src/share:console_app",
+    "//src/share/base",
+    "//src/share/game",
+  ]
+}

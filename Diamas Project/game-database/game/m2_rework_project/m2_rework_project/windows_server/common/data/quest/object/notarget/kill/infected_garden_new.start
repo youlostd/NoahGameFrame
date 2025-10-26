@@ -1,0 +1,96 @@
+if pc . in_dungeon ( 210 ) then local stage = getDungeonStage ( ) 
+local race = npc . race if stage == 1 and race == 462 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_2.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 2 and race == 466 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_3.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+end 
+elseif stage == 3 and race == 8431 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_8.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 4 and race == 468 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 469 , 503 , 233 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 5 and race == 469 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_11.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 6 and race == 473 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_13.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 7 and race == 474 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_17.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 8 and race == 477 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 469 , 503 , 233 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 9 and race == 469 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_14.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 10 and race == 475 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_15.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+end 
+elseif stage == 11 and race == 8432 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_16.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 12 and race == 476 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/infected_garden_new/" .. "stage_boss.txt" ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 13 and race == 472 or race == 4721 then 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 5 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 472 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNGEON_ID_GARDEN , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( race ) ) 
+pc . update_dungeon_progress ( DUNGEON_ID_GARDEN ) 
+d . completed ( ) 
+setDungeonWarpLocation ( 220 , 227 , 165 ) 
+server_timer ( "exit_dungeon_final" , 15 , pc . get_map_index ( ) ) 
+end 
+ return end 

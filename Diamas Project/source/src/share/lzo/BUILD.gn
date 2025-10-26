@@ -1,0 +1,11 @@
+source_set("lzo") {
+  sources = [
+    "LzoCompressor.cpp",
+    "LzoConfig.cpp",
+  ]
+
+  public_deps = [
+    "../base",
+    "//external/lzo",
+  ]
+}

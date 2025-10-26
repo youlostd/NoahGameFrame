@@ -1,0 +1,12 @@
+if pc . get_map_index ( ) == 212 and not pc . in_dungeon ( ) then pc . warp ( 164 , 18500 , 18500 ) 
+ return end if pc . in_dungeon ( 212 ) and isDungeonLeader ( ) and getDungeonStage ( ) == 0 then d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_1.txt" ) 
+d . notice ( "Easter dungeon: 10 minutes left!" ) 
+pc . setqf ( "dungeon_start_time" , get_global_time ( ) ) 
+d . add_boss_vnum ( 719 ) 
+d . add_boss_vnum ( 7191 ) 
+owl_dungeon_new . setDungeonTimeout ( 60 * 60 ) 
+setDungeonWarpLocation ( 164 , 185 , 185 ) 
+setDungeonExitCounter ( 10 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+ return end 

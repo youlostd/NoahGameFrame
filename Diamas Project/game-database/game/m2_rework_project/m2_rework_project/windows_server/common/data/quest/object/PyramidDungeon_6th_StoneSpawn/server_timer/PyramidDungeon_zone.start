@@ -1,0 +1,5 @@
+local settings = PyramidDungeonLIB . Settings ( ) ; 
+if d . select ( get_server_timer_arg ( ) ) then 
+d . spawn_mob ( 8475 , 948 , 1142 ) ; 
+server_timer ( "PyramidDungeon_6f_stone_k" , settings [ "time_to_destroy_final_stone" ] , d . get_map_index ( ) ) 
+end 

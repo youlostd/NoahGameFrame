@@ -1,0 +1,13 @@
+local settings = PyramidDungeonLIB . Settings ( ) ; local Items = settings [ "Items_2floor" ] ; 
+if pc . count_item ( Items [ 1 ] ) < 1 or pc . count_item ( Items [ 2 ] ) < 1 or pc . count_item ( Items [ 3 ] ) < 1 or pc . count_item ( Items [ 4 ] ) < 1 then 
+setskin ( NOWINDOW ) 
+syschat ( "Ancient pyramid: You need to have all 4 pieces!" ) 
+else 
+setskin ( NOWINDOW ) 
+for index = 1 , table . getn ( Items ) begin 
+pc . remove_item ( Items [ index ] , pc . count_item ( Items [ index ] ) ) ; 
+end 
+npc . kill ( ) 
+d . notice ( "Ancient pyramid: It was spell to summon %s, kill it!" , c_mob_name ( 4154 ) ) ; 
+d . spawn_mob ( 4154 , 306 , 126 ) 
+end 

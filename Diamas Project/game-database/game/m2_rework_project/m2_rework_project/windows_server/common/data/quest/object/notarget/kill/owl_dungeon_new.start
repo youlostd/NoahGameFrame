@@ -1,0 +1,72 @@
+if pc . in_dungeon ( 212 ) then local stage = getDungeonStage ( ) 
+local race = npc . race if stage == 1 and race == 8425 then 
+d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_2.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+elseif stage == 2 and race == 712 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_3.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 10 ) 
+end 
+elseif stage == 3 and race == 8426 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 718 , 586 , 544 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 4 and race == 718 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_8.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 5 and race == 714 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 718 , 586 , 544 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 6 and race == 718 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_11.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 7 and race == 715 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_14.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 8 and race == 716 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_15.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 30 ) 
+end 
+elseif stage == 9 and race == 717 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/owl_dungeon_new/" .. "stage_boss.txt" ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 10 and race == 719 or race == 7191 then 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 5 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 719 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNGEON_ID_OWL , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( race ) ) 
+pc . update_dungeon_progress ( DUNGEON_ID_OWL ) 
+d . completed ( ) 
+setDungeonWarpLocation ( 164 , 185 , 185 ) 
+server_timer ( "exit_dungeon_final" , 15 , pc . get_map_index ( ) ) 
+end 
+ return end 

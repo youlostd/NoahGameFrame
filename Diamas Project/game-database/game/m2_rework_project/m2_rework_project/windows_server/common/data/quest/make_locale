@@ -1,0 +1,12 @@
+#!/usr/local/bin/python
+import pre_qc
+import os
+import sys
+
+os.system('rm -rf object')
+
+if os.system('./qc --output-path object --stamp qc.cache  @locale_list'):
+	os.system('chmod -R 770 object')
+	import sys
+	sys.exit(-1)
+os.system('chmod -R 770 object')

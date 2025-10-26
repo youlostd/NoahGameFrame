@@ -1,0 +1,6 @@
+[DELAY value;10]
+The wisdom achieved through[ENTER]
+long years of intense study[ENTER]
+allow the Shamans to use[ENTER]
+Spells and Magic to attack[ENTER]
+their foes.

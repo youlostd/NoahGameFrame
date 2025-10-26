@@ -1,0 +1,18 @@
+quest itemschrotter begin
+	state start begin
+        when 20401.take with item.get_id() begin
+            local vnum = item.get_vnum()
+            local s = select("Item entfernen","Item behalten")
+            if s == 1 then
+                local count = item.get_count()
+				if count > 1 then
+					pc.remove_item(item.get_vnum(),count)
+				else
+					item.remove()
+				end
+            elseif s == 2 then
+                return
+            end
+        end
+    end
+end

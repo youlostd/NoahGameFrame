@@ -1,0 +1,14 @@
+if PyramidDungeonLIB . isActive ( ) and d . getf ( "PyramidDungeon_level" ) == 6 then PyramidDungeonLIB . clearDungeon ( ) ; 
+PyramidDungeonLIB . clearTimers ( ) ; 
+d . notice ( "Anci group: You did it! Spectacular job!" ) ; 
+d . notice ( "Anci group: Dungeon will be automatically closed in 3 minutes." ) ; 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 1 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 4158 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNDEON_ID_PYRA , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( npc . get_race ( ) ) ) 
+pc . update_dungeon_progress ( DUNDEON_ID_PYRA ) 
+d . completed ( ) 
+d . setf ( "PyramidDungeon_CanTakeReward" , 1 ) ; 
+server_timer ( "PyramidDungeon_final_exit" , 30 , d . get_map_index ( ) ) 
+ return end 

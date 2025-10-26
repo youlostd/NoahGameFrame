@@ -1,0 +1,34 @@
+quest pet_trader begin
+	state start begin
+		when login or levelup with pc.get_level() == 5  begin
+			set_state(information)
+		end
+	end
+	state information begin
+		when letter begin
+			local v = find_npc_by_vnum(20403)
+			if v != 0 then
+				target.vid("__TARGET__", v, c_mob_name(20403))
+			end
+			send_letter(gameforge.pet_trader._10_sendLetter)
+		end
+
+		when button or info begin
+			say_title(gameforge.pet_trader._10_sendLetter)
+			--say_size(480,130)
+			say(gameforge.pet_trader._20_say)
+		end
+
+		when __TARGET__.target.click or 20403.chat.gameforge.pet_trader._30_npcChat begin
+			say_title(string.format(gameforge.acce._20_sayTitle, c_mob_name(20403)))
+			target.delete("__TARGET__")
+			say(gameforge.pet_trader._40_say)
+			command("cube open")
+			clear_letter()
+			set_state(__COMPLETE__)
+		end
+	end
+	
+	state __COMPLETE__ begin
+	end
+end

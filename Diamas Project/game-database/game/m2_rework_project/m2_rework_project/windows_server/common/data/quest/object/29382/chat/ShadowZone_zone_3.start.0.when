@@ -1,0 +1,1 @@
+return ShadowZoneLIB3 . isActive ( ) and ( party . is_party ( ) and party . is_leader ( ) or not party . is_party ( ) )

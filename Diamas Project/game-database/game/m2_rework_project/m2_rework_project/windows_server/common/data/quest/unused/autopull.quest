@@ -1,0 +1,7 @@
+quest autopull begin
+    state start begin    
+        when 71247.use or 71248.use begin --Item ID Anpassen!
+            pc.aggregate_monster()
+        end
+    end
+end  

@@ -1,0 +1,2 @@
+if next_time_is_now ( ) then setstate ( "start" ) 
+ return end 

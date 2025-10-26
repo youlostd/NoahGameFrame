@@ -1,0 +1,4 @@
+if PyramidDungeonLIB . isActive ( ) and d . getf ( "PyramidDungeon_level" ) == 6 then d . setf ( "PyramidDungeon_6f_pillar_k" , 1 ) ; 
+d . notice ( "Ancient pyramid: The %s has no power to do magic anymore!" , c_mob_name ( 4158 ) ) ; 
+d . notice ( "Ancient pyramid: Kill it!!" ) ; 
+ return end 

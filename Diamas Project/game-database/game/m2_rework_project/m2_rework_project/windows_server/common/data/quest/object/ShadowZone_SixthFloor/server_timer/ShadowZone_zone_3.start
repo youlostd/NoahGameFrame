@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( "Shadow tower: Time is up. You have failed!" ) 
+d . exit_all ( ) 
+end 

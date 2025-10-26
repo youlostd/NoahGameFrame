@@ -1,0 +1,533 @@
+quest warpring begin
+	state start begin
+		when 70007.use with not MeleyLair.IsMeleyMap() and not pc.in_dungeon() begin
+
+
+			local warp = {--koord Pflicht, rest optional!
+				{--Map1
+					name = gameforge.warpring._200_select,
+					{--Blaues Reich
+						name = gameforge.warpring._20_selectb,
+						koord = {41,38300,64400},
+						minlevel = 1,
+						maxlevel = 255,
+					},
+					{--Rotes Reich
+						name = gameforge.warpring._30_selectb,
+						koord = {43,44700,41200},
+						minlevel = 1,
+						maxlevel = 255,
+					},
+					{--Rotes Reich
+						name = gameforge.warpring._20_selectr,
+						koord = {1,64500,58500},
+						minlevel = 1,
+						maxlevel = 255,
+					},
+					{--Gelbes Reich
+						name = gameforge.warpring._30_selectr,
+						koord = {3,46000,63100},
+						minlevel = 1,
+						maxlevel = 255,
+					},
+					{--Gelbes Reich
+						name = gameforge.warpring._20_selectg,
+						koord = {21,63600,64000},
+						minlevel = 1,
+						maxlevel = 255,
+					},
+					{--Blaues Reich
+						name = gameforge.warpring._30_selectg,
+						koord = {23,43100,35200},
+						minlevel = 1,
+						maxlevel = 255,
+					},
+				},
+				
+				-- {--Map1
+					-- name = gameforge.warpring._easterfarmmap2,
+					-- {--Blaues Reich
+						-- name = gameforge.warpring._easterfarmmap1,
+						-- koord = {164,18500,18500},
+						-- minlevel = 20,
+						-- maxlevel = 255,
+					-- },
+					-- {--Rotes Reich
+						-- name = gameforge.warpring._easterfarmmap3,
+						-- koord = {163,93400,12400},
+						-- minlevel = 100,
+						-- maxlevel = 255,
+					-- },
+					-- {--Rotes Reich
+						-- name = gameforge.warpring._easterfarmmap4,
+						-- koord = {167,26400,18400},
+						-- minlevel = 150,
+						-- maxlevel = 255,
+					-- },
+					-- {--Gelbes Reich
+						-- name = gameforge.warpring._easterfarmmap5,
+						-- koord = {320,26500,31100},
+						-- minlevel = 150,
+						-- maxlevel = 255,
+					-- },
+					-- {--Blaues Reich
+						-- name = gameforge.warpring._easterfarmmap,
+						-- koord = {245,45700,9700},
+						-- minlevel = 150,
+						-- maxlevel = 255,
+					-- },
+				-- },
+				
+				
+				-- {--Map1
+					-- name = gameforge.warpring._240_select,
+					-- {--Gelbes Reich
+						-- name = gameforge.warpring._240_select_001,
+						-- koord = {164,18500,18500},
+						-- minlevel = 20,
+						-- maxlevel = 255,
+					-- },
+					-- {--Rotes Reich
+						-- name = gameforge.warpring._240_select_002,
+						-- koord = {220,22700,16500},
+						-- minlevel = 55,
+						-- maxlevel = 255,
+					-- },
+					-- {--Rotes Reich
+						-- name = gameforge.warpring._240_select_003,
+						-- koord = {219,37000,30600},
+						-- minlevel = 75,
+						-- maxlevel = 255,
+					-- },
+					-- {--Gelbes Reich
+						-- name = gameforge.warpring._240_select_004,
+						-- koord = {163,93400,12400},
+						-- minlevel = 100,
+						-- maxlevel = 255,
+					-- },
+					-- {--Gelbes Reich
+						-- name = gameforge.warpring._240_select_005,
+						-- koord = {161,40214,70364},
+						-- minlevel = 125,
+						-- maxlevel = 255,
+					-- },
+					-- {--Blaues Reich
+						-- name = gameforge.warpring._240_select_006,
+						-- koord = {167,26400,18400},
+						-- minlevel = 150,
+						-- maxlevel = 255,
+					-- },
+					-- {--Blaues Reich
+						-- name = gameforge.warpring._240_select_009,
+						-- koord = {167,26400,18400},
+						-- minlevel = 150,
+						-- maxlevel = 255,
+					-- },
+					-- {--Blaues Reich
+						-- name = gameforge.warpring._240_select_007,
+						-- koord = {320,26500,31100},
+						-- minlevel = 150,
+						-- maxlevel = 255,
+					-- },
+					-- {--Blaues Reich
+						-- name = gameforge.warpring._240_select_008,
+						-- koord = {230,9000,9500},
+						-- minlevel = 150,
+						-- maxlevel = 255,
+					-- },
+				-- },
+				-- {
+				-- name = gameforge.warpring._220_select,
+						-- {
+							-- name = gameforge.warpring._220_select_1_3,
+						
+						-- {	name = gameforge.warpring._220_select_1_3,
+						
+						-- {
+							-- name = gameforge.warpring._220_select_spawn1,
+							-- koord = {164,18500,18500},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn2,
+							-- koord = {164,35600,11700},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn3,
+							-- koord = {164,56300,27600},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn4,
+							-- koord = {164,57100,40500},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn5,
+							-- koord = {164,47700,37100},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn6,
+							-- koord = {164,17400,60900},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn7,
+							-- koord = {164,68600,72000},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn8,
+							-- koord = {164,32200,73600},
+							-- minlevel = 20,
+							-- maxlevel = 255,
+						-- },
+						-- },
+						
+						-- },
+						
+						-- {
+							-- name = gameforge.warpring._30_selectfarm6,
+							
+						-- {
+							-- name = gameforge.warpring._220_select_spawn1,
+							-- koord = {220,22700,16500},
+							-- minlevel = 55,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn2,
+							-- koord = {220,71200,29500},
+							-- minlevel = 55,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn3,
+							-- koord = {220,101000,63400},
+							-- minlevel = 55,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn4,
+							-- koord = {220,134700,24700},
+							-- minlevel = 55,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn5,
+							-- koord = {220,141200,68000},
+							-- minlevel = 55,
+							-- maxlevel = 255,
+						-- },
+						-- },
+						-- {
+							-- name = gameforge.warpring._30_selectfarm9,
+						
+						-- {
+							-- name = gameforge.warpring._220_select_spawn1,
+							-- koord = {219,37000,30600},
+							-- minlevel = 75,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn2,
+							-- koord = {219,78500,34900},
+							-- minlevel = 75,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn3,
+							-- koord = {219,80500,68400},
+							-- minlevel = 75,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn4,
+							-- koord = {219,64300,76400},
+							-- minlevel = 75,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn5,
+							-- koord = {219,28700,74800},
+							-- minlevel = 75,
+							-- maxlevel = 255,
+						-- },
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_1_2,
+							
+						-- {
+							-- name = gameforge.warpring._220_select_spawn1,
+							-- koord = {163,93400,12400},
+							-- minlevel = 100,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn2,
+							-- koord = {163,73400,7900},
+							-- minlevel = 100,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn3,
+							-- koord = {163,29100,40500},
+							-- minlevel = 100,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn4,
+							-- koord = {163,10300,10200},
+							-- minlevel = 100,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn5,
+							-- koord = {163,43600,16500},
+							-- minlevel = 100,
+							-- maxlevel = 255,
+						-- },
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_1_1,
+
+						-- {
+							-- name = gameforge.warpring._220_select_spawn1,
+							-- koord = {161,40214,70364},
+							-- minlevel = 125,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn2,
+							-- koord = {161,34500,54600},
+							-- minlevel = 125,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn3,
+							-- koord = {161,61100,46000},
+							-- minlevel = 125,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn4,
+							-- koord = {161,56300,83400},
+							-- minlevel = 125,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn5,
+							-- koord = {161,22500,34100},
+							-- minlevel = 125,
+							-- maxlevel = 255,
+						-- },
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_ore,
+						
+						-- {
+							-- name = gameforge.warpring._220_select_spawn1,
+							-- koord = {167,26400,18400},
+							-- minlevel = 150,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn2,
+							-- koord = {167,17400,46600},
+							-- minlevel = 150,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn3,
+							-- koord = {167,79100,53000},
+							-- minlevel = 150,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn4,
+							-- koord = {167,84200,40000},
+							-- minlevel = 150,
+							-- maxlevel = 255,
+						-- },
+						-- {
+							-- name = gameforge.warpring._220_select_spawn5,
+							-- koord = {167,51100,68400},
+							-- minlevel = 150,
+							-- maxlevel = 255,
+						-- },
+						-- },
+				-- },
+				{
+				name = gameforge.warpring._230_select,
+						{
+							name = gameforge.functions._220_say,
+							koord = {160,92800, 60000},
+							minlevel = 1,
+							maxlevel = 255,
+						},
+						{
+							name = gameforge.locale.map_name_4,
+							koord = {400,86400, 69300},
+							minlevel = 1,
+							maxlevel = 255,
+						},
+						{--Map1
+							name = gameforge.functions._240_say,
+							koord = {500,88200,66000},
+							minlevel = 1,
+							maxlevel = 255,
+						},
+						{--Map1
+							name = gameforge.warpring.oremap,
+							koord = {229,20000,9700},
+							minlevel = 1,
+							maxlevel = 255,
+						},
+				},
+				{
+				name = gameforge.warpring._250_select_2,
+						{
+							name = gameforge.warpring._250_select,
+							koord = {160,87900,62100},
+							minlevel = 1,
+							maxlevel = 255,
+						},
+						{
+							name = gameforge.warpring._250_select_1,
+							koord = {400,77300,84000},
+							minlevel = 1,
+							maxlevel = 255,
+						},
+				},
+				-- {
+				-- name = gameforge.warpring._220_select,
+				-- {--Rotes Reich
+					-- name = gameforge.warpring._220_select,
+					-- koord = {167,26400,18400},
+					-- minlevel = 1,
+					-- maxlevel = 255,
+				-- },
+				-- },
+				-- {--Blaues Reich
+					-- name = gameforge.warpring._280_select,
+					-- koord = {168,15000,15000},
+					-- minlevel = 1,
+					-- maxlevel = 255,
+				-- },
+			}
+			warpring.showwarps(warp)
+		end
+		function warp(tbl)
+			local level = pc.get_level()
+			if tbl.minlevel and level < tbl.minlevel then
+				say(gameforge.newwarpring.say1)
+				say(gameforge.newwarpring.say2..tbl.minlevel)
+				select(gameforge.newwarpring.say3)
+				return
+			elseif tbl.maxlevel  and level > tbl.maxlevel then
+				say(gameforge.newwarpring.say4)
+				say(gameforge.newwarpring.say5..tbl.maxlevel)
+				select(gameforge.newwarpring.say3)
+				return
+			end
+			-- while not pc.can_warp() do
+				-- say(gameforge.newwarpring.say6)
+				-- say(gameforge.newwarpring.say7)
+				-- if select(gameforge.newwarpring.say8, gameforge.newwarpring.say3) == 2 then return end
+			-- end
+			local warpneedstrings = warpring.get_warpneedstrings(tbl)
+			if table.getn(warpneedstrings) > 0 then
+				say(gameforge.newwarpring.say9)
+				say(gameforge.newwarpring.say10)
+				for _,v in ipairs(warpneedstrings) do
+					say(v)
+				end
+				say("")
+				say(gameforge.newwarpring.say11)
+				if select(gameforge.newwarpring.say12, gameforge.newwarpring.say3) == 2 then return end
+			end
+			if not warpring.check_and_remove_warpneeds(tbl) then
+				say(gameforge.newwarpring.say13)
+				select(gameforge.newwarpring.say3)
+				return
+			end
+			pc.warp(tbl.koord[1], tbl.koord[2], tbl.koord[3])
+		end
+		function get_warpneedstrings(tbl)
+			local warpneeds = {}
+			if tbl.itemneed and table.getn(tbl.itemneed) > 0 then
+				for _,v in ipairs(tbl.itemneed) do
+					table.insert(warpneeds, "- "..v[2].."x "..c_item_name(v[1]))
+				end
+			end
+			if tbl.goldneed and tbl.goldneed > 0 then
+				table.insert(warpneeds, "- "..tbl.goldneed.." Yang")
+			end
+			return warpneeds
+		end
+		function check_warpneeds(tbl)
+			if tbl.itemneed and table.getn(tbl.itemneed) > 0 then
+				for _,v in ipairs(tbl.itemneed) do
+					if pc.count_item(v[1]) < v[2] then
+						return false
+					end
+				end
+			end
+			if tbl.goldneed and tbl.goldneed > 0 then
+				if pc.get_gold() < tbl.goldneed then
+					return false
+				end
+			end
+			return true
+		end
+		function remove_warpneeds(tbl)
+			if tbl.itemneed and table.getn(tbl.itemneed) > 0 then
+				for _,v in ipairs(tbl.itemneed) do
+					pc.remove_item(v[1], v[2])
+				end
+			end
+			if tbl.goldneed and tbl.goldneed > 0 then
+				pc.change_gold(-tbl.goldneed)
+			end
+		end
+		function check_and_remove_warpneeds(tbl)
+			if not warpring.check_warpneeds(tbl) then
+				return false
+			end
+			warpring.remove_warpneeds(tbl)
+			return true
+		end
+		function get_warpnames(tbl)
+			local level = pc.get_level()
+			local names = {}
+			for _,v in ipairs(tbl) do
+				if v.minlevel and level < v.minlevel then
+					v.name = v.name.." (Lv. "..v.minlevel..")"
+				elseif v.maxlevel  and level > v.maxlevel then
+					v.name = v.name.." (Lv. "..v.maxlevel..")"
+				end
+				table.insert(names, v.name)
+			end
+			return names
+		end
+		function showwarps(tbl)
+			local warpnames = warpring.get_warpnames(tbl)
+			local s = tbl[select3(warpnames)] or false
+			if not s then return end
+			if s.koord then
+				warpring.warp(s)
+				return
+			end
+			warpring.showwarps(s)
+		end
+	end
+end

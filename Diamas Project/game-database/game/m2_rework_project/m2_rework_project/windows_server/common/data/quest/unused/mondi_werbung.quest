@@ -1,0 +1,7 @@
+ quest moon_announce begin
+    state start begin
+        when login with game.get_event_flag("drop_moon") == 1 begin
+            notice("Das Mondlicht-Schatztruhen Event ist Aktiv.") --nur Metins und Bosse sollen Mondis droppen
+        end
+    end
+end

@@ -1,0 +1,5 @@
+[DELAY value;0]
+Ninja s¹ profesjonalnymi[ENTER]
+zabójcami, którzy s¹ w[ENTER]
+stanie zaatakowaæ swojego[ENTER]
+przeciwnika z zaskoczenia.

@@ -1,0 +1,8 @@
+when 9003.chat."Satıcı" begin
+npc . open_shop ( ) 
+setskin ( NOWINDOW ) 
+end
+when 9003.chat."Satıcı" begin
+npc . open_shop ( ) 
+setskin ( NOWINDOW ) 
+end

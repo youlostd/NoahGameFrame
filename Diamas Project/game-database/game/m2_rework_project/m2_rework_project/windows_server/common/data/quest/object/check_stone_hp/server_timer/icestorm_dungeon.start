@@ -1,0 +1,14 @@
+if ( d . select ( get_server_timer_arg ( ) ) ) then 
+local stage = getDungeonStage ( ) 
+if stage == 15 and d . unique_get_hp_perc ( "stone" ) <= 50 then 
+d . purge_unique ( "stone" ) 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_20.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+elseif stage == 17 and d . unique_get_hp_perc ( "stone" ) <= 25 then 
+d . purge_unique ( "stone" ) 
+d . spawn_mob ( 8753 , 373 , 85 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+end 

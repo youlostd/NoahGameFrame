@@ -1,0 +1,9 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/terrainmaps:d:/ymir work/terrainmaps/" ArchivePath="../bin/pack/terrain.pak" XmlPath="xml/terrain_create.xml">
+		<Ignore Pattern="*.png" />
+		<Ignore Pattern="*.psd" />
+		<Ignore Pattern="*.uas" />
+		<Ignore Pattern="*.pdn" />
+		<Ignore Pattern="*.ssc" />
+	</CreateEterPackXml>
+</ScriptFile>

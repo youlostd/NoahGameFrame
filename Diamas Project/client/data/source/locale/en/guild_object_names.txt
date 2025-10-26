@@ -1,0 +1,73 @@
+20139	Guild Banner (Purple)
+14401	Tree (2)
+20140	Guild Banner (Blue/Green)
+14202	Wall Back
+20141	Guild Banner (Red/Gold)
+14100	House (1)
+14101	Stone Wall (1-1)
+14102	Stone Wall (1-2)
+14103	Stone Wall (1-3)
+14104	Gate (1)
+14105	Wall (1)
+14407	Tree (8)
+14309	Stone (10)
+14110	House (2)
+14111	Stone Wall (2-1)
+14112	Stone Wall (2-2)
+14113	Stone Wall (2-3)
+14114	Gate (2)
+14115	Wall (2)
+14120	House (3)
+14121	Stone Wall (3-1)
+14122	Stone Wall (3-2)
+14123	Stone Wall (3-3)
+14124	Gate (3)
+14125	Wall (3)
+14301	Stone (2)
+14200	Guild Insignia
+14302	Stone (3)
+14303	Stone (4)
+14013	Weaponsmith
+14014	Armoursmith
+14015	Jeweller
+14400	Tree (1)
+14304	Stone (5)
+14402	Tree (3)
+14403	Tree (4)
+14404	Tree (5)
+14405	Tree (6)
+14406	Tree (7)
+14305	Stone (6)
+14408	Tree (9)
+14306	Stone (7)
+14033	Training Centre
+14307	Stone (8)
+14201	Wall Front
+14308	Stone (9)
+14043	Diamond Smelter
+14300	Stone (1)
+14045	Fossil Wood Smelter
+14046	Copper Smelter
+14047	Silver Smelter
+14048	Gold Smelter
+14049	Jade Smelter
+14050	Ebony Stone Smelter
+14051	Pearl Smelter
+14052	White Gold Smelter
+14053	Crystal Smelter
+14054	Amethyst Smelter
+14055	Heavens Tear Smelter
+14204	Right Side of Wall
+14061	Altar of Power
+14062	Altar of Power
+14063	Altar of Power
+14203	Left Side of Wall
+14071	Guild Warehouse
+14072	Guild Warehouse
+14073	Guild Warehouse
+14074	Soul Crystal Smelter
+14075	Ruby Smelter
+14076	Garnet Smelter
+14077	Emerald Smelter
+14078	Sapphire Smelter
+14079	Tourmaline Smelter

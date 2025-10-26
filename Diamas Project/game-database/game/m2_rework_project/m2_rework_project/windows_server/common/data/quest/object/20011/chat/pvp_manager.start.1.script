@@ -1,0 +1,12 @@
+if party . is_party ( ) then 
+setskin ( NOWINDOW ) 
+syschat ( "Grubun varken bunu yapamazsin." ) 
+return 
+end 
+say_title ( "PvP Turnuvasina Katil:" ) 
+say ( "Ne yapmak istiyorsun?" ) 
+local s = select ( "Evet isinla beni!" , "Vazgectim" ) 
+if s == 1 then 
+pc . warp ( 28 , 857300 , 3400 ) 
+else return 
+end 

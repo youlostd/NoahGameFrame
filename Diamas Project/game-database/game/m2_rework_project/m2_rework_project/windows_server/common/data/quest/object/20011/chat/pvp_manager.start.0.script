@@ -1,0 +1,6 @@
+say ( "Gitmek istedigine emin misin?" ) 
+say ( "" ) 
+local a = select ( "Evet" , "Yok" ) 
+if a == 1 then 
+pc . warp ( 28 , 857300 , 3400 ) 
+end 

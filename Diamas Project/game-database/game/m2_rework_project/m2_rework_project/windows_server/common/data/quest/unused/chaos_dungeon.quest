@@ -1,0 +1,404 @@
+define ENTRY_MAN 20412
+define DUNGEON_MAP_INDEX 306
+define ENTER_LIMIT_TIME 240
+define ENTRY_MAP_INDEX 306
+define FIRST_BOSS 6408
+define FINAL_BOSS 6192
+define MOB_REGEN_FILE_PATH = 'data/dungeon/chaos_dungeon/'
+define PASS_TICKET 30613
+define PARTY_MEMBER_COUNT 2
+
+quest chaos_dungeon begin
+	state start begin
+		when ENTRY_MAN.chat.gameforge.chaos_dungeon._10_npcChat with is_test_server() and pc.get_map_index() >= DUNGEON_MAP_INDEX * 10000 and pc.get_map_index() < (DUNGEON_MAP_INDEX + 1) *10000 begin
+			say(string.format(gameforge.chaos_dungeon._20_say, d.count_monster().." [ENTER]level : "..d.getf("level").." [ENTER]Dmap index : "..d.get_map_index().." [ENTER]Pmap index : "..pc.get_map_index().." [ENTER]access limit : "..pc.getf('chaos_dungeon','exit_time').." [ENTER]global time : "..get_global_time()))
+			if chaos_dungeon.is_chaosd(d.get_map_index()) then
+				say(gameforge.chaos_dungeon._30_say)
+			end
+		end	
+		when ENTRY_MAN.chat.gameforge.chaos_dungeon._40_npcChat with is_test_server() and pc.get_map_index() == ENTRY_MAP_INDEX begin -- Test
+			pc.setf('chaos_dungeon','exit_time',0)
+			say(gameforge.chaos_dungeon._50_say)
+		end
+		when ENTRY_MAN.chat.gameforge.chaos_dungeon._60_npcChat with is_test_server() and pc.get_map_index() == ENTRY_MAP_INDEX begin -- Test
+			local exit_time = pc.getf('chaos_dungeon', 'exit_time')
+			exit_time_d = exit_time / (60 * 60 * 24)
+			exit_time_h = math.mod(exit_time / (60 * 60), 24)
+			exit_time_m = math.mod(exit_time / 60, 60)
+			
+			local remain_time = (ENTER_LIMIT_TIME * 60) - (get_global_time() - exit_time)
+			remain_time_m = math.mod(remain_time / 60, 60)
+			if remain_time_m < 0 then
+				remain_time_m = 0
+			end
+			
+			local current_time = get_global_time() 
+			current_time_d = current_time / (60 * 60 * 24)
+			current_time_h = math.mod(current_time / (60 * 60), 24)
+			current_time_m = math.mod(current_time / 60, 60)
+			
+			say(gameforge.chaos_dungeon._70_say)
+say(string.format(gameforge.chaos_dungeon._80_say,exit_time_d, exit_time_h,exit_time_m))
+			say(gameforge.chaos_dungeon._90_say)
+say(string.format(gameforge.chaos_dungeon._100_say,remain_time_m))
+			say(gameforge.chaos_dungeon._110_say)
+say(string.format(gameforge.chaos_dungeon._80_say,current_time_d,current_time_h,current_time_m))
+		end	
+		function setting()
+			return 
+			{
+				['dungeon_entry_pos'] = {151, 940},-- Where the first coming in the dungeon
+				['boss_pos'] = {69,941},
+				['TEST_MAN_pos'] = {140,941},
+				['WARP_pos'] = {
+					{306, 151, 940},
+					{306, 151, 940}
+				},				
+				['outside_entry_pos_'] = {306, 618, 107} --The position where a kid standing
+			}
+		end
+		function make_dungeon() -- Creating a dungeon 
+			local setting = chaos_dungeon.setting()
+			d.new_jump_party(DUNGEON_MAP_INDEX, setting.dungeon_entry_pos[1], setting.dungeon_entry_pos[2])
+			d.set_item_group ('cd_pass_ticket', 1, PASS_TICKET, 1)
+			d.setf("start_time", get_global_time())
+		end
+		function clear_timer(inx) -- Clear the timer
+			clear_server_timer ('chaos_dungeon_ticket_remove', inx)
+			clear_server_timer ('chaos_dungeon_0m_left_timer', inx)
+			clear_server_timer ('chaos_dungeon_1m_left_timer', inx)
+			clear_server_timer ('chaos_dungeon_5m_left_timer', inx)
+			clear_server_timer ('chaos_dungeon_10m_left_timer', inx)
+			clear_server_timer ('chaos_dungeon_15m_left_timer', inx)
+			clear_server_timer ('chaos_dungeon_30m_left_timer', inx)
+			clear_server_timer ('chaos_dungeon_45m_left_timer', inx)
+			clear_server_timer ('chaos_dungeon_end_timer', inx)
+			clear_server_timer ('chaos_dungeon_leader_out_timer', inx)
+			clear_server_timer ('chaos_dungeon_1m_left_to_final_boss_spawn', inx)
+		end
+		function is_chaosd(idx)
+			return idx >= DUNGEON_MAP_INDEX * 10000 and idx < (DUNGEON_MAP_INDEX + 1) *10000
+		end
+		function level_clear() -- Level awoke, the Regent clear, clear area
+			d.clear_regen()
+			--d.purge_area(520000,155000,612000,228600) -- Map the entire -- d.purge() Consider using
+		end
+		when login begin
+			local idx = pc.get_map_index()
+			local setting = chaos_dungeon.setting()
+			if chaos_dungeon.is_chaosd(idx) then -- Dungeon position, the boss room admission exception
+				pc.set_warp_location(ENTRY_MAP_INDEX, setting.outside_entry_pos_[1] , setting.outside_entry_pos_[2]) --And when bouncing out of the dungeon geham
+				
+				if d.getf('dungeon_enter') == 0 then
+					if get_global_time() - pc.getf('chaos_dungeon','exit_time') < ENTER_LIMIT_TIME * 60 then -- Entry limited time
+						d.notice(gameforge.dungeon.time_limit_party)
+						say(gameforge.dungeon.time_limit)
+						timer('chaos_dungeon_warp_timer', 1)
+						return
+					elseif pc.count_item(PASS_TICKET) < 1 then -- If you do not have a pass
+						d.notice(gameforge.dungeon.no_ticket_party)
+						say(gameforge.dungeon.no_ticket)
+						timer('chaos_dungeon_warp_timer', 1)
+						return
+					elseif pc.get_level() < 95 then
+						d.notice(gameforge.dungeon.level_limit_party, 95)
+						say(string.format(gameforge.dungeon.level_limit, 95))
+						timer('chaos_dungeon_warp_timer', 1)
+						return
+					end
+					
+					if pc.get_map_index() >= DUNGEON_MAP_INDEX * 10000 and pc.get_map_index() < (DUNGEON_MAP_INDEX + 1) *10000 and d.getf('level') == 0 then
+						if party.is_leader() then
+							-- Related settings in the dungeon progress
+							d.setf('level',1)
+							d.spawn_mob(FIRST_BOSS,setting.boss_pos[1],setting.boss_pos[2])
+							server_timer('chaos_dungeon_30m_left_timer', 15*60, get_server_timer_arg())
+							server_timer ('chaos_dungeon_45m_left_timer',15*60, d.get_map_index())
+							
+							-- Pass processes involved 
+							-- Entries thrown out after people for lost tickets using the ticket to remove the timer.
+							d.say_diff_by_item_group ('cd_pass_ticket', gameforge.chaos_dungeon.say_2, gameforge.chaos_dungeon.say_3)
+							server_timer ('chaos_dungeon_ticket_remove', 5, d.get_map_index())
+								
+							-- Dungeon party and stores information about each other.
+							party.setf('dungeon_index', d.get_map_index())
+							d.setf('party_leader_pid', party.get_leader_pid())
+							
+							if is_test_server() then
+								d.spawn_mob(ENTRY_MAN, setting.TEST_MAN_pos[1] , setting.TEST_MAN_pos[2]) -- Test
+							end							
+							
+						end
+					end						
+				else 													-- In progress
+					-- <If you come into this conditional> 
+					-- One for each section, the following section is to be moved to clear the 
+					-- *** 2. Dungeon when you reconnect after disconnection (if allowed by the reconnection of the dungeon) 
+					-- In case one << 2>
+					if pc.getf('chaos_dungeon','ticket_delete') == 0 then -- If the ticket is not cleared, but the progress
+						-- Log out five minutes off timer party.
+						if party.is_party() and party.is_leader() then
+							clear_server_timer ('chaos_dungeon_leader_out_timer', idx)
+						end
+						pc.remove_item(PASS_TICKET, 1)
+						pc.setf('chaos_dungeon','ticket_delete',1)
+					end				
+				end
+			else
+				pc.setf('chaos_dungeon','ticket_delete',0)
+			end
+		end
+		when logout begin
+			local idx = pc.get_map_index()
+			if chaos_dungeon.is_chaosd(idx) then 
+				if d.getf('dungeon_enter') == 1 then -- Log out of position after a normal dungeon
+					pc.setf('chaos_dungeon','exit_time',get_global_time()) -- Instance, the last time in history, but because of the time limit should not intolerant or just record snapped
+				end
+				
+				if party.is_leader() then
+					server_timer ('chaos_dungeon_leader_out_timer',5*60, d.get_map_index())
+				end
+			end
+		end
+		-- Out parts thrown out.
+		when chaos_dungeon_warp_timer.timer begin
+			local setting = chaos_dungeon.setting()
+			pc.warp(setting.outside_entry_pos_[1]*100, setting.outside_entry_pos_[2] * 100, ENTRY_MAP_INDEX)
+		end
+		-- <A pass is not thrown out functions of the person> 
+			-- Inspect the entry pass bounced off stage, but not before starting the position that I could be a pass. 
+			-- After admission pass for two missing people thrown out at the start of the dungeon. 
+			-- Holding the position before entry if the missing boy malicious intent, so it seems more care is required. 
+		when chaos_dungeon_ticket_remove.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.exit_all_by_item_group('cd_pass_ticket')
+				d.delete_item_in_item_group_from_all ('cd_pass_ticket')
+				d.setqf2('chaos_dungeon','ticket_delete',1)
+				d.setf('dungeon_enter',1) 
+				
+				d.notice(gameforge.chaos_dungeon.say_37)
+			end
+		end
+		--Position
+		when ENTRY_MAN.chat.gameforge.chaos_dungeon.say_5 with pc.get_map_index() == ENTRY_MAP_INDEX begin
+			if party.is_party() then
+				--If you continue to allow re-entry during the dungeon
+				local party_check = 0
+				if d.find(party.getf("dungeon_index")) then
+					party_check = (d.getf_from_map_index("party_leader_pid", party.getf("dungeon_index")) == party.get_leader_pid())
+				end
+				
+				if d.find(party.getf("dungeon_index")) and party_check then
+					if get_global_time() - pc.getf("chaos_dungeon","exit_time") < 5 * 60 then -- Re not allowed to exceed 5 minutes
+						local dungeon_level = d.getf_from_map_index("level", party.getf("dungeon_index"))
+						local setting = chaos_dungeon.setting()
+						pc.warp(party.getf("dungeon_index"), setting.WARP_pos[dungeon_level][2] * 100, setting.WARP_pos[dungeon_level][3] * 100)
+					else -- Re not allowed to exceed 5 minutes
+						say(gameforge.chaos_dungeon.say_47)
+						say(gameforge.chaos_dungeon.say_29)
+					end
+				else						
+						local pids = {party.get_member_pids()}
+						local notEnoughLevelMembers = {}
+						local notCanPassMembers = {}
+						local RidingMembers = {}
+						local noTicketMembers = {}
+						local RideCheck = true
+						local ticketCheck = true
+						local levelCheck = true
+						local CanPassCheck = true
+							for i, pid in next, pids, nil do
+							
+							q.begin_other_pc_block(pid)			
+							local canPass = false
+								if pc.count_item(PASS_TICKET) >= 1 then
+									canPass = true
+								end
+								
+								if not canPass then
+									table.insert(noTicketMembers, pc.get_name())
+									ticketCheck = false
+								end								
+								if pc.is_riding() == true then
+									table.insert(RidingMembers, pc.get_name())
+									RideCheck = false
+								end
+								
+								if pc.get_level() < 95 then
+									table.insert(notEnoughLevelMembers, pc.get_name())
+									levelCheck = false
+								end
+								
+								if pc.getf("access_chaos_dungeon","chaos_pass") == 0 and not pc.is_gm() then
+									table.insert(notCanPassMembers, pc.get_name())
+									CanPassCheck = false
+								end								
+							q.end_other_pc_block(pid)
+							
+							end
+						-- Ticket check
+						if not ticketCheck then
+							say_title(c_mob_name(ENTRY_MAN))
+							say(gameforge.chaos_dungeon.say_NoTicket)
+							for i, name in next, noTicketMembers, nil do
+								say(string.format(gameforge.chaos_dungeon._120_say, name))
+							end	
+							return
+						end		
+						-- Horse , mount check
+						if not RideCheck then
+							say_title(c_mob_name(ENTRY_MAN))
+							say(gameforge.chaos_dungeon.say_MountsHorse)
+							for i, name in next, RidingMembers, nil do
+								say(string.format(gameforge.chaos_dungeon._120_say, name))
+							end
+
+							return
+						end			
+						-- Level check
+						if not levelCheck then
+							say_title(c_mob_name(ENTRY_MAN))
+							say(string.format(gameforge.dungeon.level_limit, 95))
+							for i, name in next, notEnoughLevelMembers, nil do
+								say(string.format(gameforge.chaos_dungeon._120_say, name))
+							end
+
+							return
+						end			
+						if not CanPassCheck then
+							say_title(c_mob_name(ENTRY_MAN))
+							say(gameforge.chaos_dungeon._130_say)
+							for i, name in next, notCanPassMembers, nil do
+								say(string.format(gameforge.chaos_dungeon._120_say, name))
+							end
+
+							return
+						end								
+					if party.is_leader() then				
+						if party.get_near_count() < PARTY_MEMBER_COUNT and not pc.is_gm() then
+							say(gameforge.chaos_dungeon.say_NoGroupMembers)
+							return
+						end
+						say(gameforge.chaos_dungeon.say_6)
+						local warp =  select(gameforge.dungeon.enter_yes, gameforge.dungeon.enter_no)
+						if warp == 1 then				
+							party.setf("chaos_dungeon_boss_kill_count", 0)
+							chaos_dungeon.make_dungeon()
+						end
+					else
+						say(gameforge.dungeon.leader_can_enter)
+					end
+				end
+			else
+				say(gameforge.dungeon.party_can_enter)
+			end
+		end
+		
+		when FIRST_BOSS.kill with chaos_dungeon.is_chaosd(pc.get_map_index()) and d.getf('level') == 1 begin
+			local setting = chaos_dungeon.setting()
+			chaos_dungeon.level_clear()
+			if pc.get_level() > 94 then
+			-- Quest check prior
+				server_timer('chaos_dungeon_1m_left_to_final_boss_spawn', 1*60, d.get_map_index())
+				d.setf('level',2)
+				d.notice(gameforge.chaos_dungeon.say_46_)
+			else
+				d.notice(gameforge.chaos_dungeon.say_32)
+				d.notice(gameforge.chaos_dungeon.say_28)
+						
+				server_timer('chaos_dungeon_end_timer',10,d.get_map_index())	
+			end	
+		end
+		when chaos_dungeon_1m_left_to_final_boss_spawn.server_timer begin
+			local setting = chaos_dungeon.setting()
+			if d.select(get_server_timer_arg()) then
+				d.spawn_mob(FINAL_BOSS,setting.boss_pos[1],setting.boss_pos[2])
+				d.notice(gameforge.chaos_dungeon.say_46)
+			end
+		end		
+		-- <Boss Room> 
+		-- Boss Kills
+		when FINAL_BOSS.kill with chaos_dungeon.is_chaosd(pc.get_map_index()) and d.getf('level') == 2 begin -- When the boss killed
+			d.notice(gameforge.chaos_dungeon.say_23)
+			d.notice(gameforge.chaos_dungeon.say_24)
+			notice_all(gameforge.chaos_dungeon._140_notice_all,  pc.get_name())
+			server_timer('chaos_dungeon_end_timer', 60,d.get_map_index())	
+			chaos_dungeon.level_clear()
+			
+			if party.is_party() then
+				highscore.register("cd_pt_time", get_global_time() - d.getf("start_time"), 0)
+			else
+				highscore.register("cd_time", get_global_time() - d.getf("start_time"), 0)
+			end
+			
+			highscore.register("chaos_dungeon_time", get_global_time() - d.getf("start_time"), 0)
+			pc.setqf("6192_kills", pc.getqf("6192_kills") +  1)	
+			
+			-- Of the party, catching yamacheon Quest (104 representatives and 105 rep quest) quest progress if people are to be cleared.
+			if party.is_party() then
+				party.setf("chaos_dungeon_boss_kill_count", 1)
+			end
+		end
+
+		-- <Period elapsed timer>
+		when chaos_dungeon_45m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(gameforge.chaos_dungeon.say_26, 45)
+				d.notice(gameforge.chaos_dungeon.say_25)
+				server_timer('chaos_dungeon_30m_left_timer', 15*60, get_server_timer_arg())
+			end
+		end
+		when chaos_dungeon_30m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(gameforge.chaos_dungeon.say_26, 30)
+				d.notice(gameforge.chaos_dungeon.say_25)
+				server_timer('chaos_dungeon_15m_left_timer', 15*60, get_server_timer_arg())
+			end
+		end
+		when chaos_dungeon_15m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(gameforge.chaos_dungeon.say_26, 15)
+				d.notice(gameforge.chaos_dungeon.say_25)
+				server_timer('chaos_dungeon_5m_left_timer', 10*60, get_server_timer_arg())
+			end
+		end
+		when chaos_dungeon_5m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(gameforge.chaos_dungeon.say_26, 5)
+				d.notice(gameforge.chaos_dungeon.say_25)
+				server_timer('chaos_dungeon_1m_left_timer', 4*60, get_server_timer_arg())
+			end
+		end
+		when chaos_dungeon_1m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(gameforge.chaos_dungeon.say_26, 1)
+				d.notice(gameforge.chaos_dungeon.say_25)
+				server_timer ('chaos_dungeon_0m_left_timer', 60, get_server_timer_arg())
+			end
+		end
+		when chaos_dungeon_0m_left_timer.server_timer begin
+			local setting = chaos_dungeon.setting()
+			if d.select(get_server_timer_arg()) then		
+				d.notice(gameforge.chaos_dungeon.say_27)
+				d.notice(gameforge.chaos_dungeon.say_28)
+				server_timer('chaos_dungeon_end_timer',10,d.get_map_index())	
+			end
+		end
+		when chaos_dungeon_end_timer.server_timer begin -- Shutdown Timer (after getting out)
+			local setting = chaos_dungeon.setting()
+			if d.select(get_server_timer_arg()) then
+				d.setf("party_leader_pid", 0)
+				chaos_dungeon.clear_timer(d.get_map_index())		
+				d.set_warp_location(ENTRY_MAP_INDEX, setting.outside_entry_pos_[1] , setting.outside_entry_pos_[2])
+				d.exit_all()
+			end
+		end
+		when chaos_dungeon_leader_out_timer.server_timer begin
+			local setting = chaos_dungeon.setting()
+			if d.select(get_server_timer_arg()) then		
+				say_in_map(get_server_timer_arg(), gameforge.chaos_dungeon.say_30..gameforge.chaos_dungeon.say_28)
+				server_timer("chaos_dungeon_end_timer",10,d.get_map_index())	
+			end
+		end
+	end
+end

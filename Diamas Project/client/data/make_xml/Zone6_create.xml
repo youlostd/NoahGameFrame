@@ -1,0 +1,4 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/Zone6:d:/ymir work/" ArchivePath="../bin/pack/Zone6.pak" XmlPath="xml/Zone6_create.xml">
+	</CreateEterPackXml>
+</ScriptFile>

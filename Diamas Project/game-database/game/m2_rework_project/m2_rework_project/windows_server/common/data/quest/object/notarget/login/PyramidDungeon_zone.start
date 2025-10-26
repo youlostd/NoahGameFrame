@@ -1,0 +1,15 @@
+if PyramidDungeonLIB . isActive ( ) then local settings = PyramidDungeonLIB . Settings ( ) ; 
+d . set_warp_location ( settings [ "outside_index" ] , settings [ "outside_pos" ] [ 1 ] , settings [ "outside_pos" ] [ 2 ] ) ; 
+if d . getf ( "PyramidDungeon_level" ) == 0 then 
+pc . setqf ( "dungeon_start_time" , get_global_time ( ) ) 
+if ( party . is_party ( ) and party . is_leader ( ) or not party . is_party ( ) ) then 
+pc . setqf ( "PyramidDungeon_reward" , 0 ) 
+d . setf ( "PyramidDungeon_level" , 1 ) ; d . setf ( "PyramidDungeon_stone1" , 1 ) ; 
+d . spawn_mob ( 8472 , 91 , 130 ) 
+server_timer ( "PyramidDungeon_full_timer" , settings [ "dungeon_timer" ] , d . get_map_index ( ) ) 
+server_timer ( "PyramidDungeon_1st_stone" , settings [ "time_until_destroy_first_stone" ] , d . get_map_index ( ) ) 
+d . notice ( "Ancient pyramid: Destroy the stone within 4 minutes!" ) 
+d . notice ( "Ancient pyramid: Otherwise, you will be teleported out of dungeon." ) 
+end 
+end 
+ return end 

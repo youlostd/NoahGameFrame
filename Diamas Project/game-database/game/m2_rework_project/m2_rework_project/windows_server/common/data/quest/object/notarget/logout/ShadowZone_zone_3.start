@@ -1,0 +1,7 @@
+if ShadowZoneLIB3 . isActive ( ) then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local Items = { 30845 , 30846 , 30847 , 30849 } ; 
+for index = 1 , table . getn ( Items ) begin 
+pc . remove_item ( Items [ index ] , pc . count_item ( Items [ index ] ) ) ; 
+end 
+cmdchat ( "ClearDungeonCoolTime" ) ; 
+ return end 

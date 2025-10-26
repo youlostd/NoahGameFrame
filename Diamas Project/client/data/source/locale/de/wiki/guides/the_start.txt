@@ -1,0 +1,171 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/guides.png]
+[CENTER_ALIGN]Guide
+
+
+1.	Allgemein
+
+1.1 Wahl deines Haupt-Charakters
+Für den späteren Spielverlauf benötigst du die Boni des Skillbaums (PvP und PvM).
+Daher bietet es sich an, sich vorab für eine PvP-Rasse zu entscheiden und auch mit diesem
+Charakter zu farmen. Die Klasse eures Charakters lässt sich im Nachhinein natürlich noch
+ändern (Lehrwechselzertifikat).
+
+1.2 Die ersten Schritte
+Beim Start erhältst du eine Anfängertruhe mit folgenden Gegenständen:
+- Löwen-Siegel, Feuerphönix, Halbmondring (Starter), Starter-Elixier, Leinengürtel (Starter)
+- Starter-Talisman, Herrscherband (Starter).
+Diese Truhe soll dir den Start des Spiels erleichtern.
+
+1.3 Fähigkeiten
+Mit Level 5 kannst du deine Lehre wählen. Sobald eine deiner Fähigkeiten die Stufe "Meister"
+erreicht, kannst du einen Regenbogenstein verwenden, um den Skill zu perfektionieren.
+Regenbogensteine erhältst du aus der Anfangstruhe und bei der Gemischtwarenhändlerin. 
+
+1.4 Buffs
+Auf der ersten Farmmap (Level 20) kannst du dir Heil- und Drachenschamanen Buffs beim "Buffbot" holen.
+Klicke den Bot mehrfach an, um alle Buffs zu erhalten. Die Buffs halten 14 Tage. Sie verschwinden
+nur, wenn man durch einen anderen Spieler getötet wird. 
+
+1.5 Leveln
+Um auf diesem Server im Level aufzusteigen, muss man keine spezifischen Level-Maps besuchen.
+Dein Charakter wird beim Farmen hochgelvlt. Sobald du das maximal vorgesehene Level für die
+entsprechende Map erreicht hast, erhältst du keine Erfahrungspunkte mehr.
+
+1.6 Farmen
+Für jede Farmmap brauchst du ein neues PvM-EQ. Auf der jeweiligen Farmmap hast du die
+Möglichkeit, von den Metinsteinen und den Bossen Uppitems für dein Equipment zu droppen.
+Man braucht das komplette Equipment auf +9, um auf der darauffolgenden Farmmap Schaden zu machen.
+Die Bosse auf den Farmmaps können verschiedene Kostüme droppen. Diese geben dir für
+2 Stunden PvM-Boni. 
+
+1.7 Dungeons
+In den jeweiligen Dungeons hast du die Chance, Uppitems zu droppen, mit denen du dein Equipment
+von +7 bis +9 uppen kannst. Schaue dafür im Wiki unter "Dungeons" nach.
+
+1.8 Equipment
+Mit Level 20 kannst du den Jagras-Dungeon betreten. Dort erhältst du ein "Exil", mit dem du
+dir bei der Gemischtwarenhändlerin PvM- und PvP-Equipment kaufen kannst. Hier bietet es sich an, als
+ersten Schritt einige PvM-Waffen zu kaufen und diese zu switchen. 
+
+1.9 Geiststeine
+Mit dem "Exil" aus den Dungeons kannst du Geiststeine kaufen und in dein Equipment einfügen.
+Ab der 5. Farmmap kannst du aus dem dazugehörigen Dungeon "Geistein-Slots" droppen. Mit diesem
+Item kannst du beim PvM-Equipment bis zu drei zusätzliche Slots für Geiststeine hinzufügen.
+
+1.10 Jagdaufträge
+Achte beim Farmen jederzeit auf deine aktiven Jagdaufträge. Diese sind entscheidend für den
+Skill-Baum. Die Jadtaufträge müssen nach der angezeigten Reihenfolge erledigt werden.
+
+1.11 Skillbaum
+Der Skillbaum ist in drei unterschiedliche Kategorien eingeteilt. PvP-, PvM- sowie Allgemeine Boni.
+Die Punkte für den Skillbaum erhälst du durch die Jagdaufträge.
+
+
+
+2.0 PvM Eq / PvP Eq
+
+2.1.1 PvM-Helm: Vergiftungschance, Stark gegen Teufel, 
+Stark gegen Untote, TP-Regeneration, Angrifsgeschwindigkeit
+2.1.2 PvP-Helm: Vergiftungschance, Stark gegen Halbmenschen, 
+TP-Regeneration, Chance Pfeilangriffe auszuweichen
+
+2.2.1 PvM-Schild: Klassenboni, Klassenboni, Immun gegen Ohnmacht, 
+Stark gegen Teufel, Stark gegen Untote, Chance Nahkampf-Angriff abzublocken 
+2.2.2 PvP-Schild: Klassenboni, Klassenboni, Klassenboni, 
+Immun gegen Ohnmacht, Stark gegen Halbmenschenm,  
+Chance Nahkampf-Angriff abzublocken 
+
+2.3.1 PvM-Ohrringe: Stark gegen Untote, Stark gegen Teufel, 
+Bewegunggeschwindigkeit, Giftwiderstand
+2.3.2 PvP-Ohrringe: Stark gegen Halbmenschen, 4-Side-Def
+
+2.4.1 PvM Armband: MAX-TP, Stark gegen Untote, Chance auf krit. Treffer, 
+Schaden wird von TP absorbiert, Stark gegen Teufel 
+2.4.2 PvP-Amrband: MAX-TP, Stark gegen Halbmenschen, Chance auf krit. Treffer, 
+Magiewiderstand, Chance auf Durchbohren
+
+2.5.1 PvM-Kette: MAX-TP, TP-Regeneration, Chance auf krit. Treffer, 
+Chance auf Durchbohren
+2.5.2 PvP-Kette: MAX-TP, 4-Side-Def
+
+2.6.1 PvM-Schuhe: MAX-TP, Chance auf krit. Treffer, Angrifsgeschwindigkeit, 
+2.6.2 PvP-Schuhe: MAX-TP, 4-Side-Def
+
+2.7.1 PvM-Rüstung: MAX-TP, Schaden wird von TP-absorbiert, Angriffswert, 
+Chance auf Nahkampf-Refelekt. 
+2.7.2 PvP-Rüstung: MAX-TP, 4-Side-Def 
+
+2.8.1 PvM-Waffe: 45+ DSS, Stark gegen Untote, Stark gegen Teufel, Klassenboni
+2.8.2 PvP-Waffe: Stark gegen Halbmenschen, Chance auf krit. Treffer, 
+Zaubergeschwindigkeit, Klassenboni, Klassenboni 
+
+2.9 Klassenboni = VIT,INT,STR,DEX
+2.9.1 Krieger = STR,VIT
+2.9.2 Ninja = DEX,STR
+2.9.3 Schamane = INT,STR
+2.9.4 Sura = INT,STR
+
+
+3. Farmmap-Bosse
+
+Auf jeder Farmmap spawnt ein Farmmap-Boss an den jeweiligen Spawnpunkten.
+Das gilt für jeden der 4 Serverchannels.
+In der Wiki-Kategorie "Bosse" findet man eine Übersicht über die dropbaren Gegenstände.
+Die Spawnzeiten sehen wie folgt aus:
+
+Shiva:     10 Minuten
+Artemis:   12 Minuten
+Aqua:      15 Minuten
+Eden:      18 Minuten
+Terra:     20 Minuten
+Ragnarok:  30 Minuten
+
+
+Mögliche Boni der Drachensteinalchemie
+Drachendiamant
+- Stark gegen Monster
+- Stark gegen Metins
+- Stark gegen Bosse
+- Eiswiderstand
+- Stark gegen Untote
+
+Dragononyx
+- Stark gegen Monster
+- Stark gegen Metins
+- Stark gegen Bosse
+- Verstärkter Gegenstandsdrop
+- Wiederstand gegen Dunkelheit
+
+Drachengranat
+- Stark gegen Monster
+- Stark gegen Metins
+- Stark gegen Bosse
+- Blitzwiderstand
+- Dropchance Yang erhöht
+
+Drachensaphir
+- Stark gegen Monster
+- Stark gegen Metins
+- Stark gegen Bosse
+- Erhöhter Gegenstandsdrop
+- Erdwiderstand
+
+Drachenjade
+- Stark gegen Monster
+- Stark gegen Metins
+- Stark gegen Bosse
+- Chance, eine doppelte Menge an Yang fallen zu lassen
+- Windwiderstand
+
+Drachenrubin
+- Stark gegen Monster
+- Stark gegen Metins
+- Stark gegen Bosse
+- Feuerwiderstand
+- Stark gegen Teufel
+
+
+
+
+

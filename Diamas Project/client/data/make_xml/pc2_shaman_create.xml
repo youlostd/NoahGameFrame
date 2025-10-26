@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/pc2/shaman:d:/ymir work/pc2/shaman/" ArchivePath="../bin/pack/pc2_shaman.pak" XmlPath="xml/pc2_shaman_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

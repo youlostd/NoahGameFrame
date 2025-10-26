@@ -1,0 +1,43 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/gaya.tga]
+[CENTER_ALIGN]Das Gaya-System führt eine neue Währung im Spiel für wertvolle Gegenstände.
+
+[COLOR=0xffd700;FONT_SIZE=15]Content List:
+*1. Allgemeine Informationen
+*2. Wie bekomme ich Gaya?
+*3. Was kann ich mit Gaya kaufen?
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=90; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen.
+
+Dein aktuelles Gaya-Guthaben kannst du neben deiner Yanganzeige einsehen. Man kann Gaya benutzen um Artikel
+beim Gaya Markt zu kaufen. Gaya kann man nicht handeln.
+Gaya kann durch die Verfeinerung von Schmucksteinen beim Gaya-Händler gewonnen werden.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=185; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Wie bekomme ich Gaya?
+
+Sie können 1 Gaya bekommen, indem man 10x Schmuckstein, 500.000 Yang und einen Stein + 0 bis + 3 beim Gaya-Händler umtauscht.
+Man kann direkt 10 Gaya herstellen, indem man 100x Schmuckstein, 5.000.000 Yang und 10 Steine + 0 bis +3 an den Gaya-Händler gibt.
+Beide Prozesse können nicht fehlschlagen.
+
+[IMG=d:/ymir work/ui/wiki/divider_small.tga; Y=280; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1 Wie bekomme ich Edelsteine?
+
+Schmucksteine können von allen Bossmonstern erbeutet werden und aus einigen Bosstruhen.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=400; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Was kann ich bei Gaya kaufen?
+
+Mit Gaya kann man aus einer Auswahl von 12 Gegenständen Items kaufen. Der wichtigste Gegenstand ist der Goldmetallic Farbstoff.
+Ebenso kann ein Ring, Pet und ein Mount mit einer Laufzeit von 14 Tagen erworben werden.
+Der Gaya-Händler tauscht auch gerne die Auswahl der Gegenstände, also behalte immer ein Auge auf den Gaya-Händlder.
+
+
+

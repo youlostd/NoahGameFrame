@@ -1,0 +1,62 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/razador.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 100 - 105
+*Eintrittsitem: Passierschein 
+[IMG=d:/ymir work/ui/wiki/rahmen.tga; Y=5; X=460]
+[IMG=d:/ymir work/ui/wiki/71095.tga; Y=15; X=482]
+
+
+[X_PADDING=469]Passierschein
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheiten:
+*Die Rotdrachen-Festung hat eine Abklingzeit von 3 Stunden.
+*Die Rotdrachen-Festung kann mit und ohne Gruppe betreten werden.
+*Man hat insgesamt 60 Minuten Zeit um die Rotdrachen-Festung abzuschließen.
+*Es benötigen alle Gruppenmitglieder einen Passierschein.
+
+[CENTER_ALIGN;COLOR=0xffd700]Es ist immer zufällig welche Ebene als nächstes kommt, ausgeschlossen davon ist Ebene 7!
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=170; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 1
+
+[X_PADDING=20]Tötet alle Monster.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 2
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=255; X=490]
+[IMG=d:/ymir work/ui/wiki/30329.tga; Y=261; X=496]
+
+[X_PADDING=20]Tötet solange Monster bis ihr ein Goldenes Zahnrad droppt.
+[X_PADDING=20]Zieht dieses auf die Stele der Isfet in der Mitte bis ihr das richtige Goldene Zahnrad abgibt.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 3
+
+[X_PADDING=20]Tötet alle Monster.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 4
+
+[X_PADDING=20]Tötet Ignator.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 5
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=455; X=490]
+[IMG=d:/ymir work/ui/wiki/30306.tga; Y=461; X=496]
+
+[X_PADDING=20]Tötet solange Monster bis ihr einen Stein der Maat droppt. 
+[X_PADDING=20]Zieht diesen auf alle Stelen der Isfet bis alle verschwunden sind.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 6
+
+[X_PADDING=20]Tötet den Metin des Fegefeuers.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 7
+
+[X_PADDING=20]Tötet Razador.
+[IMG=d:/ymir work/ui/wiki/Razador.tga; Y=520; X=402]
+
+

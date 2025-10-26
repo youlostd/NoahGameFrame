@@ -1,0 +1,12 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 9 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+ShadowZoneLIB3 . clearDungeon ( ) 
+d . setf ( "ShadowZone_9f_Monsters" , 1 ) 
+d . regen_file ( settings [ "regen_file" ] .. "regen_9a.txt" ) ; 
+if d . getf ( "ShadowZone_9f_StoneD" ) == 1 then 
+ShadowZoneLIB3 . clearCoolTimer ( ) ; 
+clear_server_timer ( "ShadowZone_NinethFloor_1" , d . get_map_index ( ) ) ; 
+d . setf ( "ShadowZone_9f_StoneD" , 0 ) 
+else 
+d . setf ( "ShadowZone_9f_StoneFail" , 1 ) 
+end 
+ return end 

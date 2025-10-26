@@ -1,0 +1,27 @@
+quest level_manager begin
+	state start begin
+		when 30120.use with pc.getqf("allow_over_55") == 0 and pc.get_level() <= 55 begin
+			pc.setqf("allow_over_55", 1)
+			syschat("The way to a higher level was unlocked")
+			pc.remove_item(30120)
+		end
+		
+		when 30121.use with pc.getqf("allow_over_75") == 0 and pc.get_level() <= 75 begin
+			pc.setqf("allow_over_75", 1)
+			syschat("The way to a higher level was unlocked")
+			pc.remove_item(30121)
+		end
+		
+		when 30122.use with pc.getqf("allow_over_100") == 0 and pc.get_level() <= 100 begin
+			pc.setqf("allow_over_100", 1)
+			syschat("The way to a higher level was unlocked")
+			pc.remove_item(30122)
+		end
+		
+		when 30128.use with pc.getqf("allow_over_125") == 0 and pc.get_level() <= 125 begin
+			pc.setqf("allow_over_125", 1)
+			syschat("The way to a higher level was unlocked")
+			pc.remove_item(30128)
+		end
+	end
+end

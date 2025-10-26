@@ -1,0 +1,7 @@
+say_size ( 350 , 350 ) ; addimage ( 25 , 10 , "pyramid_dungeon_bg1.tga" ) ; addimage ( 220 , 200 , "pyramid_guard.tga" ) 
+say ( "[ENTER][ENTER]" ) 
+say_title ( string . format ( "%s:[ENTER]" , c_mob_name ( npc . get_race ( ) ) ) ) 
+say ( "It was hard, wasn't it?[ENTER]But you did it! Good job I have to say!" ) 
+wait ( ) 
+setskin ( NOWINDOW ) 
+pc . warp ( 230 , 91 , 130 ) 

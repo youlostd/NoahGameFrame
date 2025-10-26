@@ -1,0 +1,5 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+if d . getf ( "ShadowZone_9f_StoneD" ) == 1 then 
+d . setf ( "ShadowZone_9f_StoneD" , 0 ) 
+end 
+end 

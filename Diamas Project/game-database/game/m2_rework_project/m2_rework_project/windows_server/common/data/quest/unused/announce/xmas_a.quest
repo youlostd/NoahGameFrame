@@ -1,0 +1,20 @@
+quest xmas_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("xmas_a") > 0 begin
+		send_letter("Weihnachtsevent 2015")
+	end
+	
+	when info or button begin
+		say_important("Weihnachtsevent 2015")
+		say_item_vnum(71144)
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance durch unser Weihnachtsevent Weihnachtstruhen zu erhalten!")
+		say("Bringe dafür jeden Tag 50 Socken zum Weihnachtsmann!")
+		say("Als kleines Dankeschön schenkt er euch täglich ein Bambi-Siegel für je 2Stunden und 6 Glühweine!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

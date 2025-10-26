@@ -1,0 +1,3 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+ShadowZoneLIB3 . spawnRandomBoss_3 ( ) ; 
+end 

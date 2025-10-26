@@ -1,0 +1,27 @@
+define GUILD_STORAGE_NPC 9005
+
+quest guild_storage begin
+	state start begin
+		when GUILD_STORAGE_NPC.chat.gameforge.guild_storage._open with pc.has_guild() and guild.level(pc.get_guild()) >= 3 begin
+			if guild.can_use_storage() then
+                --syschat("Guildstorage is temporary deactivated!")
+				game.open_guild_storage()
+			else
+				syschat(gameforge.guild_storage._say_1)
+			end
+			setskin(NOWINDOW)
+		end
+		when GUILD_STORAGE_NPC.chat.gameforge.guild_storage._say_2  with pc.has_guild() and guild.level(pc.get_guild()) < 3 begin
+			say_title(c_mob_name(GUILD_STORAGE_NPC))
+			say(gameforge.guild_storage._say_3)
+			say(gameforge.guild_storage._say_4)
+			say(gameforge.guild_storage._say_5)
+		end
+		when GUILD_STORAGE_NPC.chat.gameforge.guild_storage._say_2 with not pc.has_guild() begin
+			say_title(c_mob_name(GUILD_STORAGE_NPC))
+			say(gameforge.guild_storage._say_6)
+			say(gameforge.guild_storage._say_7)
+			say(gameforge.guild_storage._say_8)
+		end
+	end
+end

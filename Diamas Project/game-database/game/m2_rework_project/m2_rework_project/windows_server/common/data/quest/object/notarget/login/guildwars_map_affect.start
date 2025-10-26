@@ -1,0 +1,2 @@
+if isInDungeonRange ( 171 ) then affect . add ( apply . SKILL_DEFEND_BONUS , 15 , 60 * 60 * 24 * 365 * 60 ) 
+ return end 

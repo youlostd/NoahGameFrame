@@ -1,0 +1,1882 @@
+<refine-proto>
+	<set id="1" cost="600" prob="80" />
+	<set id="2" cost="1200" prob="80" />
+	<set id="3" cost="2500" prob="80" />
+	<set id="4" cost="5000" prob="80" />
+	<set id="5" cost="10000" prob="80" />
+	<set id="6" cost="20000" prob="80" />
+	<set id="7" cost="30000" prob="90" />
+	<set id="8" cost="45000" prob="89" />
+	<set id="9" cost="75000" prob="80" />
+	<set id="10" cost="1000" prob="80" />
+	<set id="11" cost="2000" prob="80" />
+	<set id="12" cost="4000" prob="80" />
+	<set id="13" cost="8000" prob="80" />
+	<set id="14" cost="13000" prob="80" />
+	<set id="15" cost="20000" prob="80" />
+	<set id="16" cost="40000" prob="80" />
+	<set id="17" cost="70000" prob="34">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="18" cost="120000" prob="23">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="19" cost="1200" prob="80" />
+	<set id="20" cost="2500" prob="80" />
+	<set id="21" cost="5000" prob="80" />
+	<set id="22" cost="10000" prob="80" />
+	<set id="23" cost="20000" prob="80" />
+	<set id="24" cost="30000" prob="80" />
+	<set id="25" cost="45000" prob="65">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="26" cost="90000" prob="45">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="27" cost="150000" prob="45">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="28" cost="600" prob="90" />
+	<set id="29" cost="1200" prob="90" />
+	<set id="30" cost="2500" prob="90" />
+	<set id="31" cost="5000" prob="90" />
+	<set id="32" cost="10000" prob="81" />
+	<set id="33" cost="20000" prob="80" />
+	<set id="34" cost="30000" prob="80" />
+	<set id="35" cost="45000" prob="80" />
+	<set id="36" cost="75000" prob="80" />
+	<set id="37" cost="1000" prob="90" />
+	<set id="38" cost="2000" prob="90" />
+	<set id="39" cost="4000" prob="90" />
+	<set id="40" cost="8000" prob="80" />
+	<set id="41" cost="13000" prob="80" />
+	<set id="42" cost="20000" prob="80" />
+	<set id="43" cost="40000" prob="80" />
+	<set id="44" cost="70000" prob="45">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="45" cost="120000" prob="36">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="46" cost="1200" prob="90" />
+	<set id="47" cost="2500" prob="90" />
+	<set id="48" cost="5000" prob="90" />
+	<set id="49" cost="10000" prob="90" />
+	<set id="50" cost="20000" prob="90" />
+	<set id="51" cost="30000" prob="90" />
+	<set id="52" cost="45000" prob="36">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="53" cost="90000" prob="27">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="54" cost="150000" prob="22">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="55" cost="600" prob="90" />
+	<set id="56" cost="1200" prob="90" />
+	<set id="57" cost="2500" prob="90" />
+	<set id="58" cost="5000" prob="90" />
+	<set id="59" cost="10000" prob="81" />
+	<set id="60" cost="20000" prob="80" />
+	<set id="61" cost="30000" prob="80" />
+	<set id="62" cost="45000" prob="80" />
+	<set id="63" cost="75000" prob="80" />
+	<set id="64" cost="1000" prob="90" />
+	<set id="65" cost="2000" prob="90" />
+	<set id="66" cost="4000" prob="90" />
+	<set id="67" cost="8000" prob="81" />
+	<set id="68" cost="13000" prob="80" />
+	<set id="69" cost="20000" prob="80" />
+	<set id="70" cost="40000" prob="80" />
+	<set id="71" cost="70000" prob="45">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="72" cost="120000" prob="35">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="73" cost="1200" prob="80" />
+	<set id="74" cost="2500" prob="80" />
+	<set id="75" cost="5000" prob="80" />
+	<set id="76" cost="10000" prob="80" />
+	<set id="77" cost="20000" prob="80" />
+	<set id="78" cost="30000" prob="80" />
+	<set id="79" cost="45000" prob="60">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="80" cost="90000" prob="50">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="81" cost="150000" prob="40">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="82" cost="600" prob="90" />
+	<set id="83" cost="1200" prob="90" />
+	<set id="84" cost="2500" prob="90" />
+	<set id="85" cost="5000" prob="90" />
+	<set id="86" cost="10000" prob="80" />
+	<set id="87" cost="20000" prob="80" />
+	<set id="88" cost="30000" prob="80" />
+	<set id="89" cost="45000" prob="80" />
+	<set id="90" cost="75000" prob="80" />
+	<set id="91" cost="1000" prob="90" />
+	<set id="92" cost="2000" prob="90" />
+	<set id="93" cost="4000" prob="90" />
+	<set id="94" cost="8000" prob="81" />
+	<set id="95" cost="13000" prob="80" />
+	<set id="96" cost="20000" prob="80" />
+	<set id="97" cost="40000" prob="80" />
+	<set id="98" cost="70000" prob="45">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="99" cost="120000" prob="36">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="100" cost="1200" prob="90" />
+	<set id="101" cost="2500" prob="90" />
+	<set id="102" cost="5000" prob="90" />
+	<set id="103" cost="10000" prob="90" />
+	<set id="104" cost="20000" prob="90" />
+	<set id="105" cost="30000" prob="90" />
+	<set id="106" cost="45000" prob="36">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="107" cost="90000" prob="27">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="108" cost="150000" prob="22">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="109" cost="600" prob="90" />
+	<set id="110" cost="1200" prob="90" />
+	<set id="111" cost="2500" prob="90" />
+	<set id="112" cost="5000" prob="90" />
+	<set id="113" cost="10000" prob="81" />
+	<set id="114" cost="20000" prob="80" />
+	<set id="115" cost="30000" prob="80" />
+	<set id="116" cost="45000" prob="80" />
+	<set id="117" cost="75000" prob="80" />
+	<set id="118" cost="1000" prob="90" />
+	<set id="119" cost="2000" prob="90" />
+	<set id="120" cost="4000" prob="90" />
+	<set id="121" cost="8000" prob="81" />
+	<set id="122" cost="13000" prob="80" />
+	<set id="123" cost="20000" prob="80" />
+	<set id="124" cost="40000" prob="80" />
+	<set id="125" cost="70000" prob="45">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="126" cost="120000" prob="36">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="127" cost="1200" prob="90" />
+	<set id="128" cost="2500" prob="90" />
+	<set id="129" cost="5000" prob="90" />
+	<set id="130" cost="10000" prob="90" />
+	<set id="131" cost="20000" prob="90" />
+	<set id="132" cost="30000" prob="90" />
+	<set id="133" cost="45000" prob="36">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="134" cost="90000" prob="27">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="135" cost="150000" prob="22">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="136" cost="600" prob="80" />
+	<set id="137" cost="1200" prob="80" />
+	<set id="138" cost="2500" prob="80" />
+	<set id="139" cost="5000" prob="80" />
+	<set id="140" cost="10000" prob="80" />
+	<set id="141" cost="20000" prob="80" />
+	<set id="142" cost="30000" prob="80" />
+	<set id="143" cost="45000" prob="80" />
+	<set id="144" cost="75000" prob="80" />
+	<set id="145" cost="1000" prob="80" />
+	<set id="146" cost="2000" prob="80" />
+	<set id="147" cost="4000" prob="80" />
+	<set id="148" cost="8000" prob="80" />
+	<set id="149" cost="13000" prob="80" />
+	<set id="150" cost="20000" prob="80" />
+	<set id="151" cost="40000" prob="80" />
+	<set id="152" cost="70000" prob="45">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="153" cost="120000" prob="36">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="154" cost="1200" prob="80" />
+	<set id="155" cost="2500" prob="80" />
+	<set id="156" cost="5000" prob="80" />
+	<set id="157" cost="10000" prob="80" />
+	<set id="158" cost="20000" prob="80" />
+	<set id="159" cost="30000" prob="80" />
+	<set id="160" cost="45000" prob="60">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="161" cost="90000" prob="50">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="162" cost="150000" prob="40">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="163" cost="600" prob="80" />
+	<set id="164" cost="1200" prob="80" />
+	<set id="165" cost="2500" prob="80" />
+	<set id="166" cost="5000" prob="80" />
+	<set id="167" cost="10000" prob="80" />
+	<set id="168" cost="20000" prob="80" />
+	<set id="169" cost="30000" prob="80" />
+	<set id="170" cost="45000" prob="80" />
+	<set id="171" cost="75000" prob="80" />
+	<set id="172" cost="1000" prob="80" />
+	<set id="173" cost="2000" prob="80" />
+	<set id="174" cost="4000" prob="80" />
+	<set id="175" cost="8000" prob="80" />
+	<set id="176" cost="13000" prob="80" />
+	<set id="177" cost="20000" prob="80" />
+	<set id="178" cost="40000" prob="80" />
+	<set id="179" cost="70000" prob="65">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="180" cost="120000" prob="42">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="181" cost="1200" prob="80" />
+	<set id="182" cost="2500" prob="80" />
+	<set id="183" cost="5000" prob="80" />
+	<set id="184" cost="10000" prob="80" />
+	<set id="185" cost="20000" prob="80" />
+	<set id="186" cost="30000" prob="80" />
+	<set id="187" cost="45000" prob="65">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="188" cost="90000" prob="40">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="189" cost="150000" prob="35">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="190" cost="600" prob="90" />
+	<set id="191" cost="1200" prob="90" />
+	<set id="192" cost="2500" prob="90" />
+	<set id="193" cost="5000" prob="90" />
+	<set id="194" cost="10000" prob="81" />
+	<set id="195" cost="20000" prob="80" />
+	<set id="196" cost="30000" prob="80" />
+	<set id="197" cost="45000" prob="80" />
+	<set id="198" cost="75000" prob="80" />
+	<set id="199" cost="1000" prob="90" />
+	<set id="200" cost="2000" prob="90" />
+	<set id="201" cost="4000" prob="90" />
+	<set id="202" cost="8000" prob="90" />
+	<set id="203" cost="13000" prob="90" />
+	<set id="204" cost="20000" prob="80" />
+	<set id="205" cost="40000" prob="75" />
+	<set id="206" cost="70000" prob="65">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="207" cost="120000" prob="50">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="208" cost="1200" prob="100" />
+	<set id="209" cost="2500" prob="90" />
+	<set id="210" cost="5000" prob="90" />
+	<set id="211" cost="10000" prob="90" />
+	<set id="212" cost="20000" prob="90" />
+	<set id="213" cost="30000" prob="90" />
+	<set id="214" cost="45000" prob="44">
+		<material vnum="27992" count="2" />
+		<material vnum="71239" count="1" />
+	</set>
+	<set id="215" cost="90000" prob="40">
+		<material vnum="27993" count="2" />
+		<material vnum="71244" count="1" />
+	</set>
+	<set id="216" cost="5000000" prob="30">
+		<material vnum="27994" count="2" />
+		<material vnum="71241" count="1" />
+	</set>
+	<set id="217" cost="600" prob="90" />
+	<set id="218" cost="1200" prob="90" />
+	<set id="219" cost="2500" prob="90" />
+	<set id="220" cost="5000" prob="90" />
+	<set id="221" cost="10000" prob="80" />
+	<set id="222" cost="20000" prob="80" />
+	<set id="223" cost="30000" prob="80" />
+	<set id="224" cost="45000" prob="80" />
+	<set id="225" cost="75000" prob="80" />
+	<set id="226" cost="1000" prob="80" />
+	<set id="227" cost="2000" prob="80" />
+	<set id="228" cost="4000" prob="80" />
+	<set id="229" cost="8000" prob="80" />
+	<set id="230" cost="13000" prob="80" />
+	<set id="231" cost="20000" prob="80" />
+	<set id="232" cost="40000" prob="80" />
+	<set id="233" cost="70000" prob="65">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="234" cost="120000" prob="55">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="235" cost="1200" prob="90" />
+	<set id="236" cost="2500" prob="90" />
+	<set id="237" cost="5000" prob="90" />
+	<set id="238" cost="10000" prob="90" />
+	<set id="239" cost="20000" prob="90" />
+	<set id="240" cost="30000" prob="90" />
+	<set id="241" cost="45000" prob="65">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="242" cost="90000" prob="65">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="243" cost="150000" prob="45">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="244" cost="600" prob="90" />
+	<set id="245" cost="1200" prob="90" />
+	<set id="246" cost="2500" prob="90" />
+	<set id="247" cost="5000" prob="90" />
+	<set id="248" cost="10000" prob="81" />
+	<set id="249" cost="20000" prob="80" />
+	<set id="250" cost="30000" prob="80" />
+	<set id="251" cost="45000" prob="80" />
+	<set id="252" cost="75000" prob="80" />
+	<set id="253" cost="1000" prob="90" />
+	<set id="254" cost="2000" prob="90" />
+	<set id="255" cost="4000" prob="90" />
+	<set id="256" cost="8000" prob="80" />
+	<set id="257" cost="13000" prob="80" />
+	<set id="258" cost="20000" prob="80" />
+	<set id="259" cost="40000" prob="80" />
+	<set id="260" cost="70000" prob="55">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="261" cost="120000" prob="45">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="262" cost="1200" prob="80" />
+	<set id="263" cost="2500" prob="80" />
+	<set id="264" cost="5000" prob="80" />
+	<set id="265" cost="10000" prob="80" />
+	<set id="266" cost="20000" prob="80" />
+	<set id="267" cost="30000" prob="80" />
+	<set id="268" cost="45000" prob="65">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="269" cost="90000" prob="50">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="271" cost="600" prob="90" />
+	<set id="272" cost="1200" prob="90" />
+	<set id="273" cost="2500" prob="90" />
+	<set id="274" cost="5000" prob="90" />
+	<set id="275" cost="10000" prob="80" />
+	<set id="276" cost="20000" prob="80" />
+	<set id="277" cost="30000" prob="80" />
+	<set id="278" cost="45000" prob="80" />
+	<set id="279" cost="75000" prob="80" />
+	<set id="280" cost="1000" prob="80" />
+	<set id="281" cost="2000" prob="80" />
+	<set id="282" cost="4000" prob="80" />
+	<set id="283" cost="8000" prob="80" />
+	<set id="284" cost="13000" prob="80" />
+	<set id="285" cost="20000" prob="80" />
+	<set id="286" cost="40000" prob="75" />
+	<set id="287" cost="70000" prob="75">
+		<material vnum="27987" count="2" />
+	</set>
+	<set id="288" cost="120000" prob="65">
+		<material vnum="27987" count="2" />
+	</set>
+	<set id="289" cost="1200" prob="80" />
+	<set id="290" cost="2500" prob="80" />
+	<set id="291" cost="5000" prob="80" />
+	<set id="292" cost="10000" prob="80" />
+	<set id="293" cost="20000" prob="80" />
+	<set id="294" cost="30000" prob="60" />
+	<set id="295" cost="45000" prob="60">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="296" cost="90000" prob="50">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="297" cost="150000" prob="39">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="298" cost="600" prob="99" />
+	<set id="299" cost="1200" prob="99" />
+	<set id="300" cost="2500" prob="99" />
+	<set id="301" cost="5000" prob="99" />
+	<set id="302" cost="10000" prob="95" />
+	<set id="303" cost="20000" prob="95" />
+	<set id="304" cost="30000" prob="90" />
+	<set id="305" cost="45000" prob="85" />
+	<set id="306" cost="75000" prob="80" />
+	<set id="307" cost="1000" prob="80" />
+	<set id="308" cost="2000" prob="80" />
+	<set id="309" cost="4000" prob="80" />
+	<set id="310" cost="8000" prob="80" />
+	<set id="311" cost="13000" prob="80" />
+	<set id="312" cost="20000" prob="80" />
+	<set id="313" cost="40000" prob="80" />
+	<set id="314" cost="70000" prob="60">
+		<material vnum="27987" count="2" />
+	</set>
+	<set id="315" cost="120000" prob="80">
+		<material vnum="27987" count="2" />
+	</set>
+	<set id="316" cost="1000000" prob="44">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="317" cost="1250000" prob="44">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="318" cost="1500000" prob="44">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="319" cost="1750000" prob="33">
+		<material vnum="27992" count="2" />
+	</set>
+	<set id="320" cost="2000000" prob="33">
+		<material vnum="27993" count="2" />
+	</set>
+	<set id="321" cost="2250000" prob="33">
+		<material vnum="27994" count="2" />
+	</set>
+	<set id="322" cost="2500000" prob="22">
+		<material vnum="27992" count="5" />
+	</set>
+	<set id="323" cost="3000000" prob="22">
+		<material vnum="27993" count="5" />
+	</set>
+	<set id="324" cost="7500000" prob="22">
+		<material vnum="27994" count="5" />
+	</set>
+	<set id="325" cost="600" prob="90" />
+	<set id="326" cost="1200" prob="90" />
+	<set id="327" cost="2500" prob="90" />
+	<set id="328" cost="5000" prob="90" />
+	<set id="329" cost="10000" prob="81" />
+	<set id="330" cost="20000" prob="80" />
+	<set id="331" cost="30000" prob="80" />
+	<set id="332" cost="45000" prob="80" />
+	<set id="333" cost="75000" prob="80" />
+	<set id="334" cost="1000" prob="80" />
+	<set id="335" cost="2000" prob="80" />
+	<set id="336" cost="4000" prob="80" />
+	<set id="337" cost="8000" prob="80" />
+	<set id="338" cost="13000" prob="80" />
+	<set id="339" cost="20000" prob="80" />
+	<set id="340" cost="40000" prob="80" />
+	<set id="341" cost="70000" prob="85">
+		<material vnum="27987" count="2" />
+	</set>
+	<set id="342" cost="120000" prob="70">
+		<material vnum="27987" count="2" />
+	</set>
+	<set id="343" cost="1200" prob="90" />
+	<set id="344" cost="2500" prob="90" />
+	<set id="345" cost="5000" prob="90" />
+	<set id="346" cost="10000" prob="90" />
+	<set id="347" cost="20000" prob="90" />
+	<set id="348" cost="30000" prob="90" />
+	<set id="349" cost="45000" prob="60">
+		<material vnum="30193" count="2" />
+	</set>
+	<set id="350" cost="90000" prob="45">
+		<material vnum="30193" count="4" />
+	</set>
+	<set id="351" cost="150000" prob="30">
+		<material vnum="30193" count="6" />
+	</set>
+	<set id="352" cost="3000" prob="90" />
+	<set id="353" cost="6000" prob="90" />
+	<set id="354" cost="12000" prob="90" />
+	<set id="355" cost="25000" prob="90" />
+	<set id="356" cost="40000" prob="90" />
+	<set id="357" cost="60000" prob="80" />
+	<set id="358" cost="90000" prob="85" />
+	<set id="359" cost="120000" prob="80" />
+	<set id="360" cost="150000" prob="80" />
+	<set id="400" cost="20000" prob="85">
+		<material vnum="30192" count="2" />
+	</set>
+	<set id="401" cost="30000" prob="80">
+		<material vnum="30194" count="2" />
+	</set>
+	<set id="402" cost="5000" prob="80" />
+	<set id="403" cost="10000" prob="80" />
+	<set id="404" cost="20000" prob="80" />
+	<set id="405" cost="30000" prob="80" />
+	<set id="406" cost="45000" prob="36">
+		<material vnum="30193" count="2" />
+	</set>
+	<set id="407" cost="90000" prob="27">
+		<material vnum="30193" count="4" />
+	</set>
+	<set id="408" cost="150000" prob="18">
+		<material vnum="30193" count="6" />
+	</set>
+	<set id="409" cost="5000000000" prob="100">
+		<material vnum="30126" count="1" />
+		<material vnum="30129" count="1" />
+		<material vnum="27992" count="50" />
+		<material vnum="27993" count="50" />
+		<material vnum="27994" count="50" />
+	</set>
+	<set id="410" cost="10000000000" prob="100">
+		<material vnum="31132" count="1" />
+	</set>
+	<set id="411" cost="15000000000" prob="100">
+		<material vnum="31135" count="1" />
+	</set>
+	<set id="426" cost="2000" prob="90" />
+	<set id="427" cost="4000" prob="90" />
+	<set id="428" cost="8000" prob="90" />
+	<set id="429" cost="16000" prob="81" />
+	<set id="430" cost="26000" prob="80" />
+	<set id="431" cost="40000" prob="80" />
+	<set id="432" cost="80000" prob="54" />
+	<set id="433" cost="150000" prob="45">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="434" cost="240000" prob="36">
+		<material vnum="27987" count="1" />
+	</set>
+	<set id="502" cost="2000000" prob="100" />
+	<set id="503" cost="140000" prob="90" />
+	<set id="504" cost="170000" prob="81" />
+	<set id="505" cost="200000" prob="80" />
+	<set id="506" cost="240000" prob="80">
+		<material vnum="71123" count="2" />
+		<material vnum="27992" count="1" />
+		<material vnum="27993" count="1" />
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="507" cost="290000" prob="70">
+		<material vnum="71129" count="2" />
+		<material vnum="27992" count="2" />
+		<material vnum="27993" count="2" />
+		<material vnum="27994" count="2" />
+	</set>
+	<set id="508" cost="340000" prob="45">
+		<material vnum="27992" count="3" />
+		<material vnum="71239" count="1" />
+	</set>
+	<set id="509" cost="410000" prob="35">
+		<material vnum="27993" count="3" />
+		<material vnum="71244" count="1" />
+	</set>
+	<set id="510" cost="5000000" prob="25">
+		<material vnum="27994" count="3" />
+		<material vnum="71241" count="1" />
+	</set>
+	<set id="511" cost="500000" prob="100" />
+	<set id="530" cost="10000000" prob="100">
+		<material vnum="71123" count="3" />
+		<material vnum="71129" count="4" />
+	</set>
+	<set id="531" cost="7500" prob="100" />
+	<set id="532" cost="15000" prob="90" />
+	<set id="533" cost="25000" prob="90" />
+	<set id="534" cost="40000" prob="85">
+		<material vnum="30196" count="3" />
+	</set>
+	<set id="535" cost="65000" prob="75">
+		<material vnum="30193" count="4" />
+	</set>
+	<set id="536" cost="90000" prob="55">
+		<material vnum="30195" count="2" />
+	</set>
+	<set id="537" cost="120000" prob="45">
+		<material vnum="30197" count="4" />
+		<material vnum="27992" count="2" />
+		<material vnum="71239" count="1" />
+	</set>
+	<set id="538" cost="150000" prob="35">
+		<material vnum="30198" count="2" />
+		<material vnum="27993" count="2" />
+		<material vnum="71244" count="1" />
+	</set>
+	<set id="539" cost="5000000" prob="25">
+		<material vnum="30199" count="2" />
+		<material vnum="27994" count="2" />
+		<material vnum="71241" count="1" />
+	</set>
+	<set id="540" cost="10000000" prob="100">
+		<material vnum="71123" count="3" />
+		<material vnum="71129" count="4" />
+	</set>
+	<set id="601" cost="100000" prob="100">
+		<material vnum="51001" count="10" />
+	</set>
+	<set id="602" cost="125000" prob="80">
+		<material vnum="51001" count="15" />
+	</set>
+	<set id="603" cost="150000" prob="70">
+		<material vnum="51001" count="20" />
+	</set>
+	<set id="604" cost="180000" prob="60">
+		<material vnum="51001" count="30" />
+	</set>
+	<set id="605" cost="225000" prob="50">
+		<material vnum="51001" count="45" />
+	</set>
+	<set id="606" cost="270000" prob="40">
+		<material vnum="51001" count="65" />
+	</set>
+	<set id="607" cost="320000" prob="35">
+		<material vnum="51001" count="95" />
+	</set>
+	<set id="608" cost="400000" prob="25">
+		<material vnum="51001" count="140" />
+	</set>
+	<set id="609" cost="5000000" prob="8">
+		<material vnum="51001" count="200" />
+	</set>
+	<set id="610" cost="5000000" prob="100">
+		<material vnum="30524" count="3" />
+		<material vnum="51001" count="200" />
+	</set>
+	<set id="611" cost="5000000" prob="100">
+		<material vnum="30525" count="3" />
+		<material vnum="51001" count="200" />
+	</set>
+	<set id="612" cost="2000000" prob="60">
+		<material vnum="30602" count="3" />
+		<material vnum="30610" count="1" />
+	</set>
+	<set id="613" cost="4000000" prob="55">
+		<material vnum="30603" count="3" />
+		<material vnum="30610" count="2" />
+	</set>
+	<set id="614" cost="6000000" prob="50">
+		<material vnum="30604" count="3" />
+		<material vnum="30610" count="2" />
+	</set>
+	<set id="615" cost="8000000" prob="45">
+		<material vnum="30614" count="3" />
+		<material vnum="30610" count="4" />
+	</set>
+	<set id="616" cost="10000000" prob="35">
+		<material vnum="30615" count="3" />
+		<material vnum="30610" count="4" />
+	</set>
+	<set id="617" cost="12000000" prob="30">
+		<material vnum="30619" count="3" />
+		<material vnum="30610" count="6" />
+		<material vnum="30616" count="1" />
+	</set>
+	<set id="618" cost="14000000" prob="25">
+		<material vnum="30631" count="3" />
+		<material vnum="30610" count="6" />
+		<material vnum="30617" count="1" />
+	</set>
+	<set id="619" cost="15000000" prob="15">
+		<material vnum="30625" count="2" />
+		<material vnum="30610" count="8" />
+		<material vnum="30618" count="1" />
+	</set>
+	<set id="701" cost="500000" prob="80" />
+	<set id="702" cost="2000000" prob="25" />
+	<set id="703" cost="5000000" prob="100" />
+	<set id="751" cost="100000" prob="45" />
+	<set id="752" cost="500000" prob="54" />
+	<set id="753" cost="2000000" prob="36" />
+	<set id="758" cost="125000" prob="100">
+		<material vnum="71123" count="2" />
+		<material vnum="71129" count="3" />
+	</set>
+	<set id="760" cost="1200" prob="90">
+		<material vnum="51001" count="10" />
+	</set>
+	<set id="761" cost="2500" prob="85">
+		<material vnum="51001" count="15" />
+	</set>
+	<set id="762" cost="5000" prob="85">
+		<material vnum="51001" count="20" />
+	</set>
+	<set id="763" cost="10000" prob="85">
+		<material vnum="51001" count="25" />
+	</set>
+	<set id="764" cost="20000" prob="65">
+		<material vnum="51001" count="30" />
+	</set>
+	<set id="765" cost="30000" prob="65">
+		<material vnum="51001" count="35" />
+	</set>
+	<set id="766" cost="45000" prob="46">
+		<material vnum="51001" count="40" />
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="767" cost="90000" prob="35">
+		<material vnum="51001" count="45" />
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="768" cost="150000" prob="25">
+		<material vnum="51001" count="50" />
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="769" cost="1200" prob="100" />
+	<set id="770" cost="2500" prob="95" />
+	<set id="771" cost="5000" prob="95" />
+	<set id="772" cost="10000" prob="95" />
+	<set id="773" cost="20000" prob="75">
+		<material vnum="30192" count="2" />
+	</set>
+	<set id="774" cost="30000" prob="75">
+		<material vnum="30194" count="2" />
+	</set>
+	<set id="775" cost="45000" prob="30">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="776" cost="90000" prob="20">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="777" cost="150000" prob="15">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="778" cost="1000000" prob="80">
+		<material vnum="27992" count="3" />
+	</set>
+	<set id="779" cost="1250000" prob="60">
+		<material vnum="27993" count="3" />
+	</set>
+	<set id="780" cost="1500000" prob="60">
+		<material vnum="27994" count="3" />
+	</set>
+	<set id="781" cost="1750000" prob="60">
+		<material vnum="27992" count="4" />
+	</set>
+	<set id="782" cost="2000000" prob="50">
+		<material vnum="27993" count="4" />
+	</set>
+	<set id="783" cost="2250000" prob="40">
+		<material vnum="27994" count="4" />
+	</set>
+	<set id="784" cost="2500000" prob="30">
+		<material vnum="27992" count="6" />
+	</set>
+	<set id="785" cost="3000000" prob="20">
+		<material vnum="27993" count="6" />
+	</set>
+	<set id="786" cost="7500000" prob="9">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="787" cost="150000" prob="60">
+		<material vnum="30193" count="2" />
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="788" cost="300000" prob="40">
+		<material vnum="30193" count="4" />
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="789" cost="675000" prob="30">
+		<material vnum="30193" count="6" />
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="790" cost="1000000" prob="40">
+		<material vnum="27990" count="50" />
+	</set>
+	<set id="801" cost="20000000" prob="100" />
+	<set id="802" cost="21000000" prob="55" />
+	<set id="803" cost="22000000" prob="55" />
+	<set id="804" cost="23000000" prob="55" />
+	<set id="805" cost="24000000" prob="55" />
+	<set id="806" cost="25000000" prob="55" />
+	<set id="807" cost="26000000" prob="33">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="808" cost="27000000" prob="33">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="809" cost="30000000" prob="33">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="811" cost="40000000" prob="100" />
+	<set id="812" cost="41000000" prob="55" />
+	<set id="813" cost="42000000" prob="55" />
+	<set id="814" cost="43000000" prob="44" />
+	<set id="815" cost="44000000" prob="44" />
+	<set id="816" cost="45000000" prob="44" />
+	<set id="817" cost="46000000" prob="60">
+		<material vnum="29121" count="2" />
+	</set>
+	<set id="818" cost="47000000" prob="60">
+		<material vnum="29122" count="2" />
+	</set>
+	<set id="819" cost="50000000" prob="60">
+		<material vnum="29123" count="2" />
+	</set>
+	<set id="821" cost="90000000" prob="100" />
+	<set id="822" cost="91000000" prob="33">
+		<material vnum="29125" count="2" />
+	</set>
+	<set id="823" cost="92000000" prob="33">
+		<material vnum="29126" count="2" />
+	</set>
+	<set id="824" cost="93000000" prob="33">
+		<material vnum="29127" count="2" />
+	</set>
+	<set id="825" cost="94000000" prob="33">
+		<material vnum="29128" count="2" />
+	</set>
+	<set id="826" cost="95000000" prob="33">
+		<material vnum="29129" count="2" />
+	</set>
+	<set id="827" cost="96000000" prob="22">
+		<material vnum="29130" count="1" />
+	</set>
+	<set id="828" cost="97000000" prob="20">
+		<material vnum="29131" count="1" />
+	</set>
+	<set id="829" cost="100000000" prob="15">
+		<material vnum="29132" count="1" />
+	</set>
+	<set id="911" cost="500000" prob="100" />
+	<set id="912" cost="500000" prob="55" />
+	<set id="913" cost="500000" prob="55" />
+	<set id="914" cost="500000" prob="55" />
+	<set id="915" cost="500000" prob="55" />
+	<set id="916" cost="500000" prob="55" />
+	<set id="917" cost="1000000" prob="44" />
+	<set id="918" cost="2000000" prob="33" />
+	<set id="919" cost="3000000" prob="22" />
+	<set id="921" cost="10000000" prob="100" />
+	<set id="922" cost="11000000" prob="55" />
+	<set id="923" cost="12000000" prob="55" />
+	<set id="924" cost="13000000" prob="55" />
+	<set id="925" cost="14000000" prob="55" />
+	<set id="926" cost="15000000" prob="55" />
+	<set id="927" cost="16000000" prob="44" />
+	<set id="928" cost="17000000" prob="33" />
+	<set id="929" cost="20000000" prob="22" />
+	<set id="931" cost="20000000" prob="100" />
+	<set id="932" cost="21000000" prob="55" />
+	<set id="933" cost="22000000" prob="55" />
+	<set id="934" cost="23000000" prob="55" />
+	<set id="935" cost="24000000" prob="55" />
+	<set id="936" cost="25000000" prob="55" />
+	<set id="937" cost="26000000" prob="33">
+		<material vnum="27992" count="1" />
+	</set>
+	<set id="938" cost="27000000" prob="33">
+		<material vnum="27993" count="1" />
+	</set>
+	<set id="939" cost="30000000" prob="33">
+		<material vnum="27994" count="1" />
+	</set>
+	<set id="941" cost="40000000" prob="100" />
+	<set id="942" cost="41000000" prob="55" />
+	<set id="943" cost="42000000" prob="55" />
+	<set id="944" cost="43000000" prob="44" />
+	<set id="945" cost="44000000" prob="44" />
+	<set id="946" cost="45000000" prob="44" />
+	<set id="947" cost="46000000" prob="60">
+		<material vnum="29121" count="2" />
+	</set>
+	<set id="948" cost="47000000" prob="60">
+		<material vnum="29122" count="2" />
+	</set>
+	<set id="949" cost="50000000" prob="60">
+		<material vnum="29123" count="2" />
+	</set>
+	<set id="951" cost="90000000" prob="100" />
+	<set id="952" cost="91000000" prob="33">
+		<material vnum="29125" count="2" />
+	</set>
+	<set id="953" cost="92000000" prob="33">
+		<material vnum="29126" count="2" />
+	</set>
+	<set id="954" cost="93000000" prob="33">
+		<material vnum="29127" count="2" />
+	</set>
+	<set id="955" cost="94000000" prob="33">
+		<material vnum="29128" count="2" />
+	</set>
+	<set id="956" cost="95000000" prob="33">
+		<material vnum="29129" count="2" />
+	</set>
+	<set id="957" cost="96000000" prob="22">
+		<material vnum="29130" count="1" />
+	</set>
+	<set id="958" cost="97000000" prob="20">
+		<material vnum="29131" count="1" />
+	</set>
+	<set id="959" cost="100000000" prob="15">
+		<material vnum="29132" count="1" />
+	</set>
+	<set id="961" cost="90000000" prob="100" />
+	<set id="962" cost="91000000" prob="33">
+		<material vnum="29125" count="5" />
+	</set>
+	<set id="963" cost="92000000" prob="33">
+		<material vnum="29126" count="5" />
+	</set>
+	<set id="964" cost="93000000" prob="33">
+		<material vnum="29127" count="5" />
+	</set>
+	<set id="965" cost="94000000" prob="33">
+		<material vnum="29128" count="5" />
+	</set>
+	<set id="966" cost="95000000" prob="33">
+		<material vnum="29129" count="5" />
+	</set>
+	<set id="967" cost="96000000" prob="22">
+		<material vnum="29130" count="4" />
+	</set>
+	<set id="968" cost="97000000" prob="20">
+		<material vnum="29131" count="4" />
+	</set>
+	<set id="969" cost="100000000" prob="15">
+		<material vnum="29132" count="3" />
+	</set>
+	<set id="971" cost="40000000" prob="100" />
+	<set id="972" cost="41000000" prob="55" />
+	<set id="973" cost="42000000" prob="55" />
+	<set id="974" cost="43000000" prob="44" />
+	<set id="975" cost="44000000" prob="44" />
+	<set id="976" cost="45000000" prob="44" />
+	<set id="977" cost="46000000" prob="60">
+		<material vnum="29121" count="1" />
+	</set>
+	<set id="978" cost="47000000" prob="60">
+		<material vnum="29122" count="1" />
+	</set>
+	<set id="979" cost="50000000" prob="60">
+		<material vnum="29123" count="1" />
+	</set>
+	<set id="980" cost="15000000" prob="100" />
+	<set id="981" cost="25000000" prob="100" />
+	<set id="982" cost="50000000" prob="100">
+		<material vnum="29120" count="3" />
+	</set>
+	<set id="983" cost="100000000" prob="100">
+		<material vnum="29124" count="3" />
+	</set>
+	<set id="992" cost="50000000" prob="100">
+		<material vnum="29120" count="2" />
+	</set>
+	<set id="993" cost="100000000" prob="100">
+		<material vnum="29124" count="2" />
+	</set>
+	<set id="994" cost="10000000" prob="100" />
+	<set id="1000" cost="1000000000" prob="100">
+		<material vnum="55480" count="30" />
+		<material vnum="55528" count="2" />
+	</set>
+	<set id="1001" cost="180000000" prob="33">
+		<material vnum="55481" count="2" />
+		<material vnum="55482" count="2" />
+		<material vnum="55483" count="2" />
+		<material vnum="55484" count="2" />
+	</set>
+	<set id="1002" cost="195000000" prob="33">
+		<material vnum="55481" count="5" />
+		<material vnum="55482" count="5" />
+		<material vnum="55483" count="5" />
+		<material vnum="55484" count="5" />
+	</set>
+	<set id="1003" cost="210000000" prob="33">
+		<material vnum="55481" count="7" />
+		<material vnum="55482" count="7" />
+		<material vnum="55483" count="7" />
+		<material vnum="55484" count="7" />
+	</set>
+	<set id="1004" cost="225000000" prob="33">
+		<material vnum="55481" count="10" />
+		<material vnum="55482" count="10" />
+		<material vnum="55483" count="10" />
+		<material vnum="55484" count="10" />
+	</set>
+	<set id="1005" cost="240000000" prob="33">
+		<material vnum="55481" count="12" />
+		<material vnum="55482" count="12" />
+		<material vnum="55483" count="12" />
+		<material vnum="55484" count="12" />
+	</set>
+	<set id="1006" cost="255000000" prob="33">
+		<material vnum="55481" count="15" />
+		<material vnum="55482" count="15" />
+		<material vnum="55483" count="15" />
+		<material vnum="55484" count="15" />
+	</set>
+	<set id="1007" cost="270000000" prob="33">
+		<material vnum="55481" count="17" />
+		<material vnum="55482" count="17" />
+		<material vnum="55483" count="17" />
+		<material vnum="55484" count="17" />
+	</set>
+	<set id="1008" cost="285000000" prob="33">
+		<material vnum="55481" count="20" />
+		<material vnum="55482" count="20" />
+		<material vnum="55483" count="20" />
+		<material vnum="55484" count="20" />
+	</set>
+	<set id="1009" cost="300000000" prob="33">
+		<material vnum="55481" count="22" />
+		<material vnum="55482" count="22" />
+		<material vnum="55483" count="22" />
+		<material vnum="55484" count="22" />
+	</set>
+	<set id="1010" cost="1000000000" prob="100">
+		<material vnum="55490" count="1" />
+		<material vnum="29124" count="3" />
+	</set>
+	<set id="1011" cost="180000000" prob="33">
+		<material vnum="55491" count="2" />
+		<material vnum="29121" count="1" />
+	</set>
+	<set id="1012" cost="195000000" prob="33">
+		<material vnum="55492" count="2" />
+		<material vnum="29125" count="10" />
+	</set>
+	<set id="1013" cost="210000000" prob="33">
+		<material vnum="55493" count="2" />
+		<material vnum="29123" count="1" />
+	</set>
+	<set id="1014" cost="225000000" prob="33">
+		<material vnum="55494" count="2" />
+		<material vnum="29120" count="1" />
+	</set>
+	<set id="1015" cost="240000000" prob="33">
+		<material vnum="55495" count="2" />
+		<material vnum="29122" count="1" />
+	</set>
+	<set id="1016" cost="255000000" prob="33">
+		<material vnum="55496" count="2" />
+		<material vnum="29124" count="1" />
+	</set>
+	<set id="1017" cost="270000000" prob="33">
+		<material vnum="55497" count="2" />
+	</set>
+	<set id="1018" cost="285000000" prob="33">
+		<material vnum="55498" count="2" />
+	</set>
+	<set id="1019" cost="300000000" prob="33">
+		<material vnum="55499" count="2" />
+	</set>
+	<set id="1021" cost="500000000" prob="100">
+		<material vnum="27992" count="100" />
+	</set>
+	<set id="1022" cost="500000000" prob="100">
+		<material vnum="27993" count="100" />
+	</set>
+	<set id="1023" cost="500000000" prob="100">
+		<material vnum="27994" count="100" />
+	</set>
+	<set id="1024" cost="500000000" prob="100">
+		<material vnum="29125" count="100" />
+		<material vnum="29129" count="100" />
+	</set>
+	<set id="1025" cost="500000000" prob="100">
+		<material vnum="29128" count="100" />
+		<material vnum="29127" count="100" />
+	</set>
+	<set id="1026" cost="500000000" prob="100">
+		<material vnum="29126" count="100" />
+		<material vnum="29130" count="100" />
+	</set>
+	<set id="1027" cost="500000000" prob="100">
+		<material vnum="29131" count="100" />
+		<material vnum="29132" count="100" />
+	</set>
+	<set id="1028" cost="500000000" prob="100">
+		<material vnum="29120" count="10" />
+		<material vnum="29123" count="10" />
+		<material vnum="29124" count="5" />
+	</set>
+	<set id="1029" cost="500000000" prob="100">
+		<material vnum="29121" count="10" />
+		<material vnum="29122" count="10" />
+		<material vnum="29124" count="5" />
+	</set>
+	<set id="1030" cost="2000000000" prob="100" />
+	<set id="1031" cost="180000000" prob="33">
+		<material vnum="30026" count="5" />
+		<material vnum="30027" count="5" />
+		<material vnum="30028" count="5" />
+	</set>
+	<set id="1032" cost="195000000" prob="33">
+		<material vnum="30026" count="6" />
+		<material vnum="30027" count="6" />
+		<material vnum="30028" count="6" />
+	</set>
+	<set id="1033" cost="210000000" prob="33">
+		<material vnum="30026" count="11" />
+		<material vnum="30027" count="11" />
+		<material vnum="30028" count="11" />
+	</set>
+	<set id="1034" cost="225000000" prob="33">
+		<material vnum="30026" count="16" />
+		<material vnum="30027" count="16" />
+		<material vnum="30028" count="16" />
+	</set>
+	<set id="1035" cost="240000000" prob="33">
+		<material vnum="30026" count="21" />
+		<material vnum="30027" count="21" />
+		<material vnum="30028" count="21" />
+	</set>
+	<set id="1036" cost="255000000" prob="66">
+		<material vnum="30034" count="1" />
+		<material vnum="30035" count="1" />
+		<material vnum="30036" count="1" />
+	</set>
+	<set id="1037" cost="270000000" prob="66">
+		<material vnum="30034" count="1" />
+		<material vnum="30035" count="1" />
+		<material vnum="30036" count="1" />
+	</set>
+	<set id="1038" cost="285000000" prob="66">
+		<material vnum="30032" count="1" />
+		<material vnum="30033" count="1" />
+	</set>
+	<set id="1039" cost="300000000" prob="66">
+		<material vnum="30032" count="1" />
+		<material vnum="30033" count="1" />
+	</set>
+	<set id="1041" cost="60000000" prob="100" />
+	<set id="1042" cost="63000000" prob="55" />
+	<set id="1043" cost="66000000" prob="55" />
+	<set id="1044" cost="69000000" prob="55" />
+	<set id="1045" cost="72000000" prob="55" />
+	<set id="1046" cost="75000000" prob="55" />
+	<set id="1047" cost="78000000" prob="33">
+		<material vnum="27992" count="3" />
+	</set>
+	<set id="1048" cost="81000000" prob="33">
+		<material vnum="27993" count="3" />
+	</set>
+	<set id="1049" cost="90000000" prob="33">
+		<material vnum="27994" count="3" />
+	</set>
+	<set id="1050" cost="140000" prob="100">
+		<material vnum="8010" count="2" />
+	</set>
+	<set id="1051" cost="210000" prob="98">
+		<material vnum="8010" count="3" />
+	</set>
+	<set id="1052" cost="280000" prob="96">
+		<material vnum="8010" count="5" />
+	</set>
+	<set id="1053" cost="350000" prob="95">
+		<material vnum="8010" count="15" />
+	</set>
+	<set id="1054" cost="420000" prob="94">
+		<material vnum="8010" count="35" />
+	</set>
+	<set id="1055" cost="490000" prob="93">
+		<material vnum="8010" count="55" />
+	</set>
+	<set id="1056" cost="1000000" prob="92">
+		<material vnum="8011" count="1" />
+	</set>
+	<set id="1057" cost="1200000" prob="91">
+		<material vnum="8011" count="2" />
+	</set>
+	<set id="1058" cost="1500000" prob="90">
+		<material vnum="8011" count="3" />
+	</set>
+	<set id="1059" cost="0" prob="100"/>
+
+	<set id="1060" cost="1280000" prob="100">
+		<material vnum="8012" count="4" />
+	</set>
+	<set id="1061" cost="1420000" prob="98">
+		<material vnum="8012" count="6" />
+	</set>
+	<set id="1062" cost="1560000" prob="96">
+		<material vnum="8012" count="20" />
+	</set>
+	<set id="1063" cost="1700000" prob="95">
+		<material vnum="8012" count="40" />
+	</set>
+	<set id="1064" cost="1840000" prob="94">
+		<material vnum="8012" count="70" />
+	</set>
+	<set id="1065" cost="1980000" prob="93">
+		<material vnum="8012" count="100" />
+	</set>
+	<set id="1066" cost="3800000" prob="92">
+		<material vnum="8013" count="4" />
+	</set>
+	<set id="1067" cost="4500000" prob="91">
+		<material vnum="8013" count="6" />
+	</set>
+	<set id="1068" cost="5200000" prob="90">
+		<material vnum="8013" count="6" />
+	</set>
+	<set id="1069" cost="8000000" prob="100">
+		<material vnum="8015" count="3" />
+	</set>
+	<set id="1070" cost="4992000" prob="100">
+		<material vnum="8014" count="10" />
+		<material vnum="8012" count="2" />
+	</set>
+	<set id="1071" cost="5538000" prob="98">
+		<material vnum="8014" count="20" />
+		<material vnum="8012" count="3" />
+	</set>
+	<set id="1072" cost="6084000" prob="96">
+		<material vnum="8014" count="30" />
+		<material vnum="8012" count="5" />
+	</set>
+	<set id="1073" cost="6630000" prob="95">
+		<material vnum="8014" count="50" />
+		<material vnum="8012" count="10" />
+	</set>
+	<set id="1074" cost="7176000" prob="94">
+		<material vnum="8014" count="90" />
+		<material vnum="8012" count="15" />
+	</set>
+	<set id="1075" cost="7722000" prob="93">
+		<material vnum="8014" count="170" />
+		<material vnum="8012" count="20" />
+	</set>
+	<set id="1076" cost="14820000" prob="92">
+		<material vnum="8015" count="5" />
+	</set>
+	<set id="1077" cost="17550000" prob="91">
+		<material vnum="8015" count="7" />
+		<material vnum="8013" count="1" />
+	</set>
+	<set id="1078" cost="20280000" prob="90">
+		<material vnum="8015" count="14" />
+		<material vnum="8013" count="2" />
+	</set>
+	<set id="1079" cost="25000000" prob="100">
+		<material vnum="8017" count="6" />
+		<material vnum="8015" count="3" />
+		<material vnum="8013" count="3" />
+	</set>
+	<set id="1080" cost="14976000" prob="100">
+		<material vnum="8016" count="20" />
+		<material vnum="8014" count="2" />
+		<material vnum="8012" count="2" />
+	</set>
+	<set id="1081" cost="16614000" prob="98">
+		<material vnum="8016" count="40" />
+		<material vnum="8014" count="3" />
+		<material vnum="8012" count="3" />
+	</set>
+	<set id="1082" cost="18252000" prob="96">
+		<material vnum="8016" count="60" />
+		<material vnum="8014" count="5" />
+		<material vnum="8012" count="5" />
+	</set>
+	<set id="1083" cost="19890000" prob="95">
+		<material vnum="8016" count="80" />
+		<material vnum="8014" count="10" />
+		<material vnum="8012" count="10" />
+	</set>
+	<set id="1084" cost="21528000" prob="94">
+		<material vnum="8016" count="120" />
+		<material vnum="8014" count="15" />
+		<material vnum="8012" count="15" />
+	</set>
+	<set id="1085" cost="23166000" prob="93">
+		<material vnum="8016" count="240" />
+		<material vnum="8014" count="20" />
+		<material vnum="8012" count="20" />
+	</set>
+	<set id="1086" cost="44460000" prob="92">
+		<material vnum="8017" count="8" />
+	</set>
+	<set id="1087" cost="52650000" prob="91">
+		<material vnum="8017" count="12" />
+		<material vnum="8015" count="1" />
+		<material vnum="8013" count="1" />
+	</set>
+	<set id="1088" cost="60840000" prob="90">
+		<material vnum="8017" count="16" />
+		<material vnum="8015" count="2" />
+		<material vnum="8013" count="2" />
+	</set>
+	<set id="1089" cost="100000000" prob="100">
+		<material vnum="8019" count="10" />
+		<material vnum="8017" count="3" />
+		<material vnum="8015" count="3" />
+		<material vnum="8013" count="3" />
+	</set>
+	<set id="1090" cost="31449600" prob="100">
+		<material vnum="8018" count="40" />
+		<material vnum="8016" count="2" />
+		<material vnum="8014" count="2" />
+		<material vnum="8012" count="2" />
+	</set>
+	<set id="1091" cost="34889400" prob="98">
+		<material vnum="8018" count="80" />
+		<material vnum="8016" count="3" />
+		<material vnum="8014" count="3" />
+		<material vnum="8012" count="3" />
+	</set>
+	<set id="1092" cost="38329200" prob="96">
+		<material vnum="8018" count="120" />
+		<material vnum="8016" count="5" />
+		<material vnum="8014" count="5" />
+		<material vnum="8012" count="5" />
+	</set>
+	<set id="1093" cost="41769000" prob="95">
+		<material vnum="8018" count="160" />
+		<material vnum="8016" count="10" />
+		<material vnum="8014" count="10" />
+		<material vnum="8012" count="10" />
+	</set>
+	<set id="1094" cost="45208800" prob="94">
+		<material vnum="8018" count="200" />
+		<material vnum="8016" count="15" />
+		<material vnum="8014" count="15" />
+		<material vnum="8012" count="15" />
+	</set>
+	<set id="1095" cost="80000000" prob="93">
+		<material vnum="8018" count="250" />
+		<material vnum="8016" count="20" />
+		<material vnum="8014" count="20" />
+		<material vnum="8012" count="20" />
+	</set>
+	<set id="1096" cost="100000000" prob="92">
+		<material vnum="8019" count="12" />
+	</set>
+	<set id="1097" cost="150000000" prob="91">
+		<material vnum="8019" count="15" />
+		<material vnum="8017" count="1" />
+		<material vnum="8015" count="1" />
+		<material vnum="8013" count="1" />
+	</set>
+	<set id="1098" cost="250000000" prob="90">
+		<material vnum="8019" count="20" />
+		<material vnum="8017" count="2" />
+		<material vnum="8015" count="2" />
+		<material vnum="8013" count="2" />
+	</set>
+	<set id="1099" cost="500000000" prob="100">
+		<material vnum="9563" count="10" />
+		<material vnum="8017" count="3" />
+		<material vnum="8015" count="3" />
+		<material vnum="8013" count="3" />
+	</set>
+	<set id="1100" cost="140000" prob="100">
+		<material vnum="8020" count="4" />
+	</set>
+	<set id="1101" cost="210000" prob="98">
+		<material vnum="8020" count="6" />
+	</set>
+	<set id="1102" cost="280000" prob="96">
+		<material vnum="8020" count="10" />
+	</set>
+	<set id="1103" cost="350000" prob="95">
+		<material vnum="8020" count="30" />
+	</set>
+	<set id="1104" cost="420000" prob="94">
+		<material vnum="8020" count="70" />
+	</set>
+	<set id="1105" cost="480000" prob="93">
+		<material vnum="8020" count="110" />
+	</set>
+	<set id="1106" cost="1000000" prob="92">
+		<material vnum="8021" count="2" />
+	</set>
+	<set id="1107" cost="1200000" prob="91">
+		<material vnum="8021" count="4" />
+	</set>
+	<set id="1108" cost="1500000" prob="90">
+		<material vnum="8021" count="6" />
+	</set>
+	<set id="1109" cost="2000000" prob="100">
+		<material vnum="8023" count="4" />
+	</set>
+	<set id="1110" cost="1280000" prob="100">
+		<material vnum="8022" count="8" />
+	</set>
+	<set id="1111" cost="1420000" prob="98">
+		<material vnum="8022" count="12" />
+	</set>
+	<set id="1112" cost="1560000" prob="96">
+		<material vnum="8022" count="40" />
+	</set>
+	<set id="1113" cost="1700000" prob="95">
+		<material vnum="8022" count="80" />
+	</set>
+	<set id="1114" cost="1840000" prob="94">
+		<material vnum="8022" count="140" />
+	</set>
+	<set id="1115" cost="1980000" prob="93">
+		<material vnum="8022" count="200" />
+	</set>
+	<set id="1116" cost="3800000" prob="92">
+		<material vnum="8023" count="8" />
+	</set>
+	<set id="1117" cost="4500000" prob="91">
+		<material vnum="8023" count="12" />
+	</set>
+	<set id="1118" cost="5200000" prob="90">
+		<material vnum="8023" count="24" />
+	</set>
+	<set id="1119" cost="8000000" prob="100">
+		<material vnum="8025" count="10" />
+		<material vnum="8023" count="1" />
+	</set>
+	<set id="1120" cost="4992000" prob="100">
+		<material vnum="8024" count="10" />
+		<material vnum="8022" count="2" />
+	</set>
+	<set id="1121" cost="5538000" prob="98">
+		<material vnum="8024" count="20" />
+		<material vnum="8022" count="3" />
+	</set>
+	<set id="1122" cost="6084000" prob="96">
+		<material vnum="8024" count="40" />
+		<material vnum="8022" count="5" />
+	</set>
+	<set id="1123" cost="6630000" prob="95">
+		<material vnum="8024" count="80" />
+		<material vnum="8022" count="10" />
+
+	</set>
+	<set id="1124" cost="7176000" prob="94">
+		<material vnum="8024" count="180" />
+		<material vnum="8022" count="15" />
+	</set>
+	<set id="1125" cost="7722000" prob="93">
+		<material vnum="8024" count="320" />
+		<material vnum="8022" count="20" />
+	</set>
+	<set id="1126" cost="14820000" prob="92">
+		<material vnum="8025" count="6" />
+	</set>
+	<set id="1127" cost="17550000" prob="91">
+		<material vnum="8025" count="14" />
+		<material vnum="8023" count="2" />
+	</set>
+	<set id="1128" cost="20280000" prob="90">
+		<material vnum="8025" count="30" />
+		<material vnum="8023" count="3" />
+	</set>
+	<set id="1129" cost="25000000" prob="100">
+		<material vnum="8027" count="10" />
+		<material vnum="8025" count="1" />
+		<material vnum="8023" count="1" />
+	</set>
+	<set id="1130" cost="14976000" prob="100">
+		<material vnum="8026" count="30" />
+		<material vnum="8024" count="2" />
+		<material vnum="8022" count="2" />
+	</set>
+	<set id="1131" cost="16614000" prob="98">
+		<material vnum="8026" count="60" />
+		<material vnum="8024" count="3" />
+		<material vnum="8022" count="3" />
+	</set>
+	<set id="1132" cost="18252000" prob="96">
+		<material vnum="8026" count="90" />
+		<material vnum="8024" count="5" />
+		<material vnum="8022" count="5" />
+	</set>
+	<set id="1133" cost="19890000" prob="95">
+		<material vnum="8026" count="150" />
+		<material vnum="8024" count="10" />
+		<material vnum="8022" count="10" />
+	</set>
+	<set id="1134" cost="21528000" prob="94">
+		<material vnum="8026" count="250" />
+		<material vnum="8024" count="15" />
+		<material vnum="8022" count="15" />
+	</set>
+	<set id="1135" cost="23166000" prob="93">
+		<material vnum="8026" count="450" />
+		<material vnum="8024" count="20" />
+		<material vnum="8022" count="20" />
+	</set>
+	<set id="1136" cost="44460000" prob="92">
+		<material vnum="8027" count="15" />
+	</set>
+	<set id="1137" cost="52650000" prob="91">
+		<material vnum="8027" count="20" />
+		<material vnum="8025" count="1" />
+		<material vnum="8023" count="1" />
+	</set>
+	<set id="1138" cost="60840000" prob="90">
+		<material vnum="8027" count="60" />
+		<material vnum="8025" count="2" />
+		<material vnum="8023" count="2" />
+	</set>
+	<set id="1139" cost="100000000" prob="100">
+		<material vnum="8029" count="20" />
+		<material vnum="8027" count="1" />
+		<material vnum="8025" count="1" />
+		<material vnum="8023" count="1" />
+	</set>
+	<set id="1140" cost="31449600" prob="100">
+		<material vnum="8028" count="60" />
+		<material vnum="8026" count="2" />
+		<material vnum="8024" count="2" />
+		<material vnum="8022" count="2" />
+	</set>
+	<set id="1141" cost="34889400" prob="98">
+		<material vnum="8028" count="120" />
+		<material vnum="8026" count="3" />
+		<material vnum="8024" count="3" />
+		<material vnum="8022" count="3" />
+	</set>
+	<set id="1142" cost="38329200" prob="96">
+		<material vnum="8028" count="180" />
+		<material vnum="8026" count="5" />
+		<material vnum="8024" count="5" />
+		<material vnum="8022" count="5" />
+	</set>
+	<set id="1143" cost="41769000" prob="95">
+		<material vnum="8028" count="240" />
+		<material vnum="8026" count="10" />
+		<material vnum="8024" count="10" />
+		<material vnum="8022" count="10" />
+	</set>
+	<set id="1144" cost="45208800" prob="94">
+		<material vnum="8028" count="420" />
+		<material vnum="8026" count="15" />
+		<material vnum="8024" count="15" />
+		<material vnum="8022" count="15" />
+	</set>
+	<set id="1145" cost="80000000" prob="93">
+		<material vnum="8028" count="750" />
+		<material vnum="8026" count="20" />
+		<material vnum="8024" count="20" />
+		<material vnum="8022" count="20" />
+	</set>
+	<set id="1146" cost="100000000" prob="92">
+		<material vnum="8029" count="25" />
+	</set>
+	<set id="1147" cost="150000000" prob="91">
+		<material vnum="8029" count="30" />
+		<material vnum="8027" count="1" />
+		<material vnum="8025" count="1" />
+		<material vnum="8023" count="1" />
+	</set>
+	<set id="1148" cost="250000000" prob="90">
+		<material vnum="8029" count="60" />
+		<material vnum="8027" count="2" />
+		<material vnum="8025" count="2" />
+		<material vnum="8023" count="2" />
+	</set>
+	<set id="1149" cost="500000000" prob="100">
+		<material vnum="8031" count="10" />
+		<material vnum="8029" count="1" />
+		<material vnum="8027" count="1" />
+		<material vnum="8025" count="1" />
+		<material vnum="8023" count="1" />
+	</set>
+	<set id="1150" cost="94348800" prob="100">
+		<material vnum="8030" count="200" />
+		<material vnum="8028" count="2" />
+		<material vnum="8026" count="2" />
+		<material vnum="8024" count="2" />
+		<material vnum="8022" count="2" />
+	</set>
+	<set id="1151" cost="104668200" prob="98">
+		<material vnum="8030" count="300" />
+		<material vnum="8028" count="3" />
+		<material vnum="8026" count="3" />
+		<material vnum="8024" count="3" />
+		<material vnum="8022" count="3" />
+	</set>
+	<set id="1152" cost="114987600" prob="96">
+		<material vnum="8030" count="400" />
+		<material vnum="8028" count="5" />
+		<material vnum="8026" count="5" />
+		<material vnum="8024" count="5" />
+		<material vnum="8022" count="5" />
+	</set>
+	<set id="1153" cost="125307000" prob="95">
+		<material vnum="8030" count="600" />
+		<material vnum="8028" count="10" />
+		<material vnum="8026" count="10" />
+		<material vnum="8024" count="10" />
+		<material vnum="8022" count="10" />
+	</set>
+	<set id="1154" cost="135626400" prob="94">
+		<material vnum="8030" count="800" />
+		<material vnum="8028" count="15" />
+		<material vnum="8026" count="15" />
+		<material vnum="8024" count="15" />
+		<material vnum="8022" count="15" />
+	</set>
+	<set id="1155" cost="145945800" prob="93">
+		<material vnum="8030" count="1200" />
+		<material vnum="8028" count="20" />
+		<material vnum="8026" count="20" />
+		<material vnum="8024" count="20" />
+		<material vnum="8022" count="20" />
+	</set>
+	<set id="1156" cost="400000000" prob="92">
+		<material vnum="8031" count="45" />
+		<material vnum="8029" count="1" />
+		<material vnum="8027" count="1" />
+		<material vnum="8025" count="1" />
+		<material vnum="8023" count="1" />
+	</set>
+	<set id="1157" cost="500000000" prob="91">
+		<material vnum="8031" count="50" />
+		<material vnum="8029" count="2" />
+		<material vnum="8027" count="2" />
+		<material vnum="8025" count="2" />
+		<material vnum="8023" count="2" />
+	</set>
+	<set id="1158" cost="2500000000" prob="90">
+		<material vnum="8031" count="55" />
+		<material vnum="8029" count="3" />
+		<material vnum="8027" count="3" />
+		<material vnum="8025" count="3" />
+		<material vnum="8023" count="3" />
+	</set>
+	<set id="1160" cost="94348800" prob="100">
+		<material vnum="9562" count="100" />
+		<material vnum="8018" count="2" />
+		<material vnum="8016" count="2" />
+		<material vnum="8014" count="2" />
+		<material vnum="8012" count="2" />
+	</set>
+	<set id="1161" cost="104668200" prob="98">
+		<material vnum="9562" count="150" />
+		<material vnum="8018" count="3" />
+		<material vnum="8016" count="3" />
+		<material vnum="8014" count="3" />
+		<material vnum="8012" count="3" />
+	</set>
+	<set id="1162" cost="114987600" prob="96">
+		<material vnum="9562" count="200" />
+		<material vnum="8018" count="5" />
+		<material vnum="8016" count="5" />
+		<material vnum="8014" count="5" />
+		<material vnum="8012" count="5" />
+	</set>
+	<set id="1163" cost="125307000" prob="95">
+		<material vnum="9562" count="250" />
+		<material vnum="8018" count="10" />
+		<material vnum="8016" count="10" />
+		<material vnum="8014" count="10" />
+		<material vnum="8012" count="10" />
+	</set>
+	<set id="1164" cost="135626400" prob="94">
+		<material vnum="9562" count="400" />
+		<material vnum="8018" count="15" />
+		<material vnum="8016" count="15" />
+		<material vnum="8014" count="15" />
+		<material vnum="8012" count="15" />
+	</set>
+	<set id="1165" cost="145945800" prob="93">
+		<material vnum="9562" count="600" />
+		<material vnum="8018" count="20" />
+		<material vnum="8016" count="20" />
+		<material vnum="8014" count="20" />
+		<material vnum="8012" count="20" />
+	</set>
+	<set id="1166" cost="400000000" prob="92">
+		<material vnum="9563" count="15" />
+		<material vnum="8019" count="1" />
+		<material vnum="8017" count="1" />
+		<material vnum="8015" count="1" />
+		<material vnum="8013" count="1" />
+	</set>
+	<set id="1167" cost="500000000" prob="91">
+		<material vnum="9563" count="25" />
+		<material vnum="8019" count="2" />
+		<material vnum="8017" count="2" />
+		<material vnum="8015" count="2" />
+		<material vnum="8013" count="2" />
+	</set>
+	<set id="1168" cost="2500000000" prob="90">
+		<material vnum="9563" count="35" />
+		<material vnum="8019" count="3" />
+		<material vnum="8017" count="3" />
+		<material vnum="8015" count="3" />
+		<material vnum="8013" count="3" />
+	</set>
+	<set id="1300" cost="175000" prob="100">
+		<material vnum="8021" count="6" />
+	</set>
+	<set id="1301" cost="75000000" prob="100">
+		<material vnum="8021" count="12" />
+	</set>
+	<set id="1302" cost="75000000" prob="100">
+		<material vnum="8023" count="24" />
+	</set>
+	<set id="1303" cost="150000000" prob="100">
+		<material vnum="8025" count="30" />
+		<material vnum="8023" count="2" />
+	</set>
+	<set id="1304" cost="300000000" prob="100">
+		<material vnum="8027" count="60" />
+		<material vnum="8025" count="2" />
+		<material vnum="8023" count="2" />
+	</set>
+	<set id="1305" cost="3500000000" prob="100">
+		<material vnum="8029" count="60" />
+		<material vnum="8027" count="2" />
+		<material vnum="8025" count="2" />
+		<material vnum="8023" count="2" />
+	</set>
+	<set id="1306" cost="10000000000" prob="100">
+		<material vnum="8031" count="60" />
+		<material vnum="8029" count="2" />
+		<material vnum="8027" count="2" />
+		<material vnum="8025" count="2" />
+		<material vnum="8023" count="2" />
+	</set>
+
+	<set id="11001" cost="20000000000" prob="20">
+		<material vnum="40149" count="1" />
+		<material vnum="342010" count="1" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11002" cost="20000000000" prob="20">
+		<material vnum="33149" count="1" />
+		<material vnum="342010" count="1" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11003" cost="20000000000" prob="20">
+		<material vnum="31119" count="1" />
+		<material vnum="342010" count="1" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11004" cost="20000000000" prob="20">
+		<material vnum="32159" count="1" />
+		<material vnum="342010" count="1" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11005" cost="20000000000" prob="20">
+		<material vnum="40159" count="1" />
+		<material vnum="342010" count="1" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11006" cost="20000000000" prob="20">
+		<material vnum="47149" count="1" />
+		<material vnum="342010" count="1" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11007" cost="20000000000" prob="20">
+		<material vnum="55099" count="1" />
+		<material vnum="342010" count="1" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	
+
+
+	<set id="11008" cost="40000000000" prob="20">
+		<material vnum="540149" count="1" />
+		<material vnum="342010" count="2" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11009" cost="40000000000" prob="20">
+		<material vnum="533149" count="1" />
+		<material vnum="342010" count="2" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11010" cost="40000000000" prob="20">
+		<material vnum="531119" count="1" />
+		<material vnum="342010" count="2" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11011" cost="40000000000" prob="20">
+		<material vnum="532159" count="1" />
+		<material vnum="342010" count="2" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11012" cost="40000000000" prob="20">
+		<material vnum="540159" count="1" />
+		<material vnum="342010" count="2" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11013" cost="40000000000" prob="20">
+		<material vnum="547149" count="1" />
+		<material vnum="342010" count="2" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11014" cost="40000000000" prob="20">
+		<material vnum="555099" count="1" />
+		<material vnum="342010" count="2" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	
+	
+	
+	
+	<set id="11015" cost="80000000000" prob="20">
+		<material vnum="640149" count="1" />
+		<material vnum="342010" count="5" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11016" cost="80000000000" prob="20">
+		<material vnum="633149" count="1" />
+		<material vnum="342010" count="5" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11017" cost="80000000000" prob="20">
+		<material vnum="631119" count="1" />
+		<material vnum="342010" count="5" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11018" cost="80000000000" prob="20">
+		<material vnum="632159" count="1" />
+		<material vnum="342010" count="5" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11019" cost="80000000000" prob="20">
+		<material vnum="640159" count="1" />
+		<material vnum="342010" count="5" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11020" cost="80000000000" prob="20">
+		<material vnum="647149" count="1" />
+		<material vnum="342010" count="5" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+	<set id="11021" cost="80000000000" prob="20">
+		<material vnum="655099" count="1" />
+		<material vnum="342010" count="5" />
+		<enhance_material vnum="342020" count="1" prob="20" />
+		<enhance_material vnum="342021" count="1" prob="20" />
+		<enhance_material vnum="342022" count="1" prob="40" />
+	</set>
+</refine-proto>

@@ -1,0 +1,52 @@
+quest knut_shop_box begin
+	
+	state start begin
+		when 50182.use begin
+			local n = number (1,100)
+			if n <= 11 then
+				pc.give_item2(51001,40)
+			elseif n <= 22 then
+				pc.give_item2(51001,50)
+			elseif n <= 33 then
+				pc.give_item2(30194,1)
+			elseif n <= 40 then
+				pc.give_item2(51001,10)
+			elseif n <= 44 then
+				pc.give_item2(30198,1)
+			elseif n <= 48 then
+				pc.give_item2(85001,1)
+			elseif n <= 52 then
+				pc.give_item2(30199,1)
+			elseif n <= 56 then
+				pc.give_item2(50635,1)
+			elseif n <= 61 then
+				pc.give_item2(50636,1)
+			elseif n <= 67 then
+				pc.give_item2(50637,1)
+			elseif n <= 73 then
+				pc.give_item2(50638,1)
+			elseif n <= 76 then
+				pc.give_item2(50259,1)
+			elseif n <= 82 then
+				pc.give_item2(51001,20)
+			elseif n <= 87 then
+				pc.give_item2(30197,1)
+			elseif n <= 89 then
+				pc.give_item2(51001,25)
+			elseif n <= 91 then
+				pc.give_item2(71035,1)
+			elseif n <= 93 then
+				pc.give_item2(71322,1)
+			elseif n <= 95 then
+				pc.give_item2(71321,1)
+			elseif n <= 97 then
+				pc.give_item2(71182,1)
+			else 
+				pc.give_item2(25041,1)
+			end
+			pc.remove_item(50182,1)
+		end
+
+	end
+end
+

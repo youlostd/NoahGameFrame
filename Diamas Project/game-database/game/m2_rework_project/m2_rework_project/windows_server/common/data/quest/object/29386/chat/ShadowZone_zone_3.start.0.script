@@ -1,0 +1,7 @@
+setskin ( NOWINDOW ) ; 
+if d . getf ( string . format ( "player_%d_reward_state" , pc . get_player_id ( ) ) ) == 0 then 
+pc . give_item2 ( 9639 , 3 ) ; 
+d . setf ( string . format ( "player_%d_reward_state" , pc . get_player_id ( ) ) , 1 ) ; 
+else 
+syschat ( "Shadow tower: You already took the reward!" ) 
+end 

@@ -1,0 +1,28 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/apedungeon.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*BenÃ¶tigtes Level: 35 - 60
+*Eintrittsitem: Kraut d. Affen
+[IMG=d:/ymir work/ui/wiki/rahmen.tga; Y=5; X=460]
+[IMG=d:/ymir work/ui/wiki/31064.tga; Y=15; X=482]
+
+
+[X_PADDING=467]Kraut d. Affen
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheiten:
+*Das Versteck der Affen hat eine Abklingzeit von 1 Stunde.
+*Das Versteck der Affen kann mit und ohne Gruppe betreten werden.
+*Man hat insgesamt 60 Minuten Zeit um das Versteck der Affen abzuschließen.
+*Es benötigen alle Mitglieder ein Kraut d. normalen Affen.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=148; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 1
+
+[X_PADDING=20]TÃ¶tet alle 6 Metin der Affen die im Raum stehen.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 2
+
+[X_PADDING=20]TÃ¶tet den Affen-Lord und seine Begleiter.
+[IMG=d:/ymir work/ui/wiki/Affen-Lord.tga; Y=160; X=320]

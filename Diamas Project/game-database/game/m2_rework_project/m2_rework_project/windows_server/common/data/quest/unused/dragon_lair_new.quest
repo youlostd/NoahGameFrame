@@ -1,0 +1,118 @@
+define METIN_VNUM 8038
+define DUNGEON_METIN_VNUM 8158
+define DUNGEON_MAP_INDEX 167
+define SEAL_MOB_VNUM 20399
+define SEAL_ITEM_VNUM 30331
+define ENTRY_POS_X 217
+define ENTRY_POS_Y 173
+define BOSS_VNUM 2498
+define BOSS_BOSS_X 182
+define BOSS_BOSS_Y 173
+define SEAL_POSITION_1_X 208
+define SEAL_POSITION_1_Y 199
+define SEAL_POSITION_2_X 157
+define SEAL_POSITION_2_Y 199
+define SEAL_POSITION_3_X 157
+define SEAL_POSITION_3_Y 147
+define SEAL_POSITION_4_X 208
+define SEAL_POSITION_4_Y 147
+define LEVEL_1_REGEN_FILE "data/dungeon/baron_nashor/dragon_lair_new_level1.txt"
+define EXIT_TIME 30
+define EXIT_MAP_INDEX 167
+define EXIT_MAP_X 150
+define EXIT_MAP_Y 150
+
+
+quest dragon_lair_new begin
+	state start begin
+		when kill with not pc_in_given_dungeon(DUNGEON_MAP_INDEX) begin
+			if npc.get_race() == METIN_VNUM then
+				if party.is_party() and party.is_leader() then
+					d.new_jump_party(DUNGEON_MAP_INDEX, ENTRY_POS_X, ENTRY_POS_Y)
+				else 
+					d.new_jump(DUNGEON_MAP_INDEX, ENTRY_POS_X, ENTRY_POS_Y)	
+				end
+				d.setf("level", 1)
+			end
+		end
+		when kill with pc_in_given_dungeon(DUNGEON_MAP_INDEX) begin
+			if npc.get_race() == DUNGEON_METIN_VNUM then
+				if number(1, 100) > 1 then
+					game.drop_item(SEAL_ITEM_VNUM, 1)
+				end
+			end
+			
+			if npc.get_race() == BOSS_VNUM then
+				pc.setqf("boss_kills", pc.getqf("boss_kills") + 1)
+				if math.mod(pc.getqf("boss_kills"), 10) == 0 then
+					notice_all("%s hat den Boss bereits %d Mal gekillt", pc.get_name(), pc.getqf("boss_kills") )
+				end
+				server_timer("exit_boss", EXIT_TIME, pc.get_map_index())
+			end
+		end	 -- end when kill METIN_VNUM
+		
+		when login with pc_in_given_dungeon(DUNGEON_MAP_INDEX) begin
+			if d.getf("level") == 1 then
+				if d.getf("level_1_spawned") == 0 then
+					d.spawn_mob(SEAL_MOB_VNUM, SEAL_POSITION_1_X, SEAL_POSITION_1_Y)
+					d.spawn_mob(SEAL_MOB_VNUM, SEAL_POSITION_2_X, SEAL_POSITION_2_Y)
+					d.spawn_mob(SEAL_MOB_VNUM, SEAL_POSITION_3_X, SEAL_POSITION_3_Y)
+					d.spawn_mob(SEAL_MOB_VNUM, SEAL_POSITION_4_X, SEAL_POSITION_4_Y)
+					
+					d.set_regen_file(LEVEL_1_REGEN_FILE)
+
+					d.setf("level_1_spawned", 1)
+				end
+				
+				d.set_mission_message("Töte Metinsteine solange, bis du einen Frostschlüssel erhältst und öffne damit die Säulen.")
+				d.set_mission_sub_message(string.format("(%d/%d)", d.getf("seals_opened"), 4))
+
+			else
+				pc.warp(EXIT_MAP_INDEX, EXIT_MAP_X, EXIT_MAP_Y)
+			end
+		end -- end dungeon login
+		
+		when SEAL_MOB_VNUM.take with item.vnum == SEAL_ITEM_VNUM begin
+			local seals_opened = d.getf("seals_opened") + 1
+			
+			d.set_mission_sub_message(string.format("(%d/%d)", seals_opened, 4))
+			d.setf("seals_opened", seals_opened)
+			npc.purge()
+			pc.remove_item(SEAL_ITEM_VNUM, 1)
+			
+			if seals_opened == 4 then
+				d.clear_mission_message()
+
+				d.set_mission_sub_message("")
+				d.set_mission_message("Die Siegel sind geöffnet, der Baron Nashor erscheint!")
+				d.clear_regen()
+				d.purge()
+				server_timer("boss_spawn", 1, pc.get_map_index())
+				return
+			end
+			
+		end
+		
+		when boss_spawn.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.setf("level", 2)
+				d.clear_mission_message()
+				-- d.set_mission_message("Besiegt den Boss!")
+				d.spawn_mob(BOSS_VNUM, BOSS_BOSS_X, BOSS_BOSS_X)
+			end
+		end
+		
+
+		
+		when exit_boss.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.set_warp_location(EXIT_MAP_INDEX, EXIT_MAP_X, EXIT_MAP_Y)
+				d.exit_all()
+			end
+		end
+		
+		when logout with pc.get_map_index() == DUNGEON_MAP_INDEX or pc_in_given_dungeon(DUNGEON_MAP_INDEX) begin
+			pc.remove_item(SEAL_ITEM_VNUM, pc.countitem(SEAL_ITEM_VNUM))
+		end
+	end -- end state
+end -- end quest

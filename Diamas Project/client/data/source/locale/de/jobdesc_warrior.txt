@@ -1,0 +1,12 @@
+[DELAY value;0]
+Dank ihrer Fähigkeiten sowie ihrer[ENTER]
+Bewaffnung und schweren Rüstung spielen[ENTER]
+Krieger eine wesentliche Rolle im Nahkampf.[ENTER]
+Ihr Streben gilt allein der stählernen[ENTER]
+körperlichen Kraft und der ausgeglichenen[ENTER]
+Ruhe des Geistes. Je nach gewählter[ENTER]
+Spezialisierung können sie verheerenden[ENTER]
+[WAIT]
+Schaden durch Zweihandwaffen anrichten oder[ENTER]
+auch gekonnt mit Schwert und Schild die[ENTER]
+Angriffe mehrerer Gegner entschärfen.

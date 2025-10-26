@@ -1,0 +1,5 @@
+hostname = "Master"
+bind-addr = "127.0.0.1"
+bind-port = "10000"
+auth-addr = "127.0.0.1"
+auth-port = "10001"

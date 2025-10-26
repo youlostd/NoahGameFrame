@@ -1,0 +1,109 @@
+[2024-05-06 00:51:16.954] [game_server] [warning] Item 209 has multiple refined from items 249 208
+[2024-05-06 00:51:16.961] [game_server] [warning] Item 5339 has multiple refined from items 5109 5338
+[2024-05-06 00:51:16.977] [game_server] [warning] Item 12039 has multiple refined from items 12038 11699
+[2024-05-06 00:51:16.978] [game_server] [warning] Item 2169 has multiple refined from items 2149 2168
+[2024-05-06 00:51:16.978] [game_server] [warning] Item 12029 has multiple refined from items 11499 12028
+[2024-05-06 00:51:16.983] [game_server] [warning] Item 12019 has multiple refined from items 12018 11299
+[2024-05-06 00:51:16.983] [game_server] [warning] Item 12049 has multiple refined from items 12048 11899
+[2024-05-06 00:51:16.983] [game_server] [warning] Item 279 has multiple refined from items 149 278
+[2024-05-06 00:51:16.983] [game_server] [warning] Item 3159 has multiple refined from items 3139 3158
+[2024-05-06 00:51:16.983] [game_server] [warning] Item 4049 has multiple refined from items 4048 1109
+[2024-05-06 00:51:16.983] [game_server] [warning] Item 289 has multiple refined from items 288 159
+[2024-05-06 00:51:16.983] [game_server] [warning] Item 7199 has multiple refined from items 7198 7149
+[2024-05-06 00:51:17.143] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_duel2/regen.txt: file not found
+[2024-05-06 00:51:17.143] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_duel2/boss.txt: file not found
+[2024-05-06 00:51:17.143] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_duel2/stone.txt: file not found
+[2024-05-06 00:51:17.144] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_wedding_01/regen.txt: file not found
+[2024-05-06 00:51:17.144] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_wedding_01/boss.txt: file not found
+[2024-05-06 00:51:17.144] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_wedding_01/stone.txt: file not found
+[2024-05-06 00:51:17.146] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_t3/regen.txt: file not found
+[2024-05-06 00:51:17.146] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_t3/boss.txt: file not found
+[2024-05-06 00:51:17.146] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_t3/stone.txt: file not found
+[2024-05-06 00:51:17.146] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_t4/regen.txt: file not found
+[2024-05-06 00:51:17.146] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_t4/boss.txt: file not found
+[2024-05-06 00:51:17.146] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_t4/stone.txt: file not found
+[2024-05-06 00:51:17.147] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_oxevent/regen.txt: file not found
+[2024-05-06 00:51:17.147] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_oxevent/boss.txt: file not found
+[2024-05-06 00:51:17.147] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_oxevent/stone.txt: file not found
+[2024-05-06 00:51:17.182] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_n_desert_01/regen.txt: file not found
+[2024-05-06 00:51:17.182] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_n_desert_01/boss.txt: file not found
+[2024-05-06 00:51:17.182] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_n_desert_01/stone.txt: file not found
+[2024-05-06 00:51:17.196] [game_server] [error] SYSTEM: regen_load: data/map/map_a2/regen.txt: file not found
+[2024-05-06 00:51:17.196] [game_server] [error] SYSTEM: regen_load: data/map/map_a2/boss.txt: file not found
+[2024-05-06 00:51:17.196] [game_server] [error] SYSTEM: regen_load: data/map/map_a2/stone.txt: file not found
+[2024-05-06 00:51:17.210] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_skipia_dungeon_02/regen.txt: file not found
+[2024-05-06 00:51:17.210] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_skipia_dungeon_02/boss.txt: file not found
+[2024-05-06 00:51:17.210] [game_server] [error] SYSTEM: regen_load: data/map/metin2_map_skipia_dungeon_02/stone.txt: file not found
+[2024-05-06 00:51:17.210] [game_server] [error] Duplicate shop with vnum 619
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 67845
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 37
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 37
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 619
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 6
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 6
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 5
+[2024-05-06 00:51:17.211] [game_server] [error] Duplicate shop with vnum 843
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name ShopSteine_51
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name animeshop2
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name animeshop3
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name animeshop4
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name run4_title
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name run5_title
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name run6_title
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name run7_title
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name run8_title
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name run9_title
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name shining1
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name shining2
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name wings1
+[2024-05-06 00:51:17.211] [game_server] [error] No shop with name 3dweapon
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm11'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm110'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm12'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm13'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm14'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm15'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm16'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm17'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm18'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm19'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm21'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm210'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm22'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm23'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm24'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm25'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm26'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm27'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm28'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm29'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm31'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm310'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm32'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm33'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm34'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm35'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm36'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm37'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm38'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm39'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm41'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm410'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm42'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm43'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm44'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm45'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm46'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm47'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm48'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm49'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm51'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm510'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm52'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm53'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm54'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm55'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm56'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm57'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm58'
+[2024-05-06 00:51:17.216] [game_server] [warning] data/hunting_missions.txt: Missing property 'Name' in Group 'Huntfm59'

@@ -1,0 +1,209 @@
+<?xml version="1.0" ?><object-proto>
+	<object allow-placement="False" dependent-group="1" group="2" name="jedan" npc="20044" price="20000000" type="FACILITY" vnum="14013">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="20" vnum="90010"/>
+		<material count="30" vnum="90011"/>
+		<material count="20" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/jedan.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="2" name="jedan" npc="20045" price="20000000" type="FACILITY" vnum="14014">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="20" vnum="90010"/>
+		<material count="30" vnum="90011"/>
+		<material count="20" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/jedan.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="2" name="jedan" npc="20046" price="20000000" type="FACILITY" vnum="14015">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="20" vnum="90010"/>
+		<material count="30" vnum="90011"/>
+		<material count="20" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/jedan.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20060" price="20000000" type="FACILITY" vnum="14043">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20062" price="20000000" type="FACILITY" vnum="14045">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20063" price="20000000" type="FACILITY" vnum="14046">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20064" price="20000000" type="FACILITY" vnum="14047">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20065" price="20000000" type="FACILITY" vnum="14048">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20066" price="20000000" type="FACILITY" vnum="14049">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20067" price="20000000" type="FACILITY" vnum="14050">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20068" price="20000000" type="FACILITY" vnum="14051">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20069" price="20000000" type="FACILITY" vnum="14052">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20070" price="20000000" type="FACILITY" vnum="14053">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20071" price="20000000" type="FACILITY" vnum="14054">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="False" dependent-group="1" group="3" name="yonggwangro" npc="20072" price="20000000" type="FACILITY" vnum="14055">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="15" vnum="90010"/>
+		<material count="20" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/yonggwangro.msm"/></object>
+	<object allow-placement="True" dependent-group="1" group="4" name="himuijedan_01" npc="20077" price="25000000" type="FACILITY" vnum="14061">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="25" vnum="90010"/>
+		<material count="25" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/himuijedan_01.msm"/></object>
+	<object allow-placement="False" dependent-group="4" group="4" name="himuijedan_02" npc="20078" price="500000000" type="FACILITY" vnum="14062">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="50" vnum="90010"/>
+		<material count="50" vnum="90011"/>
+		<material count="50" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/himuijedan_02.msm"/></object>
+	<object allow-placement="False" dependent-group="4" group="4" name="himuijedan_03" npc="20079" price="750000000" type="FACILITY" vnum="14063">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="75" vnum="90010"/>
+		<material count="75" vnum="90011"/>
+		<material count="75" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/facility/himuijedan_03.msm"/></object>
+	<object allow-placement="True" group="1" name="a1-011-workhouse" price="20000000" type="HEADQUARTERS" vnum="14100">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="20" vnum="90010"/>
+		<material count="30" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/headquarter/a1-011-workhouse.msm"/></object>
+	<object allow-placement="True" group="1" name="b1-011-workhouse" price="20000000" type="HEADQUARTERS" vnum="14110">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="20" vnum="90010"/>
+		<material count="30" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/headquarter/b1-011-workhouse.msm"/></object>
+	<object allow-placement="True" group="1" name="c1-011-workhouse" price="20000000" type="HEADQUARTERS" vnum="14120">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="20" vnum="90010"/>
+		<material count="30" vnum="90011"/>
+		<material count="25" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/headquarter/c1-011-workhouse.msm"/></object>
+	<object allow-placement="True" dependent-group="1" name="guild_symbol" price="3000000" type="OBJECT" vnum="14200">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="5" vnum="90011"/>
+		<material count="5" vnum="90012"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/guild_symbol.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone01" price="300000" type="OBJECT" vnum="14300">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="5" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone01.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone02" price="300000" type="OBJECT" vnum="14301">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="5" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone02.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone03" price="300000" type="OBJECT" vnum="14302">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="7" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone03.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone04" price="300000" type="OBJECT" vnum="14303">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="7" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone04.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone05" price="300000" type="OBJECT" vnum="14304">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="7" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone05.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone06" price="300000" type="OBJECT" vnum="14305">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="8" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone06.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone07" price="300000" type="OBJECT" vnum="14306">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="8" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone07.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone08" price="300000" type="OBJECT" vnum="14307">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="8" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone08.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone09" price="300000" type="OBJECT" vnum="14308">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="9" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone09.msm"/></object>
+	<object allow-placement="True" name="general_obj_stone10" price="300000" type="OBJECT" vnum="14309">
+		<position end-x="10" end-y="10" start-x="-10" start-y="-10"/>
+		<material count="9" vnum="90010"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/general_obj_stone10.msm"/></object>
+	<object allow-placement="True" name="B1_PagodaTree_RT" price="2000000" type="OBJECT" vnum="14400">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="5" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B1_PagodaTree_RT.msm"/></object>
+	<object allow-placement="True" name="B1_PagodaTree_RT3" price="2000000" type="OBJECT" vnum="14401">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="5" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B1_PagodaTree_RT3.msm"/></object>
+	<object allow-placement="True" name="B1_Sassafras_RT_Fall" price="2000000" type="OBJECT" vnum="14402">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="7" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B1_Sassafras_RT_Fall.msm"/></object>
+	<object allow-placement="True" name="B1_Sassafras_RT_Fall2" price="2000000" type="OBJECT" vnum="14403">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="7" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B1_Sassafras_RT_Fall2.msm"/></object>
+	<object allow-placement="True" name="B3_ShingleOak_RT2" price="2000000" type="OBJECT" vnum="14404">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="7" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B3_ShingleOak_RT2.msm"/></object>
+	<object allow-placement="True" name="B2_IvySpy_RT" price="2000000" type="OBJECT" vnum="14405">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="9" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B2_IvySpy_RT.msm"/></object>
+	<object allow-placement="True" name="B2_IvySpy_RT4" price="2000000" type="OBJECT" vnum="14406">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="9" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B2_IvySpy_RT4.msm"/></object>
+	<object allow-placement="True" name="B2_JapaneseMaple_RT_Fall" price="2000000" type="OBJECT" vnum="14407">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="9" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B2_JapaneseMaple_RT_Fall.msm"/></object>
+	<object allow-placement="True" name="B2_JapaneseMaple_RT_Fall2" price="2000000" type="OBJECT" vnum="14408">
+		<position end-x="0" end-y="0" start-x="0" start-y="0"/>
+		<material count="9" vnum="90011"/>
+	<rotation x-limit="0" y-limit="0" z-limit="360"/><appearance msm="d:/ymir work/guild/object/B2_JapaneseMaple_RT_Fall2.msm"/></object>
+</object-proto>

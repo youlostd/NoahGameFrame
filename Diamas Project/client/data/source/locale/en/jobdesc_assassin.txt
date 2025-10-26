@@ -1,0 +1,4 @@
+[DELAY value;10]
+Ninjas are professional[ENTER]
+killers, who can attack[ENTER]
+through ambush.

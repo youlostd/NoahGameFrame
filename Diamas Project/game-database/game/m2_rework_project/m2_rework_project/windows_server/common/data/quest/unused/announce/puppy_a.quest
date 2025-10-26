@@ -1,0 +1,19 @@
+quest puppy_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("puppy_a") > 0 begin
+		send_letter("Welpen-Box")
+	end
+	
+	when info or button begin
+		say_important("Welpen-Box")
+		say_item_vnum(38055)
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance wertvolle Welpen-Boxen bei allen Boss-Monstern zu erhalten!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

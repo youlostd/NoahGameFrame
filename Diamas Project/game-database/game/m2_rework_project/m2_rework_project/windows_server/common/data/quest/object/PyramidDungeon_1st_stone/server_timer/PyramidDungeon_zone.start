@@ -1,0 +1,8 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+if d . getf ( "PyramidDungeon_stone1" ) == 1 then 
+d . notice ( "Ancient pyramid: You have failed!" ) 
+d . exit_all ( ) 
+else 
+return ; 
+end 
+end 

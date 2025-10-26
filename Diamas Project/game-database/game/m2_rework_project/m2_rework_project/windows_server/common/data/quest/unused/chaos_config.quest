@@ -1,0 +1,95 @@
+define BOSS_KEY 6392
+define BOSS_KEY_RESPAWN_TIME 900
+define BOSS_KEY_GROUP 6310
+define PORTAL_BOSS 6405
+define PORTAL_NPC 20415
+define PORTAL_LIMIT_TIME 2
+define MAP_INDEX 305
+
+quest chaos_config begin
+	state start begin
+		function get_time_remaining()
+			return (game.get_event_flag("chaos_boss_key_"..get_channel_id()) + BOSS_KEY_RESPAWN_TIME - get_global_time())
+		end	
+		when login begin
+			if pc.get_map_index() == MAP_INDEX then
+				if find_boss_by_vnum(PORTAL_BOSS) == 0 then
+					if find_boss_by_vnum(BOSS_KEY) == 0 then
+						local time_remaining = chaos_config.get_time_remaining()
+						if time_remaining < 0 then
+							mob.spawn_group(BOSS_KEY_GROUP, 407, 404, 1, 1, 1)
+							local starttime = get_global_time()
+							game.set_event_flag("chaos_boss_key_"..get_channel_id(), starttime) -- set start time	
+							if is_test_server() then
+notice(string.format(gameforge.chaos_config._10_notice, pc.get_map_index(), get_channel_id()))
+							end
+							notice_in_map("O Guarda-Costas Ochao renasceu.")
+						else
+							if is_test_server() then
+notice(string.format(gameforge.chaos_config._20_notice, time_remaining))
+							end						
+						end
+					else
+						if is_test_server() then
+notice(string.format(gameforge.chaos_config._30_notice, pc.get_map_index(), get_channel_id()))
+						end	
+					end
+				else
+					if is_test_server() then
+notice(string.format(gameforge.chaos_config._40_notice, pc.get_map_index(), get_channel_id()))
+					end			
+				end
+			end
+		end
+		when logout begin
+		end
+		when BOSS_KEY.kill with pc.get_map_index() == MAP_INDEX begin
+			notice_in_map("O Guarda-Costas Ochao foi derrotado.")
+			game.set_event_flag("chaos_boss_key_"..get_channel_id(), starttime) -- set over again start time when killed
+			if find_boss_by_vnum(PORTAL_BOSS) == 0 then
+				local s= number(1,10)
+				if s == 1 then
+					mob.spawn(PORTAL_BOSS, 591, 140, 1, 1, 1)
+notice(string.format(gameforge.chaos_config._50_notice, pc.get_map_index(), get_channel_id()))
+				elseif s == 2 then
+					mob.spawn(PORTAL_BOSS, 445, 249, 1, 1, 1)		
+notice(string.format(gameforge.chaos_config._60_notice, pc.get_map_index(), get_channel_id()))				
+				elseif s == 3 then
+					mob.spawn(PORTAL_BOSS, 645, 152, 1, 1, 1)		
+notice(string.format(gameforge.chaos_config._70_notice, pc.get_map_index(), get_channel_id()))					
+				elseif s == 4 then
+					mob.spawn(PORTAL_BOSS, 377, 608 , 1, 1, 1)		
+notice(string.format(gameforge.chaos_config._80_notice, pc.get_map_index(), get_channel_id()))				
+				elseif s == 5 then
+					mob.spawn(PORTAL_BOSS, 348, 708, 1, 1, 1)		
+notice(string.format(gameforge.chaos_config._90_notice, pc.get_map_index(), get_channel_id()))					
+				elseif s == 6 then
+					mob.spawn(PORTAL_BOSS, 433, 516, 1, 1, 1)		
+notice(string.format(gameforge.chaos_config._100_notice, pc.get_map_index(), get_channel_id()))			
+				elseif s == 7 then
+					mob.spawn(PORTAL_BOSS, 445, 382, 1, 1, 1)			
+notice(string.format(gameforge.chaos_config._110_notice, pc.get_map_index(), get_channel_id()))			
+				elseif s == 8 then
+					mob.spawn(PORTAL_BOSS, 224, 385, 1, 1, 1)		
+notice(string.format(gameforge.chaos_config._120_notice, pc.get_map_index(), get_channel_id()))					
+				elseif s == 9 then
+					mob.spawn(PORTAL_BOSS, 123, 214, 1, 1, 1)		
+notice(string.format(gameforge.chaos_config._130_notice, pc.get_map_index(), get_channel_id()))				
+				else
+					mob.spawn(PORTAL_BOSS, 192, 145, 1, 1, 1)	
+notice(string.format(gameforge.chaos_config._140_notice, pc.get_map_index(), get_channel_id()))				
+				end
+				if is_test_server() then
+notice(string.format(gameforge.chaos_config._150_notice, pc.get_map_index(), get_channel_id()))
+				end
+			end				
+		end
+		when PORTAL_BOSS.kill with pc.get_map_index() == MAP_INDEX begin
+			notice_in_map("The Guardian En-Tai was defeated.")
+			mob.spawn(PORTAL_NPC, pc.get_local_x(), pc.get_local_y(), 1, 1, 1)		
+			if is_test_server() then
+				notice(string.format(gameforge.chaos_config._160_notice, pc.get_local_x(), pc.get_local_y(), pc.get_map_index(), get_channel_id()))
+			end
+		end			
+	end
+end

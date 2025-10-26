@@ -1,0 +1,1185 @@
+%d 권을 더 읽어야 수련을 완료 할 수 있습니다.	Ennyivel: %d több Készségkönyvet kell elolvasnod, hogy fejleszthesd ezt a képzettséget. 
+%d 냥을 투자하셨습니다.	%d Yangot fektettél be. 
+%d 냥을 획득하셨습니다.	%d Yangot nyertél. 
+%d 레벨이 되어야 다시 염색하실 수 있습니다.	El kell érned a %d szintet, hogy ismét befesthesd a hajad. 
+%d 분 %d 초 동안 채팅금지 상태입니다	%d perc %d másodperc van még hátra a chat tiltásodból 
+%d 시간 %d 분 %d 초 동안 채팅금지 상태입니다	%d óra %d perc %d másodperc van még hátra a chat tiltásodból 
+%d 시간 %d 초 동안 채팅금지 상태입니다	%d óra %d másodperc van még hátra a chat tiltásodból 
+%d 종류 %d 마리 낚음	%d-ból %d-t fogtál. 
+%d 초 동안 채팅금지 상태입니다	%d másodperc van hátra a chat tiltásodból 
+%d 초 후에 군주의 축복을 사용할 수 있습니다	%d másodperc után lehet a császár áldását felhasználni. 
+%d 초간 쿨타임이 적용중입니다.	Újrafelhasználási idõ kb. %d másodperc 
+%d 초후 목적지로 이동됩니다.	%d másodperccel az indítás után eléred a célhelyet. 
+%d%% 확률로 관통 공격	Átható támadás %d%% eséllyel. 
+%d%% 확률로 적퇴치시 경험치 추가 상승	Tapasztalat növekedés %d%%-kal az ellenség feletti gyõzelemnél. 
+%d%% 확률로 적퇴치시 돈 2배 드롭	A zsákmányolt Yang növekedése %d%%-kal az ellenség feletti gyõzelemnél. 
+%d%% 확률로 적퇴치시 생명력 회복	%d%% esély az életerõ feltöltésére egy gyõzelem után. 
+%d%% 확률로 적퇴치시 아이템 2배 드롭	A zsákmányolt tárgyak növekedése %d%%-kal az ellenség feletti gyõzelemnél. 
+%d%% 확률로 적퇴치시 정신력 회복	Mana emelkedés %d%%-kal az ellenség feletti gyõzelemnél. 
+%d%% 확률로 치명타 공격	Kritikus támadás %d%% eséllyel. 
+%d%% 확률로 타격시 상대 전신력 소모	%d%% valószínûséggel lesz Mana elvéve az ellenségtõl. 
+%d%% 확률로 피해시 정신력 회복	Mana elnyelõdés %d%% eséllyel. 
+%d분의 결제시간이 추가 되었습니다. (결제번호 %d)	%d játékidõ lett hozzáadva az eddigiekhez.. (Fizetési szám %d) 
+%d의 경험치를 획득했습니다.	%d tapasztalatot szereztél. 
+%d초 남았습니다.	%d másodperc a végéig. 
+%d초 만큼 충전되었습니다.	%d másodperc hozzáadva. 
+%d초 후 게임이 셧다운 됩니다.	%d másodperc múlva vége a játéknak. 
+%s : %d 마리	%s: %d 
+%s SP소모: %d	%s FP felhasználás: %d 
+%s killcount %d mobkillcount %d bosskillcount %d 성지 진입수 %d	%s killcount %d mobkillcount %d bosskillcount %d szent föld száma %d 
+%s 군주 후보에서 삭제하였습니다	%s-t törölve lett a császár jelöltek közül. 
+%s 군주로 입명 했습니다.	%s császárnak van jelölve. 
+%s 군주르 제거 하였습니다..	A %s császárt eltávolítják. 
+%s 군주를 제거 할수 없습니다.	%s császár nem eltávolítható. 
+%s 길드가 %s 길드에 선전포고를 하였습니다!	A(z) %s céh háborút hirdetett %s ellen. 
+%s 길드가 %s 길드와의 전쟁에서 승리 했습니다.	%s megnyerte a céhháborút %s ellen. 
+%s 길드가 %s 길드의 깃발을 빼앗았습니다!	%s megszerezte %s zászlóját. 
+%s 길드와 %s 길드 사이의 전쟁이 무승부로 끝났습니다.	A céhháború döntetlennel végzõdött %s és %s között. 
+%s 길드와 %s 길드 사이의 전쟁이 취소되었습니다.	A céhháború %s és %s között törölve lett. 
+%s 길드와 %s 길드가 잠시 후 전쟁을 시작합니다!	A céhháború perceken belül elkezdõdik %s és %s között. 
+%s 길드와 %s 길드가 전쟁을 시작하였습니다!	A céhháború elkezdõdött %s és %s között. 
+%s 길드의 %s이 %d%% 증가했습니다!	%s a %s céhnek felment %d%%-ra. 
+%s 길드의 %s이 정상으로 돌아왔습니다.	%s a %s céhnek normalizálódott. 
+%s 길드의 깃발을 %s 님이 획득하였습니다.	A %s céh zászlaját ellopta %s játékos. 
+%s 는 군주 후보가 아닙니다.	%s nem császár jelölt. 
+%s 는 군주로 입명할수 없습니다 .	%s-t nem lehet császárnak jelölni. 
+%s 님과의 교환이 성사 되었습니다.	Az üzlet %s személlyel sikerült. 
+%s 님에게 파티가입 신청을 했습니다.	Szeretnél %s csoportjába lépni. 
+%s 님으로 부터 친구 등록을 거부 당했습니다.	%s elutasította a meghívást. 
+%s 님은 %d 채널에 접속 중 입니다. (현재 채널: %d)	%s játékos a %d csatornán található. (Te a %d csatornán vagy) 
+%s 님은 접속되 있지 않습니다.	%s nem online. 
+%s 님은 정상적으로 출마를 하였습니다.	%s játékos már a választásban van. 
+%s 님을 소환하였습니다.	%s játékost választottad ki. 
+%s 님이 대련에서 승리하였습니다.	%s megnyerte a párbajt. 
+%s 님이 승리하였습니다.	%s nyert. 
+%s 블럭! (%d%%)	%s blokk! (%d%%) 
+%s 아이템 을 획득하셨습니다	%s tárgyat nyertél. 
+%s 아이템이 필요합니다	Szükséged van %s-re. 
+%s 에게로 이동합니다	Transzport a %s játékoshoz. 
+%s 회피! (%d%%)	%s kitérés! (%d%%) 
+%s: 존재하지 않는 길드 입니다.	%s: Ez a céh nem létezik. 
+%s[%d]가 공격 위치: %d %d	%s[%d] Támadó Pozíciója: %d %d 
+%s님과의 대결 시작!	A harc %s ellen megkezdõdött. 
+%s님이 대결신청을 했습니다. 승낙하려면 대결동의를 하세요.	%s harcra hívott téged. 
+%s님이 주사위를 굴려 %d가 나왔습니다. (%d-%d)	%s dobott kockával. Dobásának értéke %d (%d-%d). 
+%s를 구웠습니다.	%s-t sütsz a tûz fölött. 
+%s에 박혀있던 보석이 사라집니다.	A %s-ból készült drágakõ eltûnt. 
+%s에 전쟁의 시작을 알리는 봉화가 나타났습니다.	Máglyát gyújtottak %s-nél, hogy csatára figyelmeztessenek. 
+%s에게 대결신청을 했습니다.	%s harcra hívott. 
+%s에서 봉화를 둘러싸고 전투가 진행중입니다.	Háború van %s-ben a máglya meggyújtásáért. 
+%s에서 소켓 빠질때까지 남은 시간 %d	A %s idõbõl a foglalat eltávolításáig fennmaradó: %d 
+%s의 %s이 %d%% 증가했습니다!	%s: %s megnövekedett %d%%-kal! 
+%s의 %s이 정상으로 돌아왔습니다.	%s %s-a normalizálódott. 
+%s의 군주가 %s 님으로 교체되었습니다.	%s császárát lecserálták. Az új császár: %s. 
+%s이 모든 봉화를 파괴하였습니다.	%s minden máglyát szétrombolt. 
+%s이 봉화를 파괴했습니다.	%s szétrombolta a máglyát. 
+%s이 수성에 성공했습니다.	%s sikeresen védekezett. 
+%s이 수성에 실패하여 전쟁에 패배하였습니다..	%s elvesztette a háborút, mert nem tudta megvédeni a kastélyt. 
+%s이 필요합니다.	Ehhez szükséges : %s 
+(%s) 길드가 생성되었습니다. [임시]	(%s) létre kett hozva. [Átmenetileg] 
+(만료일 : %d년 %d월 %d일)	(Folyamat: %d j- %d m - %d t) 
+. 너희가 성지의 수호자를 잡게 된다면 너희는 성지의 주인이 된다.[ENTER][ENTER] 	Ha legyõzöd a szent hely õrét, te leszel a tulajdonosa. 
+1-50 사이의 수치를 선택해주세요	Válassz egy számot 1 és 50 között. 
+10초뒤 다음 판을 시작합니다.	10 másodperc múlva kezdõdik a következõ menet. 
+10초뒤 대련이 시작됩니다.	A harc 10 másodperc múlva kezdõdik. 
+10초뒤 마을로 되돌아갑니다.	10 másodperc múlva a városba teleportálódsz. 
+10초뒤 마을로 이동합니다.	10 másodperc múlva a városba teleportálódsz. 
+10초뒤 판정하겠습니다.	Az eredmény 10 másodperc múlva következik. 
+10초후 자동으로 접속이 종료되며,	10 másodperc múlva automatikusan le leszel kapcsolva. 
+1분 이내에 아무도 접속하지 않으면 길드전이 자동 종료됩니다.	Ha nincs ellenség, automatikusan véget fog érni a céhharc. 
+20억 냥을 초과하여 상점을 열수가 없습니다	Több mint 2 milliárd Yang van nálad, ezért nem tudsz kereskedni. 
+20억냥이 초과하여 물품을 팔수 없습니다.	Több mint 2 milliárd Yang van nálad, ezért nem tudsz kereskedni. 
+30분이 경과했습니다.. 봉화가 사라집니다.	A 30 perc letelt. A máglya eltûnt. 
+5분 후에 정상적으로 접속하실수 있습니다.	5 perc múlva tudsz csatlakozni. 
+5초 뒤 틀리신 분들을 바깥으로 이동 시키겠습니다.	5 másodperc múlva minden résztvevõ el lesz távolítva, aki rossz választ adott. 
+<길드> %d 스킬을 사용함 (%d, %d) to %u	<Céh> %d képesség felhasználódott (%d, %d) %u-ra 
+<길드> %s 길드가 길드전을 거부하였습니다.	<Céh> %s lemondta a céhháborút. 
+<길드> %u의 경험치를 투자하였습니다.	<Céh> %u tapasztalati pont megadva. 
+<길드> %u의 용신력을 회복하였습니다.	<Céh> %u Sárkány szellem pontjai vissza lettek állítva. 
+<길드> [%s] 길드가 생성되었습니다.	<Céh> [%s] létre lett hozva. 
+<길드> 가지고 있는 돈이 부족합니다.	<Céh> Nincs nálad elég Yang. 
+<길드> 경험치 투자에 실패하였습니다.	<Céh> Nem sikerült a tapasztalat bevetése. 
+<길드> 공지글을 작성할 권한이 없습니다.	<Céh> Nincs jogod bejelentést tenni. 
+<길드> 그러한 사람을 찾을 수 없습니다.	<Céh> A keresett ember nem található. 
+<길드> 그런 길드가 없습니다.	<Céh> Nincs ilyen nevû céh. 
+<길드> 길드 금고에선 길드장만 출금할 수 있습니다.	<Céh> Csak a céhvezetõ tud Yang-et kivenni. 
+<길드> 길드 생성에 실패하였습니다.	<Céh> Céh létrehozása nem sikerült. 
+<길드> 길드 스킬 레벨을 변경할 권한이 없습니다.	<Céh> Nincs jogosultságod a céhképességek megváltoztatására. 
+<길드> 길드 스킬은 길드전 중에만 사용할 수 있습니다.	<Céh> A céh képesség csak a háborúban használható. 
+<길드> 길드 이름이 적합하지 않습니다.	<Céh> A céhnév érvénytelen. 
+<길드> 길드가 이미 최고 레벨입니다.	<Céh> A céhed már elérte a maximum szintet. 
+<길드> 길드를 생성할 수 없습니다.	<Céh> Nem hozhatsz létre céhet. 
+<길드> 길드를 해산한 지 %d일이 지나지 않은 사람은 길드에 초대할 수 없습니다.	<Céh> Az átszervezés után csak %d nappal hívhatsz meg új tagokat. 
+<길드> 길드에 속해있지 않습니다.	<Céh> Nem tartozik a céhhez. 
+<길드> 길드원 %s 님을 강제 탈퇴 시켰습니다.	<Céh> %s céhtagot kizárták a céhbõl. 
+<길드> 길드원을 강제 탈퇴 시켰습니다.	<Céh> Elküldtél egy céhtagot. 
+<길드> 길드원을 강제 탈퇴 시킬 권한이 없습니다.	<Céh> Nincs felhatalmazásod céhtagok elküldésére. 
+<길드> 길드원을 초대할 권한이 없습니다.	<Céh> Nem vagy jogosult, meghívni valakit a céhbe. 
+<길드> 길드장으로 직위를 변경할 수 없습니다.	<Céh> Nem változtathatod rangod céhmesterre. 
+<길드> 길드장의 권한은 변경할 수 없습니다.	<Céh> A céh vezetõjének a jogai nem változtathatók meg. 
+<길드> 길드장의 직위 이름은 변경할 수 없습니다.	<Céh> A céh vezetõ jogai nem változtathatók meg 
+<길드> 길드장의 직위는 변경할 수 없습니다.	<Céh> A céhmester pozíciója nem változtatható meg. 
+<길드> 길드전에 대한 권한이 없습니다.	<Céh> Nincs joga senkinek a céhharchoz. 
+<길드> 길드전을 하기 위해선 최소한 %d명이 있어야 합니다.	<Céh> Legalább %d játékosnak kell részt vennie a céhháborúban. 
+<길드> 길드전이 취소 되었습니다.	<Céh> A céhháború félbeszakadt. 
+<길드> 길드전중에는 사냥에 따른 이익이 없습니다.	<Céh> A céhháború ideje alatt nincs tapasztalati pont vadászatkor. 
+<길드> 다른 제국 사람을 길드에 초대할 수 없습니다.	<Céh> Más birodalom játékosa nem hívható meg a céhbe. 
+<길드> 더이상 장수를 지정할 수 없습니다.	<Céh> Nem választhatsz több céhvezetõt. 
+<길드> 돈이 부족합니다.	<Céh> Nincs elég Yang. 
+<길드> 래더 점수가 %d 점이 되었습니다	<Céh> A Céh %d pontot ért el. 
+<길드> 레더 점수가 모자라서 길드전을 할 수 없습니다.	<Céh> A céh szint túl alacsony egy céhháborúban való részvételhez. 
+<길드> 삭제할 수 없는 글입니다.	<Céh> Az üzenet nem törölhetõ. 
+<길드> 상대가 %d 채널에 있습니다. (현재 채널 %d)	<Céh> A játékos %d csatornán van. (Jelenleg a %d csatornán vagy). 
+<길드> 상대가 온라인 상태가 아닙니다.	<Céh> A játékos nem online. 
+<길드> 상대방 길드가 이미 전쟁 중 입니다.	<Céh> A céh már harcban áll. 
+<길드> 상대방 길드의 길드원 수가 부족하여 길드전을 할 수 없습니다.	<Céh> A céhnek nincs elég tagja, hogy részt tudjon venni egy céhháborúban. 
+<길드> 상대방 길드의 길드장이 접속중이 아닙니다.	<Klán> Az ellenséges klán vezetõje offline van. 
+<길드> 상대방 길드의 레더 점수가 모자라서 길드전을 할 수 없습니다.	<Céh> A céhnek nincs elég pontja ahhoz, hogy részt tudjon venni egy céhháborúban. 
+<길드> 상대방 길드의 전비가 부족하여 길드전을 할 수 없습니다.	<Céh> A céhnek nincs elég Yang-ja, hogy részt vegyen a céhharcban. 
+<길드> 상대방이 같은 길드가 아닙니다.	<Céh> A személy nem uganahhoz a céhhez tartozik. 
+<길드> 상대방이 길드 초대 거부 상태입니다.	<Céh> A játékos elutasította a céh meghívását. 
+<길드> 상대방이 이미 다른 길드에 속해있습니다.	<Céh> A személy már egy másik céhhez tartozik. 
+<길드> 상대방이 초대 신청을 받을 수 없는 상태입니다.	<Céh> Az ellenfeled nem tudja fogadni a meghívásod. 
+<길드> 용신력 회복에 실패하였습니다.	<Céh> A sárkányszellem nem lett újrateremtve. 
+<길드> 용신력이 부족합니다. (%d, %d)	<Céh> Nincs elég sárkány szellem. (%d, %d) 
+<길드> 이미 같은 이름의 길드가 있습니다.	<Céh> Ez a céhnév már foglalt. 
+<길드> 이미 다른 전쟁에 참전 중 입니다.	<Céh> A céhed már egy másik harcban vesz részt. 
+<길드> 이미 전쟁 중인 길드입니다.	<Céh> A céh már háborúban áll. 
+<길드> 이미 전쟁이 예약된 길드 입니다.	<Céh> A céh már egy másik háborúban vesz részt. 
+<길드> 잘못된 금액입니다.	<Céh> Nem megfelelõ Yang mennyiség. 
+<길드> 잠시후에 이용해주십시오	<Céh> Késõbb próbáld meg újra. 
+<길드> 잠시후에 이용해주십시오.	<Céh> Próbáld meg újra késõbb. 
+<길드> 장군을 지정할 권한이 없습니다.	<Céh> Nincs jogod ahhoz hogy céhvezetõt válassz. 
+<길드> 적합하지 않은 직위 이름 입니다.	<Céh> A rangnév érvénytelen. 
+<길드> 전비가 부족하여 길드전을 할 수 없습니다.	<Céh> Nincs elég Yang a céhharcban való részvételhez. 
+<길드> 제공하고자 하는 경험치가 남은 경험치보다 많습니다.	<Céh> A felkínált tapasztalat nagyobb a megmaradónál. 
+<길드> 직위 권한을 변경할 권한이 없습니다.	<Céh> Nincs jogosultságod a hatalmi pozíciód megváltoztatására. 
+<길드> 직위 이름을 변경할 권한이 없습니다.	<Céh> Nincs jogosultságod a rangneved megváltoztatására. 
+<길드> 직위를 변경할 권한이 없습니다.	<Céh> Nem változtathatod meg a pozíciót. 
+<길드> 최대 길드원 수를 초과했습니다.	<Céh> A maximális céhkapacitást el lett érve. 
+<길드> 쿨타임이 끝나지 않아 길드 스킬을 사용할 수 없습니다.	<Céh> Még nem tudod a céh képességeit használni. 
+<길드> 탈퇴한 후 %d일 이내에는 길드를 만들 수 없습니다.	<Céh> A céh elhagyása után %d napig nem csinálhatsz újat. 
+<길드> 탈퇴한 후 %d일이 지나지 않은 사람은 길드에 초대할 수 없습니다.	<Céh> Ezt a játékost csak %d nap múlva hívhatod meg újra. 
+<길드> 해산한 후 %d일 이내에는 길드를 만들 수 없습니다.	<Céh> A céh feloszlatása után %d napig nem csinálhatsz újat. 
+<길드> 현재 길드가 전쟁 중 입니다.	<Céh> Ez a céh éppen egy csatában vesz részt. 
+<메신져> %s 님을 메신저에서 삭제하였습니다.	<Barátok> %s-t törölted a listáról. 
+<메신져> %s 님을 친구로 추가하였습니다.	<Barátok> %s-t felvetted barátaid közé. 
+<메신져> 운영자는 메신져에 추가할 수 없습니다.	<Barátok> Nem adhatsz GM-et a listádhoz. 
+<창고> 거리가 멀어서 창고를 열 수 없습니다.	<Raktár> Túl messze vagy a raktártól, hogy kinyisd. 
+<창고> 기존 비밀번호가 틀렸습니다.	<Lager> Hibás jelszót adtál meg. 
+<창고> 옮길 수 없는 위치입니다.	<Lager> Mozgás nem lehetséges 
+<창고> 이 아이템은 넣을 수 없습니다.	<Lager> A tárgy nem raktározható. 
+<창고> 잘못된 암호를 입력하셨습니다.	<Lager> Rossz jelszót adtál meg. 
+<창고> 창고 비밀번호가 변경되었습니다.	<Raktár> Raktár jelszó megváltoztatva. 
+<창고> 창고가 이미 열려있습니다.	<Lager> A raktár már nyitva van. 
+<창고> 창고로 옮길 수 없는 아이템 입니다.	<Raktár> Nem helyezheted ezt az elemet a raktáradba. 
+<창고> 창고를 닫은지 10초 안에는 열 수 없습니다.	<Lager> 10 másodpercet kell várnod a raktár újra nyitásához. 
+<퀘스트> 이전에 같은 보상을 받은 적이 있어 다시 받지 않습니다.	<Quest> Már megkaptad a jutalmad. 
+<파티> %s 님이 파티 거부 상태입니다.	<Csoport> %s visszautasítja a meghívást a csoportodba. 
+<파티> %s님의 파티에 참가하셨습니다.	<Csoport> %s belépett a csoportodba. 
+<파티> %s님이 파티 초대를 거절하셨습니다.	<Csoport> Visszautasították %s az ajánlatod. 
+<파티> %s님이 파티에 참가하셨습니다.	<Csoport> %s belépett a csoportodba. 
+<파티> -30 ~ +30 레벨 이내의 상대방만 초대할 수 있습니다.	<Csoport> Csak -30 és +30 szint közötti játékosok hívhatóak meg. 
+<파티> 관전 모드에선 파티 초대를 할 수 없습니다.	<Csoport> Megfigyelõ státuszban nem intézhetsz meghívást. 
+<파티> 다른 제국과 파티를 이룰 수 없습니다.	<Csoport> Egy másik birodalom játékosával nem tudsz csoportot alkotni. 
+<파티> 다른 파티원을 탈퇴시킬 수 없습니다.	<Csoport> Nem zárhatod ki csoporttársadat. 
+<파티> 대상을 소환할 수 없습니다.	<Csoport> Nem hívhatod a célt. 
+<파티> 더 이상 파티원을 초대할 수 없습니다.	<Csoport> Nem hívhatsz több játékost a csoportodba. 
+<파티> 던전 안에서는 파티 초대를 할 수 없습니다.	<Csoport> Kazamatában nem intézhetsz meghívást. 
+<파티> 던전 안에서는 파티 초대에 응할 수 없습니다.	<Csoport> Kazamatában nem tudsz elfogadni meghívást. 
+<파티> 던전 안에서는 파티에서 나갈 수 없습니다.	<Csoport> Nem hagyhatsz el csoportot egy kazamatában. 
+<파티> 던전 안에서는 파티에서 추방할 수 없습니다.	<Csoport> Egy kazamatában nem zárhatsz ki játékost. 
+<파티> 던젼내에서는 파티를 나갈 수 없습니다.	<Csoport> Kazamatában nem hagyhatsz el csoportot. 
+<파티> 던젼내에서는 파티원을 추방할 수 없습니다.	<Csoport> Kazamatában nem zárhatsz ki játékost. 
+<파티> 리더만 변경할 수 있습니다.	<Csoport> Csak a csoportvezetõ változtathatja meg. 
+<파티> 상태를 변경하려는 사람이 파티원이 아닙니다.	<Csoport> A cél nem tagja a csoportodnak. 
+<파티> 서버 문제로 파티 관련 처리를 할 수 없습니다.	<Csoport> A szerver nem tudja feldolgozni a csoport feladatot. 
+<파티> 소환하려는 대상을 찾을 수 없습니다.	<Csoport> Nem lett megtalálva a cél. 
+<파티> 이미 %s님은 파티에 속해 있습니다.	<Csoport> %s már a csoportodban van. 
+<파티> 파티 기술은 파티장만 사용할 수 있습니다.	<Csoport> A csoport képességei csak a csoportvezetõ rendelkezésére állnak. 
+<파티> 파티 초대에 응할 수 없습니다.	<Csoport> Nem fogadhatod el a meghívást. 
+<파티> 파티가 해산 되었습니다.	<Csoport> feloszlott a csoport. 
+<파티> 파티내 최고 레벨 보다 30레벨이 낮아 초대할 수 없습니다.	<Csoport> Nem hívhatod meg a játékost, mert túl alacsony szinten van. 
+<파티> 파티내 최저 레벨 보다 30레벨이 높아 초대할 수 없습니다.	<Csoport> Nem hívhatod meg a játékost, mert túl magas szinten van. 
+<파티> 파티에서 나가셨습니다.	<Csoport> Kiléptél a csoportból. 
+<파티> 파티에서 추방당하셨습니다.	<Csoport> Kizártak a csoportból. 
+<파티> 파티요청을 한 캐릭터를 찾을수 없습니다.	<Csoport> A játékos aki meghívott, nem online. 
+<파티> 파티원을 초대할 수 있는 권한이 없습니다.	<Csoport> Nincs jogosultságod meghívót adni. 
+<파티> 파티원을 현재 위치로 소환할 수 없습니다.	<Csoport> Nem hívhatod csoporttársaidat az aktuális pozíciódba. 
+<파티> 파티의 인원제한이 초과하여 파티에 참가할 수 없습니다.	<Csoport> Nem léphetsz be a csoportba, mert már tele van. 
+O 입니다	Igen (O) 
+OX 문제 스크립트 로딩 성공	OX Quiz Script betöltõdött. 
+OX 문제 스크립트 로딩 실패	OX Quiz Script nem tölthetõ be. 
+OX 상품을 지급하였습니다. ID: %d 수량: %d	OX A díjat kiosztották. ID: %d Quantity: %d 
+OX 이벤트가 시작되었습니다.	OX Esemény elkezdõdött. 
+OX 이벤트가 이미 진행중입니다(flag: %d)	Az esemény már zajlik (Flag: %d) 
+OX 이벤트를 마치겟습니다.	OX Az esemény lezárult. 
+OX이벤트 맵을 먼저 닫아 주세요.(Flag: %d)	Elõször zárd be az OX eseménykártyát. (Flag: %d) 
+OX이벤트가 닫히지 않았거나, 퀴즈 출제중입니다.(flag: %d)	OX Az esemény még nem fejezõdött be. Hiba történt. (flag: %d) 
+OX이벤트가 열려 있지 않거나 문제 출제중입니다.(Flag: %d)	OX Esemény befejezõdött. Nem történt hiba.(Flag: %d) 
+OX이벤트를 강제 종료 시킵니다.	OX Esemény befejezõdik. 
+OX이벤트의 나머지 인원 기록을 실패했습니다.	OX A többi esemény résztvevõ nem lett felírva. 
+OX이벤트의 나머지 인원을 기록하였습니다.	OX Az esemény többi résztvevõje fel van írva. 
+TEST : 현재 국고 : %d	TEST: A birodalmad széf tartalma: %d 
+TEST : 황금두꺼비가 국고로 환원되었습니다.	TEST: Az aranyrudakat visszafizették a birodalom széfjébe. 
+TEST : 황금두꺼비를 국고로 환원할 수 없습니다.	TEST: Az aranyrudakat nem tudod visszatenni a birodalom széfjébe. 
+X 입니다	Nem (X) 
+[%s군주] : %s	[%sMonarch] : %s 
+[%s군주] : %s  보유금액 %lld	[%sMonarch] : %s Yang rendelkezik %lld 
+[TEST_ONLY]현재 국고 : %d	[TEST_ONLY]Adó nagysága: %d 
+가만히 있을 때만 착용할 수 있습니다.	Nyugton kell maradnod a tárgy felszereléséshez. 
+각제국 진행 정보	Birodalmi információk 
+감지기를 작용하였으나 감지되는 영석이 없습니다.	Pillanatnyilag nincs Metinkõ ezen a térképen. 
+갑옷을 벗어야 개인 상점을 열 수 있습니다.	Csak akkor tudod kinyitni a boltot, ha leveszed a felszerelésed. 
+값을 잘못 입력하였습니다.	Rossz értéket adtál meg. 
+강화에 성공했습니다.	Sikeres volt az erõsítés. 
+강화에 실패했습니다.	Nem sikerült az erõsítés. 
+강화에 필요한 재료가 아닙니다.	Nincsenek nálad a szükséges anyagok a Sárkánykõ erõsítéséhez. 
+강화창을 연 상태에서는 아이템을 옮길 수 없습니다.	Nem mozdíthatod el a tárgyat a finomítási ablakon belül. 
+강화할 수 없는 용혼석입니다.	Ez a Sárkánykõ nem használható erõsítéshez. 
+같은 개량서를 합칠 수는 없습니다.	Nem kapcsolhatsz össze azonos javító tekercseket. 
+같은 종류의 메틴석은 여러개 부착할 수 없습니다.	Nem tudsz több azonos fajta szellemkövet felerõsíteni. 
+같은 종류의 유니크 아이템 두 개를 동시에 장착할 수 없습니다.	Nem szerelheted fel ezt a tárgyat kétszer. 
+같이 지을 수 없는 종류의 건물이 지어져 있습니다.	Ezt az épülettípust csak egyszer lehet felállítani. 
+개량된 후 아이템의 레벨 제한보다 레벨이 낮습니다.	Túl alacsony a szinted ahhoz, hogy használd ezt a tárgyat. 
+개량을 하기 위한 돈이 부족합니다.	Nincs elegendõ Yangod. 
+개량을 하기 위한 재료가 부족합니다.	Nincs megfelelõ anyagod, hogy megcsináld. 
+개인상점 사용후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	A raktár nyitása után nem használhatod a visszaállító tekercset további %d másodpercig. 
+거래 후 %d초 이내에 창고를 열수 없습니다.	Kereskedés után %d másodpercet kell várnod, hogy boltot nyithass. 
+거래 후 %d초 이내에는 귀환부,귀환기억부등을 사용할 수 없습니다.	Kereskedés után nem használhatsz visszaállító tekercset %d másodpercig. 
+거래 후 %d초 이내에는 다른지역으로 이동 할 수 없습니다.	%d másodpercig a kereskedés után nem tudsz máshova menni. 
+거래창,창고 등을 연 상태에서는 귀환부,귀환기억부 를 사용할수 없습니다.	Nem használhatsz visszaállító tekercset, amíg egy másik ablak nyitva van. 
+거래창,창고 등을 연 상태에서는 다른곳으로 이동,종료 할수 없습니다	Kereskedés után egy ideig nem mehetsz máshova. 
+거래창,창고 등을 연 상태에서는 보따리,비단보따리를 사용할수 없습니다.	Nem nyithatod ki a raktárat, amíg más ablak nyitva van. 
+거짓	FALSE 
+건물 비용 정보 이상으로 건설 작업에 실패했습니다.	Hibás árazás miatt nem sikerült az építkezés. 
+건물을 지을 수 없는 위치입니다.	Ezen a helyen nem lehet építkezni. 
+건설 비용이 부족합니다.	Nincs elég Yangod, hogy felépítsd az épületet. 
+건설에 필요한 건물이 지어져 있지 않습니다.	A fõépületet kell elõször felállítani. 
+게임을 종료 합니다. 잠시만 기다리세요.	Lekapcsolódás a szerverrõl. Kérlek várj! 
+결재기간이 %d분 후 만료 됩니다.	A játékidõd %d perc múlva lejár. 
+결혼 상태가 아니면 결혼반지를 사용할 수 없습니다.	Hordhatsz eljegyzési gyûrût, ha még nem vagy házas. 
+결혼식이 종료됩니다.	Mindjárt vége az esküvõnek. 
+결혼하지 않은 상태에서 예물을 착용할 수 없습니다.	Nem használhatod ezt a tárgyat, mert nem vagy házas. 
+경험치 %d%%	Tapasztalat %d%% 
+경험치 %d%% 추가 획득 이벤트 중입니다.	A tapasztalat bónusz jelenleg további %d%%. 
+경험치 배율	Tapasztalati pontok százaléka 
+경험치가 부족하여 책을 읽을 수 없습니다.	Hiányos tapasztalat miatt nem tudod elolvasni. 
+고기가 미끼만 빼먹고 잽싸게 도망칩니다.	Elveszítetted csalidat. 
+고기가 잡혔습니다! (%s)	Halat fogtál. (%s) 
+고기가 흔적도 없이 사라집니다.	A hal a víz mélyén eltûnt. 
+곡괭이 수련도가 최대(%d)가 되었습니다.	A bányász pontjaid elérték a maximumot (%d). 
+곡괭이가 최대 수련도에 도달하였습니다.	A bányász pontjaid elérték a maximumot. 
+곡괭이를 들고 있지 않아서 캘 수 없습니다.	Csákány nélkül nem bányászhatsz. 
+곡괭이를 장착하세요.	Szükséged van egy csákányra hogy ércet szerezz! 
+곡괭이의 수련도가 증가하였습니다! (%d/%d)	Bányász pontjaid nõttek. (%d/%d) 
+골드 드롭률 %d%% 추가 이벤트 중입니다.	A Yang eldobás hányada a pillanatban plusz %d%% 
+공격력 +%d	Támadó erõ + %d 
+공격력 +%d%%	Támadás + %d%% 
+공격속도 +%d	Támadó sebesség +%d 
+공부하기 싫어지네.	Nem akarok tovább tanulni. 
+관전 모드로 길드전에 참가하셨습니다.	A céhháborúban megfigyelõként részt vehetsz. 
+관전 상태에서는 교환을 할 수 없습니다.	Megfigyelésnél nem kereskedhetsz. 
+관통 추가 데미지 %d	További szúrófegyver sérülések %d 
+국고에 돈이 부족하거나 돈을 가져올수 없는 상황입니다	Nincs elég Yangod. 
+국고에 돈이 부족합니다. 현재 : %u 필요금액 : %u	Adóhiány. Jelenlegi tõke: %u hiányzó tõke: %u 
+국고에 자금이 모자랍니다 국고 : %d	Nem elég az adóbevétel: %d 
+군주 정보	Császár információk 
+군주가 내린 축복으로 모든 에너지가 가득 채워집니다	A császár áldása miatt visszaverõdik az energia. 
+군주만이 사용 가능한 기능입니다	Ezt a funkciót csak a császár használhatja. 
+군주만이 사용가능 한 기능입니다	Csak a császár használhatja. 
+군주만이 사용할수 있는 기능입니다	Csak császárok használhatják. 
+군주의 금강권 영향으로 이지역 %s 유저는 3분간 10 %% 의 방어력이  증가됩니다	Geum-Gang-Gwon uralkodó által a %s játékoshoz ezen a területen 3 percen át 10 %%  felszerelés adódik. 
+군주의 사자후 영향으로 이지역 %s 유저는 3분간 10 %% 의 공격력이  증가됩니다	Sa-Za-Hu uralkodó által %s játékosnak ezen a területen 3 percen keresztül 10%%-kal nõ a támadó ererje. 
+군주의 자격을 가지고 있지 않습니다	Nincs császári kiképzésed. 
+군주의 축복으로 이지역 %s 유저는 HP,SP가 모두 채워집니다.	Az %s uralkodó áldásának felhasználásánál a TP és MP helyreállítódik. 
+군주의 축복을 사용하였습니다.	A császári áldás aktív. 
+군직이 맞지않아 이 아이템을 사용할 수 없습니다.	Nem használhatod ezt a tárgyat, mert nincsenek meg az elõfeltételek. 
+귀환에 실패하였습니다.	A teleportálás sikertelen. 
+그것으로 수련은 끝난 거야!	A tréning lezárult. 
+그래, 이 느낌이야. 체내에 기가 아주 충만해.	Igen, jó érzés. Tele vagyok Chi-vel. 
+그래, 천천히. 좀더 천천히, 그러나 막힘 없이 빠르게!	Kicsit lassan... de folyamatosan... megállás nélkül! 
+그랜드 마스터 수련을 할 수 없는 스킬입니다.	Ezt a képességet nem fejlesztheted a nagymesteri fokig. 
+그런 명령어는 없습니다	Ez a rendelés nem létezik. 
+그런 사람이 없습니다.	Ez a személy nem létezik. 
+그런 이름 또는 번호의 길드가 없습니다.	Nem létezik céh ezzel a névvel vagy számmal. 
+근력 +%d	Erõ +%d 
+근력이 낮아 착용할 수 없습니다.	Nem vagy elég erõs, hogy magadra vedd ezt a tárgyat. 
+금액이 부족합니다.	Érvénytelen Yang. 
+기억된 위치가 타제국에 속해 있어서 귀환할 수 없습니다.	Egy idegen birodalomban nem tudod magad biztonságos helyre teleportálni. 
+기억해 둘 수 없는 위치 입니다.	Nem mentheted ezt a helyszínt. 
+기절하지 않음 %d%%	Nincs szédülés %d%% 
+길드에 가입하지 않았습니다.	Nem léptél be a céhbe. 
+길드원	Tag 
+길드장	Vezetõ 
+길드전에 참가한 상대방 길드원이 아무도 없습니다.	Nincs ellenfél. 
+길드전이 일찍 종료되어 무승부로 판정 되었습니다. (5분이 지나지 않음)	Mivel a céhháború hamarabb befejezõdött, az eredmény döntetlennek számít. 
+꿈속에서 어떻게요?	Az álmaimban? Hogyan? 
+나무꾼를 통해 다음 레벨의 곡괭이로 업그레이드 할 수 있습니다.	Deokbae favágónál tudod fejleszteni a csákányod. 
+나무에서 부터 신비한 빛이 나옵니다.	Egy misztikus fény jelent meg a fáról. 
+나보다 너무 높은 레벨의 몬스터로는 변신 할 수 없습니다.	Nem változhatsz át olyan szörnnyé, aki magasabb szintû nálad. 
+나의 군주 정보	A császárom információi 
+나의 삼거리 진행정보	Információ a birodalmi csatáról. 
+낚시 중에 미끼를 갈아끼울 수 없습니다.	Horgászat közben nem cserélhetsz csalit. 
+낚시대가 아닌 물건으로 낚시를 할 수 없습니다!	Bot nélkül nem tudsz horgászni. 
+낚시대가 최대 수련도에 도달하였습니다.	Elérted a halászati pontok maximális számát. 
+낚시대를 장착 하세요.	Válassz ki egy horgászbotot. 
+낚시대에 %s를 미끼로 끼웁니다.	Egy %s lett csaliként a horogra tûzve. 
+낚시대의 수련도가 증가하였습니다! (%d/%d)	A horgászpontjaid nõttek! (%d/%d) 
+낚시를 할 수 있는 곳이 아닙니다	Itt nem halászhatsz. 
+낚시이벤트월척붕어	Horgászverseny 'Legjobb horgász' 
+낚시이벤트잉어	'Nyugodt erõ' horgászverseny 
+남은 생명력 양이 모자라 사용할 수 없습니다.	Nincs elég TP-d. 
+남은 스탯 포인트가 없습니다.	Nem maradt státuszpont 
+남은 스탯 포인트가 적습니다.	Túl kevés státuszpont maradt. 
+남은 정신력 양이 모자라 사용할 수 없습니다.	Nincs elég Manád, hogy használd. 
+너무 가까이 있습니다.	Túl közel vagy. 
+너무 멀리 있습니다	Túl közel vagy. 
+넘어지지 않음 %d%%	Nincs leesés %d%% 
+녀석들은 이곳 성지에 있을 자격을 잃었다. 모두 성지에서 물러나거라~~[ENTER][ENTER] 10초 후에 모두 마을로 이동하게 됩니다.	Nincs jogod, hogy itt legyél. Tûnj el! 10 másodperc múlva visszakerülsz a faludba. 
+느려지지 않음 %d%%	Nincs lelassulás %d%% 
+님의 말	Ló 
+다 읽었다! 이제 비급에 적혀있는 대로 전신에 기를 돌리기만 하면,	Olvastam! A Chi-nek most el kell oszlania a testemben. 
+다른 거래중(창고,교환,상점)에는 개인상점을 사용할 수 없습니다.	Nem használhatsz magán boltot. 
+다른 거래중(창고,교환,상점)에는 사용할 수 없습니다.	Nem termelhetsz, amíg egy másik kereskedõ/raktárablak nyitva van. 
+다른 거래중일경우 개인상점을 열수가 없습니다.	Nem nyithatsz saját boltot addig, amíg másokkal kereskedsz. 
+다른 거래창이 열려있을경우 거래를 할수 없습니다.	Ha nyitva van a kereskedõablak, nem kereskedhetsz mással. 
+다른 거래창이 열린상태에서는 상점거래를 할수 가 없습니다.	Nem kereskedhetsz a boltban, mert egy másik kereskedõ ablak nyitva áll. 
+다른 제국 유저는 소환할 수 없습니다.	Nem választhatsz ki játékost mást birodalomból. 
+다른 컴퓨터에서 로그인 하여 접속을 종료 합니다.	Valaki belépett a felhasználó neveddel. Lekapcsolunk a szerverrõl. 
+다른거래창이 열린상태에서는 창고를 열수가 없습니다.	Nem tudsz raktárat nyitni, amíg egy másik kereskedõ ablak nyitva van. 
+다음 문제 준비해주세요.	Készen állsz a következõ kérdésre? 
+다이아몬드로 소켓을 추가해야합니다.	Egy foglalatot kell hozzáadnod, amikor egy gyémántot akarsz használni. 
+단계 개량에 성공했습니다.	Sikeres volt a csiszolási tisztaság növelése. 
+단계 개량에 실패했습니다.	Nem sikerült a csiszolási tisztaság emelése. 
+단계 개량에 필요한 재료가 아닙니다.	Ez a tárgy nem szükséges a finomításhoz. 
+단계 개량할 수 없는 용혼석입니다.	Ezt a Sárkánykövet nem lehet finomításhoz használni. 
+닫기	Bezár 
+당신이 주사위를 굴려 %d가 나왔습니다. (%d-%d)	Dobtál kockával. Dobásod értéke %d (%d-%d). 
+대련 강제 종료 성공	A párbaj sikeresen félbeszakadt. 
+대련 강제 종료 실패	A párbaj sikertelenül félbeszakadt. 
+대련 상대가 사라져 대련을 종료합니다.	A párbaj befejezõdött, az ellenséged eltûnt. 
+대련 시간 초과로 대련을 중단합니다.	A párbaj idõtúllépés miatt befejezõdik. 
+대련 시작에 문제가 있습니다.	Probléma merült fel a párbaj kezdetével. 
+대련 중에는 이용할 수 없는 물품입니다.	A párbajban nem használhatod ezt a tárgyat. 
+대련이 성공적으로 시작 되었습니다.	A párbaj kezdete sikeres volt. 
+대련이 시작되었습니다.	A párbaj megkezdõdött. 
+대련자 문제로 인하여 대련을 종료합니다.	A párbaj befejezõdik, mert probléma van a párbajozókkal. 
+대련자 문제로 인하여 대련을 중단합니다.	A párbajt megállítják, mert probléma van az arénával. 
+대련자가 없습니다.	Nincsenek párbajozók. 
+대련장 문제로 인하여 대련을 종료합니다.	A párbaj befejezõdik, probléma van az arénával. 
+대련장에서 사용하실 수 없습니다.	Nem használhatod ezen a területen. 
+대박골드 드롭률 %d%% 추가 이벤트 중입니다.	A Yang eldobás hányada a pillanatban plusz %d%% 
+더 높은 경지의 수련을 성공적으로 끝내셨습니다.	Sikeresen befejezted a tréninget a könyv segítségével. 
+더 이상 OX이벤트 참가자를 받지 않습니다.	OX esemény nem fogad el több jelentkezést. 
+더 이상 개량할 수 없습니다.	Nem lehetséges további fejlesztés. 
+더 이상 수련할 수 없습니다.	Nem tudod tovább fejleszteni ezt a képességedet. 
+더 이상 승마 수련서를 읽을 수 없습니다.	Nem olvashatsz további lovaglás leírást. 
+더 이상 이 아이템을 이용하여 속성을 추가할 수 없습니다.	Ez a tárgy már nem fejleszthetõ. A bónuszok maximális mennyisége el lett érve. 
+더이상 이 아이템을 이용하여 속성을 추가할 수 없습니다.	Használnod kell az Áldó Márványt hogy hozzáadhass egy bónuszt ehhez a tárgyhoz. 
+더이상 캐낼 수 없습니다.	Nincs mit bányászni. 
+던전 안에서는 %s%s 사용할 수 없습니다.	%s%s nem használható a kazamatában. 
+독 저항 %d%%	Méreg ellenállás %d%% 
+독공격 %d	Méreg támadás %d 
+돈 %d 냥을 획득했습니다.	%d Yangot kaptál. 
+돈 대박이 나올 확률	Yang-bomba ledobása százalékban 
+돈 드롭율 %.1f배	Esély Yang találására %. 1f 
+돈이 나올 확률	Yang eldobási arány 
+돈이 부족하거나 아이템이 제자리에 없습니다.	Nincs elég Yang, vagy nincs hely a leltárban. 
+동물류 몬스터 타격치 +%d%%	Ló támadóerõ szörnyekkel szemben +%d%% 
+동일한 머리 스타일로는 교체할 수 없습니다.	Már most is ilyen frizurád van. 
+두손검 방어 %d%%	Kétkezes kard védelem %d%% 
+둔갑 중에는 능력을 올릴 수 없습니다.	Nem változtathatod meg a státuszod, amíg át vagy változtatva. 
+둔갑 중에는 착용중인 장비를 변경할 수 없습니다.	Nem cserélheted le a felszerelt tárgyat, amíg át vagy változtatva. 
+둔갑서 수련을 마첬습니다. 신선에게 찾아가세요.	Megtanultad az átváltozást. 
+둔갑에 실패 하였습니다	Hiba az átváltozásnál 
+둔갑할 수 없는 상태입니다.	Nem változhatsz át miközben lovagolsz. 
+드디어 끝이 보이는 건가...  이 기술은 이해하기가 너무 힘들어..	Nehéz megérteni ezeket az utasításokat. Folytatom a tanulást. 
+등급 개량에 성공했습니다.	Egy osztály finomítása volt sikeres. 
+등급 개량에 실패했습니다.	Nem sikerült egy osztály finomítása. 
+등급 개량에 필요한 재료가 아닙니다.	Ez a tárgy nem szükséges a csiszolási tisztaság emeléséhez. 
+떨어진 아이템은 %d분 후 사라집니다.	Az eldobott tárgy el fog tûnni %d perc múlva. 
+떨어진 아이템은 3분 후 사라집니다.	Az eldobott tárgy 3 perc múlva eltûnik. 
+뜨거운 무엇이 계속 용솟음치고 있어! 이건, 이것은!	Úgy tûnik, már folyik a képzés... 
+레벨 20 이하는 핸드폰 번호를 등록할 수 없습니다.	20-nál magasabb szinten kell állnod, hogy mobiltelefonszámod regisztrálni tudd. 
+레벨 30이 되기 전에는 습득할 수 있을 것 같지 않습니다.	Legalább 30-as szintre van szükséged a könyv megértéséhez. 
+레벨 50이 되기 전에는 습득할 수 있을 것 같지 않습니다.	Legalább 50-es szintre van szükséged a könyv megértéséhez. 
+레벨이 낮아 착용할 수 없습니다.	Túl alacsony a szinted ezen tárgy felszereléséhez. 
+로그인 화면으로 돌아 갑니다. 잠시만 기다리세요.	Vissza a bejelentkezõ ablakhoz. Kérlek várj! 
+룻렛을 돌립니다. 금액 %d	Rulett pörgetés %d Yangért. 
+를	a 
+마법 공격력 +%d	Mágia támadás + %d 
+마법 방어력 +%d	Mágia védelem + %d 
+마법 저항 %d%%	Mágia ellenállás %d%% 
+마음이 맑아지는군. 가슴을 짓누르던 무언가가 좀 가벼워진 느낌이야.	Szellemed tiszta. Jól tudsz koncentrálni. 
+많은 참여 부탁드립니다.	Sok játékos részvételét kérjük. 
+말 소환 아이템을 사용하세요.	Használj egy tárgyat a ló hívásához. 
+말 소환에 실패하였습니다.	A ló hívása sikertelen. 
+말에게 %s%s 주었습니다.	Megetetted a lovad %s%s-val. 
+말에게 사료를 주었습니다.	Megetetted a lovat. 
+말에게 선초를 주었습니다.	Növényekkel etetted a lovat. 
+말에서 먼저 내려야 합니다.	Le kell szállnod. 
+말을 돌려보냈습니다.	Elküldted a lovadat. 
+말을 먼저 소환해주세요.	Elõbb a lovadat hívd kérlek! 
+말을 소유하고 있지 않습니다.	Nincs lovad. 
+말을 탄 상대와 감정표현을 할 수 없습니다.	Nem tudsz érzelmi kifejezéseket mutatni olyan játékosnak aki lovagol. 
+말을 탄 상태에서 감정표현을 할 수 없습니다.	Nem tudsz érzelmi kifejezéseket mutatni míg lovagolsz. 
+말을 탄 상태에서 예복을 입을 수 없습니다.	Nem tudod használni, amíg lovagolsz. 
+말을 탄 상태에서는 먹이를 줄 수 없습니다.	Nem etetheted a lovadat amikor rajta ülsz. 
+말의 스테미너가 부족하여 말을 탈 수 없습니다.	A lovad kitartása túl alacsony. 
+말이 없습니다. 마굿간 경비병을 찾아가세요.	Nincs rendelkezésre álló ló. Kérdezd az istállófiút. 
+말이 죽어있는 상태 입니다.	Döglött a lovad. 
+맞으면 O, 틀리면 X로 이동해주세요	Ha helyes menj erre: O, ha helytelen akkor erre: X. 
+머니  룰렛 시작.	Yang rulett indítása 
+먼저 다이아몬드로 악세서리에 소켓을 추가해야합니다.	Elõször egy foglalatot kell hozzáadnod, ehhez használj gyémántot. 
+먼저 용혼석 퀘스트를 완료하셔야 합니다.	Mielõtt kinyitsz egy Cor Draconis-t, teljesítened kell a Sárkánykõ-küldetést és aktiválnod kell a Sárkánykõ-alkímiát. 
+먼저 일어 나세요.	Elõször állj fel. 
+먼저 재가비서를 이용하여 속성을 추가시켜 주세요.	Az Áldó Márványt csak olyan tárgygyal használhatod aminek már van 4 bónusza. 
+메틴2인증번호: %s	Metin2 Visszaigazolásszám: %s 
+메틴석 부착에 성공하였습니다.	Sikeresen felszerelted a szellemkövet. 
+메틴석 부착에 실패하였습니다.	A szellemkõ eltört felszerelés közben. 
+명령어를 모두 입력하세요.	Teljes hosszában add meg rendelésed. 
+명령어의 서브 커맨드가 잘못 되었습니다.	A parancs egy része hibás. 
+모닥불을 피울 수 없는 지점입니다.	Itt nem csinálhatsz tábortüzet. 
+몬스터에게 강함 +%d%%	Szörnyek elleni erõ + %d%% 
+몸 속이 뜨겁군. 하지만 아주 편안해. 이대로 기를 안정시키자.	Belül égek, de ez megnyugtatja a testem. A Chi-met stabilizálni kell. 
+몸에서 뭔가 힘이 터져 나오는 기분이야!	A testem tele van erõvel! 
+무기와 갑옷에만 사용 가능합니다.	Csak fegyveren és vérten használható. 
+무당공격에 %d%% 저항	%d%% ellenállás sámán támadással szemben 
+무당에게 강함 +%d%%	Erõ sámánok ellen + %d%% 
+무료 개량 기회는 20 이하의 무기만 가능합니다	Az ingyenes fegyverjavítás csak a 20-as szint alatti fegyverekre alkalmazható. 
+무사공격에 %d%% 저항	%d%% ellenállás harcos támadással szemben 
+무사에게 강함 +%d%%	Erõ a harcosok ellen + %d%% 
+문자 메세지 전송에는 2000원이 필요 합니다.	Legalább 2000 DT-re van szükség az sms küldéshez. 
+문자 메세지 전송은 레벨 20부터 할 수 있습니다.	Legalább 20-as szinten kell állnod, hogy sms-t tudj küldeni. 
+문자 메세지를 전송 했습니다.	El lett küldve az sms-ed. 
+문제 입니다.	Kérdés. 
+문제를 출제하였습니다.	Hiba történt. 
+문제를 출제하지 못했습니다.	Nem lépett fel hiba. 
+물 속에 모닥불을 피울 수 없습니다.	Nem csinálhatsz vízben tábortüzet. 
+물리타격시 블럭 확률 %d%%	%d%% esély közelharci támadás blokkolására. 
+물약 사용시 %d%% 성능 증가	A teljesítmény növekedése %d%%-kal az ital által. 
+물약 제조에 실패했습니다.	Nem sikerült az ital elõállítása. 
+물약 제한이 없습니다.	Az italok nincsenek limitálva. 
+물약 조합을 위한 재료가 부족합니다.	Anyag hiányzik az italok keveréséhez. 
+물약을 %d 개 까지 사용 가능합니다.	Legfeljebb %d italt használhatsz. 
+뭔가 몸 안에 힘이 생기는 기분인 걸.	Felfrissültem. 
+미끼를 끼고 던져 주세요.	Elõször a csalit rögzítsd a horogra. 
+민첩 +%d	Ügyesség +%d 
+민첩이 낮아 착용할 수 없습니다.	Nem elegendõ az ügyességed ezen tárgy felszereléséhez. 
+밀교류 타격치 +%d%%	Támadás erõsítés Milgyo-val szemben + %d%% 
+바람 저항 %d%%	Szél ellenállás %d%% 
+방어력 +%d	Felszerelés + %d 
+방어력 +%d%%	Védekezés + %d%% 
+방울 방어 %d%%	Harang védelem %d%% 
+배 속에서 조개가 나왔습니다.	A halban egy kagyló van. 
+배 속에서 지렁이가 나왔습니다.	A halban egy féreg van. 
+버릴 수 없는 아이템입니다.	Nem dobhatod el ezt a tárgyat. 
+변경할 속성이 없습니다.	Nincs olyan javításod, amit meg tudsz változtatni. 
+변신 상태에서는 말에 탈 수 없습니다.	Nem tudsz lovagolni, amíg át vagy változtatva. 
+변신중에는 책을 읽을수 없습니다.	Nem olvashatsz könyvet amíg át vagy alakulva. 
+부착할 수 있는 슬롯이 없습니다.	Nincs szabad nyílás 
+부채 방어 %d%%	Legyezõ védelem %d%% 
+불법 프로그램이 감지 되어 게임이 종료 됩니다.	Illegális szoftvert fedeztünk fel. Vége a játékodnak! 
+비속어나 은어가 포함된 상점 이름으로 상점을 열 수 없습니다.	Nem adhatsz érvénytelen nevet a boltodnak. 
+빈 병이 모자릅니다.	Nincs elég üres üveged. 
+빼낼 수 있는 메틴석이 없습니다.	Nincs kivehetõ kõ. 
+빼낼 영석이 없습니다	Nincs eltávolítható kõ. 
+사귀 타워 완료 보상은 한번까지 사용가능합니다.	Csak egyszer kaphatsz jutalmat a Démon-torony megbízatásért. 
+사용 제한량을 초과하였습니다.	Túl van a határértéken. 
+사용법: transfer <name>	Használd: transzfer <név> 
+사용법: warpto <character name>	Rendelés: transzport <character name>-nak 
+사용할수 없습니다.	Ez a funkció itt és most nem elérhetõ. 
+삼거리 몹 리젠	Szörnyek a birodalmi csatában 
+삼거리 전투 참가중에는 귀환부,귀환기억부를 사용할수 없습니다.	Birodalmi csata résztvevõjeként nem használhatod a visszaállító tekercset. 
+삼거리 전투에서 %s 국가가 가장먼저 탈락을 하였습니다	A %s birodalom vereséget szenvedett és kiesik a Birodalmi Csatából. 
+상대방 캐릭터가 접속을 종료하여 대련을 중지합니다.	A párbajozókat szétválasztották. A párbajnak vége. 
+상대방 캐릭터의 문제로 인하여 대련을 종료합니다.	A párbaj ellenfélnek problémái vannak. A párbajnak vége. 
+상대방의 돈이 부족하거나 아이템이 제자리에 없습니다.	A másik személynek nincs elég Yang-ja, vagy nincs elég helye a leltárban. 
+상대방의 소지품에 빈 공간이 없습니다.	A másik személynek nincs elég helye a leltárban. 
+상대방의 총금액이 20억 냥을 초과하여 거래를 할수가 없습니다..	A játékos több mint 2 milliárd Yanggal rendelkezik. Nem kereskedhetsz vele. 
+상대방이 %d 채널에 있습니다. (현재 채널 %d)	A játékos a %d csatornán van. (Te a %d csatornán vagy). 
+상대방이 교환 거부 상태입니다.	A másik személy félbehagyta a kereskedést. 
+상대방이 다른 거래를 하고 있는 중입니다.	A játékos egy másikkal üzletel. 
+상대방이 다른 거래중이라 거래를 할수 없습니다.	A másik személy épp üzletel, ezért nem tudsz vele kereskedni. 
+상대방이 대련중입니다.	A játékos épp párbajozik. 
+상대방이 메신져 추가 거부 상태입니다.	A játékos elutasította a kérésed, hogy hozzáadd a barátlistádhoz. 
+상대방이 온라인 상태가 아닙니다.	Nem online a játékos. 
+상대방이 있는 곳으로 워프할 수 없습니다.	Nem teleportálhatod magad a játékoshoz. 
+상대방이 친구 추가를 받을 수 없는 상태입니다.	Az ellenfeledet nem adhatod hozzá a barátaidhoz. 
+상대방이 파티에 속해있지 않습니다.	A játékos nincs a csoportodban. 
+상자가 갑자기 폭발하였습니다! 생명력이 감소했습니다.	A doboz hirtelen felrobban! Életerõt (TP) vesztettél. 
+상자에서 %s 가 %d 개 나왔습니다.	Kaptál %s, %d egységet. 
+상자에서 %s 가 나왔습니다.	%s van a dobozban. 
+상자에서 나온 녹색 연기를 들이마시자 독이 온몸으로 퍼집니다!	Ha belélegzed a zöld füstöt a dobozból, méreg fog szétáradni testedben. 
+상자에서 나온 빨간 연기를 들이마시자 움직이는 속도가 느려졌습니다!	Ha belélegzed a piros füstöt a ládából, növekszik a gyorsaságod. 
+상자에서 몬스터가 나타났습니다!	A ládából egy szörny jött elõ. 
+상자에서 부터 신비한 빛이 나옵니다.	Misztikus fény jön a ládából. 
+상점과의 거리가 너무 멀어 물건을 살 수 없습니다.	Túl messze vagy a bolttól, hogy vásárolj. 
+상점과의 거리가 너무 멀어 물건을 팔 수 없습니다.	Túl messze vagy a bolttól, hogy eladj. 
+상품을 받을 인벤토리가 부족합니다. 인벤토리를 비워주세요!	Nincs elég helyed a tárolódban hogy elfogadd a jutalmat. 
+생각만큼 읽기가 쉽지가 않군. 이해도 어렵고 내용도 난해해.	Ez bonyolultabb és nehezebben érthetõ, mint ahogy gondoltam. 
+생명력 회복 +%d	Energia visszaszerzés +%d 
+서버에 치명적인 오류가 발생하여 자동으로 재부팅됩니다.	Kritikus szerver hiba lépett fel. A szerver automatikusan újraindul. 
+선악치가 %d 증가하였습니다.	A rangod ennyi ponttal növekedett: %d 
+선악치를 더 이상 올릴 수 없습니다.	A rangpontok nem növelhetõk tovább. 
+선택 맵 정보 성지 %d 통로 %d %d %d	Válaszd a Szent föld térkép információit %d átjáró %d %d %d 
+성별이 맞지않아 이 아이템을 사용할 수 없습니다.	Nem használhatod ezt a tárgyat, mert a nemed nem megfelelõ hozzá. 
+성별이 맞지않아 이 아이템을 열 수 없습니다.	A tárgyat csak a másik nem képviselõje tudja kinyitni. 
+성에서만 사용할 수 있는 기능입니다.	Ez a funkció csak a kastélyban használható. 
+성지에서 부활 기회를 모두 잃었습니다! 마을로 이동합니다!	Lejárt a várakozási idõ. A városban leszel újraindítva. 
+성지의 마왕: 너희	A megszentelt hely ördöge 
+세금이 %d %로 설정되었습니다	Az adó %d %-ra van meghatározva. 
+셧다운이 %d초 남았습니다.	%d másodperc a végéig. 
+소유 돈이 20억냥을 넘어 거래를 핼수가 없습니다.	Több, mint 2 milliárd Yang van nálad. Nem kereskedhetsz. 
+소지금이 부족하여 이 아이템을 사용할 수 없습니다.	Nincs nálad elég Yang, hogy ezt a tárgyat használd. 
+소지품에 빈 공간이 없습니다.	Nincs elég hely a leltárban. 
+소지하고 있는 아이템이 너무 많습니다.	Túl sok tárgyat tartasz magadnál. 
+소켓 추가에 실패하였습니다.	Nincs hozzáadott foglalat. 
+소켓이 성공적으로 추가되었습니다.	A foglalat sikeresen hozzá lett adva. 
+소환할수 없는 몬스터 입니다. 소환가능한 몬스터는 홈페이지를 참조하세요	A szörny nem hívható, ellenõrizd a Mob-számot. 
+속성 추가에 성공하였습니다.	A javítás sikeresen hozzáadódott. 
+속성 추가에 실패하였습니다.	Nincs hozzáadott fejlesztés. 
+속성을 바꾼지 %d분 이내에는 다시 변경할 수 없습니다.(%d 분 남음)	Ezt csak %d perccel a javítás után teheted. (%d perc van hátra) 
+속성을 변경하였습니다.	Megváltoztattad a javítást. 
+속성을 변경할 수 없는 아이템입니다.	A tárgy javítását nem tudod megváltoztatni. 
+수라공격에 %d%% 저항	%d%% ellenállás Sura támadással szemben 
+수라에게 강함 +%d%%	Erõ Surák ellen + %d%% 
+수련이 실패로 끝났습니다. 다시 도전해주시기 바랍니다.	A tréning nem sikerült. Próbáld újra késõbb! 
+수련할 수 없는 스킬입니다.	Nem fejlesztheted ezt a képességet. 
+스킬 데미지 %d%%	Képesség romlás %d%% 
+스킬 데미지 저항 %d%%	Ellenállás képességromlás ellen %d%% 
+스킬 레벨을 내리는데 성공하였습니다.	Készenléti szintedet csökkentetted. 
+스킬 레벨을 내릴 수 없습니다.	Nem tudod csökkenteni készenléti szintedet. 
+스턴 +%d	Csillag +%d 
+슬로우 +%d	Sebesség csökkenés +%d 
+승마 수련서 이해에 실패하였습니다.	Nem értetted a lovaglási leírást. 
+승마 수련서를 읽어 승마 스킬 포인트를 얻었습니다.	Elolvastad a Lovaglás könyvét, és szereztél egy lovagló pontot. 
+시체류 타격치 +%d%%	Élõholtak elleni támadás növelése + %d%% 
+신수국	Shinsoo-birodalom 
+쓰러진 상태에서는 말에 탈 수 없습니다.	Nem tudsz felszállni a lóra amíg a földön fekszel. 
+쓰러진 상태에서는 할 수 없습니다.	Nem teheted meg, amíg a földön fekszel. 
+아니 어떻게 된 게 종일 읽어도 머리에 안 들어오냐.	Mindig ugyanazokat a sorokat olvasom. 
+아무것도 얻을 수 없었습니다.	Nem kaptál semmit. 
+아이템 개량후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	Kereskedés után nem használhatod a tekercset %d másodpercig. 
+아이템 드롭률  %d%% 추가 이벤트 중입니다.	A tárgy eldobás hányada a pillanatban plusz %d%% 
+아이템 드롭율 %.1f배	Esély egy tárgy találására %. 1f 
+아이템 룰렛 시작.	Rulett indítása. 
+아이템 전달: %s 님에게 %s	Tárgy kereskedés: %s, %s 
+아이템 획득: %s	%s kapott 
+아이템 획득: %s 님으로부터 %s	%s fogadva, %s egység 
+아이템로그가 syslog 에 남았습니다	A tárgylog a syslogba lett helyezve. 
+아이템을 건네줄 수 없습니다.	Nem adhatod át ezt a tárgyat. 
+아이템의 레벨 제한보다 레벨이 낮습니다.	Túl alacsony szinten vagy, hogy használd ezt a tárgyat. 
+아이템이 나올 확률	Tárgy leejtési gyakoriságának aránya 
+아직 골드를 버릴 수 없습니다.	Még nem tudod eldobni az aranyat. 
+아직 마을에서 재시작 할 수 없습니다. (%d 초 남음)	Még nem tudsz újraindulni a városban. Várj további %d másodpercet. 
+아직 사용할 수 없습니다.	Még nem használható. 
+아직 승마 스킬을 수련할 수 있는 레벨이 아닙니다.	Legalább 50-es szintûnek kell lenned a lovas kiképzéshez. 
+아직 이 머리를 사용할 수 없는 레벨입니다.	Túl alacson szinten vagy egy ilyen frizura viseléséhez. 
+아직 재시작 할 수 없습니다. (%d초 남음)	Még nem lehet újraindítani. Kérünk, várj további %d másodpercet. 
+아직 재시작 할 수 없습니다.(%d초 남음 )	Pillanatnyilag nem lehet újrakezdeni. Kérünk, várj %d másodpercet. 
+아직 재시작 할 수 없습니다.(%d초 남음)	Még nem lehet újraindítani. Kérünk, várj további %d másodpercet. 
+악마류 타격치 +%d%%	Ördög elleni támadás növelése + %d%% 
+안녕하세요. 메틴2 입니다.	Üdvözlünk a Metin2-ben! 
+액수가 20억 냥을 초과하여 거래를 할수가 없습니다..	Több mint 2 milliárd Yangod van. Nem tudsz kereskedni. 
+양손검 방어 %d%%	Kétkezes kard védelem %d%% 
+어느정도 이 기술에 대해 이해가 되었지만 조금 부족한듯 한데..	Elõrébb jutottam, de még mindig nem értettem meg mindent. 
+어부를 통해 다음 레벨의 낚시대로 업그레이드 할 수 있습니다.	Menj a halászhoz, és fejleszd a horgászbotod! 
+얻은 포인트로는 승마 스킬의 레벨을 올릴 수 있습니다.	Ezt a pontot a lovaglási képességed növelésére használhatod. 
+얼마 안 남았어! 조금만 더!	Majdnem sikerült. Még egy picit! 
+여자만 할 수 있습니다.	Ezt csak nõk tehetik. 
+연계기는 더이상 수련할 수 없습니다.	Nem tudsz további combot kiképezni. 
+열쇠가 맞지 않는 것 같다.	Úgy tûnik, ez a kulcs nem a megfelelõ. 
+열쇠는 맞으나 아이템 주는 부분 구현이 안되었습니다.	Ez a helyes kulcs. 
+열쇠로 여는 물건이 아닌것 같다.	Ez a tárgy nem nyitható kulccsal. 
+열쇠로 잠겨 있어서 열리지 않는것 같다. 열쇠를 구해보자.	Zárva. Meg kell keresned a kulcsot. 
+열심히 하는 배움을 가지는 것만이 기술을 배울수 있는 유일한 길이다..	Értem ezt a fejezetet, de keményen kell dolgoznom. 
+열정의 가면을 착용시에만 할 수 있습니다.	Akkor teheted meg, ha érzelem maszkot viselsz. 
+영석 감지기가 신비로운 빛을 내며 사라집니다.	A Metinkõ iránytû egy titokzatos fénnyel eltûnt. 
+영석 감지기가 흔적도 없이 사라집니다.	A Metinkõ iránytû eltûnt. 
+예복을 입은 상태에서 말을 탈 수 없습니다.	Nem tudsz lovagolni, amíg menyasszonyi ruhát, vagy szmokingot viselsz. 
+외치기는 레벨 %d 이상만 사용 가능 합니다.	Legalább %d szintûnek kell lenned, hogy hívni tudj. 
+외치기는 유료회원만 사용할수 있습니다	Magasabb szintûnek kell lenned, hogy hívni tudj. 
+용신의 가호로 경험치가 떨어지지 않았습니다.	A sárkány isten áldása miatt nem veszíthetsz tapasztalatot. 
+용신의 보호로 아이템이 떨어지지 않았습니다.	A sárkány isten védelme által nem dobtál el egy tárgyat sem. 
+용심 추출에 성공하였습니다.	A Sárkánykõ fennmaradó élettartama meg lett hosszabbítva. 
+용심 추출에 실패하였습니다.	Sikertelen a fennmaradó élettartam meghosszabbítása. 
+용혼석 상자가 활성화되지 않았습니다.	Nincs aktiválva a Sárkánykõ. 
+용혼석 추출에 성공하였습니다.	A Sárkánykõ el lett távolítva. 
+용혼석 추출에 실패하여 %s를 얻었습니다.	Nem sikerült a Sárkánykõ eltávolítása, de ezt kaptad: %s 
+용혼석 추출에 실패하였습니다.	Nem sikerült a Sárkánykõ eltávolítása. 
+운영자 제제로 채팅이 금지 되었습니다.	A csetelésedet blokkolta egy admin. 
+웅귀족 타격치 +%d%%	Támadó erõsítés Wonggui-val szemben +%d%% 
+원래 위치로 복귀	Az eredeti helyszínre leszel visszatéve. 
+월병 또는 종자 를 사용하였습니다	Használt hold süti vagy mag. 
+월병,종자 사용후 5초동안 사용할수 없습니다.	Csak 5 másodpercenként használhatsz Hold sütit. 
+유료화 아이템은 개인상점에서 판매할 수 없습니다.	Nem adhatsz el magán boltban Tárgy bolt terméket. 
+을	a 
+을두지를 통하여 입장 가능합니다.	Uriel engedélyével a belépés megengedett. 
+이 개량서로 개량할 수 없습니다.	Nem javíthatsz tárgyakat ezzel a tekerccsel. 
+이 개량서로 더 이상 개량할 수 없습니다.	A Harci tekercs nem mûködik +4 vagy afeletti tárgyaknál. 
+이 곳에서 영석 감지기가 동작하지 않는것 같습니다.	A Metinkõ iránytû nem mûködik a kazamatákban. 
+이 곳에선 이벤트용 감지기가 동작하지 않는것 같습니다.	Az esemény érzékelõt nem lehet innen irányítani. 
+이 메틴석은 무기에 부착할 수 없습니다.	Ezt a szellemkövet nem szerelheted fel fegyverre. 
+이 메틴석은 장비에 부착할 수 없습니다.	Ez a szellemkõ nem erõsíthetõ fel erre a fajta tárgyra. 
+이 스킬은 아직 그랜드 마스터 수련을 할 경지에 이르지 않았습니다.	Képességed nem elég a nagymesteri tréninghez. 
+이 스킬은 아직 책으로 수련할 경지에 이르지 않았습니다.	Nem elég jó ez a képességed, hogy könyv segítségével fejleszd. 
+이 스킬은 책으로 더이상 수련할 수 없습니다.	Nem fejlesztheted többé ezt a képességedet könyv segítségével. 
+이 아이템으로 소켓을 추가할 수 없는 아이템입니다.	Ehhez a tárgyhoz nem adható több foglalat. 
+이 아이템은 PC방에서만 사용할 수 있습니다.	Ezt a tárgyat csak egy internet kávézóban lehet használni. 
+이 아이템은 개량할 수 없습니다.	Ez a tárgy nem javítható. 
+이 아이템은 이 방식으로는 개량할 수 없습니다.	Ez a tárgy ilyen módon nem javítható. 
+이 아이템을 장착할 수 없습니다.	Ezeket a tárgyakat nem lehet együtt használni. 
+이 액세서리에는 더이상 보석을 장착할 수 없습니다.	Ehhez a tárgyhoz nem adható több drágakõ. 
+이 액세서리에는 더이상 소켓을 추가할 공간이 없습니다.	Ehhez a tárgyhoz nem lehet több foglalatot adni. 
+이 액세서리에는 더이상 장착할 소켓이 없습니다.	Ebben a tartozékban nincs foglalat drágakövek számára. 
+이 책으로는 더 이상 수련할 수 없습니다.	Ezzel a könyvvel nem tudsz tovább gyakorolni. 
+이 책은 너무 어려워 이해하기가 힘듭니다.	Ezt a könyvet nehéz megérteni. 
+이 책은 너무 어려워서 수련할 수 없습니다.	Túl nehéz a könyv a tanuláshoz. 
+이 책은 아무리 봐도 도움이 될 것 같지 않습니다.	Ez a könyv nem segít neked tovább. 
+이 책을 읽으려면 레벨을 더 올려야 합니다.	Meg kell növelni szintedet, hogy el tudd olvasni ezt a könyvet. 
+이 행동은 상호동의 하에 가능 합니다.	Ehhez az akcióhoz szükséged van játékostársaid beleegyezésére. 
+이동 되어질 위치와 너무 가까워 귀환부를 사용할수 없습니다.	Nem használhatod a visszaállító tekercset, mivel túl kicsi a távolság. 
+이동속도 %d	Mozgési sebesség %d 
+이동할 준비가 되어있음으로 귀환부를 사용할수 없습니다	Készen állsz a teleportra, ezért nem tudod használni a 'Vissza' tekercset. 
+이래서야 공부가 안된다구.	Nehéz koncentrálnom. Szünetet kellene tartanom. 
+이미 같은 종류의 용혼석을 착용하고 있습니다.	Már használsz egy ilyen típusú Sárkánykövet. 
+이미 꽂혀있던 미끼를 빼고 %s를 끼웁니다.	Kicseréled a jelenlegi csalit. Az új csali: %s. 
+이미 둔갑중인 상태입니다.	Már át vagy változva. 
+이미 선전포고 중인 길드입니다.	Háborút hirdettél e céh ellen. 
+이미 완벽하게 알아들을 수 있는 언어이다.	Már megérted ezt a nyelvet. 
+이미 입후보되어있습니다	Már van egy jelölés. 
+이미 장비를 착용하고 있습니다.	Már van felszerelve ilyen fajta Sárkánykõ. 
+이미 전쟁이 끝났습니다.	A háborúnak már vége. 
+이미 제조창이 열려있습니다.	A gyártó ablak már nyitva van. 
+이미 탈것을 이용중입니다.	Épp lovagolsz. Elõbb szállj le a hátasról. 
+이미 파티에 속해 있으므로 가입신청을 할 수 없습니다.	Nem fogadhatod el a meghívást, mivel már a csoportban vagy. 
+이미 효과가 걸려 있습니다.	A hatás már mûködésbe lépett. 
+이미투표를 했음	Már szavazott. 
+이번에 잡은 물고기의 길이는 %.2fcm	A kifogott hal hossza %.2fcm. 
+이벤트용 감지기가 신비로운 빛을 내며 사라집니다.	Az esemény érzékelõ a misztikus fénnyel eltûnt. 
+이벤트용 감지기가 흔적도 없이 사라집니다.	Eltûnt az esemény érzékelõ. 
+이성간에만 할 수 있습니다.	Ezt az akciót csak egy másik nemûvel együtt hajthatod végre. 
+이제 좀 슬슬 가닥이 잡히는 것 같은데.	Már értem! 
+이제 책의 마지막 장이야! 수련의 끝이 눈에 보이고 있어!	A könyv utolsó oldalán járok. Mindjárt vége a tréningnek! 
+인간류 몬스터 타격치 +%d%%	Játékos támadóerõ szörnyekkel szemben +%d%% 
+인벤토리가 꽉 차서 내릴 수 없습니다.	Megtelt a leltárad. Nem lehet több tárgyat felvenni. 
+인증번호가 틀렸습니다. 다시 시도하세요.	A visszaigazolásszámod hibás. Próbáld meg újra! 
+입력하신 이름을 가진 사용자가 없습니다.	Nincs játékos az általad megadott névvel. 
+자객공격에 %d%% 저항	%d%% ellenállás nindzsa támadással szemben 
+자객에게 강함 +%d%%	Erõ a nindzsák ellen + %d%% 
+자동으로 나가게됩니다.	Automatikusan kilép. 
+자신을 선택하시면 밖으로 나갈 수 있는 <관람 종료> 버튼이 나옵니다.	A karakter kiválasztásánál megjelenik egy ikon. 
+자신을 소환할 수 없습니다.	Nem toborozhatod be saját magad. 
+자재가 부족하여 건설할 수 없습니다.	Nincs elég építõanyagod az építkezéshez. 
+잘못된 둔갑 아이템입니다.	Nem megfelelõ átváltoztató tárgy. 
+잘못된 선택을 했습니다	A kiválasztás hibás. 
+잠시 후 OX 이벤트를 다시 시작하겠습니다.	Hamarosan újraindul az OX Esemény. 
+잠시 후 마을로 이동되겠습니다.	A játékos rövidesen teleportálodik a városba. 
+잠시후 모두 마을로 이동됩니다.	Minden ember a városba lesz teleportálva hamarosan. 
+잠시후 해당 마을은  마을로 이동됩니다.	Hamarosan mindenki a városba teleportálódik. 
+장비중인 아이템은 개인상점에서 판매할 수 없습니다.	Felszerelt tárgyakat nem adhatsz el a magánboltodban. 
+장착에 성공하였습니다.	Sikeres felszerelés. 
+장착에 실패하였습니다.	Felszerelés nem sikerült. 
+재료(%s)가 부족합니다.	Nincs elég anyagod (%s). 
+저주 되돌리기 확률 %d%%	Átok visszaverés: %d%% 
+적용 레벨보다 높아 사용이 불가능합니다.	A tárgyad szintje túl magas. 
+적합하지 않은 길드 이름 입니다.	A céh neve érvénytelen. 
+전기 저항 %d%%	Villám ellenállás %d%% 
+전쟁 서버가 열려있지 않아 길드전을 시작할 수 없습니다.	A céhháború nem kezdhetõ, mert a szerver nem online. 
+전제국	Összes királyság 
+전투가 시작 되어 취소 되었습니다.	Cselekvés visszavonva. Beléptél a harcba. 
+정답은	A helyes válasz: 
+정답입니다!	Helyes! 
+정상적으로 투표를하였습니다.	Szabályszerûen szavazott. 
+정신력 회복 +%d	Mana visszanyerés +%d 
+제조 재료가 부족합니다	Nincs megfelelõ anyagod. 
+제조에 실패하였습니다.	Tárgyad fejlesztése sikertelen volt. 
+제조창이 열려있지 않습니다	A termelõ ablak nincs nyitva. 
+조개가 흔적도 없이 사라집니다.	A kagyló eltûnt. 
+조개에서 돌조각이 나왔습니다.	Egy egyszerû kõdarabot találsz a kagylóban. 
+조개에서 백진주가 나왔습니다.	A kagylóban egy fehér gyöngy van. 
+조개에서 청진주가 나왔습니다.	A kagylóban egy kék gyöngy van. 
+조개에서 피진주가 나왔습니다.	A kagylóban egy vörös gyöngy van. 
+존재하지 않는 건물입니다.	Nem létezik az épület. 
+존재하지 않는 아이템 입니다	Nincs ilyen eszköz. 
+존재하지 않는 캐릭터 입니다.	Nem létezik a karakter. 
+좋아, 이 기세로 계속 나간다!	Ok, tovább kell koncentrálnom! 
+좋았어! 조금만 더 읽으면 끝이다!	Értem! Majdnem átolvastam! 
+주안술서를 통해 주화입마에서 빠져나왔습니다.	Megúsztad a gonosz lélek átkot az ördögûzõ tekercs segítségével. 
+죽은 말에게 사료를 먹일 수 없습니다.	Döglött lovat nem etethetsz. 
+죽은 정보 %s deadcount %d Empire %d killcount %d(Purpose %d) killmobcount %d, RegenFlag %d	%s deadcount %d Empire %d killcount %d(Purpose %d) killmobcount %d, RegenFlag %d 
+죽지 않은 말에게 선초를 먹일 수 없습니다.	Eleven lovakat nem etethetsz majom növénnyel. Ez halott lovak feltámasztására való. 
+지금부터 %s은 30분간 봉화를 파괴하여 보상을 획득 할 수 있습니다.	Mostantól 30 percen át kaphat %s jutalmat a máglya szétrombolásáért. 
+지능 +%d	Intelligencia +%d 
+지능이 낮아 착용할 수 없습니다.	Nem elegendõ az intelligenciád ezen tárgy felszereléséhez. 
+직접 타격치 반사 확률 : %d%%	Közvetlen támadás visszaverése: %d%% 
+진노국	Jinno-birodalom 
+착용 중인 아이템은 판매할 수 없습니다.	Nem adhatsz el felszelt tárgyakat. 
+착용 중인 용혼석은 추출할 수 없습니다.	Nem távolítható el a Sárkánykõ. 
+참	TRUE 
+창고,거래창등이 열린 상태에서는 개량을 할수가 없습니다	Nem javíthatsz semmit, amíg a bolt- vagy kereskedõ ablak nyitva van. 
+창고를 연후 %d초 이내에는 거래를 할수 없습니다.	%d másodperc múlva tudsz ismét kereskedni. 
+창고를 연후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	A raktár nyitása után %d másodpercig nem használhatod a 'Vissza' tekercset. 
+창고를 연후 %d초 이내에는 다른곳으로 이동할수 없습니다.	A raktár megnyitása után %d másodpercig nem mehetsz máshova. 
+채광에 성공하였습니다.	Sikeres volt a bányászat. 
+채광에 실패하였습니다.	Sikertelen a bányászat. 
+채광을 중단하였습니다.	A bányászat befejezõdött. 
+채팅 금지 상태입니다.	A csetelésed le van tiltva. 
+채팅 금지가 풀렸습니다.	A cseted tiltása fel lett oldva. 
+책으로 더 높은 경지의 수련을 성공적으로 끝내셨습니다.	Sikeresen befejezted a tanfolyamot a könyv segítségével. 
+책장도 이제 얼마 남지 않았군.	Már csak néhány oldal, és elolvastam mindent. 
+천조국	Chunjo-birodalom 
+청소할 석이 박혀있지 않습니다.	Nincs eltávolítani való kõszilánk. 
+체력 +%d	Kitartás +%d 
+체력이 낮아 착용할 수 없습니다.	Nem elegendõ az életerõd ezen tárgy felszereléséhez. 
+총 퀴즈 수: %d	A kvíz összértéke: %d 
+최대 생명력 +%d	Életerõ +%d 
+최대 생명력 +%d%%	Maximális élet +%d%% 
+최대 정신력 +%d	Mana pontok +%d 
+최대 정신력 +%d%%	Maximális élet +%d%% 
+최대 지구력 +%d	Maximális kitartás + %d 
+축복의 서와 현철을 합칠 수 있습니다.	Egyesíteni tudod az Áldástekercset a Mágikus vasérccel. 
+출마를 할수가 없습니다	Nem lehet rá szavazni. 
+충전할 수 없습니다.	Nem tudod újratölteni ezt a Sárkánykövet. 
+취소 되었습니다.	A kijelentkezés félbeszakadt. 
+캐릭터를 전환 합니다. 잠시만 기다리세요.	Karaktert cserélsz. Kérlek várj! 
+쿨타임 -%d	Pihenõ idõ -%d 
+쿨타임 적용중  %d 후 사용가능	Elõ van készítve. Használható %d után. 
+퀘스트를 로드하는 중입니다. 잠시만 기다려 주십시오.	A kérés teljesítése folyamatban. Türelmet kérünk! 
+크윽, 기가 역류하고 있어! 이거 설마 주화입마인가!? 젠장!	Ó, nem sikerült! Francba! 
+클라이언트 버전이 틀려 로그아웃 됩니다. 정상적으로 패치 후 접속하세요.	A kliensverziód hibás. Installáld a rendes patch-et. 
+타격치 %d%% 를 생명력으로 흡수	Energia elnyelõdés %d%% támadásnál. 
+타력치 %d%% 를 정신력으로 흡수	Mana elnyelõdés %d%% támadásnál. 
+타제국 유저는 소환 할수 없습니다	Nem hívhatsz ismeretlen játékosokat. 
+타제국 유저에게는 이동할수 없습니다	Nem transzportálhatsz egy idegen birodalom játékosához. 
+탄 상태에서는 할 수 없습니다.	Nem teheted meg, amíg lovon ülsz. 
+테스트 서버 시간제한 통과	Az idõkorlát a test szerveren meg lett haladva. 
+파티 중이 아닙니다.	Nem vagy a csoportban. 
+파티의 협동력이 높아져 지금부터 추가 경험치 보너스를 받습니다.	Csoportod jól együttmûködik és tapasztalati bónuszt kapott. 
+파티장이 접속 상태가 아니라서 요청을 할 수 없습니다.	<Csoport> Nem intézhetsz kérést, mert a csoportvezetõ nem online. 
+판매금액의 %d %% 가 세금으로 나가게됩니다	Az eladás %d%%-kal van megadóztatva. 
+퍼펙트 마스터된 스킬입니다. 더 이상 수련 할 수 없습니다.	Már mestere vagy ennek a képességnek. Nem fejlesztheted már. 
+평타 데미지 %d%%	Ütés romlás %d%% 
+평타 데미지 저항 %d%%	Ellenállás ütéssel szemben %d%% 
+플레이어 %d 와 플레이어  %d를 파혼시킵니다..	Felbontott szerzõdés %d játékos és %d játékos között. 
+한손검 방어 %d%%	Egykezes kard védelem %d%% 
+해당 유저는 %d 채널에 있습니다. (현재 채널 %d)	Játékos hozzáadása a %d csatornára. (Jelenlegi castorna %d) 
+핸드폰 번호가 등록 되었습니다.	A telefonszám regisztrálva van. 
+핸드폰 번호가 등록되어 있지 않습니다.	A telefonszám nincs regisztrálva. 
+현재 %s 국고에는 %d 의 돈이 있습니다	%s-nak még %d Yangja van. 
+현재 %s 국고에는 %u 의 돈이 있습니다	%s-nak még %u Yangja van. 
+현재 남은 참가자수 : %d	A maradék résztvevõk száma: %d 
+현재 스코어 신수국:%d 천조국:%d 진노국:%d	Aktuális ponszám: Shinsoo %d, Chunjo %d, Jinno: %d 
+현재 온라인 상태 입니다. 귓말을 이용하세요.	A játékos online. Használd a suttogást. 
+현재 위치에서 사용할 수 없습니다.	Jelenlegi pozíciódból nem tudod kihasználni. 
+현재 이벤트 참가자 분들은 마을로 이동 되겠습니다.	Az ajándék esemény egy területre van korlátozva. 
+현재 전쟁중인 길드 입니다	Ez a céh harcban áll. 
+현재 헤어스타일에서는 염색과 탈색이 불가능합니다.	Jelenlegi frizurádat nem tudod festeni vagy szõkíteni. 
+화염 저항 %d%%	Tûz ellenállás %d%% 
+활 공격 회피 확률 %d%%	%d%% esély távolsági támadás blokkolására. 
+활공격 저항 %d%%	Táv támadás ellenállás %d%% 
+
+
+%s accounts were banned permanently because of: %s	%s accounts were banned permanently because of: %s. 
+%s bloklandi	%s has been blocked. 
+%s does not exist.	%s doesnt exist. 
+%s has been banned for %s because of: %s	%s has been banned for %s because of: %s. 
+%s has been banned permanently with reason: %s	%s has been banned permanently with reason: %s. 
+%s_ADDED_%d_OF_EXCHANGE_ITEM_%s	%s has added %d to %s. 
+%s_ADDED_EXCHANGE_ITEM_%s	%s addet the item %s. 
+%s_DECREASED_EXCHANGE_GOLD_TO_%s	%s has reduced to %s. 
+%s_INCREASED_EXCHANGE_GOLD_TO_%s	%s has increased the gold to %s. 
+%s_READIED_UP_EXCHANGE	%s prepared the trading. 
+%s_REMOVED_%d_OF_EXCHANGE_ITEM_%s	%s removed %d to %s. 
+%s_REMOVED_EXCHANGE_ITEM_%s	%s has removed the item %s. 
+%s_REMOVED_READY_EXCHANGE	%s has stopped the trading. 
+'s Mount	's Mount 
+AUTOLOOT	Third Hand
+Automatic unstuck did not find a valid position. Ask a GM.	Automatic unstuck did not find a valid position. 
+CANNOT_RIDE_WHILE_POLYMORPHED	You cannot ride while your transformed. 
+CHANGE_CHANNEL_UNAVAILABLE	Channel not available. 
+CHANGE_CHANNEL_ALREADY	You are already on the selected channel. 
+CHANGING_CHANNEL	Your are changing the channel! 
+Cannot equip a costume not matching the weapon type.	You cannot equip a costume not matching the weapon type. 
+Cannot equip a costume without a weapon	You cannot equip a costume without a weapon. 
+Chat has been banned on the operator form.	Chat has been banned on the operator form. 
+Do not spam the chat!	Do not spam the chat! 
+ELK_SET_TO_%lld	%lld has been added.
+FISH_MIND	Fish Skill 
+ITEM_CANNOT_BE_DESTROYED	This item cannot be destroyed. 
+ITEM_IS_NOT_SEALED	This item is not sealed! 
+ITEM_IS_SEALED_CANNOT_DO	This item is sealed! 
+Inventory sorting only every 15 seconds	Inventory sorting only every 15 seconds
+NO_PLAYER_FOUND_BY_NAME	The character was not found. 
+OFFLINE_MESSAGE_SUCCESS	The offline message was sent successfully! 
+PRIVATE_SHOP_SEARCH_SYSTEM_DISABLED	Currently the shopsearch is disabled. 
+SAFEBOX	Storage Place 
+TRADE_COMPLETED_WITHOUT_GOODS_EXCHANGE	The trade was without any items and gold successful. 
+TRADE_STARTED	Trading started. 
+This is not the correct evolution item for this item or it has none	This is not the correct evolution item for this item or it has none. 
+This item cannot be used on this map	This item cannot be used on this map 
+WEDDING_ENDING_LEAVE	The wedding ended. 
+WEDDING_ENDING_SOON	The wedding will end soon. 
+YOU_ADDED_%d_OF_EXCHANGE_ITEM_%s	You have added %d to %s. 
+YOU_ADDED_EXCHANGE_ITEM_%s	You added %s. 
+YOU_CANNOT_DROP_GOLD	You cannot drop gold. 
+YOU_CANNOT_OPEN_SHOP_ON_THIS_MAP	You cannot open a shop on this map. 
+YOU_CAN_ONLY_CHANGE_YOUR_SHOP_NAME_ONCE_IN_60_MINUTES_(%02d:%02d_left)	You can only change your shopname once in 60 minutes (%02d:%02d übrig) 
+YOU_DECREASED_EXCHANGE_GOLD_TO_%s	You reduced the gold to %s. 
+YOU_HAVE_%s_GOLD_WAITING_WITHDRAW_SHOP	you have %s gold in your offlineshop. 
+YOU_INCREASED_EXCHANGE_GOLD_TO_%s	You increased the gold to %s. 
+YOU_READIED_UP_EXCHANGE	You prepare the trading. 
+YOU_REMOVED_%d_OF_EXCHANGE_ITEM_%s	you removed %d to %s. 
+YOU_REMOVED_EXCHANGE_ITEM_%s	You removed the item %s. 
+YOU_REMOVED_READY_EXCHANGE	You have stopped the trading. 
+You blocked %s	%s ist blockiert! 
+You can not change the equipment you are wearing while you are polymorphed.	You can not change the equipment you are wearing while you are polymorphed.
+You can only adjust your points while you are still.	You can only adjust your points without moving.
+You can post a new comment in: %02d minutes and %02d seconds!	You can post a new comment in: %02d minutes and %02d seconds seconds! 
+You can wear it only when you are still.	You can wear it only when you dont move.
+You cannot activate two items of this kind.	You cannot activate two items of this kind.
+You cannot block a game master	You cannot block a game master! 
+You cannot change your teaching this way after choosing one.	You cannot change your teaching this way after choosing one. 
+You cannot define a sealed item	You cannot define a sealed item! 
+You cannot do this so fast.	You cannot do this so fast. 
+You cannot equip this sash on this map	You cannot equip this sash on this map
+You cannot open the guild storage without a guild.	You cannot open the guild storage without a guild.
+You cannot use skills for 2 seconds after changing your equipment.	You cannot use skills for 0.5 seconds after changing your equipment. 
+You have blocked private messages	You have blocked private messages! 
+You need at least 3 free inventory slots to open a chest.	You need at least 3 free inventory slots to open a chest.
+You need to be atleast level %d to use the shout chat.	You need to be atleast level %d to use the shout chat.
+you cannot use this item on this map.	You cannot use this pet-seal-item on this map. 
+{} do not spam in whispers	{} do not spam in whispers! 
+{} does not accept private messages	{} does not accept private messages! 
+{} is not online	{} is not online! 
+더 이상 이 아이템으로 속성을 추가할 수 없습니다	The maximum number of bonuses has already been reached. 
+성공적으로 속성이 추가 되었습니다	The bonus was added. 
+Valentine chasm: Destroy all metins and get a gem!	Destroy all metins and get a gem!
+Valentine chasm: You still have to destroy 5 metins	You still have to destroy 5 metins!
+Valentine chasm: You still have to destroy 4 metins	You still have to destroy 4 metins!
+Valentine chasm: You still have to destroy 3 metins	You still have to destroy 3 metins!
+Valentine chasm: You still have to destroy 2 metins	You still have to destroy 2 metins!
+Valentine chasm: You still have to destroy 1 metins	You still have to destroy 1 metins!
+Valentine chasm: You destroyed all metin stones!	Valentine chasm: You destroyed all metin stones!
+Valentine chasm: Monsters are coming!alentine chasm: Now put the gem to monument and destroy it!	Valentine chasm: Monsters are coming!alentine chasm: Now put the gem to monument and destroy it!
+Valentine chasm: Monsters are coming!	Valentine chasm: Monsters are coming!
+Valentine chasm: Kill them all!	Valentine chasm: Kill them all!
+Valentine chasm: Find an unknown herb and take it to Lady.	Valentine chasm: Find an unknown herb and take it to Lady.
+Valentine chasm: You will be teleported to the next level.	Valentine chasm: You will be teleported to the next level.
+Valentine chasm: Kill all monsters!	Valentine chasm: Kill all monsters!
+Valentine chasm: Destroy the right metin to spawn rhodolite ore!	Valentine chasm: Destroy the right metin to spawn rhodolite ore!
+Valentine chasm: Rhodolite ore was just spawned!	Valentine chasm: Rhodolite ore was just spawned!
+Valentine chasm: There was nothing in this metin.	Valentine chasm: There was nothing in this metin.
+Valentine chasm: This ore is too hard.	Valentine chasm: This ore is too hard.
+Valentine chasm: Even a pick is too weak for it.	Valentine chasm: Even a pick is too weak for it.
+Valentine chasm: Let's speak with dryade again.	Valentine chasm: Let's speak with dryade again.
+Valentine chasm: Open the ore with magic dust	Valentine chasm: Open the ore with magic dust
+Valentine chasm: Give the rhodolite to dryade.	Valentine chasm: Give the rhodolite to dryade.
+Valentine chasm: You get a chocolate.	Valentine chasm: You get a chocolate.
+Valentine chasm: Look, Lady Valentine. Go to speak with her!	Valentine chasm: Look, Lady Valentine. Go to speak with her!
+Valentine chasm: Fast!!	Valentine chasm: Fast!!
+Valentine chasm: Give the poisoned chocolate to dryade!	Valentine chasm: Give the poisoned chocolate to dryade!
+Dryade: You've killed me!	Dryade: You've killed me!
+Dryade: You fooooool!	Dryade: You fooooool!
+Valentine chasm: You've killed valentine tree!	Valentine chasm: You've killed valentine tree!
+Valentine chasm: Dungeon was succesfully finished!	Valentine chasm: Dungeon was succesfully finished!
+Valentine chasm: Kill the Valentine tree	Valentine chasm: Kill the Valentine tree
+Valentine chasm: You have killed all monsetrs!	Valentine chasm: You have killed all monsetrs!
+Valentine chasm: Let's speak with ghost of Lady Valentine	Valentine chasm: Let's speak with ghost of Lady Valentine
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: Another wave of monsters is coming!	Valentine chasm: Another wave of monsters is coming!
+Valentine chasm: Valentine tree doesn't want to give up!"	Valentine chasm: Valentine tree doesn't want to give up!"
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: You have killed all monsetrs!	Valentine chasm: You have killed all monsetrs!
+Valentine chasm: But something is wrong.. Lady Valentine is not here	Valentine chasm: But something is wrong.. Lady Valentine is not here
+Valentine chasm: Look, Dryade!	Valentine chasm: Look, Dryade!
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: 15 minutes left!	Valentine chasm: 15 minutes left!
+Valentine chasm: 10 minutes left!	Valentine chasm: 10 minutes left!
+Valentine chasm: 5 minutes left!	Valentine chasm: 5 minutes left!
+Valentine chasm: You are running out of time! Hurry up!	Valentine chasm: You are running out of time! Hurry up!
+Valentine chasm: 1 minute left!	Valentine chasm: 1 minute left!
+Valentine chasm: You are almost failed!!	Valentine chasm: You are almost failed!!
+Valentine chasm: Time has expired!	Valentine chasm: Time has expired!
+Valentine chasm: You failed!	Valentine chasm: You failed!
+Valentine chasm: You will be teleported out of dungeon!	Valentine chasm: You will be teleported out of dungeon!
+
+
+Easter dungeon: Now destroy all metin stones.	Easter dungeon: Now destroy all metin stones.
+Easter dungeon: Defeat Evil easter rabbit!	Easter dungeon: Defeat Evil easter rabbit!
+Easter dungeon: Well done! Now kill all monsters!	Easter dungeon: Well done! Now kill all monsters!
+Easter dungeon: Give the coin to rabbit!	Easter dungeon: Give the coin to rabbit!
+Easter dungeon: He has cheated on you!	Easter dungeon: He has cheated on you!
+Easter dungeon: Be careful! Monsters are coming!	Easter dungeon: Be careful! Monsters are coming!
+Easter dungeon: Well done! Now kill all monsters!	Easter dungeon: Well done! Now kill all monsters!
+Easter dungeon: You've succefuly finished the dungeon!	Easter dungeon: You've succefuly finished the dungeon!
+Easter dungeon: You will be teleported in 30 seconds.	You will be teleported in 30 seconds.
+Easter dungeon: Well done! Now destroy an easter egg!	Easter dungeon: Well done! Now destroy an easter egg!
+Easter dungeon: You've succesfuly killed all monsters.	Easter dungeon: You've succesfuly killed all monsters.
+Easter dungeon: Destroy a metin stone to move on!	Easter dungeon: Destroy a metin stone to move on!
+Easter dungeon: You will jump to next level!	Easter dungeon: You will jump to next level!
+Easter dungeon: Destroy evil egg to get a key.	Easter dungeon: Destroy evil egg to get a key.
+Easter dungeon: Kill all metin stones!	Easter dungeon: Kill all metin stones!
+Easter dungeon: 15 minutes left!	Easter dungeon: 15 minutes left!
+Easter dungeon: 10 minutes left!	60 minutes left!
+Easter dungeon: 5 minutes left! The time is running out!	Easter dungeon: 5 minutes left! The time is running out!
+Easter dungeon: 1 minutes left! You're almost failed!	Easter dungeon: 1 minutes left! You're almost failed!
+Easter dungeon: You will be teleported out of dungeon!	Easter dungeon: You will be teleported out of dungeon!
+
+Jagras: Kill all owls	Jagras: Kill all owls
+Jagras: You have killed all monsetrs.	Jagras: You have killed all monsetrs.
+Jagras: Now place %s to the totem and destroy it!	Jagras: Now place %s to the totem and destroy it!
+Jagras: You still have to kill %s mobs to get a key.	Jagras: You still have to kill %s mobs to get a key.
+Jagras: Something happened...	Jagras: Something happened...
+Jagras: This key doesn't works. Next %s are coming!!	Jagras: This key doesn't works. Next %s are coming!!
+Jagras: Kill them fast!!	Jagras: Kill them fast!!
+Jagras: You have killed all monsetrs.	Jagras: You have killed all monsetrs.
+Jagras: Now place %s to the totem and destroy it!	Jagras: Now place %s to the totem and destroy it!
+Jagras: You still have to kill %s mobs to get a key.	Jagras: You still have to kill %s mobs to get a key.
+Jagras: Destroy the metin in 2 minutes!!	Jagras: Destroy the metin in 2 minutes!!
+Jagras: If you won't destroy it in 2 minutes,	Jagras: If you won't destroy it in 2 minutes,
+Jagras: you will be out of the dungeon.	Jagras: you will be out of the dungeon.
+Jagras: You succesfuly destroyed the metin!	Jagras: You succesfuly destroyed the metin!
+Jagras: Monsters are coming!!	Jagras: Monsters are coming!!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: 4 metin stones left!	Jagras: 4 metin stones left!
+Jagras: 3 metin stones left!	Jagras: 3 metin stones left!
+Jagras: 2 metin stones left!	Jagras: 2 metin stones left!
+Jagras: 1 metin stone left!	Jagras: 1 metin stone left!
+Jagras: You've destroyed all metin stones.	Jagras: You've destroyed all metin stones.
+Jagras: The gate to next floor is open!	Jagras: The gate to next floor is open!
+Jagras: You've found first ingredient!	Jagras: You've found first ingredient!
+Jagras: Be careful! Owls are coming!	Jagras: Be careful! Owls are coming!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: There was nothing in this metin.	Jagras: There was nothing in this metin.
+Jagras: Suran was defeated!	Jagras: Suran was defeated!
+Jagras: You get another ingredient!	Jagras: You get another ingredient!
+Jagras: Lira is alive thanks to you!	Jagras: Lira is alive thanks to you!
+Jagras: Final floor is open now!	Jagras: Final floor is open now!
+Jagras: 3 statues has left!	Jagras: 3 statues has left!
+Jagras: 2 statues has left!	Jagras: 2 statues has left!
+Jagras: 1 statue has left!	Jagras: 1 statue has left!
+Jagras: All statues was destroyed!	Jagras: All statues was destroyed!
+Jagras: Monsters are coming!	Jagras: Monsters are coming!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: Perfect! Be prepared!	Jagras: Perfect! Be prepared!
+Jagras: Jagras-Mu-Tai is coming!!!	Jagras: Jagras-Mu-Tai is coming!!!
+Jagras: You succesfully finished the dungeon!	Jagras: You succesfully finished the dungeon!
+Jagras: You will be teleported in 2 minutes	Jagras: You will be teleported in 30 seconds.
+Jagras: out of dungeon.	Jagras: out of dungeon.
+Jagras: You have killed all monsetrs!	Jagras: You have killed all monsetrs!
+Jagras: Watch out! Stronger monsters are coming!	Jagras: Watch out! Stronger monsters are coming!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: You have killed all monsetrs!	Jagras: You have killed all monsetrs!
+Jagras: Destroy all metin stones!	Jagras: Destroy all metin stones!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: Suran is here!	Jagras: Suran is here!
+Jagras: Defeat him!	Jagras: Defeat him!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: Great job!	Jagras: Great job!
+Jagras: Be careful now!	Jagras: Be careful now!
+Jagras: 2 Surans are coming!	Jagras: 2 Surans are coming!
+Jagras: Kill them!	Jagras: Kill them!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: 30 minutes left!	Jagras: 30 minutes left!
+Jagras: 15 minutes left!	Jagras: 15 minutes left!
+Jagras: 10 minutes left!	Jagras: 10 minutes left!
+Jagras: 5 minutes left!	Jagras: 5 minutes left!
+Jagras: Hurry up!!	Jagras: Hurry up!!
+Jagras: 1 minute left!	Jagras: 1 minute left!
+Jagras: You are almost failed!!	Jagras: You are almost failed!!
+Jagras: Time has expired!	Jagras: Time has expired!
+Jagras: You failed!	Jagras: You failed!
+Jagras: You will be teleported out of dungeon!	Jagras: You will be teleported out of dungeon!
+
+
+PRIVATE_SHOP_SEARCH_NEED_WAIT_%d_LEFT_(%d)	You must wait %d seconds. %d seconds left. 
+PRIVATE_SHOP_SEARCH_NO_SHOPS_FOUND	No item found. 
+Die Gruppe von	The group of 
+hat den Unterwasser-Dungeon absolviert, Glückwunsch!	 absolved the Underwater-Dungeon, congratulations! 
+%s hat das maximale Level erreicht, Glückwunsch!	%s reached the maximum Level, congratulations!
+You cannot enhance the time of this item while it is stacked.	You cannot enhance the time of this item while it is stacked. 
+Maintenance shutdown will begin in %d seconds.	Maintenance shutdown will begin in %d seconds.
+We compliment the Guild %s they defeated Meley, the Queen of the Dragons!	We compliment the Guild %s they defeated Meley, the Queen of the Dragons!
+All demons were defeated.	All demons were defeated.
+Visits the Maw of the in heh to open another to fate castle.	Visits the Maw of the in heh to open another to fate castle.
+There isn't enough space in the inventory.	There isn't enough space in the inventory.
+%s has married %s	%s has %s married.
+Block: 	Block: 
+Guild	Guild
+Exchange	Exchange
+Duel	Duel
+Request	Request
+Chat	Chat
+Whisper	Whisper
+Friend	Friend
+Equip	Equip
+Shop	Shop
+Group	Group
+There are invalid characters in your title.	There are invalid characters in your title.
+You cannot use this color in your title.	You cannot use this color in your title.
+The player %s blocked viewing of his equipment!	The player %s blocked viewing of his equipment!
+You blocked duel requests for %s	You blocked duel requests for %s
+You cannot activate and deactivate this so quickly	You cannot activate and deactivate this so quickly
+You can only change your equipment while you are still.	You can only change your equipment while you are still.
+Töte Metinsteine solange, bis du einen Frostschlüssel erhältst und öffne damit die Säulen.	Kill Metin Stones until you get a Frost Key and open the pillars with it.
+Die Siegel sind geöffnet, der Baron Nashor erscheint!	The seals are opened, the Baron Nashor appears!
+Besiegt den Boss!	Defeat the boss!
+%s hat den %s bereits %s Mal gekillt (%s Sekunden)	The group of %s has defeated the %s for the %s. time, congratulations! (%s Seconds)
+%s hat den %s gekillt	The group of %s has defeated the %s, congratulations!
+%s hat die 1. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 20% Halbmenschen.	%s has successfully completed the 1st Biologist Quest. The biologist awards you 20% half-human.
+%s hat die 2. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 30% Halbmenschen.	%s has successfully completed the 2nd Biologist Quest. The biologist awards you 30% half-human.
+%s hat die 3. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 40% Halbmenschen.	%s has successfully completed the 3rd Biologist Quest. The biologist awards you 40% half-human.
+%s hat die 4. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 60% Halbmenschen.	%s has successfully completed the 4th Biologist Quest. The biologist awards you 60% half-human.
+%s hat die 5. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 50% Stark gegen Kreaturen.	%s has successfully completed the 5th Biologist Quest. The biologist awards you 50% Strong against Creatures.
+%s hat die 6. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 100% Stark gegen Kreaturen.	%s has successfully completed the 6th Biologist Quest. The biologist awards you 100% Strong against Creatures.
+%s hat die 7. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 50% Stark gegen Esoterische.	%s has successfully completed the 7th Biologist Quest. The biologist awards you 50% Strong against Mystics.
+%s hat die 8. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 100% Stark gegen Esoterische.	%s has successfully completed the 8th Biologist Quest. The biologist awards you 100% Strong against Mystics.
+Easter dungeon: You still have to defeat %s monsters to move on.	You still have to defeat %s monsters to move on.
+Easter dungeon: %s eggs has left!	%s easter eggs has left!
+Easter dungeon: %s metin stones has left!	%s metin stones has left!
+CANNOT_WARP_NOW	You can't do this activity yet.
+You cannot perform this action right now.	You cannot perform this action right now.
+You can't open an empty shop.	Du kannst keinen leeren Laden eröffnen.
+You already have a shop opened.	Du hast bereits einen Laden offen. 
+You sold %dx %s for %lld Yang.	You sold %dx %s for %lld Yang.
+You've withdrawn %lld Yang from your shop sales stash.	Du hast %lld Yang vom Laden abgehoben. 
+ITEM_SEALED	This item was successfully soulbound.
+ITEM_SEALED_CANNOT_MODIFY	Soulbound items cannot be modified.
+변경 시킬 속성이 없습니다	You cannot enchant this item without the 6/7 bonus.
+You cannot open a storage if another Window is already open.	Du kannst keinen Laden öffnen, wenn bereits ein anderes Fenster offen ist.
+Switchbot Slot %d stopped out of bonus changers.	Switchbot Slot %d stopped out of bonus changers.
+Du wirst in %s Sekunden herausteleportiert.	You will be teleported in %s seconds.
+You don't have enough money!	You don't have enough money!
+You can not open a shop while you are trading.	You can not open a shop while you are trading.
+Your cannot spawn your pet while having the status window open.	Your cannot spawn your pet while having the status window open.
+You cannot add attributes to this item.	You cannot add attributes to this item.
+You cannot change the attributes of this item.	You cannot change the attributes of this item.
+This food can only be used for pet level %d to %d	This food can only be used for pet level %d to %d
+This food is only for pets	This food is only for pets
+Your pet no longer listens to you. Your level is too low.	Your pet no longer listens to you. Your level is too low.
+The pet already has reached its maximum level	The pet already has reached its maximum level
+<Guild> The field war is disabled on this server.	<Guild> The field war is disabled on this server.
+You can not use this so fast.	You can not use this so fast.
+You have successfully added a socket to this item.	You have successfully added a socket to this item.
+You cannot add sockets to this item.	You cannot add sockets to this item.
+Successfully added a socket to this item	Successfully added a socket to this item
+This item already cannot gain more sockets.	This item already cannot gain more sockets.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_SHOPPING	You cannot move items while you are in a Shop.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_EDITING	You cannot move items while you are in a Shop.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_CREATING	You cannot move items while you are in a Shop.
+You cannot add sockets to an item with less than 3 sockets.	You cannot add sockets to an item with less than 3 sockets.
+You can only change your shop name once every hour (%02d:%02d:%02d).	You can only change your shop name once every hour (%02d:%02d:%02d).
+You tried to put at least one item into the shop which can not be traded yet.	You tried to put at least one item into the shop which can not be traded yet.
+You cannot use this item on this map.	You cannot use this item on this map.
+%s scored first blood	%s scored first blood
+You cannot unequip the armor. Not enough space for your armor effect	You cannot unequip the armor. Not enough space for your armor effect
+You need to wait some time for the next emotion.	You need to wait some time for the next emotion.
+%s blocks duel requests	%s blocks duel requests
+Failed to make one socket permanent	Failed to make one socket permanent
+Successfully to made one socket permanent	Successfully to made one socket permanent
+Already every socket permanent	Already every socket permanent
+A world boss is [%s] spawned.	A world boss is [%s] spawned.
+You cannot use this item in this area.	You cannot use this item in this area.
+Missing %s %s to create the recipe you have chosen	Missing %s %s to create the recipe you have chosen
+Double Drop Amount	Double-Loot-Event
+Double-Loot Event is active!	Double-Loot Event is active!
+%s: Double-Loot Event is active	%s: Double-Loot Event is active
+%s: Double-Loot Event ended	%s: Double-Loot Event ended
+%s has killed you with hp %d left over.	%s has killed you with hp %d left over.
+There is no one currently registered in the ranking.	There is no one currently registered in the ranking.
+Player %s successfully finished Battle Pass %s.	Player %s successfully finished Battle Pass %s.
+Ancient pyramid: Destroy the stone within 4 minutes!	Kulve Taroth: Pusztítsd el a követ 4 percen belül!
+Ancient pyramid: Otherwise, you will be teleported out of dungeon.	Kulve Taroth: Ellenkező esetben ki leszel teleportálva a várbörtönből.
+Ancient pyramid: You will continue in few seconds.	Kulve Taroth: Néhány másodperc múlva folytatódik.
+Ancient pyramid: You have failed!	Kulve Taroth: Kudarcot vallottál!
+Ancient pyramid: Kill monsters to collect pieces of pergamen, once you have 4 pieces	Kulve Taroth: Öld meg a szörnyeket, hogy összegyűjtsd a pergamen darabokat, ha már 4 darabod van.
+Ancient pyramid: destroy the %s!	Kulve Taroth: pusztítsd el a %s -t!
+Ancient pyramid: You have all pieces! Go to seal and decipher it!	Kulve Taroth: Minden darab megvan! Menj a pecséthez és fejtsd meg!
+Ancient pyramid: It was spell to summon %s, kill it!	Kulve Taroth: Varázslat volt, hogy megidézze %s -t, öld meg!
+Ancient pyramid: You will jump to next floor in few seconds	Kulve Taroth: Néhány másodperc múlva a következő emeletre fogsz ugrani
+Ancient pyramid: Find and destroy right %s within 21 minutes!	Kulve Taroth: Találd meg és pusztítsd el a megfelelő %okat 21 percen belül!
+Ancient pyramid: Be careful, something strong is hiding inside of them!	Kulve Taroth: Vigyázzatok, valami erős dolog rejtőzik bennük!
+Ancient pyramid: You have destroyed the right stone!	Kulve Taroth: Elpusztítottad a megfelelő követ!
+Ancient pyramid: %s is coming!	Kulve Taroth: %s jön!
+Ancient pyramid: This stone was just an illusion.	Kulve Taroth: Ez a kő csak illúzió volt.
+Ancient pyramid: You have failed!	Kulve Taroth: Kudarcot vallottál!
+Ancient pyramid: You will jump to next floor in few seconds	Kulve Taroth: Néhány másodperc múlva a következő emeletre fogsz ugrani
+Ancient pyramid: Find a way out from this maze!	Kulve Taroth: Találd meg a kiutat ebből a labirintusból!
+Ancient pyramid: At the end, you have to kill real %s!	Kulve Taroth: A végén valódi %s okat kell megölnöd!
+Ancient pyramid: This was the real %s	Kulve Taroth: Ez volt az igazi %s
+Ancient pyramid: You will be moved to next floor in few seconds	Kulve Taroth: Néhány másodperc múlva átkerülsz a következő emeletre.
+Ancient pyramid: This was a fake %s!	Kulve Taroth: Ez egy hamis %s volt!
+Ancient pyramid: Destroy all %s, but be careful, it has its own mechanism!	Kulve Taroth: Pusztítsd el az összes %s -t, de vigyázz, mert saját mechanizmusa van!
+Ancient pyramid: You need to destroy them in exact sequence!	Kulve Taroth: Pontos sorrendben kell elpusztítanod őket!
+Ancient pyramid: This was the right one!	Kulve Taroth: Ez volt az igazi!
+Ancient pyramid: Now destroy %s to get another item!	Kulve Taroth: Most pusztítsd el a %s -t, hogy szerezz egy másik tárgyat!
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: El kell pusztítanod más %s
+Ancient pyramid: Great! Monsters are coming! One of them has another item!	Kulve Taroth: Nagyszerű! Jönnek a szörnyek! Az egyiküknél van egy másik tárgy!
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: El kell pusztítanod más %s
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: El kell pusztítanod más %s
+Ancient pyramid: Great, but now, to alert!!!	Kulve Taroth: Nagyszerű, de most, a riasztás!!!!
+Ancient pyramid: Real Anubis is coming!	Kulve Taroth: Jön az igazi Anubisz!
+Ancient pyramid: %s stones has left!	Kulve Taroth: %s kövek elmentek!
+Ancient pyramid: You will be moved to next floor in few seconds	Kulve Taroth: Néhány másodperc múlva átkerülsz a következő emeletre.
+Ancient pyramid: Destroy %s to be able summon a real boss!	Kulve Taroth: Pusztítsd el %s -t, hogy megidézhess egy igazi főnököt!
+Ancient pyramid: Kill all monsters now!	Kulve Taroth: Ölj meg minden szörnyet most!
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: A varázslat elmúlt, elviheted a %s -t.
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: A varázslat elmúlt, elviheted a %s -t.
+Ancient pyramid: %s is gonna appear.	Kulve Taroth: %s fog megjelenni.
+Ancient pyramid: It can spawn any previous monsters and bosses!	Kulve Taroth: Bármilyen korábbi szörnyet és főnököt képes előidézni!
+Ancient pyramid: If you destroy it within 5 minutes, you avoid attracting another monsters!	Kulve Taroth: Ha 5 percen belül elpusztítod, elkerülöd, hogy újabb szörnyeket vonzz magadhoz!
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: A varázslat elmúlt, elviheted a %s -t.
+Ancient pyramid: You were too slow, monsters have beholded you!	Kulve Taroth: Túl lassú voltál, szörnyek láttak téged!
+Ancient pyramid: They are coming, kill them all!	Kulve Taroth: Jönnek, öljétek meg mindet!
+Ancient pyramid: %s has spawned!	Kulve Taroth: %s megszületett!
+Ancient pyramid: Destroy it within 3 minutes! Otherwise, the dungeon will be closed	Kulve Taroth: Pusztítsd el 3 percen belül! ellenkező esetben a várbörtön bezárul.
+Ancient pyramid: The %s has no power to do magic anymore!	Kulve Taroth: A %s már nem képes varázsolni!
+Ancient pyramid: Kill it!!	Kulve Taroth: Öljétek meg!!!
+Ancient pyramid: You have failed!	Kulve Taroth: Kudarcot vallottál!
+Ancient pyramid: The %s has been protected!	Kulve Taroth: A %s védett!
+Anci group: You did it! Spectacular job!	Kulve Taroth: Megcsináltad! Látványos munka!
+Anci group: Dungeon will be automatically closed in 3 minutes.	Kulve Taroth: A börtön 3 perc múlva automatikusan bezárul.
+Ancient pyramid: You have failed!	Kulve Taroth: Kudarcot vallottál!
+%s benötigte %s Sekunden	%s -nak %s másodpercekre volt szüksége!
+Shadow tower: Destroy all %s! You have only limited time! Hurry up!	Vaal Hazak: Pusztítsd el az összes %s -t! Csak korlátozott időd van! Siess!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s kiderült! Továbbmehetsz a következő emeletre!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Lejárt az idő. Kudarcot vallottál!
+Shadow tower: %s is coming!	Vaal Hazak: %s jön!
+Shadow tower: Kill second wave of monsters to destroy second %s!	Vaal Hazak: Öld meg a szörnyek második hullámát a második %s elpusztításához!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Lejárt az idő. Kudarcot vallottál!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s kiderült! Továbbmehetsz a következő emeletre!
+Shadow tower: You have destroyed the right stone!	Vaal Hazak: Elpusztítottad a megfelelő követ!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s kiderült! Továbbmehetsz a következő emeletre!
+Shadow tower: This one was just an illusion!	Vaal Hazak: Ez csak egy illúzió volt!
+Shadow tower: Well done! Now destroy the %s to able to continue!	Vaal Hazak: Szép munka! Most elpusztítani a %s képes folytatni!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s kiderült! Továbbmehetsz a következő emeletre!
+Shadow tower: Great job! You will proceed in few seconds!	Vaal Hazak: Szép munka! Néhány másodperc múlva folytathatja!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Lejárt az idő. Kudarcot vallottál!
+Shadow tower: Protection of %s is gone. You can kill him now!	Vaal Hazak: A %s védelme megszűnt. Most már megölheted!
+Shadow tower: %s wasn't destroyed yet. %s was recovered from shadows!	Vaal Hazak: %s még nem semmisült meg. %s-t visszaszerezték az árnyékból!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s kiderült! Továbbmehetsz a következő emeletre!
+Shadow tower: You died three times. You have failed.	Vaal Hazak: Háromszor haltál meg. Kudarcot vallottál.
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Lejárt az idő. Kudarcot vallottál!
+Shadow tower: Beware! %s is coming!	Vaal Hazak: Vigyázz! %s jön!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s kiderült! Továbbmehetsz a következő emeletre!
+Shadow tower: If you have %s, you have last %s seconds to use it!	Vaal Hazak: Ha van %s, akkor az utolsó %s másodperced van arra, hogy használd!
+Shadow zone: %s is now active! %s is gonna be much weaker!	Vaal Hazak: %s most már aktív! %s sokkal gyengébb lesz!
+Shadow tower: This effect is already active!	Vaal Hazak: Ez a hatás már aktív!
+Shadow tower: You can use this only during first 8 floors!	Vaal Hazak: Ezt csak az első 8 emeleten használhatod!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s kiderült! Továbbmehetsz a következő emeletre!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Lejárt az idő. Kudarcot vallottál!
+Shadow tower: One more wave is coming!	Vaal Hazak: Még egy hullám jön!
+Shadow tower: A monster is coming, its unknown!	Vaal Hazak: Egy szörny jön, ismeretlen!
+Shadow tower: You are almost at the end. But the worst is just about to come!	Vaal Hazak: Már majdnem a végére értél. De a legrosszabb csak most jön!
+Shadow tower: Time is up. You have failed	Vaal Hazak: Lejárt az idő. Kudarcot vallottál
+Shadow tower: You will be teleported out of dungeon in %s minutes.	Vaal Hazak: %s perc múlva teleportálnak ki a börtönből.
+Shadow tower: Destroy both %s! Destroy all monsters to get a key!	Vaal Hazak: Pusztítsd el mindkét %s-t! Pusztítsd el az összes szörnyet a kulcsért!
+Shadow tower: Find real %s and destroy it!	Vaal Hazak: Találd meg a valódi %s-t és pusztítsd el!
+Shadow tower: Every wrong stone hides %s inside!	Vaal Hazak: Minden rossz kő %s-t rejt magában!
+Shadow tower: The more fake stones you destroy, the more HP will have a next boss!	Vaal Hazak: Minél több hamis köveket elpusztítani, annál több HP lesz a következő főnök!
+Shadow tower: Kill all monsters to get %s, then start to build a %s	Vaal Hazak: Öld meg az összes szörnyet, hogy megkapd %s, majd kezdj el építeni egy %s -t
+Shadow tower: Destroy %s in %s minutes! Otherwise you will have to finish next mission 2x!	Vaal Hazak: Pusztítsd el a %s -t %s perc alatt! Ellenkező esetben a következő küldetést 2x kell befejezned!
+You are not allowed to create a shop on this map.	You are not allowed to create a shop on this map.

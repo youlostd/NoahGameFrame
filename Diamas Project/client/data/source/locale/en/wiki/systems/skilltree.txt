@@ -1,0 +1,49 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/skilltree.png]
+[CENTER_ALIGN]Hunting-missions and Skilltree
+
+1 Start
+The hunting-missions are active immediately and do not have to be started first.
+The corresponding window can be found by opening the inventory and scrolling down the 
+symbols on the left until you reach the symbol for the hunting-missions.
+
+2 Structure
+The targets of the hunting-missions are divided into metin stones and dungeon bosses.
+As soon as you defeat a target, you can see the progress of the respective mission by 
+the green bar. You can see all open missions at the top and all completed ones at the bottom. 
+There are always two missions active, one for metin stones and one for dungeon bosses. 
+If you complete a mission, the next higher one starts automatically.
+
+3 Leveling up
+To get experience points for leveling up on the next farm map, you need an item, which 
+you get when you have completed all the hunting-missions on the previous map.
+So if you complete all the missions on the Shiva farm map, you will 
+get "Jagras-Extension (55-75)". By right clicking on this item, you will get experience 
+up to level 75 on the next map. The same system applies to all other farm maps.
+
+4 Skilltree points
+Completing the hunting-missions is not only essential for leveling up, but also for 
+the Skilltree. The rewards for each hunting mission are Skilltree points. 
+The number of Skilltree points increases with the progress of the hunting-missions. 
+They can be used to unlock and strengthen the individual fields of the Skilltree, which 
+is rewarded with additional bonuses.
+
+5 Skilltree
+The Skilltree is essential for PvM AND PvP.
+The bonuses, which can be unlocked through the Skilltree, not only help with the 
+defense and offense in PvM, but are also essential in PvP. 
+The Skilltree is unlocked in stages. Once you have completed all the hunting-missions, you 
+also automatically unlock the entire Skilltree and gain all additional bonuses.
+
+6 Skilltree - Breakdown
+On the Shiva farm map, you unlock the bottom row of all three categories.
+On the Artemis farmmap you unlock the second row for all three categories.
+On the Aqua farm map, you unlock the third row of the middle category.
+On the left and right categories, the outer two fields of the third row are unlocked.
+On the Eden farm map you unlock the fourth row of the middle category.
+On the left and right categories it is the middle field of the third row.
+On the Terra-Farmmap you unlock the last row and therefore the last field of 
+all categories, which completes the Skilltree.
+
+
+

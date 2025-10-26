@@ -1,0 +1,85 @@
+if not MeleyLair . IsMeleyMap ( ) and not pc . in_dungeon ( ) then local warp = { 
+{ 
+name = gameforge . warpring . _200_select , 
+{ 
+name = gameforge . warpring . _20_selectb , 
+koord = { 41 , 38300 , 64400 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . warpring . _30_selectb , 
+koord = { 43 , 44700 , 41200 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . warpring . _20_selectr , 
+koord = { 1 , 64500 , 58500 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . warpring . _30_selectr , 
+koord = { 3 , 46000 , 63100 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . warpring . _20_selectg , 
+koord = { 21 , 63600 , 64000 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . warpring . _30_selectg , 
+koord = { 23 , 43100 , 35200 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+} , 
+{ 
+name = gameforge . warpring . _230_select , 
+{ 
+name = gameforge . functions . _220_say , 
+koord = { 160 , 92800 , 60000 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . locale . map_name_4 , 
+koord = { 400 , 86400 , 69300 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . functions . _240_say , 
+koord = { 500 , 88200 , 66000 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . warpring . oremap , 
+koord = { 229 , 20000 , 9700 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+} , 
+{ 
+name = gameforge . warpring . _250_select_2 , 
+{ 
+name = gameforge . warpring . _250_select , 
+koord = { 160 , 87900 , 62100 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+{ 
+name = gameforge . warpring . _250_select_1 , 
+koord = { 400 , 77300 , 84000 } , 
+minlevel = 1 , 
+maxlevel = 255 , 
+} , 
+} , 
+} 
+warpring . showwarps ( warp ) 
+ return end 

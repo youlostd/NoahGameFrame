@@ -1,0 +1,17 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/titleitem.png]
+[CENTER_ALIGN]Sistema de Titulos
+
+Com o item "Titulos de Cores" você pode criar seu próprio título, que então aparecerá
+acima do seu nome ou nome da guilda. O seguinte se aplica:
+
+- Caracteres alfanuméricos (a-Z, 0-9) permitidos
+- 16.581.375 cores selecionáveis ​​através do gerador RGB
+- Antevisão do título selecionado
+- Substituível com o mesmo item
+- Removível com "Tintura de títulos (remoção)".
+
+Não são permitidos caracteres especiais ou expressões ofensivas / insultuosas.
+
+
+

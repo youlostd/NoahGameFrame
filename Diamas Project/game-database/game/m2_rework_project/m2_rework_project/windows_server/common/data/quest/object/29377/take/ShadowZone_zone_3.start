@@ -1,0 +1,15 @@
+if item . get_vnum ( ) == 30845 and ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 2 and d . getf ( "ShadowZone_2f_KillMonsters" ) == 0 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local Position = settings [ "first_boss_pos" ] 
+item . remove ( ) 
+npc . kill ( ) 
+if d . getf ( "ShadowZone_2f_Seal" ) == 2 then 
+ShadowZoneLIB3 . clearDungeon ( ) 
+d . notice ( "Shadow tower: %s is coming!" , c_mob_name ( 24382 ) ) 
+d . spawn_mob ( 24382 , Position [ 1 ] , Position [ 2 ] ) 
+else 
+d . notice ( "Shadow tower: Kill second wave of monsters to destroy second %s!" , c_mob_name ( 29377 ) ) 
+d . setf ( "ShadowZone_2f_KillMonsters" , 1 ) ; 
+d . setf ( "ShadowZone_2f_Seal" , 2 ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_2a.txt" ) ; 
+end 
+ return end 

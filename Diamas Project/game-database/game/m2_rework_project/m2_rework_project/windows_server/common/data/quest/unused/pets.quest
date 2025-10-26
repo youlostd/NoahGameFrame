@@ -1,0 +1,69 @@
+quest pet_system begin
+    state start begin
+        function get_pet_info(itemVnum)
+            pet_info_map = {
+            --  [ITEM VNUM] MOB_VNUM, DEFAULT NAME, buff_idx, spawn_effect_idx
+                [53001]     = { 34001, "'s Feuer Phönix", 1},
+                [53002]     = { 34002, "'s Rentier", 1},
+                [53003]     = { 34003, "'s Eis Phönix", 1},
+                [53004]     = { 34013, "'s Henker", 1},
+                [53005]     = { 34004, "'s Baby Azrael", 1},
+                [53006]     = { 34006, "'s Rufus", 1},
+                [53007]     = { 34008, "'s Leonidas", 1},
+                [53008]     = { 34005, "'s Porkie", 1},
+                [53009]     = { 34007, "'s Kahn", 1},
+				[53010]     = { 34010, "'s Rentier", 1},
+				[53011]     = { 34011, "'s Knuud", 1},
+				[53012]     = { 34012, "'s Bao Bao", 1},
+				[53013]     = { 34017, "ist ein Hurensohn.", 1},
+				[53014]     = { 34018, "'s Sheldon", 1},
+				[53015]     = { 34019, "'s Cooper", 1},
+				[53016]		= {	34016, "'s Booney", 1},
+				[53017]		= {	34009, "'s Baby Azrael", 1},
+				[53018]		= {	34014, "'s Henker", 1},
+				[53019]		= {	34015, "'s Saphirphönix", 1},
+				[53020]		= {	34021, "'s Leopard", 1},
+				[53021]		= {	34020, "'s Leopard", 1},
+            }
+
+            itemVnum = tonumber(itemVnum)
+
+            return pet_info_map[itemVnum]
+        end
+		function get_spawn_effect_file(idx)
+			effect_table = {
+				[0] = nil,
+				[1] = "d:\\\\ymir work\\\\effect\\\\etc\\\\appear_die\\\\npc2_appear.mse",
+			}
+			return effect_table [idx]
+		end
+        when 53009.use or 53008.use or 53007.use or 53006.use or 53005.use or 53004.use or 53003.use or 53002.use or 53001.use or 53010.use or 53011.use or 53012.use or 53013.use or 53014.use or 53015.use or 53016.use or 53017.use or 53018.use or 53019.use or 53020.use or 53021.use begin
+            local pet_info = pet_system.get_pet_info(item.vnum)
+
+            if null != pet_info then
+
+                local mobVnum = pet_info[1]
+                local petName = pet_info[2]
+				local spawn_effect_file_name = pet_system.get_spawn_effect_file(pet_info[3])
+
+                if true == pet.is_summon(mobVnum) then
+					if spawn_effect_file_name != nil then
+						pet.spawn_effect (mobVnum, spawn_effect_file_name)
+					end
+                    pet.unsummon(mobVnum)
+		      syschat("Du hast dein Haustier weggeschickt.")
+                else
+                    if pet.count_summoned() < 1 then
+                        pet.summon(mobVnum, petName, false)
+			   syschat("Du hast dein Haustier erfolgreich gerufen.")
+                    else
+                        syschat("Du hast schon ein Haustier gerufen.")
+                    end
+					if spawn_effect_file_name != nil then
+						pet.spawn_effect(mobVnum, spawn_effect_file_name)
+					end
+                end -- if pet.is_summon
+            end  -- if null != pet_info
+        end -- when
+    end -- state
+end -- quest

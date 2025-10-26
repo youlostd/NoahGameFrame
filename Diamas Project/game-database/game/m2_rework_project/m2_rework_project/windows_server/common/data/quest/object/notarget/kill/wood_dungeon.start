@@ -1,0 +1,114 @@
+if pc . in_dungeon ( 225 ) then local stage = getDungeonStage ( ) 
+local race = npc . race if stage == 1 and race == 862 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_3.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 2 and race == 862 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 874 , 127 , 127 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 3 and race == 874 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 865 , 110 , 127 ) 
+d . spawn_mob ( 865 , 112 , 118 ) 
+d . spawn_mob ( 865 , 120 , 111 ) 
+d . spawn_mob ( 865 , 131 , 110 ) 
+d . spawn_mob ( 865 , 140 , 115 ) 
+d . spawn_mob ( 865 , 144 , 123 ) 
+d . spawn_mob ( 865 , 143 , 133 ) 
+d . spawn_mob ( 865 , 137 , 139 ) 
+d . spawn_mob ( 865 , 128 , 143 ) 
+d . spawn_mob ( 865 , 115 , 140 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 10 ) 
+end 
+elseif stage == 4 and race == 865 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_5.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 5 and race == 864 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_6.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 6 and race == 867 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 872 , 127 , 127 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 7 and race == 872 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 877 , 110 , 127 ) 
+d . spawn_mob ( 877 , 112 , 118 ) 
+d . spawn_mob ( 877 , 120 , 111 ) 
+d . spawn_mob ( 877 , 131 , 110 ) 
+d . spawn_mob ( 877 , 140 , 115 ) 
+d . spawn_mob ( 877 , 144 , 123 ) 
+d . spawn_mob ( 877 , 143 , 133 ) 
+d . spawn_mob ( 877 , 137 , 139 ) 
+d . spawn_mob ( 877 , 128 , 143 ) 
+d . spawn_mob ( 877 , 115 , 140 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 10 ) 
+end 
+elseif stage == 8 and race == 877 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_9.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 9 and race == 868 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_14.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 10 and race == 869 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 876 , 127 , 127 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 11 and race == 876 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_15.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 12 and race == 875 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_boss.txt" ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 13 and race == 878 or race == 8781 then 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 5 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 878 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNGEON_ID_WOOD , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( race ) ) 
+pc . update_dungeon_progress ( DUNGEON_ID_WOOD ) 
+d . completed ( ) 
+setDungeonWarpLocation ( 161 , 402 , 704 ) 
+server_timer ( "exit_dungeon_final" , 15 , pc . get_map_index ( ) ) 
+end 
+ return end 

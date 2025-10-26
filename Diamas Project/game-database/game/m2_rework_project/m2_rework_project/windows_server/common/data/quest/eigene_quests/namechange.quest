@@ -1,0 +1,19 @@
+quest namechange begin
+        state start begin
+			when 71055.use begin
+
+			if pc.in_dungeon() then
+				say("Du kannst das Item hier nicht nutzen!")
+				return
+			end
+			
+			say_title( " İsim İzi " )
+				say( " Ne yapmak istiyorsun? ")
+				local s = select( " İsim Değiştir " , " Kapat ")
+				if s == 1 then
+					pc.set_change_name()
+					pc.remove_item(71055, 1)
+				end	
+			end	
+		end
+	end	

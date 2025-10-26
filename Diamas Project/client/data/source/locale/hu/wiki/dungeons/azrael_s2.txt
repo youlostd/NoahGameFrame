@@ -1,0 +1,51 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/azrael.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 75 - 105
+*Eintrittsitem: Schrumpfkopf
+[IMG=d:/ymir work/ui/wiki/rahmen.tga; Y=5; X=460]
+[IMG=d:/ymir work/ui/wiki/30319.tga; Y=15; X=482]
+
+
+[X_PADDING=463]Schrumpfkopf
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheiten:
+*Die Devils Catacomb hat eine Abklingzeit von 2 Stunden.
+*Die Devils Catacomb kann mit und ohne Gruppe betreten werden.
+*Man hat insgesamt 60 Minuten Zeit um die Devils Catacomb abzuschließen.
+*Es benötigen alle Gruppenmitglieder einen Schrumpfkopf.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=145; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 1
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=175; X=490]
+[IMG=d:/ymir work/ui/wiki/30311.tga; Y=181; X=496]
+
+[X_PADDING=20]Tötet solange Monster bis ihr einen Seelenkristall-Schlüssel droppt.
+[X_PADDING=20]Zieht den Seelenkristall-Schlüssel am Ende der Ebene auf die Statue des Kud.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 2
+
+[X_PADDING=20]Lauft in die Mitte der Ebene und tötet auf den Weg dahin die Tore der Verdammnis.
+[X_PADDING=20]Klickt den Schildkrötenfels an.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 3
+
+[X_PADDING=20]In dieser Ebene stehen 7 Metin der Vergeltung, tötet den richtigen Metin der Vergeltung.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 4
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=355; X=490]
+[IMG=d:/ymir work/ui/wiki/30312.tga; Y=361; X=496]
+
+[X_PADDING=20]Findet und tötet Tartaros, er befindet sich in einer der Kammern unterhalb des Berges.
+[X_PADDING=20]Zieht das gedroppte Fratzen-Toten oben auf der Bergspitze auf Basalt Obelisk.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 5
+
+[X_PADDING=20]Besiegt alle Monster und tötet Charon.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 6
+
+[X_PADDING=20]Tötet Azrael.
+[IMG=d:/ymir work/ui/wiki/Azrael.tga; Y=430; X=382]
+

@@ -1,0 +1,3 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 6 then d . setf ( "ShadowZone_PillarActive" , 0 ) ; 
+d . notice ( "Shadow tower: Protection of %s is gone. You can kill him now!" , c_mob_name ( 24385 ) ) ; 
+ return end 

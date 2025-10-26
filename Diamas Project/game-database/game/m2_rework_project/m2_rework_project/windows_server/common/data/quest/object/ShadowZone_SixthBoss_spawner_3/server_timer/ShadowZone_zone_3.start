@@ -1,0 +1,12 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local BossPosition = settings [ "sixth_boss_pos" ] 
+local ShadowAmuletIsActive = d . getf ( "ShadowAmulet" ) 
+d . setf ( "ShadowZone_CanUseAmulet" , 0 ) 
+d . set_unique ( "SixthBoss" , d . spawn_mob ( 24387 , BossPosition [ 1 ] , BossPosition [ 2 ] ) ) 
+if ShadowAmuletIsActive == 1 then 
+d . unique_set_maxhp ( "SixthBoss" , settings [ "ABBADON_HP_SMALL" ] ) 
+else 
+d . unique_set_maxhp ( "SixthBoss" , settings [ "ABBADON_HP_NORMAL" ] ) 
+end 
+end 

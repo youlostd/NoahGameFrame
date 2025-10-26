@@ -1,0 +1,3 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/dailyreward.png]
+[CENTER_ALIGN]Coming

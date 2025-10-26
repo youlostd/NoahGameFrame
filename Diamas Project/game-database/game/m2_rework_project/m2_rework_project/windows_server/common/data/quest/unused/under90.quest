@@ -1,0 +1,14 @@
+quest under90 begin
+	state start begin
+	when login with pc.get_level() < 90 and pc.get_map_index() == 218 or pc.get_level() < 90 and pc.get_map_index() == 302 or pc.get_level() < 90 and pc.get_map_index() == 303 or pc.get_level() < 90 and pc.get_map_index() == 304 or pc.get_level() < 95 and pc.get_map_index() == 305 or pc.get_level() < 95 and pc.get_map_index() == 306 or pc.get_level() < 110 and pc.get_map_index() == 403 begin
+	 local empire = pc.get_empire()
+	 if empire == 1 then
+           pc.warp(41,48000,73600)
+                    elseif empire == 2 then
+            pc.warp(1,59700,68200)
+                    elseif empire == 3 then
+            pc.warp(3,46000,63100)
+            end
+	end
+	end
+end

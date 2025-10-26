@@ -1,0 +1,11 @@
+if ShadowZoneLIB3 . isActive ( ) then local AmuletSetting = d . getf ( "ShadowZone_CanUseAmulet" ) 
+if AmuletSetting == 1 then 
+item . remove ( ) ; 
+d . setf ( "ShadowAmuletIsActive" , 2 ) ; 
+d . notice ( "Shadow zone: %s is now active! %s is gonna be much weaker!" , c_item_name ( 30850 ) , c_mob_name ( 24387 ) ) ; 
+elseif AmuletSetting == 2 then 
+d . notice ( "Shadow tower: This effect is already active!" ) ; 
+else 
+d . notice ( "Shadow tower: You can use this only during first 8 floors!" ) ; 
+end 
+ return end 

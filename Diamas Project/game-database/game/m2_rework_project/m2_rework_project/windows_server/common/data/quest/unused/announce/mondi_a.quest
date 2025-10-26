@@ -1,0 +1,20 @@
+quest moon_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("moon_a") > 0 begin
+		send_letter("Mondlicht-Schatztruhen")
+	end
+	
+	when info or button begin
+		say_important("Mondlicht-Schatztruhe")
+		say_item_vnum(50011)
+        setleftimage('world_cup.tga')
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance wertvolle Mondlicht-Schatztruhen bei allen Monstern zu erhalten!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+		end
+	end
+end

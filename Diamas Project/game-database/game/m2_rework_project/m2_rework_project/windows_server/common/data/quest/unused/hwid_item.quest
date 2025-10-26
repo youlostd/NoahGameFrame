@@ -1,0 +1,8 @@
+quest daily_hwid_test begin
+	state start begin
+		when login with get_global_time() > game.get_hwid_flag(pc.get_hwid(), "daily_gift_next_time") begin
+			pc.give_item2(19, 1)
+			game.set_hwid_flag(pc.get_hwid(), "daily_gift_next_time", get_global_time() + 60 * 2 * 1)
+		end		
+	end
+end

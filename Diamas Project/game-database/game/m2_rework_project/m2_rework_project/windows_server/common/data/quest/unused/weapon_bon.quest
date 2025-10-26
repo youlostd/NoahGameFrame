@@ -1,0 +1,62 @@
+quest weapon_bon begin
+    state start begin
+        when 30335.use begin 
+	     say("[WINDOW_SIZE width;328|height;315]")
+		 say(gameforge.costume_bon._100_title)
+		 local empire = pc.get_empire()
+		local selectmap = select(gameforge.costume_bon._110_say,
+		gameforge.costume_bon._120_say,
+		gameforge.costume_bon._130_say,
+		gameforge.costume_bon._140_say,
+		gameforge.costume_bon._150_say,
+		gameforge.costume_bon._160_say,
+		gameforge.costume_bon._170_say,
+		gameforge.locale.cancel)
+		if selectmap == 9 then
+		return
+		elseif selectmap == 1 then -- einhand
+            pc.give_item2(40101, 1)  --skin
+            pc.remove_item(30335, 1) --bon verschwindet 
+			
+		elseif selectmap == 2 then -- Dolch
+            pc.give_item2(40102, 1)  --skin
+            pc.remove_item(30335, 1) --bon verschwindet 
+
+		elseif selectmap == 3 then -- Bogen
+            pc.give_item2(40103, 1)  --skin
+            pc.remove_item(30335, 1) --bon verschwindet 
+
+		elseif selectmap == 4 then -- Zweihand
+            pc.give_item2(40104, 1)  --skin
+            pc.remove_item(30335, 1) --bon verschwindet 
+
+		elseif selectmap == 5 then -- Glocke
+            pc.give_item2(40105, 1)  --skin
+            pc.remove_item(30335, 1) --bon verschwindet 
+
+		elseif selectmap == 6 then -- Faecher
+            pc.give_item2(40106, 1)  --skin
+            pc.remove_item(30335, 1) --bon verschwindet 
+
+		elseif selectmap == 7 then -- kralle
+            pc.give_item2(40107, 1)  --skin
+            pc.remove_item(30335, 1) --bon verschwindet 
+
+	
+		elseif selectmap == 8 then 
+		return
+	
+            			
+						 
+            
+		
+		
+		
+end
+			end
+            end 
+			
+                    end
+                        
+                           
+

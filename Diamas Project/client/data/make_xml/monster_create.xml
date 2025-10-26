@@ -1,0 +1,8 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/monster:d:/ymir work/monster/" ArchivePath="../bin/pack/monster.pak" XmlPath="xml/monster_create.xml">
+		<Ignore Pattern="*.psd" />
+		<Ignore Pattern="*.uas" />
+		<Ignore Pattern="*.pdn" />
+		<Ignore Pattern="*.ufo" />
+	</CreateEterPackXml>
+</ScriptFile>

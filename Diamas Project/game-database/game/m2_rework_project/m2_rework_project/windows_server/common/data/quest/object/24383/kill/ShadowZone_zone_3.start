@@ -1,0 +1,4 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 4 then game . drop_item ( 30847 , 1 ) ; 
+d . setf ( "ShadowZone_4f_CanDesSta" , 1 ) 
+d . notice ( "Shadow tower: Well done! Now destroy the %s to able to continue!" , c_mob_name ( 29378 ) ) ; 
+ return end 

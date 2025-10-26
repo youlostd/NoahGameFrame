@@ -1,0 +1,34 @@
+quest appl begin
+    state start begin
+		-- Trigger on login or quest state enter from setstate
+        when login or enter with pc.get_gm_level() >= 1 begin
+			-- Send the player a letter
+            send_letter_ex(gameforge.appl._01, "info", "d:/ymir work/effect/gm_logos/ymirred.dds")
+        end
+		-- when the player presses the letter or the quest in the quest list
+        when button or info with pc.get_gm_level() >= 1 begin
+			notice_all("We are currently looking for new supporters with foreign language skills!")
+			notice_all("Register now in our N2-Board: |cFF00C0FC|Hweb:httpsw<?board.n2play.pro/forum/index.php?board/43-support/|h[CLICK]|h|r We are waiting for you!")
+			-- set the next time to 1 hours from now
+			next_time_set(60*60*1)
+			-- change state to the wait state 
+			setstate(wait_for_next)
+			
+        end
+    end
+	state wait_for_next begin
+		-- when entering the state clear the letter
+		when enter begin
+			clear_letter()
+		end
+		
+		-- when the player gains a level or he warps or logs in
+		-- and the next time is now
+		-- switch to the start state
+		-- that triggers on entering
+		-- so we send the letter again
+		when login or levelup with next_time_is_now() begin
+			setstate(start)
+		end
+	end
+end

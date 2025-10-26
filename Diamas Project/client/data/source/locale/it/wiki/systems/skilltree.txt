@@ -1,0 +1,51 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/skilltree.png]
+[CENTER_ALIGN]Missioni di Caccia ed Albero delle Abilità
+
+
+1 Inizio
+Le missioni di caccia sono attive immediatamente, senza bisogno di essere accettate.
+La finestra corrispondente può essere aperta tramite il tasto F7 oppure aprendo l'inventario,
+scrollando verso il basso il pannello dei sistemi a sinistra,tramite l'apposito simbolo.
+
+2 Struttura
+Gli obiettivi delle Missioni di Caccia sono: distruggere i metin e sconfiggere i boss dei dungeon.
+Il progresso delle missioni è visibile,man mano che gli obiettivi vengono distrutti, tramite
+la barra verde di progresso.Le missioni in progresso saranno visualizzate in alto, mentre quelle
+già completate verranno visualizzate in basso. 
+Ci saranno sempre due missioni attive, una riguardante i metin ed una i boss dei dungeon. Ogni blocco
+riguarderà una mappa specifica.
+Al completamento di una missione, la prossima inizierà automaticamente.
+
+3 Aumento di Livello
+Per poter sbloccare il livello successivo avrai bisogno di un oggetto ottenibile completando tutte le Missioni
+di Caccia della mappa precedente, così facendo potrai progredire più rapidamente.
+Ad esempio, completando tutte le missioni di caccia della mappa Shiva,otterrai 
+"l'Estensione di Jagras (55-75)".Cliccando con il destro su questo oggetto, esso ti sbloccherà
+l'esperienza ottenibile fino al livello 75. Lo stesso procedimento si applica alle altre mappe.
+
+4 Punti dell'Albero delle Abilità
+Completare le Missioni di Caccia non è solo essenziale ai fini di livellare ma anche per
+l'Albero delle Abilità.Ogni Missione di Caccia completata ti garantirà dei punti per l'Albero.
+Il numero di punti abilità, che otterrai, aumenterà all'aumentare della difficoltà delle Missioni di Caccia
+I punti possono essere usati per sbloccare e migliorare i vari campi dell'Albero, essi ti garantiranno effetti unici.
+
+5 l'Albero delle Abilità
+L'Albero delle Abilità è essenziale sia in PvM che in PvP.
+I bonus, sbloccati con i punti abilità, ti garantiranno un buon equilibrio tra difesa ed attacco, permettendoti
+di resistere agli attacchi nemici e di arrecare maggior danno. L'Albero è suddiviso in blocchi per ogni livello.
+Ogni abilità sbloccata all'inizio è propedeutica per quelle successive,quindi necessarie per poter arrivare alla fine.
+Le missioni di caccia ti garantiranno, alla fine, di poter aver accesso a tutte le abilità che l'Albero ti può offrire.
+Perciò,scegli con prudenza.
+
+
+6 Albero delle Abilità - Sblocco
+Tramite la Mappa Shiva avrai accesso alla parte più bassa dell'Albero.
+Tramite la Mappa Artemis avrai accesso al secondo stadio per tutte e tre le categorie.
+Tramite la Mappa Aqua avrai accesso al terzo stadio per tutte e tre le categorie.
+Tramite la Mappa Eden avrai accesso al  quarto stadio per tutte e tre le categorie.
+Tramite la Mappa Terra avrai accesso al quinto ed ultimo stadio per tutte e tre le categorie,
+completando, così, tutto l'Albero delle Abilità.
+
+
+

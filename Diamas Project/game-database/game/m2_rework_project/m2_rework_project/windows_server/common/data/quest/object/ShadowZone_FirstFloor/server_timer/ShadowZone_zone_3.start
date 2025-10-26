@@ -1,0 +1,6 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+if d . getf ( "ShadowZone_FirstStone" ) == 1 then 
+d . notice ( "Shadow tower: Time is up. You have failed!" ) 
+d . exit_all ( ) 
+end 
+end 

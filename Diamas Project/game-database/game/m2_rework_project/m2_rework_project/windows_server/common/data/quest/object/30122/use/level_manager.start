@@ -1,0 +1,4 @@
+if pc . getqf ( "allow_over_100" ) == 0 and pc . get_level ( ) <= 100 then pc . setqf ( "allow_over_100" , 1 ) 
+syschat ( "The way to a higher level was unlocked" ) 
+pc . remove_item ( 30122 ) 
+ return end 

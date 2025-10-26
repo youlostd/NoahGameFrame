@@ -1,0 +1,13 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 3 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local n = d . getf ( "ShadowZone_wrong_count_f" ) + 1 
+if npc . get_vid ( ) == d . get_unique_vid ( "real" ) then 
+ShadowZoneLIB3 . clearDungeon ( ) 
+ShadowZoneLIB3 . clearDungeon ( ) 
+d . notice ( "Shadow tower: You have destroyed the right stone!" ) 
+d . notice ( "Shadow tower: %s was revealed! You can proceed to next floor!" , c_mob_name ( 29382 ) ) ; 
+ShadowZoneLIB3 . spawnPortalGate ( ) 
+else 
+d . setf ( "ShadowZone_wrong_count_f" , n ) ; 
+d . notice ( "Shadow tower: This one was just an illusion!" ) 
+end 
+ return end 

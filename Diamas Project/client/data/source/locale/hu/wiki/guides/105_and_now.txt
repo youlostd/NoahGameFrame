@@ -1,0 +1,119 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/105andnow.tga]
+[CENTER_ALIGN]Hallo N2 Spieler,
+[CENTER_ALIGN]Wenn du diesen Guide liest möchtest du bestimmt einiges über N2 und 
+[CENTER_ALIGN]dessen Abenteuer herausfinden. Lies den Guide also aufmerksam.
+
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Die Abenteuer nach Lv 105 und der Battlepass der Baumwesen
+*2. Was hat es mit den Kostümen auf sich?
+*3. Kurze Dungeon Erklärung
+*4. Turmalin Equipment
+*5. Wie besiege ich diese Affen?
+*6. Hab ich den Server jetzt durchgespielt?
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=160; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]Die Abenteuer nach Lv 105 und der Battlepass der Baumwesen
+
+Mit diesem Lv wirst du als Mid-End Spieler betrachtet, da du dich langsam dem End Content näherst.
+Wie du warscheinlich bereits feststellen konntest, ist der Content ein wenig anspruchsvoller geworden.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.1 Verwunschener Wald & Düsterwald
+
+Du bist jetzt in der Lage, dich auf die neuen Maps, Verwunschener Wald und Düsterwald zu teleportieren.
+Als Erstes musst du deine Ausrüstung anpassen, denn wie bereits erwähnt, der Content wird schwieriger.
+Die Monster haben keine Rasse, aber das Element "Erde", weshalb sich ein Erdtalisman+49 empfiehlt.
+Der Schaden der Monster ist auch deutlich höher als in den vorherigen Gebieten, deshalb empfehlen sich
+die Boni "TP Absorbation, max. TP, Chance Nahkampf Angriff abzublocken sowie Erdwiderstand/Magiewidertand.
+Ebenso ist ein Legendärer Drachenjade, sowie ein Legendärer Drachenonyx zu empfehlen um die Metin der
+Baumwesen deutlich angenehmer farmen zu können.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.2 Missionsbuch Fürstlich?
+
+Ab dem Lv 105 wirst du auch das Missionsbuch Fürstlich droppen können. Es enthält eine Reihe von Missionen
+für den Levelbereich ab Lv 105. Es beinhaltet auch einige interessante Belohnungen für deinen Levelbereich
+wie z.B. Legendäre Seelensteine, Boss Rufrolle (schwer), usw...
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.3 Battlepass der Baumwesen
+
+Mit dem Lv 105 erhälst du einen weiteren kostenlosen Battlepass, wie beim Start mit Lv 1.
+Er umfasst ebenso 7 normale Missionen und 3 legendäre Missionen. Die Belohnungen sind
+deinem aktuellen Levelbereich angepasst und sind nützlich.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=580; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Was hat es mit den Kostümen auf sich?
+
+Bis jetzt hast du warscheinlich deine 3x 10% Starterkostüme oder sie durch Kostüme mit 3x 15% Boni ersetzt.
+Nun ja, das ist noch nicht alles. Bei bestimmten Events kannst du 20% Boni erhalten. Es ist nun an der Zeit
+deine Kostüme mit 3x 20% Boni auszurüsten und den letzten Feinschliff vorzunehmen.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=680; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Kurze Dungeon Erklärung
+
+Mit dem Lv 105 hast du auch zwei weitere Dungeons freigeschaltet, den Jotun Thrym und die Schiffsverteidigung.
+Ab dem Lv 115 kannst du dann auch den Kristalldrachen Dungeon betreten. Mit einer Blauen Kristallessenz kannst
+du am Ende der Schiffsverteidigung eine Schatztruhe der Black Pearl abholen. Da der Nemere die Blaue Kristall-
+essenz zu 100% droppt, empfiehlt es sich den Dungeon davor zu machen. Gleiches gilt für den Kristalldrachen
+Dungeon, dieser benötigt einen Roten Höllenquarz, den ihr von Razador erbeuten könnt. Für weitere Informationen
+zu den genannten Dungeons kannst du dich einfach durch unswer Wikipedia klicken.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=830; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Turmalin Equipment
+
+Denkst du nicht auch, es wird langsam Zeit sich von dem Seelenkristallequipment zu verabschieden?
+Genau die Zeit ist nun gekommen, du solltest dich nun auf das Turmalin Equipment fokusieren.
+Turmalinhalskette und Turmalinohrringe z.B. geben dir zusätzlich jeweils 15% Stark gegen Metinsteine.
+Schau also mal bei Babawahdan, in der Stadtmitte des Kap des Drachenfeuers, vorbei und erkundige
+dich nach den Items, die du benötigst um das Turmalin Equipment herzustellen.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=970; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]5. Wie besiege ich diese Affen?
+
+Es wird nicht lange dauern, bis du auch den Wukongs-Tempel betreten kannst, ab Lv 110.
+Alle Drachensteine+6 (für den Alchemie Set Bonus), Windtalisman+99, Schulterband Kostüm und die Maximierung
+deines Damages sind sehr zu empfehlen um effektiv im Wukongs-Tempel zu farmen. Im Wukongs-Tempel erhälst
+du eine große Anzahl an Truhen der Versorgung, Traum/Himmelsseelen Steinen, Truhe der Fertigkeiten (für
+die Konter/Boost Fertigkeiten) und Uppgegenstände für die Seelen und das Zodiakequipment.
+Du wunderst dich bestimmt schon die ganze Zeit, was es mit dem Zodiak Tempel und dem Thranduils Versteck
+auf sich hat. Dazu kommen wir im nächsten Punkt.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=1120; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]6. Hab ich den Server jetzt durchgespielt?
+
+Mit Erreichen von Lv 115 bedeutet es nicht, dass ihr das Spiel durchgespielt habt und alles auf N2
+erkundet habt. Es warten noch einige Sachen auf euch, insbesondere die Optimierung eures Charakters.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]6.1 Zodiak Tempel
+
+Einige deiner härtesten Abenteuer werden hier, im Zodiak Tempel, auf dich warten.
+Nun ist es an der Zeit, dir eine Gilde oder eine Gruppe zu suchen, um gemeinsam den Zodiak Tempel zu
+absolvieren. Erst wenn du das neue Zodiak Equipment und das restliche Equipment optimiert hast,
+wirst du den Zodiak Tempel alleine absolvieren können. Es empfehlen sich alle Talismane+99 für den Zodiak
+Tempel. Für weitere Informationen über den Zodiak Tempel kannst du einfach das Wikipedia durchstörbern.
+Wenn du hier angelangt bist, wird es auch Zeit, sich von deiner geliebeten Lv 75 Waffe zu verabschieden.
+Ebenso empfiehlt es sich eine Zodiak Rüstung zu besorgen.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]6.2 Thranduil's Versteck
+
+Dieser Dungeon besitzt neue Bosse, neue Ebenen und einige Besonderheiten.
+Am Ende des Dungeons erscheint ein Schmied, bei welchem ihr das Kyanit-Equipment herstellen könnt. 
+
+
+

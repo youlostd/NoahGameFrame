@@ -1,0 +1,28 @@
+say_title ( "Biolog Chaegirab:" ) 
+say ( "Merhaba " .. pc . getname ( ) .. "" ) 
+say_reward ( "Lv 92-94 ödüllerin sıfırlandı" ) 
+say_reward ( "Lv 92 Görevinin ödülünü seçmen gerek;" ) 
+affect . remove_collect ( apply . MAX_HP , 1000 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . DEF_GRADE_BONUS , 120 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . ATT_GRADE_BONUS , 51 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . MAX_HP , 1100 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . DEF_GRADE_BONUS , 140 , 60 * 60 * 24 * 365 * 60 ) 
+affect . remove_collect ( apply . ATT_GRADE_BONUS , 60 , 60 * 60 * 24 * 365 * 60 ) 
+local s = select ( " +1000 HP " , " Savunma Değeri +120 " , " Saldırı Değeri +51 " ) 
+if s == 1 then 
+affect . add_collect ( apply . MAX_HP , 1000 , 60 * 60 * 24 * 365 * 60 ) 
+elseif s == 2 then 
+affect . add_collect ( apply . DEF_GRADE_BONUS , 120 , 60 * 60 * 24 * 365 * 60 ) 
+elseif s == 3 then 
+affect . add_collect ( apply . ATT_GRADE_BONUS , 51 , 60 * 60 * 24 * 365 * 60 ) 
+end 
+say ( "Merhaba " .. pc . getname ( ) .. "" ) 
+say_reward ( "Lv 94 Görevinin ödülünü seçmen gerek:" ) 
+local s = select ( " +1100 HP " , " Savunma Değeri +140 " , " Saldırı Değeri +60 " ) 
+if s == 1 then 
+affect . add_collect ( apply . MAX_HP , 1100 , 60 * 60 * 24 * 365 * 60 ) 
+elseif s == 2 then 
+affect . add_collect ( apply . DEF_GRADE_BONUS , 140 , 60 * 60 * 24 * 365 * 60 ) 
+elseif s == 3 then 
+affect . add_collect ( apply . ATT_GRADE_BONUS , 60 , 60 * 60 * 24 * 365 * 60 ) 
+end 

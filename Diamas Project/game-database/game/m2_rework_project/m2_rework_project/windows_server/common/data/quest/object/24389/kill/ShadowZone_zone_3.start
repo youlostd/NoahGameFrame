@@ -1,0 +1,20 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 9 and d . getf ( "ShadowZone_FinalBoss" ) == 1 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local Position = settings [ "chest_pos" ] 
+local TimeToExit = settings [ "time_to_final_exit" ] 
+local minutes = math . floor ( TimeToExit / 60 ) 
+ShadowZoneLIB3 . clearDungeon ( ) ; 
+ShadowZoneLIB3 . setReward ( ) ; 
+clear_server_timer ( "ShadowZone_FinalBoss_kill" , d . get_map_index ( ) ) ; 
+ShadowZoneLIB3 . clearCoolTimer ( ) ; 
+d . setf ( "ShadowZone_FinalBoss" , 0 ) ; 
+d . setf ( "ShadowZone_CanTakeReward" , 1 ) ; 
+d . notice ( "Shadow tower: You will be teleported out of dungeon in %s minutes." , minutes ) ; 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 1 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 24388 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNGEON_ID_SHADOW_TOWER , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( npc . get_race ( ) ) ) 
+pc . update_dungeon_progress ( DUNGEON_ID_SHADOW_TOWER ) 
+d . completed ( ) 
+server_timer ( "ShadowZone_Final_Exit" , TimeToExit , d . get_map_index ( ) ) ; 
+ return end 

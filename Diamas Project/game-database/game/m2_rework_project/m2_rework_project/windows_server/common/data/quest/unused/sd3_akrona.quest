@@ -1,0 +1,176 @@
+quest spider_dungeon3 begin
+	state start begin
+
+	function setting()
+		return
+
+		{
+
+		["object"] = 30324,
+		["droped_object"] = 30327,
+		["sp"] = { ["MinLv"] = 49, ["MaxLv"] = 75},
+		["map"] = { ["index_map"] = 217, ["coordx"] = 368, ["coordy"] = 511},
+		["monster"] = { ["vnum"] = 2094, ["coordx"] = 368, ["coordy"] = 562}
+
+		}
+	end	
+
+
+		when 20404.chat.gameforge.gemishop._270_npcChat begin
+
+			if not party.is_party then
+				say(gameforge.sd3_akrona._10_say)
+				return
+			end
+
+
+			local pids = {party.get_member_pids()}
+				local notEnoughLevelMembers = {}
+				local noTicketMembers = {}
+				local notEnoughtTime = {}
+				local levelCheck = true
+				local ticketCheck = true
+					for i, pid in next, pids, nil do
+
+					q.begin_other_pc_block(pid)
+					local canPass = false
+
+						if pc.count_item(spider_dungeon3.setting().object) >= 1 then
+							canPass = true
+						end
+						
+						if not canPass then
+							table.insert(noTicketMembers, pc.get_name())
+							ticketCheck = false
+						end	
+
+						if pc.get_level() < spider_dungeon3.setting().sp.MinLv or pc.get_level() > spider_dungeon3.setting().sp.MaxLv then
+							table.insert(notEnoughLevelMembers, pc.get_name())
+							levelCheck = false
+						end	
+
+
+					q.end_other_pc_block(pid)
+
+					end
+
+					if not ticketCheck then
+						say(gameforge.sd3_akrona._20_say)
+						for i, name in next, noTicketMembers, nil do
+							say(string.format(gameforge.chaos_dungeon._120_say, name))
+						end	
+						return
+					end					
+
+					if not levelCheck then
+						say_title(c_mob_name(20404))
+						say()
+						say(gameforge.sd3_akrona._30_say)
+						for i, name in next, notEnoughLevelMembers, nil do
+							say(string.format(gameforge.chaos_dungeon._120_say, name))
+						end
+
+						return
+					end	
+
+					if party.is_leader() then							
+						say_title(gameforge.sd3_akrona._40_sayTitle)
+
+						say(gameforge.sd3_akrona._50_say)
+						local s =  select(gameforge.sd3_akrona._60_select, gameforge.sd3_akrona._70_select)
+
+						if s == 1 then
+							timer("spider_one", 4)
+							notice_all(string.format(gameforge.sd3_akrona._80_notice_all, pc.get_name()))
+						else
+							return
+						end
+					end
+		end
+
+
+
+		when login with pc.in_dungeon() begin
+			if d.getf("spider_dungeon") == 1 and pc.getqf("object") == 0 begin
+				pc.remove_item(spider_dungeon3.setting().object , 1)
+				pc.setqf("object", 1)
+			end
+		end
+
+
+		when logout with d.getf("spider_dungeon") == 1 begin
+			pc.setqf("object", 0)
+		end
+
+
+		when spider_one.timer begin
+			d.new_jump_party(spider_dungeon3.setting().map.index_map, spider_dungeon3.setting().map.coordx, spider_dungeon3.setting().map.coordy)
+			d.setf("spider_dungeon", 1)
+			d.spawn_mob(spider_dungeon3.setting().monster.vnum, spider_dungeon3.setting().monster.coordx, spider_dungeon3.setting().monster.coordy)
+			d.regen_file("data/dungeon/spider_dungeon3/spiders.txt")
+
+		end
+
+
+
+		when 2094.kill with d.getf("spider_dungeon") == 1 and pc.in_dungeon() begin
+
+			pc.give_item2(spider_dungeon3.setting().droped_object ,1)
+			d.notice(gameforge.sd3_akrona._90_dNotice)
+		end
+
+
+		when 30327.use with d.getf("spider_dungeon") == 1 and pc.in_dungeon() begin
+
+			d.setf("little_spiders", 6)
+
+			local t = {
+
+			{393, 571},
+			{391, 591},
+			{378, 593},
+			{354, 583},
+			{351, 559},
+			{370, 548},
+
+			}
+
+			for i = 1,6 do
+				d.spawn_mob(2095, t[i][1], t[i][2])
+			end
+
+		end
+
+
+		when 2095.kill with d.getf("spider_dungeon") == 1 and pc.in_dungeon() begin
+
+			d.setf("little_spiders", d.getf("little_spiders")-1)
+
+			if d.getf("little_spiders") == 0 then
+
+
+				d.notice(gameforge.sd3_akrona._100_dNotice)
+				vid = d.spawn_mob(2092, 370, 587)
+
+				d.set_unique("boss", vid)	
+			else
+				d.notice(gameforge.sd3_akrona._110_dNotice)
+			end
+
+			---d.unique_set_def_grade("boss", -50)
+		end
+
+
+		when 2092.kill with d.getf("spider_dungeon") == 1 and pc.in_dungeon() begin
+			d.notice(gameforge.sd3_akrona._120_dNotice)
+			notice_all(string.format(gameforge.sd3_akrona._130_notice_all, pc.get_name()))
+			d.notice(gameforge.sd3_akrona._140_dNotice)
+			timer("bye_spiders", 45)
+		end
+
+		when bye_spiders.timer begin
+			d.exit_all()
+		end
+	end
+end
+

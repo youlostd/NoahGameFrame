@@ -1,0 +1,86 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/okeycard.tga]
+[CENTER_ALIGN;FONT_SIZE=18]Okey Card Game
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Allgemeine Informationen
+*2. Spielanleitung
+*3. Belohnungen
+*4. Kombinationen & Punkte
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=120; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen
+
+Während des Events kannst du alternativ von Monsters Okey-Sammelkarten droppen.
+24 Okey-Sammelkarten werden zu einem Okey-Kartenset. Sobald du ein Okey-Kartenset
+hast, kannst du das Spiel spielen. Während das Event aktiv ist findest du in der
+rechten oberen Ecke des Spielfensters das Okey Karten Event Symbol. Über dieses
+Symbol kannst du das Minispiel starten.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=250; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Spielanleitung
+
+Das Ziel des Spiels ist es eine Kombination von Sets und Runs zu erhalten.
+Ein Set beinhaltet 3 Karten mit der selben Zahl(z.B. 7, 7, 7).
+Je niedriger die Zahl, desto weniger Punkte erhälst du.
+
+Ein Run beinhaltet drei aufeinander folgende Zahlen (z.B. 6, 7, 8 ).
+Je niedriger die Zahlen, desto weniger Punkte erhälst du.
+Ist die Zahlenfolge von der selben Farbe erhälst du 100 Punkte. 
+
+Um die ersten 5 Karten zu erhalten musst du mit der linken Maustaste auf das Deck drücken.
+Sammle Punkte durch Bilden von Kombinationen. (Hinweis: Linke Maustaste = Karte auswählen, 
+Rechte Maustaste = Karte wegwerfen)
+Je mehr Punkte du erhälst, desto besser wird deine Belohnung ausfallen.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=450; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Belohnungen
+
+Die Belohnung des Spiels ist abhängig von deinem Punktestand.
+Um die Kiste zu erhalten musst du auf "Beenden" im Minispiel drücken.
+
+*Punkte < 300: Bronzene Okey Truhe
+*Punkte 300-399: Silberne Okey Truhe
+*Punkte ≥ 400: Goldene Okey-Truhe
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=590; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Kombinationen & Punkte
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1 Set Punkte
+
+*1-1-1 : 20 Punkte
+*2-2-2 : 30 Punkte
+*3-3-3 : 40 Punkte
+*4-4-4 : 50 Punkte
+*5-5-5 : 60 Punkte
+*6-6-6 : 70 Punkte
+*7-7-7 : 80 Punkte
+*8-8-8 : 90 Punkte
+
+[COLOR=ef4f00;FONT_SIZE=15]4.2 Run Punkte
+
+[COLOR=ef4f00]4.2.1 Run Punkte - Karten mit unterschiedlicher Farbe:
+
+*1-2-3 : 10 Punkte
+*2-3-4 : 20 Punkte
+*3-4-5 : 30 Punkte
+*4-5-6 : 40 Punkte
+*5-6-7 : 50 Punkte
+*6-7-8 : 60 Punkte
+
+[COLOR=ef4f00]4.2.2 Run Punkte - Karten mit selber FarbeCards:
+
+*1-2-3 : 100 Punkte
+*2-3-4 : 100 Punkte
+*3-4-5 : 100 Punkte
+*4-5-6 : 100 Punkte
+*5-6-7 : 100 Punkte
+*6-7-8 : 100 Punkte
+

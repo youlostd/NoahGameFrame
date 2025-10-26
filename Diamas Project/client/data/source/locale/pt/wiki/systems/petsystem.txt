@@ -1,0 +1,49 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/petsystem.png]
+[CENTER_ALIGN]Sistema de Pet
+
+1. Em geral
+
+Existem pet's que são diferentes dos normais. Estes podem ser nivelados
+e podem-se aumentar os atributos. Cada monstro que pode ser encontrado
+no servidor dropar um pet.
+Podes abrir a janela do pet pressionando a tecla "x".
+
+2. Upar o pet
+
+Esses pet's especiais são niveláveis. Eles não só ganham pontos de status,que
+podes distribuir, mas também crescem em tamanho paralelamente ao nível.
+Para nivelar o seu pet, precisas: 
+
+- Comida Para Pet (1-10)
+- Comida Para Pet (10-30)
+- Comida Para Pet (30-60)
+- Comida Para Pet (60-100)
+- Comida Para Pet (100-150)
+
+Estes são os itens que podes arrastar para o seu pet nivelável para aumentar
+seu nível.
+
+3.Pontos de status
+
+Depois de abrir a janela do pet, podes distribuir os pontos de status que
+recebeste.
+No nível 150, tens 447 pontos de status disponíveis para distribuição.Podes
+distribuir
+eles para os bônus. Também podes rodar os bonus do pet com  "Pet Switcher".
+Ao trocar os bonus do pet resetas automáticamente os seus pontos de status,
+assim podes voltar a distribuir os pontos em cada bonus.
+A distribuição é a seguinte:
+
+- Do nível 1: 2 bônus
+- Do nível 10: 3 bônus
+- Do nivel 30: 4 bônus
+- Do nivel 60: 5 bônus
+- Do nivel 100: 6 bônus
+- Do nivel 150: 7 bônus
+
+Com 447 pontos de status disponíveis, não podes maximizar todos os 7 bônus,
+então escolhe com sabedoria.
+
+
+

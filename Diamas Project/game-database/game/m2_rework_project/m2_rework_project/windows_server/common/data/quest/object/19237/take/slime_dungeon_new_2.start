@@ -1,0 +1,32 @@
+if pc . in_dungeon ( 241 ) then local stage = getDungeonStage ( ) 
+local vnum = item . vnum if vnum == 30721 and stage == 1 then 
+npc . purge ( ) 
+item . remove ( ) 
+d . regen_file ( "data/dungeon/slime_dungeon_new_2/" .. "stage_2.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 106 ) 
+elseif vnum == 30721 and stage == 2 then 
+npc . purge ( ) 
+item . remove ( ) 
+d . regen_file ( "data/dungeon/slime_dungeon_new_2/" .. "stage_3.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+elseif vnum == 30721 and stage == 5 then 
+npc . purge ( ) 
+item . remove ( ) 
+d . spawn_mob ( 18430 , 255 , 265 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+elseif vnum == 30721 and stage == 7 then 
+npc . purge ( ) 
+item . remove ( ) 
+d . regen_file ( "data/dungeon/slime_dungeon_new_2/" .. "stage_14.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+elseif vnum == 30721 and stage == 9 then 
+npc . purge ( ) 
+item . remove ( ) 
+d . regen_file ( "data/dungeon/slime_dungeon_new_2/" .. "stage_boss.txt" ) 
+increaseDungeonStage ( ) 
+end 
+ return end 

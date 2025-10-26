@@ -1,0 +1,19 @@
+quest boost_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("boost_a") > 0 begin
+		send_letter("Erfahrungsbonus")
+	end
+	
+	when info or button begin
+		say_important("Erfahrungsbonus")
+		say("Liebe Spieler,")
+		say("Aktuell ist der Bonus von Erfahrung auf 50% Erhöht!")
+		say("Also schnappt euch eure Erfahrungsringe, und begebt euch in den Kampf!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

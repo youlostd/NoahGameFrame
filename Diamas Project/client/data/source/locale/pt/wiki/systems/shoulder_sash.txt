@@ -1,0 +1,99 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/shoulder.tga]
+[CENTER_ALIGN]Ein Schulterband ist ein Teil der sichtbaren Ausrüstung, das den meisten N2-Spielern vertraut ist.
+[CENTER_ALIGN]Die Schulterbänder werden im Kostümfenster ausgerüstet. Das Kostümfenster kann man über die 
+[CENTER_ALIGN]Schaltfläche im Inventar öffnen. 
+[CENTER_ALIGN]Lasst uns in die Details gehen:
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Die verschiedenen Art von Schulterbändern und wie man sie erhält.
+*2. Wie man Schulterbänder verbessern kann.
+*3. Wie man eine Waffe/Rüstung in das Schulterband aufnimmt.
+*4. Wie man die Boni von einem Sash entfernt.
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=135; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Die verschiedenen Art von Schulterbändern und wie man sie erhält.
+
+[CENTER_ALIGN] Es gibt verschiedene Arten von Schulterbändern, darunter: 
+[CENTER_ALIGN] Meisterband, Herrscherband, Königsband, Fürstenband, Jubiläumsband und Weihnachtsband. 
+[CENTER_ALIGN] Der Unterschied zwischen den einzelnen Schulterbändern ist das Aussehen und die Herkunft.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.1 Meisterband
+[X_PADDING=20]Ein Meisterband (einfach) kann durch den Austausch von 10 Feinen Tüchern bei Theowahdan erworben werden.
+
+[X_PADDING=20]Herkunft von Feinen Tüchern: Sensenmann, Spinnenbaroness, Azrael, Beran Setaou, Razador, Nemere, 
+[X_PADDING=20]Oberork Truhe, Neunschwanz Truhe, Truhe Wüstenschildkröte, Flammenkönig Truhe, Truhe des gelben Tigers,
+[X_PADDING=20]Truhe der Königin Meley, Truhe der Drachenwächter, Mondlicht-Schatztruhe, Goldene Decimustruhe, Goldene Fischtruhe.
+
+[X_PADDING=20]Außerdem kann man ein Meisterband (einfach) als Belohnung aus dem Missionsbuch (normal), 
+[X_PADDING=20]Missionsbuch (schwer), Missionsbuch (Experte) und Missionsbuch Fürstlich erhalten.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.2 Herrscherband
+[X_PADDING=20]Ein Herrscherband (einfach) kann als Belohnung aus dem Missionsbuch (schwer), Missionsbuch (Experte), 
+[X_PADDING=20]Missionsbuch Fürstlich, Goldene Decimustruhe und aus dem Item-Shop erworben werden.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.3 Königsband
+[X_PADDING=20]Ein Fürstenband (einfach) kann als Belohnung aus dem Missionsbuch (scwer), Missionsbuch (Experte), 
+[X_PADDING=20]Missionsbuch Fürstlich, Goldene Decimustruhe, Truhe des Razador und Truhe des Nemere erworben werden.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.4 Fürstenband
+[X_PADDING=20]Ein Fürstenband (einfach) kann als Belohnung aus dem Missionsbuch (scwer), Missionsbuch (Experte),
+[X_PADDING=20]Missionsbuch Fürstlich, Goldene Decimustruhe, Truhe des Razador und Truhe des Nemere erworben werden.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.5 Jubiläumsband
+[X_PADDING=20]Das Jubiläumsband war Teil eines speziellen Item Shop-Angebots vom 16.07.2018 - 22.07.2018.
+[X_PADDING=20]Es gehört heute zum Bestandteil eines Museums...
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.6 Weihnachtsband
+[X_PADDING=20]Das Weihnachtsband war Teil des Weihnachtsevents 2018.
+[X_PADDING=20]Es konnte im Itemshop und aus dem Weihnachtlichen Battlepass erworben werden.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=690; CENTER_ALIGN]
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Wie man Schulterbänder verbessern kann.
+
+Ein Schulterband hat 4 verschiedene Verbesserungsstufen: einfach, fein, edel und maßgefertigt.
+Zwei Schulterbänder der selben Verbesserungsstufe können kombiniert werden, um eine höhere Verbesserungsstufe zu erhalten.
+Der Prozess kann fehlschlagen und bei einem Fehlschlag wird das Schulterband im zweiten Slot des Kombinationsfensters zerstört.
+Das Kombinationsfenster ist über die Option "Kombinieren" bei Theowahdan erreichbar.
+Man kann ein Schulterband mittels Drag and Drop oder Alt + Rechte Maustaste in das Kombinationsfenster einfügen.
+Zwei maßgefertigte Schulterbänder können zusammen kombiniert werden. Bei Erfolg wird der Aufnahmegrad um 1-5% erhöht.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=815; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Wie man eine Waffe/Rüstung in das Schulterband aufnimmt.
+
+Mit einem Schulterband können die Boni von einer Rüstung oder Waffe aufgenommen werden. 
+Die verwendete Rüstung oder Waffe wird ZERSTÖRT.
+
+*Einfache Schulterbänder absorbieren 1% des Bonus aus einer Rüstung oder Waffe.
+*Feine Schulterbänder absorbieren 5% des Bonus aus einer Rüstung oder Waffe.
+*Edle Schulterbänder absorbieren 10% des Bonus aus einer Rüstung oder Waffe.
+*Maßgefertige Schulterbänder absorbieren 11%-25% des Bonus aus einer Rüstung oder Waffe.
+
+Das Bonusabsorptionsfenster ist über die Option "Boni Aufnehmen" bei Theowahdan erreichbar.
+Das Schulterband kommt auf die linke Seite des Fensters, die Waffe oder die Rüstung in die rechte Seite des Fensters.
+Das Ergebnis kann im unteren Teil des Fensters betrachter werden.
+Der Prozess wird die Boni des Items in das Schulterband aufnehmen, je nach dem Aufnahmegrad. 
+(Alle Dezimalstellen werden abgerundet!)
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=1025; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Wie man die Boni von einem Sash entfernt.
+
+Nehmen wir an, du hast einen Fehler gemacht und eine falsche Rüstung oder Waffe in dein Band aufgenommen.
+In diesem Fall könnt ihr die Boni mit der Rolle der Umkehr aus dem Itemshop entfernen.
+Die aufgenommene Rüstung oder Waffe erhält man nicht zurück.
+
+

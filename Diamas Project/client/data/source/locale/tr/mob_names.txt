@@ -1,0 +1,2714 @@
+101	Yabani Köpek
+102	Kurt
+103	Alfa Kurt
+104	Mavi Kurt
+105	Alfa Mavi Kurt
+8303	Rathian-Metin2
+9263	Kadashi-Mu-Tai
+8300	Kadashi-Metin
+8304	Kadashi-Metin2
+106	Gri Kurt
+107	Alfa Gri Kurt
+108	Yaban Domuzu
+109	Kırmızı Yaban Domuzu
+110	Ayı
+111	Boz Ayı
+112	Siyah Ayı
+113	Kahverengi Ayı
+114	Kaplan
+115	Beyaz Kaplan
+131	Lanetli Kurt
+132	Lanetli Alfa Kurt
+133	Lanetli Mavi Kurt
+134	Lanetli Alfa Mavi Kurt
+135	Lanetli Gri Kurt
+136	Lanetli Alfa Gri Kurt
+137	Lanetli Yaban Domuzu
+138	Lan.Kırmızı Yaban Domuzu
+139	Lanetli Ayı
+140	Lanetli Gri Ayı
+141	Lanetli Siyah Ayı
+142	Lanetli Kahverengi Ayı
+143	Lanetli Kaplan
+144	Lanetli Beyaz Kaplan
+151	Cung-Mok
+152	Mu-Rang
+153	Jug-Hyul
+154	Young-Ji
+155	Li-An
+171	Aç Yabani Köpek
+172	Aç Kurt
+173	Aç Alfa Kurt
+16017	Gnoll Lord
+16018	Supreme Gnoll Guard
+16019	Rakshasa
+16020	Martyaxwar
+16021	Lemures Prince
+16022	Lemures Bodyguard
+16023	General Kappa
+16024	Triton
+16025	General Lobster
+16026	King Crab
+16027	Gnoll Lord+
+16028	Supreme Gnoll Guard+
+16029	Rakshasa+
+16030	Martyaxwar+
+16031	Lemures Prince+
+16032	Lemures Bodyguard+
+16033	General Kappa+
+16034	Triton+
+16035	General Lobster+
+16036	King Crab+
+16037	Property Manager
+16038	Drunken Citizen
+16039	Driving Dealer
+16040	Wonda-Rim
+16041	Horse
+16042	Fight Horse
+16043	Military Horse
+16044	Lee Chung
+16045	Admiral Angmur
+16046	Yon-I-Walker
+16047	Myonghorang the Wise
+16048	Guardian of the Colony
+16049	Property Manager+
+16050	Drunken Citizen+
+16051	Driving Dealer+
+16052	Wonda-Rim+
+16053	horse+
+16054	Fight Horse+
+16055	Military Horse+
+16056	Lee Chung+
+16057	Admiral Angmur+
+16058	Yon-I-Walker+
+16059	Myonghorang the Wise+
+16060	Guardian of the Colony+
+11191	Night Angel
+174	Aç Mavi Kurt
+175	Aç Alfa Mavi Kurt
+176	Aç Gri Kurt
+177	Aç Alfa Gri Kurt
+178	Aç Yaban Domuzu
+179	Aç Kırmızı Yaban Domuzu
+180	Aç Ayı
+181	Aç Boz Ayı
+182	Aç Siyah Ayı
+183	Aç Kahverengi Ayı
+184	Aç Kaplan
+185	Aç Beyaz Kaplan
+191	Lykos
+192	Scrofa
+193	Bera
+194	Tigris
+301	Beyaz Yeminli Asker
+302	Beyaz Yeminli Okçu
+303	Beyaz Yeminli General
+304	Beyaz Yeminli Komutan
+331	Beyaz Yeminli Asker
+332	Beyaz Yeminli Okçu
+333	Beyaz Yeminli General
+334	Beyaz Yeminli Komutan
+351	Korkak Beyaz Yeminli Aske
+352	Korkak Beyaz Yeminli Okçu
+353	Korkak Beyaz Yeminli Gene
+354	Korkak Beyaz Yeminli Komu
+391	Mi-Jung
+392	Eun-Jung
+393	Se-Rang
+394	Jin-Hee
+395	Moralsiz Mi-Jung
+396	Moralsiz Eun-Jung
+397	Moralsiz Se-Rang
+398	Moralsiz Jin-Hee
+401	Siyah Rüzgar Askeri
+402	Siyah Rüzgar Delisi
+403	Siyah Rüzgar Okçusu
+404	Siyah Rüzgar Jak-To
+405	Siyah Rüzgar To-Su
+406	Siyah Rüzgar Gu-Ryung
+431	Siyah Fırtına Askeri
+432	Siyah Fırtına Delisi
+433	Siyah Fırtına Okçusu
+434	Siyah Fırtına Joh-Hwan
+435	Siyah Fırtına Kyuk-Jan
+436	Siyah Fırtına Pho-Hwan
+451	Kötü Siy. Fırtına Askeri
+452	Kötü Siy. Fırtına Delisi
+453	Kötü Siy.Fırtına Okçusu
+454	KötüSiy.Fırtına Joh-Hwan
+455	KötüSiy.Fırtına Kyuk-Jan
+456	KötüSiy.Fırtına Pha-Hwan
+491	Mahon
+492	Bo
+493	Goo-Pae
+494	Chuong
+501	Yabani Piyade
+502	Yabani Uşak
+503	Yabani Okçu
+504	Yabani General
+531	Vahşi Asker
+532	Vahşi Deli
+533	Vahşi Okçu
+534	Vahşi Uzman
+551	Güçlü Yabani Asker
+552	Güçlü Yabani Deli
+553	Güçlü Yabani Okçu
+554	Güçlü Yabani General
+591	Vahşi Yüzbaşı
+595	Vahşi Geum-Chul
+601	Ork
+602	Ork Gözcüsü
+603	Ork Savaşçısı
+604	Ork Büyücüsü
+631	Elit Ork
+632	Elit Ork Gözcüsü
+633	Elit Ork Savaşçısı
+634	Elit Ork Büyücüsü
+635	Elit Ork Generali
+636	Siyah Ork
+637	Siyah Ork Devi
+651	Cesur Büyük Ork
+652	Cesur Büyük Ork Gözcüsü
+653	Cesur Büyük OrkSavaşçısı
+654	Cesur Büyük Ork Büyücüsü
+655	Cesur Büyük Ork Generali
+656	Cesur Siyah Ork
+657	Cesur Siyah Ork Devi
+691	Ork Reisi
+692	Elit Ork Reisi
+693	Dirilmiş Ork Reisi
+701	Karanlık Fanatik
+702	Karanlık Arahan
+703	Mistik Arahan Savaşçısı
+704	Mistik Arahan Reisi
+705	Mistik Cellat
+706	Karanlık İşkenceci
+707	Karanlık Haberci
+731	Kibirli Karanlık Fanatik
+732	Kibirli Karanlık Arahan
+733	Kibirli Karanlık Savaşçı
+734	Kibirli Karanlık Albay
+735	Kibirli Karanlık Nişancı
+736	Elit Mistik İşkenceci
+737	Elit Mistik Haberci
+751	Büyük Fanatik
+752	Büyük Arahan
+753	Büyük Arahan Savaşçısı
+754	Büyük Elit Arahan
+755	Büyük Cellat
+756	Büyük İşkenceci
+757	Büyük Haberci
+771	Vahşi Fanatik
+772	Vahşi Arahan
+773	Vahşi Arahan Savaşçısı
+774	Vahşi Arahan Reisi
+775	Vahşi Cellat
+776	Vahşi İşkenceci
+777	Vahşi Haberci
+791	Karanlık Lider
+792	Karanlık Hayalet Lider
+793	Elit Karanlık Lider
+794	Elit Karan.Hayalet Lider
+795	Elit Savaşçı
+796	Elit Mistik Savaşçı
+901	Zombi
+902	Hastalıklı Köpek
+903	Hastalıklı Adam
+904	Hast. Kılıç Savaşçısı
+905	Hastalıklı Mızrakçı
+906	Hastalıklı Okçu
+907	Hastalıklı Lider
+931	Kızgın Zombi
+932	Kızgın Hastalıklı Köpek
+933	Kızgın Hastalıklı Adam
+934	Kızg.Hast.KılıçSavaşçısı
+935	Kızgın Hastal. Mızrakçı
+936	Kızgın Hastalıklı Okçu
+937	Kızgın Hastalıklı Lider
+991	Hastalıklı Yumurta
+992	Hastalık Taşıyıcısı
+993	Dev Hastalık Taşıyıcısı
+1001	Şeytan Askeri
+1002	Şeytan Okçusu
+1003	Şeytan Mızrakçısı
+1004	Şeytan Şamanı
+1031	Çirkin Şeytan Askeri
+1032	Çirkin Şeytan Okçusu
+1033	Çirkin Şeytan Mızrakçısı
+1034	Çirkin Şeytan Şamanı
+1035	Hınç Hayaleti
+1036	Kaos Hayaleti
+1037	Çirkin Şeytan Lideri
+1038	Kafatası Kılıç Ustası
+1039	Uçan Kafatası
+1040	Ölümsüz Hayalet
+1041	Şeytani Canavar
+1061	Ölümcül Şeytan Askeri
+1062	Ölümcül Şeytan Okçusu
+1063	Ölümcül ŞeytanMızrakçısı
+1064	Ölümcül Şeytan Şamanı
+1065	Ölümcül Hınç Hayaleti
+1066	Ölümcül Kaos Hayaleti
+1067	Ölümcül Şeytan Lideri
+1068	Hayalet Kılıç Ustası
+1069	Ölümcül Uçan Kafatası
+1070	Ölümsüz Hayalet
+1071	Şeytani Canavar
+1091	Şeytan Kralı
+1092	Kibirli Şeytan Kralı
+1093	Lusifer
+1094	Elit Çirkin Şeytan Kralı
+1095	Mavi Ölüm
+1096	Áø»ç±Í¿Õ
+1101	Büyülü Buz
+1102	Buz Katil Balinası
+1103	Buz Böceği
+1104	Buz Arslanı
+1105	Buz Adam
+1106	Yeti
+1107	Buz Golemi
+1131	Yeraltı Buz Parçası
+1132	Yeraltı BuzKatilBalinası
+1133	Yeraltı Buz Böceği
+1134	Yeraltı Buz Aslanı
+1135	Yeraltı Buz Adamı
+1136	Yeraltı Yetisi
+1137	Yeraltı Buz Golemi
+1151	Buz Şeytanı
+1152	Buz Boynuzlu Katil Balina
+1153	Buz Haşeresi
+1154	Seol-Gu
+1155	Buz Adam
+1156	Buz Devi
+1157	Buz Golemi
+1171	Acımasız Büyülü Buz
+1172	Acımasız Buz Balina
+1173	Acımasız Buz Böcek
+1174	Acımasız Buz Arslan
+1175	Acımasız Buz Adam
+1176	Acımasız Yeti
+1177	Acımasız Buz Golemi
+1191	Buz Cadı
+1192	Güçlü Buz Cadısı
+1193	Güçlü Buz Cadısı (Run)
+1301	Ağaç Kurbağası Askeri
+1302	Ağaç Kurbağası Lideri
+1303	Gulyabani
+1304	Sarı Kaplan Hayaleti
+1305	Kurbağa Generali
+1306	Elit SarıKaplan Hayaleti
+1307	Elit SarıKaplan Hayaleti
+1308	Elit SarıKaplan Hayaleti
+1309	Elit SarıKaplan Hayaleti
+1310	Elit SarıKaplan Hayaleti
+1331	Büy.AğaçKurbağası Askeri
+1332	Büy.AğaçKurbağası Lideri
+1333	Büyük Gulyabani
+1334	Büy.Sarı Kaplan Hayaleti
+1335	Kötü Kurbağa Generali
+1401	Yokedici
+1402	Maymun Savaşçı
+1403	Bin Savaşçı
+1501	Taş Golemi
+1502	Kaya Golemi
+1503	Dev Kaya Golemi
+1601	Öcü Savaşçı
+1602	Öcü Kasap
+1603	Öcü Berserker
+1901	Dokuz Kuyruk
+1902	Elit Dokuz Kuyruk
+1903	Elit Dokuz Kuyruk
+1904	Elit Dokuz Kuyruk
+1905	Elit Dokuz Kuyruk
+1906	Elit Dokuz Kuyruk
+2001	Yavru Örümcek
+2002	Zehirli Örümcek
+2003	Kırmızı Zehirli Örümcek
+2004	Pençe Örümceği
+2005	Asker Örümcek
+2031	Yavru Zehirli Örümcek
+2032	Ölümcül Zehirli Örümcek
+2033	Kırm. Ölüm. Zeh. Örümcek
+2034	Zehirli Pençe Örümceği
+2035	Zehirli Asker Örümcek
+2036	Kibirli Zehirli Asker Örü
+2051	Huysuz Zehirli Yavru Örüm
+2052	Huysuz Ölümcül Zehirli Ör
+2053	Huys.Kırm.Öl.Zeh.Örümcek
+2054	Huys.Zeh. Pençe Örümceği
+2055	Huysuz Zehirli Asker Örüm
+2061	Küçük Zehirli Örümcek
+2062	Öldürücü Zehirli Örümcek
+2063	Kırm. Ölüm. Zeh. Örümcek
+2064	Zehirli Pençe Örümceği
+2065	Zehirli Asker Örümcek
+2071	Vahşi Yav. Zeh. Örümcek
+2072	Vahşi Ölüm.Zeh. Örümcek
+2073	Vahşi Kırm. Zeh. Örümcek
+2074	Vahşi Zeh.Pençe Örümceği
+2075	Vahşi Zeh. Asker Örümcek
+2076	Vahşi Güçlü Zeh. Örümcek
+2091	Kraliçe Örümcek
+2092	Örümcek Barones
+2093	Elit Kraliçe Örümcek
+2094	Örümcek Baronu
+2095	Örümcek Yumurtası
+2101	Çöl Tilkisi
+2102	Çölün Uçan Gözü
+2103	Kral Akrep
+2104	Genç Akrep Adam
+2105	Akrep Okçu
+2106	Yılan Kılıççı
+2107	Yılan Okçu
+2108	Çöl Haydutu
+2131	Vahşi Akrep Adam
+2132	Akrep Okçu
+2133	Yılan Kılıççı
+2134	Yılan Okçu
+2135	Çöl Haydutu
+2151	Güçlü Çöl Tilkisi
+2152	Güçlü Derviş
+2153	Güçlü Akrep Kral
+2154	Güçlü Akrep Adam
+2155	Güçlü Akrep Okçu
+2156	Güçlü Yılan Kılıççı
+2157	Güçlü Yılan Okçu
+2158	Güçlü Çöl Haydutu
+2191	Dev Çöl Kaplumbağası
+2192	Elit Dev ÇölKaplumbağası
+2201	Savaş Kaplanı Kölesi
+2202	Alev Hayaleti
+2203	Savaş Kaplanı
+2204	Alev
+2205	Alev Savaşçı
+2206	Alev Kral
+2207	Elit Alev Kral
+2231	GüçlüSavaşKaplanı Kölesi
+2232	Güçlü Alev Hayaleti
+2233	Güçlü Savaş Kaplanı
+2234	Güçlü Alev Hayaleti
+2235	Güçlü Alev Savaşçısı
+2291	Kırmızı Ejderha
+2301	Hayalet Ağaç
+2302	Hayalet Ağaç Kökü
+2303	Orman Perisi
+2304	Hayalet Söğüt
+2305	Kötü Ağaç
+2306	Dev Hayalet Ağaç
+2307	Hayalet Ağaç Lordu
+2311	Kırmızı Hayalet Ağaç
+2312	Kırm.Hayalet Ağaç Kökü
+2313	Kırmızı Orman Perisi
+2314	Kırmızı Hayalet Söğüt
+2315	Kırmızı Kötü Ağaç
+2401	Setaou Savaşçısı
+2402	Setaou Avcısı
+2403	Setaou Mistik
+2404	Setaou Lideri
+2411	Setaou Askeri
+2412	Setaou Okçusu
+2413	Setaou Yargıcı
+2414	Setaou Komutanı
+2415	Setaou Komutanı
+2431	ÃµÀÇº´»ç
+2432	ÃµÀÇ±Ãº´
+2433	ÃµÀÇ¹ı»ç
+2434	ÃµÀÇÀå¼ö
+2451	ÁøÃµÀÇº´»ç
+2452	ÁøÃµÀÇ±Ãº´
+2453	ÁøÃµÀÇ¹ı»ç
+2454	ÁøÃµÀÇÀå¼ö
+2491	Komutan
+2492	General
+2493	Beran-Setaou
+2494	General
+2495	General
+2501	Cehennem Deniz Anası
+2502	Cehennem Köpeği
+2503	Zombi
+2504	Cehennem Subayı
+2505	Cehennem Bekçisi
+2506	İkibaşlı Cehennem Okçusu
+2507	Cehennem Kepçesi
+2508	Cehennem Savaşçısı
+2509	Cehennem Okçusu
+2510	Cehennem Mızrakçısı
+2511	Cehennem Papazı
+2512	Cehennem Binbaşısı
+2513	Cehennem Katliamcısı
+2514	Cehennem Generali
+2541	Kötü Cehennem Savaşçısı
+2542	Kötü Cehennem Okçusu
+2543	Kötü Cehennem Mızrakçısı
+2544	Kötü Cehennem Papazı
+2545	Kötü Cehennem Binbaşısı
+2546	Kötü Cehennem Katliamcı
+2547	Kötü Cehennem Generali
+2591	Tartarus
+2592	Cehennem Kırması
+2593	Cehennem Kırması
+2594	Cehennem Kırması
+2595	Erebos
+2596	Azrailin Tohumu
+2597	Kharoon
+2598	Azrail
+2600	Zodyak Kurdu
+2601	Zodyak Mavi Kurdu
+2602	Zodyak Lykosu
+2603	Zodyak Okçusu
+2604	Zodyak Yaban Domuzu
+2605	Kır. Zodyak Yaban Domuzu
+2606	Zodyak Scrofa
+2607	Zodyak Mi Jung
+2608	Zodyak Bera
+2609	Zodyak Ayısı
+2610	Zodyak Boz Ayısı
+2611	Zodyak Kahverengi Ayı
+2612	Zodyak Eun Jung
+2613	Zodyak Tigris
+2614	Zodyak Kaplan
+2615	Beyaz Zodyak Kaplanı
+2616	Zodyak Se Rang
+2617	Zodyak Jin Hee
+2618	Zodyak Yavru Örümcek
+2619	Zodyak Zehirli Örümcek
+2620	Kr. Zod. Zehirli Örümcek
+2621	Zodyak Pençe Örümceği
+2622	Zodyak Asker Örümceği
+2623	Zodyak Alev Ruhu
+2624	Zodyak Savaş Kaplanı
+2625	Zodyak Alevi
+2626	Zodyak Alev Savaşçısı
+2627	Zodyak Ateş Kralı
+2628	Karan. Zodyak Ateş Kralı
+2629	Vahşi Zodyak Piyadesi
+2630	Vahşi Zodyak Uşağı
+2631	Vahşi Zodyak Okçusu
+2632	Vahşi Zodyak Generali
+2633	Zalim Zodyak Yüzbaşı
+2634	Büyülü Zodyak Buzu
+2635	Zod. Katil Buz Balinası
+2636	Zodyak Buz Böceği
+2637	Zodyak Buz Aslanı
+2638	Buzlu Zodyak Yüzbaşısı
+2639	Zodyak Yeti
+2640	Zodyak Buz Golemi
+2641	Zodyak Çöl Tilkisi
+2642	Zodyak Kral Akrep
+2643	Zodyak Yılan Dövüşçüsü
+2644	Zodyak Yılan Okçusu
+2645	Zodyak Çöl Haydudu
+2646	Zod. Siyah Rüzgar Askeri
+2647	Zod. Siyah Rüzgar Delisi
+2648	Zod. Siyah Rüzgar Okçusu
+2649	Zodyak Mahon
+2650	Zodyak Bo
+2651	Zodyak Goo Pae
+2652	Zodyak Chuong
+2653	Zalim Zodyak Akrep Adam
+2654	Zodyak Akrep Okçu
+2655	Zodyak Dervişi
+2656	Zod. Ağaç Kurb. Askeri
+2657	Zod. Ağaç Kurb. Acemisi
+2658	Zodyak Gulyabanisi
+2659	Zodyak Yokedicisi
+2660	Zodyak Baltalı Savaşçısı
+2661	Zodyak Bir Savaşçısı
+2662	Karanlık Zodyak Fanatiği
+2663	Zodyak Arahan
+2664	Karanlık Zod. Dövüşçüsü
+2665	O. Karanlık Zod. Arahan
+2666	Karanlık Zodyak Celladı
+2667	Karanlık Zo. İşkencecisi
+2668	Zodyak Çağırıcısı
+2669	Gururlu Zodyak Ork
+2670	Gururlu Zod. Ork Gözcüsü
+2671	Gururlu Zodyak Ork Döv.
+2672	Gururlu Zo. Ork Büyücüsü
+2673	Gururlu Zod. Ork General
+2674	Kara Zodyak Ork
+2675	Kara Zodyak Ork Devi
+2676	Zod. Kızılhırsız Amazonu
+2677	Zod. Kızılhır. Suikastçı
+2678	Zod. Kızılhırsız Büyücü
+2679	Zod. Kızılhırsız Cellat
+2680	Zodyak Yengeç Dövüşçüsü
+2681	Akrep Zodyak Okçusu
+2682	Zodyak Karides Askeri
+2683	Şeyt. Zodyak Yerleşimci
+2684	Zodyak Zırhlı Yengeç
+2685	Devasa Zodyak Dişlek
+2686	Devasa Zodyak Kasabı
+2687	Zodyak Büyücüsü
+2688	Zodyak Yarım Dünya
+2689	Zodyak Öcü Celladı
+2690	Zodyak Öcü Okçusu
+2691	Zodyak Savaş Öcüsü
+2692	Zodyak Öcü Büyücüsü
+2700	Vargulf
+2701	Vargulf Askeri
+2702	Vargulf Generali
+2703	Kerberos
+2704	Yılan Kerberos
+2705	Ejder Kerberos
+2706	Kentor
+2707	Kentor Savaşçısı
+2708	Kentor Generali
+2709	Moloch
+2710	Moloch Savaşçısı
+2711	Moloch Generali
+2712	Ölüm Kanadı
+2713	Çürük Ölüm Kanadı
+2714	Küflü Ölüm Kanadı
+2715	Zefir
+2716	Zefir Savaşçısı
+2717	Zefir Generali
+2718	Uruk
+2719	Uruk Savaşçısı
+2720	Uruk Generali
+2721	Fantilla
+2722	Fantilla Savaşçısı
+2723	Fantilla Generali
+2724	Spartalı
+2725	Spartalı Asker
+2726	Spartalı General
+2727	Kemik Gladyatör
+2728	Kemik Gladyatör Askeri
+2729	Kemik Gladyatör Generali
+2730	Uğur Böceği Yay
+2731	Uğur Böceği Dev
+2732	Uğur Böceği Başak
+2733	Demir Okçu
+2734	Demir Savaşçı
+2735	Demir General
+2736	Kaçak
+2737	Damage_Trap
+2750	Zi Subayı
+2751	Zi Bekçisi
+2752	Zi Generali
+2760	Chou Subayı
+2761	Chou Bekçisi
+2762	Chou Generali
+2770	Yin Subayı
+2771	Yin Bekçisi
+2772	Yin Generali
+2780	Mao Subayı
+2781	Mao Bekçisi
+2782	Mao Generali
+2790	Chen Subayı
+2791	Chen Bekçisi
+2792	Chen Generali
+2800	Si Subayı
+2801	Si Bekçisi
+2802	Si Generali
+2810	Wu Subayı
+2811	Wu Bekçisi
+2812	Wu Generali
+2820	Wei Subayı
+2821	Wei Bekçisi
+2822	Wei Generali
+2830	Anime-Farmmap-Mu-Tai
+2831	Shen Bekçisi
+2832	Shen Generali
+2840	Yu Subayı
+2841	Yu Bekçisi
+2842	Yu Generali
+2850	Xu Subayı
+2851	Xu Bekçisi
+2852	Xu Generali
+2860	Hai Subayı
+2861	Hai Bekçisi
+2862	Hai Generali
+2900	Fare Metini
+2901	Manda Metini
+2902	Kaplan Metini
+2903	Ejder Metini
+2904	Yılan Metini
+2905	At Metini
+2906	Keçi Metini
+2907	Maymun Metini
+2908	Köpek Metini
+3001	Gnoll Savaşçı
+3002	Gnoll Okçu
+3003	Gnoll Savunucu
+3004	Gnoll Büyücü
+3005	Gnoll General
+3090	Lord Gnoll
+3091	Baş Gnoll Nöbetçi
+3101	Tekgözlü Kavgacı
+3102	Kiklop Asker
+3103	Kiklop Büyücü
+3104	Kiklop Cellat
+3105	General Outis
+3190	Arges
+3191	Polyphemos
+3201	Mantikor Savaşçı
+3202	Mantikor Asker
+3203	Mantikor Büyücü
+3204	Mantikor Cellat
+3205	General Kor
+3290	Rakshasa
+3291	Martyaxwar
+3301	Lemur Savaşçı
+3302	Lemur Asker
+3303	Lemur Büyücü
+3304	Lemur Cellat
+3305	Lemur General
+3390	Lemur Prensi
+3391	Lemur Muhafız
+3401	Triton Murana
+3402	Köpekbalığı Askeri
+3403	Triton Büyücü
+3404	Triton Avcı
+3405	Triton Usturacı
+3490	General Kappa
+3491	Triton
+3501	Kızılhırsız Amazon
+3502	Kızılhırsız Katil
+3503	Kızılhırsız Büyücü
+3504	Kızılhırsız Cellat
+3505	Siyah General
+3551	Zalim Kızılhırsız Amazon
+3552	Zalim Kızılhırsız Katil
+3553	Zalim Kızılhırsız Büyücü
+3554	Zalim Kızılhırsız Cellat
+3555	Beyaz General
+3590	Kemiksurat
+3591	Kızıl Reis
+3595	Zalim Kemiksurat
+3596	Zalim Kızıl Reis
+3601	Yengeç Savaşçı
+3602	Akrep Savaşçı
+3603	Karides Asker
+3604	Şeytani Keşiş
+3605	Zırhlı Yengeç
+3690	General Istakoz
+3691	Kral Yengeç
+3701	Devasa Dişlek
+3702	Dev Kasap
+3703	Dev Büyücü
+3704	Yarım Dünya
+3705	Kaptan Kanca
+3790	Gargoyle
+3791	Kral Voba
+3801	Cellatork
+3802	Okçu Öcü
+3803	Kavgacı Öcü
+3804	Öcü Büyücü
+3805	General Öcü
+3890	Kaptan Şrak
+3891	Dev Öcü
+3901	Daladam
+3902	Eoten
+3903	Ruhlu Ağaç
+3904	Kaptan Kanca
+3905	Mu-Shu
+3906	Yah-Ki
+3907	Moghu
+3908	Karnifeks
+3909	General Albus
+3910	Skeletos
+3911	Aku Beku
+3912	Arboretum
+3913	Sekomor
+3949	Portal: Yeni kıta
+3950	Kappa
+3951	Lagun Kappası
+3952	Okyanus Kappası
+3953	Kappa lideri
+3954	Murana askeri
+3955	Okyanus Murana savaşçısı
+3956	Siren kraliçesi
+3957	Hidra'nın yavrusu
+3958	Hidra'nın yavrusu
+3959	Hidra'nın yavrusu
+3960	Hidra
+3961	Hidra
+3962	Hidra
+3963	Hidra
+3964	Hidra
+3965	Hidra'nın hazinesi
+3970	TEST
+5001	Korsan Tanaka
+5002	Hae-Tae
+5003	Maymun
+5004	Korsan Tanaka
+5101	Zayıf Maymun Asker
+5102	Zayıf Maymun Atıcı
+5103	Zayıf Maymun Savaşçı
+5104	Zayıf Maymun General
+5111	Maymun Asker
+5112	Maymun Atıcı
+5113	Maymun Savaşçı
+5114	Maymun General
+5115	Taş Maymun
+5116	Maymun Lider
+5121	Güçlü Maymun Asker
+5122	Güçlü Maymun Atıcı
+5123	Güçlü Maymun Savaşçı
+5124	Güçlü Maymun General
+5125	Güçlü Taş Maymun
+5126	Güçlü Altın Maymun
+5127	Güçlü Maymun Lider
+5131	Zeki Küçük Maymun Asker
+5132	Zeki Küçük Maymun Atıcı
+5133	Zeki Küçük MaymunSavaşçı
+5134	Zeki Küçük Maymun General
+5141	Zeki Maymun Asker
+5142	Zeki Maymun Atıcı
+5143	Zeki Maymun Savaşçı
+5144	Zeki Maymun General
+5145	Zeki Taş Maymun
+5146	Zeki Maymun Lider
+5151	Kötü Güçlü Maymun Asker
+5152	Kötü Güçlü Maymun Atıcı
+5153	Kötü Güçlü MaymunSavaşçı
+5154	Kötü Güçlü Maymun General
+5155	Kötü Güçlü Taş Maymun
+5156	Kötü Güçlü Altın Maymun
+5157	Kötü Güçlü Maymun Lider
+5161	Kaya Maymun
+5162	Yürüyen Maymun
+5163	Maymun Lordu
+5201	Yabani Köpek
+5202	Yaban Domuzu
+5203	Kırmızı Yaban Domuzu
+5204	Ayı
+5205	Kahverengi Ayı
+5206	Siyah Ayı
+5207	Aç Kahverengi Ayı
+5208	Kaplan
+5209	Beyaz Kaplan
+6001	Kor Alev Hayaleti
+6002	Kor Alev Kaplanı
+6003	Kor Alev
+6004	Kor Alev Savaşçısı
+6005	Kor Alev Kralı
+6006	Kor Ateş Golemi
+6007	Kor Alev Sakallısı
+6008	Kor Alev Generali
+6009	Kor Alev Lordu
+6051	İgnatör
+6091	Razadör
+6101	Ayaz Kristali
+6102	Ayaz Böceği
+6103	Ayaz Adam
+6104	Ayaz Yetisi
+6105	Ayaz Golemi
+6106	Ayaz Trolü
+6107	Ayaz Sakal
+6108	Ayaz Generali
+6109	Ayaz Lordu
+6110	Magma Yeti
+6111	Magma Golemi
+6112	Magma Böceği
+6113	Magma Adamı
+6114	Magma Kristali
+6115	Magma Ejderi
+6116	Ejderha Bekçisi İdall
+6117	İdall'in Cellati
+6118	Ejderha Heykeli
+6151	Szel
+6191	Nemere
+6192	Jotun Thrym
+6193	Ejderha Kraliçesi Meley
+6201	Magma Yeti
+6202	Magma Golemi
+6203	Magma Böceği
+6204	Magma Adamı
+6205	Magma Kristali
+6206	Magma Ejderi
+6207	Ejderha Bekçisi İdall
+6209	Ejderha Heykeli
+6301	Ochao Savaşçısı
+6302	Ochao Askeri
+6303	Ochao Büyücüsü
+6304	Ochao Celladı
+6305	Ochao Generali
+6306	Güçlü Ochao Savaşçısı
+6307	Güçlü Ochao Askeri
+6308	Güçlü Ochao Büyücüsü
+6309	Güçlü Ochao Celladı
+6310	Güçlü Ochao Generali
+6391	Ochao Dükü
+6392	Ochao Muhafızı
+6393	Güçlü Ochao Dükü
+6394	Güçlü Ochao Muhafızı
+6401	En Tai Savaşçısı
+6402	En Tai Savaşçısı
+6403	En Tai Rahibi
+6404	En Tai Şifacısı
+6405	En Tai Bekçisi
+6406	En Tai İmhacısı
+6407	En Tai Hükümdarı
+6408	Bagjanamu
+6409	Ochao Şifacısı
+6410	Güçlü En Tai Savaşçısı
+6411	Güçlü En Tai Savaşçısı
+6412	Güçlü En Tai Rahibi
+6413	Güçlü En Tai Şifacısı
+6414	Güçlü En Tai İmhacısı
+6415	Beran Setaou Etkinliği
+6416	Nemere Etkinliği
+6417	Razadör Etkinliği
+6418	Jotun Thrym Etkinliği
+6419	Kırmızı Ejderha Etkinl.
+6420	Gölge Savaşçısı
+6421	Baashido
+6422	Agoni Metini
+7001	Maymun Asker
+7002	Maymun Binici
+7003	Gimu Maymun Asker
+7004	Maymun Komutan
+7005	Taş Maymun
+7006	Altın Maymun
+7007	Maymun General
+7008	Tu-Gui İşçi
+7009	Tu-Gui Asker Müfettiş
+7010	Tu-Gui Beyaz Komutan
+7012	Bi-Ma-Gui-An
+7013	Akrep Kral
+7014	Zeki Akrep Adam
+7015	Akrep Okçu
+7016	Yılan Kılıççı
+7017	Yılan Okçu
+7018	Çöl Haydutu
+7019	Tu-Ji Asker
+7020	Hwa-ryung
+7021	Tu-Ji Serseri
+7022	Cham-Ma
+7023	Teawha-Mu
+7024	Juk-gui
+7025	Dung-Juk
+7026	Juk-Mok
+7027	Hwaryu Juk
+7028	Siyah Juk-Guimok
+7029	Buz Şeytanı
+7030	Buz Boynuzlu Katil Balina
+7031	Buz Böceği
+7032	Seol-Gu
+7033	Buz Adam
+7034	Buz Devi
+7035	Buz Golemi
+7036	Buz Şeytanı
+7037	Buz Boynuzlu Katil Balina
+7038	Buz Böceği
+7039	Seol-Gu
+7040	Buz Adam
+7041	Buz Devi
+7042	Buz Golemi
+7043	Buz Şeytanı
+7044	Buz Boynuzlu Katil Balina
+7045	Buz Böceği
+7046	Seol-Gu
+7047	Buz Adam
+7048	Buz Devi
+7049	Buz Golemi
+7050	Çölün Uçan Gözü
+7051	Kral Akrep
+7052	Genç Akrep Adam
+7053	Akrep Okçu
+7054	Yılan Kılıççı
+7055	Yılan Okçu
+7056	Çöl Haydutu
+7057	Çölün Uçan Gözü
+7058	Kral Akrep
+7059	Genç Akrep Adam
+7060	Akrep Okçu
+7061	Yılan Kılıççı
+7062	Yılan Okçu
+7063	Çöl Haydutu
+7064	Çölün Uçan Gözü
+7065	Kral Akrep
+7066	Genç Akrep Adam
+7067	Akrep Okçu
+7068	Yılan Kılıççı
+7069	Yılan Okçu
+7070	Çöl Haydutu
+7071	Savaş Kaplanı Kölesi
+7072	Alev Hayaleti
+7073	Savaş Kaplanı
+7074	Alev
+7075	Alev Savaşçı
+7076	Savaş Kaplanı Kölesi
+7077	Alev Hayaleti
+7078	Savaş Kaplanı
+7079	Alev
+7080	Alev Savaşçı
+7081	Savaş Kaplanı Kölesi
+7082	Alev Hayaleti
+7083	Savaş Kaplanı
+7084	Alev
+7085	Alev Savaşçı
+7086	Hayalet Ağaç Kökü
+7087	Orman Perisi
+7088	Hayalet Söğüt
+7089	Kötü Ağaç
+7090	Hayalet Ağaç Kökü
+7091	Orman Perisi
+7092	Hayalet Söğüt
+7093	Kötü Ağaç
+7094	Hayalet Ağaç Kökü
+7095	Orman Perisi
+7096	Hayalet Söğüt
+7101	Top
+7102	Top
+7103	Ok Yağmuru Mancınığı
+7104	Ok Yağmuru Mancınığı
+7105	Kule
+7106	Ocak
+7107	Ocak
+7108	Ocak
+7109	Ocak
+7110	Ocak
+7111	Ocak
+7112	Ocak
+7113	Cheeta
+7114	Kraton
+7115	Charly
+7116	Nini
+7117	Zulu
+7118	Maymun Savaşçısı Deka
+7119	Maymun Savaşçısı Oba
+7120	Kral Keung
+7121	Kiros
+7122	Manchu
+7123	Sgok
+7124	İndrik
+8001	Üzüntü Metini
+8002	Dövüş Metini
+8003	Savaş Metini
+8004	Hırs Metini
+8005	Siyah Metin
+8006	Karanlık Metin
+8007	Kıskançlık Metini
+8008	Ruh Metini
+8009	Gölge Metini
+8010	Dayanıklılık Metini
+8011	Şeytan Metini
+8012	Lanet Metini
+8013	Ölüm Metini
+8014	Katil Metini
+8015	Dayanıklılık Metini
+8016	Şeytan Metini
+8017	Lanet Metini
+8018	Ölüm Metini
+8019	Katil Metini
+8020	Shinsoo Kayası
+8021	Jinno Kayası
+8022	Chunjo Kayası
+8023	İmparatorluk Kayası
+8024	Metin Pung-Ma
+8025	Metin Ma-An
+8026	Metin Tu-Young
+8027	Metin Jeon-Un
+8031	Dağ Metini
+8032	İntikam Metini
+8033	Kimsesizlik Metini
+8034	Kibir Metini
+8035	Kurtuluşun Metin'i
+8036	Hainliğin Metin'i
+8037	Mutsuzluğun Metin'i
+8038	Misilleme Metin'i
+8039	Gururun Metin'i
+8040	Hasetin Metin'i
+8041	Paskalya Metini
+8042	Paskalya Metini
+8043	Paskalya Metini
+8044	Paskalya Metini
+8045	Paskalya Metini
+8046	Paskalya Metini
+8047	Paskalya Metini
+8048	Paskalya Metini
+8049	Paskalya Metini
+8050	Paskalya Metini
+8051	Işıksızlık Metini
+8052	Korluğun Metini
+8053	Mağrurluğun Metini
+8054	Öfkenin Metini
+8055	Felaketin Metini
+8056	Namertlik Metini
+8057	Cehennem Ateşi Metini
+8058	Ayaz Metini
+8158	Dragon Metini
+8059	Ağaç Yaratığı Metini
+8060	Bal Kabağı Metini
+8061	Orman Metini
+8101	Üzüntü Metini
+8102	Dövüş Metini
+8103	Savaş Metini
+8104	Hırs Metini
+8105	Siyah Metin
+8106	Karanlık Metin
+8107	Kıskançlık Metini
+8108	Ruh Metini
+8109	Gölge Metini
+8110	Dayanıklılık Metini
+8111	Şeytan Metini
+8112	Düşüş Metini
+8113	Ölüm Metini
+8114	Katil Metini
+8115	Ay Metini
+8200	Çikolata Metin Taşı
+8201	Çikolata Metin Taşı - PvM
+8203	Aydınlanma Metini
+8204	Yumurta Bayramı Metini
+8205	Yumurta Bayramı Metini
+8206	Yumurta Bayramı Metini
+8501	Yabani Köpek
+8502	Yaban Domuzu
+8503	Ayı
+8504	Beyaz Kaplan
+8505	Siyah Dev Ork
+8506	Ağaç Kurbağası Lideri
+8507	Çöl Haydutu
+8508	Mistik İşkenceci
+8509	Mistik Haberci
+8510	Alev Savaşçı
+8511	Buz Golemi
+8600	¿õ±Í´ëÁ·Àå
+8601	¿õ±Í´ëÁ·Àå
+8602	¹Ğ±³´ëÁÖ±³
+8603	¹Ğ±³´ëÁÖ±³
+8604	¸í»ç±Í¿Õ
+8605	¸í»ç±Í¿Õ
+8606	»ç½Å
+8607	»ç½Å
+8608	±¸¹ÌÈ£
+8609	±¸¹ÌÈ£
+8610	´©··Åõ¹ü±Í
+8611	´©··Åõ¹ü±Í
+8612	¿©¿Õ°Å¹Ì
+8613	¿©¿Õ°Å¹Ì
+8614	°Å´ë»ç¸·°ÅºÏ
+8615	°Å´ë»ç¸·°ÅºÏ
+8616	Billy Loomis
+8617	Jack Torrance
+8618	Chucky
+8619	Zep Hindle
+8620	Jason
+8621	Michael Myers
+8622	Freddy Krüger
+8623	Deri Surat
+9001	Silah Satıcısı
+9002	Zırh Satıcısı
+9003	Satıcı
+9004	Olay Yardımcısı
+9005	Depocu
+9006	Yaşlı Kadın
+9007	Silah Satıcısı
+9008	Zırh Satıcısı
+9009	Balıkçı
+9010	Genel Nesne Market
+9011	Evlenme Tasarımcısı
+9012	Işınlayıcı
+10001	Jayang_Bölgesi 4002 8995
+10002	YounganBölgesi 4503 9050
+10003	BokjungBölgesi 1118 2161
+10004	Joan_Bölgesi 876 2131
+10005	Bakra_Bölgesi 9064 2214
+10006	Pyungmo_Bölges 9372 2188
+10007	YounganBölgesi 4188 9560
+10008	Jayang_Bölgesi 3179 8332
+10009	Joan_Bölgesi 897 1127
+10010	Bokjun_Bölgesi 1759 2210
+10011	Pyungmo_Bölges 9343 3143
+10012	Bakra_Bölgesi 8348 2926
+10013	Hwang_Tapınağı 5536 1441
+10014	Seungryong 3326 7468
+10015	Yongbi_Çölü 3467 6329
+10016	Kuahklo_Dong 600 4960
+10017	Hwang_Tapınağı 5906 1102
+10018	Gunsam_Kulesi 2165 7270
+10019	Jayang_Bölgesi 3211 9009
+10020	Jungrang 1356 43
+10021	Bokjun_Bölgesi 1168 2920
+10022	Waryong 2219 93
+10023	Bakra_Bölgesi 9098 2948
+10024	Imha 2718 130
+10025	Sohan_Dağı 4993 2984
+10026	Lungsam 2887 57
+10027	Lungsam 2866 437
+10028	Kızıl_Orman 11199 708
+10029	Yılan_Vadisi 10590 7262
+10030	Yongbi_Çölü 3519 6223
+10031	Yılan_Vadisi 10590 7262
+10032	Devler_Diyarı 8283 7635
+10033	Zin-Grotto 10594 7525
+10034	2_Zin-Grotto 10594 7525
+10035	Deon-Zeon 917 5253
+10036	2_Deon-Zeon 7041 4642
+10037	ÀÚ¾çÇö 3809 8233
+10038	½Å¼ö¼º 9752 1330
+10039	º¹Á¤Çö 1917 2900
+10040	Áø³ë¼º 9239 1836
+10041	¹Ú¶óÇö 8316 2154
+10042	ÃµÁ¶¼º 9772 1850
+10043	¼­ÇÑ»ê 3819 2969
+10044	½Å¼ö¼º 10189 1484
+10045	¼­ÇÑ»ê 3819 2969
+10046	½Å¼ö¼º 9774 1501
+10047	½Â·æ°î 2699 6752
+10048	Áø³ë¼º 9679 1994
+10049	½Â·æ°î 2699 6752
+10050	Áø³ë¼º 9256 2012
+10051	¿µºñ»ç¸· 3478 6189
+10052	ÃµÁ¶¼º 9780 1995
+10053	¿µºñ»ç¸· 3478 6189
+10054	ÃµÁ¶¼º 10190 2002
+10055	µµ¿°È­Áö 6011 6874
+10056	¼­ÇÑ»ê 4368 2158
+10057	½Â·æ°î 3355 7558
+10058	¹Ğ±³»ç¿ø 5943 1337
+10059	¼­ÇÑ»ê 0 10496
+10060	¹Ğ±³»ç¿ø 1536 10496
+10061	µµ¿°È­Áö 4608 10496
+10062	½Â·æ°î 6144 10496
+10063	±Í¸ñ¸² 3031 266
+10064	Àû±Í¸ñ¸² 11133 534
+10065	½Å±Í¸ñ¸² 7754 10553
+10066	½ÅÀû±Í¸ñ¸² 9915 11195
+10067	MaymunZindanı 7752 4477
+10068	Jayang_Bölgesi 4062 8756
+10069	MaymunZindanı 8520 4477
+10070	BokjungBölgesi 1611 2130
+10071	MaymunZindanı 9288 4477
+10072	Bakra_Bölgesi 8727 2100
+10073	Yongbi_Çölü 3061 6202
+10074	MaymunZindanı 1352 6532
+10075	Yongbi_Çölü 2879 5407
+10076	MaymunZindanı 1352 7300
+10077	Zin-Grotto 9 12078
+10078	½Â·æ°î 2842 8106
+10079	Grotte1 1459 13236
+10080	ÃµÀÇµ¿±¼2Ãş 2413 12755
+10081	ÃµÀÇµ¿±¼1Ãş 99 13618
+10082	¿µ¾ÈÀ¾¼º 5028 9998
+10083	ÃµÀÇµ¿±¼1Ãş 1360 14972
+10084	ÃµÀÇµ¿±¼2Ãş 2414 14289
+10085	ÃµÀÇµ¿±¼1Ãş 99 15154
+10086	Á¶¾ÈÀ¾¼º 616 1148
+10087	ÃµÀÇµ¿±¼1Ãş 1360 16508
+10088	ÃµÀÇµ¿±¼2Ãş 2414 15825
+10089	ÃµÀÇµ¿±¼1Ãş 99 16690
+10090	Æò¹«À¾¼º 9609 3188
+10091	ÃµÀÇµ¿±¼1Ãş 1360 18044
+10092	ÃµÀÇµ¿±¼2Ãş 2414 17361
+10093	Ejder_Kapısı 1731 12205
+10094	Ejder_Kapısı 1733 13743
+10095	Ejder_Kapısı 1728 15277
+10096	Ejder_Kapısı 1724 16824
+10097	ÖZ2 7040 5235
+10098	ÖZ3 984 5711
+10099	Burnu 11043 17885
+10100	Burnu 10963 16744
+10101	Nefrit 10869 16558
+10102	Burnu 11664 16779
+10103	Yıldırım 11345 16546
+10104	Yıldırım 11921 16550
+10105	Gautama 12263 16811
+10106	³ì¸²Áö 8168 15050
+10501	. 345 361
+10502	. 106 547
+10503	. 75 368
+10504	. 89 746
+10505	. 520 352
+10506	. 541 45
+10507	. 211 109
+10508	. 615 49
+10509	. 284 705
+10510	. 145 310
+10511	. 553 285
+10512	. 487 274
+10513	. 626 291
+10514	. 285 569
+10515	. 80 303
+10516	. 315 238
+10517	. 416 272
+10518	. 72 498
+10519	. 215 495
+10520	. 523 415
+10521	. 72 498
+10522	. 518 480
+10523	. 583 379
+10524	. 459 558
+10601	. 345 361
+10602	. 520 352
+10603	. 487 274
+10604	. 75 368
+10605	. 211 109
+10606	. 215 495
+10607	. 315 238
+10608	. 520 352
+10609	. 284 705
+10610	. 145 310
+10611	. 416 272
+10612	. 80 303
+10613	. 72 498
+10614	. 106 547
+10615	. 523 415
+10616	. 541 45
+10617	. 72 121
+10618	. 518 480
+10619	. 89 746
+10620	. 285 569
+10621	. 615 49
+10622	. 72 498
+10623	. 583 379
+10624	. 459 558
+10625	. 609 553
+10626	. 594 338
+10701	. 75 368
+10702	. 541 45
+10703	. 615 49
+10704	. 284 705
+10705	. 520 352
+10706	. 553 285
+10707	. 145 310
+10708	. 345 361
+10709	. 523 415
+10710	. 72 498
+10711	. 626 291
+10712	. 487 274
+10713	. 72 498
+10714	. 106 547
+10715	. 518 480
+10716	. 285 569
+10717	. 80 303
+10718	. 211 109
+10719	. 416 272
+10720	. 215 495
+10721	. 315 238
+10722	. 89 746
+10723	. 583 379
+10724	. 459 558
+10725	. 609 553
+10726	. 594 338
+10801	. 70 581
+10802	. 69 664
+10803	. 132 660
+10804	. 184 566
+10805	. 285 567
+10806	. 272 636
+10807	. 191 667
+10808	. 345 563
+10809	. 400 570
+10810	. 68 806
+10811	. 140 811
+10812	. 189 722
+10813	. 274 722
+10814	.233 780
+10815	. 318 780
+10816	. 273 833
+10817	.356 717
+10818	.412 712
+10819	. 372 776
+10820	. 354 840
+10821	. 366 817
+10822	. 420 841
+10823	. 94 846
+10824	. 63 864
+10825	. 131 866
+10826	. 59 920
+10827	. 91 940
+10828	. 135 919
+10829	. 194 870
+10830	. 243 862
+10831	. 312 861
+10832	. 373 893
+10833	. 406 880
+10834	. 422 935
+10835	. 500 807
+11000	Köy Gardiyanı
+11001	Savaş Sorumlusu
+11002	Köy Gardiyanı
+11003	Savaş Sorumlusu
+11004	Köy Gardiyanı
+11005	Savaş Sorumlusu
+11100	Köy Gardiyanı
+11101	Savaş Sorumlusu
+11102	Köy Gardiyanı
+11103	Savaş Sorumlusu
+11104	Köy Gardiyanı
+11105	Savaş Sorumlusu
+11106	°æºñº´
+11107	°æºñº´
+11108	°æºñº´
+11109	°æºñº´
+11110	°æºñº´
+11111	°æºñº´
+11112	°æºñº´
+11113	°æºñº´
+11114	°æºñº´
+11115	°æºñº´
+11116	°æºñº´
+11117	°æºñº´
+11505	Altın Kurbağa
+11506	Güç ateşi
+11507	ºÀÈ­
+11508	ºÀÈ­
+11509	ºÀÈ­
+11510	ºÀÈ­
+12000	Kamp Ateşi
+13000	Tahta Kapı
+13001	Taş Kapı
+14000	Atölye
+14001	Atölye
+14002	Atölye
+14003	Atölye
+14004	Atölye
+14005	Atölye
+14006	Atölye
+14007	Atölye
+14008	Atölye
+14009	Atölye
+14010	Sunak
+14011	Sunak
+14012	Sunak
+14013	Sunak
+14014	Sunak
+14015	Sunak
+14016	Sunak
+14017	Sunak
+14018	Sunak
+14019	Sunak
+14020	Karargah
+14021	Karargah
+14022	Karargah
+14023	Karargah
+14024	Karargah
+14025	Karargah
+14026	Karargah
+14027	Karargah
+14028	Karargah
+14029	Karargah
+14030	Eğitim Kampı
+14031	Eğitim Kampı
+14032	Eğitim Kampı
+14033	Eğitim Kampı
+14034	Eğitim Kampı
+14035	Eğitim Kampı
+14036	Eğitim Kampı
+14037	Eğitim Kampı
+14038	Eğitim Kampı
+14039	Eğitim Kampı
+14040	Ocak
+14041	Ocak
+14042	Ocak
+14043	Ocak
+14044	Ocak
+14045	Ocak
+14046	Ocak
+14047	Ocak
+14048	Ocak
+14049	Ocak
+20001	Simyacı
+20002	Aranyo
+20003	Ah-Yu
+20004	Dilenci
+20005	Yonah
+20006	Mirine
+20007	Depocu
+20008	Octavio
+20009	Yaşlı Adam
+20010	Seyyar satıcı
+20011	Uriel
+20012	Yu-Rang
+20013	Balıkçı
+20014	Taurean
+20015	Deokbae
+20016	Demirci
+20017	Yu-Hwan
+20018	Baek-Go
+20019	Yang-Shin
+20020	Hain Balso
+20021	Ariyoung
+20022	Huahn-So
+20023	Soon
+20024	Harang
+20025	.
+20026	Ji-Ryu
+20027	Gillian
+20028	Mirinenin Erkek Kardeşi
+20029	Midilli
+20030	At
+20031	Noel Baba
+20032	Noel Ağacı
+20033	Noel Ağacı
+20034	Noel Ağacı
+20035	Bayrak
+20036	Bayrak
+20037	Bayrak
+20038	..
+20039	.
+20040	Emlakçı
+20041	Sarhoş
+20042	Seyyar satıcı
+20043	.
+20044	Silah Ustası, Stanley
+20045	Zırhçı, Stanton
+20046	Kuyumcu, Starbuck
+20047	Elmas Damarı
+20048	Kehribar Damarı
+20049	Fosil Tahta Damarı
+20050	Bakır Damarı
+20051	Gümüş Damarı
+20052	Altın Damarı
+20053	Yeşim Damarı
+20054	Abanoz Damarı
+20055	Midye Yığını
+20056	Beyaz Altın Damarı
+20057	Kristal Damarı
+20058	Kuvars Damarı
+20059	Cennetin Gözyaşı Damarı
+20060	Elmas Simyacısı
+20061	Kehribar Simyacısı
+20062	Fosil Odun Simyacısı
+20063	Bakır Simyacısı
+20064	Gümüş Simyacısı
+20065	Altın Simyacısı
+20066	Yeşim Simyacısı
+20067	Abanoz Simyacısı
+20068	İnci Simyacısı
+20069	Beyaz Altın Simyacısı
+20070	Kristal Simyacısı
+20071	Ametist Simyacısı
+20072	Cennet Gözyaşı Simyacısı
+20073	Eski Mühür
+20074	Demon Tower Guardian (next stage)
+20075	Demon Tower Guardian (next stage)
+20076	Demon Tower Guardian (next stage)
+20077	Sunak muhafızı
+20078	Sunak muhafızı
+20079	Sunak muhafızı
+20080	Eğitim Rehberi
+20081	Çalıntı Geçit Mühürü
+20082	Usta
+20083	Jegal-Tunseok
+20084	Biyolog Chaegirab
+20085	Jimjunja
+20086	Handu-Up
+20087	Wonda-Rim
+20088	Shuk-Sal
+20089	Eastercrafting - Pung-Ho
+20090	Heuk-Yong
+20091	Seon-Pyeong
+20092	Hwa-Hee
+20093	Koe-Pung
+20094	Hong-Hae
+20095	Seon-Hae
+20096	½Ã°ø°£ ÀÌµ¿¼®
+20097	Kale Girişi
+20098	Kale Girişi
+20099	Kale Girişi
+20101	Beyaz At
+20102	Kahverengi At
+20103	Siyah At
+20104	Beyaz At
+20105	Kahverengi At
+20106	Siyah At
+20107	Beyaz At
+20108	Kahverengi At
+20109	Siyah At
+20110	Yaban Domuzu
+20111	Kurt
+20112	Kaplan
+20113	Aslan
+20114	Beyaz Aslan
+20115	Savaş Yaban Domuzu
+20116	Kızgın Kurt
+20117	Vahşi Kaplan
+20118	Yırtıcı Aslan
+20119	Asil Kara Yağız Atı
+20120	Ã»ÀÇÀü°©È£
+20121	ÁøÀûÀÇÀü°©È£
+20122	È²ÀÇÀü°©È£
+20123	³ìÀÇÀü°©È£
+20124	ÈæÀÇÀü°©È£
+20125	¹éÀÇÀü°©È£
+20126	Noel Baba
+20127	Yıl dönümü flaması 1
+20128	Yıl dönümü flaması 2
+20129	Yıl dönümü flaması 3
+20130	Yıl dönümü flaması 4
+20131	Yıl dönümü flaması 5
+20132	Yıl dönümü flaması 6
+20133	Yıl dönümü flaması 7
+20134	Güneş flaması
+20135	Noel Flaması
+20139	Lonca flaması (eflatun)
+20140	Lonca flam. (mavi/yeşil)
+20141	Lonca flama (kır./altın)
+20138	Ramazan flaması
+20142	Cadılar Bayramı Flaması
+20143	Paskalya afişi
+20201	Àü°©¿ø
+20202	Àü°©¶û
+20203	Àü°©È£
+20204	Àü°©»çÀÚ
+20205	³­ÆøÇÑ Àü°©¿ø
+20206	³­ÆøÇÑ Àü°©¶û
+20207	³­ÆøÇÑ Àü°©È£
+20208	³­ÆøÇÑ Àü°©»çÀÚ
+20209	Cesur Domuz
+20210	Cesur Kurt
+20211	Cesur Kaplan
+20212	Cesur Aslan
+20213	Àü°©¼ı¼ø·Ï
+20214	³­ÆøÇÑ Àü°©¼ı¼ø·Ï
+20215	¿ë¸ÍÇÑ Àü°©¼ı¼ø·Ï
+20216	Àü°©¾Ï¼ø·Ï
+20217	³­ÆøÇÑ Àü°©¾Ï¼ø·Ï
+20218	¿ë¸ÍÇÑ Àü°©¾Ï¼ø·Ï
+20219	blackpony
+20220	Å©¸®½º¸¶½º ¼ø·Ï
+20221	Àü°©¹é¿õ
+20222	Àü°©ÆÒ´õ
+20223	Àü°©¼®·æÀÚ
+20224	³­ÆøÇÑ Àü°©¼®·æÀÚ
+20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ
+20226	ÈæÀ¯´ÏÄÜ
+20227	¹éÀ¯´ÏÄÜ
+20228	Àü°©¸ÍÁ¶
+20229	³­ÆøÇÑ Àü°©¸ÍÁ¶
+20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶
+20231	Àü°©Èæ¹ü
+20232	Àü°©Ç¥¹ü
+20233	Muffin (kahve aksesuar)
+20234	Nugget (kahve aksesuar)
+20235	Muffin (mavi aksesuar)
+20236	Nugget (mavi aksesuar)
+20237	Muffin (yeşil aksesuar)
+20238	Nugget (yeşil aksesuar)
+20239	Şimşek
+20240	Gümbürtü
+20241	Nugget (lacivert)
+20242	Muffin (gül rengi)
+20243	Kizaghan'ın Atı
+20244	Nirvana Ejderhası
+20245	Samsara Ejderhası
+20246	Manni
+20247	Manu
+20248	Kahverengi Dövüş Tülüsü
+20249	Siyah Dövüş Tülüsü
+20250	Lav Cehennemi Keleri
+20251	Buz Cehennemi Keleri
+20253	Appaloosa
+20254	Beyaz tavşan
+20255	Ay tavşanı
+20257	Bernie
+20258	Maviş Barry
+20259	Kerberos (altın)
+20260	Kerberos (gümüş)
+20300	Bedensel Savaş Öğretmeni
+20301	Zihinsel Savaş Öğretmeni
+20302	Yakın Dövüş Öğretmeni
+20303	Uzak Dövüş Öğretmeni
+20304	Büyülü Silah Öğretmeni
+20305	Kara Büyü Öğretmeni
+20306	Ejderha Gücü Öğretmeni
+20307	İyileştirme Öğretmeni
+20320	Bedensel Savaş Öğretmeni
+20321	Zihinsel Savaş Öğretmeni
+20322	Yakın Dövüş Öğretmeni
+20323	Uzak Dövüş Öğretmeni
+20324	Büyülü Silah Öğretmeni
+20325	Kara Büyü Öğretmeni
+20326	Ejderha Gücü Öğretmeni
+20327	İyileştirme Öğretmeni
+20340	Bedensel Savaş Öğretmeni
+20341	Zihinsel Savaş Öğretmeni
+20342	Yakın Dövüş Öğretmeni
+20343	Uzak Dövüş Öğretmeni
+20344	Büyülü Silah Öğretmeni
+20345	Kara Büyü Öğretmeni
+20346	Ejderha Gücü Öğretmeni
+20347	İyileştirme Öğretmeni
+20348	Şeytan Kulesi Bekçisi
+20349	Seyis
+20350	Zindan Bekçisi
+20351	Salon Bekçisi
+20352	Hasun Taş Anıtı
+20353	Seul Rong Taş Anıtı
+20354	Şehir Bekçisi
+20355	Yüzbaşı
+20356	Ginseng Toplayıcısı
+20357	Weol Anıtı
+20358	İsimsiz Çiçekler
+20359	Giymeli Ünvan Market 2
+21359	Giymeli Ünvan Market 1
+20360	Wha Anıtı
+20361	Su Anıtı
+20362	Mok Anıtı
+20363	Gum Anıtı
+20364	Nakajima
+20365	To Anıtı
+20366	Sa-Soe
+20367	Katakomb Bekçisi
+20368	Seyyar satıcı
+20369	Lee Chung
+20370	Zehirlenen Asker
+20371	Eski Mezar Taşı
+20372	Aşınmış Taş Levha
+20373	Koruma Görevlisi
+20374	Bekçi
+20375	Ahşap Barikat
+20376	Kim Rim
+20377	Yak-Hwan
+20378	Amiral Angmur
+20379	Yaralı Asker
+20380	Yon-I Gezgini
+20381	Konfüçyus
+20382	Kaya Çiçeği
+20383	Jae-Seon Kim
+20384	Noel Ağacı
+20385	Am-heh Yutağı
+20386	İsfet Steli
+20387	Kader Kilidi
+20388	Ejderha Kapısı
+20389	NoNAme
+20390	Taramor Mezar Taşı
+20391	Güneş Bitkisi
+20392	Ölü Asker
+20393	Yaralı Asker
+20394	Ateş Diyarı Bekçisi
+20395	Dungeon
+20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø
+20397	Buz Aslanı
+20398	Arktos Küpü
+20399	Kuzeyli Ejderha Sütunu
+21399	Kuzeyli Ejderha Sütunu
+20400	Bilge Myonghorang
+20401	Koloni Bekçisi
+20402	Antik Saç Stili ve Renklendirme
+20403	Amarok
+20404	Nagual
+20405	Socket-Debugger
+20406	NoNAme
+20407	Fenrir
+20408	Tapınak Bekçisi
+20409	Orman Bekçisi
+20410	Orman Casusu
+20411	Orman Kaşifi
+20412	Orman Bekçileri Lideri
+20413	Kawuco
+20414	Andastra
+20415	Portal
+20416	Sam Pumpkin
+20417	Okey Masası
+20419	Ejderha Bekçisi Dolnarr
+20420	Altın Ejderha Kutusu
+20421	Ejderha Bekçisi Jaharr
+20422	Ejderha Yumurtası
+20423	Ruh Kristali Simyacısı
+20424	Yakut Simyacısı
+20425	Lal Simyacısı
+20426	Zümrüt Simyacısı
+20427	Safir Simyacısı
+20428	Turmalin Simyacısı
+20429	Savaş Bölgesi Ustası
+20430	Pasta
+20431	Yıl Dönümü Tüccarı
+20432	Hidra yumurtası
+20433	Savaşçı heykeli
+20434	Gemi direği
+20435	Meley'in izi
+20436	Dümen
+20437	Onarım tahtası
+20438	Keşiş Milbon
+20439	Zi Portalı
+20440	Chou Portalı
+20441	Yin Portalı
+20442	Mao Portalı
+20443	Chen Portalı
+20444	Si Portalı
+20445	Wu Portalı
+20446	Wei Portalı
+20447	Shen Portalı
+20448	Yu Portalı
+20449	Xu Portalı
+20450	Hai Portalı
+20451	Zodyak Tüccarı
+20452	Zi Heykeli
+20453	Chou Heykeli
+20454	Yin Heykeli
+20455	Mao Heykeli
+20456	Chen Heykeli
+20457	Si Heykeli
+20458	Wu Heykeli
+20459	Wei Heykeli
+20460	Shen Heykeli
+20461	Yu Heykeli
+20462	Xu Heykeli
+20463	Hai Heykeli
+20464	Top
+20465	Zodyak Portalı
+20500	Ejderha Yumurtası
+20501	Gaya Sandığı
+20502	Yutnori Masası
+20503	Gaya Tüccarı
+20504	Gaya Mağazası
+20505	Yut Çubukları
+20506	Kralı yakala masası
+30000	°³ÀÎ»óÁ¡
+30001	°³ÀÎ»óÁ¡
+30002	Binbir Gece
+30003	Mangal Ustası
+30004	Hazine Avcısı
+30005	Kısık Ateş
+30006	Silah Satıcısı
+30007	Zırh Ticareti
+30008	Simyacı
+30101	Kud Heykeli
+30102	Bazalt Dikilitaş
+30103	Kaplumbağa Kayalığı
+30104	Runik Direği
+30111	1. Lanet Kapısı
+30112	2. Lanet Kapısı
+30113	3. Lanet Kapısı
+30114	4. Lanet Kapısı
+30115	5. Lanet Kapısı
+30116	6. Lanet Kapısı
+30117	7. Lanet Kapısı
+30118	8. Lanet Kapısı
+30119	9. Lanet Kapısı
+30120	Bitki Çantası
+30121	Sura Ruhu
+30122	Savaşçı Ruhu
+30123	Karanlık Tapınak
+30124	Sura-İskeleti 1
+30125	Sura-İskeleti 2
+30126	Sura-İskeleti 3
+30127	Sura-İskeleti 4
+30128	Sura-İskeleti 5
+30129	Paskalya Tavşanı
+31129	Paskalya Tavşanı
+32129	Paskalya Tavşanı
+30130	Mezar Taşı
+30131	Bay B.
+30132	Bay B.
+30301	Ruh Kristali Damarı
+30302	Yakut Damarı
+30303	Grena Damarı
+30304	Zümrüt Damarı
+30305	Safir Damarı
+30306	Turmalin Maden Damarı
+30307	Summer
+30308	Posta kutusu
+33001	¸ğÇè°¡ÀÇ ÇØ°ñ
+33002	Tarihçi
+33003	Niyetli Vatandaş
+33004	Niyetli Vatandaş
+33005	Niyetli Vatandaş
+33006	Niyetli Vatandaş
+33007	Niyetli Vatandaş
+33008	Jack Pumpkin
+34001	Ateş Ankası
+34002	Yavru Ren Geyiği
+34003	Buz Ankası
+34004	Yavru Azrail
+34005	Porki
+34006	Rufus
+34007	Khan
+34008	Leonidas
+34009	Yavru Azrail
+34010	Bambi
+34011	Knuud
+34012	Bao Bao
+34013	Şişko Cellatcık
+34014	Şişko Cellatcık (altın)
+34015	Boney
+34016	Yeşim Ankası
+34017	Kutup Porki
+34018	Ayaz Rufus
+34019	Arktik Khan
+34020	Kar Leonidas
+34021	Sheldon
+34022	Cooper
+34023	Panter yavrusu
+34024	Leopar yavrusu
+34026	Balkabağı Kafası
+34027	Küçük Süpürgeci
+34028	Kar Tanesi
+34029	Çancık
+34030	Cupido
+34031	Öfkeli kalp
+34032	Kırmızı hilal
+34033	Mavi hilal
+34034	Beyaz Kuzucuk
+34035	Mavi Koç
+34036	Küçük Ejderha
+34037	Küçük Ejderha (Kahraman)
+34039	Yavru Huashin
+34041	Küçük Maymun
+34042	Küçük Maymun (Kahraman)
+34045	Küçük Örümcek
+34046	Küçük Örümcek (Kahraman)
+34049	Küçük Razadör
+34050	Küçük Razadör (Kahraman)
+34053	Küçük Nemere
+34054	Küçük Nemere (Kahraman)
+34055	Bruce
+34056	Wayne
+34057	Robin
+34058	Valentino
+34059	Valentinia
+34060	Valentino
+34061	Valentinia
+34062	Ay feneri (turuncu)
+34063	Ay feneri (mavi)
+34064	Küçük Meley
+34065	Küçük Meley
+34066	Bonsa
+34067	Bayan Jiangshi+
+34068	Bay Jiangshi+
+34069	Genç Jiangshi
+34070	Kırmızı Elf
+34071	Yeşil Elf
+34072	Yardımcı Elf
+34073	Azrailcik
+34074	Azrailcik (Kahraman)
+34075	Tombik cellatcık
+34076	Tombik cellatcık (Khrmn)
+34080	Baashido Yavrusu
+34081	Baashido yavrusu (khrmn)
+34082	Nessie
+34083	Nessie (kahraman)
+34084	Donni
+34085	Frank
+34086	Hui
+34087	Buh
+34088	Grusella
+34090	Renkli fener
+34091	Yeşil fener
+34092	Osvald Bey
+34093	Cobblepot Bey
+34094	Chesterfield Bey
+34095	Griffy
+34096	Nogaj
+34097	Astrabell
+34098	Helexna
+34099	Chaotika
+34100	Lycan Maddäus
+34101	Lycaninho
+34102	Küçük Catenaccio
+34133	Valentine-Dog
+34135	Yuumi
+34125	Valentine-Bear
+34126	Valentine-Dragon
+60000	Lonca yöneticisi
+60001	Lonca yöneticisi
+60002	Lonca yöneticisi
+60003	Teovahdan
+
+1083	Satan's Pillar of Power
+10836	portal
+10837	portal
+10838	portal
+10839	portal
+1084	Luzifer's Pillar of Power
+10840	portal
+10841	portal
+10842	portal
+10843	portal
+10844	portal
+10845	portal
+10846	portal
+10847	portal
+1085	Leviathan's Pillar of Power
+1086	Belial's Pillar of Power
+1087	Satan Lord of the Fire
+1088	Luzifer Lord of the Wind
+1089	Leviathan Lord of the Water
+1090	Belial Lord of the Earth
+1097	Rotglanz-Tod
+1098	Violettlicht-Tod
+1099	Goldschimmer-Tod
+20252	Snow Wolf
+20256	Ignisius
+20261	White Rabbit
+20262	Ignisius
+20263	Cerberus
+20264	Ignisius
+20265	Spektralross
+20266	Spektralross
+20267	Flying Valentine-Bunny
+20308	unused
+20309	unused
+20310	unused
+20311	unused
+20312	unused
+20313	unused
+20314	unused
+20315	unused
+20316	unused
+20317	unused
+20318	unused
+20319	unused
+20328	unused
+20329	unused
+20330	unused
+20331	unused
+20332	unused
+20333	unused
+20334	unused
+20335	unused
+20336	unused
+20337	unused
+20338	unused
+20339	unused
+20499	Hydra
+20514	Wingmen (G)
+20515	Wingmen (R)
+20516	Wingmen (B)
+20599	Dimension-Guardian [3. Farmmap]
+20801	Fish
+20802	Fish
+20803	Fish
+20804	Fish
+20805	Fish
+20806	Fish
+20807	Fish
+20808	Fish
+20809	Fish
+20810	Fish
+20811	Fish
+20812	Fish
+20813	Fish
+20814	Fish
+20815	Fish
+20816	Fish
+20817	Fish
+20818	Fish
+20819	Fish
+2496	Dark Beran-Setaou
+2497	Violettlicht-Drache
+2498	Baron Nashor
+271	Kushala Daora-Sola
+272	Kushala Daora-Talo
+273	Kushala Daora-Tero
+274	Kushala Daora-Haro
+275	Kushala Daora-Hera
+276	Kushala Daora-Lorem
+277	Kushala Daora-Tora
+278	Kushala Daora-Paro
+279	Kushala Daora-Panem
+280	Kushala Daora-Mando
+281	Kushala Daora-Mundo
+282	Kushala Daora-Heron
+283	Kushala Daora-Mu-Tai
+2831	Kushala Daora-Mu-Tai (EPIC)
+34025	Miss-Jiangshi
+34038	unknown
+34040	Kleiner-Feger
+34043	unknown
+34044	unknown
+34047	unknown
+34048	unknown
+34051	unknown
+34052	unknown
+34077	Eissplitter
+34078	unknown
+34079	unknown
+34089	Rufus (blue)
+34103	Boney
+34104	Little Broomstick
+34105	Snowflake
+34106	Blue Crescent Moon
+35000	unknown
+35001	unknown
+35002	unknown
+35003	unknown
+35004	unknown
+35005	unknown
+35006	unknown
+35007	unknown
+35008	unknown
+35009	unknown
+35010	unknown
+35011	unknown
+35012	unknown
+35013	unknown
+35014	unknown
+35015	unknown
+35016	unknown
+35017	unknown
+35018	unknown
+35019	unknown
+35020	unknown
+35100	Mini Silvas(1)
+35101	Mini Silvas(2)
+35102	Mini Silvas(3)
+35110	Mini Augue(1)
+35111	Mini Augue(2)
+35112	Mini Augue(3)
+35120	Mini Betharram(1)
+35121	Mini Betharram(2)
+35122	Mini Betharram(3)
+35123	Eevee
+35124	Espeon
+35125	Flareon
+35126	Jolteon
+35127	Meowth
+35128	Umbreon
+35129	Vaporeon
+40000	Shaman
+40001	Alchemist
+40002	Tammy
+40003	Ah-Yu
+40004	Beggar
+40005	Yonah
+40006	Mirine
+40007	Storekeeper
+40008	Octavio
+40009	Old Man
+40010	Peddler
+40011	Uriel
+40012	Yu-Rang
+40013	Fisherman
+40014	Taurean
+40015	Deokbae
+40016	Blacksmith
+40017	Yu-Hwan
+40018	Berni
+40019	Bobby
+40020	Traitor Balso
+40021	Ariyoung
+40022	Huahn-So
+40023	Soon
+40024	Harang
+40090	Heuk-Young
+40091	Seon-Pyeong
+40092	Hwa-Hee
+40093	Koe-Pung
+40094	Hong-Hae
+41018	Snowmann
+41053	Snowmann
+41060	Easter Egg
+41061	Easter Egg
+41062	Easter Egg
+41063	Easter Egg
+41064	Easter Egg
+41065	Easter Egg
+5171	Cursed Ape Soldier
+5172	Cursed Ape Thrower
+5173	Cursed Ape Fighter
+5174	Cursed Ape General
+5175	Cursed Stoneape
+5176	Cursed Goldape
+5177	Cursed Apeleader
+5178	Ape Lord Ogong
+694	Big Chief Orc
+7097	Evil Tree
+801	Hell-Ghost
+802	Dark Soul
+8028	Metin of Moon
+8029	Metin of Hwang
+803	Hell-Beast
+804	Hell-Swordmaster
+805	Demons Hell-Beast
+806	Hell Demon King
+8062	Pumpkin-Metin
+8063	Pumpkin-Metin
+8064	Pumpkin-Metin
+8065	Pumpkin-Metin
+8066	Pumpkin-Metin
+8067	Pumpkin-Metin
+8068	Pumpkin-Metin
+8069	Pumpkin-Metin
+807	Demon Eye
+8070	Seelenkristallader-Metin
+8071	Schokoladen-Metin
+8072	Schokoladen-Metin
+8073	Schokoladen-Metin
+8074	Schokoladen-Metin
+8075	Schokoladen-Metin
+8076	Schokoladen-Metin
+8077	Schokoladen-Metin
+8078	Schokoladen-Metin
+8079	Schokoladen-Metin
+808	Parasite demon Eye
+8080	Schokoladen-Metin
+8081	Metin of Moon
+809	Gossip Demon
+810	Deadly Demon
+811	Hell-Undead
+812	Dreaded Demon
+813	Hell-Chaos
+814	Hell-Shaman
+815	Racked Soul
+816	Hell's Wolf
+817	Hell's Nightmare
+8310	Anime-Metin
+8401	Kushala Daora-Metin1
+8402	Kushala Daora-Metin2
+8411	Metin of blood
+8412	Underground-Stone
+8413	Underground-Stone
+8414	Piercing Stone
+8416	Barroth-Metin
+8417	Barroth-Metin
+8418	Barroth-Metin2
+8550	Goldschimmer-Metin
+8559	Metin of Ochao
+8624	Ghost Tree Lord
+8700	Terrus (L)
+8701	Terrus Warrior
+8702	Terrus Magician
+8703	Terrus Guardian
+8710	Terra (F)
+8711	Terra Warrior
+8712	Terra Magician
+8713	Terra Guardian
+8720	Ignisus Refuse
+8721	Ignisus Dragon
+8722	Ignisus Pig
+8723	Ignisus (L)
+8730	Ignis Refuse
+8731	Ignis Dragon
+8732	Ignis Pig
+8733	Ignis Scorpion
+8740	Glacius Jelly
+8741	Glacius Foxy
+8742	Glacius (L)
+8743	Glacius Magician
+8750	Kadashi-Wezu
+8751	Kadashi-Weza
+8752	Kadashi-Talo
+8753	Kadashi-Tola
+9201	Hell-Door
+9202	Dark door
+9203	Hell-Guardian [3. Farmmap]
+9210	Crystal-Seal
+9211	Crystal-Portal
+9212	Crystal-Siegel
+9213	Crystal-Portal
+9214	Dungeon
+9216	Fish-Leader
+9217	Magic-Clam
+9218	Ocean-Pillar
+9219	Anchor
+9220	Underwater-Guardian [3. Farmmap]
+940	Crystal-Soldier
+941	Ragnarok-Guruu
+942	Ragnarok-Safi
+943	Crystal-Beast
+944	Dark Crystal-Scorpion
+945	Ragnarok-Muhan
+946	Brutal Crystal-Beast
+947	Malignent Larv
+948	Crystal-Beast
+949	Ragnarok-Mu-Tai
+950	Crystal Dragon
+965	Green Piranha
+966	Original-Piranha
+967	Jellyfish
+968	Shark
+969	Bloodthirsty Shark
+970	Rainbow-Shark
+971	Shark-Monster
+972	Star
+973	Brutal Star-Creature
+974	Underwater-Frog
+975	Sea-Creature
+976	Strong Sea-Creature
+977	Sea-Killer
+978	Strong Sea-Killer
+979	Drunken dead Sailor
+980	Haunted Sailor
+981	Dead Sailor
+982	Underwater-Pirate
+983	Gavel-Pirate
+984	Old Underwater-Pirate
+985	Pirate-Chief
+986	Brutal Fish
+987	Upper-Pirate
+988	Brutal Pirate-Chief
+760	Bloody Rhinoo
+761	Amore's Bear
+762	Hate's Harpy
+763	Pink Troll
+764	Young Valen. Tree
+765	Valentine Tree
+8428	Metin of Love
+8440	Metin of Love - PvP
+8429	Chocolate
+9229	Lady Valentine - PvM
+9230	Rhodolite Ore
+9231	Monument of Love
+9232	Rhodolite
+9233	Lady Valentine
+9234	Unknown Herb
+9235	Dryad
+710	Shiva-Safi
+711	Shiva-Guruu
+712	Jagras-Mabu
+713	Shiva-Muhan
+714	Jagras-Nabu
+715	Jagras-Kamul
+716	Jagras-Babu
+717	Jagras-Guruu
+718	Jagras-Suran
+719	Jagras-Mu-Tai
+8424	Shiva-Metin
+8425	Jagras-Metin
+8426	Jagras-Metin2
+8427	Jagras-Metin3
+9225	Dungeon
+9226	Owl Totem
+9227	Lira
+9228	Owl Feather
+766	Slime
+767	Aggressive slime
+768	Slime queen
+8430	Slime metin
+9236	Thu-Rang
+9237	Seal stone
+9238	Slime
+460	Terra-Muhan
+461	Terra-Safi
+462	Pukei-Gazu
+463	Artemis-Guruu
+464	Artemis-Safi
+465	Artemis-Muhan
+466	Pukei-Mihan
+467	Terra-Guruu
+468	Pukei-Mango
+469	Pukei-Mu
+470	Eden-Mu-Tai
+471	Terra-Mu-Tai
+472	Pukei-Mu-Tai
+8438	Pukei-Metin3
+473	Pukei-Mila
+474	Pukei-Nisa
+475	Pukei-Sima
+476	Pukei-Rima
+477	Pukei-Misa
+478	Pukei-Wisa
+479	Pukei-Laso
+480	Pukei-Wani
+481	Pukei-Shima
+8431	Pukei-Metin
+8432	Pukei-Metin2
+8433	Eden-Metin
+9239	Garden door
+9241	Dungeon
+9242	Old container
+9243	Enchanted fountain
+9244	Poisoned botani
+9245	Mushrooms
+9246	Honey hive
+860	Eden-Muhan
+861	Eden-Guruu
+862	Odogaron-Juzu
+863	Odogaron-Fama
+864	Odogaron-Hamu
+865	Odogaron-Metin
+866	Eden-Safi
+867	Odogaron-Manta
+868	Odogaron-Huma
+869	Odogaron-Matu
+870	Rathian-Kazamu
+871	Rathian-Kaza
+872	Odogaron-Zara
+873	Rathian-Kazanu
+874	Odogaron-Tama
+875	Odogaron-Fata
+876	Odogaron-Kazu
+877	Odogaron-Metin2
+878	Odogaron-Mu-Tai
+879	Artemis-Mu-Tai
+880	Rathian-Mu-Tai
+9207	Crafter Tier 4
+9208	PVM Crafter
+686	Owl Villager
+687	Owl Priest
+688	Owl General
+689	Shiva-Mu-Tai
+670	Barroth-Kula
+671	Barroth-Daizu
+672	Barroth-Yamu
+673	Barroth-Hisu
+674	Barroth-Jazu
+675	Barroth-Kele
+676	Barroth-Mu-Tai
+8421	Aqua-Metin
+951	Jungle Flower(high)
+952	Hungry Jungle Flower(high)
+953	Black Gorilla(high)
+954	Brown Gorilla(high)
+955	Green Lizard(high)
+956	Red Lizard(high)
+957	Small Blue Crab(high)
+958	Small Green Crab(high)
+959	Aqua-Safi
+960	Aqua-Guruu
+961	Aqua-Muhan
+962	Defensive Lobster(high)
+963	Water Monster(high)
+964	Aqua-Mu-Tai
+8302	Ragnarok-Metin
+9215	Summer-Event
+9951	Jungle Flower(low)
+9952	Hungry Jungle Flower(low)
+9953	Black Gorilla(low)
+9954	Brown Gorilla(low)
+9955	Green Lizard(low)
+9956	Red Lizard(low)
+9957	Small Blue Crab(low)
+9958	Small Green Crab(low)
+9959	Strong Crab(low)
+9960	Agressive Strong Crab(low)
+9961	Big Lobster(low)
+9962	Defensive Lobster(low)
+9963	Water Monster(low)
+9964	Giant Crab(low)
+9330	Rathian-Salu
+9331	Rathian-Saula
+9332	Rathian-Raga
+9333	Rathian-Gamba
+9335	Damned Queen of Moths
+9334	Rathian-Metin
+8406	Terra-Metin
+8407	Artemis-Metin
+8408	Metin of Jungle(low)
+8450	Metin of Beach(low)
+8410	Metin of Jungle(high)
+8452	Metin of Beach(high)
+8409	Metin of Jungle(2)(low)
+8451	Metin of Beach(2)(low)
+8415	Metin of Jungle(2)(high)
+8453	Metin of Beach(2)(high)
+482	Female Buman(low)
+483	Evil Female Buman(low)
+484	Small Bunny(low)
+485	Spring Baby Ent(low)
+486	Easter Rat(low)
+487	Evil Easter Rabbit(low)
+8434	Easter Metin
+8435	Easter Egg
+8436	Evil Egg
+9247	Old Bridge
+9248	Wooden Door
+9249	Wooden Fence
+9250	Easter Rabbit
+1482	Female Buman(medium)
+1483	Evil Female Buman(medium)
+1484	Small Bunny(medium)
+1485	Spring Baby Ent(medium)
+1486	Easter Rat(medium)
+1487	Evil Easter Rabbit(medium)
+18434	Easter Metin(medium)
+18435	Easter Egg(medium)
+18436	Evil Egg(medium)
+2482	Female Buman(hard)
+2483	Evil Female Buman(hard)
+2484	Small Bunny(hard)
+2485	Spring Baby Ent(hard)
+2486	Easter Rat(hard)
+2487	Evil Easter Rabbit(hard)
+28434	Easter Metin(hard)
+28435	Easter Egg(hard)
+28436	Evil Egg(hard)
+482	Oster-Dungeon-Talon (20-55)
+483	Oster-Dungeon-Kazo (20-55)
+484	Oster-Dungeon-Hera (20-55)
+485	Oster-Dungeon-Palo (20-55)
+486	Oster-Dungeon-Tano (20-55)
+487	Oster-Dungeon-Mu-Tai (20-55)
+488	Oster-Dungeon-Mu-Tai (20-55) (EPIC)
+8434	Oster-Dungeon-Metin (20-55)
+8435	Oster-Dungeon-Metin2 (20-55)
+8436	Oster-Dungeon-Metin3 (20-55)
+1482	Oster-Dungeon-Talon (100-125)
+1483	Oster-Dungeon-Kazo (100-125)
+1484	Oster-Dungeon-Hera (100-125)
+1485	Oster-Dungeon-Palo (100-125)
+1486	Oster-Dungeon-Tano (100-125)
+1487	Oster-Dungeon-Mu-Tai (100-125)
+1488	Oster-Dungeon-Mu-Tai (100-125) (EPIC)
+18434	Oster-Dungeon-Metin (100-125)
+18435	Oster-Dungeon-Metin2 (100-125)
+18436	Oster-Dungeon-Metin3 (100-125)
+2482	Oster-Dungeon-Talon (150)
+2483	Oster-Dungeon-Kazo (150)
+2484	Oster-Dungeon-Hera (150)
+2485	Oster-Dungeon-Palo (150)
+2486	Oster-Dungeon-Tano (150)
+2487	Oster-Dungeon-Mu-Tai (150)
+2488	Oster-Dungeon-Mu-Tai (150) (EPIC)
+28434	Oster-Dungeon-Metin (150)
+28435	Oster-Dungeon-Metin2 (150)
+28436	Oster-Dungeon-Metin3 (150)
+48521	Heavently Horse
+48522	Satan
+48523	Blue Wolf of Souls
+48524	Bone Dragon
+48525	Smilodon
+48526	Frosty
+48527	Crystal Dragon
+48528	Crystal Horse
+48529	Stone Deer
+48530	Antelope
+48531	Purple Dragon
+48532	Rhaegar
+48533	Ice Phoenix
+48534	Asmodeus
+48535	Sharknado
+48536	Arceus
+48537	Hounted Mount
+48538	Stone Crab
+48539	Halloween-Mount
+48540	Fire Phoenix
+48541	Angel Horse
+48542	Shark
+48543	Medusa Horse
+48544	Monster
+48545	Natural Beest
+48546	Shark
+48547	Great Eagle Owl
+48548	Brave Seahorse
+48549	Bone Dog
+48550	Lannister
+48551	Hell Beast
+48552	Heavens Beast
+48553	Spirit
+48554	Vehicle
+48555	Butterfly
+48557	Spider
+48558	Deathbringer
+48559	Bull
+48562	Wild Boar
+48563	Karanda
+48567	White Tiger
+48568	Magma Dragon
+48569	Count Batcular
+9430	World-Boss (PvP)
+9431	World-Boss (PvM)
+48560	Queen Elf
+48561	Queen Elf+
+48570	Burmese Cat
+48571	Burmese Cat+
+48580	Tabaluga
+48581	Tabaluga+
+48590	Dark Spyro
+48591	Dark Spyro+
+38521	Putty
+38522	Quapsel (green)
+38523	Quapsel (blue)
+38524	Baby Drako
+38525	Bulbasaur
+38526	Tom Nook
+38527	Brown Catkin
+38528	Splendid Chicks
+38529	Mouth Dragon
+38530	Horned Dragon
+38531	Devil Dragon Baby
+38532	Brown Fenrir
+38533	Giant Fox
+38534	Green Frog
+38535	Small Pug
+38536	Three-Bone Head
+38537	Hippo
+38539	Hippo
+38539	Little Owl
+38540	Small ChaoChao
+38541	Beetle Man
+38542	Ivern
+38543	Ivern
+38544	Natural Turtle
+38545	Baby Skeleton Dragon
+38546	Worm
+2524	Cehennem Subayı
+2525	Cehennem Bekçisi
+2526	İkibaşlı Cehennem Okçusu
+2527	Cehennem Kepçesi
+1760	Bloody Rhinoo
+1761	Amore's Bear
+1762	Hate's Harpy
+1763	Pink Troll
+1764	Young Valen. Tree
+1765	Valentine Tree
+38428	Metin of Love
+38429	Chocolate
+39229	Lady Valentine - PvP
+39230	Rhodolite Ore
+39231	Monument of Love
+39232	Rhodolite
+39233	Lady Valentine
+39234	Unknown Herb
+39235	Dryad
+38550	Fenrir
+38551	Rainbow Dash
+38552	Balto
+38553	Lemmy
+38554	Skipper
+38555	Selkie
+38556	Baba Jega
+38557	Pina
+16007	Fisherman (Event)
+
+10301	. 96 565
+10302	. 528 581
+10303	. 279 517
+10304	. 784 802
+10305	. 992 742
+10306	. 1193 485
+10307	. 323 739
+10308	. 238 737
+10309	. 665 492
+10310	. 947 482
+10311	. 1070 818
+10312	. 628 847
+10313	. 1052 661
+10314	. 1033 117
+10315	. 1023 559
+10316	. 357 439
+10317	. 782 802
+10318	. 742 571
+10319	. 451 631
+10320	. 947 635
+10321	. 238 640
+10322	. 1193 584
+10323	. 555 478
+10324	. 936 743
+10325	. 1128 877
+10326	. 449 463
+10327	. 552 770
+10328	. 807 649
+10329	. 1205 801
+10330	. 151 679
+10331	. 707 770
+10332	. 96 472
+48600	NEWMOUNT1
+48601	NEWMOUNT2
+48602	NEWMOUNT3
+48603	NEWMOUNT4
+24361	Vaal Hazak-Hero
+24362	Vaal Hazak-Talo
+24363	Vaal Hazak-Sona
+24364	Vaal Hazak-Sano
+24365	Vaal Hazak-Bali
+24366	Vaal Hazak-Balo
+24367	Vaal Hazak-Hara
+24368	Vaal Hazak-Hera
+24369	Vaal Hazak-Hora
+24370	Vaal Hazak-Kali
+24371	Vaal Hazak-Tali
+24372	Vaal Hazak-Sala
+24373	Vaal Hazak-Sola
+24374	Vaal Hazak-Sela
+24375	Vaal Hazak-Palim
+24376	Vaal Hazak-Pene
+24377	Vaal Hazak-Haro
+24378	Vaal Hazak-Ragna
+24379	Vaal Hazak-Roga
+24380	Vaal Hazak-Rega
+24381	Vaal Hazak-Raga
+24382	Vaal Hazak-Meno
+24383	Vaal Hazak-Mani
+24384	Vaal Hazak-Muno
+24385	Vaal Hazak-Mundo
+24386	Vaal Hazak-Tepa
+24387	Vaal Hazak-Tempa
+24388	Vaal Hazak-Mu-Tai
+24482	Vaal Hazak-Tela
+24483	Vaal Hazak-Tena
+24484	Vaal Hazak-Sana
+24485	Vaal Hazak-Lorim
+24486	Vaal Hazak-Laro
+24487	Vaal Hazak-Heca
+24488	Vaal Hazak-Haca
+28494	Vaal Hazak-Hoca
+28495	Vaal Hazak-Opim
+28496	Vaal Hazak-Opam
+28497	Vaal Hazak-Ope
+28498	Vaal Hazak-Rando
+28499	Vaal Hazak-Mendo
+29376	Gölge bölgesi koruması
+9376	Vaal Hazak
+29377	Gölge mühür taşı
+29378	Orakçı heykeli
+29379	Orakçı heykeli
+29380	Orakçı heykeli
+29381	Orakçı heykeli
+29382	Gölge geçidi
+29383	Gölge Sütunu
+29384	Gölge Sütunu
+29385	Gölge Sütunu
+29386	Gölge sandığı
+
+4139	Kulve Taroth-Hero
+4140	Kulve Taroth-Talo
+4141	Kulve Taroth-Sona
+4142	Kulve Taroth-Sano
+4143	Kulve Taroth-Bali
+4144	Kulve Taroth-Balo
+4145	Kulve Taroth-Hara
+4146	Kulve Taroth-Hera
+4147	Kulve Taroth-Hora
+4148	Kulve Taroth-Kali
+4149	Kulve Taroth-Tali
+4150	Kulve Taroth-Sala
+4151	Kulve Taroth-Sola
+4152	Kulve Taroth-Sela
+4153	Kulve Taroth-Palim
+4154	Kulve Taroth-Pene
+4155	Kulve Taroth-Haro
+4156	Kulve Taroth-Ragna
+4157	Kulve Taroth-Roga
+4158	Kulve Taroth-Mu-Tai
+8472	Kulve Taroth-Metin1
+8473	Kulve Taroth-Metin2
+8474	Kulve Taroth-Metin3
+8475	Kulve Taroth-Metin4
+8476	Kulve Taroth-Metin5
+9338	Piramidin koruyucusu
+9339	Antik mühür
+9340	Anubis heykeli
+9341	Wadjet sütunu
+9342	Ankh anahtarı
+9337	Sphinx hazinesi
+8310	Anime-Metin
+5151	Anime-Haro
+5152	Anime-Hero
+5153	Anime-Sali
+5154	Anime-Safi
+5163	Ape Lord
+766	Anime-Dungeon-Haro (20-55)
+767	Anime-Dungeon-Bali (20-55)
+768	Anime-Dungeon-Mu-Tai (20-55)
+8430	Anime-Dungeon-Metin (20-55)
+9236	Thu-Rang
+9237	Anime-Dungeon-NPC1
+9238	Anime-Dungeon-NPC2
+1766	Anime-Dungeon-Haro (100-125)
+1767	Anime-Dungeon-Bali (100-125)
+1768	Anime-Dungeon-Mu-Tai (100-125)
+18430	Anime-Dungeon-Metin (100-125)
+19236	Thu-Rang
+19237	Anime-Dungeon-NPC1
+19238	Anime-Dungeon-NPC2
+2766	Anime-Dungeon-Haro (150)
+2767	Anime-Dungeon-Bali (150)
+2768	Anime-Dungeon-Mu-Tai (150)
+28430	Anime-Dungeon-Metin (150)
+29236	Thu-Rang
+29237	Anime-Dungeon-NPC1
+29238	Anime-Dungeon-NPC2
+3766	Anime-Dungeon-Haro (150+)
+3767	Anime-Dungeon-Bali (150+)
+3768	Anime-Dungeon-Mu-Tai (150+)
+38430	Anime-Dungeon-Metin (150+)
+39236	Thu-Rang
+39237	Anime-Dungeon-NPC1
+39238	Anime-Dungeon-NPC2
+
+30911	Supreme Gnoll Guard (EPIC)
+33911	Lemures Bodyguard (EPIC)
+37911	King Wubba (EPIC)
+36901	General Lobster (EPIC)
+41019	Renkli Kostümler
+41029	Antika Zırh Kostümleri
+41039	Antika Silah Kostümleri
+41049	Gelişmiş Silah Kostümleri

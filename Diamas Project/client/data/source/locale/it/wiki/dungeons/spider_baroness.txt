@@ -1,0 +1,28 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/spiderbaroness.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 50 - 85
+*Eintrittsitem: Arachnidenschlüssel (nur der Gruppenanführer)
+[RIGHT_ALIGN]Arachnidenschlüssel 
+[IMG=d:/ymir work/ui/wiki/30324.tga; Y=5; X=493]
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Die Bruthöhle der Spinnenbaroness hat eine Abklingzeit von 60 Minuten.
+*Der Dungeon kann sowohl mit als auch ohne Gruppe betreten werden. 
+*Man hat insgesamt 20 Minuten um die Bruthöhle der Spinnenbaroness zu absolvieren.
+
+
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Die Phasen:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=143; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1
+
+[X_PADDING=20]Töte den Spinnenbaron und aktiviere die von ihm erbeutete Arachnidenflöte
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2
+
+[X_PADDING=20]Töte die Spinnenbaroness
+

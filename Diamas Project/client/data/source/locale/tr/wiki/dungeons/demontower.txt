@@ -1,0 +1,76 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/demontower.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 40 - 105
+*Eintrittsitem: -
+
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheiten:
+*Der Dämonenturm hat keine Abklingzeit.
+*Der Dämonenturm kann mit und ohne Gruppe betreten werden.
+*Für den Sensenmann muss man das Level 75 erreicht haben.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=125; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 1
+
+[X_PADDING=20]Tötet den Metin der Härte.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 2
+[IMG=d:/ymir work/ui/wiki/Damonenkonig.tga; Y=180; X=455]
+
+[X_PADDING=20]Tötet den Dämonenkönig.
+[X_PADDING=20]Tötet alle restlichen Monster.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 3
+
+[X_PADDING=20]Tötet den Metin des Teufels.
+[X_PADDING=20]Findet den richtigen Metin des Sturzes.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 4
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=360; X=490]
+[IMG=d:/ymir work/ui/wiki/30306.tga; Y=366; X=496]
+
+
+[X_PADDING=20]Tötet solange Monster bis ihr einen Schlüsselstein droppt.
+[X_PADDING=20]Zieht den Schlüsselstein auf ein Altes Siegel.
+[X_PADDING=20]Wiederholt die 2 Aufgaben bis alle Siegel weg sind.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 5
+
+[X_PADDING=20]Tötet den Stolzen Dämonenkönig.
+[X_PADDING=20]Wenn man Level 75 erreicht hat kann man durch den Schmied die nächste Ebene erreichen.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 6
+
+[X_PADDING=20]Tötet alle Metin des Todes.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 7
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=590; X=490]
+[IMG=d:/ymir work/ui/wiki/30302.tga; Y=596; X=496]
+
+[X_PADDING=20]Tötet den Metin des Mordes.
+[X_PADDING=20]Aktiviert die Karte der Zin-Grotte.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 8
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=670; X=490]
+[IMG=d:/ymir work/ui/wiki/30304.tga; Y=676; X=496]
+
+[X_PADDING=20]Tötet solange Monster bis ihr Zin-Bong-In Schlüssel droppt.
+[X_PADDING=20]Zieht den Zin-Bong-In Schlüssel auf Sa-Soe.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 9
+
+[X_PADDING=20]Tötet den Sensenmann.
+[IMG=d:/ymir work/ui/wiki/Sensenmann.tga; Y=700; X=322]
+
+
+

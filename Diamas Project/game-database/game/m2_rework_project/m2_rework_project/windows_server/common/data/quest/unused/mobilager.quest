@@ -1,0 +1,44 @@
+quest Mobiles_Lager begin
+	state start begin
+		when 71009.use begin
+		if pc.getqf("pw")==0 then
+				say_title(gameforge.mobilager._10_sayTitle)
+				say(gameforge.mobilager._20_say)
+				say_reward(gameforge.mobilager._30_sayReward)
+				local s= select(gameforge.mobilager._40_select, gameforge.mobilager._50_select)
+				if s==2 then
+					return
+				end
+				if pc.get_gold()<500 then
+					say_title(gameforge.mobilager._10_sayTitle)
+					say(gameforge.mobilager._60_say)
+					return
+				end
+				say_title(gameforge.mobilager._10_sayTitle)
+				say(gameforge.mobilager._70_say)
+				say_reward(gameforge.mobilager._80_sayReward)
+				pc.change_gold(-500)
+				game.set_safebox_level(1)
+				pc.setqf("pw", 1)
+			elseif pc.getqf("pw")==1 then 
+				if pc.has_guild() and guild.level(pc.get_guild()) >= 3 and guild.can_use_storage() then
+					local f =  select(gameforge.mobilager._90_select, gameforge.mobilager._100_select)
+					if f == 1 then
+						game.open_safebox()
+						setskin(NOWINDOW)
+					elseif f == 2 then
+                        --syschat("Guildstorage is temporary deactivated!")
+						game.open_guild_storage()
+						setskin(NOWINDOW)
+					end
+				else
+					local f =  select(gameforge.mobilager._90_select, gameforge.mobilager._110_select)
+					if f == 1 then
+						game.open_safebox()
+						setskin(NOWINDOW) 
+					end
+				end
+			end
+		end
+    end
+end

@@ -1,0 +1,8 @@
+quest tp_bug_fix begin
+	state start begin
+		when login begin
+			affect.add_collect(apply.HP_REGEN, 2147483647, 5)
+			affect.add_collect(apply.SP_REGEN, 2147483647, 5)
+		end
+	end
+end

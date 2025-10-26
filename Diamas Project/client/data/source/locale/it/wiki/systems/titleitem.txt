@@ -1,0 +1,19 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/titleitem.png]
+[CENTER_ALIGN]Sistema dei Titoli
+
+Tramite l'oggetto "Tintura dei Titoli" potrai creare il tuo titolo personale,il quale apparirà
+sopra il tuo nome. 
+Di seguito verranno evidenziate le condizioni:
+
+- Permessi i caratteri alfanumerici (a-Z, 0-9).
+- 16.581.375 colori selezionabili tramite il generatore RGB
+- Anteprima del titolo selezionato.
+- Il titolo può essere sovracritto usando la stessa Tintura.
+- Il titolo potrà essere rimosso tramite l'oggetto "Tintura dei Regni (Rimozione)"
+
+Non sono consentiti caratteri speciali o espressioni offensive.
+
+
+
+

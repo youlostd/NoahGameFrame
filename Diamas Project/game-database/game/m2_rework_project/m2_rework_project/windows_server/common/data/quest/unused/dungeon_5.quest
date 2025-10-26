@@ -1,0 +1,166 @@
+define OUTSIDE_MAP_INDEX 75
+define OUTSIDE_MAP_X 728
+define OUTSIDE_MAP_Y 120
+define DUNGEON_ENTRY_TICKET 19
+define DUNGEON_ENTRY_NPC 19
+define DUNGEON_MAP_INDEX 80
+define DUNGEON_MIN_LEVEL 10
+define DUNGEON_MAX_LEVEL 150
+define ITEM_NPC_COLLECT_1 9001
+define ITEM_NPC_COLLECT_2 9002
+define MOB_MINIBOSS_1 101
+define MOB_MINIBOSS_2 101
+define MOB_FINAL_BOSS 101
+define DUNGEON_COOLTIME 3600
+define ENABLE_SOLO_PLAY 1
+define DUNGEON_ENABLED 0
+
+quest dungeon_5 begin
+    state start begin
+        when DUNGEON_ENTRY_NPC.chat."Enter Dungeon" and not dungeon_5.inDungeon() begin
+			if DUNGEON_ENABLED then
+				say_title(c_mob_name(npc.get_race()))
+				say(gameforge.snow_dungeon._20_say)
+				return
+            end
+            
+			if ENABLE_SOLO_PLAY != 1 then
+				if not party.is_party() then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._30_say)
+					return
+				end
+				
+				if not party.is_leader() then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._40_say)
+					return
+				end
+			end
+
+			if party.is_party() then
+				if party.get_min_level() < DUNGEON_MIN_LEVEL then
+					say_title(c_mob_name(npc.get_race()))
+					say(string.format(gameforge.snow_dungeon._50_say, DUNGEON_MIN_LEVEL))
+					say(gameforge.snow_dungeon._60_say)
+					return
+				end
+				
+				
+				local membersWaitTime = snow_dungeon.getPartyMembersWaitTime()
+				if table.getn(membersWaitTime) > 0 then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._70_say)
+					
+					for name, waitTime in pairs(membersWaitTime) do
+						say_reward(string.format(gameforge.snow_dungeon._80_sayReward, name, time.toString(waitTime)))
+					end
+					
+					return
+				end
+				
+				local membersWithoutEntryItem = dungeon_5.getPartyMembersWithoutEntryItem()
+				if table.getn(membersWithoutEntryItem) > 0 then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._110_say)
+					say(string.format(gameforge.snow_dungeon._120_say, c_item_name(settings.ENTRY_ITEM)))
+					
+					for _, name in ipairs(membersWithoutEntryItem) do
+						say_reward(string.format(gameforge.snow_dungeon._100_sayReward, name))
+					end
+					
+					return
+				end
+				dungeon_5.partyMembersRemoveEntryItem()
+				
+				
+			else
+				if pc.get_level() < DUNGEON_MIN_LEVEL then
+					say_title(c_mob_name(npc.get_race()))
+					say(string.format(gameforge.snow_dungeon._130_say, settings.DUNGEON_MIN_LEVEL))
+					say(gameforge.snow_dungeon._60_say)
+					return
+				end
+				
+				local waitTime = dungeon_5.getPlayerWaitTime()
+				if dungeon_5.getPlayerWaitTime() >= 1 then
+					say_title(c_mob_name(npc.get_race()))
+					say_reward(string.format(gameforge.snow_dungeon._140_sayReward, name, time.toString(waitTime)))
+					return
+				end
+		
+				if pc.count_item(settings.ENTRY_ITEM) < 1 then
+					say_title(c_mob_name(npc.get_race()))
+					say(string.format(gameforge.snow_dungeon._150_say, c_item_name(settings.ENTRY_ITEM)))
+					return
+				end
+				
+				pc.remove_item(settings.ENTRY_ITEM, 1)
+				
+			end
+
+        end
+
+		-- Entry item
+		function getPartyMembersWithoutEntryItem()		
+			local partyMemberPids = table.pack(party.get_member_pids())
+			local membersWithoutEntryItem = {}
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				if pc.count_item(DUNGEON_ENTRY_TICKET) < 1 then
+					table.insert(membersWithoutEntryItem, pc.get_name())
+				end
+				
+				q.end_other_pc_block()
+			end
+			
+			return membersWithoutEntryItem
+        end
+        function partyMembersRemoveEntryItem()
+			local partyMemberPids = table.pack(party.get_member_pids())
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				pc.remove_item(DUNGEON_ENTRY_TICKET, 1)
+				
+				q.end_other_pc_block()
+			end
+        end
+        function inDungeon()
+			return pc.in_dungeon() and (DUNGEON_MAP_INDEX * 10000) <= pc.get_map_index() and (DUNGEON_MAP_INDEX * 11000) > pc.get_map_index()
+        end
+    
+        -- Wait time
+		function getPartyMembersWaitTime()
+			local partyMemberPids = table.pack(party.get_member_pids())
+			local membersWaitTime = {}
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				local waitTime = snow_dungeon.getPlayerWaitTime()
+				if snow_dungeon.getPlayerWaitTime() >= 1 then
+					membersWaitTime[pc.get_name()] = waitTime
+				end
+				
+				q.end_other_pc_block()
+			end
+			
+			return membersWaitTime
+		end
+		
+		function setPlayerLastLeaveTimes()
+			pc.setf("dungeon_5", "lastLeave", get_global_time())
+		end
+		
+		function getPlayerWaitTime()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return 1 end
+			
+			return (pc.getf("dungeon_5", "lastLeave") + DUNGEON_COOLTIME) - get_global_time()
+		end
+    end
+end

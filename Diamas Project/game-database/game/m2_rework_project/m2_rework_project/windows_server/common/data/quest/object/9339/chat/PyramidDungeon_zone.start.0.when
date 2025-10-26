@@ -1,0 +1,1 @@
+return PyramidDungeonLIB . isActive ( ) and d . getf ( "PyramidDungeon_level" ) == 2 and d . getf ( "PyramidDungeon_CanUseSeal" ) == 1

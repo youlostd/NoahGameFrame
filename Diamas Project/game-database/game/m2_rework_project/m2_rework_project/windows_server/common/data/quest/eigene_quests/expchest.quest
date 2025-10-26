@@ -1,0 +1,12 @@
+quest expchest begin
+	state start begin
+		when 253734.use begin
+			pc.give_exp2(2147483646)
+			pc.give_exp2(2147483646)
+			pc.give_exp2(2147483646)
+			pc.give_exp2(2147483646)
+			pc.give_exp2(2147483646)
+			pc.remove_item(253734, 1)
+		end
+	end
+end

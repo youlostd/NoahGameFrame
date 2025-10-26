@@ -1,0 +1,86 @@
+import uiScriptLocale
+
+TEMPORARY_HEIGHT = 16
+window = {
+    "name": "PinInputDialog",
+    "x": 0,
+    "y": 0,
+    "style": ("moveable", "float"),
+    "width": 300,
+    "height": 130,
+    "children": (
+        {
+            "name": "Board",
+            "type": "board_with_titlebar",
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 130,
+            "title": uiScriptLocale.PIN_TITLE,
+            "children": (
+                {
+                    "name": "Description",
+                    "type": "text",
+                    "text": uiScriptLocale.PIN_INPUT_DESCRIPTION,
+                    "horizontal_align": "center",
+                    "multi_line": True,
+                    "x": 0,
+                    "y": 39,
+                },
+                {
+                    "name": "InputSlot",
+                    "type": "slotbar",
+                    "x": 0,
+                    "y": 61,
+                    "width": 93,
+                    "height": 23,
+                    "horizontal_align": "center",
+                    "children": (
+                        {
+                            "name": "InputValue",
+                            "type": "editline",
+                            "x": 3,
+                            "y": 3,
+                            "width": 90,
+                            "height": 20,
+                            "input_limit": 8,
+                        },
+                    ),
+                },
+                {
+                    "name": "ButtonContainer",
+                    "type": "window",
+                    "x": 0,
+                    "y": 95,
+                    "width": 127,
+                    "height": 21,
+                    "horizontal_align": "center",
+                    "children": (
+                        {
+                            "name": "AcceptButton",
+                            "type": "button",
+                            "x": -20,
+                            "y": 0,
+                            "default_image": "d:/ymir work/ui/public/acceptbutton00.sub",
+                            "over_image": "d:/ymir work/ui/public/acceptbutton01.sub",
+                            "down_image": "d:/ymir work/ui/public/acceptbutton02.sub",
+                            "x_scale": 1.0,
+                            "y_scale": 1.0,
+                        },
+                        {
+                            "name": "CancelButton",
+                            "type": "button",
+                            "x": 76,
+                            "y": 0,
+                            "default_image": "d:/ymir work/ui/public/canclebutton00.sub",
+                            "over_image": "d:/ymir work/ui/public/canclebutton01.sub",
+                            "down_image": "d:/ymir work/ui/public/canclebutton02.sub",
+                            "x_scale": 1.0,
+                            "y_scale": 1.0,
+                        },
+                    ),
+                },
+            ),
+        },
+    ),
+}

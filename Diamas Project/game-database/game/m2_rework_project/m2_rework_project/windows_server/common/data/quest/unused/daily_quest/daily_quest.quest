@@ -1,0 +1,130 @@
+quest daily_quest begin
+	state start begin
+		when 20001.chat.'Neuer Tag' with pc.is_gm() begin
+			say_title('Neuer Tag?')
+			if select('Neuer Tag','Abbrechen') == 1 then
+				pc.setqf('newday',0)
+				pc.setqf('oldDay',tonumber(os.date("%d")))
+			else
+				return
+			end
+		end
+		
+		when 20001.chat.'Neuer Tag' with pc.is_gm() begin
+			say_title('Alten Tage aendern')
+			if select('Alter Tag','Abbrechen') == 1 then
+				pc.setqf('oldDay',tonumber(input()))
+				-- chat('old day set')
+			else
+				return
+			end
+		end
+		
+		function is_in_table(tab,var)
+			for i = 1, table.getn(tab) do
+				if tab[i] == var then return true end
+			end
+			return false
+		end
+		
+		when login begin
+			cmdchat("DAILYQUEST QID/"..q.getcurrentquestindex())
+			local day = tonumber(os.date("%d"))
+			if pc.getqf('oldDay') != day then
+				pc.setqf('newday',0)
+				pc.setqf('oldDay',day)
+			end
+			-- Clear old Quests
+			if pc.getqf('newday') == 0 then
+				for i = 1, pc.getqf('quest_count') do
+					local questTypes = DAILYQUESTS.CONFIG.ALLOWED_QUEST_TYPES
+					for x = 1, table.getn(questTypes) do
+						local missions = DAILYQUESTS.QUEST[questTypes[x]]
+						local questIndex = missions.INDEX
+						
+						local missionIndex = pc.getqf('quest_'..i..'_'..questIndex)
+						if missionIndex != 0 then
+							dquest.set_quest_complete(questTypes[x], i, questIndex)
+						end
+					end
+				end
+				
+				dquest.clear()
+				
+				-- Load new Quests
+				local questCount = number(DAILYQUESTS.CONFIG.MINQUESTS, DAILYQUESTS.CONFIG.MAXQUESTS)
+				local questTypes = DAILYQUESTS.CONFIG.ALLOWED_QUEST_TYPES
+
+				local missionsAvailable = 0
+				local myLevel = pc.get_level()
+				local missionIndexTable = {}
+				
+				for i = 1, table.getn(questTypes) do
+					local missions = DAILYQUESTS.QUEST[questTypes[i]].MISSIONS
+					for x = 1, table.getn(missions) do
+						if myLevel >= missions[x].LEVEL.MIN and myLevel <= missions[x].LEVEL.MAX then
+							table.insert(missionIndexTable, {questTypes[i],x})
+							missionsAvailable = missionsAvailable + 1
+						end
+					end
+				end
+				
+				-- for i = 1, table.getn(missionIndexTable) do
+					-- chat('Type: '..missionIndexTable[i][1]..' Index: '..missionIndexTable[i][2])
+				-- end
+				
+				if questCount > missionsAvailable then
+					questCount = missionsAvailable
+				end
+				
+				pc.setqf('quest_count', questCount)
+				
+				-- chat('questcount: '..questCount)
+				-- chat('missionindextable: '..table.getn(missionIndexTable))
+				
+				if missionsAvailable != 0 then
+					for i = 1, questCount do
+						if table.getn(missionIndexTable) != 0 then
+							local index = number(1,table.getn(missionIndexTable))
+							-- chat('index '..index)
+							local dailyMissionsIndex = missionIndexTable[index]
+							local dailyMissionsChoosed = DAILYQUESTS.QUEST[dailyMissionsIndex[1]].MISSIONS[dailyMissionsIndex[2]]
+							dquest.add(i, DAILYQUESTS.QUEST[dailyMissionsIndex[1]].INDEX, string.gsub(dailyMissionsChoosed.QUESTNAME,' ','_'),  dailyMissionsChoosed.QUESTICON)
+							pc.setqf('quest_'..i..'_'..DAILYQUESTS.QUEST[dailyMissionsIndex[1]].INDEX, dailyMissionsIndex[2])
+							table.remove(missionIndexTable, index)
+							
+						end
+					end
+				end
+				
+				
+				dquest.refresh()
+				pc.setqf('newday',1)
+			else
+				dquest.reload_quests()
+			end
+		end
+	end
+end
+
+-- if missionsAvailable != 0 then
+	-- for i = 1, questCount do
+		-- for x = 1, table.getn(questTypes) do
+			-- while true and i <= missionsAvailable do
+				-- local questIndex = questTypes[number(1,table.getn(questTypes))]
+				-- local dailyQuest = missionIndexTable[questIndex]
+				-- if table.getn(dailyQuest) != 0 then
+					-- local dailyMissionsIndex = missionIndexTable[questIndex][number(1,table.getn(dailyQuest))]
+					-- if not daily_quest.is_in_table(missionIndexInUse[questIndex],dailyMissionsIndex) then
+						-- local dailyMissionsChoosed = DAILYQUESTS.QUEST[questIndex].MISSIONS[dailyMissionsIndex]
+						-- dquest.add(i, DAILYQUESTS.QUEST[questIndex].INDEX, string.gsub(dailyMissionsChoosed.QUESTNAME,' ','_'),  dailyMissionsChoosed.QUESTICON)
+						-- pc.setqf('quest_'..i..'_'..DAILYQUESTS.QUEST[questIndex].INDEX, dailyMissionsIndex)
+						-- table.insert(missionIndexInUse[questIndex], dailyMissionsIndex)
+						-- break
+					-- end
+				-- end
+			-- end
+			-- break
+		-- end
+	-- end
+-- end

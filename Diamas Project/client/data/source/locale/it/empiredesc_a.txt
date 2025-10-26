@@ -1,0 +1,5 @@
+[DELAY value;0]
+Il Regno Shinsoo è a Sud del[ENTER]
+continente. L'attività[ENTER]
+principale dei suoi abitanti[ENTER]
+è il commercio.

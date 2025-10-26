@@ -1,0 +1,58 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/shipdefense.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 105
+*Eintrittsitem: Man benötigt kein Eintrittsitem
+[RIGHT_ALIGN]Blue Crystal Essence
+[IMG=d:/ymir work/ui/wiki/31005.tga; Y=5; X=479]
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Die Schiffsverteidigung hat eine Abklingzeit von 180 Minuten.
+*Der Dungeon kann nur in einer Gruppe betreten werden.
+*Man muss den Dungeon erfolgreich abgeschlossen haben, bevor der Mast vollständig zerstört ist.
+*Man muss am Ende des Dungeons seine Belohnung von der Truhe abholen.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Die Phasen:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=140; CENTER_ALIGN]
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1
+
+[X_PADDING=20]Vernichte alle Monster an Deck des Schiffs und beschütze den Schiffsmast.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2
+
+[X_PADDING=20]Vernichte alle Monster an Deck des Schiffs und beschütze den Schiffsmast.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 3
+
+[X_PADDING=20]Vernichte alle Monster und Metinsteine an Deck. Sobald der Hydra Debuff verschwunden ist,
+[X_PADDING=20]kann man den ersten Hydra Kopf besiegen.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 4
+
+[X_PADDING=20]Vernichte alle Monster an Deck des Schiffs und beschütze den Schiffsmast.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 5
+
+[X_PADDING=20]Vernichte alle Monster an Deck des Schiffs und beschütze den Schiffsmast.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 6
+
+[X_PADDING=20]Vernichte alle Monster und Metinsteine an Deck. Sobald der Hydra Debuff verschwunden ist,
+[X_PADDING=20]kann man den ersten Hydra Kopf besiegen.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 7
+
+[X_PADDING=20]Vernichte alle Monster an Deck des Schiffs und beschütze den Schiffsmast.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 8
+
+[X_PADDING=20]Vernichte alle Monster an Deck des Schiffs und beschütze den Schiffsmast.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 9
+
+[X_PADDING=20]Vernichte alle Monster und Metinsteine an Deck. Sobald der Hydra Debuff verschwunden ist,
+[X_PADDING=20]kann man den ersten Hydra Kopf besiegen. Anschließend kann von der Hydra-Truhe eine Schatztruhe der Black Pearl
+[X_PADDING=20]gegen eine Blaue Kristallessenz eingetauscht werden.
+

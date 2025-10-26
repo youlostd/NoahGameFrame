@@ -1,0 +1,16 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/titleitem.png]
+[CENTER_ALIGN]Title system
+
+With the item "Tincture of Titles" you can create your own title, which then appears 
+above your name or guild name. The following applies:
+
+- Alphanumeric characters (a-Z, 0-9) allowed
+- 16.581.375 colors selectable via the RGB generator
+- Preview of the selected title
+- Overwritable with the same item
+- Removable with "Tincture of titles (removal)".
+
+Not allowed are special characters or offensive / insulting expressions.
+
+

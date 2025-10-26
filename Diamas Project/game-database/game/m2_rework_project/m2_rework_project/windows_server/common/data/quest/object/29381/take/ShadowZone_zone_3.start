@@ -1,0 +1,7 @@
+if item . get_vnum ( ) == 30847 and ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 4 and d . getf ( "ShadowZone_4f_CanDesSta" ) == 1 then clear_server_timer ( "ShadowZone_FourthFloor" , d . get_map_index ( ) ) ; 
+ShadowZoneLIB3 . clearCoolTimer ( ) ; 
+item . remove ( ) ; 
+npc . kill ( ) ; 
+d . notice ( "Shadow tower: %s was revealed! You can proceed to next floor!" , c_mob_name ( 29382 ) ) ; 
+ShadowZoneLIB3 . spawnPortalGate ( ) ; 
+ return end 

@@ -1,0 +1,2 @@
+you can write anything to the first line cus this wont be parsed to avoid utf8 shits
+this is just some random text you can delete it events/reaction_event.txt

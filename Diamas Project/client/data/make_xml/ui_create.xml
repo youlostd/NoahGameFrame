@@ -1,0 +1,7 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/ui:d:/ymir work/ui/" ArchivePath="../bin/pack/ui.pak" XmlPath="xml/ui_create.xml">
+		<Ignore Pattern="*.psd" />
+		<Ignore Pattern="*.uas" />
+		<Ignore Pattern="*.pdn" />
+	</CreateEterPackXml>
+</ScriptFile>

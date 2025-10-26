@@ -1,0 +1,42 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/skilltree.png]
+[CENTER_ALIGN]Avcılık görevleri ve Yetenek ağacı
+
+1 Başlangıç
+Avcılık görevleri her zaman etkindir ve önceden başlatılmaları gerekmez.
+Görev penceresi, envanteri açarak avcılık görevleri sembolüne ulaşana kadar soldaki
+sembolleri aşağı kaydırarak bulunabilir.
+
+2 Yapısı
+Avcılık görevleri metin taşları ve zindan bossları olarak ikiye ayrılır. Bir görevi bitirdiğin
+anda, yeşil çubuktan ilgili görevin ilerleyişini görebilirsin. Yapılışta olan görevleri üstte
+ve tamamlanmış olanları altta görebilirsin.
+
+3 Seviye atlama
+Bir sonraki farm haritasında deneyim puanı elde edebilmek için, önceki haritada tüm avcılık
+görevlerini tamamlayınca elde edilen bir iteme ihtiyacın var. Örneğin Shiva haritasındaki tüm
+görevleri tamamlarsan, "Jagras-Genişletmesi (55-75)" elde edersin. Bu iteme sağ tıklayarak, sonraki
+haritada 75. seviyeye kadar tekrardan deneyim puanı kazanırsın. Aynı olay diğer tüm haritalar
+için geçerlidir.
+
+4 Beceri puanı
+Avlanma görevlerini tamamlamak sadece seviye atlamak için değil, aynı zamanda yetenek ağacı için de
+gereklidir. Her avcılık görevinin ödülü, beceri puanıdır. Avcılık görevlerinin ilerlemesiyle birlikte
+beceri puanın artar. Bu puanlar ile yetenek ağacında bonuslar kazanıp daha da güçlenebilirsin.
+
+5 Yetenek ağacı
+Yetenek ağacından elde edilen bonuslar, yalnızca PvM'de savunma ve saldırıya yardımcı olmakla
+kalmaz, aynı zamanda PvP'de de gereklidir.
+Yetenek ağacı aşamalar halinde açılır. Tüm avcılık görevlerini tamamladığında, Yetenek ağacını
+bitirmiş olup tüm bonuslarin kilidini açar ve tüm bonusları kazanırsın.
+
+6 Yetenek ağacı - Dağılım
+Shiva haritasında her kategorinin alt sırasının kilidini açarsın.
+Artemis haritasında her kategorinin ikinci sırasının kilidini açarsın.
+Aqua haritasında orta kategorinin üçüncü sırasının kilidini açarsın.
+Sol ve sağ kategorilerde üçüncü sıranın dıştaki iki alanının kilidi açılır.
+Eden farm haritasında orta kategorinin dördüncü sırasının kilidini açarsın.
+Terra haritasında son satırı ve dolayısıyla Yetenek ağacını tamamlayan son alanı açarsın.
+
+
+

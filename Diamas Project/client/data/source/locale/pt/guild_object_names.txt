@@ -1,0 +1,73 @@
+20139	Estandarte de Guild (Roxo)
+14401	Árvore (2)
+20140	Estandarte de Guild (Azul/Verde)
+14202	Muralha Traseira
+20141	Estandarte de Guild (Vermelho/Ouro)
+14100	Casa (1)
+14101	Muralha Pedra (1-1)
+14102	Muralha Pedra (1-2)
+14103	Muralha Pedra (1-3)
+14104	Portão (1)
+14105	Muralha (1)
+14407	Árvore (8)
+14309	Pedra (10)
+14110	Casa (2)
+14111	Muralha Pedra (2-1)
+14112	Muralha Pedra (2-2)
+14113	Muralha Pedra (2-3)
+14114	Portão (2)
+14115	Muralha (2)
+14120	Casa (3)
+14121	Muralha Pedra (3-1)
+14122	Muralha Pedra (3-2)
+14123	Muralha Pedra (3-3)
+14124	Portão (3)
+14125	Muralha (3)
+14301	Pedra (2)
+14200	Símbolo da Guild
+14302	Pedra (3)
+14303	Pedra (4)
+14013	Armeiro
+14014	Ferreiro
+14015	Fábrica Acessórios
+14400	Árvore (1)
+14304	Pedra (5)
+14402	Árvore (3)
+14403	Árvore (4)
+14404	Árvore (5)
+14405	Árvore (6)
+14406	Árvore (7)
+14305	Pedra (6)
+14408	Árvore (9)
+14306	Pedra (7)
+14033	Centro de Treino
+14307	Pedra (8)
+14201	Muralha Frontal
+14308	Pedra (9)
+14043	Fornalha Diamante
+14300	Pedra (1)
+14045	Fornalha Mad. Fóssil
+14046	Fornalha Cobre
+14047	Fornalha Prata
+14048	Fornalha Ouro
+14049	Fornalha Jade
+14050	Fornalha Ébano
+14051	Fornalha Pérolas
+14052	Fornalha Platina
+14053	Fornalha Cristal
+14054	Fornalha Ametista
+14055	Fornalha Safira
+14204	Muralha Oriental
+14061	Altar do Poder
+14062	Altar do Poder
+14063	Altar do Poder
+14203	Muralha Ocidental
+14071	Armazém da Guild
+14072	Armazém da Guild
+14073	Armazém da Guild
+14074	Fornalha Crist. Alma
+14075	Fornalha Rubi
+14076	Fornalha Granada
+14077	Fornalha Esmeralda
+14078	Fornalha Lazuli
+14079	Fornalha Turmalina

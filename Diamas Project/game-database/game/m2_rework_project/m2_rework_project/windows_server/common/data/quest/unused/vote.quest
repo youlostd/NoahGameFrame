@@ -1,0 +1,70 @@
+quest vote begin
+	state start begin
+		when login with game.get_event_flag('voteboni') == 1 begin
+			local query = mysql_query("SELECT count(id) AS result FROM account.account WHERE id='"..pc.get_account_id().."' AND NOW() < DATE_ADD(hastoday, INTERVAL 18 HOUR) LIMIT 1")
+			local result = tonumber(query[1][1])
+			if result == 1 then
+				setstate(proceed)
+			end
+		end
+	end
+	state proceed begin
+		when enter begin
+			send_letter(gameforge.vote._10_sendLetter)
+			chat(gameforge.vote._20_chat)
+		end
+		when login begin
+			local query = mysql_query("SELECT count(id) AS result FROM account.account WHERE id='"..pc.get_account_id().."' AND NOW() >= DATE_ADD(hastoday, INTERVAL 18 HOUR) LIMIT 1")
+			local result = tonumber(query[1][1])
+			if result == 1 then
+				clear_letter()
+				setstate(start)
+			end
+			send_letter(gameforge.vote._10_sendLetter)
+			chat(gameforge.vote._20_chat)
+		end
+		when button or info begin
+			say_title(gameforge.vote._10_sendLetter)
+			say(gameforge.vote._30_say)
+			local query = mysql_query("SELECT count(id) AS result FROM account.account WHERE id='"..pc.get_account_id().."' AND NOW() >= DATE_ADD(hastoday, INTERVAL 18 HOUR) LIMIT 1")
+			local result = tonumber(query[1][1])
+			if result == 1 then
+				say(gameforge.vote._40_say)
+				clear_letter()
+				setstate(start)
+			end
+			say(gameforge.vote._50_say)
+			local question =  select(gameforge.vote._60_select, string.format(gameforge.vote._70_select,  "20% EXP Bonus"))
+			if question == 4 then 
+			return 
+			
+			elseif question == 1 then
+			clear_letter()
+			mysql_query("update account.account SET hastoday=NOW() WHERE id='"..pc.get_account_id().."'")
+			pc.setqf("blockage", get_global_time() + 60*60*18)
+			affect.add_collect(1, 1500, 60*60*18)
+			setstate(blockage)
+			
+			elseif question == 2 then
+			clear_letter()
+			mysql_query("update account.account SET hastoday=NOW() WHERE id='"..pc.get_account_id().."'")
+			pc.setqf("blockage", get_global_time() + 60*60*18)
+			affect.add_collect(63, 15, 60*60*18)
+			setstate(blockage)
+			
+			elseif question == 3 then
+			clear_letter()
+			mysql_query("update account.account SET hastoday=NOW() WHERE id='"..pc.get_account_id().."'")
+			pc.setqf("blockage", get_global_time() + 60*60*18)
+			affect.add_collect(66, 20, 60*60*18)
+			setstate(blockage)
+			end
+		end
+	end
+	state blockage begin
+		when login with get_global_time() > pc.getqf("blockage") begin
+			pc.setqf("blockage", 0)
+			setstate(start)
+		end
+	end
+end

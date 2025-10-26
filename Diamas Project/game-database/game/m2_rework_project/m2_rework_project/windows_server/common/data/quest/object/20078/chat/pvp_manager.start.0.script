@@ -1,0 +1,5 @@
+say ( "Sehre donmek istiyor musun?" ) 
+local s = select ( "Evet " , "Hayýr " ) 
+if s == 1 then 
+warp_to_village ( ) 
+end 

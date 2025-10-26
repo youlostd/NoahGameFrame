@@ -1,0 +1,13 @@
+if ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 1 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local KILL_COUNT = settings [ "FIRST_STONE_COUNT" ] 
+local n = d . getf ( "ShadowZone_FirstStone_count" ) + 1 
+d . setf ( "ShadowZone_FirstStone_count" , n ) 
+if n >= KILL_COUNT then 
+ShadowZoneLIB3 . clearDungeon ( ) 
+clear_server_timer ( "ShadowZone_FirstFloor" , d . get_map_index ( ) ) ; 
+d . setf ( "ShadowZone_FirstStone" , 0 ) ; 
+ShadowZoneLIB3 . clearCoolTimer ( ) ; 
+d . notice ( "Shadow tower: %s was revealed! You can proceed to next floor!" , c_mob_name ( 29382 ) ) ; 
+ShadowZoneLIB3 . spawnPortalGate ( ) 
+end 
+ return end 

@@ -1,0 +1,39 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/tagteam.tga]
+[CENTER_ALIGN;FONT_SIZE=18]Tag Team Event
+
+[COLOR=0xffd700;FONT_SIZE=15]Content List:
+*1. Allgemeine Informationen
+*2. Event Erklärung
+*3. Belohnungen
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=100; CENTER_ALIGN]
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen:
+
+Das Tag Team Event ist ein PvP Kampf gegen andere Gruppen.
+Eine Gruppe besteht aus 2 Spielern und es treten 7 verschiedene Gruppen
+gegeneinander in den Kampf. Die Gewinner Gruppe wird eine Belohnung erhalten.
+Du kannst dich beim Hauptmann zusammen mit deinem Partner anmelden.
+Ebenso kannst du über den Hauptmann einfach nur zuschauen.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=220; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Event Erklärung:
+
+Nachdem genug Gruppen angemeldet sind, werdet du und dein Partner zusammen mit 7 anderen
+Gruppen auf eine spezielle Map geportet, auf der der Kampf ausgetragen wird.
+Auf dieser Map sind alle Tränke und Elixiere deaktiviert.
+Das Team das als letztes überlebt hat das Tag Team Event gewonnen und wird eine Belohnung erhalten.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=330; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Belohnungen: 
+
+Die Belohnungen für das jeweilige Tag Team Event findet ihr im Forum in dem jeweiligen
+Foren Thread zum Tag Team Event.
+
+
+

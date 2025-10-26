@@ -1,0 +1,115 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/runes.tga]
+[CENTER_ALIGN]In den letzten Jahrzehnten wurde das Wissen über die Runen auf N2 immer weiter verbreitet. 
+[CENTER_ALIGN]Die klügsten Köpfe der Welt, die Schamanen haben die alten Glyphen studiert und sammelten 
+[CENTER_ALIGN]Informationen aus den Tiefen der Geschichte und versuchten das Geheimnis der Runen zu verstehen.
+[CENTER_ALIGN]Sie fanden heraus, dass die Kraft der Runen ihren Ursprung bei Jotun-Thrym hat.
+[CENTER_ALIGN]Wer weiß, vielleicht gibt es noch mehr solche Geheimnisse in der Welt von Metin2.
+
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Einführung des Runensystems
+*2. Wie schaltet man Runen frei?
+*3. Häufig genutzte Bäume & Tipps
+*4. Wie verbessere ich Runen?
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=190; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Einführung des Runensystems
+
+Das System ermöglicht es den Spielern sich in eine bestimmte Richtung zu spezialisieren, sei es
+PvP oder PvM. Das Runensystem kann über die F5 Taste und den Button auf der Minimap geöffnet werden.
+
+[COLOR=ef4f00;FONT_SIZE=15]1.1 Primär Bäume
+
+Es gibt 5 verschiedene Primär Bäume, die man auswählen kann:
+
+*Präzision
+*Dominanz
+*Zauberei
+*Entschlossenheit
+*Inspiration
+
+Nachdem du einen Primär Baum ausgesucht hast, kannst du eine Schlüsselrune sowie 3 weitere
+Runen auswählen und deiner jeweiligen Sitatuion anpassen.
+
+[COLOR=ef4f00;FONT_SIZE=15]1.2 Sekundär Bäume
+
+Sekundär Bäume werden mit den Primär Baumen kombiniert um eine Runen Seite zu vervollständigen. 
+Du wählst auf der Sekundär Baum Seite 2 Runen eines anderen Baumes aus. (Schlüsselrunen ausgeschlossen)
+
+[COLOR=ef4f00;FONT_SIZE=15]1.3 Control Buttons
+
+In der oberen rechten Ecke des Runensystems findest du 4 Control Buttons:
+
+*Reset
+*Reset Points
+*Buy Points
+*Save
+
+In der unteren rechten Ecke des Runensystems findest du ein Runen System Tutorial.
+Um zwischen Bäumen zu wechseln, drück einfach auf das Symbol des aktuell ausgewählten Baumes.
+Hast du alle 6 Runen ausgewählt musst du oben auf "Save" drücken und die Runenseite ist aktiv.
+Bereits gekaufte Runen können zurückgesetzt werden, mittels dem Reset Points Button, hierfür
+benötigst du aber ein Buch der Erleuchtung, welches du beim Gaya Händler findest.
+Eine aktuell ausgewählte Runenseite kann mittels dem "Reset" Button geleert werden. 
+Die jeweilig aktive Schlüsselrune wird auf der linken oberen Ecke des Spielfensters angezeigt.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=700; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Wie schaltet man Runen frei?
+
+Um eine Rune zu kaufen werden 12 Runenpunkte benötigt.
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1 Runen Punkte
+
+Man kann einen Runen Punkt über den "Buy Points" Button kaufen. Für die ersten 145 Runen Punkte werden
+die Runen Items aus den Lv 90 Maps benötigt. Die restlichen Punkte, bis zu einem Maximum von 720 Punkten,
+müssen mit den Runen Items aus den Lv 105 Wäldern gekauft werden. Jeder Runenpunkt kostet zusätzlich zu 
+den Runen Items 6.000.000 Yang.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]2.2 Freischalten und Auswählen einer Rune
+
+Wenn du 12 Runen Punkte hast, klicke auf die Rune, die du Freischalten möchtest. Danach
+wählst du die Rune aus und drückst auf "Save" um die Rune zu aktivieren und der Bonus
+aktiv ist. Achtung: Nach dem Speichern ist es nichtmehr möglich auf einen anderen Primär
+Baum zu wechseln, dazu musst du davor auf "Reset" drücken.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=960; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Häufig genutzte Bäume & Tipps
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1 Beliebter PvM Baum (Allround)
+
+Primär Baum, Dominanz: Seelenraub, Monster, Boss, Metin
+Sekundär Baum, Präzision: Durchschnittlicher Schaden, Kritischer Schaden
+
+[COLOR=ef4f00;FONT_SIZE=15]3.2 Beliebter PvM Baum (Für Bosse)
+
+Um den maximalen Damage bei Bossen rauszuholen, empfiehlt es sich den oben genannten Allround
+Baum zu benutzen und z.B. das Metin gegen das jeweilige Stark gegen den jeweiligen Boss auszutauschen.
+Zum Beispiel beim Zodiak Tempel: Metin wird gegen Zodiakmonster Rune ausgetauscht.
+
+[COLOR=ef4f00;FONT_SIZE=15]3.3 Tipps
+
+Kurz bevor ein Boss tot ist, könnt ihr auf die Rune "Dieb" im Inspirations Baum wechseln, damit
+habt ihr die Möglichkeit ein Item doppelt zu droppen. Die Rune "Trank Effekt Zuwachs", ebenso im
+Inspirations Baum verstärkt eure Taus. Es ist also schlau, um den maximalen Damage rauszukitzeln,
+die Rune vor dem Aktivieren der Taus zu Aktivieren. 
+Sind alle Runen eines Baumes freigeschaltet, erhält man einen Bonus von 15% Stark gegen Halbmenschen
+und 10% Widerstand gegen Halbmenschen.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=1260; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Wie verbessere ich Runen?
+
+Wenn ihr alle Lv 1 Runen freigeschaltet habt, habt ihr die Möglichkeit die Runen auf Stufe 2 zu verbessern.
+Dadurch sind die Runen nochmal stärker. Einfach auf das (+) der jeweiligen Rune drücken und du kannst sie
+auf Stufe 2 verbessern. Du benötigst Runen Items von den Lv 105 Wäldern und 50.000.000 Yang pro v2 Rune.
+
+
+

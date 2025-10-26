@@ -1,0 +1,15 @@
+Group Yongbi Çölü
+{
+	Daily	1
+	Hour	12
+	Mob	9430
+	1	metin2_map_n_desert_01	160	87900	63000
+}
+
+Group Seungryong Vadisi
+{
+	Daily	1
+	Hour	12
+	Mob	9431
+	1	map_a2	400	77400	86800
+}

@@ -1,0 +1,890 @@
+#ifndef METIN2_GAME_ITEMCONSTANTS_HPP
+#define METIN2_GAME_ITEMCONSTANTS_HPP
+
+#include <Config.hpp>
+
+#if VSTD_HAS_PRAGMA_ONCE
+#pragma once
+#endif
+
+#include <storm/String.hpp>
+#include "Constants.hpp"
+
+enum EItemMisc
+{
+	ITEM_NAME_MAX_LEN			= 30,
+	ITEM_VALUES_MAX_NUM			= 6,
+	ITEM_SMALL_DESCR_MAX_LEN	= 256,
+	ITEM_LIMIT_MAX_NUM			= 2,
+	ITEM_APPLY_MAX_NUM			= 6,
+	ITEM_SOCKET_MAX_NUM			= 6,
+	ITEM_MAX_GAME_SOCKET_NUM	= 3,
+	ITEM_MAX_COUNT				= 100000,
+	ITEM_ATTRIBUTE_MAX_NUM		= 7,
+	ITEM_MAX_NORM_ATTR_NUM = 5,
+	ITEM_MAX_RARE_ATTR_NUM = 2,
+	ITEM_ATTRIBUTE_MAX_LEVEL	= 5,
+	ITEM_AWARD_WHY_MAX_LEN		= 50,
+	ITEM_MAX_REFINE_TYPES = 3,
+	ITEM_SHINING_MAX_COUNT = 3,
+	CHANGELOOK_COST = 50000000,
+	E_SEAL_DATE_UNLIMITED_TIMESTAMP = -1,
+
+	REFINE_MATERIAL_MAX_NUM		= 5,
+	REFINE_ENHANCE_MATERIAL_MAX_NUM		= 2,
+
+	ITEM_ELK_VNUM				= 50026,
+	SHOP_INVENTORY_MAX_NUM		= 90,
+
+	INVENTORY_PAGE_WIDTH = 5,
+	INVENTORY_PAGE_HEIGHT = 9,
+
+	INVENTORY_PAGE_SIZE = INVENTORY_PAGE_WIDTH * INVENTORY_PAGE_HEIGHT,
+
+	INVENTORY_PAGE_COUNT = 15,
+	NORMAL_INVENTORY_MIN_PAGE = 0,
+	NORMAL_INVENTORY_MAX_PAGE = 5,
+	MATERIAL_INVENTORY_MAX_PAGE = 10,
+	COSTUME_INVENTORY_MAX_PAGE = 15,
+
+	INVENTORY_MAX_NUM = INVENTORY_PAGE_SIZE * INVENTORY_PAGE_COUNT,
+
+	BELT_INVENTORY_WIDTH = 4,
+	BELT_INVENTORY_HEIGHT= 4,
+	BELT_INVENTORY_SLOT_COUNT = BELT_INVENTORY_WIDTH * BELT_INVENTORY_HEIGHT,
+
+
+	EXCHANGE_WIDTH = 6,
+	EXCHANGE_HEIGHT = 4,
+	EXCHANGE_ITEM_MAX_NUM = EXCHANGE_WIDTH * EXCHANGE_HEIGHT,
+
+	LEVEL_PET_START_LEVEL = 1,
+	LEVEL_PET_MAX_LEVEL = 150,
+	LEVEL_PET_STAT_POINT_PER_LEVEL = 3,
+};
+
+
+enum
+{
+	UNIQUE_GROUP_LUCKY_GOLD = 10024,
+	UNIQUE_GROUP_AUTOLOOT = 10011,
+	UNIQUE_GROUP_RING_OF_EXP = 10000,
+	UNIQUE_GROUP_FISH_MIND = 10009,
+	UNIQUE_GROUP_LARGE_SAFEBOX = 10021,
+	UNIQUE_GROUP_DOUBLE_ITEM = 10002,
+	UNIQUE_GROUP_RING_OF_LANGUAGE = 10025,
+	UNIQUE_GROUP_ANTI_EXP = 10026,
+
+	UNIQUE_GROUP_SPECIAL_RIDE	=	10030,
+	UNIQUE_GROUP_DRAGON_HEART	=	10053,
+
+	UNIQUE_ITEM_TEARDROP_OF_GODNESS = 70012,
+	UNIQUE_ITEM_RING_OF_LANGUAGE = 70006,
+	UNIQUE_ITEM_WHITE_FLAG = 70008,
+	UNIQUE_ITEM_TREASURE_BOX = 70009,    
+	UNIQUE_ITEM_CAPE_OF_COURAGE = 70038,
+	UNIQUE_ITEM_CAPE_OF_COURAGE_PREMIUM	= 71247,
+	UNIQUE_ITEM_CAPE_OF_COURAGE_PREMIUM2	= 71248,
+
+	UNIQUE_ITEM_HIDE_ALIGNMENT_TITLE = 70048,
+	UNIQUE_ITEM_SKIP_ITEM_DROP_PENALTY = 70049,
+	UNIQUE_ITEM_FASTER_ALIGNMENT_UP_BY_TIME = 70050,
+	UNIQUE_ITEM_FASTER_ALIGNMENT_UP_BY_KILL = 70051,
+
+	UNIQUE_ITEM_NO_BAD_LUCK_EFFECT = 70052,
+
+	UNIQUE_ITEM_DOUBLE_EXP 	= 70005,
+	UNIQUE_ITEM_DOUBLE_ITEM 	= 70043,
+
+	UNIQUE_ITEM_PARTY_BONUS_EXP = 70003,
+	UNIQUE_ITEM_PARTY_BONUS_EXP_MALL = 71012,
+	UNIQUE_ITEM_PARTY_BONUS_EXP_GIFT = 76011,
+
+	ITEM_GIVE_STAT_RESET_COUNT_VNUM = 70014,
+	ITEM_SKILLFORGET_VNUM = 70037,
+
+	UNIQUE_ITEM_FISH_MIND = 71008,		// 월간어심
+	UNIQUE_ITEM_EMOTION_MASK = 71011,	// 열정의 가면
+	UNIQUE_ITEM_EMOTION_MASK2 = 71033,	// 열정의 가면
+
+	ITEM_NEW_YEAR_GREETING_VNUM = 50023,
+
+	ITEM_WONSO_BEAN_VNUM = 50020,
+	ITEM_WONSO_SUGAR_VNUM = 50021,
+	ITEM_WONSO_FRUIT_VNUM = 50022,
+
+	ITEM_VALENTINE_ROSE = 50024,
+	ITEM_VALENTINE_CHOCOLATE = 50025,
+
+	ITEM_WHITEDAY_CANDY = 50032,
+	ITEM_WHITEDAY_ROSE = 50031,
+
+	ITEM_HORSE_FOOD_1 = 50054,
+	ITEM_HORSE_FOOD_2 = 50055,
+	ITEM_HORSE_FOOD_3 = 50056,
+	ITEM_REVIVE_HORSE_1 = 50057,
+	ITEM_REVIVE_HORSE_2 = 50058,
+	ITEM_REVIVE_HORSE_3 = 50059,
+	ITEM_HORSE_SKILL_TRAIN_BOOK = 50060,
+
+	//UNIQUE_ITEM_MARRIAGE_FASTER_LOVE_POINT = 71068,
+	UNIQUE_ITEM_MARRIAGE_PENETRATE_BONUS = 71069,
+	UNIQUE_ITEM_MARRIAGE_EXP_BONUS = 71070,
+	UNIQUE_ITEM_MARRIAGE_CRITICAL_BONUS = 71071,
+	UNIQUE_ITEM_MARRIAGE_TRANSFER_DAMAGE = 71072,
+	UNIQUE_ITEM_MARRIAGE_ATTACK_BONUS = 71073,
+	UNIQUE_ITEM_MARRIAGE_DEFENSE_BONUS = 71074,
+
+	ITEM_MARRIAGE_RING = 70302,
+
+	ITEM_MINING_SKILL_TRAIN_BOOK = 50600,
+
+	ITEM_GLASS	=	71113, //Display items in chat with this
+
+	ITEM_BROKEN_METIN_VNUM = 28960,
+
+	ITEM_AUTO_HP_RECOVERY_S	=	72723,
+	ITEM_AUTO_HP_RECOVERY_M	=	72724,
+	ITEM_AUTO_HP_RECOVERY_L	=	72725,
+	ITEM_AUTO_HP_RECOVERY_X	=	72726,
+
+	ITEM_AUTO_SP_RECOVERY_S	=	72727,
+	ITEM_AUTO_SP_RECOVERY_M	=	72728,
+	ITEM_AUTO_SP_RECOVERY_L	=	72729,
+	ITEM_AUTO_SP_RECOVERY_X	=	72730,
+	ITEM_RAMADAN_CANDY =		50183,
+	ITEM_NOG_POCKET			=	50216,
+	REWARD_UNIQUE_BANDAGE = 27124, ///add Bandage
+	UNIQUE_CHRISTMAS_LOLLIPOP = 71136,
+
+	REWARD_BOX_ITEM_AUTO_HP_RECOVERY_S = 76021,
+	REWARD_BOX_ITEM_AUTO_HP_RECOVERY_XS = 76022,
+	RUBINUM_ITEM_AUTO_SP_RECOVERY_S = 76004,
+	RUBINUM_ITEM_AUTO_SP_RECOVERY_XS = 76005,
+
+	REWARD_BOX_UNIQUE_ITEM_CAPE_OF_COURAGE = 76007,
+	
+	// 용혼석 추출 확률을 높여주는 아이템
+	DRAGON_SOUL_EXTRACTOR_GROUP = 10600,
+	// 용심 추출해주는 아이템
+	DRAGON_HEART_EXTRACTOR_GROUP = 10601,
+	// 용혼석에서 추출할 때 주는 용심.
+	DRAGON_HEART_VNUM = 100000,
+};
+
+
+enum EWindows
+{
+	RESERVED_WINDOW,
+	INVENTORY,				// ±âº» ÀÎº¥Åä¸®. (45Ä­ Â¥¸®°¡ 2ÆäÀÌÁö Á¸Àç = 90Ä­)
+	EQUIPMENT,
+	SAFEBOX,
+	MALL,
+	DRAGON_SOUL_INVENTORY,
+	BELT_INVENTORY,			// NOTE: W2.1 ¹öÀü¿¡ »õ·Î Ãß°¡µÇ´Â º§Æ® ½½·Ô ¾ÆÀÌÅÛÀÌ Á¦°øÇÏ´Â º§Æ® ÀÎº¥Åä¸®
+	DESTROYED_WINDOW,
+	NPC_SHOP,
+	PC_SHOP,
+	OFFLINE_SHOP,
+	ACCEREFINE,
+	CHANGELOOK,
+	SWITCHBOT,
+
+	GROUND = 20,					// NOTE: 2013³â 2¿ù5ÀÏ ÇöÀç±îÁö unused.. ¿Ö ÀÖ´Â°ÅÁö???
+	WINDOW_TYPE_MAX,
+};
+
+
+const uint8_t ITEM_SOCKET_REMAIN_SEC = 0;
+enum EItemValueIdice
+{
+	ITEM_VALUE_DRAGON_SOUL_POLL_OUT_BONUS_IDX = 0,
+};
+enum EItemDragonSoulSockets
+{
+	ITEM_SOCKET_DRAGON_SOUL_ACTIVE_IDX = 2,
+	ITEM_SOCKET_CHARGING_AMOUNT_IDX = 2,
+};
+
+enum EAcceSocketType
+{
+	ACCE_SOCKET_DRAIN_PCT,
+	ACCE_SOCKET_ITEM_VNUM,
+};
+enum EAcceSlotType {
+	ACCE_SLOT_TYPE_COMBINE,
+	ACCE_SLOT_TYPE_ABSORB,
+	ACCE_SLOT_TYPE_MAX,
+};
+
+enum {
+	ACCE_SLOT_LEFT,
+	ACCE_SLOT_RIGHT,
+	ACCE_SLOT_RESULT,
+	ACCE_SLOT_MAX_NUM,
+};
+
+enum EChangeLookSlots {
+    CHANGELOOK_SLOT_LEFT = 0,
+    CHANGELOOK_SLOT_RIGHT = 1,
+	CHANGELOOK_SLOT_SPECIAL_ITEM = 2,
+    CHANGELOOK_SLOT_MAX = 3,
+};
+// Çæ ÀÌ°Å ¹ÌÄ£°Å ¾Æ´Ï¾ß?
+// ³ªÁß¿¡ ¼ÒÄÏ È®ÀåÇÏ¸é ¾îÂ¼·Á°í ÀÌÁö¶ö -_-;;;
+
+enum EItemTypes
+{
+    ITEM_NONE,              //0
+    ITEM_WEAPON,            //1//¹«±â
+    ITEM_ARMOR,             //2//°©¿Ê
+    ITEM_USE,               //3//¾ÆÀÌÅÛ »ç¿ë
+    ITEM_AUTOUSE,           //4
+    ITEM_MATERIAL,          //5
+    ITEM_SPECIAL,           //6 //½ºÆä¼È ¾ÆÀÌÅÛ
+    ITEM_TOOL,              //7
+    ITEM_LOTTERY,           //8//º¹±Ç
+    ITEM_ELK,               //9//µ·
+    ITEM_METIN,             //10
+    ITEM_CONTAINER,         //11
+    ITEM_FISH,              //12//³¬½Ã
+    ITEM_ROD,               //13
+    ITEM_RESOURCE,          //14
+    ITEM_CAMPFIRE,          //15
+    ITEM_UNIQUE,            //16
+    ITEM_SKILLBOOK,         //17
+    ITEM_QUEST,             //18
+    ITEM_POLYMORPH,         //19
+    ITEM_TREASURE_BOX,      //20//º¸¹°»óÀÚ
+    ITEM_TREASURE_KEY,      //21//º¸¹°»óÀÚ ¿­¼è
+    ITEM_SKILLFORGET,       //22
+    ITEM_GIFTBOX,           //23
+    ITEM_PICK,              //24
+    ITEM_HAIR,              //25//¸Ó¸®
+    ITEM_TOTEM,             //26//ÅäÅÛ
+	ITEM_BLEND,				//27//»ý¼ºµÉ¶§ ·£´ýÇÏ°Ô ¼Ó¼ºÀÌ ºÙ´Â ¾à¹°
+	ITEM_COSTUME,			//28//ÄÚ½ºÃõ ¾ÆÀÌÅÛ (2011³â 8¿ù Ãß°¡µÈ ÄÚ½ºÃõ ½Ã½ºÅÛ¿ë ¾ÆÀÌÅÛ)
+	ITEM_DS,				//29 //¿ëÈ¥¼®
+	ITEM_SPECIAL_DS,		//30 // Æ¯¼öÇÑ ¿ëÈ¥¼® (DS_SLOT¿¡ Âø¿ëÇÏ´Â UNIQUE ¾ÆÀÌÅÛÀÌ¶ó »ý°¢ÇÏ¸é µÊ)
+	ITEM_EXTRACT,			//31 ÃßÃâµµ±¸.
+	ITEM_SECONDARY_COIN,	//32 ?? ¸íµµÀü??
+	ITEM_RING,				//33 ¹ÝÁö
+	ITEM_BELT,				//34 º§Æ®
+	ITEM_PET,				//35 º§Æ®
+	ITEM_MEDIUM,			//36 º§Æ®
+	ITEM_GACHA,				//37 º§Æ®
+	ITEM_TOGGLE,			//38 º§Æ®
+	ITEM_TALISMAN,
+	ITEM_TYPE_MAX,			//40 º§Æ®
+};
+
+enum EItemSockets
+{
+	// Various limits and their associated sockets:
+
+	ITEM_SOCKET_WEAR_REMAIN_SEC = 0,
+
+	ITEM_SOCKET_REALTIME_EXPIRE = 0,
+	ITEM_SOCKET_REALTIME_USE_COUNT = 1,
+
+	// ITEM_UNIQUE items
+	ITEM_SOCKET_UNIQUE_SAVE_TIME = 1,
+	ITEM_SOCKET_UNIQUE_REMAIN_TIME = 2,
+
+	// ITEM_TOGGLE items
+	ITEM_SOCKET_TOGGLE_ACTIVE = 3,
+	ITEM_SOCKET_TOGGLE_RIDING = 4,
+
+	// TOGGLE_AUTO_RECOVERY only
+	ITEM_SOCKET_AUTORECOVERY_USED = 1,
+	ITEM_SOCKET_AUTORECOVERY_FULL = 2,
+
+	// TOGGLE_LEVEL_PET sockets
+	ITEM_SOCKET_LEVEL_PET_LEVEL = 0,
+	ITEM_SOCKET_LEVEL_NEED_COUNT = 1,
+	ITEM_SOCKET_LEVEL_STAT_POINT = 2,
+	ITEM_SOCKET_LEVEL_PET_SCALE = 3,
+
+};
+
+enum EItemValues
+{
+	ITEM_VALUE_CHARGING_AMOUNT_IDX = 0,
+	ITEM_VALUE_SECONDARY_COIN_UNIT_IDX = 0,
+
+	// ITEM_ARMOR items:
+	ITEM_VALUE_ARMOR_DEF_GRADE = 1,
+	ITEM_VALUE_ARMOR_SHAPE = 3,
+	ITEM_VALUE_ARMOR_DEF_BONUS = 5,
+
+	// ITEM_UNIQUE only:
+	// 1 = remaining time
+	// 0 = absolute timestamp
+	ITEM_VALUE_UNIQUE_IS_REMAIN_MIN = 2,
+	ITEM_VALUE_UNIQUE_EXPIRE = 0,
+
+	// ITEM_METIN items:
+	ITEM_VALUE_METIN_SOCKET_TYPE = 2,
+	ITEM_VALUE_METIN_WEARFLAGS = 3,
+	ITEM_VALUE_METIN_CLASS = 5,
+
+	// ITEM_TOGGLE items:
+	// Unique group, or -1 if unlimited simultaneously active items
+	ITEM_VALUE_TOGGLE_GROUP = 5,
+
+	// Only applies to refine scrolls
+	ITEM_VALUE_REFINE_TYPE = 1,
+
+	// COSTUME_WEAPON target weapon type
+	ITEM_VALUE_COSTUME_WEAPON_TYPE = 3,
+
+	// TOGGLE_AUTO_RECOVERY only:
+	ITEM_VALUE_AUTORECOVERY_AMOUNT = 0,
+	ITEM_VALUE_AUTORECOVERY_TYPE = 1,
+
+	// TOGGLE_PET
+	ITEM_VALUE_PET_VNUM = 0,
+	ITEM_VALUE_PET_IS_SCALEABLE = 2,
+	ITEM_VALUE_PET_SCALE = 3,
+	ITEM_VALUE_PET_IS_ATTACKING = 4,
+	ITEM_VALUE_ATT_PET_GRADE_BONUS = 5,
+	ITEM_VALUE_ATT_PET_LEVEL = 0,
+
+
+	// TOGGLE_MOUNT
+	ITEM_VALUE_MOUNT_VNUM = 0,
+};
+
+enum EToggleSubTypes
+{
+	TOGGLE_AUTO_RECOVERY_HP,
+	TOGGLE_AUTO_RECOVERY_SP,
+	TOGGLE_PET,
+	TOGGLE_MOUNT,
+	TOGGLE_ANTI_EXP,
+	TOGGLE_AFFECT,
+	TOGGLE_LEVEL_PET,
+};
+
+enum ELevelPetSubTypes {
+	LEVEL_PET_FOOD,
+	LEVEL_PET_BONUS_CHANGER,
+};
+
+enum EMediumSubTypes
+{
+	MEDIUM_MOVE_COSTUME_ATTR,
+};
+enum EMetinSubTypes
+{
+	METIN_NORMAL,
+	METIN_GOLD,
+};
+
+enum EWeaponSubTypes
+{
+	WEAPON_SWORD,
+	WEAPON_DAGGER,
+	WEAPON_BOW,
+	WEAPON_TWO_HANDED,
+	WEAPON_BELL,
+	WEAPON_FAN,
+	WEAPON_ARROW,
+	WEAPON_MOUNT_SPEAR,
+	WEAPON_CLAW,
+	WEAPON_QUIVER,
+	WEAPON_BOUQUET,
+	WEAPON_NUM_TYPES,
+
+	WEAPON_NONE = WEAPON_NUM_TYPES + 1,
+};
+
+enum EArmorSubTypes
+{
+	ARMOR_BODY,
+	ARMOR_HEAD,
+	ARMOR_SHIELD,
+	ARMOR_WRIST,
+	ARMOR_FOOTS,
+	ARMOR_NECK,
+	ARMOR_EAR,
+	ARMOR_NUM_TYPES
+};
+
+enum EPolymorphSubTypes
+{
+	POLYMORPH_BALL,
+	POLYMORPH_BOOK,
+};
+
+enum ECostumeSubTypes
+{
+	COSTUME_BODY = ARMOR_BODY,			// [Áß¿ä!!] ECostumeSubTypes enum value´Â  Á¾·ùº°·Î EArmorSubTypesÀÇ ±×°Í°ú °°¾Æ¾ß ÇÔ.
+	COSTUME_HAIR = ARMOR_HEAD,			// ÀÌ´Â ÄÚ½ºÃõ ¾ÆÀÌÅÛ¿¡ Ãß°¡ ¼Ó¼ºÀ» ºÙÀÌ°Ú´Ù´Â »ç¾÷ºÎÀÇ ¿äÃ»¿¡ µû¶ó¼­ ±âÁ¸ ·ÎÁ÷À» È°¿ëÇÏ±â À§ÇÔÀÓ.
+	COSTUME_MOUNT,
+	COSTUME_ACCE,
+	COSTUME_WEAPON,
+	COSTUME_BODY_EFFECT,
+	COSTUME_WEAPON_EFFECT,
+	COSTUME_WING_EFFECT,
+	COSTUME_RANK,
+	COSTUME_NUM_TYPES,
+};
+
+enum EDragonSoulSubType
+{
+	DS_SLOT1,
+	DS_SLOT2,
+	DS_SLOT3,
+	DS_SLOT4,
+	DS_SLOT5,
+	DS_SLOT6,
+	DS_SLOT_MAX,
+};
+
+enum EDragonSoulGradeTypes
+{
+	DRAGON_SOUL_GRADE_NORMAL,
+	DRAGON_SOUL_GRADE_BRILLIANT,
+	DRAGON_SOUL_GRADE_RARE,
+	DRAGON_SOUL_GRADE_ANCIENT,
+	DRAGON_SOUL_GRADE_LEGENDARY,
+	DRAGON_SOUL_GRADE_MYTHICAL,
+	DRAGON_SOUL_GRADE_HEROIC,
+	DRAGON_SOUL_GRADE_MAX,
+
+};
+
+enum EDragonSoulStepTypes
+{
+	DRAGON_SOUL_STEP_LOWEST,
+	DRAGON_SOUL_STEP_LOW,
+	DRAGON_SOUL_STEP_MID,
+	DRAGON_SOUL_STEP_HIGH,
+	DRAGON_SOUL_STEP_HIGHEST,
+	DRAGON_SOUL_STEP_MAX,
+};
+#define DRAGON_SOUL_STRENGTH_MAX 7
+
+enum EDSInventoryMaxNum
+{
+	DRAGON_SOUL_INVENTORY_MAX_NUM = DS_SLOT_MAX * DRAGON_SOUL_GRADE_MAX * 32,
+};
+
+enum EPrivateShop
+{
+	PRIVATE_SHOP_GRID_WIDTH = 10,
+	PRIVATE_SHOP_GRID_HEIGHT = 9,
+	SHOP_GRID_WIDTH = 5,
+	SHOP_GRID_HEIGHT = 9,
+	SHOP_INVENTORY_PAGE_SIZE = SHOP_GRID_HEIGHT * SHOP_GRID_WIDTH,
+	PRIVATE_SHOP_INVENTORY_PAGE_SIZE = SHOP_GRID_HEIGHT * SHOP_GRID_WIDTH,
+};
+
+enum EFishSubTypes
+{
+	FISH_ALIVE,
+	FISH_DEAD,
+};
+
+enum EResourceSubTypes
+{
+	RESOURCE_FISHBONE,
+	RESOURCE_WATERSTONEPIECE,
+	RESOURCE_WATERSTONE,
+	RESOURCE_BLOOD_PEARL,
+	RESOURCE_BLUE_PEARL,
+	RESOURCE_WHITE_PEARL,
+	RESOURCE_BUCKET,
+	RESOURCE_CRYSTAL,
+	RESOURCE_GEM,
+	RESOURCE_STONE,
+	RESOURCE_METIN,
+	RESOURCE_ORE,
+};
+
+enum EUniqueSubTypes
+{
+	UNIQUE_NONE,
+	UNIQUE_BOOK,
+	UNIQUE_SPECIAL_RIDE,
+	UNIQUE_SPECIAL_MOUNT_RIDE,
+};
+
+enum EUseSubTypes
+{
+	USE_POTION,					// 0
+	USE_TALISMAN,
+	USE_TUNING,
+	USE_MOVE,
+	USE_TREASURE_BOX,
+	USE_MONEYBAG,
+	USE_BAIT,
+	USE_ABILITY_UP,
+	USE_AFFECT,
+	USE_CREATE_STONE,
+	USE_SPECIAL,				// 10
+	USE_POTION_NODELAY,
+	USE_CLEAR,
+	USE_INVISIBILITY,
+	USE_DETACHMENT,
+	USE_BUCKET, // UNUSED
+	USE_POTION_CONTINUE,
+	USE_CLEAN_SOCKET,
+	USE_CHANGE_ATTRIBUTE,
+	USE_ADD_ATTRIBUTE,
+	USE_ADD_ACCESSORY_SOCKET,	// 20
+	USE_PUT_INTO_ACCESSORY_SOCKET,
+	USE_ADD_ATTRIBUTE2,
+	USE_RECIPE,
+	USE_CHANGE_ATTRIBUTE2,
+	USE_BIND, // UNUSED
+	USE_UNBIND, // UNUSED
+	USE_TIME_CHARGE_PER,
+	USE_TIME_CHARGE_FIX,				// 28
+	USE_PUT_INTO_BELT_SOCKET,			// 29 º§Æ® ¼ÒÄÏ¿¡ »ç¿ëÇÒ ¼ö ÀÖ´Â ¾ÆÀÌÅÛ 
+	USE_PUT_INTO_RING_SOCKET,			// 30 ¹ÝÁö ¼ÒÄÏ¿¡ »ç¿ëÇÒ ¼ö ÀÖ´Â ¾ÆÀÌÅÛ (À¯´ÏÅ© ¹ÝÁö ¸»°í, »õ·Î Ãß°¡µÈ ¹ÝÁö ½½·Ô)
+	USE_CHEST,
+	USE_CHANGE_COSTUME_ATTR,
+	USE_RESET_COSTUME_ATTR,
+	USE_ADD_ATTRIBUTE_RARE,
+	USE_CHANGE_ATTRIBUTE_RARE,
+	USE_ENHANCE_TIME,
+	USE_CHANGE_ATTRIBUTE_PERM,
+	USE_ADD_ATTRIBUTE_PERM,
+	USE_MAKE_ACCESSORY_SOCKET_PERM,
+	USE_SILK_BOTARY,
+	USE_OFFLINE_SHOP_FARMED_TIME,
+	USE_OFFLINE_SHOP_SPECIAL_TIME,
+	USE_SET_TITLE,
+	USE_LEVEL_PET_FOOD,
+	USE_LEVEL_PET_CHANGE_ATTR,
+	USE_BATTLEPASS,
+	USE_ADD_SOCKETS,
+	USE_MAX_NUM,
+};
+
+enum EExtractSubTypes
+{
+	EXTRACT_DRAGON_SOUL,
+	EXTRACT_DRAGON_HEART,
+};
+
+enum EAutoUseSubTypes
+{
+	AUTOUSE_POTION,
+	AUTOUSE_ABILITY_UP,
+	AUTOUSE_BOMB,
+	AUTOUSE_GOLD,
+	AUTOUSE_MONEYBAG,
+	AUTOUSE_TREASURE_BOX
+};
+
+enum EMaterialSubTypes
+{
+	MATERIAL_LEATHER,
+	MATERIAL_BLOOD,
+	MATERIAL_ROOT,
+	MATERIAL_NEEDLE,
+	MATERIAL_JEWEL,
+	MATERIAL_DS_REFINE_NORMAL, 
+	MATERIAL_DS_REFINE_BLESSED, 
+	MATERIAL_DS_REFINE_HOLLY,
+};
+
+enum ESpecialSubTypes
+{
+	SPECIAL_NONE,
+	SPECIAL_HORSE_FOOD,
+	SPECIAL_HORSE_REVIVAL,
+};
+
+enum EToolSubTypes
+{
+	TOOL_FISHING_ROD
+};
+
+enum ELotterySubTypes
+{
+	LOTTERY_TICKET,
+	LOTTERY_INSTANT
+};
+
+enum EQuestSubTypes
+{
+	QUEST_SKILLBOOK,
+};
+
+enum EItemFlag
+{
+	ITEM_FLAG_REFINEABLE		= (1 << 0),
+	ITEM_FLAG_SAVE			= (1 << 1),
+	ITEM_FLAG_STACKABLE		= (1 << 2),	// ¿©·¯°³ ÇÕÄ¥ ¼ö ÀÖÀ½
+	ITEM_FLAG_COUNT_PER_1GOLD	= (1 << 3),
+	ITEM_FLAG_SLOW_QUERY		= (1 << 4),
+	ITEM_FLAG_UNUSED01		= (1 << 5),	// UNUSED
+	ITEM_FLAG_UNIQUE		= (1 << 6), // UNUSED
+	ITEM_FLAG_MAKECOUNT		= (1 << 7),
+	ITEM_FLAG_IRREMOVABLE		= (1 << 8),
+	ITEM_FLAG_CONFIRM_WHEN_USE	= (1 << 9),
+	ITEM_FLAG_QUEST_USE		= (1 << 10),
+	ITEM_FLAG_QUEST_USE_MULTIPLE	= (1 << 11),
+	ITEM_FLAG_QUEST_GIVE		= (1 << 12), //UNUSED
+	ITEM_FLAG_LOG			= (1 << 13),
+	ITEM_FLAG_APPLICABLE		= (1 << 14), //UNUSED
+	ITEM_FLAG_MONEY_ITEM	= (1 << 15),
+	ITEM_FLAG_TIER_3 = (1 << 16),
+	ITEM_FLAG_TIER_4 = (1 << 17),
+};
+
+enum ETalismanSubTypes {
+	TALISMAN_1,
+	TALISMAN_2,
+	TALISMAN_3,
+	TALISMAN_4,
+	TALISMAN_5,
+	TALISMAN_6,
+	TALISMAN_7,
+	
+};
+enum ERingSubTypes {
+	RING_1,
+	RING_2,
+	RING_3,
+	RING_4,
+	RING_5,
+	RING_6,
+	RING_7,
+};
+enum EItemAntiFlag : uint64_t
+{
+	ITEM_ANTIFLAG_FEMALE	= (1 << 0), // ¿©¼º »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_MALE		= (1 << 1), // ³²¼º »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_WARRIOR	= (1 << 2), // ¹«»ç »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_ASSASSIN	= (1 << 3), // ÀÚ°´ »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_SURA		= (1 << 4), // ¼ö¶ó »ç¿ë ºÒ°¡ 
+	ITEM_ANTIFLAG_SHAMAN	= (1 << 5), // ¹«´ç »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_GET		= (1 << 6), // ÁýÀ» ¼ö ¾øÀ½
+	ITEM_ANTIFLAG_DROP		= (1 << 7), // ¹ö¸± ¼ö ¾øÀ½
+	ITEM_ANTIFLAG_SELL		= (1 << 8), // ÆÈ ¼ö ¾øÀ½
+	ITEM_ANTIFLAG_EMPIRE_A	= (1 << 9), // A Á¦±¹ »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_EMPIRE_B	= (1 << 10), // B Á¦±¹ »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_EMPIRE_C	= (1 << 11), // C Á¦±¹ »ç¿ë ºÒ°¡
+	ITEM_ANTIFLAG_SAVE		= (1 << 12), // ÀúÀåµÇÁö ¾ÊÀ½
+	ITEM_ANTIFLAG_GIVE		= (1 << 13), // °Å·¡ ºÒ°¡
+	ITEM_ANTIFLAG_PKDROP	= (1 << 14), // PK½Ã ¶³¾îÁöÁö ¾ÊÀ½
+	ITEM_ANTIFLAG_STACK		= (1 << 15), // ÇÕÄ¥ ¼ö ¾øÀ½
+	ITEM_ANTIFLAG_MYSHOP	= (1 << 16), // °³ÀÎ »óÁ¡¿¡ ¿Ã¸± ¼ö ¾øÀ½
+	ITEM_ANTIFLAG_SAFEBOX	= (1 << 17), // Ã¢°í¿¡ ³ÖÀ» ¼ö ¾øÀ½
+	ITEM_ANTIFLAG_WOLFMAN = (1 << 18),	// °³ÀÎ »óÁ¡¿¡ ¿Ã¸± ¼ö ¾øÀ½
+	ITEM_ANTIFLAG_CHANGE_ATTRIBUTE = (1 << 19),
+	ITEM_ANTIFLAG_DESTROY = (1 << 20),	
+	ITEM_ANTIFLAG_QUICKSLOT	= (1 << 21),
+	ITEM_ANTIFLAG_CHANGELOOK = (1 << 22),
+};
+
+enum EItemWearableFlag
+{
+	WEARABLE_BODY	= (1 << 0),
+	WEARABLE_HEAD	= (1 << 1),
+	WEARABLE_FOOTS	= (1 << 2),
+	WEARABLE_WRIST	= (1 << 3),
+	WEARABLE_WEAPON	= (1 << 4),
+	WEARABLE_NECK	= (1 << 5),
+	WEARABLE_EAR	= (1 << 6),
+	WEARABLE_UNIQUE	= (1 << 7),
+	WEARABLE_SHIELD	= (1 << 8),
+	WEARABLE_ARROW	= (1 << 9),
+	WEARABLE_HAIR	= (1 << 10),
+	WEARABLE_ABILITY		= (1 << 11),
+	WEARABLE_COSTUME_BODY	= (1 << 12),
+};
+
+enum ELimitTypes
+{
+	LIMIT_NONE,
+
+	LIMIT_LEVEL,
+	LIMIT_STR,
+	LIMIT_DEX,
+	LIMIT_INT,
+	LIMIT_CON,
+
+	/// Âø¿ë ¿©ºÎ¿Í »ó°ü ¾øÀÌ ½Ç½Ã°£À¸·Î ½Ã°£ Â÷°¨ (socket0¿¡ ¼Ò¸ê ½Ã°£ÀÌ ¹ÚÈû: unix_timestamp Å¸ÀÔ)
+	LIMIT_REAL_TIME,						
+
+	/// ¾ÆÀÌÅÛÀ» ¸Ç Ã³À½ »ç¿ë(È¤Àº Âø¿ë) ÇÑ ¼ø°£ºÎÅÍ ¸®¾óÅ¸ÀÓ Å¸ÀÌ¸Ó ½ÃÀÛ 
+	/// ÃÖÃÊ »ç¿ë Àü¿¡´Â socket0¿¡ »ç¿ë°¡´É½Ã°£(ÃÊ´ÜÀ§, 0ÀÌ¸é ÇÁ·ÎÅäÀÇ limit value°ª »ç¿ë) °ªÀÌ ¾²¿©ÀÖ´Ù°¡ 
+	/// ¾ÆÀÌÅÛ »ç¿ë½Ã socket1¿¡ »ç¿ë È½¼ö°¡ ¹ÚÈ÷°í socket0¿¡ unix_timestamp Å¸ÀÔÀÇ ¼Ò¸ê½Ã°£ÀÌ ¹ÚÈû.
+	LIMIT_REAL_TIME_START_FIRST_USE,
+
+	/// ¾ÆÀÌÅÛÀ» Âø¿ë ÁßÀÏ ¶§¸¸ »ç¿ë ½Ã°£ÀÌ Â÷°¨µÇ´Â ¾ÆÀÌÅÛ
+	/// socket0¿¡ ³²Àº ½Ã°£ÀÌ ÃÊ´ÜÀ§·Î ¹ÚÈû. (¾ÆÀÌÅÛ ÃÖÃÊ »ç¿ë½Ã ÇØ´ç °ªÀÌ 0ÀÌ¸é ÇÁ·ÎÅäÀÇ limit value°ªÀ» socket0¿¡ º¹»ç)
+	LIMIT_TIMER_BASED_ON_WEAR,
+
+	LIMIT_MAX_LEVEL,
+	LIMIT_MAP,
+
+	LIMIT_MAX_NUM
+};
+
+enum EAttrAddonTypes
+{
+	ATTR_ADDON_NONE,
+	// positive values are reserved for set
+	ATTR_DAMAGE_ADDON = -1,
+};
+
+enum ERefineType
+{
+	REFINE_TYPE_NORMAL,
+	REFINE_TYPE_NOT_USED1,
+	REFINE_TYPE_SCROLL,
+	REFINE_TYPE_HYUNIRON,
+	REFINE_TYPE_MONEY_ONLY,
+	REFINE_TYPE_MUSIN,
+	REFINE_TYPE_BDRAGON,
+};
+
+enum {
+	ABSORB,
+	COMBINE,
+};
+
+enum EAttributeSet 
+{            
+	ATTRIBUTE_SET_WEAPON,
+	ATTRIBUTE_SET_BODY, 
+	ATTRIBUTE_SET_WRIST, 
+	ATTRIBUTE_SET_FOOTS,
+	ATTRIBUTE_SET_NECK,
+	ATTRIBUTE_SET_HEAD,
+	ATTRIBUTE_SET_SHIELD,
+	ATTRIBUTE_SET_EAR,
+	ATTRIBUTE_SET_COSTUME_HAIR,
+	ATTRIBUTE_SET_COSTUME_BODY,
+	ATTRIBUTE_SET_COSTUME_WEAPON,
+	ATTRIBUTE_SET_LEVEL_PET,
+	ATTRIBUTE_SET_MAX_NUM
+};  
+
+enum EDragonSoulDeckType
+{
+	DRAGON_SOUL_DECK_0,
+	DRAGON_SOUL_DECK_1,
+	DRAGON_SOUL_DECK_MAX_NUM = 2,
+
+	DRAGON_SOUL_DECK_RESERVED_MAX_NUM = 3,	// NOTE: Áß¿ä! ¾ÆÁ÷ »ç¿ëÁßÀÌÁø ¾ÊÁö¸¸, 3ÆäÀÌÁö ºÐ·®À» ¿¹¾à ÇØ µÒ. DS DECKÀ» ´Ã¸± °æ¿ì ¹Ýµå½Ã ±× ¼ö¸¸Å­ RESERVED¿¡¼­ Â÷°¨ÇØ¾ß ÇÔ!
+};
+
+enum EWearPositions
+{
+	WEAR_BODY,		// 0
+	WEAR_HEAD,		// 1
+	WEAR_FOOTS,		// 2
+	WEAR_WRIST,		// 3
+	WEAR_WEAPON,	// 4
+	WEAR_NECK,		// 5
+	WEAR_EAR,		// 6
+	WEAR_UNIQUE1,	// 7
+	WEAR_UNIQUE2,	// 8
+	WEAR_ARROW,		// 9
+	WEAR_SHIELD = 10,	// 10
+	WEAR_TALISMAN_1,
+	WEAR_TALISMAN_2,
+	WEAR_TALISMAN_3,
+	WEAR_TALISMAN_4,
+	WEAR_TALISMAN_5,
+	WEAR_TALISMAN_6,
+	WEAR_RING3,
+	WEAR_RING4,
+	WEAR_RING5,
+	WEAR_RING6,
+
+	WEAR_COSTUME_BODY,	// 19
+	WEAR_COSTUME_HAIR,	// 20
+	WEAR_COSTUME_MOUNT, // 21
+	WEAR_COSTUME_ACCE, // 22
+	WEAR_COSTUME_WEAPON, // 23
+
+	WEAR_RING1,			// 24	: ½Å±Ô ¹ÝÁö½½·Ô1 (¿ÞÂÊ)
+	WEAR_RING2,			// 25	: ½Å±Ô ¹ÝÁö½½·Ô2 (¿À¸¥ÂÊ)
+
+	WEAR_BELT,			// 26	: ½Å±Ô º§Æ®½½·Ô
+
+	WEAR_COSTUME_BODY_EFFECT,
+	WEAR_COSTUME_WEAPON_EFFECT,
+	WEAR_COSTUME_WING_EFFECT,
+	WEAR_COSTUME_RANK,
+	WEAR_TALISMAN_7,
+	WEAR_RING7,
+
+	DRAGON_SOUL_EQUIP_SLOT_START = 45,
+	DRAGON_SOUL_EQUIP_SLOT_END = DRAGON_SOUL_EQUIP_SLOT_START + (DS_SLOT_MAX * DRAGON_SOUL_DECK_MAX_NUM),
+	DRAGON_SOUL_EQUIP_RESERVED_SLOT_END = DRAGON_SOUL_EQUIP_SLOT_END + (DS_SLOT_MAX * DRAGON_SOUL_DECK_RESERVED_MAX_NUM),
+
+	WEAR_MAX_NUM	// 
+};
+
+enum SwitchbotEnums {
+	SWITCHBOT_SLOT_COUNT = 6,
+	SWITCHBOT_ALT_COUNT = 3,
+	SWITCHBOT_STATUS_INACTIVE = 0,
+	SWITCHBOT_STATUS_ACTIVE = 1,
+	SWITCHBOT_STATUS_DONE = 2,
+
+};
+
+
+enum RefineFlags
+{
+	REFINE_FLAG_REMOVE_TRANSMUTATION = 1 << 0,
+};
+
+enum RefinerFlags
+{
+	REFINER_FLAG_ONLY_WEAPON = 1 << 0,
+	REFINER_FLAG_ONLY_ARMOR = 1 << 1,
+	REFINER_FLAG_ONLY_ACCESSORY = 1 << 2,
+	REFINER_FLAG_FAILURE_DOWNGRADE = 1 << 3,
+	REFINER_FLAG_FAILURE_IGNORE = 1 << 4,
+	REFINER_FLAG_NO_MATERIALS = 1 << 5,
+};
+
+
+bool GetItemTypeString(storm::StringRef& s, uint32_t val);
+bool GetItemTypeValue(const storm::StringRef& s, uint32_t& val);
+
+bool GetItemSubTypeString(storm::StringRef& s, uint32_t type, uint32_t val);
+bool GetItemSubTypeValue(const storm::StringRef& s, uint32_t type, uint32_t& val);
+
+bool GetItemLimitTypeString(storm::StringRef& s, uint32_t val);
+bool GetItemLimitTypeValue(const storm::StringRef& s, uint32_t& val);
+
+bool GetItemAddonTypeString(storm::StringRef& s, uint32_t val);
+bool GetItemAddonTypeValue(const storm::StringRef& s, uint32_t& val);
+
+bool GetItemFlagsString(storm::String& s, uint32_t val);
+bool GetItemFlagsValue(const storm::String& s, uint32_t& val);
+
+bool GetItemAntiFlagsString(storm::String& s, uint32_t val);
+bool GetItemAntiFlagsValue(const storm::String& s, uint32_t& val);
+
+bool GetItemAttributeSetString(storm::StringRef& s, uint32_t val);
+bool GetItemAttributeSetValue(const storm::StringRef& s, uint32_t& val);
+
+bool GetAppearanceFlagsString(storm::String& s, uint32_t val);
+bool GetAppearanceFlagsValue(const storm::StringRef& s, uint32_t& val);
+
+bool GetRefineFlagsString(storm::String& s, uint32_t val);
+bool GetRefineFlagsValue(const storm::String& s, uint32_t& val);
+
+bool GetRefinerFlagsString(storm::String& s, uint32_t val);
+bool GetRefinerFlagsValue(const storm::String& s, uint32_t& val);
+
+/// Get the minimum belt grade required for |slot|
+uint8_t GetBeltGradeForSlot(uint8_t slot);
+
+bool CanMoveIntoBeltInventory(uint32_t type, uint32_t subType);
+
+#endif // METIN2_GAME_ITEMCONSTANTS_HPP

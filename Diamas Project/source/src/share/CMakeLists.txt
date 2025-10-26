@@ -1,0 +1,27 @@
+add_library(m2.shared INTERFACE)
+target_link_libraries(m2.shared INTERFACE storm)
+target_include_directories(m2.shared INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_subdirectory(base)
+add_subdirectory(xml)
+add_subdirectory(game)
+add_subdirectory(thecore)
+add_subdirectory(mysql)
+add_subdirectory(net)
+if(METIN2_IS_WIN)
+add_subdirectory(lzo)
+set_target_properties(metin2_lzo PROPERTIES FOLDER Shared)
+
+add_subdirectory(windows)
+set_target_properties(metin2_winsup PROPERTIES FOLDER Shared)
+add_subdirectory(pak)
+set_target_properties(metin2_pak PROPERTIES FOLDER Shared)
+
+endif()
+
+set_target_properties(metin2_base PROPERTIES FOLDER Shared)
+set_target_properties(metin2_game PROPERTIES FOLDER Shared)
+set_target_properties(metin2_net PROPERTIES FOLDER Shared)
+set_target_properties(metin2_thecore PROPERTIES FOLDER Shared)
+set_target_properties(metin2_xml PROPERTIES FOLDER Shared)
+set_target_properties(metin2_mysql PROPERTIES FOLDER Shared)

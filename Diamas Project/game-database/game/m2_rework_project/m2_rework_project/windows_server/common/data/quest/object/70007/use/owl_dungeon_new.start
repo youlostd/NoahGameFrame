@@ -1,0 +1,2 @@
+if pc . in_dungeon ( 212 ) then pc . warp ( 164 , 18500 , 18500 ) 
+ return end 

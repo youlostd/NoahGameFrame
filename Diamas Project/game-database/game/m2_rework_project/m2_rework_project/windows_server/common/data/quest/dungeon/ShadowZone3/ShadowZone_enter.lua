@@ -1,0 +1,25 @@
+quest shadowzone_enter begin
+	state start begin
+			
+		when 9376.chat."Vaal Hazak" with not ShadowZoneLIB3.isActive() begin
+			local settings = ShadowZoneLIB3.Settings();
+
+			addimage(25, 10, "shadowzone_bg1.tga");
+			say("[ENTER][ENTER]")
+			say_title(string.format("%s:[ENTER]", c_mob_name(npc.get_race())))
+			say_reward("Do you really want to enter the dungeon?")
+			
+			if (select("Yes!", "No") == 1) then
+				if ShadowZoneLIB3.checkEnter() then
+					say_reward("[ENTER]You must finish the dungeon in 2 hours.[ENTER]Otherwise you will be teleported out[ENTER]of the dungeon.[ENTER][ENTER]I wish you best luck!")
+					wait()
+					ShadowZoneLIB3.CreateDungeon();
+					d.add_boss_vnum(24388)
+					d.add_boss_vnum(24389)
+				end
+			end
+		end
+	end
+end	
+		
+		

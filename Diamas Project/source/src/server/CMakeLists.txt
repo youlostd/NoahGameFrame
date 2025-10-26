@@ -1,0 +1,9 @@
+add_subdirectory(db)
+add_subdirectory(game)
+add_subdirectory(master)
+add_subdirectory(auth)
+
+set_target_properties(metin2server_game PROPERTIES FOLDER Gameserver)
+set_target_properties(metin2server_db PROPERTIES FOLDER Gameserver)
+set_target_properties(metin2server_master PROPERTIES FOLDER Gameserver)
+set_target_properties(metin2server_auth PROPERTIES FOLDER Gameserver)

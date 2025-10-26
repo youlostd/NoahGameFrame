@@ -1,0 +1,35 @@
+quest racepvp begin
+    state start begin
+		-- Trigger on login or quest state enter from setstate
+        when login or enter with pc.get_gm_level() >= 1 begin
+			-- Send the player a letter
+            send_letter_ex(gameforge.appl._pvp, "info", "d:/ymir work/effect/gm_logos/ymirred.dds")
+        end
+		-- when the player presses the letter or the quest in the quest list
+        when button or info with pc.get_gm_level() >= 1 begin
+			notice_all("On Sunday, the 11.04.2021, we will start our first Racial-PvP-Tournament.")
+			notice_all("You have time till the 10.04.2021 at 23:59 CEST to register.!")
+			notice_all("YOU CAN ONLY REGISTER INGAME WITH THE CHARACTER YOU WANT TO PARTICIPATE: |cFF00C0FC|Hweb:httpsw<?board.n2play.pro/forum/index.php?thread/540-racial-pvp-tournament-11-04-21-16-00-cest/|h[CLICK]|h|r LETS GO!")
+			-- set the next time to 1 hours from now
+			next_time_set(60*60*1)
+			-- change state to the wait state 
+			setstate(wait_for_next)
+			
+        end
+    end
+	state wait_for_next begin
+		-- when entering the state clear the letter
+		when enter begin
+			clear_letter()
+		end
+		
+		-- when the player gains a level or he warps or logs in
+		-- and the next time is now
+		-- switch to the start state
+		-- that triggers on entering
+		-- so we send the letter again
+		when login or levelup with next_time_is_now() begin
+			setstate(start)
+		end
+	end
+end

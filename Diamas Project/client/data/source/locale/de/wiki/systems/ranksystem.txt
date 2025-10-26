@@ -1,0 +1,66 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/ranksystem.png]
+[CENTER_ALIGN]Rangpunkte
+
++1.000.000      M = Gott                W = Göttin
++900.000        M = Gottesgleicher      W = Gottesgleiche
++800.000        M = Hunter              W = Engel
++700.000        M = Witcher             W = Elfe
++600.000        M = Ragnarok            W = Cutie
++500.000        M = Void Walker         W = Sternenkind
++400.000        M = Raikage             W = Ginger
++300.000        M = Imperator           W = Titania
++200.000        M = Virtuose            W = Seraphine
++100.000        M = Herrscher           W = Herrscherin
++90.000         M = Seelendieb          W = Seelendiebin
++86.000         M = Hokage              W = Hokage
++76.000         M = Anbu                W = Anbu
++70.000         M = Major               W = Kommandantin
++66.000         M = Super Saiyajin      W = Karifura
++60.000         M = Saiyajin            W = Kunoichi
++56.000         M = Gladiator           W = Verzauberte
++50.000         M = Abgestoßener        W = Legendäre
++46.000         M = Legendärer          W = Göttliche
++40.000         M = Göttlicher          W = Unsterbliche
++36.000         M = Unsterblicher       W = Heilige
++30.000         M = Heiliger            W = Gesegnete
++28.000         M = Gesegneter          W = Kaiserin
++26.000         M = Baron               W = Baroness
++24.000         M = Prinz               W = Prinzessin
++22.000         M = Adliger             W = Zeitlose
++20.000         M = Mystischer          W = Einzigartige
++12.000         M = Einzigartiger       W = Ehrenwerte 
++8.000          M = Ehrenwerter         W = Gutmütige
++4.000          M = Gutmütiger          W = Sympathische
++2.000          M = Sympathischer       W = Kleine 
+
++/- 0             = Neutral
+
+-2.000          M = Schamloser          W = Schamlose 
+-4.000          M = Ungezogener         W = Ungezogene
+-8.000          M = Kampfbereiter       W = Kampfbereite
+-12.000         M = Bösartiger          W = Bösartige
+-20.000         M = Angriffslustiger    W = Streitlustige
+-26.000         M = Hasserfüllter       W = Hasserfüllte
+-30.000         M = Giftiger            W = Giftige
+-36.000         M = Teuflischer         W = Teuflische
+-40.000         M = Grausamer           W = Grausame
+-46.000         M = Attentäter          W = Verbannte
+-50.000         M = Verdammter          W = Verdammte
+-56.000         M = Verfluchter         W = Verfluchte
+-60.000         M = Gottloser           W = Gottlose
+-70.000         M = Dämon               W = Dämonin
+-80.000         M = Schattenjäger       W = Succubus
+-90.000         M = Blutrünstiger       W = Blutrünstige
+-100.000        M = Abtrünniger         W = Abtrünnige
+-200.000        M = Todesritter         W = Hexe
+-300.000        M = Ghoul               W = Ghoula
+-400.000        M = Albtraum            W = Albtraum
+-500.000        M = Untoter             W = Kijo
+-600.000        M = Oni                 W = Gefallener Engel
+-700.000        M = Luzifer             W = Blutgöttin
+-800.000        M = Blutgott            W = Höllenfürstin
+-1.000.000      M = Satan               W = Lilith
+
+
+

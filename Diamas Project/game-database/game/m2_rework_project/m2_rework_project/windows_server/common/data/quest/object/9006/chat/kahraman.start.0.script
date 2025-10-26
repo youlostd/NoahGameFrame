@@ -1,0 +1,23 @@
+say_title ( "Kahraman-Zalim" ) 
+say ( "Hey Sen" ) 
+say ( "Kahraman yada zalim mi olmak istiyorsun?" ) 
+local s = select ( "Kahraman Ol" , "Zalim Ol" , "Kapat" ) 
+if s == 1 then 
+say ( "Kahraman oluyorsun.." ) 
+if pc . get_alignment ( ) > 0 then 
+pc . change_alignment ( - pc . get_alignment ( ) ) 
+elseif pc . get_alignment ( ) < 0 then 
+pc . change_alignment ( - pc . get_alignment ( ) ) 
+end 
+pc . changealignment ( 20000 ) 
+chat ( "Kahraman oldun." ) 
+elseif s == 2 then 
+say ( "Zalim oluyorsun..." ) 
+if pc . get_alignment ( ) > 0 then 
+pc . change_alignment ( - pc . get_alignment ( ) ) 
+elseif pc . get_alignment ( ) < 0 then 
+pc . change_alignment ( - pc . get_alignment ( ) ) 
+end 
+pc . changealignment ( - 20000 ) 
+chat ( "Zalim oldun." ) 
+end 

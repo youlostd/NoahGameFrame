@@ -1,0 +1,73 @@
+20139	Céh Lobogó (lila)
+14401	Fa (2)
+20140	Céh Lobogó (kék/zöld)
+14202	Hátsó fal
+20141	Céh Lobogó (piros/arany)
+14100	Ház (1)
+14101	Kõfal (1-1)
+14102	Kõfal (1-2)
+14103	Kõfal (1-3)
+14104	Kapu (1)
+14105	Fal (1)
+14407	Fa (8)
+14309	Kõ (10)
+14110	Ház (2)
+14111	Kõfal (2-1)
+14112	Kõfal (2-2)
+14113	Kõfal (2-3)
+14114	Kapu (2)
+14115	Fal (2)
+14120	Ház (3)
+14121	Kõfal (3-1)
+14122	Kõfal (3-2)
+14123	Kõfal (3-3)
+14124	Kapu (3)
+14125	Fal (3)
+14301	Kõ (2)
+14200	Céh-jelvény
+14302	Kõ (3)
+14303	Kõ (4)
+14013	Fegyverkovács
+14014	Páncélkovács
+14015	Ékszerész
+14400	Fa (1)
+14304	Kõ (5)
+14402	Fa (3)
+14403	Fa (4)
+14404	Fa (5)
+14405	Fa (6)
+14406	Fa (7)
+14305	Kõ (6)
+14408	Fa (9)
+14306	Kõ (7)
+14033	Kiképzõ központ
+14307	Kõ (8)
+14201	Homlokzati fal
+14308	Kõ (9)
+14043	Gyémánt-kohó
+14300	Kõ (1)
+14045	Megköv. fa-kohó
+14046	Réz-kohó
+14047	Ezüst-kohó
+14048	Arany-kohó
+14049	Jáde-kohó
+14050	Ébenfa-kohó
+14051	Gyöngy-kohó
+14052	Fehérarany-kohó
+14053	Kristály-kohó
+14054	Ametiszt-kohó
+14055	Mennyei könny-kohó
+14204	Jobb oldali fal
+14061	Az Erõ oltára
+14062	Az Erõ oltára
+14063	Az Erõ oltára
+14203	Bal oldali fal
+14071	Céhraktár
+14072	Céhraktár
+14073	Céhraktár
+14074	Lélekkristály-kohó
+14075	Rubin-kohó
+14076	Gránát-kohó
+14077	Smaragd-kohó
+14078	Zafír-kohó
+14079	Turmalin-kohó

@@ -1,0 +1,8 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/environment:d:/ymir work/environment/" ArchivePath="../bin/pack/environment.pak" XmlPath="xml/environment_create.xml">
+		<Ignore Pattern="*.png" />
+		<Ignore Pattern="*.psd" />
+		<Ignore Pattern="*.uas" />
+		<Ignore Pattern="*.pdn" />
+	</CreateEterPackXml>
+</ScriptFile>

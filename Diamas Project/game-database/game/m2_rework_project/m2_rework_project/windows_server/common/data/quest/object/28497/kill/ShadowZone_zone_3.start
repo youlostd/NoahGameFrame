@@ -1,0 +1,8 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 7 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local n = d . getf ( "ShadowZone_7th_stone" ) + 1 
+d . setf ( "ShadowZone_7th_stone" , n ) 
+if n >= settings [ "FIFTH_STONE_COUNT" ] then 
+d . notice ( "Shadow tower: Beware! %s is coming!" , c_mob_name ( 24386 ) ) ; 
+server_timer ( "ShadowZone_FifthFBoss_spawner_3" , settings [ "time_to_jump" ] , d . get_map_index ( ) ) 
+end 
+ return end 

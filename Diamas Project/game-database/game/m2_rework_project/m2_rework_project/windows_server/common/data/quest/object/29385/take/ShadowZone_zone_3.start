@@ -1,0 +1,8 @@
+if item . get_vnum ( ) == 30849 and ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 8 and d . getf ( "ShadowZone_8F_Pillar" ) == 3 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local PillarPos = settings [ "pillar2_pos" ] 
+local Time = settings [ "time_to_spawn_6_boss" ] 
+item . remove ( ) 
+ShadowZoneLIB3 . clearDungeon ( ) ; 
+d . notice ( "Shadow tower: If you have %s, you have last %s seconds to use it!" , c_item_name ( 30850 ) , Time ) ; 
+server_timer ( "ShadowZone_SixthBoss_spawner_3" , Time , d . get_map_index ( ) ) 
+ return end 

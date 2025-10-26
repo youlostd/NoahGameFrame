@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/sound:sound/" ArchivePath="../bin/pack/sound.pak" XmlPath="xml/sound_create.xml">
+		<Ignore Pattern="*.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

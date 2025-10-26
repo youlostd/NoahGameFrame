@@ -1,0 +1,10 @@
+[DELAY value;0]
+Lykaner sind hünenhafte Wolfswesen, die[ENTER]
+einst durch einen unheilbaren Virus ihre[ENTER]
+menschliche Gestalt verloren und zur Bestie[ENTER]
+mutierten. Ihre ungezügelte Kraft sowie ein[ENTER]
+ausgeprägter Instinkt machen sie zu[ENTER]
+hervorragenden Nahkämpfern. Sie scheuen[ENTER]
+keinen Konflikt und suchen stets den Weg zur[ENTER]
+[WAIT]
+Front.

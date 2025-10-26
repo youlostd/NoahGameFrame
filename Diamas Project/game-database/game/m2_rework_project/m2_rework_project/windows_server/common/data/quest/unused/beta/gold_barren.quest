@@ -1,0 +1,9 @@
+quest gold_barren begin
+    state start begin
+        when 80012.use begin
+			pc.remove_item(80012, 1)
+            pc.changegold(100000000)
+			chat("Du hast erfolgreich 100.000.000 Yang erhalten!")
+        end 
+    end 
+end 

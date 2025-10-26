@@ -1,0 +1,2 @@
+if pc . get_map_index ( ) == 160 or pc . get_map_index ( ) == 175 then affect . remove ( ) 
+ return end 

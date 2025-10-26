@@ -1,0 +1,8 @@
+say_title ( "PvP Turnuvasi canim: " ) 
+say ( "" ) 
+say ( "BOLGEYI TEMIZLEMEYI ONAYLIYOR MUSUN CANIM?" ) 
+say ( "" ) 
+local teleport_all = select ( "Evet" , "YokGGGGGGGGG" ) 
+if teleport_all == 1 then 
+warp_all_to_village ( 28 , 10 ) 
+end 

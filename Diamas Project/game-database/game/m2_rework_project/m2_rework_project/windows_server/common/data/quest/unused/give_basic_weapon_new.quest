@@ -1,0 +1,36 @@
+quest give_basic_weapon begin
+	state start begin
+		function basic_item(job,index)
+			item_list={}	
+			item_list[0] = {50187}
+			item_list[0] = {50187}
+			item_list[1] = {50212}
+			item_list[1] = {50212}
+			item_list[2] = {71180}
+			item_list[2] = {71180}
+			item_list[3] = {50213}
+			item_list[3] = {50213}
+			return  item_list[job][index]
+		end
+
+		when login begin
+			if pc.getqf("basic_weapon") == 0 then
+				horse.set_level(21)
+				pc.set_skill_level ( 131 , 10 )
+				pc.set_skill_level ( 139 , 20 )
+				pc.set_skill_level ( 138 , 20 )
+				pc.set_skill_level ( 137 , 20 )
+				pc.set_skill_level ( 127 , 20 )
+				pc.set_skill_level ( 126 , 20 )
+				pc.set_skill_level ( 128 , 20 )
+				pc.setqf("basic_weapon", 1)
+
+
+				if pc.countitem(item) == 0 and pc.weapon != item then
+					pc.give_item2(give_basic_weapon.basic_item(pc.job,1) )
+				end
+			end
+		end
+		end
+		end
+

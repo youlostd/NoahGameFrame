@@ -1,0 +1,1 @@
+checkQuests.py > checkFailed.txt

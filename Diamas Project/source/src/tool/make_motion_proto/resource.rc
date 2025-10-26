@@ -1,0 +1,6 @@
+#define METIN2_COMPONENT_DESCRIPTION "Create motion-table"
+#define METIN2_COMPONENT_INTERNALNAME "MakeMotionTable"
+#define METIN2_COMPONENT_FILENAME "make_motion_table"
+#define METIN2_COMPONENT_TYPE VFT_APP
+
+#include <version_info.rc>

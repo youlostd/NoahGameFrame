@@ -1,0 +1,115 @@
+local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local Floor = d . getf ( "ShadowZone_floor" ) 
+local StatuePosition = settings [ "reaper_statue_pos" ] 
+if Floor == 1 then 
+local Position_2 = settings [ "pos_2_floor" ] 
+local SecondFloorTimer = settings [ "timer_second_floor" ] 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . setf ( "ShadowZone_floor" , 2 ) ; 
+d . setf ( "ShadowZone_2f_KillMonsters" , 1 ) ; 
+d . setf ( "ShadowZone_2f_Seal" , 1 ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_2a.txt" ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_2b.txt" ) ; 
+d . notice ( "Shadow tower: Destroy both %s! Destroy all monsters to get a key!" , c_mob_name ( 29377 ) ) ; 
+d . jump_all ( Position_2 [ 1 ] , Position_2 [ 2 ] ) 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_SecondFloor" , SecondFloorTimer , d . get_map_index ( ) ) 
+elseif Floor == 2 then 
+local Position_3 = settings [ "pos_3_floor" ] 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . setf ( "ShadowZone_floor" , 3 ) ; 
+ShadowZoneLIB3 . spawnSecondStone ( ) ; 
+d . notice ( "Shadow tower: Find real %s and destroy it!" , c_mob_name ( 28495 ) ) ; 
+d . notice ( "Shadow tower: Every wrong stone hides %s inside!" , c_mob_name ( 24382 ) ) ; 
+d . notice ( "Shadow tower: The more fake stones you destroy, the more HP will have a next boss!" ) ; 
+ShadowZoneLIB3 . noCoolTimer ( ) ; 
+d . jump_all ( Position_3 [ 1 ] , Position_3 [ 2 ] ) 
+elseif Floor == 3 then 
+local Position_4 = settings [ "pos_4_floor" ] 
+local FourthFloorTimer = settings [ "timer_fourth_floor" ] 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . setf ( "ShadowZone_floor" , 4 ) ; 
+d . setf ( "ShadowZone_4f_KillMonsters" , 1 ) ; 
+d . spawn_mob_dir ( 29378 , StatuePosition [ 1 ] , StatuePosition [ 2 ] , StatuePosition [ 3 ] ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_4a.txt" ) ; 
+d . jump_all ( Position_4 [ 1 ] , Position_4 [ 2 ] ) 
+d . notice ( "Shadow tower: Kill all monsters to get %s, then start to build a %s" , c_item_name ( 30846 ) , c_mob_name ( 29378 ) ) ; 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_FourthFloor" , FourthFloorTimer , d . get_map_index ( ) ) 
+elseif Floor == 4 then 
+local Position_5 = settings [ "pos_5_floor" ] 
+local FifthFloorTimer = settings [ "timer_fifth_floor" ] 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . setf ( "ShadowZone_floor" , 5 ) ; 
+ShadowZoneLIB3 . spawnThirdStone ( ) ; 
+d . set_regen_file ( settings [ "regen_file" ] .. "regen_5a.txt" ) ; 
+d . jump_all ( Position_5 [ 1 ] , Position_5 [ 2 ] ) 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_FifthFloor" , FifthFloorTimer , d . get_map_index ( ) ) 
+elseif Floor == 5 then 
+local Position_6 = settings [ "pos_6_floor" ] 
+local PillarPos = settings [ "fourth_stone_pos" ] 
+local BossPos = settings [ "fourth_boss_pos" ] 
+local SixthFloorTimer = settings [ "timer_sixth_floor" ] 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . setf ( "ShadowZone_floor" , 6 ) ; 
+d . setf ( "ShadowZone_PillarActive" , 1 ) ; 
+d . spawn_mob ( 28499 , PillarPos [ 1 ] , PillarPos [ 2 ] ) ; 
+d . spawn_mob ( 24385 , BossPos [ 1 ] , BossPos [ 2 ] ) ; 
+d . set_regen_file ( settings [ "regen_file" ] .. "regen_6a.txt" ) ; 
+d . jump_all ( Position_6 [ 1 ] , Position_6 [ 2 ] ) 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_SixthFloor" , SixthFloorTimer , d . get_map_index ( ) ) 
+elseif Floor == 6 then 
+local Position_7 = settings [ "pos_7_floor" ] 
+addimage ( 25 , 10 , "shadowzone_bg2.tga" ) ; say ( "[ENTER][ENTER]" ) 
+say_title ( c_mob_name ( 9376 ) ) 
+say ( "[ENTER]If you want to continue, all people need:" ) 
+say_item ( "" .. c_item_name ( 30848 ) .. "" , 30848 , "" ) 
+if not party . is_party ( ) or party . get_near_count ( ) < settings [ "maximumPartyMembers" ] then 
+say_reward ( "You can only continue with 4 group members." ) 
+return 
+end 
+if ( select ( "Continue" , "Close" ) == 1 ) then 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . exit_all_by_item_group ( "ShadowZone_6F_ticket" ) ; d . delete_item_in_item_group_from_all ( "ShadowZone_6F_ticket" ) ; 
+d . setf ( "ShadowZone_floor" , 7 ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_7a.txt" ) ; 
+ShadowZoneLIB3 . noCoolTimer ( ) ; 
+d . jump_all ( Position_7 [ 1 ] , Position_7 [ 2 ] ) 
+end 
+elseif Floor == 7 then 
+local Position_8 = settings [ "pos_8_floor" ] 
+local Pillar2Pos = settings [ "pillar2_pos" ] 
+local EightFloorTimer = settings [ "timer_eight_floor" ] 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . setf ( "ShadowZone_floor" , 8 ) ; 
+d . setf ( "ShadowZone_8F_Pillar" , 1 ) ; 
+d . setf ( "ShadowZone_8F_Drop" , 1 ) ; 
+d . set_regen_file ( settings [ "regen_file" ] .. "regen_8a.txt" ) ; 
+d . spawn_mob_dir ( 29383 , Pillar2Pos [ 1 ] , Pillar2Pos [ 2 ] , Pillar2Pos [ 3 ] ) 
+d . jump_all ( Position_8 [ 1 ] , Position_8 [ 2 ] ) 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_EightFloor" , EightFloorTimer , d . get_map_index ( ) ) 
+elseif Floor == 8 then 
+local Position_9 = settings [ "pos_9_floor" ] 
+local StonePos = settings [ "sixth_stone_pos" ] 
+local TimeToDestroy = settings [ "time_to_destroy_finalstone" ] 
+local minutes = math . floor ( TimeToDestroy / 60 ) 
+setskin ( NOWINDOW ) ; 
+npc . purge ( ) ; 
+d . setf ( "ShadowZone_floor" , 9 ) ; 
+d . setf ( "ShadowZone_9f_StoneD" , 1 ) ; 
+d . jump_all ( Position_9 [ 1 ] , Position_9 [ 2 ] ) 
+d . spawn_mob ( 28498 , StonePos [ 1 ] , StonePos [ 2 ] ) ; 
+d . notice ( "Shadow tower: Destroy %s in %s minutes! Otherwise you will have to finish next mission 2x!" , c_mob_name ( 28498 ) , minutes ) ; 
+ShadowZoneLIB3 . setCoolTimer ( ) ; 
+server_timer ( "ShadowZone_NinethFloor_1" , TimeToDestroy , d . get_map_index ( ) ) ; 
+end 

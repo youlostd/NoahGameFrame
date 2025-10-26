@@ -1,0 +1,18 @@
+quest trade_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("trade_a") > 0 begin
+		send_letter(gameforge.info.news._050_say)
+	end
+	
+	when info or button begin
+		say_important(gameforge.info.news._050_say)
+		say(gameforge.info.news._100_say)
+		say(gameforge.info.news._110_say)
+		say(gameforge.info.news._120_say)
+		say(gameforge.info.news._130_say)
+		say("")
+	end
+end
+end

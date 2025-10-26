@@ -1,0 +1,14 @@
+say_title ( " 92.Lv Görev; " ) 
+say_reward ( " Bu ödüllerden birini seçmen gerek; " ) 
+say_reward ( " Level 94 görevi için tekrar Chaegirab'a tıklamalısın! " ) 
+local s = select ( " +1000 HP " , " Savunma Değeri +120 " , " Saldırı Değeri +51 " ) 
+if s == 1 then 
+affect . add_collect ( apply . MAX_HP , 1000 , 60 * 60 * 24 * 365 * 60 ) 
+setstate ( "level94" ) 
+elseif s == 2 then 
+affect . add_collect ( apply . DEF_GRADE_BONUS , 120 , 60 * 60 * 24 * 365 * 60 ) 
+setstate ( "level94" ) 
+elseif s == 3 then 
+affect . add_collect ( apply . ATT_GRADE_BONUS , 51 , 60 * 60 * 24 * 365 * 60 ) 
+setstate ( "level94" ) 
+end 

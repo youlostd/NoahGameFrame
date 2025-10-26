@@ -1,0 +1,16 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = PyramidDungeonLIB . Settings ( ) ; 
+d . setf ( "PyramidDungeon_level" , 4 ) ; 
+d . jump_all ( settings [ "insidePos_4f" ] [ 1 ] , settings [ "insidePos_4f" ] [ 2 ] ) ; 
+d . set_regen_file ( "data/dungeon/pyramid_dungeon/regen_4f_a.txt" ) ; 
+d . regen_file ( "data/dungeon/pyramid_dungeon/regen_4f_b.txt" ) ; 
+local Boss3Pos = settings [ "4f_boss_pos" ] ; local Boss1Count = table . getn ( Boss3Pos ) ; local randomNumber = number ( 1 , table . getn ( Boss3Pos ) ) 
+for index = 1 , Boss1Count , 1 begin 
+local RealBoss3f = d . spawn_mob ( 4156 , Boss3Pos [ index ] [ 1 ] , Boss3Pos [ index ] [ 2 ] ) 
+if index == randomNumber then 
+d . set_unique ( "real_boss" , RealBoss3f ) 
+end 
+end 
+d . notice ( "Ancient pyramid: Find a way out from this maze!" ) 
+d . notice ( "Ancient pyramid: At the end, you have to kill real %s!" , c_mob_name ( 4156 ) ) ; 
+end 

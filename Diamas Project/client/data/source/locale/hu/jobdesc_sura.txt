@@ -1,0 +1,6 @@
+[DELAY value;0]
+A surák harcosok, akik[ENTER]
+mágikus erõvel lettek[ENTER]
+megáldva, amikor[ENTER]
+beleegyeztek, hogy az Ördög[ENTER]
+magja kezükben növekedjen.

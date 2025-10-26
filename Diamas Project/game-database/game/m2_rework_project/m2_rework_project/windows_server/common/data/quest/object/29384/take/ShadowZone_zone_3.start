@@ -1,0 +1,8 @@
+if item . get_vnum ( ) == 30849 and ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_floor" ) == 8 and d . getf ( "ShadowZone_8F_Pillar" ) == 2 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local PillarPos = settings [ "pillar2_pos" ] 
+d . setf ( "ShadowZone_8F_Pillar" , 3 ) 
+d . setf ( "ShadowZone_8F_Drop" , 1 ) ; 
+item . remove ( ) 
+npc . kill ( ) 
+d . spawn_mob_dir ( 29385 , PillarPos [ 1 ] , PillarPos [ 2 ] , PillarPos [ 3 ] ) 
+ return end 

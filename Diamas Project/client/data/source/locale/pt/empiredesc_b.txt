@@ -1,0 +1,6 @@
+[DELAY value;0]
+O Reino Chunjo está[ENTER]
+localizado na parte Oeste do[ENTER]
+Continente. É um reino[ENTER]
+teocrático e é governado por[ENTER]
+Líderes Espirituais.

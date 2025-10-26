@@ -1,0 +1,3 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . set_regen_file ( "data/dungeon/pyramid_dungeon/regen_5f_b.txt" ) ; 
+end 

@@ -1,0 +1,9 @@
+Group miningdrops
+{
+	PickVnum	30001
+
+	List Items
+	{
+		abc	15	20
+	}
+}

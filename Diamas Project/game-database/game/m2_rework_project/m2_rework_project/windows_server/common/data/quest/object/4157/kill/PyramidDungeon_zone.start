@@ -1,0 +1,4 @@
+if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 5 then PyramidDungeonLIB . clearDungeon ( ) 
+d . notice ( "Ancient pyramid: You will be moved to next floor in few seconds" ) 
+server_timer ( "PyramidDungeon_5th_jump" , 5 , d . get_map_index ( ) ) 
+ return end 

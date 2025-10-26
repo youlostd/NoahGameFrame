@@ -1,0 +1,84 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/guides.png]
+[CENTER_ALIGN]Sistem Kılavuzları
+
+Sistem Kılavuzları
+
+1. Ruh-Bağı
+
+1.1 "Bağlama Parşomeni" itemi yardımıyla, eşyalarını karakterine bağlamak mümkündür.
+Ruh-Bağı ile bağlanmış eşyalar takas veya imha edilemez. Ancak, depoya yerleştirilmesine
+engel değildir.
+
+1.2 "Ayırma Parşomeni" itemi yardımıyla, karakterine Ruh-Bağı ile bağlanmış eşyaların bağını
+kaldırmak mümkündür. Bu eşyalar, çözümden sonra gerçek zamanlı olarak 24 saat boyunca hala bağlı
+kalır. süre dolduktan sonra tekrar takas edilebilir veya imha edilebilir.
+
+2. Efsun botu
+
+Efsun bot'unu envanterinin solunda bulunan kenar çubuğunda bulabilirsin. Bot'u açtığında,
+kullanabileceğin 6 boş yer bulacaksın. Bot'u kullanmak için bir item eklediğinde, sana uygun
+bonusu seçmek için açılır menü alanından istediğin bonusu seçebilirsin. Başlatmak için bonusları
+onaylaman gerekir (bonusun yanındaki yeşil işaret). Ayrıyeten alternatif bonusları seçmek için 1-3
+numaralı slotları kullanabilirsin. Bot itemini uygun hale getirdiğinde, sistemden bir bilgi mesajı
+alacaksın. Bunun sonucunda bot'u açabilir ve itemini sürükleyip envantere aktarabilirsin.
+
+3. İmparatorluk seçimi
+
+Her hesap başına 5 karakterin her birinin farklı imparatorluğa gitmesi mümkündür. Yeni bir karakter
+oluştururken, imparatorluk seçimi için seçim ekranı göreceksin. Satıcı'da bulabileceğin "Krallıkların
+İzi" itemi ile sonradan değişiklik yapmak da mümkündür.
+
+4. Cevher Sistemi
+
+4.1 Yalnızca en son PvM ekipmanınına cevher ekleyebilirsin (Kadashi küpeleri/bilezik/kolye).
+
+4.2 Elmaslarla, ekipmanınına cevher eklemek için yer açabilirsin (ekipman başına 3 yer.
+Cevherlerin süresi vardır ve bitince kaybolurlar.
+Cevher güçlendirici ile süreli olan cevherleri kalıcı hale getirebilirsin.
+Tüm cevherleri güçlendirdiğinde,
+ek bir set bonusu vardır.
+
+4.3 Ayrıca kemerine de cevher eklemek için yer açabilirsin, ilk PvM kemerinde bu zaten öyledir.
+-> Seviyesi farketmeden her PvM kemerinde yapılabilir.
+Bunda da elmas kullanılır (3 yer).
+Kemere, zamanla sınırlı olan kızıl alev taşları yerleştirebilirsin.
+Cevher güçlendirici ile süreli olan cevherleri kalıcı hale getirebilir ve set bonusu elde edebilirsin.
+
+5. L-Yetenek Sistemi
+
+5.1 Efsanevi ruh taşları ile yeteneklerini Perfect(mükemmel-(P))'den Legendary(efsanevi(L))'ye
+yükseltebilirsin. Bunun için yetenek başına 10 Efsanevi Ruh Taşına ihtiyacın var.
+L yetenekler, P olanlardan daha güçlüdür.
+(ÖNEMLİ! Şamanların L buffları, buffbot'undan DAHA İYİDİR).
+
+5.2 L yeteneklerine sahip olduğunda, yeteneklerine kendi rengini vermek için yetenek penceresini
+("V" tuşu) kullanabilirsin. Bunu yapmak için, yetenenek simgesinin yanındaki küçük "c" ye tıkla ve
+bir renk seçmek için renk-oluşturucuyu kullan.
+
+6. Lonca-Savaşları K/D Sistemi
+
+Lonca savaşı sırasında TAB tuşuyla bir pencere açmak mümkündür. Bu pencerede bireysel oyuncuların
+savaş sırasında kaç kişi öldürdüğü veya kaç kere öldüğünü görebilirsin.
+
+7 Yansıtma Sistemi
+
+NPC Theowahdan ile yansıtma yapabilirsin.
+Kanatlar, saç stilleri, zırhlar, silahlar, binekler ve evcil hayvanlar yansıtılabilir.
+Yansıtma, sol alana eklenen iteme uygulanır.
+Sağ alanda bulunan item, yansıtma tamamlandıktan sonra kaybolur ve sol alandaki item, kullanılan
+itemin görünümünü alır.
+
+8 Kostüm/Bonus transfer Sistemi
+
+8.1 N2'de bonuslu ve bonussuz kostümler vardır. Efsanevi kostümlere "Kostüm Artırma Nesnesi" kullanılarak
+bonus verilebilir.
+Bir kostüme en fazla 3 bonus eklenebilir. Kostüm bonusları "Kostüm Efsun Nesnesi" kullanılarak
+değiştirilebilir.
+
+8.2 Bonusları, yansıtma sistemine benzer şekilde başka bir kostüme aktarmak da mümkündür.
+Sol alan = İstenilen kostüm
+Sağ alan = İşlemden sonra bonusların alındığı ve yok edilen kostüm.
+
+
+

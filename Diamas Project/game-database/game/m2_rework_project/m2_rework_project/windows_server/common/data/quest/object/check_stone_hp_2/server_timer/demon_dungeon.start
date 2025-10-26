@@ -1,0 +1,14 @@
+if ( d . select ( get_server_timer_arg ( ) ) ) then 
+local stage = getDungeonStage ( ) 
+if stage == 15 and d . unique_get_hp_perc ( "stone" ) <= 50 then 
+d . purge_unique ( "stone" ) 
+d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_8thfloor.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 5 ) 
+elseif stage == 17 and d . unique_get_hp_perc ( "stone" ) <= 25 then 
+d . purge_unique ( "stone" ) 
+d . spawn_mob ( 280 , 319 , 827 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+end 

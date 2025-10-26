@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/pc2/warrior:d:/ymir work/pc2/warrior/" ArchivePath="../bin/pack/pc2_warrior.pak" XmlPath="xml/pc2_warrior_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

@@ -1,0 +1,15 @@
+quest max_level_reached begin
+	state start begin
+		when login or levelup with pc.get_level() == 150 and not pc.is_gm() begin
+			if pc.getqf("max_reached") == 1 then return end
+			
+			notice_all("%s hat das maximale Level erreicht, Glückwunsch!", pc.get_name())
+			pc.setqf("max_reached", 1)
+			set_state(__COMPLETE__)
+		end
+	end
+	state __COMPLETE__ begin
+		when enter begin
+		end
+	end
+end

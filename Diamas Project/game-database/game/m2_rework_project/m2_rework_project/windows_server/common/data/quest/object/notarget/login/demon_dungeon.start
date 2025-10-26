@@ -1,0 +1,12 @@
+if pc . get_map_index ( ) == 231 and not pc . in_dungeon ( ) then pc . warp ( 167 , 264 , 184 ) 
+ return end if pc . in_dungeon ( 231 ) and isDungeonLeader ( ) and getDungeonStage ( ) == 0 then d . regen_file ( "data/dungeon/demon_dungeon/" .. "regen_1thfloor.txt" ) 
+d . notice ( "Easter dungeon: 10 minutes left!" ) 
+pc . setqf ( "dungeon_start_time" , get_global_time ( ) ) 
+d . add_boss_vnum ( 283 ) 
+d . add_boss_vnum ( 2831 ) 
+demon_dungeon . setDungeonTimeout ( 60 * 60 ) 
+setDungeonWarpLocation ( 167 , 264 , 184 ) 
+increaseDungeonStage ( ) 
+setDungeonExitCounter ( 10 ) 
+setNeededMonsterCount ( 24 ) 
+ return end 

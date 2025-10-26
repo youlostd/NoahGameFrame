@@ -1,0 +1,116 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/costume_sash.tga]
+[CENTER_ALIGN]Ein Kostüm-Schulterband ist ein wertvoller Ausrüstungsgegenstand, das deinen Charakter in eine
+[CENTER_ALIGN]bestimmte Richtung lenken kann. Das Kostüm-Schulterband wird im Kostümfenster angezogen.
+[CENTER_ALIGN]Das Kostümfenster findest du im Inventar über den Kostüm Button.
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Verschiedene Arten von Kostüm-Schulterbändern
+*2. Wie man ein Kostüm-Schulterband erhält
+*3. Wie man ein Kostüm-Schulterband kombiniert
+*4. Boni eines Kostüm-Schulterbandes
+*5. Wie man die Boni eines Kostüm-Schulterbandes überträgt
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=150; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Verschiedene Arten von Kostüm-Schulterbändern
+
+Es gibt 12 verschiedene Bänder aus dem Zodiakdungeon, die die 12 Götter des chinesischen Tierkrieses darstellen:
+Band des Zi, Band des Chou, Band des Yin, Band des Mao, Band des Chen, Band des Si, Band des Wei, Band des Shen, 
+Band des You, Band des Xu, Band des Hai. Ebenso gibt es zu besonderen Anlässen und Aktionen auch spezielle 
+Kostümbänder wie z.B. Teufelsflügel, Engelsflügel, Band des Dämonen, Flügel des Dämonen und Flügel des Erzengels.
+Jede Art hat 4 verschiedene Sorten: (einfach), (fein), (edel), (maßgefertigt).
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=265; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Wie man ein Kostüm-Schulterband erhält
+
+Kostüm-Schulterbänder können aus dem Shop von Theowahdan gekauft werden. Man benötigt 25x Feines Tuch und 
+5x das entsprechende Medallion aus dem Zodiak Dungeon. Zum Beispiel das Band des Hai benötigt
+5x Hai Medaillion und 25x Feines Tuch um erworben zu werden. Die entsprechenden Medaillen werden vom
+Endboss jedes Portals des Zodiak Dungeons abgeworfen. Die speziellen Kostüm-Schulterbänder gibt es während
+speziellen Itemshop angeboten oder aus Events. Diese werden immer in der Stufe (einfach) angeboten.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=395; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Wie man ein Kostüm-Schulterband kombiniert
+
+Der Kombinationsprozess ist 1:1 gleich wie der des normalen Schulterband System.
+Man benötigt 2 Kostüm-Schulterbänder der selben Stufe um diese auf die nächste Stufe zu kombinieren.
+Bei einem Fehlschlag wird auch das zweite Kostüm-Schulterband zerstört.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=525; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Boni
+
+Ein Kostüm-Schulterband kann bis zu 5 Boni besitzen, je nach Stufe. Erst ein maßgefertigtes
+Kostüm-Schulterband kann 5 Boni besitzen. Die Boni werden durch Traumseelen oder
+Himmelsseelen hinzugefügt. Die Boni müssen in der unten genannten Reihenfolge eingefügt werden.
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1 Traumseelen
+
+Es gibt 5 verschiedene Stufen der Traumseelen. Man kann aus den Metinsteinen im Wukong-Tempel
+Traumseelen Steine erhalten und diese bei Chuk-Sal zu Traumseelen craften.
+Hinweis: Chuk-Sal befindet sich am Anfang des Wukong-Tempels.
+Man kombiniert 2 Traumseelen der selben Stufe zur nächsthöheren Stufe. Der Prozess kann fehlschlagen.
+
+[COLOR=0xffd700]Traumseele
+*Stark gegen Monster 4, 6, 8, 10%
+
+[COLOR=0xffd700]Schimmernde Traumseele
+*Stark gegen Bosse 4, 6, 8, 10%
+
+[COLOR=0xffd700]Irisierende Traumseele
+*Stark gegen Elemente 4, 6, 8, 10%
+
+[COLOR=0xffd700]Prismatische Traumseele
+*Stark gegen Metinsteine 4, 6, 8, 10%
+
+[COLOR=0xffd700]Erleuchtete Traumseele
+*Durchschn. Schaden 2, 4, 6, 8%
+
+[COLOR=ef4f00;FONT_SIZE=15]4.2 Himmelsseelen
+
+Es gibt 5 verschiedene Stufen der Himmelsseelen. Man kann aus den Metinsteinen im Wukong-Tempel
+Himmelsseelen Steine erhalten und diese bei Chuk-Sal zu Himmelsseelen craften.
+Hinweis: Chuk-Sal befindet sich am Anfang des Wukong-Tempels.
+Man kombiniert 2 Traumseelen der selben Stufe zur nächsthöheren Stufe. Der Prozess kann fehlschlagen.
+
+
+[COLOR=0xffd700]Himmelsseele
+*Max. TP + 500, + 100, + 1500, + 2000
+
+[COLOR=0xffd700]Schimmernde Himmelsseele
+*Zaubergeschwindigkeit 5, 10, 15, 20%
+
+[COLOR=0xffd700]Irisierende Himmelsseele
+*Chance, Nahkampf Ángriff abzublocken 2, 4 , 6, 8%
+
+[COLOR=0xffd700]Prismatische Himmelsseele
+*Stark gegen Halbmenschen 4, 6, 8, 10%
+
+[COLOR=0xffd700]Erleuchtete Himmelsseele
+*Widerstand gegen Halbmenschen 4, 6, 8, 10%
+
+
+[COLOR=ef4f00;FONT_SIZE=15]4.3 Prunkvolles verzaubern
+
+Die Boni eines Kostüm-Schulterbandes können mit dem Item "Prunkvolles verzaubern"
+gewechselt werden. Es werden alle Boni geswitcht.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=1220; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]5. Wie man die Boni eines Kostüm-Schulterbandes überträgt
+
+Man kann die Boni eines Kostüm-Schulterbandes mit einem Kostümbonitransfer bei Theowahdan auf ein
+anderes Kostüm-Schulterband der selben Stufe übertragen. Das linke Kostüm-Schulterband wird blank,
+das rechte Kostüm-Schulterband übernimmt die Boni vom linken Kostüm-Schulterband.
+
+
+

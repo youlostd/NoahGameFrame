@@ -1,0 +1,74 @@
+quest beta_reward_box begin
+	state start begin
+         function showPage(image, reward1, reward2)
+                addimage(27, 28, image)
+                say("[ENTER][ENTER][ENTER][ENTER][ENTER][ENTER][ENTER][ENTER][ENTER][ENTER][ENTER]")
+                local s2 = beta_reward_box.showSubSelect(reward1, reward2)
+                if s2 != 1 then 
+                    return 0
+                else 
+                    return 1
+                end
+        end
+        function pageSelect(rewardselect)
+             if rewardselect == 0 then
+				return 0
+			elseif rewardselect == 1 then
+                 return beta_reward_box.showPage("beta_armor_m_red.png", 41601, 45291)
+			elseif rewardselect == 2 then
+                 return beta_reward_box.showPage("beta_armor_m_black.png", 41600, 45290)
+			elseif rewardselect == 3 then
+                 return beta_reward_box.showPage("beta_armor_w_red.png", 41603, 45293)
+			elseif rewardselect == 4 then
+                 return beta_reward_box.showPage("beta_armor_w_black.png", 41602, 45292)
+			end
+        end
+         function giveReward(reward1, reward2)
+             pc.give_item2(reward1, 1)
+             pc.give_item2(reward2, 1)
+             pc.give_item2(70005, 1)
+             pc.give_item2(70005, 1)
+             pc.give_item2(70005, 1)
+             pc.give_item2(71085, 200)
+             pc.give_item2(71084, 200)
+             pc.give_item2(70024, 50)
+             pc.give_item2(71248, 1)
+             pc.give_item2(71220, 1)
+             item.remove()
+             say_title("Ereignis Truhe (BETA)")
+             say("Viel Erfolg im Kampf! Wir hoffen dir gefällt unser Geschenk.")
+             say("Mit freundlichen Grüßen,")
+             say("dein Akami2-Team!")
+             say_reward("Du erhälst:")
+             say("-   1x BETA-Kostüm+Frisur deiner Wahl")
+             say("-   3x Erfahrungsring")
+             say("- 200x Gegenstand verstärken")
+             say("- 200x Gegenstand verzaubern")
+             say("-  50x Segenskugel")
+             say("-   1x Premium Tapferkeitsumhang")
+             say("-   1x Kyzaghans Pferd")
+        end
+        function showSelect()
+            local s = select("Beta-Uniform (rot) männlich", "Beta-Uniform (schwarz) männlich", "Beta-Dress (rot) weiblich", "Beta-Dress (schwarz) weiblich", "Abbrechen")
+            if s == 5 then return 0 end
+            return beta_reward_box.pageSelect(s)
+        end
+        function showSubSelect(reward1, reward2)
+            local s = select("Nehmen", "Abbrechen")
+            if s == 1 then
+                beta_reward_box.giveReward(reward1, reward2)
+                return 0
+            else 
+                return 0
+            end
+        end
+		when 50069.use begin                
+			say_title("Ereignis Truhe (BETA)")
+            say("Machtvolle, uralte Truhe![ENTER]Sie beinhaltet Einzigartige Schätze die nur aktive BETA[ENTER]Spieler von Akami2 erhalten können![ENTER]Viel Spaß damit & Danke für deine Zeit als BETA Spieler!")
+            while beta_reward_box.showSelect() !=0 do
+            end    
+           
+
+		end
+    end
+end

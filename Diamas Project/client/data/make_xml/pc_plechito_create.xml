@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/pc/plechito:d:/ymir work/pc/plechito/" ArchivePath="../bin/pack/pc_plechito.pak" XmlPath="xml/pc_plechito_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

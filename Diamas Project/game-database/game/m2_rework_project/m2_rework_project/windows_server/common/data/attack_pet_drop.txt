@@ -1,0 +1,4 @@
+List AttackPetData
+{
+	223440	11191	0	10	0.15
+}

@@ -1,0 +1,44 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/petsystem.png]
+[CENTER_ALIGN]Pet-System
+
+1. General
+
+There are pets that are different from the ordinary ones. These can be leveled and thus 
+also improve. Every monster that can be found on the server can drop as such a pet.
+You can open the pet window by pressing the "x" key.
+
+2. Leveling
+
+These special pets are levelable. Not only do they get status points, which you can 
+distribute, but they also grow in size parallel to the level. 
+To level your pet you need: 
+
+- Level-Pet-Food (1-10)
+- Level-Pet-Food (10-30)
+- Level Pet Food (30-60)
+- Level Pet Food (60-100)
+- Level Pet Food (100-150)
+
+These are the items you drag onto your levelable pet to increase its level.
+
+3. Status points
+
+After you open the pet window, you can distribute status points you received there. 
+At level 150 there are 447 status points available for distribution. You can distribute 
+them to the bonuses. The bonuses are also switchable with the item "Pet-Switcher". 
+Switching the bonuses automatically resets the status points, which you can then redistribute. 
+The other bonuses must first be unlocked by leveling up. 
+The distribution is as follows:
+
+- From level 1: 2 bonuses
+- From level 10: 3 bonuses
+- From level 30: 4 bonuses
+- From level 60: 5 bonuses
+- From level 100: 6 bonuses
+- From level 150: 7 bonuses
+
+With the available 447 status points, you can't max all 7 bonuses, so choose wisely.
+
+
+

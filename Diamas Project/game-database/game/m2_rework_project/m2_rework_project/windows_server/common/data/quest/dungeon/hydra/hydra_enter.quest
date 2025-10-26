@@ -1,0 +1,7 @@
+quest hydra_enter begin
+	state start begin
+		when 20499.chat."Hydra" begin
+			d.create_hydra()
+		end
+	end
+end

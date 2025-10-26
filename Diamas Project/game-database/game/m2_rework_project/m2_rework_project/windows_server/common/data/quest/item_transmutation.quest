@@ -1,0 +1,17 @@
+define ITEM_TRANSMUTATION_NPC 60003
+quest transmutation begin
+	state start begin
+		when ITEM_TRANSMUTATION_NPC.chat.gameforge.item_combination._20_npcChat begin
+			say_title(string.format(gameforge.item_combination._20_npcChat, c_mob_name(ITEM_TRANSMUTATION_NPC)))
+			say(gameforge.item_combination._20_say)
+			
+			local confirm =  select(gameforge.yes, gameforge.no)
+			if confirm == 2 then
+				return
+			end
+			
+			setskin(NOWINDOW)
+			cmdchat("ShowChangeDialog")
+		end
+	end
+end

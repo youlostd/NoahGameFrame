@@ -1,0 +1,8 @@
+hostname = "Auth"
+bind-addr = "127.0.0.1"
+bind-port = "11002"
+master-addr = "127.0.0.1"
+master-port = "10001"
+db-addr = "127.0.0.1"
+db-port = "15000"
+version = 1621060937

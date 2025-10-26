@@ -1,0 +1,27 @@
+[player]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "dev"
+name = "player"
+
+[account]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "dev"
+name = "account"
+
+[common]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "dev"
+name = "common"
+
+[log]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "dev"
+name = "log"

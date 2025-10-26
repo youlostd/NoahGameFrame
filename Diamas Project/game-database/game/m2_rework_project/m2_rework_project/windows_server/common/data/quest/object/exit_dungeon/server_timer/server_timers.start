@@ -1,0 +1,10 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local counter = decreaseDungeonExitCounter ( ) 
+if modulo ( counter , 5 ) == 0 and counter > 0 then 
+d . notice ( "Du wirst in %s Sekunden herausteleportiert." , counter ) 
+end 
+if counter == 0 then 
+d . exit_dungeon ( ) 
+clear_server_timer ( "exit_dungeon" , get_server_timer_arg ( ) ) 
+end 
+end 

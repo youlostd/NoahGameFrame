@@ -1,0 +1,61 @@
+quest mapblock begin
+	state start begin
+		when login with not pc.is_gm() begin
+		
+		
+		local mapIndex = pc.get_map_index()
+			if mapIndex >= 10000 then
+			mapIndex = mapIndex / 10000
+			end
+		
+			local over_level = {
+					[404] = 149,
+					[403] = 150,
+					[402] = 150,
+					[351] = 149,
+					[352] = 149,
+					[66] = 150,
+					[216] = 150,
+					[353] = 150,
+					[501] = 150,
+					[502] = 150,
+					[503] = 150,
+					[504] = 150,
+					[505] = 150,
+					[74] = 150,
+					[72] = 150,
+					[71] = 74,
+					[67] = 99,
+					[301] = 124,
+					[303] = 150,
+					[65] = 150,
+				}
+			local under_level = {
+					[404] = 75,
+					[403] = 150,
+					[402] = 150,
+					[351] = 75,
+					[352] = 75,
+					[66] = 150,
+					[216] = 150,
+					[353] = 150,
+					[501] = 150,
+					[502] = 150,
+					[503] = 150,
+					[504] = 150,
+					[505] = 150,
+					[74] = 150,
+					[72] = 150,
+					[67] = 75,
+					[301] = 100,
+					[303] = 125,
+					[65] = 150,
+				}
+				
+				
+			if over_level[mapIndex] != nil and pc.get_level() > over_level[mapIndex] or under_level[mapIndex] != nil and pc.get_level() < under_level[mapIndex] then
+				warp_to_village()
+			end
+		end
+	end
+end

@@ -1,0 +1,24 @@
+if pc . in_dungeon ( ) then 
+say ( "Du kannst das Item hier nicht nutzen!" ) 
+return 
+end 
+if pc . level < 15 then 
+say_title ( c_item_name ( 71100 ) ) 
+say ( gameforge . skill_reset2 . _140_say ) 
+return 
+end 
+if pc . get_skill_group ( ) == 0 then 
+say_title ( c_item_name ( 71100 ) ) 
+say ( gameforge . skill_reset2 . _40_say ) 
+return 
+end 
+say_title ( c_item_name ( 71100 ) ) 
+say ( gameforge . skill_reset2 . _130_say ) 
+s = select ( gameforge . locale . yes , gameforge . locale . no ) 
+if 2 == s then 
+return 
+end 
+pc . change_skill_group ( ) 
+char_log ( 0 , "RESET_SKILL" , "RESET_SKILL_BY_71100" ) 
+pc . remove_item ( 71100 ) ; 
+pc . warp_force ( pc . get_map_index ( ) , pc . get_x ( ) * 100 , pc . get_y ( ) * 100 ) 

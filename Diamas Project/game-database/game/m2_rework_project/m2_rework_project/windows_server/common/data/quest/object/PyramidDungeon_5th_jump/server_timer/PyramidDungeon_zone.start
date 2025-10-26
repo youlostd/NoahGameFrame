@@ -1,0 +1,9 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = PyramidDungeonLIB . Settings ( ) ; 
+d . regen_file ( "data/dungeon/pyramid_dungeon/regen_6f_a.txt" ) ; 
+d . regen_file ( "data/dungeon/pyramid_dungeon/regen_6f_b.txt" ) ; 
+d . setf ( "PyramidDungeon_level" , 6 ) ; d . setf ( "PyramidDungeon_6f_monsters1" , 1 ) ; d . setf ( "PyramidDungeon_KeyPickUp" , 0 ) ; d . setf ( "PyramidDungeon_CanUseKey" , 0 ) ; d . setf ( "PyramidDungeon_6f_monsters1_c" , d . count_monster ( ) ) 
+d . jump_all ( settings [ "insidePos_6f" ] [ 1 ] , settings [ "insidePos_6f" ] [ 2 ] ) ; 
+d . notice ( "Ancient pyramid: Destroy %s to be able summon a real boss!" , c_mob_name ( 9341 ) ) 
+d . notice ( "Ancient pyramid: Kill all monsters now!" ) ; 
+end 

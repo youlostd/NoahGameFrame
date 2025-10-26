@@ -1,0 +1,43 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/petsystem.png]
+[CENTER_ALIGN]Pet-System
+
+1. Allgemein
+
+Es gibt Pets, die sich von den gewöhnlichen unterscheiden. Diese lassen sich leveln und somit 
+auch verbessern. Jedes Monster, welches auf dem Server zu finden ist, kann als solches Pet droppen.
+Über die Taste "x" lässt sich dann das Pet Fenster öffnen.
+
+2. Leveln
+
+Diese speziellen Pets sind levelbar. Nicht nur bekommen sie beim leveln Statuspunkte, die man
+selbst verteilen kann, sondern sie wachsen auch parallel zum Level in ihrer Größe. Um dein Pet
+zu leveln, benötigst du: 
+
+- Level-Pet-Food (1-10)
+- Level-Pet-Food (10-30)
+- Level-Pet-Food (30-60)
+- Level-Pet-Food (60-100)
+- Level-Pet-Food (100-150)
+
+Diese Gegenstände ziehst du auf dein levelbares Pet, damit sich dessen Level erhöht.
+
+3. Statuspunkte
+
+Nachdem du das Pet Fenster geöffnet hast, kannst du erhaltene Statuspunkte dort verteilen. 
+Auf Level 150 sind insgesamt 447 Statuspunkte zum Verteilen verfügbar. Diese kannst du auf
+die Boni verteilen. Die Boni sind ebenfalls switchbar mit dem Gegenstand "Pet-Switcher". 
+Das Switchen der Boni setzt automatisch die Statuspunkte zurück, die man dann neu verteilen 
+kann. Die weiteren Boni muss man aber zuerst durch das Hochleveln freischalten. 
+Die Verteilung verhält sich wie folgt:
+
+- Ab Level 1: 2 Boni
+- Ab Level 10: 3 Boni
+- Ab Level 30: 4 Boni
+- Ab Level 60: 5 Boni
+- Ab Level 100: 6 Boni
+- Ab Level 150: 7 Boni
+
+Mit den verfügbaren 447 Statuspunkten kann man nicht alle 7 Boni maximieren, also wähle weise.
+
+

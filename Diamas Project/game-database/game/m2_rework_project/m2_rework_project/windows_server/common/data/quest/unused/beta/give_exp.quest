@@ -1,0 +1,11 @@
+quest give_exp begin    
+    state start begin    
+        when 38001.use begin
+			if pc.get_level() >= 110 then
+				pc.remove_item(38001)
+			else
+				pc.give_exp2(55000000)
+            end
+        end
+    end
+end  

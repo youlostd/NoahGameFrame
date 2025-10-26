@@ -1,0 +1,1189 @@
+%d 권을 더 읽어야 수련을 완료 할 수 있습니다.	Trebuie sa citesti inca %d pentru a avea succes. 
+%d 냥을 투자하셨습니다.	Ai investit %d Yang. 
+%d 냥을 획득하셨습니다.	Ai cвєtigat %d Yang. 
+%d 레벨이 되어야 다시 염색하실 수 있습니다.	Trebuie sг atingi nivelul %d pentru a-юi putea vopsi pгrul iar. 
+%d 분 %d 초 동안 채팅금지 상태입니다	%d min %d sec ramase pana la expirarea MUTE-ului 
+%d 시간 %d 분 %d 초 동안 채팅금지 상태입니다	%d ore %d min %d sec ramase pana la expirarea MUTE-ului. 
+%d 시간 %d 초 동안 채팅금지 상태입니다	%d ore %d sec ramase pana la expirarea MUTE-ului. 
+%d 종류 %d 마리 낚음	Ai prins %d de %d. 
+%d 초 동안 채팅금지 상태입니다	%d secunde ramase pana la deblocarea chatului 
+%d 초 후에 군주의 축복을 사용할 수 있습니다	Binecuvвntarea оmpгratului poate fi folositг dupг %d sec. 
+%d 초간 쿨타임이 적용중입니다.	Timp de cooldown de aproximativ %d secunde 
+%d 초후 목적지로 이동됩니다.	%d secunde de la executare ajungi la locul cu pricina. 
+%d%% 확률로 관통 공격	Atac pгtrunzгtor cu єansa %d%% 
+%d%% 확률로 적퇴치시 경험치 추가 상승	Creєterea experienюei cu %d%% оn cazul оnfrвngerii inamicului. 
+%d%% 확률로 적퇴치시 돈 2배 드롭	Creєterea Yang-ului capturat cu %d%% оn cazul оnfrвngerii inamicului. 
+%d%% 확률로 적퇴치시 생명력 회복	%d%% єansг de a-юi umple PV dupг o victorie. 
+%d%% 확률로 적퇴치시 아이템 2배 드롭	Creєterea obiectelor capturate cu %d%% оn cazul оnfrвngerii inamicului. 
+%d%% 확률로 적퇴치시 정신력 회복	Creєtere mana cu %d%% оn cazul оnfrвngerii inamicului. 
+%d%% 확률로 치명타 공격	Atac critic cu єansa %d%% 
+%d%% 확률로 타격시 상대 전신력 소모	Mana este luatг de la inamic cu o probabilitate de %d%%. 
+%d%% 확률로 피해시 정신력 회복	Probabilitate de absorbire mana %d%%. 
+%d분의 결제시간이 추가 되었습니다. (결제번호 %d)	Contului tгu оi este adгugat %d timp de joc. (Nr. platг %d) 
+%d의 경험치를 획득했습니다.	Ai primit %d experienюг. 
+%d초 남았습니다.	%d secunde pвnг la final. 
+%d초 만큼 충전되었습니다.	%d de secunde au fost adaugate. 
+%d초 후 게임이 셧다운 됩니다.	Jocul se sfвrєeєte оn %d secunde. 
+%s : %d 마리	%s: %d 
+%s SP소모: %d	%s Consum de FP: %d 
+%s killcount %d mobkillcount %d bosskillcount %d 성지 진입수 %d	%s killcount %d mobkillcount %d bosskillcount %d Numгr Pгmвnt Sfвnt %d 
+%s 군주 후보에서 삭제하였습니다	%s a fost єters ca єi candidat ca оmpгrat. 
+%s 군주로 입명 했습니다.	%s este numit оmpгrat. 
+%s 군주르 제거 하였습니다..	Оmpгratul %s este оnlгturat. 
+%s 군주를 제거 할수 없습니다.	Оmpгratul %s nu paote fi оnlгturat. 
+%s 길드가 %s 길드에 선전포고를 하였습니다!	Breasla %s a declarat rгzboi breslei %s! 
+%s 길드가 %s 길드와의 전쟁에서 승리 했습니다.	Breasla %s a cвєtigat rгzboiul оmpotriva breslei %s. 
+%s 길드가 %s 길드의 깃발을 빼앗았습니다!	%s a cucerit steagul %s! 
+%s 길드와 %s 길드 사이의 전쟁이 무승부로 끝났습니다.	Rгzboiul dintre breslele %s єi %s s-a terminat la egalitate. 
+%s 길드와 %s 길드 사이의 전쟁이 취소되었습니다.	Rгzboiul оntrebreslele  %s єi %s a fost оntrerupt. 
+%s 길드와 %s 길드가 잠시 후 전쟁을 시작합니다!	Rгzboiul оntre %s єi %s оncepe оn cвteva minute. 
+%s 길드와 %s 길드가 전쟁을 시작하였습니다!	Rгzboiul оntre breslele %s єi %s a оnceput! 
+%s 길드의 %s이 %d%% 증가했습니다!	%s al breslei %s a crescut cu %d%%! 
+%s 길드의 %s이 정상으로 돌아왔습니다.	%s al breslei %s s-a normalizat. 
+%s 길드의 깃발을 %s 님이 획득하였습니다.	Steagul breslei %s a fost furat de %s. 
+%s 는 군주 후보가 아닙니다.	%s nu este candidat ca оmpгrat. 
+%s 는 군주로 입명할수 없습니다 .	%s nu poate fi numit оmpгrat. 
+%s 님과의 교환이 성사 되었습니다.	Negoюul cu %s a reuєit. 
+%s 님에게 파티가입 신청을 했습니다.	Doreєti sг te alгturi grupei lui %s. 
+%s 님으로 부터 친구 등록을 거부 당했습니다.	%s a refuzat invitaюia. 
+%s 님은 %d 채널에 접속 중 입니다. (현재 채널: %d)	Jucгtorul %s se aflг оn canalul %d. (Canalul tгu: %d) 
+%s 님은 접속되 있지 않습니다.	%s nu este online. 
+%s 님은 정상적으로 출마를 하였습니다.	Jucгtorul %s este deja оn alegere. 
+%s 님을 소환하였습니다.	Ai recrutat %s jucгtori. 
+%s 님이 대련에서 승리하였습니다.	%s a cвєtigat duelul. 
+%s 님이 승리하였습니다.	%s a cвєtigat. 
+%s 블럭! (%d%%)	Blocheazг %s! (%d%%) 
+%s 아이템 을 획득하셨습니다	Ai cгєtigat obiectul %s. 
+%s 아이템이 필요합니다	Ai nevoie de %s. 
+%s 에게로 이동합니다	Tragere la jucгtorul %s. 
+%s 회피! (%d%%)	Eschiveazг %s! (%d%%) 
+%s: 존재하지 않는 길드 입니다.	%s: Aceastг breaslг nu existг. 
+%s[%d]가 공격 위치: %d %d	%s[%d] Pozitie de atac: %d %d 
+%s님과의 대결 시작!	Lupta cu %s a оnceput! 
+%s님이 대결신청을 했습니다. 승낙하려면 대결동의를 하세요.	%s te-a provocat la luptг! 
+%s님이 주사위를 굴려 %d가 나왔습니다. (%d-%d)	%s zaruri aruncate. El/ea a primit %d (%d-%d). 
+%s를 구웠습니다.	Prгjeєti %s deasupra focului. 
+%s에 박혀있던 보석이 사라집니다.	Pietrele preюioase din %s au dispгrut. 
+%s에 전쟁의 시작을 알리는 봉화가 나타났습니다.	La %s s-a aprins un foc de iluminare pentru a avertiza оn legгturг cu o luptг. 
+%s에게 대결신청을 했습니다.	L-ai provocat pe %s la luptг. 
+%s에서 봉화를 둘러싸고 전투가 진행중입니다.	Оn %s este rгzboi pentru a aprinde focurile de iluminare. 
+%s에서 소켓 빠질때까지 남은 시간 %d	Timp ramas pana la inlaturarea soket-ului din %s: %d 
+%s의 %s이 %d%% 증가했습니다!	%s: %s a crescut cu %d%%! 
+%s의 %s이 정상으로 돌아왔습니다.	%s al lui %s s-a normalizat. 
+%s의 군주가 %s 님으로 교체되었습니다.	Оmpгratul lui %s a fost schimbat оn %s. 
+%s이 모든 봉화를 파괴하였습니다.	%s a distrus toate focurile de iluminare. 
+%s이 봉화를 파괴했습니다.	%s a distrus focul de iluminare. 
+%s이 수성에 성공했습니다.	Lui %s i-a reuєit apгrarea. 
+%s이 수성에 실패하여 전쟁에 패배하였습니다..	%s a pierdut rгzboiul pentru ca nu au putut sг apere castelul. 
+%s이 필요합니다.	Pentru aceasta actiune ai nevoie de: %s 
+(%s) 길드가 생성되었습니다. [임시]	(%s) a fost creat. [Temporar] 
+(만료일 : %d년 %d월 %d일)	(Desfгєurare: %d j- %d m - %d t) 
+. 너희가 성지의 수호자를 잡게 된다면 너희는 성지의 주인이 된다.[ENTER][ENTER] 	Dacг оl оnvingeюi pe paznicul Locului Sfвnt, veюi fi deюinгtorii Locului Sfвnt. 
+1-50 사이의 수치를 선택해주세요	Alege un numгr оntre 1 єi 50. 
+10초뒤 다음 판을 시작합니다.	Оn 10 secunde оncepe runda urmгtoare. 
+10초뒤 대련이 시작됩니다.	Lupta оncepe оn 10 secunde. 
+10초뒤 마을로 되돌아갑니다.	Оn 10 secunde vei fi teleportat оn oraє. 
+10초뒤 마을로 이동합니다.	Оn 10 secunde vei fi teleportat оn oraє. 
+10초뒤 판정하겠습니다.	Decizia urmeazг оn 10 secunde. 
+10초후 자동으로 접속이 종료되며,	Оn 10 secunde vei fi deconectat automat. 
+1분 이내에 아무도 접속하지 않으면 길드전이 자동 종료됩니다.	Dacг nu se gгseєte un inamic rгzboiul breslei va fi оncheiat automat. 
+20억 냥을 초과하여 상점을 열수가 없습니다	Nu poюi negocia deoarece ai mai mult de 2 Mil de Yang la tine. 
+20억냥이 초과하여 물품을 팔수 없습니다.	Nu poюi negocia deoarece ai mai mult de 2 Mil Yang la tine. 
+30분이 경과했습니다.. 봉화가 사라집니다.	Au trecut 30 de minute. Focurile de iluminare au dispгrut. 
+5분 후에 정상적으로 접속하실수 있습니다.	Te poюi conecta dupг 5 minute. 
+5초 뒤 틀리신 분들을 바깥으로 이동 시키겠습니다.	Dupг 5 sec. vor fi оndepгrtaюi toюi jucгtorii care au dat un rгspuns greєit. 
+<길드> %d 스킬을 사용함 (%d, %d) to %u	<Breasla> Competenюa %d a fost folositг (%d, %d) pe %u. 
+<길드> %s 길드가 길드전을 거부하였습니다.	<Breasla> %s a refuzat rгzboiul breslei. 
+<길드> %u의 경험치를 투자하였습니다.	<Breasla> %u experienta primita. 
+<길드> %u의 용신력을 회복하였습니다.	<Breasla> Punctele de Spirit al Dragonului ale lui %u au fost refгcute. 
+<길드> [%s] 길드가 생성되었습니다.	<Breasla> [%s] a fost formatг. 
+<길드> 가지고 있는 돈이 부족합니다.	<Breasla> Nu ai destui Yang la tine. 
+<길드> 경험치 투자에 실패하였습니다.	<Breasla> Punerea оn practicг a experienюei eєuatг. 
+<길드> 공지글을 작성할 권한이 없습니다.	<Breasla> Nu ai dreptul sг faci un anunю. 
+<길드> 그러한 사람을 찾을 수 없습니다.	<Breasla> Persoana cгutatг nu poate si gгsitг. 
+<길드> 그런 길드가 없습니다.	<Breaslг> Nu existг nici o breaslг cu acest nume. 
+<길드> 길드 금고에선 길드장만 출금할 수 있습니다.	<Guild> Doar liderul breslei poate retrage Yang. 
+<길드> 길드 생성에 실패하였습니다.	<Breasla> Formarea breslei eєuatг. 
+<길드> 길드 스킬 레벨을 변경할 권한이 없습니다.	<Breasla> Nu ai dreptul de a schimba nivelul competenюelor breslei. 
+<길드> 길드 스킬은 길드전 중에만 사용할 수 있습니다.	<Breasla> Competenюa de breaslг poate fi folositг doar оn rгzboi. 
+<길드> 길드 이름이 적합하지 않습니다.	<Breasla> Numele breslei nu este valabil. 
+<길드> 길드가 이미 최고 레벨입니다.	<Breaslг> Breasla ta a ajuns deja la lvl maxim posibil. 
+<길드> 길드를 생성할 수 없습니다.	<Breasla> Nu poюi forma o breaslг. 
+<길드> 길드를 해산한 지 %d일이 지나지 않은 사람은 길드에 초대할 수 없습니다.	<Breasla> Poюi invita noi membri doar peste %d zile de la reformare. 
+<길드> 길드에 속해있지 않습니다.	<Breasla> Nu aparюine breslei. 
+<길드> 길드원 %s 님을 강제 탈퇴 시켰습니다.	<Breasla> Membrul %s a fost exclus din breaslг. 
+<길드> 길드원을 강제 탈퇴 시켰습니다.	<Breasla> Ai concediat un membru al breslei. 
+<길드> 길드원을 강제 탈퇴 시킬 권한이 없습니다.	<Breasla> Nu ai dreptul de a concedia un membru al breslei. 
+<길드> 길드원을 초대할 권한이 없습니다.	<Breasla> Nu ai dreptul sг inviюi pe cineva оn breaslг. 
+<길드> 길드장으로 직위를 변경할 수 없습니다.	<Breasla> Nu оюi poюi schimba poziюia оn cea de maestru al breslei. 
+<길드> 길드장의 권한은 변경할 수 없습니다.	<Guild> Drepturile liderului breslei nu pot fi schimbate. 
+<길드> 길드장의 직위 이름은 변경할 수 없습니다.	<Guild> Drepturile liderului breslei nu pot fi schimbate. 
+<길드> 길드장의 직위는 변경할 수 없습니다.	<Guild> Poziюia liderului breslei nu poate sa fie schimbatг. 
+<길드> 길드전에 대한 권한이 없습니다.	<Breasla> Nu existг dreptul la un rгzboi al breslelor. 
+<길드> 길드전을 하기 위해선 최소한 %d명이 있어야 합니다.	<Breasla> E nevoie de minim %d jucгtori pentru a participa la un rгzboi al breslei. 
+<길드> 길드전이 취소 되었습니다.	<Breasla> Rгzboiul breslei a fost оntrerupt. 
+<길드> 길드전중에는 사냥에 따른 이익이 없습니다.	<Breasla> Оn timpul unui rгzboi nu existг puncte de experienюг pentru vвnгtoare. 
+<길드> 다른 제국 사람을 길드에 초대할 수 없습니다.	<Breasla> Jucгtori din alt regat nu pot fi invitaюi оn breaslг. 
+<길드> 더이상 장수를 지정할 수 없습니다.	<Guild> Nu mai poюi alege alюi lideri pentru breasla. 
+<길드> 돈이 부족합니다.	<Breasla> Yang insufucient. 
+<길드> 래더 점수가 %d 점이 되었습니다	<Breasla> Breasla a atins %d puncte. 
+<길드> 레더 점수가 모자라서 길드전을 할 수 없습니다.	<Breasla> Nivelul breslei este prea scгzut pentru a participa la un rгzboi al breslelor. 
+<길드> 삭제할 수 없는 글입니다.	<Breasla> Mesajul nu poate fi єters. 
+<길드> 상대가 %d 채널에 있습니다. (현재 채널 %d)	<Breasla> Jucгtorul se aflг оn canalul %d. (Canal actual: %d) 
+<길드> 상대가 온라인 상태가 아닙니다.	<Breasla> Jucгtorul nu este online. 
+<길드> 상대방 길드가 이미 전쟁 중 입니다.	<Breasla> Breasla se aflг deja оn rгzboi. 
+<길드> 상대방 길드의 길드원 수가 부족하여 길드전을 할 수 없습니다.	<Breasla> Breasla nu are destui membri pentru a participa la un rгzboi al breslelor. 
+<길드> 상대방 길드의 길드장이 접속중이 아닙니다.	<Alianюг> Liderul alianюei inamice este offline. 
+<길드> 상대방 길드의 레더 점수가 모자라서 길드전을 할 수 없습니다.	<Breasla> Breasla nu are destule puncte pentru a participa la un rгzboi al breslelor. 
+<길드> 상대방 길드의 전비가 부족하여 길드전을 할 수 없습니다.	<Breasla> Breasla nu are destul Yang pentru a participa la un rгzboi al breslelor. 
+<길드> 상대방이 같은 길드가 아닙니다.	<Breasla> Persoana nu aparюine aceleiaєi bresle. 
+<길드> 상대방이 길드 초대 거부 상태입니다.	<Breasla> Jucгtorul refuzг invitaюia breslei. 
+<길드> 상대방이 이미 다른 길드에 속해있습니다.	<Breasla> Persoana aparюine deja unei alte bresle. 
+<길드> 상대방이 초대 신청을 받을 수 없는 상태입니다.	<Breaslг> Persoana care stг оn faюa ta nu poate primi invitaюia. 
+<길드> 용신력 회복에 실패하였습니다.	<Breasla> Spiritul Dragonului nu a fost refгcut. 
+<길드> 용신력이 부족합니다. (%d, %d)	<Breasla> Spiritul Dragonului insuficient. (%d, %d) 
+<길드> 이미 같은 이름의 길드가 있습니다.	<Breasla> Acest nume de breaslг este deja folosit. 
+<길드> 이미 다른 전쟁에 참전 중 입니다.	<Breasla> Breasla ta participг deja la alt rгzboi. 
+<길드> 이미 전쟁 중인 길드입니다.	<Breasla> Breasla se aflг deja оntr-un rгzboi. 
+<길드> 이미 전쟁이 예약된 길드 입니다.	<Breasla> Breasla este rezervatг pentru alt rгzboi. 
+<길드> 잘못된 금액입니다.	<Breasla> Suma de Yang nu e corectг. 
+<길드> 잠시후에 이용해주십시오	<Breasla> Оncearcг dinnou mai tвrziu. 
+<길드> 잠시후에 이용해주십시오.	<Breasla> Оncearcг dinnou mai tвrziu. 
+<길드> 장군을 지정할 권한이 없습니다.	<Guild> Nu ai dreptul sa alegi liderul breslei. 
+<길드> 적합하지 않은 직위 이름 입니다.	<Breasla> Numele gradului nu este valabil. 
+<길드> 전비가 부족하여 길드전을 할 수 없습니다.	<Breasla> Yang insufucient pentru a participa la un rгzboi al breslelor. 
+<길드> 제공하고자 하는 경험치가 남은 경험치보다 많습니다.	<Breasla> Experienюa oferitг este mai mare decвt experienюa rгmasг. 
+<길드> 직위 권한을 변경할 권한이 없습니다.	<Breasla> Nu ai dreptul sг оюi schimbi poziюia de putere. 
+<길드> 직위 이름을 변경할 권한이 없습니다.	<Breasla> Nu ai dreptul sг оюi schimbi numele gradului. 
+<길드> 직위를 변경할 권한이 없습니다.	<Breasla> Nu ai dreptul sa iti schimbi pozitia. 
+<길드> 최대 길드원 수를 초과했습니다.	<Breasla> S-a atins capacitatea maximг a breslei. 
+<길드> 쿨타임이 끝나지 않아 길드 스킬을 사용할 수 없습니다.	<Breasla> Nu poюi folosi оncг competenюa breslei. 
+<길드> 탈퇴한 후 %d일 이내에는 길드를 만들 수 없습니다.	<Breasla> Nu poюi forma o breaslг nouг timp de %d zile de la pгrгsirea unei bresle. 
+<길드> 탈퇴한 후 %d일이 지나지 않은 사람은 길드에 초대할 수 없습니다.	<Breasla> Mai poюi invita acest jucгtor abia peste %d zile. 
+<길드> 해산한 후 %d일 이내에는 길드를 만들 수 없습니다.	<Breasla> Nu poюi forma o breaslг nouг timp de %d zile de la desfiinюarea unei bresle. 
+<길드> 현재 길드가 전쟁 중 입니다.	<Guild> Aceastг breaslг se aflг оn momentul de fata оntr-o bгtгlie. 
+<메신져> %s 님을 메신저에서 삭제하였습니다.	<Prieteni> L-ai єters pe %s din listг. 
+<메신져> %s 님을 친구로 추가하였습니다.	<Prieteni> L-ai adгugat pe %s ca prieten. 
+<메신져> 운영자는 메신져에 추가할 수 없습니다.	<Prieteni> Nu poюi adгuga un GM оn lista ta. 
+<창고> 거리가 멀어서 창고를 열 수 없습니다.	<Magazie> Eєti prea departe pentru a deschide Magazia. 
+<창고> 기존 비밀번호가 틀렸습니다.	<Lagгr> Ai introdus parola greєitг. 
+<창고> 옮길 수 없는 위치입니다.	<Lagгr> Nici o miєcare posibilг. 
+<창고> 이 아이템은 넣을 수 없습니다.	<Lagгr> Obiectul nu poate fi depozitat. 
+<창고> 잘못된 암호를 입력하셨습니다.	<Lagгr> Ai introdus o parolг greєitг. 
+<창고> 창고 비밀번호가 변경되었습니다.	<Magazie> Parola magaziei a fost modificatг. 
+<창고> 창고가 이미 열려있습니다.	<Lagгr> Lagгrul este deschis deja. 
+<창고> 창고로 옮길 수 없는 아이템 입니다.	<Magazie> Nu poюi muta aceste obiecte оn magazia ta. 
+<창고> 창고를 닫은지 10초 안에는 열 수 없습니다.	<Lagгr> Trebuie sг aєtepюi 10 secunde pentru a deschide lagгrul. 
+<퀘스트> 이전에 같은 보상을 받은 적이 있어 다시 받지 않습니다.	<Quest> Юi-ai primit deja recompensa. 
+<파티> %s 님이 파티 거부 상태입니다.	<Grupг> %s refuzг invitaюia. 
+<파티> %s님의 파티에 참가하셨습니다.	<Grupг> %s s-a alгturat grupei tale. 
+<파티> %s님이 파티 초대를 거절하셨습니다.	<Grup> %s a refuzat invitatia. 
+<파티> %s님이 파티에 참가하셨습니다.	<Grupг> %s s-a alгturat grupei tale. 
+<파티> -30 ~ +30 레벨 이내의 상대방만 초대할 수 있습니다.	<Grupг> Pot fi invitaюi doar jucгtori cu diferenюa de nivel -30-30 
+<파티> 관전 모드에선 파티 초대를 할 수 없습니다.	<Grupг> Nu poюi face o invitaюie оn modul spectator. 
+<파티> 다른 제국과 파티를 이룰 수 없습니다.	<Grupг> Nu poюi forma o grupг cu jucгtori ai altui regat. 
+<파티> 다른 파티원을 탈퇴시킬 수 없습니다.	<Grupг> Nu poюi exclude membrii grupei. 
+<파티> 대상을 소환할 수 없습니다.	<Grupг> Nu poюi striga юinta. 
+<파티> 더 이상 파티원을 초대할 수 없습니다.	<Grupг> Nu mai poюi invita alюi jucгtori оn grupг. 
+<파티> 던전 안에서는 파티 초대를 할 수 없습니다.	<Grupг> Nu poюi face o invitaюie оntr-o temniюг. 
+<파티> 던전 안에서는 파티 초대에 응할 수 없습니다.	<Grupг> Nu poюi accepta o invitaюie оntr-o temniюг. 
+<파티> 던전 안에서는 파티에서 나갈 수 없습니다.	<Grupa> Nu poюi pгrгsi grupa оntr-o temniюг. 
+<파티> 던전 안에서는 파티에서 추방할 수 없습니다.	<Grupг> Оn temniюг nu poюi exclude niciun jucгtor. 
+<파티> 던젼내에서는 파티를 나갈 수 없습니다.	<Grupг> Nu poюi pгrгsi o grupг оn temniюг. 
+<파티> 던젼내에서는 파티원을 추방할 수 없습니다.	<Grupг> Оn temniюг nu poюi exclude niciun jucгtor. 
+<파티> 리더만 변경할 수 있습니다.	<Grupг> Doar conducгtorul grupei poate schimba asta. 
+<파티> 상태를 변경하려는 사람이 파티원이 아닙니다.	<Grupг> Юinta nu este membru al grupei tale. 
+<파티> 서버 문제로 파티 관련 처리를 할 수 없습니다.	<Grupa> Serverul nu poate prelucra sarcina grupei. 
+<파티> 소환하려는 대상을 찾을 수 없습니다.	<Grupг> Юinta nu a fost gгsitг. 
+<파티> 이미 %s님은 파티에 속해 있습니다.	<Grupг> %s este deja оn grupг. 
+<파티> 파티 기술은 파티장만 사용할 수 있습니다.	<Grupг> Competenюele grupei stau doar conducгtorului ei la dispoziюie. 
+<파티> 파티 초대에 응할 수 없습니다.	<Grupг> Nu eєti оn mгsurг sг accepюi invitaюia. 
+<파티> 파티가 해산 되었습니다.	<Grupг> Grupa s-a desfiinюat. 
+<파티> 파티내 최고 레벨 보다 30레벨이 낮아 초대할 수 없습니다.	<Grupг> Nu poюi invita jucгtorul, deoarece nivelul sгu este prea scгzut. 
+<파티> 파티내 최저 레벨 보다 30레벨이 높아 초대할 수 없습니다.	<Grupг> Nu poюi invita jucгtorul, deoarece nivelul sгu este prea оnalt. 
+<파티> 파티에서 나가셨습니다.	<Grupa> Ai pгrгsit grupa. 
+<파티> 파티에서 추방당하셨습니다.	<Grupг> Ai fost exclus din grupг. 
+<파티> 파티요청을 한 캐릭터를 찾을수 없습니다.	<Grupг> Jucгtorul care a rostit invitaюia nu este online. 
+<파티> 파티원을 초대할 수 있는 권한이 없습니다.	<Grupг> Nu ai dreptul sг faci o invitaюie. 
+<파티> 파티원을 현재 위치로 소환할 수 없습니다.	<Grupг> Nu poюi striga membrii grupei la poziюia ta actualг. 
+<파티> 파티의 인원제한이 초과하여 파티에 참가할 수 없습니다.	<Grupг> Nu te poюi alгtura grupei deoarece este plinг. 
+O 입니다	Da (O) 
+OX 문제 스크립트 로딩 성공	OX Quiz Script a fost оncгrcat. 
+OX 문제 스크립트 로딩 실패	OX Quiz Script nu a putut fi оncгrcat. 
+OX 상품을 지급하였습니다. ID: %d 수량: %d	OX Premiul a fost оnmвnat. ID: %d Quantity: %d 
+OX 이벤트가 시작되었습니다.	OX Event a оnceput. 
+OX 이벤트가 이미 진행중입니다(flag: %d)	Evenimentul are deja loc (Dlag: %d) 
+OX 이벤트를 마치겟습니다.	OX Evenimentul va lua sfвrєit. 
+OX이벤트 맵을 먼저 닫아 주세요.(Flag: %d)	Оntвi оnchide harta evenimentului OX.(Flag: %d) 
+OX이벤트가 닫히지 않았거나, 퀴즈 출제중입니다.(flag: %d)	OX Evenimentul оncг nu s-a sfвrєit. A apгrut p eroare.(flag: %d) 
+OX이벤트가 열려 있지 않거나 문제 출제중입니다.(Flag: %d)	Evenimentul OX a luat sfвrєit. Nu au apгrut erori.(Flag: %d) 
+OX이벤트를 강제 종료 시킵니다.	OX Evenimentul va fi sfвrєit. 
+OX이벤트의 나머지 인원 기록을 실패했습니다.	OX Ceilalюi participanюi la eveniment nu au fost notaюi. 
+OX이벤트의 나머지 인원을 기록하였습니다.	OX Ceilalюi participanюi la eveniment sunt notaюi. 
+TEST : 현재 국고 : %d	TEST: Оn seiful regatului tгu se aflг: %d 
+TEST : 황금두꺼비가 국고로 환원되었습니다.	TEST: Lingoul de aur a fost returnat seif-ului regatului tгu. 
+TEST : 황금두꺼비를 국고로 환원할 수 없습니다.	TEST: Nu poюi returna lingoul de aur seiful-ui regatului tгu. 
+X 입니다	Nu (X) 
+[%s군주] : %s	[%sMonarh] : %s 
+[%s군주] : %s  보유금액 %lld	[%sMonarh] : %s Avere Yang %lld 
+[TEST_ONLY]현재 국고 : %d	[TEST_ONLY]Impozit: %d 
+가만히 있을 때만 착용할 수 있습니다.	Trebuie sг stai pe loc pentru a echipa obiectul. 
+각제국 진행 정보	Informaюii de succes ale regatelor. 
+감지기를 작용하였으나 감지되는 영석이 없습니다.	Momentan nu este nicio Piatra Metin pe aceasta harta. 
+갑옷을 벗어야 개인 상점을 열 수 있습니다.	Poюi deschide magazinul dacг dezbraci armura. 
+값을 잘못 입력하였습니다.	Ai introdus o valoare greєitг. 
+강화에 성공했습니다.	Intarirea a fost facuta cu succes. 
+강화에 실패했습니다.	Intarirea a esuat. 
+강화에 필요한 재료가 아닙니다.	Nu ai materialele necesare pentru intarirea Pietrei Dragon. 
+강화창을 연 상태에서는 아이템을 옮길 수 없습니다.	Nu poti muta obiectul in cadrul ferestrei de rafinament. 
+강화할 수 없는 용혼석입니다.	Aceasta Piatra Dragon nu poate fi folosita pentru intarire. 
+같은 개량서를 합칠 수는 없습니다.	Nu poюi uni pergamente ale оmbunгtгюirii identice. 
+같은 종류의 메틴석은 여러개 부착할 수 없습니다.	Nu poюi atasa mai multe pietre de acelasi fel. 
+같은 종류의 유니크 아이템 두 개를 동시에 장착할 수 없습니다.	Nu poюi echipa acest obiect de douг ori. 
+같이 지을 수 없는 종류의 건물이 지어져 있습니다.	Acest tip de clгdire poate fi construit doar o datг. 
+개량된 후 아이템의 레벨 제한보다 레벨이 낮습니다.	Nivelul tгu este prea scгzut pentru a folosi acest obiect. 
+개량을 하기 위한 돈이 부족합니다.	Nu ai suficient Yang. 
+개량을 하기 위한 재료가 부족합니다.	Nu ai materialul potrivit pentru a produce asta. 
+개인상점 사용후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	Dupг deschiderea lagгrului nu poюi folosi pergamentul 'Оnapoi' timp de %d secunde. 
+거래 후 %d초 이내에 창고를 열수 없습니다.	Dupг un tвrg, trebuie sг aєtepюi %d secunde оnainte de a deschide un magazin. 
+거래 후 %d초 이내에는 귀환부,귀환기억부등을 사용할 수 없습니다.	Dupг negoю nu poюi folosi pergamentul 'Оnapoi' pentru %d secunde. 
+거래 후 %d초 이내에는 다른지역으로 이동 할 수 없습니다.	Timp de %d secunde de la negoю nu poюi pleca altundeva. 
+거래창,창고 등을 연 상태에서는 귀환부,귀환기억부 를 사용할수 없습니다.	Nu poюi folosi pergamentele Оnapoi atвta timp cвt este deschisг altг fereastrг. 
+거래창,창고 등을 연 상태에서는 다른곳으로 이동,종료 할수 없습니다	Dupг negoю nu poюi pleca altundeva pentru un anumit timp. 
+거래창,창고 등을 연 상태에서는 보따리,비단보따리를 사용할수 없습니다.	Nu poюi deschide un lagгr atвta timp cвt este deschisг altг fereastrг. 
+거짓	FALSE 
+건물 비용 정보 이상으로 건설 작업에 실패했습니다.	Construcюia eєuatг datoritг unui preю de construcюie greєit. 
+건물을 지을 수 없는 위치입니다.	Aici nu poюi construi. 
+건설 비용이 부족합니다.	Nu ai destul Yang pentru a construi clгdirea. 
+건설에 필요한 건물이 지어져 있지 않습니다.	Clгdirea principalг trebuie construitг оntвi. 
+게임을 종료 합니다. 잠시만 기다리세요.	Vei fi deconectat de la server. Aєteaptг. 
+결재기간이 %d분 후 만료 됩니다.	Timpul de joc оюi expirг оn %d minute. 
+결혼 상태가 아니면 결혼반지를 사용할 수 없습니다.	Nu poюi purta un inel de cununie dacг nu eєti cгsгtorit. 
+결혼식이 종료됩니다.	Nunta ia оn curвnd sfвrєit. 
+결혼하지 않은 상태에서 예물을 착용할 수 없습니다.	Nu poюi folosi acest obiect dacг nu eєti cгsгtorit. 
+경험치 %d%%	Experienюг %d%% 
+경험치 %d%% 추가 획득 이벤트 중입니다.	Bonusul de experienta este in momentul de fata de %d%% 
+경험치 배율	Procentaj pentru punctele de experienюг 
+경험치가 부족하여 책을 읽을 수 없습니다.	Nu o poюi citi datoritг lipsei de experienюг. 
+고기가 미끼만 빼먹고 잽싸게 도망칩니다.	Ai pierdut momeala. 
+고기가 잡혔습니다! (%s)	Ai prins un peєte! (%s) 
+고기가 흔적도 없이 사라집니다.	Peєtele a dispгrut оn adвncurile apei. 
+곡괭이 수련도가 최대(%d)가 되었습니다.	Punctele de exploatare au ajuns la maxim. (%d) 
+곡괭이가 최대 수련도에 도달하였습니다.	Punctele de exploatare au ajuns la un nivel maxim. 
+곡괭이를 들고 있지 않아서 캘 수 없습니다.	Nu poюi exploata nimic fгrг tвrnгcop. 
+곡괭이를 장착하세요.	Ai nevoie de tоrnгcop pentru a extrage minereu! 
+곡괭이의 수련도가 증가하였습니다! (%d/%d)	Punctele tale de exploatare au crescut! (%d%d) 
+골드 드롭률 %d%% 추가 이벤트 중입니다.	Nivelul de drop Yang este оn momentul de faюг plus %d%% 
+공격력 +%d	Putere de atac + %d 
+공격력 +%d%%	Atac + %d%% 
+공격속도 +%d	Vitezг de atac +%d 
+공부하기 싫어지네.	Nu vreau sг оnvгю mai departe. 
+관전 모드로 길드전에 참가하셨습니다.	Poюi participa la luptг оn modul spectator. 
+관전 상태에서는 교환을 할 수 없습니다.	Nu poюi negocia la observare. 
+관통 추가 데미지 %d	Pagubг arme albe plus %d 
+국고에 돈이 부족하거나 돈을 가져올수 없는 상황입니다	Nu ai destul Yang. 
+국고에 돈이 부족합니다. 현재 : %u 필요금액 : %u	Lipsг de impozite. Capital actual: %u capital lipsг: %u 
+국고에 자금이 모자랍니다 국고 : %d	Оncasгri din impozite insuficiente: %d 
+군주 정보	Inormaюiile оmpгratului 
+군주가 내린 축복으로 모든 에너지가 가득 채워집니다	Datoritг binecuvвntгrii оmpгratului, energia va fi aruncatг оnapoi. 
+군주만이 사용 가능한 기능입니다	Aceastг funcюie poate fi folositг doar de оmpгrat. 
+군주만이 사용가능 한 기능입니다	Doar оmpгratul poate folosi asta. 
+군주만이 사용할수 있는 기능입니다	Doar un оmpгrat poate folosi asta. 
+군주의 금강권 영향으로 이지역 %s 유저는 3분간 10 %% 의 방어력이  증가됩니다	Prin domnitorul Geum-Gang-Gwon, jucгtorului %s оi este crescutг armura оn acest юinut cu 10 %% timp de 3 minute. 
+군주의 사자후 영향으로 이지역 %s 유저는 3분간 10 %% 의 공격력이  증가됩니다	Prin domnitorul Sa-Za-Hu, jucгtorului %s оi este crescutг puterea de atac оn acest юinut cu 10 %% timp de 3 minute. 
+군주의 자격을 가지고 있지 않습니다	Nu ai calificarea unui оmpгrat. 
+군주의 축복으로 이지역 %s 유저는 HP,SP가 모두 채워집니다.	La folosirea binecuvвntгrii monarhului %s sunt refгcute PV єi PM. 
+군주의 축복을 사용하였습니다.	Binecuvвntarea оmpгratului este activг. 
+군직이 맞지않아 이 아이템을 사용할 수 없습니다.	Nu оndeplineєti condiюiile pentru a folosi acest item. 
+귀환에 실패하였습니다.	Teleportare eєuatг. 
+그것으로 수련은 끝난 거야!	Antrenamentul s-a terminat. 
+그래, 이 느낌이야. 체내에 기가 아주 충만해.	Se simte bine. Corpul meu e plin de Chi. 
+그래, 천천히. 좀더 천천히, 그러나 막힘 없이 빠르게!	Cam оncet... dar continuu... fгrг oprire! 
+그랜드 마스터 수련을 할 수 없는 스킬입니다.	Nu poюi antrena aceastг competenюг pвnг la Mare Maestru. 
+그런 명령어는 없습니다	Aceastг comandг nu existг. 
+그런 사람이 없습니다.	Aceastг persoanг nu existг. 
+그런 이름 또는 번호의 길드가 없습니다.	O breaslг nu acest nume sau numгr nu existг. 
+근력 +%d	Putere +%d 
+근력이 낮아 착용할 수 없습니다.	Nu eєti destul de puternic pentru a echipa acest obiect. 
+금액이 부족합니다.	Yang insuficient. 
+기억된 위치가 타제국에 속해 있어서 귀환할 수 없습니다.	Nu te poюi teleporta оntr-un punct sigur оntr-un regat strгin. 
+기억해 둘 수 없는 위치 입니다.	Nu poюi stoca aceastг locaюie. 
+기절하지 않음 %d%%	Fгrг zгpгcealг %d%% 
+길드에 가입하지 않았습니다.	Nu te-ai alгturat breslei. 
+길드원	Member 
+길드장	Leader 
+길드전에 참가한 상대방 길드원이 아무도 없습니다.	Nu existг inamici. 
+길드전이 일찍 종료되어 무승부로 판정 되었습니다. (5분이 지나지 않음)	Deoarece rгzboiul s-a terminat mai devreme, s-a terminat cu o remizг. 
+꿈속에서 어떻게요?	Оn visele mele? Cum? 
+나무꾼를 통해 다음 레벨의 곡괭이로 업그레이드 할 수 있습니다.	Poюi merge la tгietorul de lemne Deokbae pentru a-юi upgrada Toporul. 
+나무에서 부터 신비한 빛이 나옵니다.	O luminг misticг apare din copac. 
+나보다 너무 높은 레벨의 몬스터로는 변신 할 수 없습니다.	Nu te poюi transforma оntr-un monstru cu un nivel mai mare ca al tгu. 
+나의 군주 정보	Informaюiile оmpгratului ale mele. 
+나의 삼거리 진행정보	Informaюii despre lupta regatelor. 
+낚시 중에 미끼를 갈아끼울 수 없습니다.	Nu poюi schimba momeala оn timpul pescuitului. 
+낚시대가 아닌 물건으로 낚시를 할 수 없습니다!	Nu poюi pescui fгrг undiюг! 
+낚시대가 최대 수련도에 도달하였습니다.	Ai atins numгrul maxim de puncte de pescuit. 
+낚시대를 장착 하세요.	Alege o undiюг. 
+낚시대에 %s를 미끼로 끼웁니다.	Ai agгюat %s оn cвrlig ca momealг. 
+낚시대의 수련도가 증가하였습니다! (%d/%d)	Punctele tale de pescuit au crescut! (%d/%d) 
+낚시를 할 수 있는 곳이 아닙니다	Nu poюi pescui aici. 
+낚시이벤트월척붕어	Eveniment pescгresc 'Cel mai bun pescar' 
+낚시이벤트잉어	Eveniment pescгresc 'Puterea liniєtii' 
+남은 생명력 양이 모자라 사용할 수 없습니다.	Nu ai destule PV. 
+남은 스탯 포인트가 없습니다.	Nu au mai rгmas puncte de status. 
+남은 스탯 포인트가 적습니다.	Au mai rгmas prea puюine puncte de status. 
+남은 정신력 양이 모자라 사용할 수 없습니다.	Nu ai destulг mana pentru a folosi asta. 
+너무 가까이 있습니다.	Eєti prea aproape. 
+너무 멀리 있습니다	Eєti prea departe. 
+넘어지지 않음 %d%%	Fгrг cгzгturг %d%% 
+녀석들은 이곳 성지에 있을 자격을 잃었다. 모두 성지에서 물러나거라~~[ENTER][ENTER] 10초 후에 모두 마을로 이동하게 됩니다.	Nu ai dreptul sг fii aici. Dispari! Dupг 10 secunde vei fi trimis оn satul tгu. 
+느려지지 않음 %d%%	Fгrг оncetinire %d%% 
+님의 말	Cal 
+다 읽었다! 이제 비급에 적혀있는 대로 전신에 기를 돌리기만 하면,	Am citit-o! Acum trebuie sг se оmprгєtie Chi-ul оn corpul meu. 
+다른 거래중(창고,교환,상점)에는 개인상점을 사용할 수 없습니다.	Nu poюi folosi acum niciun magazin privat 
+다른 거래중(창고,교환,상점)에는 사용할 수 없습니다.	Nu poюi crea dacг mai este deschisг o fereastrг de negoю-lagгr. 
+다른 거래중일경우 개인상점을 열수가 없습니다.	Nu poюi deschide un magazin atвta timp cвt negociezi. 
+다른 거래창이 열려있을경우 거래를 할수 없습니다.	Nu poюi negocia cгnd sunt deschise ferestrele de negoю. 
+다른 거래창이 열린상태에서는 상점거래를 할수 가 없습니다.	Nu poюi negocia оn magazin atвta timp cвt este deschisг o fereastrг de negoю. 
+다른 제국 유저는 소환할 수 없습니다.	Nu poюi recruta jucгtori din alte regate. 
+다른 컴퓨터에서 로그인 하여 접속을 종료 합니다.	Cineva a intrat cu contul tгu. Vei fi deconectat. 
+다른거래창이 열린상태에서는 창고를 열수가 없습니다.	Nu poюi deschide niciun lagгr atвta timp cвt este deschisг o fereastrг de negoю. 
+다음 문제 준비해주세요.	Pregгtit pentru urmгtoarea оntrebare? 
+다이아몬드로 소켓을 추가해야합니다.	Trebuie sг adaugi un suport dacг vrei sг foloseєti un diamant. 
+단계 개량에 성공했습니다.	Imbunatatirea nivelului de claritate efectuat cu succes. 
+단계 개량에 실패했습니다.	Imbunatatirea nivelului de claritate efectuat a esuat. 
+단계 개량에 필요한 재료가 아닙니다.	Acest obiect nu este necesar pentru rafinare. 
+단계 개량할 수 없는 용혼석입니다.	Piatra Dragonului nu poate fi folosita pentru rafinare. 
+닫기	Оnchide 
+당신이 주사위를 굴려 %d가 나왔습니다. (%d-%d)	Ai aruncat zarurile. Ai primit %d (%d-%d). 
+대련 강제 종료 성공	Deul оntrerupt cu succes. 
+대련 강제 종료 실패	Duelul a fost оntrerupt fгrг succes. 
+대련 상대가 사라져 대련을 종료합니다.	Duelul a fost оncheiat deoarece inamicul tгu a dispгrut. 
+대련 시간 초과로 대련을 중단합니다.	Duelul va fi оncheiat deoarece limita de timp a fost depгєitг. 
+대련 시작에 문제가 있습니다.	Existг o problemг pentru a оncepe duelul. 
+대련 중에는 이용할 수 없는 물품입니다.	Nu poюi folosi acest obiect оn duel. 
+대련이 성공적으로 시작 되었습니다.	Оnceput de duel reuєit. 
+대련이 시작되었습니다.	Duelul a оnceput. 
+대련자 문제로 인하여 대련을 종료합니다.	Duelul a luat sfвrєit deoarece a apгrut o problemг cu participantul la duel. 
+대련자 문제로 인하여 대련을 중단합니다.	Duelul va fi oprit deoarece a apгrut o problema cu arena de duel. 
+대련자가 없습니다.	Nu existг participanюi la duel. 
+대련장 문제로 인하여 대련을 종료합니다.	Duelul va fi оncheiat deoarece a apгrut o problema cu arena de duel. 
+대련장에서 사용하실 수 없습니다.	Nu poюi folosi asta оn arena de duel. 
+대박골드 드롭률 %d%% 추가 이벤트 중입니다.	Nivelul de drop Yang este оn momentul de faюг plus %d%% 
+더 높은 경지의 수련을 성공적으로 끝내셨습니다.	Ai оncheiat cu succes antrenamentul cu cartea. 
+더 이상 OX이벤트 참가자를 받지 않습니다.	OX Evenimentul nu mai acceptг participanюi. 
+더 이상 개량할 수 없습니다.	Nicio alta imbunatatire posibila. 
+더 이상 수련할 수 없습니다.	Nu оюi mai poюi creєte aceastг abilitate. 
+더 이상 승마 수련서를 읽을 수 없습니다.	Nu poюi citi mai multe indicaюii de cгlгrie. 
+더 이상 이 아이템을 이용하여 속성을 추가할 수 없습니다.	Acest item nu mai poate fi оmbunгtгюit. Numгrul maxim de bonusuri a fost atins. 
+더이상 이 아이템을 이용하여 속성을 추가할 수 없습니다.	Trebuie sa foloseєti Marmura Binecuvantata ca sa poюi adгuga оncг un bonus acestui item. 
+더이상 캐낼 수 없습니다.	Nu existг nimic de exploatat. 
+던전 안에서는 %s%s 사용할 수 없습니다.	%s%s nu poate fi folosit оntr-o temniюг. 
+독 저항 %d%%	Rezistenюг la otravг %d%% 
+독공격 %d	Atac otrгvit %d 
+돈 %d 냥을 획득했습니다.	Ai primit %d Yang. 
+돈 대박이 나올 확률	Procent bombг Yang droprate 
+돈 드롭율 %.1f배	Probabilitatea de a gгsi Yang %. 1f 
+돈이 나올 확률	Procent Yang droprate 
+돈이 부족하거나 아이템이 제자리에 없습니다.	Yang insuficient sau lipsг de loc оn inventar. 
+동물류 몬스터 타격치 +%d%%	Puterea de atac a calului оmpotriva monєtrilor +%d%% 
+동일한 머리 스타일로는 교체할 수 없습니다.	Porюi deja aceastг frizurг. 
+두손검 방어 %d%%	Apгrare sabie-2-mвini %d%% 
+둔갑 중에는 능력을 올릴 수 없습니다.	Nu оюi poюi schimba statusul atвta timp cвt eєti transformat. 
+둔갑 중에는 착용중인 장비를 변경할 수 없습니다.	Nu poюi schimba obiectul echipat оn timp ce te transformi. 
+둔갑서 수련을 마첬습니다. 신선에게 찾아가세요.	Ai оnvгюat transformarea. 
+둔갑에 실패 하였습니다	Eroare la transformare 
+둔갑할 수 없는 상태입니다.	Nu te poюi transforma cat timp cгlareєti. 
+드디어 끝이 보이는 건가...  이 기술은 이해하기가 너무 힘들어..	Aceste instrucюiuni sunt greu de оnюeles. Am sг studiez оn continuare. 
+등급 개량에 성공했습니다.	Rafinarea la nivelul urmator a fost cu succes. 
+등급 개량에 실패했습니다.	Rafinarea la nivelul urmator a esuat. 
+등급 개량에 필요한 재료가 아닙니다.	Acest obiect nu este necesar pentru imbunatatirea nivelului de claritate. 
+떨어진 아이템은 %d분 후 사라집니다.	Obiectul aruncat va dispгrea dupг %d minute. 
+떨어진 아이템은 3분 후 사라집니다.	Obiectul aruncat va dispгrea оn 3 minute. 
+뜨거운 무엇이 계속 용솟음치고 있어! 이건, 이것은!	Antrenamentul pare sг funcюioneze deja... 
+레벨 20 이하는 핸드폰 번호를 등록할 수 없습니다.	Nivelul tгu trebuie sг fie peste 20 pentru a putea оnregistra un numгr de mobil. 
+레벨 30이 되기 전에는 습득할 수 있을 것 같지 않습니다.	Trebuie sг ai minim nivelul 30 pentru a оnюelege cartea asta. 
+레벨 50이 되기 전에는 습득할 수 있을 것 같지 않습니다.	Trebuie sг ai minim nivelul 50 pentru a оnюelege cartea asta. 
+레벨이 낮아 착용할 수 없습니다.	Nivelul tгu este prea scгzut pentru a echipa acest obiect. 
+로그인 화면으로 돌아 갑니다. 잠시만 기다리세요.	Оnapoi la fereastra de login. Aєteaptг. 
+룻렛을 돌립니다. 금액 %d	Оnvвrte ruleta pentru o sumг de %d Yang. 
+를	pe 
+마법 공격력 +%d	Atac magie + %d 
+마법 방어력 +%d	Apгrare magie + %d 
+마법 저항 %d%%	Rezistenюг la magie %d%% 
+마음이 맑아지는군. 가슴을 짓누르던 무언가가 좀 가벼워진 느낌이야.	Spiritul оюi este limpede. Acum te poюi concentra. 
+많은 참여 부탁드립니다.	Rugгm participarea multor jucгtori. 
+말 소환 아이템을 사용하세요.	Foloseєte un obiect petru a striga un cal. 
+말 소환에 실패하였습니다.	Strigarea calului eєuatг. 
+말에게 %s%s 주었습니다.	Ai hrгnit un cal cu %s%s. 
+말에게 사료를 주었습니다.	Ai hrгnit calul. 
+말에게 선초를 주었습니다.	Ai hrгnit calul cu ierburi. 
+말에서 먼저 내려야 합니다.	Trebuie sг cobori. 
+말을 돌려보냈습니다.	Юi-ai trimis calul departe. 
+말을 먼저 소환해주세요.	Strigг-юi оntвi calul. 
+말을 소유하고 있지 않습니다.	Nu ai cal. 
+말을 탄 상대와 감정표현을 할 수 없습니다.	Nu poti folosi emotiile pe un jucator care se afla pe cal. 
+말을 탄 상태에서 감정표현을 할 수 없습니다.	Nu poti folosi emotiile in timp ce esti pe cal. 
+말을 탄 상태에서 예복을 입을 수 없습니다.	Nu poti folosi asta in timpul calariei. 
+말을 탄 상태에서는 먹이를 줄 수 없습니다.	Nu poюi hrгni calul оn timp ce cгlгreєti. 
+말의 스테미너가 부족하여 말을 탈 수 없습니다.	Rezistenюa calului tгu este prea scгzutг. 
+말이 없습니다. 마굿간 경비병을 찾아가세요.	Niciun cal. Оntreabг grгjdarul. 
+말이 죽어있는 상태 입니다.	Calul tгu este mort. 
+맞으면 O, 틀리면 X로 이동해주세요	Daca este corect: O, daca este gresit: X. 
+머니  룰렛 시작.	Porneєte ruleta de Yang. 
+먼저 다이아몬드로 악세서리에 소켓을 추가해야합니다.	Trebuie sг adaugi un suport оnainte. Foloseєte diamantul pentru a face asta. 
+먼저 용혼석 퀘스트를 완료하셔야 합니다.	Inainte de a deschide Cor Draconis, trebuie sa termini misiunea Pietrelor Dragon si sa activezi Alchimia Piatra Dragon. 
+먼저 일어 나세요.	Ridicг-te оntвi. 
+먼저 재가비서를 이용하여 속성을 추가시켜 주세요.	Poюi folosi Marmura Binecuvantata numai cu un item care are deja 4 bonusuri. 
+메틴2인증번호: %s	Cod de confirmare Metin2: %s 
+메틴석 부착에 성공하였습니다.	Ai pus piatra cu succes. 
+메틴석 부착에 실패하였습니다.	Piatra s-a spart оn timp ce оncercai s-o ataєezi. 
+명령어를 모두 입력하세요.	Introdu comanda оntreagг. 
+명령어의 서브 커맨드가 잘못 되었습니다.	Sub-comanda comenzii este greєitг. 
+모닥불을 피울 수 없는 지점입니다.	Nu poюi face un foc de tabгrг aici. 
+몬스터에게 강함 +%d%%	Puternic оmpotriva monєtrilor + %d%% 
+몸 속이 뜨겁군. 하지만 아주 편안해. 이대로 기를 안정시키자.	Ard оn interior, dar оmi liniєteєte corpul. Chi-ul meu trebuie sг se stabilizeze. 
+몸에서 뭔가 힘이 터져 나오는 기분이야!	Corpul meu este plin de putere. 
+무기와 갑옷에만 사용 가능합니다.	Poate fi folosit doar pentru arme si armuri. 
+무당공격에 %d%% 저항	Rezistenюг оmpotriva atacurilor єamanilor %d%% 
+무당에게 강함 +%d%%	Puternic оmpotriva єamanilor + %d%% 
+무료 개량 기회는 20 이하의 무기만 가능합니다	Imbunatatirea gratuita a obiectelor poate fi folosita pe arme pentru nivel maxim 20. 
+무사공격에 %d%% 저항	Rezistenюг оmpotriva atacurilor rгzboinicilor %d%% 
+무사에게 강함 +%d%%	Puternic оmpotriva rгzboinicilor + %d%% 
+문자 메세지 전송에는 2000원이 필요 합니다.	Ai nevoie de 2000 DT pentru a trimite un SMS. 
+문자 메세지 전송은 레벨 20부터 할 수 있습니다.	Trebuie sг fi cel puюin la nivelul 20 pentru a trimite un SMS. 
+문자 메세지를 전송 했습니다.	SMS-ul a fost trimis. 
+문제 입니다.	Оntrebare. 
+문제를 출제하였습니다.	A intervenit o eroare. 
+문제를 출제하지 못했습니다.	Nu a apгrut nicio eroare. 
+물 속에 모닥불을 피울 수 없습니다.	Nu poюi face un foc de tabгrг оn apг. 
+물리타격시 블럭 확률 %d%%	%d%% єansг de a bloca un atac corporal 
+물약 사용시 %d%% 성능 증가	Creєterea eficienюei cu %d%% prin luarea porюiei 
+물약 제조에 실패했습니다.	Producerea licorii a eєuat. 
+물약 제한이 없습니다.	Nu existг limitг pentru licori. 
+물약 조합을 위한 재료가 부족합니다.	Lipseєte material pentru amestecul licorii. 
+물약을 %d 개 까지 사용 가능합니다.	Poюi folosi pвnг la %d licori. 
+뭔가 몸 안에 힘이 생기는 기분인 걸.	Mг simt reоmprospгtat. 
+미끼를 끼고 던져 주세요.	Fixeazг оntвi momeala оn cвrlig. 
+민첩 +%d	Dexteritate +%d 
+민첩이 낮아 착용할 수 없습니다.	Dexteritatea ta este prea scгzutг pentru a echipa acest obiect. 
+밀교류 타격치 +%d%%	Оntгrirea atacului оmpotriva Milgyo + %d%% 
+바람 저항 %d%%	Rezistenюг la vвnt %d%% 
+방어력 +%d	Armurг + %d 
+방어력 +%d%%	Apгrare + %d%% 
+방울 방어 %d%%	Apгrare clopot %d%% 
+배 속에서 조개가 나왔습니다.	Оn peєte se aflг o scoicг. 
+배 속에서 지렁이가 나왔습니다.	Оn peєte se aflг o rвmг. 
+버릴 수 없는 아이템입니다.	Nu poюi arunca acest obiect. 
+변경할 속성이 없습니다.	Nu ai nicio imbunatatire care poate fi schimbata. 
+변신 상태에서는 말에 탈 수 없습니다.	Nu poюi cгlгri atвta timp cвt eєti transformat. 
+변신중에는 책을 읽을수 없습니다.	Nu poti citi o carte cat timp esti transformat. 
+부착할 수 있는 슬롯이 없습니다.	Nu este niciun slot liber. 
+부채 방어 %d%%	Apгrare evantai %d%% 
+불법 프로그램이 감지 되어 게임이 종료 됩니다.	A fost descoperit software ilegal. Jocul va fi оnchis. 
+비속어나 은어가 포함된 상점 이름으로 상점을 열 수 없습니다.	Nu poюi da magazinului tгu un nume care nu este valabil. 
+빈 병이 모자릅니다.	Nu ai destule sticle goale. 
+빼낼 수 있는 메틴석이 없습니다.	Nu existг piatrг de scos. 
+빼낼 영석이 없습니다	Nicio piatra valabila pentru indepartare. 
+사귀 타워 완료 보상은 한번까지 사용가능합니다.	Poюi fi rгsplгtit doar o datг pentru sarcina turnului demonilor. 
+사용 제한량을 초과하였습니다.	Aceasta depгєeєte limita. 
+사용법: transfer <name>	Foloseєte: transfer <name> 
+사용법: warpto <character name>	Comandг: warpto <character name> 
+사용할수 없습니다.	Aceastг funcюie nu poate fi folositг aici єi acum. 
+삼거리 몹 리젠	Monєtri la lupta regatelor 
+삼거리 전투 참가중에는 귀환부,귀환기억부를 사용할수 없습니다.	La participarea la lupta regatului nu poюi folosi pergamentul 'Оnapoi'. 
+삼거리 전투에서 %s 국가가 가장먼저 탈락을 하였습니다	Regatul %s a fost infrant si este exclus din Lupta Regatelor. 
+상대방 캐릭터가 접속을 종료하여 대련을 중지합니다.	Inamicul de duel a fost deconectat. Duelul este оntrerupt. 
+상대방 캐릭터의 문제로 인하여 대련을 종료합니다.	Inamicul de duel are probleme. Duelul va fi оncheiat. 
+상대방의 돈이 부족하거나 아이템이 제자리에 없습니다.	Cealaltг persoanг nu are destul Yang sau destul loc оn inventar. 
+상대방의 소지품에 빈 공간이 없습니다.	Cealaltг persoanг nu are destul loc оn inventar. 
+상대방의 총금액이 20억 냥을 초과하여 거래를 할수가 없습니다..	Jucгtorul are peste 2 Mrd. Yag. Nu poюi negocia cu el. 
+상대방이 %d 채널에 있습니다. (현재 채널 %d)	Jucгtorul joacг оn canalul %d. (Tu eєti оn canalul %d). 
+상대방이 교환 거부 상태입니다.	Cealaltг persoanг a оntrerupt negoюul. 
+상대방이 다른 거래를 하고 있는 중입니다.	Jucгtorul negociazг cu altul. 
+상대방이 다른 거래중이라 거래를 할수 없습니다.	Cealaltг persoanг tocmai negociazг, de aceea nu poюi sг negociezi. 
+상대방이 대련중입니다.	Jucгtorul tocmai se dueleazг. 
+상대방이 메신져 추가 거부 상태입니다.	Jucгtorul a refuzat cererea ta de a fi adгugat la lista de prieteni. 
+상대방이 온라인 상태가 아닙니다.	Jucгtorul nu este online. 
+상대방이 있는 곳으로 워프할 수 없습니다.	Nu te poюi teleporta la jucгtor. 
+상대방이 친구 추가를 받을 수 없는 상태입니다.	Nu poюi adгuga persoana care stг оn faюa ta la lista de prieteni. 
+상대방이 파티에 속해있지 않습니다.	Jucгtorul nu se aflг оn grupг. 
+상자가 갑자기 폭발하였습니다! 생명력이 감소했습니다.	Cutia a explodat deodatг! PV юi-au scгzut. 
+상자에서 %s 가 %d 개 나왔습니다.	Ai primit %s, %d unitгюi. 
+상자에서 %s 가 나왔습니다.	Оn cutie este %s. 
+상자에서 나온 녹색 연기를 들이마시자 독이 온몸으로 퍼집니다!	Dacг inhalezi fumul verde care iese din cutie, corpul tгu se va umple cu otravг. 
+상자에서 나온 빨간 연기를 들이마시자 움직이는 속도가 느려졌습니다!	Dacг inhalezi fumul roєu din cutie оюi creєte repeziciunea. 
+상자에서 몬스터가 나타났습니다!	Din cutie a ieєit un monstru! 
+상자에서 부터 신비한 빛이 나옵니다.	Din cutie iese luminг misterioasг. 
+상점과의 거리가 너무 멀어 물건을 살 수 없습니다.	Eєti prea departe de magazin pentru a cumpгra. 
+상점과의 거리가 너무 멀어 물건을 팔 수 없습니다.	Eєti prea departe de magazin pentru a vinde. 
+상품을 받을 인벤토리가 부족합니다. 인벤토리를 비워주세요!	Nu ai destul spaюiu оn inventar pentru a accepta recompensг. 
+생각만큼 읽기가 쉽지가 않군. 이해도 어렵고 내용도 난해해.	E mai complicat єi mai greu de оnюeles decвt am crezut. 
+생명력 회복 +%d	Odihna vieюii +%d 
+서버에 치명적인 오류가 발생하여 자동으로 재부팅됩니다.	O eroare criticг de server a intervenit. Serverul va fi restartat automat. 
+선악치가 %d 증가하였습니다.	Rangul tau a crescut cu %d puncte. 
+선악치를 더 이상 올릴 수 없습니다.	Punctele abilitгюilor nu mai pot fi mгrite. 
+선택 맵 정보 성지 %d 통로 %d %d %d	Alege informaюiile hгrюii Pгmвntului Sfвnt %d trecere %d %d %d 
+성별이 맞지않아 이 아이템을 사용할 수 없습니다.	Nu poюi folosi acest obiect deoarece sexul tгu nu corespunde. 
+성별이 맞지않아 이 아이템을 열 수 없습니다.	Obiectul poate fi deschis doar de cгtre celгlalt sex. 
+성에서만 사용할 수 있는 기능입니다.	Aceastг funcюie poate fi folositг doar оn castel. 
+성지에서 부활 기회를 모두 잃었습니다! 마을로 이동합니다!	Perioada de aєteptare a expirat. Vei re-оnvia оn oraє. 
+성지의 마왕: 너희	Diavolul locului sfinюit. 
+세금이 %d %로 설정되었습니다	Impozitul a fost stabilit la %d %. 
+셧다운이 %d초 남았습니다.	%d sec pвnг la final. 
+소유 돈이 20억냥을 넘어 거래를 핼수가 없습니다.	Ai mai mult de 2 Mrd. Yang la tine. Nu poюi negocia. 
+소지금이 부족하여 이 아이템을 사용할 수 없습니다.	Nu ai destul Yang pentru a folosi obiectul. 
+소지품에 빈 공간이 없습니다.	Nu este destul loc оn inventar. 
+소지하고 있는 아이템이 너무 많습니다.	Porюi prea multe obiecte la tine. 
+소켓 추가에 실패하였습니다.	Nici un suport adгugat. 
+소켓이 성공적으로 추가되었습니다.	Suportul a fost adгugat cu succes. 
+소환할수 없는 몬스터 입니다. 소환가능한 몬스터는 홈페이지를 참조하세요	Monstrul nu poate fi strigat. Verificг numгrul mob. 
+속성 추가에 성공하였습니다.	Upgrade adaugat cu succes. 
+속성 추가에 실패하였습니다.	Niciun upgrade adaugat. 
+속성을 바꾼지 %d분 이내에는 다시 변경할 수 없습니다.(%d 분 남음)	Poti face asta dupa %d Minute de la upgrade. (%d Minute ramase) 
+속성을 변경하였습니다.	Ai schimbat imbunatatirea. 
+속성을 변경할 수 없는 아이템입니다.	Nu poti schimba upgradeul acestui obiect. 
+수라공격에 %d%% 저항	Rezistenюг оmpotriva atacurilor sura %d%% 
+수라에게 강함 +%d%%	Puternic оmpotriva sura + %d%% 
+수련이 실패로 끝났습니다. 다시 도전해주시기 바랍니다.	Antrenament eєuat. Оncearcг mai tвrziu. 
+수련할 수 없는 스킬입니다.	Nu poюi antrena aceastг competenюг. 
+스킬 데미지 %d%%	Paguba competenюei %d%% 
+스킬 데미지 저항 %d%%	Rezistenюг la paguba competenюei %d%% 
+스킬 레벨을 내리는데 성공하였습니다.	Юi-a scгzut nivelul competenюei. 
+스킬 레벨을 내릴 수 없습니다.	Nu оюi poate scade nivelul competenюei. 
+스턴 +%d	Stea +%d 
+슬로우 +%d	Reducerea vitezei +%d 
+승마 수련서 이해에 실패하였습니다.	Nu ai оnюeles indicaюiile de cгlгrie. 
+승마 수련서를 읽어 승마 스킬 포인트를 얻었습니다.	Ai citit Manualul de Cгlгrie єi ai primit un Punct de Cгlгrie. 
+시체류 타격치 +%d%%	Оntгrirea atacului оmpotriva Zombie + %d%% 
+신수국	Regatul Shinsoo 
+쓰러진 상태에서는 말에 탈 수 없습니다.	Nu poюi urca pe cal atоt timp cоt stai оntins pe jos. 
+쓰러진 상태에서는 할 수 없습니다.	Nu poюi face asta cвt timp eєti оntins pe jos. 
+아니 어떻게 된 게 종일 읽어도 머리에 안 들어오냐.	Citesc оn continuu acelaєi rвnd. 
+아무것도 얻을 수 없었습니다.	Nu ai primit nimic. 
+아이템 개량후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	Nu poti folosi Scroll-uri timp de %d dupa un schimb. 
+아이템 드롭률  %d%% 추가 이벤트 중입니다.	Nivelul de drop item este оn momentul de faюг plus %d%% 
+아이템 드롭율 %.1f배	Probabilitatea de a gгsi un obiect %. 1f 
+아이템 룰렛 시작.	Porneєte ruleta obiectelor. 
+아이템 전달: %s 님에게 %s	Negoю cu obiecte: %s, %s 
+아이템 획득: %s	Ai primit %s. 
+아이템 획득: %s 님으로부터 %s	%s primit, %s unitгюi 
+아이템로그가 syslog 에 남았습니다	Itemlog a fost pun оn syslog. 
+아이템을 건네줄 수 없습니다.	Nu poюi renunюa la acest obiect. 
+아이템의 레벨 제한보다 레벨이 낮습니다.	Nivelul tгu este prea scгzut pentru a folosi acest obiect. 
+아이템이 나올 확률	Procent item droprate 
+아직 골드를 버릴 수 없습니다.	Оncг nu poюi arunca Aurul. 
+아직 마을에서 재시작 할 수 없습니다. (%d 초 남음)	Оncг nu poti restarta оn oraє. Aєteaptг оncг %d secunde. 
+아직 사용할 수 없습니다.	Nu poate fi folosit inca. 
+아직 승마 스킬을 수련할 수 있는 레벨이 아닙니다.	Trebuie sг ai minim nivelul 50 pentru a оnvгюa sг cгlгreєti. 
+아직 이 머리를 사용할 수 없는 레벨입니다.	Nivelul tгu este prea scгzut pentru a purta aceastг frizurг. 
+아직 재시작 할 수 없습니다. (%d초 남음)	Оncг nu poюi restarta. Te rugгm aєteaptг оncг %d secunde. 
+아직 재시작 할 수 없습니다.(%d초 남음 )	Un nou start nu e posibil оn acest moment.Te rugгm aєteaptг %d secunde. 
+아직 재시작 할 수 없습니다.(%d초 남음)	Оncг nu poюi restarta. Te rugгm aєteaptг оncг %d secunde. 
+악마류 타격치 +%d%%	Оntгrirea atacului оmpotriva diavolilor + %d%% 
+안녕하세요. 메틴2 입니다.	Bun Venit оn Metin2. 
+액수가 20억 냥을 초과하여 거래를 할수가 없습니다..	Ai mai mult de 2 Mrd. Yang. Nu poюi face negoю. 
+양손검 방어 %d%%	Apгrare sabie-2-mвini %d%% 
+어느정도 이 기술에 대해 이해가 되었지만 조금 부족한듯 한데..	Fac progrese, dar оncг nu am оnюeles tot. 
+어부를 통해 다음 레벨의 낚시대로 업그레이드 할 수 있습니다.	Du-te la Pescar єi оmbunгtгюeєte-юi Undiюa! 
+얻은 포인트로는 승마 스킬의 레벨을 올릴 수 있습니다.	Poti folosi acest punct pentru a perfectiona abilitatea de calarie. 
+얼마 안 남았어! 조금만 더!	Aproape am reuєit! Оncг puюin! 
+여자만 할 수 있습니다.	Doar femeile pot face asta. 
+연계기는 더이상 수련할 수 없습니다.	Nu poюi antrena mai multe combo. 
+열쇠가 맞지 않는 것 같다.	Se pare cг aceastг cheie nu funcюioneazг. 
+열쇠는 맞으나 아이템 주는 부분 구현이 안되었습니다.	Aceasta este cheia corectг. 
+열쇠로 여는 물건이 아닌것 같다.	Acest obiect nu poate fi deschis cu o cheie. 
+열쇠로 잠겨 있어서 열리지 않는것 같다. 열쇠를 구해보자.	Оncuiat. Ar trebui sг cauюi cheia. 
+열심히 하는 배움을 가지는 것만이 기술을 배울수 있는 유일한 길이다..	Am оnюeles acest capitol. Dar trebuie sг muncesc din greu оn continuare. 
+열정의 가면을 착용시에만 할 수 있습니다.	Poюi face asta dacг porюi masca emoюiei. 
+영석 감지기가 신비로운 빛을 내며 사라집니다.	Busola pentru Pietrele Metin a dispгrut cu lumina misterioasг. 
+영석 감지기가 흔적도 없이 사라집니다.	Busola pentru Pietrele Metin a dispгrut. 
+예복을 입은 상태에서 말을 탈 수 없습니다.	Nu poюi cгlгri atвta timp cвt porюi o rochie de mireasг sau un smoking. 
+외치기는 레벨 %d 이상만 사용 가능 합니다.	Ai nevoie de un nivel minim de %d pentru a putea striga. 
+외치기는 유료회원만 사용할수 있습니다	Ai nevoie de un nivel mai mare pentru a putea striga. 
+용신의 가호로 경험치가 떨어지지 않았습니다.	Prin binecuvвntarea zeului zmeu nu ai pierdut experienюг. 
+용신의 보호로 아이템이 떨어지지 않았습니다.	Prin protecюia zeului zmeu nu ai aruncat niciun obiect. 
+용심 추출에 성공하였습니다.	Timpul ramas din Piatra Dragon a fost extras. 
+용심 추출에 실패하였습니다.	Extragerea timpului a esuat. 
+용혼석 상자가 활성화되지 않았습니다.	Piatra Dragon nu este activata. 
+용혼석 추출에 성공하였습니다.	Piatra Dragon a fost inlocuita. 
+용혼석 추출에 실패하여 %s를 얻었습니다.	Inlocuirea Pietrei Dragon a esuat. Dar ai primit urmatoarele: %s 
+용혼석 추출에 실패하였습니다.	Inlocuirea Pietrei Dragon a esuat. 
+운영자 제제로 채팅이 금지 되었습니다.	Chat-ul tгu a fost blocat de un GM. 
+웅귀족 타격치 +%d%%	Оntгrirea atacului оmpotriva Wonggui + %d%% 
+원래 위치로 복귀	Vei fi adus la locul iniюial. 
+월병 또는 종자 를 사용하였습니다	Plгcintг lunг sau seminюe folosite. 
+월병,종자 사용후 5초동안 사용할수 없습니다.	Poюi folosi plгcinta lunг doar o datг la 5 secunde. 
+유료화 아이템은 개인상점에서 판매할 수 없습니다.	Nu poюi vinde un obiect din Item-Shop оntr-un magazin privat. 
+을	pe 
+을두지를 통하여 입장 가능합니다.	Prin acordul lui Uriel este permisг intrarea. 
+이 개량서로 개량할 수 없습니다.	Nu poюi оmbunгtгюi cu acest pergament. 
+이 개량서로 더 이상 개량할 수 없습니다.	Pergamentul rгzboiului nu poate fi folosit pe obiecte cu +4 sau sub acestea. 
+이 곳에서 영석 감지기가 동작하지 않는것 같습니다.	Busola pentru Pietrele Metin nu funcюioneazг оn peєteri. 
+이 곳에선 이벤트용 감지기가 동작하지 않는것 같습니다.	Detectorul de evenimente nu poate fi operat de aici. 
+이 메틴석은 무기에 부착할 수 없습니다.	Nu poюi pune aceastг piatrг оn armг. 
+이 메틴석은 장비에 부착할 수 없습니다.	Piatra Spiritului nu poate fi atasata la acest tip de obiect. 
+이 스킬은 아직 그랜드 마스터 수련을 할 경지에 이르지 않았습니다.	Competenюa ta este insuficientг pentru antrenamentul de Mare Maestru. 
+이 스킬은 아직 책으로 수련할 경지에 이르지 않았습니다.	Aceastг competenюг nu este destul de оnaltг petru a o antrena cu o carte. 
+이 스킬은 책으로 더이상 수련할 수 없습니다.	Nu mai poюi antrena aceastг competenюг cu o carte. 
+이 아이템으로 소켓을 추가할 수 없는 아이템입니다.	Acestui obiect nu оi poate fi adгugat un suport. 
+이 아이템은 PC방에서만 사용할 수 있습니다.	Acest obiect poate fi folosit doar оntr-un Internet Cafe. 
+이 아이템은 개량할 수 없습니다.	Acest obiect nu poate fi оmbunгtгюit. 
+이 아이템은 이 방식으로는 개량할 수 없습니다.	Acest obiect nu poate fi оmbunгtгюit оn acest fel. 
+이 아이템을 장착할 수 없습니다.	Aceste obiecte nu pot fi folosite оmpreunг. 
+이 액세서리에는 더이상 보석을 장착할 수 없습니다.	Pe acest obiect nu mai poюi adгuga pietre preюioase. 
+이 액세서리에는 더이상 소켓을 추가할 공간이 없습니다.	Acestui obiect nu-i pot fi adгugate suporturi noi. 
+이 액세서리에는 더이상 장착할 소켓이 없습니다.	Оn aceste accesorii nu existг suport de echipat cu pietre preюioase. 
+이 책으로는 더 이상 수련할 수 없습니다.	Cu aceastг carte nu te poюi antrena mai departe. 
+이 책은 너무 어려워 이해하기가 힘듭니다.	Aceastг carte este prea greu de оnюeles. 
+이 책은 너무 어려워서 수련할 수 없습니다.	Cartea este prea grea pentru a exersa. 
+이 책은 아무리 봐도 도움이 될 것 같지 않습니다.	Aceastг carte nu te ajutг mai departe. 
+이 책을 읽으려면 레벨을 더 올려야 합니다.	Trebuie sг avansezi nivelul pentru a putea citi aceastг carte. 
+이 행동은 상호동의 하에 가능 합니다.	Pentru aceastг acюiune ai nevoie de acordul partenerului tгu de joc. 
+이동 되어질 위치와 너무 가까워 귀환부를 사용할수 없습니다.	Nu poюi folosi pergametul 'Оnapoi' pentru cг distanюa este prea micг. 
+이동속도 %d	Ritm de miєcare %d 
+이동할 준비가 되어있음으로 귀환부를 사용할수 없습니다	Eєti pregгtit pentru a юese, de aceea nu poюi folosi pergamentul 'Оnapoi'. 
+이래서야 공부가 안된다구.	E greu sг mг concentrez. Ar trebui sa iau o pauzг. 
+이미 같은 종류의 용혼석을 착용하고 있습니다.	Deti deja o Piatra Dragon de acest tip. 
+이미 꽂혀있던 미끼를 빼고 %s를 끼웁니다.	Schimbi momeala actualг cu %s. 
+이미 둔갑중인 상태입니다.	Te-ai transformat deja. 
+이미 선전포고 중인 길드입니다.	Ai declarat rгzboi acestei bresle. 
+이미 완벽하게 알아들을 수 있는 언어이다.	Оnюelegi deja aceastг limbг. 
+이미 입후보되어있습니다	Existг deja o candidaturг. 
+이미 장비를 착용하고 있습니다.	Ai deja echipat acest tip de Piatra Dragon. 
+이미 전쟁이 끝났습니다.	Rгzboiul s-a terminat. 
+이미 제조창이 열려있습니다.	Fereastra de creare este deschisг deja. 
+이미 탈것을 이용중입니다.	Deja cгlareєti. Da-te jos prima datг. 
+이미 파티에 속해 있으므로 가입신청을 할 수 없습니다.	Nu poюi accepta invitaюia, deoarece eєti deja оn grupг. 
+이미 효과가 걸려 있습니다.	Оєi face deja efectul. 
+이미투표를 했음	Ales deja. 
+이번에 잡은 물고기의 길이는 %.2fcm	Lungimea peєtelui prins este de %.2fcm. 
+이벤트용 감지기가 신비로운 빛을 내며 사라집니다.	Detectorul de evenimente a dispгrut cu lumina misterioasг. 
+이벤트용 감지기가 흔적도 없이 사라집니다.	Detectorul de evenimente a dispгrut. 
+이성간에만 할 수 있습니다.	Aceastг acюiune poate fi realizatг doar cu sexul opus. 
+이제 좀 슬슬 가닥이 잡히는 것 같은데.	Acum o оnюeleg! 
+이제 책의 마지막 장이야! 수련의 끝이 눈에 보이고 있어!	Am ajuns la ultima paginг a cгrюii! Antrenamentul e aproape gata! 
+인간류 몬스터 타격치 +%d%%	Puterea de atac a jucгtorului оmpotriva monєtrilor +%d%% 
+인벤토리가 꽉 차서 내릴 수 없습니다.	Inventarul tгu e plin. Obiectul nu poate fi ridicat. 
+인증번호가 틀렸습니다. 다시 시도하세요.	Codul de confirmare este greєit. Mai оncearcг odatг. 
+입력하신 이름을 가진 사용자가 없습니다.	Nu existг niciun jucгtor cu numele introdus de tine. 
+자객공격에 %d%% 저항	Rezistenюг оmpotriva atacurilor ninja %d%% 
+자객에게 강함 +%d%%	Puternic оmpotriva ninja + %d%% 
+자동으로 나가게됩니다.	Va fi pгrгsit automat. 
+자신을 선택하시면 밖으로 나갈 수 있는 <관람 종료> 버튼이 나옵니다.	La alegerea caracterului apare o icoanг. 
+자신을 소환할 수 없습니다.	Nu te poюi recruta singur. 
+자재가 부족하여 건설할 수 없습니다.	Nu ai destul material pentru a construi. 
+잘못된 둔갑 아이템입니다.	Acesta este obiectul nepotrivit pentru transformare. 
+잘못된 선택을 했습니다	Alegerea este greєitг. 
+잠시 후 OX 이벤트를 다시 시작하겠습니다.	Evenimentul OX va оncepe оn scurt timp. 
+잠시 후 마을로 이동되겠습니다.	Jucгtorul va fi teleportat оn oraє оn scurt timp. 
+잠시후 모두 마을로 이동됩니다.	Toюi vor fi teleportaюi оn oraє. 
+잠시후 해당 마을은  마을로 이동됩니다.	Toюi vor fi teleportaюi оn oraє оn scurt timp. 
+장비중인 아이템은 개인상점에서 판매할 수 없습니다.	Obiectele echipate nu pot fi vвndute оn magazinul privat. 
+장착에 성공하였습니다.	Echipare reuєitг. 
+장착에 실패하였습니다.	Echipare eєuatг. 
+재료(%s)가 부족합니다.	Nu ai destul material (%s). 
+저주 되돌리기 확률 %d%%	Reflecteazг blestem: %d%% 
+적용 레벨보다 높아 사용이 불가능합니다.	Nivelul obiectului tau este prea mare. 
+적합하지 않은 길드 이름 입니다.	Numele breslei nu este valabil. 
+전기 저항 %d%%	Rezistenюг la electricitate %d%% 
+전쟁 서버가 열려있지 않아 길드전을 시작할 수 없습니다.	Lupta breslelor nu poate оncepe, deoarece serverul nu este online. 
+전제국	Toate regatele 
+전투가 시작 되어 취소 되었습니다.	Actiune intrerupta. Batalie in desfasurare. 
+정답은	Rгspunsul corect este: 
+정답입니다!	Corect! 
+정상적으로 투표를하였습니다.	Ales regulamentar. 
+정신력 회복 +%d	Odihna mana +%d 
+제조 재료가 부족합니다	Nu ai materialul potrivit. 
+제조에 실패하였습니다.	Imbunatatirea obiectului tau nu a avut succes. 
+제조창이 열려있지 않습니다	Fereastra de creare nu este deschisг. 
+조개가 흔적도 없이 사라집니다.	Scoica a dispгrut. 
+조개에서 돌조각이 나왔습니다.	Оn scoicг vei gгsi o simplг Bucatг de Piatrг. 
+조개에서 백진주가 나왔습니다.	Оn scoicг se aflг o perlг albг. 
+조개에서 청진주가 나왔습니다.	Оn scoicг se aflг o perlг albastrг. 
+조개에서 피진주가 나왔습니다.	Оn scoicг se aflг o perlг viєinie. 
+존재하지 않는 건물입니다.	Clгdirea nu existг. 
+존재하지 않는 아이템 입니다	Acest obiect nu existг. 
+존재하지 않는 캐릭터 입니다.	Caracterul nu existг. 
+좋아, 이 기세로 계속 나간다!	Bine, trebuie sг rгmвn concentrat оn continuare! 
+좋았어! 조금만 더 읽으면 끝이다!	Aproape am terminat de citit! 
+주안술서를 통해 주화입마에서 빠져나왔습니다.	Cu ajutorul unui pergament de exorcizare ai scгpat de blestemul stafiei rele. 
+죽은 말에게 사료를 먹일 수 없습니다.	Nu poюi hrгni un cal mort. 
+죽은 정보 %s deadcount %d Empire %d killcount %d(Purpose %d) killmobcount %d, RegenFlag %d	%s deadcount %d Empire %d killcount %d(Purpose %d) killmobcount %d, RegenFlag %d 
+죽지 않은 말에게 선초를 먹일 수 없습니다.	Nu poюi hrгni un cal viu cu Iarba Maimuюei. E folositг pentru a re-оnvia caii morюi. 
+지금부터 %s은 30분간 봉화를 파괴하여 보상을 획득 할 수 있습니다.	Pentru 30 de minute de acum оnainte %s poate fi rгsplгtit pentru distrugerea focului de iluminare. 
+지능 +%d	Inteligenюг +%d 
+지능이 낮아 착용할 수 없습니다.	Inteligenюa ta este prea scгzutг pentru a echipa acest obiect. 
+직접 타격치 반사 확률 : %d%%	Reflecteazг atac direct: %d%% 
+진노국	Regatul Jinno 
+착용 중인 아이템은 판매할 수 없습니다.	Nu poюi vinde obiectele echipate. 
+착용 중인 용혼석은 추출할 수 없습니다.	Aceasta Piatra Dragon nu poate fi inlaturata. 
+참	TRUE 
+창고,거래창등이 열린 상태에서는 개량을 할수가 없습니다	Nu poюi оmbunгtгюi nimic atвta timp cвt este deschisг fereastra shop sau de negoю. 
+창고를 연후 %d초 이내에는 거래를 할수 없습니다.	Poюi face negoю dinnou peste %d sec. 
+창고를 연후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	Dupa deschiderea depozitului, nu poti folosi Scroll-ul 'Reintoarcere' timp de %d sec. 
+창고를 연후 %d초 이내에는 다른곳으로 이동할수 없습니다.	Nu poti merge nicaieri timp de %d secunde de la folosirea Depozitului. 
+채광에 성공하였습니다.	Exploatarea a reuєit. 
+채광에 실패하였습니다.	Exploatarea a eєuat. 
+채광을 중단하였습니다.	Exploatarea a luat sfвrєit. 
+채팅 금지 상태입니다.	Chatul tгu este blocat. 
+채팅 금지가 풀렸습니다.	Blocarea chat-ului tгu a fost anulatг. 
+책으로 더 높은 경지의 수련을 성공적으로 끝내셨습니다.	Ai оncheiat cu succes antrenamentul cu cartea. 
+책장도 이제 얼마 남지 않았군.	Au rгmas doar cвteva pagini, apoi voi termina de citit. 
+천조국	Regatul Chunjo 
+청소할 석이 박혀있지 않습니다.	Nu e nici o bucata din Piatra Spartг disponibilг pentru оnlгturare. 
+체력 +%d	Rezistenюг +%d 
+체력이 낮아 착용할 수 없습니다.	Vitalitatea ta este prea scгzutг pentru a echipa acest obiect. 
+총 퀴즈 수: %d	Numгrul de puncte al quiz-ului: %d 
+최대 생명력 +%d	Puncte de viaюг +%d 
+최대 생명력 +%d%%	Viaюг maximг +%d%% 
+최대 정신력 +%d	Puncte de mana +%d 
+최대 정신력 +%d%%	Viaюг maximг +%d%% 
+최대 지구력 +%d	Rezistenюг maximг + %d 
+축복의 서와 현철을 합칠 수 있습니다.	Poti combina Pergamentul Binecuvвntat cu Minereul de Fier Magic. 
+출마를 할수가 없습니다	Nu poate fi propus spre alegere. 
+충전할 수 없습니다.	Nu poti incarca aceasta Piatra Dragon. 
+취소 되었습니다.	Logout-ul a fost оntrerupt. 
+캐릭터를 전환 합니다. 잠시만 기다리세요.	Schimbi caracterul. Aєteaptг. 
+쿨타임 -%d	Timp de stingere -%d 
+쿨타임 적용중  %d 후 사용가능	Se pregгteєte. Folosire posibilг dupг %d 
+퀘스트를 로드하는 중입니다. 잠시만 기다려 주십시오.	Cererea este оn curs de оncгrcare. Ai rгbdare. 
+크윽, 기가 역류하고 있어! 이거 설마 주화입마인가!? 젠장!	Of, nu a reuєit. La naiba! 
+클라이언트 버전이 틀려 로그아웃 됩니다. 정상적으로 패치 후 접속하세요.	Versiunea ta de client este greєitг. Instaleazг patch-ul normal. 
+타격치 %d%% 를 생명력으로 흡수	Absorbire viaюг la atac %d%%. 
+타력치 %d%% 를 정신력으로 흡수	Absorbire mana la atac %d%%. 
+타제국 유저는 소환 할수 없습니다	Nu poюi aduna jucгtori strгini. 
+타제국 유저에게는 이동할수 없습니다	Nu poюi sг te tragi la un luptгtor strгin. 
+탄 상태에서는 할 수 없습니다.	Nu poюi face asta оn timp ce stai pe cal. 
+테스트 서버 시간제한 통과	Timpul limita pe serverul test a fost depasit. 
+파티 중이 아닙니다.	Nu eєti оn grupг. 
+파티의 협동력이 높아져 지금부터 추가 경험치 보너스를 받습니다.	Grupul tгu coopereazг bine єi a primit un bonus de experienюг. 
+파티장이 접속 상태가 아니라서 요청을 할 수 없습니다.	<Grupг> Nu poюi face nicio cerere, deoarece conducгtorul grupei nu este online. 
+판매금액의 %d %% 가 세금으로 나가게됩니다	Vвnzarea este impozitatг cu %d%%. 
+퍼펙트 마스터된 스킬입니다. 더 이상 수련 할 수 없습니다.	Eєti deja maestru al acestei competenюe. Nu o mai poюi antrena. 
+평타 데미지 %d%%	Paguba loviturii %d%% 
+평타 데미지 저항 %d%%	Rezistenюг la lovituri %d%% 
+플레이어 %d 와 플레이어  %d를 파혼시킵니다..	Оnюelegere оncгlcatг оntre jucгtorul %d єi jucгtorul %d. 
+한손검 방어 %d%%	Apгrare sabie-1-mвnг %d%%. 
+해당 유저는 %d 채널에 있습니다. (현재 채널 %d)	Adгugare jucгtor %d оn canal. (Cadou canal %d) 
+핸드폰 번호가 등록 되었습니다.	Numгrul de mobil este оnregistrat. 
+핸드폰 번호가 등록되어 있지 않습니다.	Numгrul de mobil nu este оnregistrat. 
+현재 %s 국고에는 %d 의 돈이 있습니다	%s mai are %d Yang la dispoziюie. 
+현재 %s 국고에는 %u 의 돈이 있습니다	%s mai are %u Yang la dispoziюie. 
+현재 남은 참가자수 : %d	Numгrul celorlalюi participanюi : %d 
+현재 스코어 신수국:%d 천조국:%d 진노국:%d	Scor curent: Shinsoo %d, Chunjo: %d, Jinno: %d 
+현재 온라인 상태 입니다. 귓말을 이용하세요.	El/ea este online. Foloseєte єoapta. 
+현재 위치에서 사용할 수 없습니다.	Nu poюi folosi aceasta din poziюia ta actualг. 
+현재 이벤트 참가자 분들은 마을로 이동 되겠습니다.	Evenimentul cadou va fi redus la un юinut. 
+현재 전쟁중인 길드 입니다	Aceastг breaslг se aflг оn rгzboi. 
+현재 헤어스타일에서는 염색과 탈색이 불가능합니다.	Nu оюi poюi vopsi sau оnгlbi frizura actualг. 
+화염 저항 %d%%	Rezistenюг la foc %d%% 
+활 공격 회피 확률 %d%%	%d%% єansг de a bloca un atac de la distanюг 
+활공격 저항 %d%%	Rezistenюг la atac de la depгrtare %d%% 
+
+
+
+
+
+%s accounts were banned permanently because of: %s	%s accounts were banned permanently because of: %s. 
+%s bloklandi	%s has been blocked. 
+%s does not exist.	%s doesnt exist. 
+%s has been banned for %s because of: %s	%s has been banned for %s because of: %s. 
+%s has been banned permanently with reason: %s	%s has been banned permanently with reason: %s. 
+%s_ADDED_%d_OF_EXCHANGE_ITEM_%s	%s has added %d to %s. 
+%s_ADDED_EXCHANGE_ITEM_%s	%s addet the item %s. 
+%s_DECREASED_EXCHANGE_GOLD_TO_%s	%s has reduced to %s. 
+%s_INCREASED_EXCHANGE_GOLD_TO_%s	%s has increased the gold to %s. 
+%s_READIED_UP_EXCHANGE	%s prepared the trading. 
+%s_REMOVED_%d_OF_EXCHANGE_ITEM_%s	%s removed %d to %s. 
+%s_REMOVED_EXCHANGE_ITEM_%s	%s has removed the item %s. 
+%s_REMOVED_READY_EXCHANGE	%s has stopped the trading. 
+'s Mount	's Mount 
+AUTOLOOT	Third Hand
+Automatic unstuck did not find a valid position. Ask a GM.	Automatic unstuck did not find a valid position. 
+CANNOT_RIDE_WHILE_POLYMORPHED	You cannot ride while your transformed. 
+CHANGE_CHANNEL_UNAVAILABLE	Canalul nu este disponibil. 
+CHANGE_CHANNEL_ALREADY	Sunteți deja pe canalul selectat.
+CHANGING_CHANNEL	Tu schimbi canalul!
+Cannot equip a costume not matching the weapon type.	You cannot equip a costume not matching the weapon type. 
+Cannot equip a costume without a weapon	You cannot equip a costume without a weapon. 
+Chat has been banned on the operator form.	Chat has been banned on the operator form. 
+Do not spam the chat!	Do not spam the chat! 
+ELK_SET_TO_%lld	%lld has been added.
+FISH_MIND	Fish Skill 
+ITEM_CANNOT_BE_DESTROYED	This item cannot be destroyed. 
+ITEM_IS_NOT_SEALED	This item is not sealed! 
+ITEM_IS_SEALED_CANNOT_DO	Acest articol este sigilat! 
+Inventory sorting only every 15 seconds	Sortarea stocurilor doar la fiecare 15 secunde
+NO_PLAYER_FOUND_BY_NAME	The character was not found. 
+OFFLINE_MESSAGE_SUCCESS	The offline message was sent successfully! 
+PRIVATE_SHOP_SEARCH_SYSTEM_DISABLED	Currently the shopsearch is disabled. 
+SAFEBOX	Storage Place 
+TRADE_COMPLETED_WITHOUT_GOODS_EXCHANGE	The trade was without any items and gold successful. 
+TRADE_STARTED	Trading started. 
+This is not the correct evolution item for this item or it has none	This is not the correct evolution item for this item or it has none. 
+This item cannot be used on this map	This item cannot be used on this map 
+WEDDING_ENDING_LEAVE	The wedding ended. 
+WEDDING_ENDING_SOON	The wedding will end soon. 
+YOU_ADDED_%d_OF_EXCHANGE_ITEM_%s	You have added %d to %s. 
+YOU_ADDED_EXCHANGE_ITEM_%s	You added %s. 
+YOU_CANNOT_DROP_GOLD	You cannot drop gold. 
+YOU_CANNOT_OPEN_SHOP_ON_THIS_MAP	You cannot open a shop on this map. 
+YOU_CAN_ONLY_CHANGE_YOUR_SHOP_NAME_ONCE_IN_60_MINUTES_(%02d:%02d_left)	You can only change your shopname once in 60 minutes (%02d:%02d übrig) 
+YOU_DECREASED_EXCHANGE_GOLD_TO_%s	You reduced the gold to %s. 
+YOU_HAVE_%s_GOLD_WAITING_WITHDRAW_SHOP	you have %s gold in your offlineshop. 
+YOU_INCREASED_EXCHANGE_GOLD_TO_%s	You increased the gold to %s. 
+YOU_READIED_UP_EXCHANGE	You prepare the trading. 
+YOU_REMOVED_%d_OF_EXCHANGE_ITEM_%s	you removed %d to %s. 
+YOU_REMOVED_EXCHANGE_ITEM_%s	You removed the item %s. 
+YOU_REMOVED_READY_EXCHANGE	You have stopped the trading. 
+You blocked %s	%s ist blockiert! 
+You can not change the equipment you are wearing while you are polymorphed.	You can not change the equipment you are wearing while you are polymorphed.
+You can only adjust your points while you are still.	You can only adjust your points without moving.
+You can post a new comment in: %02d minutes and %02d seconds!	You can post a new comment in: %02d minutes and %02d seconds seconds! 
+You can wear it only when you are still.	You can wear it only when you dont move.
+You cannot activate two items of this kind.	You cannot activate two items of this kind.
+You cannot block a game master	You cannot block a game master! 
+You cannot change your teaching this way after choosing one.	You cannot change your teaching this way after choosing one. 
+You cannot define a sealed item	You cannot define a sealed item! 
+You cannot do this so fast.	Nu poți face asta atât de repede.
+You cannot equip this sash on this map	You cannot equip this sash on this map
+You cannot open the guild storage without a guild.	You cannot open the guild storage without a guild.
+You cannot use skills for 2 seconds after changing your equipment.	You cannot use skills for 0.5 seconds after changing your equipment. 
+You have blocked private messages	You have blocked private messages! 
+You need at least 3 free inventory slots to open a chest.	You need at least 3 free inventory slots to open a chest.
+You need to be atleast level %d to use the shout chat.	You need to be atleast level %d to use the shout chat.
+you cannot use this item on this map.	You cannot use this pet-seal-item on this map. 
+{} do not spam in whispers	{} do not spam in whispers! 
+{} does not accept private messages	{} does not accept private messages! 
+{} is not online	{} is not online! 
+더 이상 이 아이템으로 속성을 추가할 수 없습니다	The maximum number of bonuses has already been reached. 
+성공적으로 속성이 추가 되었습니다	The bonus was added. 
+The dungeon master is checking right now	The dungeon master is checking right now
+The dungeon master is checking your progress every 45 seconds	The dungeon master is checking your progress every 45 seconds
+Valentine chasm: Destroy all metins and get a gem!	Destroy all metins and get a gem!
+Valentine chasm: You still have to destroy 5 metins	You still have to destroy 5 metins!
+Valentine chasm: You still have to destroy 4 metins	You still have to destroy 4 metins!
+Valentine chasm: You still have to destroy 3 metins	You still have to destroy 3 metins!
+Valentine chasm: You still have to destroy 2 metins	You still have to destroy 2 metins!
+Valentine chasm: You still have to destroy 1 metins	You still have to destroy 1 metins!
+Valentine chasm: You destroyed all metin stones!	Valentine chasm: You destroyed all metin stones!
+Valentine chasm: Monsters are coming!alentine chasm: Now put the gem to monument and destroy it!	Valentine chasm: Monsters are coming!alentine chasm: Now put the gem to monument and destroy it!
+Valentine chasm: Monsters are coming!	Valentine chasm: Monsters are coming!
+Valentine chasm: Kill them all!	Valentine chasm: Kill them all!
+Valentine chasm: Find an unknown herb and take it to Lady.	Valentine chasm: Find an unknown herb and take it to Lady.
+Valentine chasm: You will be teleported to the next level.	Valentine chasm: You will be teleported to the next level.
+Valentine chasm: Kill all monsters!	Valentine chasm: Kill all monsters!
+Valentine chasm: Destroy the right metin to spawn rhodolite ore!	Valentine chasm: Destroy the right metin to spawn rhodolite ore!
+Valentine chasm: Rhodolite ore was just spawned!	Valentine chasm: Rhodolite ore was just spawned!
+Valentine chasm: There was nothing in this metin.	Valentine chasm: There was nothing in this metin.
+Valentine chasm: This ore is too hard.	Valentine chasm: This ore is too hard.
+Valentine chasm: Even a pick is too weak for it.	Valentine chasm: Even a pick is too weak for it.
+Valentine chasm: Let's speak with dryade again.	Valentine chasm: Let's speak with dryade again.
+Valentine chasm: Open the ore with magic dust	Valentine chasm: Open the ore with magic dust
+Valentine chasm: Give the rhodolite to dryade.	Valentine chasm: Give the rhodolite to dryade.
+Valentine chasm: You get a chocolate.	Valentine chasm: You get a chocolate.
+Valentine chasm: Look, Lady Valentine. Go to speak with her!	Valentine chasm: Look, Lady Valentine. Go to speak with her!
+Valentine chasm: Fast!!	Valentine chasm: Fast!!
+Valentine chasm: Give the poisoned chocolate to dryade!	Valentine chasm: Give the poisoned chocolate to dryade!
+Dryade: You've killed me!	Dryade: You've killed me!
+Dryade: You fooooool!	Dryade: You fooooool!
+Valentine chasm: You've killed valentine tree!	Valentine chasm: You've killed valentine tree!
+Valentine chasm: Dungeon was succesfully finished!	Valentine chasm: Dungeon was succesfully finished!
+Valentine chasm: Kill the Valentine tree	Valentine chasm: Kill the Valentine tree
+Valentine chasm: You have killed all monsetrs!	Valentine chasm: You have killed all monsetrs!
+Valentine chasm: Let's speak with ghost of Lady Valentine	Valentine chasm: Let's speak with ghost of Lady Valentine
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: Another wave of monsters is coming!	Valentine chasm: Another wave of monsters is coming!
+Valentine chasm: Valentine tree doesn't want to give up!"	Valentine chasm: Valentine tree doesn't want to give up!"
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: You have killed all monsetrs!	Valentine chasm: You have killed all monsetrs!
+Valentine chasm: But something is wrong.. Lady Valentine is not here	Valentine chasm: But something is wrong.. Lady Valentine is not here
+Valentine chasm: Look, Dryade!	Valentine chasm: Look, Dryade!
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: 15 minutes left!	Valentine chasm: 15 minutes left!
+Valentine chasm: 10 minutes left!	Valentine chasm: 10 minutes left!
+Valentine chasm: 5 minutes left!	Valentine chasm: 5 minutes left!
+Valentine chasm: You are running out of time! Hurry up!	Valentine chasm: You are running out of time! Hurry up!
+Valentine chasm: 1 minute left!	Valentine chasm: 1 minute left!
+Valentine chasm: You are almost failed!!	Valentine chasm: You are almost failed!!
+Valentine chasm: Time has expired!	Valentine chasm: Time has expired!
+Valentine chasm: You failed!	Valentine chasm: You failed!
+Valentine chasm: You will be teleported out of dungeon!	Valentine chasm: You will be teleported out of dungeon!
+
+Easter dungeon: Now destroy all metin stones.	Easter dungeon: Now destroy all metin stones.
+Easter dungeon: Defeat Evil easter rabbit!	Easter dungeon: Defeat Evil easter rabbit!
+Easter dungeon: Well done! Now kill all monsters!	Easter dungeon: Well done! Now kill all monsters!
+Easter dungeon: Give the coin to rabbit!	Easter dungeon: Give the coin to rabbit!
+Easter dungeon: He has cheated on you!	Easter dungeon: He has cheated on you!
+Easter dungeon: Be careful! Monsters are coming!	Easter dungeon: Be careful! Monsters are coming!
+Easter dungeon: Well done! Now kill all monsters!	Easter dungeon: Well done! Now kill all monsters!
+Easter dungeon: You've succefuly finished the dungeon!	Easter dungeon: You've succefuly finished the dungeon!
+Easter dungeon: You will be teleported in 30 seconds.	You will be teleported in 30 seconds.
+Easter dungeon: Well done! Now destroy an easter egg!	Easter dungeon: Well done! Now destroy an easter egg!
+Easter dungeon: You've succesfuly killed all monsters.	Easter dungeon: You've succesfuly killed all monsters.
+Easter dungeon: Destroy a metin stone to move on!	Easter dungeon: Destroy a metin stone to move on!
+Easter dungeon: You will jump to next level!	Easter dungeon: You will jump to next level!
+Easter dungeon: Destroy evil egg to get a key.	Easter dungeon: Destroy evil egg to get a key.
+Easter dungeon: Kill all metin stones!	Easter dungeon: Kill all metin stones!
+Easter dungeon: 15 minutes left!	Easter dungeon: 15 minutes left!
+Easter dungeon: 10 minutes left!	60 minutes left!
+Easter dungeon: 5 minutes left! The time is running out!	Easter dungeon: 5 minutes left! The time is running out!
+Easter dungeon: 1 minutes left! You're almost failed!	Easter dungeon: 1 minutes left! You're almost failed!
+Easter dungeon: You will be teleported out of dungeon!	Easter dungeon: You will be teleported out of dungeon!
+
+Jagras: Kill all owls	Jagras: Kill all owls
+Jagras: You have killed all monsetrs.	Jagras: You have killed all monsetrs.
+Jagras: Now place %s to the totem and destroy it!	Jagras: Now place %s to the totem and destroy it!
+Jagras: You still have to kill %s mobs to get a key.	Jagras: You still have to kill %s mobs to get a key.
+Jagras: Something happened...	Jagras: Something happened...
+Jagras: This key doesn't works. Next %s are coming!!	Jagras: This key doesn't works. Next %s are coming!!
+Jagras: Kill them fast!!	Jagras: Kill them fast!!
+Jagras: You have killed all monsetrs.	Jagras: You have killed all monsetrs.
+Jagras: Now place %s to the totem and destroy it!	Jagras: Now place %s to the totem and destroy it!
+Jagras: You still have to kill %s mobs to get a key.	Jagras: You still have to kill %s mobs to get a key.
+Jagras: Destroy the metin in 2 minutes!!	Jagras: Destroy the metin in 2 minutes!!
+Jagras: If you won't destroy it in 2 minutes,	Jagras: If you won't destroy it in 2 minutes,
+Jagras: you will be out of the dungeon.	Jagras: you will be out of the dungeon.
+Jagras: You succesfuly destroyed the metin!	Jagras: You succesfuly destroyed the metin!
+Jagras: Monsters are coming!!	Jagras: Monsters are coming!!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: 4 metin stones left!	Jagras: 4 metin stones left!
+Jagras: 3 metin stones left!	Jagras: 3 metin stones left!
+Jagras: 2 metin stones left!	Jagras: 2 metin stones left!
+Jagras: 1 metin stone left!	Jagras: 1 metin stone left!
+Jagras: You've destroyed all metin stones.	Jagras: You've destroyed all metin stones.
+Jagras: The gate to next floor is open!	Jagras: The gate to next floor is open!
+Jagras: You've found first ingredient!	Jagras: You've found first ingredient!
+Jagras: Be careful! Owls are coming!	Jagras: Be careful! Owls are coming!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: There was nothing in this metin.	Jagras: There was nothing in this metin.
+Jagras: Suran was defeated!	Jagras: Suran was defeated!
+Jagras: You get another ingredient!	Jagras: You get another ingredient!
+Jagras: Lira is alive thanks to you!	Jagras: Lira is alive thanks to you!
+Jagras: Final floor is open now!	Jagras: Final floor is open now!
+Jagras: 3 statues has left!	Jagras: 3 statues has left!
+Jagras: 2 statues has left!	Jagras: 2 statues has left!
+Jagras: 1 statue has left!	Jagras: 1 statue has left!
+Jagras: All statues was destroyed!	Jagras: All statues was destroyed!
+Jagras: Monsters are coming!	Jagras: Monsters are coming!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: Perfect! Be prepared!	Jagras: Perfect! Be prepared!
+Jagras: Jagras-Mu-Tai is coming!!!	Jagras: Jagras-Mu-Tai is coming!!!
+Jagras: You succesfully finished the dungeon!	Jagras: You succesfully finished the dungeon!
+Jagras: You will be teleported in 2 minutes	Jagras: You will be teleported in 30 seconds.
+Jagras: out of dungeon.	Jagras: out of dungeon.
+Jagras: You have killed all monsetrs!	Jagras: You have killed all monsetrs!
+Jagras: Watch out! Stronger monsters are coming!	Jagras: Watch out! Stronger monsters are coming!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: You have killed all monsetrs!	Jagras: You have killed all monsetrs!
+Jagras: Destroy all metin stones!	Jagras: Destroy all metin stones!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: Suran is here!	Jagras: Suran is here!
+Jagras: Defeat him!	Jagras: Defeat him!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: Great job!	Jagras: Great job!
+Jagras: Be careful now!	Jagras: Be careful now!
+Jagras: 2 Surans are coming!	Jagras: 2 Surans are coming!
+Jagras: Kill them!	Jagras: Kill them!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: 30 minutes left!	Jagras: 30 minutes left!
+Jagras: 15 minutes left!	Jagras: 15 minutes left!
+Jagras: 10 minutes left!	Jagras: 10 minutes left!
+Jagras: 5 minutes left!	Jagras: 5 minutes left!
+Jagras: Hurry up!!	Jagras: Hurry up!!
+Jagras: 1 minute left!	Jagras: 1 minute left!
+Jagras: You are almost failed!!	Jagras: You are almost failed!!
+Jagras: Time has expired!	Jagras: Time has expired!
+Jagras: You failed!	Jagras: You failed!
+Jagras: You will be teleported out of dungeon!	Jagras: You will be teleported out of dungeon!
+
+PRIVATE_SHOP_SEARCH_NEED_WAIT_%d_LEFT_(%d)	You must wait %d seconds. %d seconds left. 
+PRIVATE_SHOP_SEARCH_NO_SHOPS_FOUND	No item found. 
+Die Gruppe von	The group of 
+hat den Unterwasser-Dungeon absolviert, Glückwunsch!	 absolved the Underwater-Dungeon, congratulations! 
+
+%s hat das maximale Level erreicht, Glückwunsch!	%s a atins nivelul maxim, felicitări!
+%s hat den %s bereits %s Mal gekillt (%s Sekunden)	Grupul de %s are %s pentru %s. Timpuri înfrânate, felicitări! (%s Seconds)
+%s hat den %s gekillt	Grupul de %s are %s pentru, felicitări!
+You cannot enhance the time of this item while it is stacked.	You cannot enhance the time of this item while it is stacked. 
+Maintenance shutdown will begin in %d seconds.	Întreruperea întreținerii va începe %d secunde.
+We compliment the Guild %s they defeated Meley, the Queen of the Dragons!	We compliment the Guild %s they defeated Meley, the Queen of the Dragons!
+All demons were defeated.	All demons were defeated.
+Visits the Maw of the in heh to open another to fate castle.	Visits the Maw of the in heh to open another to fate castle.
+There isn't enough space in the inventory.	There isn't enough space in the inventory.
+%s has married %s	%s has %s married.
+Block: 	Block: 
+Guild	Guild
+Exchange	Exchange
+Duel	Duel
+Request	Request
+Chat	Chat
+Whisper	Whisper
+Friend	Friend
+Equip	Equip
+Shop	Shop
+Group	Group
+There are invalid characters in your title.	There are invalid characters in your title.
+You cannot use this color in your title.	You cannot use this color in your title.
+The player %s blocked viewing of his equipment!	The player %s blocked viewing of his equipment!
+You blocked duel requests for %s	You blocked duel requests for %s
+You cannot activate and deactivate this so quickly	You cannot activate and deactivate this so quickly
+You can only change your equipment while you are still.	You can only change your equipment while you are still.
+Töte Metinsteine solange, bis du einen Frostschlüssel erhältst und öffne damit die Säulen.	Kill Metin Stones until you get a Frost Key and open the pillars with it.
+Die Siegel sind geöffnet, der Baron Nashor erscheint!	The seals are opened, the Baron Nashor appears!
+Besiegt den Boss!	Defeat the boss!
+%s hat die 1. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 20% Halbmenschen.	%s has successfully completed the 1st Biologist Quest. The biologist awards you 20% half-human.
+%s hat die 2. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 30% Halbmenschen.	%s has successfully completed the 2nd Biologist Quest. The biologist awards you 30% half-human.
+%s hat die 3. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 40% Halbmenschen.	%s has successfully completed the 3rd Biologist Quest. The biologist awards you 40% half-human.
+%s hat die 4. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 60% Halbmenschen.	%s has successfully completed the 4th Biologist Quest. The biologist awards you 60% half-human.
+%s hat die 5. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 50% Stark gegen Kreaturen.	%s has successfully completed the 5th Biologist Quest. The biologist awards you 50% Strong against Creatures.
+%s hat die 6. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 100% Stark gegen Kreaturen.	%s has successfully completed the 6th Biologist Quest. The biologist awards you 100% Strong against Creatures.
+%s hat die 7. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 50% Stark gegen Esoterische.	%s has successfully completed the 7th Biologist Quest. The biologist awards you 50% Strong against Mystics.
+%s hat die 8. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 100% Stark gegen Esoterische.	%s has successfully completed the 8th Biologist Quest. The biologist awards you 100% Strong against Mystics.
+Easter dungeon: You still have to defeat %s monsters to move on.	You still have to defeat %s monsters to move on.
+Easter dungeon: %s eggs has left!	%s easter eggs has left!
+Easter dungeon: %s metin stones has left!	%s metin stones has left!
+CANNOT_WARP_NOW	Încă nu puteți face această activitate.
+You cannot perform this action right now.	Nu puteți efectua această acțiune chiar acum.
+You already have a shop opened.	Aveți deja un magazin deschis.
+You sold %dx %s for %lld Yang.	Ai vandut %dx %s pentru %lld Yang.
+You can't open an empty shop.	Nu puteți deschide un magazin gol.
+You've withdrawn %lld Yang from your shop sales stash.	Te-ai retras %lld Yang din magazinul tău de vânzări.
+ITEM_SEALED	Acest articol este sigilat!
+ITEM_SEALED_CANNOT_MODIFY	Elementele legate de suflet nu pot fi modificate. 
+변경 시킬 속성이 없습니다	Nu poți vrăji acest obiect fără bonusul 6/7.
+You cannot open a storage if another Window is already open.	Nu puteți deschide un magazin dacă o altă fereastră este deja deschisă.
+Switchbot Slot %d stopped out of bonus changers.	Switchbot Slotu %d nu mai are schimbători de bonusuri.
+Du wirst in %s Sekunden herausteleportiert.	Vei fi teleportat în %s secunde.
+You don't have enough money!	Nu ai destui bani!
+You can not open a shop while you are trading.	Nu vă puteți deschide un magazin în timp ce faceți comerț.
+Your cannot spawn your pet while having the status window open.	Nu vă puteți genera pet în timp ce aveți fereastra de stare deschisă.
+You cannot add attributes to this item.	Nu puteți adăuga atribute la acest element.
+You cannot change the attributes of this item.	Nu puteți modifica atributele acestui element.
+This food can only be used for pet level %d to %d	Această hrană poate fi folosită numai pentru pet de la nivelul %d la %d
+This food is only for pets	Această hrană este numai pentru pet
+Your pet no longer listens to you. Your level is too low.	Animalul dumneavoastră de companie nu vă mai ascultă. Nivelul tău este prea scăzut.
+The pet already has reached its maximum level	Petul a atins deja nivelul său maxim
+<Guild> The field war is disabled on this server.	<Guild> Câmpul război este dezactivat pe acest server.
+You can not use this so fast.	Nu poți folosi asta atât de repede.
+You have successfully added a socket to this item.	Ați adăugat cu succes o priză la acest articol.
+You cannot add sockets to this item.	Nu puteți adăuga prize la acest articol.
+Successfully added a socket to this item	A adăugat cu succes o priză la acest articol
+This item already cannot gain more sockets.	Acest obiect deja nu poate obține mai multe prize.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_SHOPPING	Nu puteți muta obiecte în timp ce vă aflați într-un magazin.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_EDITING	Nu puteți muta obiecte în timp ce vă aflați într-un magazin.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_CREATING	Nu puteți muta obiecte în timp ce vă aflați într-un magazin.
+You cannot add sockets to an item with less than 3 sockets.	Nu puteți adăuga prize la un articol cu mai puțin de 3 prize.
+You can only change your shop name once every hour (%02d:%02d:%02d).	Îți poți schimba numele magazinului doar o dată la fiecare oră. (%02d:%02d:%02d).
+You tried to put at least one item into the shop which can not be traded yet.	Ați încercat să introduceți în magazin cel puțin un obiect care nu poate fi comercializat încă.
+You cannot use this item on this map.	Nu puteți utiliza acest obiect pe această hartă.
+%s scored first blood	%s a marcat primul sânge
+You cannot unequip the armor. Not enough space for your armor effect	Nu poți dezechipăra armura. Nu este suficient spațiu pentru efectul armurii dvs.
+You need to wait some time for the next emotion.	Trebuie să așteptați ceva timp pentru următoarea emoție.
+%s blocks duel requests	%s blochează cererile de duel
+Failed to make one socket permanent	Nu a reușit să facă o priză permanentă
+Successfully to made one socket permanent	Cu succes pentru a face o priză permanentă
+Already every socket permanent	Deja fiecare priză permanentă
+A world boss is [%s] spawned.	Un șef de lume [%s] a apărut.
+You cannot use this item in this area.	Nu puteți utiliza acest articol în această zonă.
+Missing %s %s to create the recipe you have chosen	Lipsesc %s %s pentru a crea rețeta pe care ați ales-o
+Double Drop Amount	Dublu-loot-eveniment
+Double-Loot Event is active!	Evenimentul Dublu-Loot este activ!
+%s: Double-Loot Event is active	%s: Evenimentul Dublu-Loot este activ!
+%s: Double-Loot Event ended	%s: Evenimentul Dublu-Loot s-a încheiat
+%s has killed you with hp %d left over.	%s  te-a ucis cu hp %d rămas.
+There is no one currently registered in the ranking.	Nu există nicio persoană înregistrată în prezent în clasament.
+Player %s successfully finished Battle Pass %s.	Jucătorul %s a terminat cu succes Battle Pass %s.
+Ancient pyramid: Destroy the stone within 4 minutes!	Kulve Taroth: Distruge piatra în 4 minute!
+Ancient pyramid: Otherwise, you will be teleported out of dungeon.	Kulve Taroth: În caz contrar, vei fi teleportat în afara temniței.
+Ancient pyramid: You will continue in few seconds.	Kulve Taroth: Veți continua în câteva secunde.
+Ancient pyramid: You have failed!	Kulve Taroth: Ați eșuat!
+Ancient pyramid: Kill monsters to collect pieces of pergamen, once you have 4 pieces	Kulve Taroth: Ucide monștrii pentru a colecta bucăți de pergamen, odată ce ai 4 bucăți
+Ancient pyramid: destroy the %s!	Kulve Taroth: distrugeți %s!
+Ancient pyramid: You have all pieces! Go to seal and decipher it!	Kulve Taroth: Aveți toate piesele! Du-te la sigiliu și descifrează-l!
+Ancient pyramid: It was spell to summon %s, kill it!	Kulve Taroth: A fost o vrajă de invocare a lui %s, omoară-l!
+Ancient pyramid: You will jump to next floor in few seconds	Kulve Taroth: Vei sări la etajul următor în câteva secunde
+Ancient pyramid: Find and destroy right %s within 21 minutes!	Kulve Taroth: Găsiți și distrugeți %s dreapta în 21 de minute!
+Ancient pyramid: Be careful, something strong is hiding inside of them!	Kulve Taroth: Aveți grijă, ceva puternic se ascunde în interiorul lor!
+Ancient pyramid: You have destroyed the right stone!	Kulve Taroth: Ați distrus piatra potrivită!
+Ancient pyramid: %s is coming!	Kulve Taroth: %s vine!
+Ancient pyramid: This stone was just an illusion.	Kulve Taroth: Această piatră era doar o iluzie.
+Ancient pyramid: You have failed!	Kulve Taroth: Ați eșuat!
+Ancient pyramid: You will jump to next floor in few seconds	Kulve Taroth: Vei sări la etajul următor în câteva secunde
+Ancient pyramid: Find a way out from this maze!	Kulve Taroth: Găsiți o cale de ieșire din acest labirint!
+Ancient pyramid: At the end, you have to kill real %s!	Kulve Taroth: La final, va trebui să omori %s reale!
+Ancient pyramid: This was the real %s	Kulve Taroth: Acesta a fost adevăratul %s
+Ancient pyramid: You will be moved to next floor in few seconds	Kulve Taroth: Veți fi mutat la etajul următor în câteva secunde.
+Ancient pyramid: This was a fake %s!	Kulve Taroth: Acesta a fost un fals %s!
+Ancient pyramid: Destroy all %s, but be careful, it has its own mechanism!	Kulve Taroth: Distruge toate %s, dar ai grijă, are propriul său mecanism!
+Ancient pyramid: You need to destroy them in exact sequence!	Kulve Taroth: Trebuie să le distrugi în ordinea exactă!
+Ancient pyramid: This was the right one!	Kulve Taroth: Acesta a fost cel potrivit!
+Ancient pyramid: Now destroy %s to get another item!	Kulve Taroth: Acum distruge %s pentru a obține un alt obiect!
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: Trebuie să distrugi alte %s
+Ancient pyramid: Great! Monsters are coming! One of them has another item!	Kulve Taroth: Grozav! Vin monștrii! Unul dintre ei are un alt obiect!
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: Trebuie să distrugi alte %s
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: Trebuie să distrugi alte %s
+Ancient pyramid: Great, but now, to alert!!!	Kulve Taroth: Grozav, dar acum, la alertă!!!
+Ancient pyramid: Real Anubis is coming!	Kulve Taroth: Vine adevăratul Anubis!
+Ancient pyramid: %s stones has left!	Kulve Taroth: %s pietre a mai rămas!
+Ancient pyramid: You will be moved to next floor in few seconds	Kulve Taroth: Veți fi mutat la etajul următor în câteva secunde.
+Ancient pyramid: Destroy %s to be able summon a real boss!	Kulve Taroth: Distruge %s pentru a putea invoca un șef adevărat!
+Ancient pyramid: Kill all monsters now!	Kulve Taroth: Ucide toți monștrii acum!
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: Vraja a dispărut, poți lua %s
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: Vraja a dispărut, poți lua %s
+Ancient pyramid: %s is gonna appear.	Kulve Taroth: %s va apărea.
+Ancient pyramid: It can spawn any previous monsters and bosses!	Kulve Taroth: Poate genera toți monștrii și șefii anteriori!
+Ancient pyramid: If you destroy it within 5 minutes, you avoid attracting another monsters!	Kulve Taroth: Dacă îl distrugi în 5 minute, vei evita să atragi alți monștri!
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: Vraja a dispărut, poți lua %s
+Ancient pyramid: You were too slow, monsters have beholded you!	Kulve Taroth: Ai fost prea lent, monștrii te-au privit!
+Ancient pyramid: They are coming, kill them all!	Kulve Taroth: Vin, omoară-i pe toți!
+Ancient pyramid: %s has spawned!	Kulve Taroth: %s a apărut!
+Ancient pyramid: Destroy it within 3 minutes! Otherwise, the dungeon will be closed	Kulve Taroth: Distruge-l în 3 minute! În caz contrar, temnița va fi închisă.
+Ancient pyramid: The %s has no power to do magic anymore!	Kulve Taroth: %s nu mai are puterea de a face magie!
+Ancient pyramid: Kill it!!	Kulve Taroth: Omoară-l!!!
+Ancient pyramid: You have failed!	Kulve Taroth: Ați eșuat!
+Ancient pyramid: The %s has been protected!	Kulve Taroth: %s a fost protejat!
+Anci group: You did it! Spectacular job!	Kulve Taroth: Ați reușit! O treabă spectaculoasă!
+Anci group: Dungeon will be automatically closed in 3 minutes.	Kulve Taroth: Temnița va fi închisă automat în 3 minute.
+Ancient pyramid: You have failed!	Kulve Taroth: Ați eșuat!
+%s benötigte %s Sekunden	%s a avut nevoie de %s secunde!
+Shadow tower: Destroy all %s! You have only limited time! Hurry up!	Vaal Hazak: Distrugeți toate %s! Aveți doar un timp limitat! Grăbește-te!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s a fost dezvăluit! Puteți trece la etajul următor!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Timpul a expirat. Ați eșuat!
+Shadow tower: %s is coming!	Vaal Hazak: %s vine!
+Shadow tower: Kill second wave of monsters to destroy second %s!	Vaal Hazak: Ucide al doilea val de monștri pentru a distruge al doilea %s!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Timpul a expirat. Ați eșuat!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s a fost dezvăluit! Puteți trece la etajul următor!
+Shadow tower: You have destroyed the right stone!	Vaal Hazak: Ați distrus piatra potrivită!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s a fost dezvăluit! Puteți trece la etajul următor!
+Shadow tower: This one was just an illusion!	Vaal Hazak: Aceasta a fost doar o iluzie!
+Shadow tower: Well done! Now destroy the %s to able to continue!	Vaal Hazak: Foarte bine! Acum distruge %s pentru a putea continua!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s a fost dezvăluit! Puteți trece la etajul următor!
+Shadow tower: Great job! You will proceed in few seconds!	Vaal Hazak: Bună treabă! Veți continua în câteva secunde!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Timpul a expirat. Ați eșuat!
+Shadow tower: Protection of %s is gone. You can kill him now!	Vaal Hazak: Protecția lui %s a dispărut. Îl poți ucide acum!
+Shadow tower: %s wasn't destroyed yet. %s was recovered from shadows!	Vaal Hazak: %s nu a fost distrus încă. %s a fost recuperat din umbră!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s a fost dezvăluit! Puteți trece la etajul următor!
+Shadow tower: You died three times. You have failed.	Vaal Hazak: Ai murit de trei ori. Ați eșuat.
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Timpul a expirat. Ați eșuat!
+Shadow tower: Beware! %s is coming!	Vaal Hazak: Atenție! %s se apropie!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s a fost dezvăluit! Puteți trece la etajul următor!
+Shadow tower: If you have %s, you have last %s seconds to use it!	Vaal Hazak: Dacă ai %s, ai la dispoziție ultimele %s secunde pentru a-l folosi!
+Shadow zone: %s is now active! %s is gonna be much weaker!	Vaal Hazak: %s este acum activ! %s va fi mult mai slab!
+Shadow tower: This effect is already active!	Vaal Hazak: Acest efect este deja activ!
+Shadow tower: You can use this only during first 8 floors!	Vaal Hazak: Puteți folosi acest lucru numai în primele 8 etaje!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s a fost dezvăluit! Puteți trece la etajul următor!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Timpul a expirat. Ați eșuat!
+Shadow tower: One more wave is coming!	Vaal Hazak: Mai vine un val!
+Shadow tower: A monster is coming, its unknown!	Vaal Hazak: Vine un monstru, un necunoscut!
+Shadow tower: You are almost at the end. But the worst is just about to come!	Vaal Hazak: Sunteți aproape de final. Dar ce e mai rău e pe cale să vină!
+Shadow tower: Time is up. You have failed	Vaal Hazak: Timpul a expirat. Ați eșuat
+Shadow tower: You will be teleported out of dungeon in %s minutes.	Vaal Hazak: Vei fi teleportat afară din temniță în %s minute.
+Shadow tower: Destroy both %s! Destroy all monsters to get a key!	Vaal Hazak: Distrugeți ambele %s! Distruge toți monștrii pentru a obține o cheie!
+Shadow tower: Find real %s and destroy it!	Vaal Hazak: Găsește adevăratul %s și distruge-l!
+Shadow tower: Every wrong stone hides %s inside!	Vaal Hazak: Fiecare piatră greșită ascunde %s înăuntru!
+Shadow tower: The more fake stones you destroy, the more HP will have a next boss!	Vaal Hazak: Cu cat mai multe pietre false vei distruge, cu atat mai mult HP va avea un nou sef!
+Shadow tower: Kill all monsters to get %s, then start to build a %s	Vaal Hazak: Ucide toți monștrii pentru a obține %s, apoi începe să construiești un %s
+Shadow tower: Destroy %s in %s minutes! Otherwise you will have to finish next mission 2x!	Vaal Hazak: Distruge %s în %s minute! În caz contrar, va trebui să terminați următoarea misiune de 2 ori!
+You are not allowed to create a shop on this map.	You are not allowed to create a shop on this map.

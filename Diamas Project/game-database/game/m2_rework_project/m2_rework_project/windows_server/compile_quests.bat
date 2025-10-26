@@ -1,0 +1,1 @@
+start C:\m2_rework_project\windows_server\common\data\quest\compile_quests.bat

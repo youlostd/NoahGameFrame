@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/pc/sura:d:/ymir work/pc/sura/" ArchivePath="../bin/pack/pc_sura.pak" XmlPath="xml/pc_sura_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

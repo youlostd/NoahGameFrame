@@ -1,0 +1,20 @@
+quest ox_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("ox_a") > 0 begin
+		send_letter("OX-Event")
+	end
+	
+	when info or button begin
+		say_important("OX event")
+		say_item_vnum(50036)
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance bei Uriel an unserem OX-Event teilzunehmen!")
+		say("Solltet ihr alle Fragen richtig beantworten, erhaltet ihr ein Geschenk!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

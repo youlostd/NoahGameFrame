@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/update_map:" ArchivePath="../bin/pack/update_map.pak" XmlPath="xml/update_map_create.xml">
+	<Patch  Search="map/" Replace="" />
+	</CreateEterPackXml>
+</ScriptFile>

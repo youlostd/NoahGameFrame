@@ -1,0 +1,9 @@
+attrType , attrValue = item . get_attrib ( 0 ) 
+if attrType ~= apply . NORMAL_HIT_DAMAGE_BONUS then 
+return ; 
+end 
+if attrValue >= 70 then 
+return ; 
+end 
+item . set_attrib ( 0 , apply . NORMAL_HIT_DAMAGE_BONUS , attrValue + 1 ) 
+pc . remove_item ( 342111 , 1 ) 

@@ -1,0 +1,20 @@
+say ( "" ) 
+say ( "Turnuva icin sinif secmeyen top." ) 
+say ( "" ) 
+local sinif = select ( "Savasci " , "Ninja " , "Sura " , "Saman " , "Random " , "YOK ISTEMIYOM SECMICEM VAZGECTIM " ) 
+if sinif == 1 then 
+game . set_event_flag ( "pvp_sinif" , 1 ) 
+say ( "Savasciyi sectim canim." ) 
+elseif sinif == 2 then 
+game . set_event_flag ( "pvp_sinif" , 2 ) 
+say ( "Ninja sectim canim." ) 
+elseif sinif == 3 then 
+game . set_event_flag ( "pvp_sinif" , 3 ) 
+say ( "Sura sectim canim." ) 
+elseif sinif == 4 then 
+game . set_event_flag ( "pvp_sinif" , 4 ) 
+say ( "Saman sectim canim." ) 
+elseif sinif == 5 then 
+game . set_event_flag ( "pvp_sinif" , 5 ) 
+say ( "Random sectim canim." ) 
+end 

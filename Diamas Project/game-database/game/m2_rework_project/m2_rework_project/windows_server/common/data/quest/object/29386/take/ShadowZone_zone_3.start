@@ -1,0 +1,3 @@
+if item . get_vnum ( ) == 30855 and ShadowZoneLIB3 . isActive ( ) and d . getf ( "ShadowZone_CanTakeReward" ) == 1 then item . remove ( ) 
+pc . give_item2 ( 30856 , 1 ) 
+ return end 

@@ -1,0 +1,66 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/ranksystem.png]
+[CENTER_ALIGN]Rankpoints
+
++1,000,000      M = Deus                        W = Deusa		
++900,000         M = Divino                  W = Divina	
++800,000         M = Caçador                    W = Anjo	
++700,000         M = Bruxo                  W = Fada
++600.000         M = Ragnarok               W = Fofinha	
++500.000         M = Void Walker           W = Criança Estrela
++400.000         M = Raikage                  W = Ruiva	
++300.000         M = Imperador                 W = Cavaleira	
++200.000         M = Virtuoso                 W = Seraphine		
++100.000         M = Governador                      W = Imperatriz			
++90.000           M = Ladrão de Almas              W = Ladra de Almas
++86,000           M = Hokage                  W = Hokage	
++76,000           M = Anbu                      W = Anbu	
++70,000           M = Principal                     W = Comandante
++66.000           M = Super Saiyajin       W = Karifura
++60.000           M = Saiyajin                  W = Kunoichi	
++56.000           M = Gladiador                W = Encantada
++50.000           M = Rejeitado                  W = Lendária
++46,000           M = Lendário              W = Divina
++40,000           M = Divino                    W = Imortal
++36,000           M = Imortal                W = Sagrada
++30,000           M = Sagrado                      W = Abençoada
++28,000           M = Abençoado                  W = Tsarina
++26,000           M = Barão                     W = Baronesa
++24,000           M = Principe                    W = Princesa
++22,000           M = Nobre                     W = Eterna
++20.000           M = Místico                   W = Unica
++12,000           M = Único                   W = Honrosa 
++8,000             M = Honroso            W = Suave
++4.000             M = Bem-humorado        W = Simpática
++2.000             M = Simpático           W = Pequena			
+
+
++/- 0                    =	Neutro
+
+--2.000             M = Desavergonhado            W = Desavergonhada 
+-4,000             M = Malandro               W = Malandra
+-8.000             M = Camponês                 W = Combativa
+-12,000           M = Malicioso             W = Maliciosa
+-20,000           M = Beligerante           W = Beligerante
+-26,000           M = Odioso                 W = Odiosa
+-30,000           M = Tóxico                    W = Tóxica
+-36.000           M = Diabólico               W = Diabólica
+-40,000           M = Cruel                    W = Cruel
+-46.000           M = Assassino               W = Exilada
+-50,000           M = Patife            W = Maldita
+-56,000           M = Maldito               W = Cursed
+-60,000           M = Sem Deus                W = Sem Deus
+-70,000           M = Demônio                 W = Demonia
+-80,000           M = Caçador da Sombra      W = Succubus
+-90,000           M = Sanguinário         W = Sanguinário
+-100,000         M = Renegado             W = Renegado
+-200.000         M = Cavaleiro da morte        W = Bruxo
+-300.000         M = Canibal                   W = Canibal
+-400.000         M = Pesadelo            W = Pesadelo
+-500.000         M = Morto-Vivo                 W = Kijo
+-600.000         M = Oni                       W = Anjo Caído
+-700.000         M = Lucifer                 W = Deusa de Sangue
+-800.000         M = Deus de Sangue           W = Senhora do Inferno
+-1,000,000      M = Satanás                    W = Lilith
+
+

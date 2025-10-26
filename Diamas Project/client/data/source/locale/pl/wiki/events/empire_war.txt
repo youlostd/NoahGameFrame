@@ -1,0 +1,48 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/empirewar.tga]
+[CENTER_ALIGN;FONT_SIZE=18]Reichsschlacht
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Allgemeine Informationen
+*2. Event Erklärung
+*3. Belohnung
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=100; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen:
+
+Die Reichsschlacht ist ein Open PvP Event, welches auf einer speziellen Map stattfindet.
+Man kann ab Lv 75 an der Reichschlacht teilnehmen und zusammen mit seinem Reich Spieler aus den anderen zwei
+Reichen zu töten. Sobald das Event gestartet ist erhält jeder Spieler in der Mitte des Bildschirms ein Fenster
+wo er sich zu der Reichsschlacht Teleportieren kann. Das Reich, welches nach 20 Minuten die beste K/D in % hat
+wird die Reichsschlacht gewinnen.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=200; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Event Erklärung
+
+Wenn du dich auf die Reichsschlacht Map teleortierst, wirst du schnell feststellen, dass sehr viele Leute
+teilnehmen und viele Gegner da sind. Aber Hey, zieh dich nicht zurück und kämpfe tapfer für dein Reich
+um dir die Belohnung nicht entgehen zu lassen. Vergiss nicht, dass das Reich mit der besten K/D in % gewinnt,
+schaue also das du nicht zu oft stirbst.
+Bei der Reichsschlacht sind folgende Items deaktiviert:
+
+*Buffi Siegel
+*Reittiere
+*Ehering
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=380; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Belohnung
+
+Das Reich, welches die beste K/D in % hat wird die Reichsschlacht gewinnen und folgende Rates für 6 Stunden erhalten:
+
+*100% Erfahrungsbonus
+*10% Stark gegen Metinsteine
+*10% Stark gegen Bosse
+
+Hinweis: Der Reichswechsel ist nach der Reichsschlacht für 6 Stunden deaktiviert.
+
+

@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/item:d:/ymir work/item/" ArchivePath="../bin/pack/item.pak" XmlPath="xml/item_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

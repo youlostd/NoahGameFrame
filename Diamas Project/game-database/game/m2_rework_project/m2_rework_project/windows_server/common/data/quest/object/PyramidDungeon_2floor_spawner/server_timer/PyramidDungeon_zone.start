@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . regen_file ( "data/dungeon/pyramid_dungeon/regen_2f_a.txt" ) ; 
+d . setf ( "Pyramid_2floor_monsters" , d . count_monster ( ) ) 
+end 

@@ -1,0 +1,57 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/banner_weapons.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Voraussetzungen:
+*Benötigtes Level: 110
+*Eintrittsitem: Passierschein+
+[RIGHT_ALIGN]Passageticket+
+[IMG=d:/ymir work/ui/wiki/93264.tga; Y=5; X=500]
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Du hast nur 45 Minuten um den Dungeon abzuschließen!
+
+
+[CENTER_ALIGN;FONT_SIZE=18]The Phases:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=145; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1
+
+[X_PADDING=20]Besiege alle Monster, zerstöre anschließend den Metinstein.
+[X_PADDING=20]Ziehe das Gift anschließend auf das Fass.
+[X_PADDING=20]Öffne danach mit dem Schlüssel das Tor.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2
+
+[X_PADDING=20]Zerstöre die 4 Metinsteine und anschließend die Monsterwelle.
+[X_PADDING=20]Zerstöre danach die Pflanze und öffne das Tor mit dem Schlüssel.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 3
+
+[X_PADDING=20]Ziel dieser Ebene ist alle Fässer zu zerstören!
+[X_PADDING=20]Besiege alle Monster und anschließend den Metinstein.
+[X_PADDING=20]Ziehe den erhaltenen Stein auf das Fass.
+[X_PADDING=20]Zerstöre anschließend erneut Metinsteine und ziehe den Schlüssel
+[X_PADDING=20]wieder auf das Fass am Ende des Floors.
+[X_PADDING=20]Besiege nun wieder alle Monster und anschließend den Metinstein.
+[X_PADDING=20]Ziehe den Stein erneut auf das Fass und besiege die 2 Pflanzen.
+[X_PADDING=20]Ziehe den Stein wieder auf das Fass und besiege die Böse Pflanze.
+[X_PADDING=20]Ziehe den Stein auf das letzte Fass und öffne das Tor mit dem Schlüssel.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 4
+
+[X_PADDING=20]Zerstöre die 4 Metinsteine und anschließend die Monsterwelle.
+[X_PADDING=20]Zerstöre anschließend alle Metinsteine und die Monsterwelle.
+[X_PADDING=20]Besiege anschließend Raguwan und öffne das Tor mit dem Schlüssel.
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 5
+
+[X_PADDING=20]Klicke auf Poisoned botani am Anfang des Floors.
+[X_PADDING=20]Besiege anschließend alle Monster und beide Bösen Pflanzen.
+[X_PADDING=20]Bringe das erhaltene Garden Water zu Poisoned botani.
+[X_PADDING=20]Suche jetzt nach Mushrooms und klicke auf diese und bringe den Mushroom
+[X_PADDING=20]zurück zu Poisoned botani. Öffne anschließend das Tor mit dem Schlüssel
+[COLOR=ef4f00;FONT_SIZE=15]Phase 6
+
+[X_PADDING=20]Besiege alle Monster und anschließend Metinsteine bis du das Evil garden Fire
+[X_PADDING=20]erhälst und ziehe es auf Honey hive. Besiege nun die infizierten Bienen.
+[X_PADDING=20]Beseitige alle Honey hives mit dem Evil garden Fire.
+[X_PADDING=20]Töte beide Raguwans und anschließend den finalen Boss.

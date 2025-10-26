@@ -1,0 +1,708 @@
+quest snow_dungeon begin
+	state start begin
+		when login begin
+			if pc.get_map_index() == 352 then
+				if pc.get_x() < 88 or pc.get_y() < 577 or pc.get_x() > 236 or pc.get_y() > 737 then
+					pc.warp(75, 728,120)
+				end
+				pc.set_warp_location(75, 728,120)
+			elseif pc.get_map_index() >= 3520000 and pc.get_map_index() < 3530000 then
+				pc.set_warp_location(75, 728,120)
+			end
+		end
+	
+		when 20395.chat.gameforge.snow_dungeon._10_npcChat begin
+			if not snow_dungeon.isEnabled() then
+				say_title(c_mob_name(npc.get_race()))
+				say(gameforge.snow_dungeon._20_say)
+				return
+			end
+			
+			local settings = snow_dungeon.getSettings()
+			if not settings then return end
+			
+			if settings.NEED_PARTY then
+				if not party.is_party() then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._30_say)
+					return
+				end
+				
+				if not party.is_leader() then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._40_say)
+					return
+				end
+			end
+			
+			if party.is_party() then
+				if party.get_min_level() < settings.MIN_LEVEL then
+					say_title(c_mob_name(npc.get_race()))
+					say(string.format(gameforge.snow_dungeon._50_say, settings.MIN_LEVEL))
+					say(gameforge.snow_dungeon._60_say)
+					return
+				end
+				
+				
+				local membersWaitTime = snow_dungeon.getPartyMembersWaitTime()
+				if table.getn(membersWaitTime) > 0 then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._70_say)
+					
+					for name, waitTime in pairs(membersWaitTime) do
+						say_reward(string.format(gameforge.snow_dungeon._80_sayReward, name, time.toString(waitTime)))
+					end
+					
+					return
+				end
+				
+				local membersTooFarAway = snow_dungeon.getPartyMembersTooFarAway(npc.get_vid(), pc.get_map_index())
+				if table.getn(membersTooFarAway) > 0 then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._90_say)
+					
+					for _, name in ipairs(membersTooFarAway) do
+						say_reward(string.format(gameforge.snow_dungeon._100_sayReward, name))
+					end
+					
+					return
+				end
+				
+				local membersWithoutEntryItem = snow_dungeon.getPartyMembersWithoutEntryItem()
+				if table.getn(membersWithoutEntryItem) > 0 then
+					say_title(c_mob_name(npc.get_race()))
+					say(gameforge.snow_dungeon._110_say)
+					say(string.format(gameforge.snow_dungeon._120_say, c_item_name(settings.ENTRY_ITEM)))
+					
+					for _, name in ipairs(membersWithoutEntryItem) do
+						say_reward(string.format(gameforge.snow_dungeon._100_sayReward, name))
+					end
+					
+					return
+				end
+				snow_dungeon.partyMembersRemoveEntryItem()
+				
+				
+			else
+				if pc.get_level() < settings.MIN_LEVEL then
+					say_title(c_mob_name(npc.get_race()))
+					say(string.format(gameforge.snow_dungeon._130_say, settings.MIN_LEVEL))
+					say(gameforge.snow_dungeon._60_say)
+					return
+				end
+				
+				local waitTime = snow_dungeon.getPlayerWaitTime()
+				if snow_dungeon.getPlayerWaitTime() >= 1 then
+					say_title(c_mob_name(npc.get_race()))
+					say_reward(string.format(gameforge.snow_dungeon._140_sayReward, name, time.toString(waitTime)))
+					return
+				end
+		
+				if pc.count_item(settings.ENTRY_ITEM) < 1 then
+					say_title(c_mob_name(npc.get_race()))
+					say(string.format(gameforge.snow_dungeon._150_say, c_item_name(settings.ENTRY_ITEM)))
+					return
+				end
+				
+				pc.remove_item(settings.ENTRY_ITEM, 1)
+				
+			end
+			
+			if party.is_party() and party.is_leader() then
+				d.new_jump_party(settings.MAP_INDEX, unpack(settings.ENTRY_POS))
+			else
+				d.new_jump(settings.MAP_INDEX, unpack(settings.ENTRY_POS))
+			end
+			d.setf("start_time", get_global_time())
+
+			d.spawn_mob_ac_dir(settings.MANAGER, unpack(settings.MANAGER_POS))
+		end
+		
+		when logout with snow_dungeon.inDungeon() and d.select(pc.get_map_index()) begin
+			snow_dungeon.setPlayerLastLeaveTimes()
+		end
+		
+		when login with snow_dungeon.inDungeon() and d.select(pc.get_map_index()) begin
+			local settings = snow_dungeon.getSettings()
+			if not settings then return end
+			
+			if d.getf("TIME_LIMIT") == 0 then
+				d.setf("TIME_LIMIT", get_global_time() + settings.TIME_LIMIT)
+				server_timer("TIME_LIMIT", settings.TIME_LIMIT, d.get_map_index())
+			end
+			
+			pc.set_warp_location(unpack(settings.EXIT_POS))
+syschat(string.format(gameforge.snow_dungeon._160_syschat, time.toString(d.getf("TIME_LIMIT") - get_global_time())))
+		end
+		
+		when login with snow_dungeon.isOnMap() and not snow_dungeon.inDungeon() begin
+			pc.warp_exit()
+		end
+		
+		when kill with snow_dungeon.inDungeon() and d.select(pc.get_map_index()) begin
+			if snow_dungeon.isKillTarget(npc.get_vid()) then
+				snow_dungeon.killedTarget()
+				return
+			end
+			
+			if not snow_dungeon.isItemDropEnabled() then return end
+			if number(1, snow_dungeon.getItemDropRate()) == 1 then
+				game.drop_item_with_ownership(snow_dungeon.getItemDropVnum(), 1)
+			end
+			
+		end
+		
+		when TIME_LIMIT.server_timer begin
+			if not d.select(get_server_timer_arg()) then return end
+			
+			d.notice(gameforge.snow_dungeon._170_dNotice)
+			
+			server_timer("EXIT_TIMER", 5, d.get_map_index())
+		end
+		
+		when CHECK_WAVE_CLEARED.server_timer begin
+			if not d.select(get_server_timer_arg()) then return end
+
+			if d.count_monster() <= 0 then
+				d.notice(gameforge.snow_dungeon._180_dNotice)
+				
+				snow_dungeon.nextStage()
+			end
+		end
+		
+		when NEXT_STAGE.server_timer begin
+			if not d.select(get_server_timer_arg()) then return end
+			
+			snow_dungeon.nextStage()
+		end
+		
+		when EXIT_TIMER.server_timer begin
+			if not d.select(get_server_timer_arg()) then return end
+			
+			d.exit_all()
+		end
+		
+		when 20397.chat.gameforge.snow_dungeon._10_npcChat with snow_dungeon.inDungeon() and d.select(pc.get_map_index()) and snow_dungeon.getStage() == 0 begin
+			if party.is_party() and not party.is_leader() then
+				say_title(c_mob_name(npc.get_race()))
+				say(gameforge.snow_dungeon._190_say)
+				return
+			end
+			
+			local startStage = 1
+			if is_test_server() then
+				local settings = snow_dungeon.getSettings()
+				
+				say_title(gameforge.snow_dungeon._200_sayTitle)
+				say(gameforge.snow_dungeon._210_say)
+				startStage = tonumber(input())
+			else
+				setskin(NOWINDOW)
+			end
+			
+			snow_dungeon.setStage(startStage)
+			npc.purge()
+		end
+		
+		when 20397.chat.gameforge.snow_dungeon._220_npcChat with snow_dungeon.inDungeon() and d.select(pc.get_map_index()) and snow_dungeon.getStage() == 10 begin
+			if party.is_party() and not party.is_leader() then
+				say_title(c_mob_name(npc.get_race()))
+				say(gameforge.snow_dungeon._190_say)
+				return
+			end
+			
+			say_title(c_mob_name(npc.get_race()))
+			if party.is_party() then
+				say(gameforge.snow_dungeon._230_say)
+			else
+				say(gameforge.snow_dungeon._240_say)
+			end
+			
+			if  select(gameforge.snow_dungeon._250_select, gameforge.snow_dungeon._260_select) == 2 then
+				return
+			else
+				snow_dungeon.nextStage()
+			end
+		end
+		
+		when 20398.take with snow_dungeon.inDungeon() and d.select(pc.get_map_index()) and item.get_vnum() == 30332 begin
+			item.remove()
+			
+			local cubeIdx = d.getf("CUBE_IDX")
+			local vid = d.getf(string.format("CUBE_%d", cubeIdx))
+			
+			if vid == npc.get_vid() then
+				npc.purge()
+				
+				cubeIdx = cubeIdx + 1
+				if d.getf(string.format("CUBE_%d", cubeIdx)) == 0 then
+					snow_dungeon.nextStage()
+				else
+						d.notice(gameforge.snow_dungeon._280_dNotice, c_mob_name(npc.get_race()))
+					d.setf("CUBE_IDX", cubeIdx)
+				end
+			else
+				syschat(string.format(gameforge.snow_dungeon._290_syschat, c_mob_name(npc.get_race())))
+			end
+		end
+		
+		when 31331.use or 30333.use with snow_dungeon.inDungeon() and d.select(pc.get_map_index()) begin
+			if not snow_dungeon.isItemDropEnabled() then return end
+			
+			item.remove()
+			
+			if number(1, snow_dungeon.getItemDropSuccessChance()) == 1 then
+				snow_dungeon.nextStage()
+			end
+		end
+	end
+	
+	state __FUNCTIONS__ begin
+		function isEnabled()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return false end
+			
+			return settings.IS_ENABLED
+		end
+		
+		function getSettings()		
+			return {
+				IS_ENABLED = true, -- Is the dungeon enabled?
+				
+				MAP_INDEX = 352, -- The map index of the dungeon
+				
+				GUARDIAN = 20395, -- The vnum of the entry guardian
+				MAX_RANGE = 1000, -- Maximum range players have to be near the entry guardian
+				
+				MANAGER = 20397, -- The vnum of the manager
+				MANAGER_POS = {172, 261, 1}, -- The position the manager npc should be spawned
+				
+				MIN_LEVEL = 124, -- Minimum level the players have to be
+				NEED_PARTY = false, -- Do players need a party to enter
+				ENTRY_ITEM = 71219,
+				
+				CHECK_DURATION = time.toSeconds(time.SECONDS, 5),
+				
+				STAGES = {
+					{ -- Stage 1
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_1f.txt",
+						WAVE_CLEARED_TIMER = true,
+					},
+					{ -- Stage 2
+						POSITION = {420, 261},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_2f.txt",
+						REGEN_RESPAWN = true,
+						
+						DROP_ITEM_INFO = {
+							VNUM = 31331,
+							DROP_RATE = 5,
+							SUCCESS_CHANCE = 1,
+						},
+					},
+					{ -- Stage 3
+						POSITION = {762, 264},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_3f.txt",
+						WAVE_CLEARED_TIMER = true,
+					},
+					{ -- Stage 4
+						POSITION = {173, 535},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_4f.txt",
+						WAVE_CLEARED_TIMER = true,
+					},
+					{ -- Stage 5
+						POSITION = {420, 538},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_5f.txt",
+						REGEN_RESPAWN = true,
+						
+						CUBE_VNUM = 20398,
+						CUBE_POSITIONS = {
+							{449, 488},
+							{455, 445},
+							{419, 422},
+							{382, 444},
+							{389, 488},
+						},
+						
+						DROP_ITEM_INFO = {
+							VNUM = 30332,
+							DROP_RATE = 5,
+						}
+					},
+					{ -- Stage 6
+						POSITION = {746, 540},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_6f.txt",
+						WAVE_CLEARED_TIMER = true,
+					},
+					{ -- Stage 7 (extends stage 6)
+						KILL_TARGET = {
+							VNUM = 8058,
+							POSITION = {746, 489},
+						},
+					},
+					{ -- Stage 8
+						POSITION = {303, 708},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_7f.txt",
+						
+						BOSS_VNUM = 6151,
+						BOSS_POSITIONS = {
+							{302, 678},
+							{281, 657},
+							{303, 635},
+							{324, 656},
+						},
+					},
+					{ -- Stage 9
+						POSITION = {569, 701},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_8f.txt",
+						REGEN_RESPAWN = true,
+						
+						DROP_ITEM_INFO = {
+							VNUM = 30333,
+							DROP_RATE = 5,
+							SUCCESS_CHANCE = 1,
+						},
+					},
+					{ -- Stage 10
+						POSITION = {849, 693},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_9f.txt",
+						
+						KILL_TARGET = {
+							VNUM = 21399,
+							POSITION = {849, 650},
+						},
+						
+						MANAGER_VNUM = 20397,
+						MANAGER_POSITION = {849, 641, 1},
+					},
+					{ -- Stage 11
+						POSITION = {927, 388},
+						
+						REGEN_FILE = "data/dungeon/snow_dungeon/id_boss.txt",
+						
+						KILL_TARGET = {
+							VNUM = 6191,
+							POSITION = {927, 333},
+						},
+						
+						EXIT_DURATION = time.toSeconds(time.SECONDS, 30),
+					},
+				},
+				
+				TIME_LIMIT = time.toSeconds(time.HOURS, 1), -- How much time the players have to complete the run
+				WAIT_TIME = time.toSeconds(time.HOURS, 0), -- Time players have to wait after leaving the run
+				
+				ENTRY_POS = {171, 278}, -- Where the players should be teleported after entering
+				EXIT_POS = {75, 738, 120}, -- Where the players should be teleported after exiting
+			}
+		end
+		
+		function inDungeon()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return false end
+			
+			return pc.in_dungeon() and (settings.MAP_INDEX * 10000) <= pc.get_map_index() and (settings.MAP_INDEX * 11000) > pc.get_map_index()
+		end
+		
+		function isOnMap()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return false end
+			
+			return pc.get_map_index() == settings.MAP_INDEX
+		end
+		
+		-- Stage management
+		function setStage(stageIdx)
+			local settings = snow_dungeon.getSettings()
+			if not settings then return end
+			
+			d.setf("stage", stageIdx)
+			
+			local stageInfo = snow_dungeon.getStageInfo()
+			if not stageInfo then return end
+			
+			local position = stageInfo.POSITION or nil
+			if position then
+				d.purge()
+				d.jump_all(unpack(position))
+			end
+			
+			if snow_dungeon.isItemDropEnabled() then
+				snow_dungeon.purgeItemDrop()
+			end
+			
+			snow_dungeon.clearCheckWaveClearedTimer()
+			snow_dungeon.disableItemDrop()
+			snow_dungeon.clearKillTarget()
+			d.clear_regen()
+			
+			if stageInfo.DROP_ITEM_INFO then
+				snow_dungeon.setItemDrop(stageInfo.DROP_ITEM_INFO)
+				
+				d.notice(gameforge.snow_dungeon._300_dNotice, c_item_name(stageInfo.DROP_ITEM_INFO.VNUM))
+			end
+			
+			if stageInfo.KILL_TARGET then
+				snow_dungeon.setKillTarget(d.spawn_mob(stageInfo.KILL_TARGET.VNUM, unpack(stageInfo.KILL_TARGET.POSITION)))
+				
+				d.notice(gameforge.snow_dungeon._310_dNotice, c_mob_name(stageInfo.KILL_TARGET.VNUM))
+			end
+			
+			if stageIdx == 5 then
+				d.notice(gameforge.snow_dungeon._320_dNotice, c_item_name(snow_dungeon.getItemDropVnum()), c_mob_name(stageInfo.CUBE_VNUM))
+				
+				local vids = table.shuffle(snow_dungeon.spawnMonstersAtPositions(stageInfo.CUBE_VNUM, stageInfo.CUBE_POSITIONS))
+				for idx, vid in ipairs(vids) do
+					d.setf(string.format("CUBE_%d", idx), vid)
+				end
+				
+				d.setf("CUBE_IDX", 1)
+			elseif stageIdx == 8 then
+				local vids = snow_dungeon.spawnMonstersAtPositions(stageInfo.BOSS_VNUM, stageInfo.BOSS_POSITIONS)
+				snow_dungeon.setKillTarget(vids[number(1, table.getn(vids))])
+				
+				d.notice(gameforge.snow_dungeon._330_dNotice, c_mob_name(stageInfo.BOSS_VNUM))
+			end
+			
+			if stageInfo.REGEN_FILE then
+				if stageInfo.REGEN_RESPAWN then
+					d.set_regen_file(stageInfo.REGEN_FILE)
+				else
+					d.regen_file(stageInfo.REGEN_FILE)
+				end
+			end
+			
+			if stageInfo.WAVE_CLEARED_TIMER then
+				snow_dungeon.enableCheckWaveClearedTimer()
+				
+				d.notice(gameforge.snow_dungeon._340_dNotice)
+			end
+		end
+		
+		function getStage()
+			return d.getf("stage")
+		end
+		
+		function getStageInfo()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return nil end
+			
+			return settings.STAGES[snow_dungeon.getStage()] or nil
+		end
+		
+		function nextStage()
+			snow_dungeon.setStage(snow_dungeon.getStage() + 1)
+		end
+		
+		function spawnMonstersAtPositions(vnum, positions)
+			local vids = {}
+			
+			for _, position in ipairs(positions) do
+				table.insert(vids, d.spawn_mob(vnum, unpack(position)))
+			end
+			
+			return vids
+		end
+		
+		function enableCheckWaveClearedTimer()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return end
+			
+			server_loop_timer("CHECK_WAVE_CLEARED", settings.CHECK_DURATION, d.get_map_index())
+		end
+		
+		function clearCheckWaveClearedTimer()
+			clear_server_timer("CHECK_WAVE_CLEARED", d.get_map_index())
+		end
+		
+		-- Item drops
+		function disableItemDrop()
+			d.setf("DROP_ENABLED", 0)
+		end
+		
+		function isItemDropEnabled()
+			return d.getf("DROP_ENABLED") == 1
+		end
+		
+		function setItemDrop(dropInfo)
+			d.setf("DROP_ENABLED", 1)
+			d.setf("DROP_VNUM", dropInfo.VNUM)
+			d.setf("DROP_RATE", dropInfo.DROP_RATE)
+			
+			if dropInfo.SUCCESS_CHANCE then
+				d.setf("DROP_SUCCESS", dropInfo.SUCCESS_CHANCE)
+			end
+		end
+		
+		function purgeItemDrop()
+			local partyMemberPids = table.pack(party.get_member_pids())
+			
+			local vnum = snow_dungeon.getItemDropVnum()
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				local count = pc.count_item(vnum)
+				pc.remove_item(vnum, count)
+				
+				q.end_other_pc_block()
+			end
+		end
+		
+		function getItemDropVnum()
+			return d.getf("DROP_VNUM")
+		end
+		
+		function getItemDropRate()
+			return d.getf("DROP_RATE")
+		end
+		
+		function getItemDropSuccessChance()
+			return d.getf("DROP_SUCCESS")
+		end
+		
+		-- Kill target
+		function setKillTarget(vid)
+			d.setf("KILL_TARGET_VID", vid)
+		end
+		
+		function clearKillTarget()
+			d.setf("KILL_TARGET_VID", 0)
+		end
+		
+		function isKillTarget(vid)
+			return d.getf("KILL_TARGET_VID") == vid
+		end
+		
+		function killedTarget()
+			local stageIdx = snow_dungeon.getStage()
+			
+			if stageIdx == 7 or stageIdx == 8 then
+				d.notice(gameforge.snow_dungeon._350_dNotice)
+				server_timer("NEXT_STAGE", 10, d.get_map_index())
+			elseif stageIdx == 10 then
+				local stageInfo = snow_dungeon.getStageInfo()
+				d.spawn_mob(stageInfo.MANAGER_VNUM, unpack(stageInfo.MANAGER_POSITION))
+			elseif stageIdx == 11 then
+				local stageInfo = snow_dungeon.getStageInfo()
+				
+				d.notice(gameforge.snow_dungeon._360_dNotice)
+				d.notice(gameforge.snow_dungeon._370_dNotice, stageInfo.EXIT_DURATION)
+				
+				pc.setqf("boss_kills", pc.getqf("boss_kills") + 1)
+				if math.mod(pc.getqf("boss_kills"), 10) == 0 then
+				notice_all("%s hat den Boss3 bereits %d Mal gekillt", pc.get_name(), pc.getqf("boss_kills") )
+				end
+
+				--if party.is_party() then
+				--highscore.register("snowd_pt_time", get_global_time() - d.getf("start_time"), 0)
+				--else
+				--highscore.register("snowd_time", get_global_time() - d.getf("start_time"), 0)
+				--end
+				
+				--pc.setqf("6191_kills", pc.getqf("6191_kills") +  1)
+				
+				server_timer("EXIT_TIMER", stageInfo.EXIT_DURATION, d.get_map_index())
+			end
+		end
+		
+		-- Near guardian check
+		function getPartyMembersTooFarAway(npcVid, mapIndex)
+			local settings = snow_dungeon.getSettings()
+			if not settings then return {} end
+			
+			local partyMemberPids = table.pack(party.get_member_pids())
+			local membersTooFarAway = {}
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				if pc.get_map_index() ~= mapIndex or not pc.is_near_vid(npcVid, settings.MAX_RANGE) then
+					table.insert(membersTooFarAway, pc.get_name())
+				end
+				
+				q.end_other_pc_block()
+			end
+			
+			return membersTooFarAway
+		end
+		
+		-- Wait time
+		function getPartyMembersWaitTime()
+			local partyMemberPids = table.pack(party.get_member_pids())
+			local membersWaitTime = {}
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				local waitTime = snow_dungeon.getPlayerWaitTime()
+				if snow_dungeon.getPlayerWaitTime() >= 1 then
+					membersWaitTime[pc.get_name()] = waitTime
+				end
+				
+				q.end_other_pc_block()
+			end
+			
+			return membersWaitTime
+		end
+		
+		function setPlayerLastLeaveTimes()
+			pc.setf("snow_dungeon", "lastLeave", get_global_time())
+		end
+		
+		function getPlayerWaitTime()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return 1 end
+			
+			return (pc.getf("snow_dungeon", "lastLeave") + settings.WAIT_TIME) - get_global_time()
+		end
+		
+		-- Entry item
+		function getPartyMembersWithoutEntryItem()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return {} end
+			
+			local partyMemberPids = table.pack(party.get_member_pids())
+			local membersWithoutEntryItem = {}
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				if pc.count_item(settings.ENTRY_ITEM) < 1 then
+					table.insert(membersWithoutEntryItem, pc.get_name())
+				end
+				
+				q.end_other_pc_block()
+			end
+			
+			return membersWithoutEntryItem
+		end
+		
+		function partyMembersRemoveEntryItem()
+			local settings = snow_dungeon.getSettings()
+			if not settings then return {} end
+			
+			local partyMemberPids = table.pack(party.get_member_pids())
+			
+			for _, pid in ipairs(partyMemberPids) do
+				q.begin_other_pc_block(pid)
+				
+				pc.remove_item(settings.ENTRY_ITEM, 1)
+				
+				q.end_other_pc_block()
+			end
+		end
+		
+		-- Close dungeon
+		function closeDungeon()
+			snow_dungeon.clearCheckWaveClearedTimer()
+		end
+	end
+end

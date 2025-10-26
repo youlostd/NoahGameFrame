@@ -1,0 +1,14 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 6 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+local BossPos = settings [ "fourth_boss_pos" ] 
+if d . getf ( "ShadowZone_PillarActive" ) == 1 then 
+d . notice ( "Shadow tower: %s wasn't destroyed yet. %s was recovered from shadows!" , c_mob_name ( 28499 ) , c_mob_name ( 24385 ) ) ; 
+d . spawn_mob ( 24385 , BossPos [ 1 ] , BossPos [ 2 ] ) ; 
+else 
+clear_server_timer ( "ShadowZone_SixthFloor" , d . get_map_index ( ) ) ; 
+ShadowZoneLIB3 . clearCoolTimer ( ) ; 
+ShadowZoneLIB3 . clearDungeon ( ) 
+d . set_item_group ( "ShadowZone_6F_ticket" , 1 , 30848 , 1 ) 
+d . notice ( "Shadow tower: %s was revealed! You can proceed to next floor!" , c_mob_name ( 29382 ) ) ; 
+ShadowZoneLIB3 . spawnPortalGate ( ) 
+end 
+ return end 

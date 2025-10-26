@@ -1,0 +1,104 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/dungeons.png]
+[COLOR=0xffd700;FONT_SIZE=15]All Dungeon-Guides
+
+
+Jagras Dungeon
+
+1.Stage.  Destroy the Jagras-Metin.
+2.Stage.  Kill all Jagras-Mabu.
+3.Stage.  Destroy all Jagras-Metin2.
+4.Stage.  Kill Jagras-Suran.
+5.Stage.  Kill all Jagras-Nabu.
+6.Stage.  Kill Jagras-Suran.
+7.Stage.  Kill all Jagras-Kamul.
+8.Stage.  Kill all Jagras-Babu.
+9.Stage.  Kill all Jagras-Guruu.
+10.Ebene. Kill Jagras-Mu-Tai.
+
+Pukei Dungeon
+
+1.Stage.  Kill all Pukei-Gazu.
+2.Stage.  Kill all Pukei-Mihan.
+3.Stage.  Destroy all Pukei-Metin.
+4.Stage.  Kill all Pukei-Mango.
+5.Stage.  Kill Pukei-Mu.
+6.Stage.  Kill all Pukei-Mila.
+7.Stage.  Kill all Pukei-Nisa.
+8.Stage.  Kill all Pukei-Misa.
+9.Stage.  Kill Pukei-Mu.
+10.Stage. Kill  all Pukei-Sima.
+11.Stage. Destroy all Pukei-Metin2.
+12.Stage. Kill all Pukei-Rima.
+13.Stage. Kill Pukei-Mu-Tai.
+
+Barroth Dungeon
+
+1.Stage.  Destroy the Barroth-Metin.
+2.Stage.  Destroy all Barroth-Metin.
+3.Stage.  Kill all Barroth-Yamu.
+4.Stage.  Kill Barroth-Jazu.
+5.Stage.  Destroy all Barroth-Metin2.
+6.Stage.  Kill Barroth-Jazu.
+7.Stage.  Destroy all Barroth-Metin3.
+8.Stage.  Kill Barroth-Kele.
+9.Stage.  Kill all Barroth-Hisu.
+10.Stage. Kill Barroth-Mu-Tai.
+
+Rathian Dungeon
+
+1.Stage.  Kill all Rathian-Salu.
+2.Stage.  Kill all Rathian-Kazamu.
+3.Stage.  Destroy all Rathian-Metin.
+4.Stage.  Kill all Rathian-Salu.
+5.Stage.  Destroy all Rathiahn-Metin2.
+6.Stage.  Kill all Rathian-Kaza.
+7.Stage.  Kill Rathian-Kazanu.
+8.Stage.  Kill all Rathian-Raga.
+9.Stage.  Kill Rathian-Mu-Tai.
+
+Odogaron Dungeon
+
+1.Stage.  Kill all Odogaron-Juzu.
+2.Stage.  Kill all Odogaron-Juzu.
+3.Stage.  Kill Odogaron-Tama.
+4.Stage.  Destroy all Odogaron-Metin.
+5.Stage.  Kill all Odogaron-Hamu.
+6.Stage.  Kill all Odogaron-Manta.
+7.Stage.  Kill Odogaron-Zara.
+8.Stage.  Destroy all Odogaron-Metin2.
+9.Stage.  Kill all Odogaron-Huma.
+10.Stage. Kill all Odogaron-Matu.
+11.Stage. Kill Odogaron-Kazu.
+12.Stage. Kill all Odogaron-Fata.
+13.Stage. Kill Odogaron-Mu-Tai.
+
+Kadashi Dungeon
+
+From the 1st wave to the 12th wave you have to walk along the map.
+
+1.Wave.  Kill all Kadashi-Wezu.
+2.Wave.  Destroy all Kadashi-Metin.
+3.Wave.  Kill all Kadashi-Wezu.
+4.Wave.  Kill Kadashi-Talo.
+5.Wave.  Kill all Kadashi-Wezu.
+6.Wave.  Destroy all Kadashi-Metin.
+7.Wave.  Kill all Kadashi-Wezu.
+8.Wave.  Kill Kadashi-Talo.
+9.Wave.  Kill all Kadashi-Wezu.
+10.Wave. Destroy all Kadashi-Metin.
+11.Wave. Kill all Kadashi-Wezu.
+12.Wave. Kill Kadashi-Talo.
+13.Wave. Kill all Kadashi-Wezu.
+14.Wave. Destroy all Kadashi-Metin.
+15.Wave. Destry Kadashi-Metin2.
+16.Wave. Kill all Kadashi-Wezu.
+17.Wave. Destroy Kadashi-Metin2.
+18.Wave. Kill Kadashi-Tola.
+19.Wave. Destroy Kadashi-Metin2.
+20.Wave. Kill Kadashi-Tola.
+21.Wave. Kill Kadashi-Mu-Tai.
+
+
+
+

@@ -1,0 +1,11 @@
+if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 3 then local settings = PyramidDungeonLIB . Settings ( ) ; 
+if d . is_unique_dead ( "real" ) then 
+d . setf ( "PyramidDungeon_3f_stones_q" , 1 ) ; 
+d . kill_all ( ) ; 
+d . notice ( "Ancient pyramid: You have destroyed the right stone!" ) 
+d . notice ( "Ancient pyramid: %s is coming!" , c_mob_name ( 4155 ) ) ; 
+server_timer ( "PyramidDungeon_3f_bossspawn" , 5 , d . get_map_index ( ) ) 
+else 
+d . notice ( "Ancient pyramid: This stone was just an illusion." ) 
+end 
+ return end 

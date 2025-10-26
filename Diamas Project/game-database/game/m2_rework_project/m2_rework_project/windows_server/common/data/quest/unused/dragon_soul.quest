@@ -1,0 +1,64 @@
+define gemstone 30270
+define alchemist 20001
+define reward_box 50255
+define gemstone_need_count 10
+define gemstone_trade_max_per_day 250
+define dragon_soul_can_use_level 1
+define drop_flag "ds_drop"
+
+quest dragon_soul begin
+	state start begin
+		when levelup or letter with pc.level >= dragon_soul_can_use_level begin
+			send_letter(gameforge.dragon_soul._1010_sendLetter)
+			local v = find_npc_by_vnum(alchemist)
+			
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(alchemist))
+			end
+		end
+		when info or button begin
+			say(gameforge.dragon_soul._1020_say)
+		end
+
+		when alchemist.chat.gameforge.dragon_soul._1030_npcChat with pc.level >= dragon_soul_can_use_level begin
+			target.delete("__TARGET__")
+
+			say_title(c_mob_name(alchemist))
+			say(gameforge.dragon_soul._1040_say)
+			
+			ds.give_qualification()
+			pc.setf("dragon_soul", "eye_timestamp", today)
+			pc.setf("dragon_soul", "eye_left", 250)
+			char_log(pc.get_player_id(), 'DS_QUALIFICATION', 'SUCCESS')
+
+			set_state(state_farming)
+		end
+	end
+
+	state state_farming begin
+		when gemstone.pick begin
+			if pc.count_item(gemstone) >= gemstone_need_count then
+				pc.remove_item(gemstone, gemstone_need_count)
+				pc.give_item2(reward_box)
+			end
+		end
+	end
+
+	-- deprecated states. so, jump to new state.
+	state state_1 begin
+		when login begin
+			set_state(state_farming)
+		end
+	end
+	state state_2 begin
+		when login begin
+			set_state(state_farming)
+		end
+	end
+	state state_3 begin
+		when login begin
+			set_state(state_farming)
+		end
+	end
+end
+

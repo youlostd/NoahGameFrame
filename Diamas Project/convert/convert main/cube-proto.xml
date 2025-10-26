@@ -1,0 +1,542 @@
+<cube-proto>
+
+	<recipe vnum="4" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9568" count="1" />
+		</materials>
+		<reward vnum="254400" count="1" />
+	</recipe>
+	<recipe vnum="5" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9569" count="1" />
+		</materials>
+		<reward vnum="254401" count="1" />
+	</recipe>
+	<recipe vnum="6" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9571" count="1" />
+		</materials>
+		<reward vnum="254402" count="1" />
+	</recipe>
+	<recipe vnum="7" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9572" count="1" />
+		</materials>
+		<reward vnum="254403" count="1" />
+	</recipe>
+	<recipe vnum="8" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9573" count="1" />
+		</materials>
+		<reward vnum="254404" count="1" />
+	</recipe>
+	<recipe vnum="9" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9574" count="1" />
+		</materials>
+		<reward vnum="254405" count="1" />
+	</recipe>
+	<recipe vnum="10" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9575" count="1" />
+		</materials>
+		<reward vnum="254406" count="1" />
+	</recipe>
+	<recipe vnum="11" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9576" count="1" />
+		</materials>
+		<reward vnum="254407" count="1" />
+	</recipe>
+	<recipe vnum="12" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9577" count="1" />
+		</materials>
+		<reward vnum="254408" count="1" />
+	</recipe>
+	<recipe vnum="13" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9578" count="1" />
+		</materials>
+		<reward vnum="254409" count="1" />
+	</recipe>
+	<recipe vnum="14" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9581" count="1" />
+		</materials>
+		<reward vnum="254410" count="1" />
+	</recipe>
+	<recipe vnum="15" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9582" count="1" />
+		</materials>
+		<reward vnum="254411" count="1" />
+	</recipe>
+	<recipe vnum="16" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9583" count="1" />
+		</materials>
+		<reward vnum="254412" count="1" />
+	</recipe>
+	<recipe vnum="17" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9584" count="1" />
+		</materials>
+		<reward vnum="254413" count="1" />
+	</recipe>
+	<recipe vnum="18" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9585" count="1" />
+		</materials>
+		<reward vnum="254414" count="1" />
+	</recipe>
+	<recipe vnum="19" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9586" count="1" />
+		</materials>
+		<reward vnum="254415" count="1" />
+	</recipe>
+	<recipe vnum="20" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9587" count="1" />
+		</materials>
+		<reward vnum="254416" count="1" />
+	</recipe>
+	<recipe vnum="21" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9588" count="1" />
+		</materials>
+		<reward vnum="254417" count="1" />
+	</recipe>
+	<recipe vnum="22" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9589" count="1" />
+		</materials>
+		<reward vnum="254418" count="1" />
+	</recipe>
+	<recipe vnum="23" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9590" count="1" />
+		</materials>
+		<reward vnum="254419" count="1" />
+	</recipe>
+		<recipe vnum="24" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9591" count="1" />
+		</materials>
+		<reward vnum="254420" count="1" />
+	</recipe>
+	<recipe vnum="25" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9592" count="1" />
+		</materials>
+		<reward vnum="254421" count="1" />
+	</recipe>
+	<recipe vnum="26" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9593" count="1" />
+		</materials>
+		<reward vnum="254422" count="1" />
+	</recipe>
+	<recipe vnum="27" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9594" count="1" />
+		</materials>
+		<reward vnum="254423" count="1" />
+	</recipe>
+	<recipe vnum="28" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9595" count="1" />
+		</materials>
+		<reward vnum="254424" count="1" />
+	</recipe>
+	<recipe vnum="29" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9596" count="1" />
+		</materials>
+		<reward vnum="254425" count="1" />
+	</recipe>
+	<recipe vnum="30" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9597" count="1" />
+		</materials>
+		<reward vnum="254426" count="1" />
+	</recipe>
+	<recipe vnum="31" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9598" count="1" />
+		</materials>
+		<reward vnum="254427" count="1" />
+	</recipe>
+	<recipe vnum="32" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9599" count="1" />
+		</materials>
+		<reward vnum="254428" count="1" />
+	</recipe>
+	<recipe vnum="33" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9600" count="1" />
+		</materials>
+		<reward vnum="254429" count="1" />
+	</recipe>
+		<recipe vnum="34" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9601" count="1" />
+		</materials>
+		<reward vnum="254430" count="1" />
+	</recipe>
+	<recipe vnum="35" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9602" count="1" />
+		</materials>
+		<reward vnum="254431" count="1" />
+	</recipe>
+	<recipe vnum="36" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9603" count="1" />
+		</materials>
+		<reward vnum="254432" count="1" />
+	</recipe>
+	<recipe vnum="37" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9604" count="1" />
+		</materials>
+		<reward vnum="254433" count="1" />
+	</recipe>
+	<recipe vnum="38" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9605" count="1" />
+		</materials>
+		<reward vnum="254434" count="1" />
+	</recipe>
+	<recipe vnum="39" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9606" count="1" />
+		</materials>
+		<reward vnum="254435" count="1" />
+	</recipe>
+	<recipe vnum="40" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9607" count="1" />
+		</materials>
+		<reward vnum="254436" count="1" />
+	</recipe>
+	<recipe vnum="41" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9608" count="1" />
+		</materials>
+		<reward vnum="254437" count="1" />
+	</recipe>
+	<recipe vnum="42" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9609" count="1" />
+		</materials>
+		<reward vnum="254438" count="1" />
+	</recipe>
+	<recipe vnum="43" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9610" count="1" />
+		</materials>
+		<reward vnum="254439" count="1" />
+	</recipe>
+		<recipe vnum="44" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9611" count="1" />
+		</materials>
+		<reward vnum="254440" count="1" />
+	</recipe>
+	<recipe vnum="45" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9612" count="1" />
+		</materials>
+		<reward vnum="254441" count="1" />
+	</recipe>
+	<recipe vnum="46" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9613" count="1" />
+		</materials>
+		<reward vnum="254442" count="1" />
+	</recipe>
+	<recipe vnum="47" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9614" count="1" />
+		</materials>
+		<reward vnum="254443" count="1" />
+	</recipe>
+	<recipe vnum="48" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9615" count="1" />
+		</materials>
+		<reward vnum="254444" count="1" />
+	</recipe>
+	<recipe vnum="49" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9616" count="1" />
+		</materials>
+		<reward vnum="254445" count="1" />
+	</recipe>
+	<recipe vnum="50" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9617" count="1" />
+		</materials>
+		<reward vnum="254446" count="1" />
+	</recipe>
+	<recipe vnum="51" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9618" count="1" />
+		</materials>
+		<reward vnum="254447" count="1" />
+	</recipe>
+	<recipe vnum="52" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9619" count="1" />
+		</materials>
+		<reward vnum="254448" count="1" />
+	</recipe>
+	<recipe vnum="53" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9620" count="1" />
+		</materials>
+		<reward vnum="254449" count="1" />
+	</recipe>
+		<recipe vnum="54" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9621" count="1" />
+		</materials>
+		<reward vnum="254450" count="1" />
+	</recipe>
+	<recipe vnum="55" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9622" count="1" />
+		</materials>
+		<reward vnum="254451" count="1" />
+	</recipe>
+	<recipe vnum="56" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9623" count="1" />
+		</materials>
+		<reward vnum="254452" count="1" />
+	</recipe>
+	<recipe vnum="57" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9624" count="1" />
+		</materials>
+		<reward vnum="254453" count="1" />
+	</recipe>
+	<recipe vnum="58" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9625" count="1" />
+		</materials>
+		<reward vnum="254454" count="1" />
+	</recipe>
+	<recipe vnum="59" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9626" count="1" />
+		</materials>
+		<reward vnum="254455" count="1" />
+	</recipe>
+	<recipe vnum="60" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9627" count="1" />
+		</materials>
+		<reward vnum="254456" count="1" />
+	</recipe>
+	<recipe vnum="61" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9628" count="1" />
+		</materials>
+		<reward vnum="254457" count="1" />
+	</recipe>
+	<recipe vnum="62" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9629" count="1" />
+		</materials>
+		<reward vnum="254458" count="1" />
+	</recipe>
+	<recipe vnum="63" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="9630" count="1" />
+		</materials>
+		<reward vnum="254459" count="1" />
+	</recipe>
+	<recipe vnum="65" category="WEAPON" probability="100" cost="20000000000">
+		<materials>
+			<material vnum="342011" count="1000" />
+			<material vnum="342012" count="500" />
+			<material vnum="342013" count="250" />
+		</materials>
+		<reward vnum="342010" count="1" />
+	</recipe>
+	<recipe vnum="66" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="8010" count="2500" />
+			<material vnum="8012" count="2500" />
+			<material vnum="8014" count="2500" />
+			<material vnum="8016" count="2500" />
+			<material vnum="8018" count="2500" />
+		</materials>
+		<reward vnum="184381" count="1" />
+	</recipe>
+	<recipe vnum="67" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="8020" count="2500" />
+			<material vnum="8022" count="2500" />
+			<material vnum="8024" count="2500" />
+			<material vnum="8026" count="2500" />
+			<material vnum="8028" count="2500" />
+		</materials>
+		<reward vnum="184382" count="1" />
+	</recipe>
+	<recipe vnum="68" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="8011" count="75" />
+			<material vnum="8013" count="75" />
+			<material vnum="8015" count="75" />
+			<material vnum="8017" count="75" />
+			<material vnum="8019" count="75" />
+		</materials>
+		<reward vnum="184383" count="1" />
+	</recipe>
+	<recipe vnum="69" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="8021" count="75" />
+			<material vnum="8023" count="75" />
+			<material vnum="8025" count="75" />
+			<material vnum="8027" count="75" />
+			<material vnum="8029" count="75" />
+		</materials>
+		<reward vnum="184384" count="1" />
+	</recipe>
+	<recipe vnum="70" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="9562" count="2500" />
+			<material vnum="9563" count="75" />
+			<material vnum="8030" count="2500" />
+			<material vnum="8031" count="75" />
+			<material vnum="50569" count="100" />
+		</materials>
+		<reward vnum="184385" count="1" />
+	</recipe>
+	<recipe vnum="71" category="ACCESSORY" probability="100" cost="15000000000">
+		<materials>
+			<material vnum="184381" count="1" />
+			<material vnum="184382" count="1" />
+			<material vnum="184383" count="1" />
+			<material vnum="184384" count="1" />
+			<material vnum="184385" count="1" />
+		</materials>
+		<reward vnum="184386" count="1" />
+	</recipe>
+		<recipe vnum="72" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19621" count="1" />
+		</materials>
+		<reward vnum="264450" count="1" />
+	</recipe>
+	<recipe vnum="73" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19622" count="1" />
+		</materials>
+		<reward vnum="264451" count="1" />
+	</recipe>
+	<recipe vnum="74" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19623" count="1" />
+		</materials>
+		<reward vnum="264452" count="1" />
+	</recipe>
+	<recipe vnum="75" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19624" count="1" />
+		</materials>
+		<reward vnum="264453" count="1" />
+	</recipe>
+	<recipe vnum="76" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19625" count="1" />
+		</materials>
+		<reward vnum="264454" count="1" />
+	</recipe>
+	<recipe vnum="77" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19626" count="1" />
+		</materials>
+		<reward vnum="264455" count="1" />
+	</recipe>
+	<recipe vnum="78" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19627" count="1" />
+		</materials>
+		<reward vnum="264456" count="1" />
+	</recipe>
+	<recipe vnum="79" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19628" count="1" />
+		</materials>
+		<reward vnum="264457" count="1" />
+	</recipe>
+	<recipe vnum="80" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19629" count="1" />
+		</materials>
+		<reward vnum="264458" count="1" />
+	</recipe>
+	<recipe vnum="81" category="ETC" probability="100" cost="10">
+		<materials>
+			<material vnum="19630" count="1" />
+		</materials>
+		<reward vnum="264459" count="1" />
+	</recipe>
+	
+	
+	<recipe vnum="82" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="50601" count="2000" />
+			<material vnum="50602" count="2000" />
+			<material vnum="50603" count="2000" />
+			<material vnum="50604" count="2000" />
+			<material vnum="50605" count="2000" />
+		</materials>
+		<reward vnum="241151" count="1" />
+	</recipe>
+	<recipe vnum="83" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="50606" count="2000" />
+			<material vnum="50607" count="2000" />
+			<material vnum="50608" count="2000" />
+			<material vnum="50609" count="2000" />
+			<material vnum="50610" count="2000" />
+		</materials>
+		<reward vnum="241152" count="1" />
+	</recipe>
+	<recipe vnum="84" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="50611" count="2000" />
+			<material vnum="50612" count="2000" />
+			<material vnum="50613" count="2000" />
+			<material vnum="50614" count="2000" />
+			<material vnum="50615" count="2000" />
+		</materials>
+		<reward vnum="241153" count="1" />
+	</recipe>
+	<recipe vnum="85" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="50616" count="2000" />
+			<material vnum="50617" count="2000" />
+			<material vnum="50618" count="2000" />
+			<material vnum="241149" count="20000" />
+			<material vnum="241150" count="30" />
+		</materials>
+		<reward vnum="241154" count="1" />
+	</recipe>
+	<recipe vnum="86" category="ACCESSORY" probability="100" cost="10">
+		<materials>
+			<material vnum="241151" count="1" />
+			<material vnum="241152" count="1" />
+			<material vnum="241153" count="1" />
+			<material vnum="241154" count="1" />
+		</materials>
+		<reward vnum="241155" count="1" />
+	</recipe>
+</cube-proto>

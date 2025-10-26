@@ -1,0 +1,6 @@
+[DELAY value;0]
+Nehéz páncélzatuknak,[ENTER]
+fegyvereiknek és[ENTER]
+készségeiknek köszönhetõen a[ENTER]
+harcosok a közelharci[ENTER]
+helyzetek fontos szereplõi.

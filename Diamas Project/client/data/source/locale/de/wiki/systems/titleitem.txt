@@ -1,0 +1,16 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/titleitem.png]
+[CENTER_ALIGN]Titelsystem
+
+Mit dem Gegenstand "Tinktur der Titel" kann man sich einen eigenen Titel erstellen, der 
+dann über dem Namen bzw. über dem Gildennamen erscheint. Dabei gilt folgendes:
+
+- Alphanumerische Zeichen (a-Z, 0-9) erlaubt
+- 16.581.375 Farben über den RGB Generator auswählbar
+- Vorschau des gewählten Titels
+- Überschreibbar mit dem gleichen Gegenstand
+- Entfernbar mit "Tinktur der Titel (entfernen)"
+
+Nicht erlaubt sind Sonderzeichen oder anstößige / beleidigende Begriffe.
+
+

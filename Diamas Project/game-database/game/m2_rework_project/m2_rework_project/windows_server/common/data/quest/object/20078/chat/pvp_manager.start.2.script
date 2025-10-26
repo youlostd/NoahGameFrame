@@ -1,0 +1,13 @@
+say_title ( "GM: PvP TURNUVA IPTAL OLSUN MU canim:" ) 
+say ( "MUSUN IPTAL ETMEK PVP TURNUVA?" ) 
+say ( "" ) 
+local s = select ( "Evet " , "YOOOOOOG " ) 
+if s == 1 then 
+game . set_event_flag ( "pvp" , 0 ) 
+pvp_attenders = { } 
+notice_all ( "PvP Turnuvasi sona ermistir!" ) 
+notice_all ( "Bir dahaki turnuvada gorusmek uzere!" ) 
+say_title ( "PvP Turnuvasi iptal edildi!" ) 
+say ( "PvP Turnuvasi iptal edildi!" ) 
+say ( "" ) 
+end 

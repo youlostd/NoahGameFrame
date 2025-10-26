@@ -1,0 +1,256 @@
+----------------------------------------------------
+--COLLECT QUEST_lv98
+--METIN2 ?? ???  
+----------------------------------------------------
+quest collect_quest_lv98  begin
+	state start begin
+	end
+	state run begin
+		when login or levelup with pc.level >= 98  begin
+			set_state(information)
+		end	
+	end
+
+	state information begin
+		when letter begin
+			local v = find_npc_by_vnum(20091)
+			if v != 0 then
+			target.vid("__TARGET__",v,gameforge.collect_quest_lv98._010_target)
+			end
+			send_letter(gameforge.collect_quest_lv98._020_send_letter)
+		end
+
+		when button or info begin
+			say_title(gameforge.collect_quest_lv98._030_say_title)
+			say(gameforge.collect_quest_lv98._040_say)
+			say("")
+		end
+		
+		when __TARGET__.target.click or	20091.chat.gameforge.collect_quest_lv98._050_npcChat begin
+			target.delete("__TARGET__")
+
+			say_title(gameforge.collect_quest_lv98._055_say_title)
+			say(gameforge.collect_quest_lv98._060_say)
+			wait()
+			say_title(gameforge.collect_quest_lv98._055_say_title)
+			say(gameforge.collect_quest_lv98._064_say)
+			say(gameforge.collect_quest_lv98._065_say)
+
+			set_state(go_to_disciple)
+			pc.setqf("duration",0)  
+			pc.setqf("collect_count",0)
+			pc.setqf("drink_drug",0) 
+		end
+	end
+
+	state go_to_disciple begin
+		when letter begin
+			send_letter(gameforge.collect_quest_lv98._080_send_letter)
+			
+		end
+		when button or info begin
+			say_title (gameforge.collect_quest_lv98._090_say_title)
+			say(gameforge.collect_quest_lv98._100_say)
+			say("")
+			say_item_vnum(50619) 
+			say_reward(string.format(gameforge.collect_quest_lv98._105_say_reward, pc.getqf("collect_count")))
+		end
+		
+		when 71035.use begin 
+			if get_time() < pc.getqf("duration") then
+				say (gameforge.collect_quest_lv98._110_say)
+				return
+			end
+			if pc.getqf("drink_drug")==1 then
+				say(gameforge.collect_quest_lv98._115_say)
+				return
+			end
+			if pc.count_item(50619)==0 then
+				say_title(gameforge.collect_quest_lv98._055_say_title)
+				say(gameforge.collect_quest_lv98._120_say)
+				say("")
+				return
+			end
+
+			pc.remove_item(71035, 1)
+			pc.setqf("drink_drug",1)
+		end
+
+		when 3090.kill or 3290.kill or 3590.kill or 3090.kill or 3091.kill or 3190.kill or 3191.kill or 3290.kill or	3291.kill or	3390.kill or	3391.kill or	3490.kill or	3491.kill or	3591.kill or	
+			 3595.kill or	3596.kill or	3690.kill or	3691.kill or	3790.kill or	3791.kill or	3890.kill or	3891.kill	begin
+			local s = number(1, 100)
+			if s <= 30 then
+				pc.give_item2(50619, 1)
+				send_letter(gameforge.collect_quest_lv98._130_send_letter)
+			end	
+		end
+
+		
+    	when 20091.chat.gameforge.collect_quest_lv98._140_npcChat with pc.count_item(50619) >0   begin
+			if get_time() > pc.getqf("duration") then
+				if  pc.count_item(50619) >0 then
+				say(mob_name(20091))
+				
+				say(gameforge.collect_quest_lv98._150_say)
+				say("")
+				pc.remove_item(50619, 1)
+				if  is_test_server()  then 
+					pc.setqf("duration",get_time()+2) 
+				else
+					pc.setqf("duration",get_time()+0*0*0) 
+				end
+				wait()
+				
+				local pass_percent
+				if pc.getqf("drink_drug")==0 then
+					pass_percent=45
+				else		
+					pass_percent=100
+				end
+				
+				local s= number(1,100)
+				if s<= pass_percent  then
+				   if pc.getqf("collect_count")< 49 then -- COUNT
+						local index =pc.getqf("collect_count")+1 
+						pc.setqf("collect_count",index)     
+						say(mob_name(20091))
+						say(gameforge.collect_quest_lv98._160_say)
+						say(string.format(gameforge.collect_quest_lv98._165_say, 50-pc.getqf("collect_count")))
+						say(gameforge.collect_quest_lv98._170_say)
+						say("")
+						pc.setqf("drink_drug",0)	 
+						return
+					end
+					say(mob_name(20091))
+					say(gameforge.collect_quest_lv98._175_say)
+					say("")
+					pc.setqf("collect_count",0)
+					pc.setqf("drink_drug",0)	
+					pc.setqf("duration",0) 
+					set_state(key_item)
+					return
+					else
+						say(mob_name(20091))
+						say(gameforge.collect_quest_lv98._180_say)
+						say("")				   
+						pc.setqf("drink_drug",0)	 
+						return
+					 end
+				else
+					say(mob_name(20091))
+					say(item_name(50619)..gameforge.collect_quest_lv98._185_say)
+					return
+				end
+		  else
+		 say(mob_name(20091) )
+		  say(gameforge.collect_quest_lv98._190_say)
+		  say("")
+		  return
+		end
+
+		end
+end
+
+
+	state key_item begin
+		when letter begin
+			send_letter(gameforge.collect_quest_lv98._195_send_letter)
+			
+			if pc.count_item(71361)>0 then	
+				local v = find_npc_by_vnum(20091)
+				if v != 0 then
+					target.vid("__TARGET__", v, "???")
+				end
+			end
+
+		end
+		when button or info begin
+			if pc.count_item(71361) >0 then
+				say_title(gameforge.collect_quest_lv98._200_say_title)
+				
+				say(gameforge.collect_quest_lv98._210_say)
+				say("")
+				return
+			end
+
+			say_title(gameforge.collect_quest_lv98._220_say_title)
+			say(gameforge.collect_quest_lv98._230_say)
+			say_item_vnum(71361)
+			say(gameforge.collect_quest_lv98._240_say)
+			say(mob_name(3690)..", "..mob_name(3790)..",")
+			say(mob_name(3691)..".")
+			say(""..mob_name(3090)..","..mob_name(3791)..","..mob_name(3291)..",")
+		end
+		when 3090.kill or 3290.kill or 3590.kill or 3090.kill or 3091.kill or 3190.kill or 3191.kill or 3290.kill or	3291.kill or	3390.kill or	3391.kill or	3490.kill or	3491.kill or	3591.kill or	
+			 3595.kill or	3596.kill or	3690.kill or	3691.kill or	3790.kill or	3791.kill or	3890.kill or	3891.kill	begin
+			local s = number(1, 5)
+			if s <= 30 and pc.count_item(71361)==0 then
+				pc.give_item2(71361, 1)
+				send_letter(gameforge.collect_quest_lv98._250_send_letter)
+			end	
+		end
+
+
+
+		
+		when __TARGET__.target.click  or 20091.chat.gameforge.collect_quest_lv98._260_npcChat with pc.count_item(71361) > 0  begin
+		    target.delete("__TARGET__")
+			if pc.count_item(71361) > 0 then 
+			say(mob_name(20091))
+			say(gameforge.collect_quest_lv98._265_say)
+			pc.remove_item(71361,1)
+			set_state(__reward)
+			else
+				say(mob_name(20091))
+				say(""..item_name(71361)..gameforge.collect_quest_lv98._266_say)
+				say("")
+				return
+			end
+		end
+	 
+	end
+	
+	state __reward begin
+		when letter begin
+			send_letter(gameforge.collect_quest_lv98._270_send_letter)
+			
+			local v = find_npc_by_vnum(20018)
+			if v != 0 then
+						target.vid("__TARGET__",v,gameforge.collect_quest_lv98._280_target)
+			end
+
+		end
+		when button or info begin
+			say_title(gameforge.collect_quest_lv98._290_say_title)
+			
+			say(gameforge.collect_quest_lv98._300_say)
+			say("")
+		end
+		
+		when __TARGET__.target.click  or	20018.chat. gameforge.collect_quest_lv98._310_npcChat begin
+		    target.delete("__TARGET__")
+			say(mob_name(20018))
+			say(gameforge.collect_quest_lv98._315_say)
+			say("")
+			wait()
+			say(mob_name(20018))
+			say(gameforge.collect_quest_lv98._316_say)
+			say("")
+			say_reward(gameforge.collect_quest_lv98._317_say_reward)
+			say_reward(gameforge.collect_quest_lv98._318_say_reward)
+			say_reward(gameforge.collect_quest_lv98._319_say_reward)
+			affect.add_collect_point(POINT_SKILL_DAMAGE_BONUS,6,60*60*24*365*60)
+			affect.add_collect_point(POINT_COSTUME_ATTR_BONUS,50,60*60*24*365*60)
+
+			clear_letter()
+			set_quest_state("collect_quest_lv100", "run")
+			set_state(__complete)
+		end
+			
+	end
+
+	
+	state __complete begin
+	end
+end
+

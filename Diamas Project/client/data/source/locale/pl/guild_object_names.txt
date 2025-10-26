@@ -1,0 +1,73 @@
+20139	Sztandar gildii (fioletowy)
+14401	Drzewo (2)
+20140	Sztandar gildii (niebieski/zielony)
+14202	Œciana Tylna
+20141	Sztandar gildii (czerwony/z³oty)
+14100	Kwatera G³ówna (1)
+14101	Kamienny Mur (1-1)
+14102	Kamienny Mur (1-2)
+14103	Kamienny Mur (1-3)
+14104	Brama (1)
+14105	Œciana (1)
+14407	Drzewo (8)
+14309	Kamieñ (10)
+14110	Kwatera G³ówna (2)
+14111	Kamienny Mur (2-1)
+14112	Kamienny Mur (2-2)
+14113	Kamienny Mur (2-3)
+14114	Brama (2)
+14115	Œciana (2)
+14120	Kwatera G³ówna (3)
+14121	Kamienny Mur (3-1)
+14122	Kamienny Mur (3-2)
+14123	Kamienny Mur (3-3)
+14124	Brama (3)
+14125	Œciana (3)
+14301	Kamieñ (2)
+14200	Insygnia Gildii
+14302	Kamieñ (3)
+14303	Kamieñ (4)
+14013	Fabryka Broni
+14014	Kowal Zbroi
+14015	Jubiler
+14400	Drzewo (1)
+14304	Kamieñ (5)
+14402	Drzewo (3)
+14403	Drzewo (4)
+14404	Drzewo (5)
+14405	Drzewo (6)
+14406	Drzewo (7)
+14305	Kamieñ (6)
+14408	Drzewo (9)
+14306	Kamieñ (7)
+14033	Oœrodek Szkoleniowy
+14307	Kamieñ (8)
+14201	Œciana Frontowa
+14308	Kamieñ (9)
+14043	Diamentowy Odlewnik
+14300	Kamieñ (1)
+14045	Sk. Drewno Odlewnik
+14046	Miedziany Odlewnik
+14047	Srebrny Odlewnik
+14048	Z³oty Odlewnik
+14049	Jadeitowy Odlewnik
+14050	Ebonitowy Odlewnik
+14051	Per³owy Odlewnik
+14052	Platynowy Odlewnik
+14053	Kryszta³owy Odlewnik
+14054	Ametystowy Odlewnik
+14055	Niebiañski Odlewnik
+14204	Œciana Prawa
+14061	O³tarz Mocy
+14062	O³tarz Mocy
+14063	O³tarz Mocy
+14203	Œciana Lewa
+14071	Magazyn Gildii
+14072	Magazyn Gildii
+14073	Magazyn Gildii
+14074	Odlewnik Kry. Duszy
+14075	Rubinowy Odlewnik
+14076	Odlewnik Granatu
+14077	Szmaragdowy Odlewnik
+14078	Szafirowy Odlewnik
+14079	Turmalinowy Odlewnik

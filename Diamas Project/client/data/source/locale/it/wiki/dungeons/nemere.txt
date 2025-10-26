@@ -1,0 +1,44 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/banner_weapons.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 95 - 109
+*Eintrittsitem: Eisiger Passierschein
+[RIGHT_ALIGN]Ice Ticket
+[IMG=d:/ymir work/ui/wiki/31089.tga; Y=5; X=500]
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Nemeres Warte hat eine Abklingzeit von 90 Minuten.
+*Der Dungeon kann sowohl mit als auch ohne Gruppe betreten werden.
+*Man hat insgesamt 60 Minuten um Nemeres Warte erfolgreich zu absolvieren.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18]The Phases:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=140; CENTER_ALIGN]
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1
+
+[X_PADDING=20]Töte alle Metin der Kälte und ziehe die Nordsterne auf die Würfel
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2
+
+[X_PADDING=20]Töte Monster
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 3
+
+[X_PADDING=20]Töte den Metinstein.
+[X_PADDING=20]Besonderheit: Der Metinstein teleportiert sich
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 4
+
+[X_PADDING=20]Töte Szel
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 5
+
+[X_PADDING=20]Töte Monster und erhalte 10x Frostschlüssel. Ziehe anschließend den
+[X_PADDING=20]Eisblumenschlüssel auf den Eisigen Löwen
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 6
+
+[X_PADDING=20]Töte Nemere
+
+

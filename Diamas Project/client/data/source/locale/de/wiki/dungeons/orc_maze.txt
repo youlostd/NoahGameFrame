@@ -1,0 +1,103 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/dungeons.png]
+[COLOR=0xffd700;FONT_SIZE=15]Alle Dungeons!
+
+
+Jagras Dungeon
+
+1.Ebene.  Jagras-Metin zerstören.
+2.Ebene.  Alle Jagras-Mabu töten.
+3.Ebene.  Alle Jagras-Metin2 zerstören.
+4.Ebene.  Jagras-Suran töten. 
+5.Ebene.  Alle Jagras-Nabu töten.
+6.Ebene.  Jagras-Suran töten. 
+7.Ebene.  Alle Jagras-Kamul töten.
+8.Ebene.  Alle Jagras-Babu töten.
+9.Ebene.  Alle Jagras-Guruu töten.
+10.Ebene. Jagras-Mu-Tai töten.
+
+Pukei Dungeon
+
+1.Ebene.  Alle Pukei-Gazu töten.
+2.Ebene.  Alle Pukei-Mihan töten.
+3.Ebene.  Alle Pukei-Metin zerstören.
+4.Ebene.  Alle Pukei-Mango töten.
+5.Ebene.  Pukei-Mu töten.
+6.Ebene.  Alle Pukei-Mila töten.
+7.Ebene.  Alle Pukei-Nisa töten.
+8.Ebene.  Alle Pukei-Misa töten.
+9.Ebene.  Pukei-Mu töten.
+10.Ebene. Alle Pukei-Sima töten.
+11.Ebene. Alle Pukei-Metin2 zerstören.
+12.Ebene. Alle Pukei-Rima töten.
+13.Ebene. Pukei-Mu-Tai töten.
+
+Barroth Dungeon
+
+1.Ebene.  Barroth-Metin zerstören.
+2.Ebene.  Alle Barroth-Metin zerstören.
+3.Ebene.  Alle Barroth-Yamu töten.
+4.Ebene.  Barroth-Jazu töten.
+5.Ebene.  Alle Barroth-Metin2 zerstören.
+6.Ebene.  Barroth-Jazu töten.
+7.Ebene.  Alle Barroth-Metin3 zerstören.
+8.Ebene.  Barroth-Kele töten.
+9.Ebene.  Alle Barroth-Hisu töten.
+10.Ebene. Barroth-Mu-Tai töten.
+
+Rathian Dungeon
+
+1.Ebene.  Alle Rathian-Salu töten.
+2.Ebene.  Alle Rathian-Kazamu töten.
+3.Ebene.  Alle Rathian-Metin zerstören.
+4.Ebene.  Alle Rathian-Salu töten.
+5.Ebene.  Alle Rathian-Metin2 zerstören.
+6.Ebene.  Alle Rathian-Kaza töten.
+7.Ebene.  Rathian-Kazanu töten.
+8.Ebene.  Alle Rathian-Raga töten.
+9.Ebene.  Rathian-Mu-Tai töten.
+
+Odogaron Dungeon
+
+1.Ebene.  Alle Odogaron-Juzu töten.
+2.Ebene.  Alle Odogaron-Juzu töten.
+3.Ebene.  Odogaron-Tama töten.
+4.Ebene.  Alle Odogaron-Metin zerstören.
+5.Ebene.  Alle Odogaron-Hamu töten.
+6.Ebene.  Alle Odogaron-Manta töten.
+7.Ebene.  Odogaron-Zara töten.
+8.Ebene.  Alle Odogaron-Metin2 töten.
+9.Ebene.  Alle Odogaron-Huma töten.
+10.Ebene. Alle Odogaron-Matu töten.
+11.Ebene. Odogaron-Kazu töten.
+12.Ebene. Alle Odogaron-Fata töten.
+13.Ebene. Odogaron-Mu-Tai töten.
+
+Kadashi Dungeon
+
+Von der 1. Welle bis zur 12. Welle müsst ihr die Map entlang laufen. 
+
+1.Welle.  Alle Kadashi-Wezu töten.
+2.Welle.  Alle Kadashi-Metin zerstören.
+3.Welle.  Alle Kadashi-Wezu töten.
+4.Welle.  Kadashi-Talo töten.
+5.Welle.  Alle Kadashi-Wezu töten.
+6.Welle.  Alle Kadashi-Metin zerstören.
+7.Welle.  Alle Kadashi-Wezu töten.
+8.Welle.  Kadashi-Talo töten.
+9.Welle.  Alle Kadashi-Wezu töten.
+10.Welle. Alle Kadashi-Metin zerstören.
+11.Welle. Alle Kadashi-Wezu töten.
+12.Welle. Kadashi-Talo töten.
+13.Welle. Alle Kadashi-Wezu töten.
+14.Welle. Alle Kadashi-Metin zerstören.
+15.Welle. Kadashi-Metin2 zerstören.
+16.Welle. Alle Kadashi-Wezu töten.
+17.Welle. Kadashi-Metin2 zerstören.
+18.Welle. Kadashi-Tola töten.
+19.Welle. Kadashi-Metin2 zerstören. 
+20.Welle. Kadashi-Tola töten.
+21.Welle. Kadashi-Mu-Tai töten.
+
+
+

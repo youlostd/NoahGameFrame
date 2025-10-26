@@ -1,0 +1,543 @@
+#include <optional>
+#include <game/Constants.hpp>
+#include <map>
+#include <storm/StringFlags.hpp>
+
+typedef storm::StringValueTable<uint32_t> UInt32Table;
+
+UInt32Table kPointTypes[] = {
+    {"NONE", POINT_NONE},
+    {"LEVEL", POINT_LEVEL},
+    {"VOICE", POINT_VOICE},
+    {"EXP", POINT_EXP},
+    {"NEXT_EXP", POINT_NEXT_EXP},
+    {"HP", POINT_HP},
+    {"MAX_HP", POINT_MAX_HP},
+    {"SP", POINT_SP},
+    {"MAX_SP", POINT_MAX_SP},
+    {"STAMINA", POINT_STAMINA},
+    {"MAX_STAMINA", POINT_MAX_STAMINA},
+    {"GOLD", POINT_GOLD},
+    {"ST", POINT_ST},
+    {"HT", POINT_HT},
+    {"DX", POINT_DX},
+    {"IQ", POINT_IQ},
+    {"DEF_GRADE", POINT_DEF_GRADE},
+    {"ATT_SPEED", POINT_ATT_SPEED},
+    {"ATT_GRADE", POINT_ATT_GRADE},
+    {"MOV_SPEED", POINT_MOV_SPEED},
+    {"CLIENT_DEF_GRADE", POINT_CLIENT_DEF_GRADE},
+    {"CASTING_SPEED", POINT_CASTING_SPEED},
+    {"MAGIC_ATT_GRADE", POINT_MAGIC_ATT_GRADE},
+    {"MAGIC_DEF_GRADE", POINT_MAGIC_DEF_GRADE},
+    {"EMPIRE_POINT", POINT_EMPIRE_POINT},
+    {"LEVEL_STEP", POINT_LEVEL_STEP},
+    {"STAT", POINT_STAT},
+    {"SUB_SKILL", POINT_SUB_SKILL},
+    {"SKILL", POINT_SKILL},
+    {"WEAPON_MIN", POINT_WEAPON_MIN},
+    {"WEAPON_MAX", POINT_WEAPON_MAX},
+    {"PLAYTIME", POINT_PLAYTIME},
+    {"HP_REGEN", POINT_HP_REGEN},
+    {"SP_REGEN", POINT_SP_REGEN},
+    {"BOW_DISTANCE", POINT_BOW_DISTANCE},
+    {"HP_RECOVERY", POINT_HP_RECOVERY},
+    {"SP_RECOVERY", POINT_SP_RECOVERY},
+    {"POISON_PCT", POINT_POISON_PCT},
+    {"STUN_PCT", POINT_STUN_PCT},
+    {"SLOW_PCT", POINT_SLOW_PCT},
+    {"CRITICAL_PCT", POINT_CRITICAL_PCT},
+    {"PENETRATE_PCT", POINT_PENETRATE_PCT},
+    {"CURSE_PCT", POINT_CURSE_PCT},
+    {"ATTBONUS_HUMAN", POINT_ATTBONUS_HUMAN},
+    {"ATTBONUS_ANIMAL", POINT_ATTBONUS_ANIMAL},
+    {"ATTBONUS_ORC", POINT_ATTBONUS_ORC},
+    {"ATTBONUS_MILGYO", POINT_ATTBONUS_MILGYO},
+    {"ATTBONUS_UNDEAD", POINT_ATTBONUS_UNDEAD},
+    {"ATTBONUS_DEVIL", POINT_ATTBONUS_DEVIL},
+    {"ATTBONUS_INSECT", POINT_ATTBONUS_INSECT},
+    {"ATTBONUS_FIRE", POINT_ATTBONUS_FIRE},
+    {"ATTBONUS_ICE", POINT_ATTBONUS_ICE},
+    {"ATTBONUS_DESERT", POINT_ATTBONUS_DESERT},
+    {"ATTBONUS_MONSTER", POINT_ATTBONUS_MONSTER},
+    {"ATTBONUS_WARRIOR", POINT_ATTBONUS_WARRIOR},
+    {"ATTBONUS_ASSASSIN", POINT_ATTBONUS_ASSASSIN},
+    {"ATTBONUS_SURA", POINT_ATTBONUS_SURA},
+    {"ATTBONUS_SHAMAN", POINT_ATTBONUS_SHAMAN},
+    {"RESIST_WARRIOR", POINT_RESIST_WARRIOR},
+    {"RESIST_ASSASSIN", POINT_RESIST_ASSASSIN},
+    {"RESIST_SURA", POINT_RESIST_SURA},
+    {"RESIST_SHAMAN", POINT_RESIST_SHAMAN},
+    {"STEAL_HP", POINT_STEAL_HP},
+    {"STEAL_SP", POINT_STEAL_SP},
+    {"MANA_BURN_PCT", POINT_MANA_BURN_PCT},
+    {"DAMAGE_SP_RECOVER", POINT_DAMAGE_SP_RECOVER},
+    {"BLOCK", POINT_BLOCK},
+    {"DODGE", POINT_DODGE},
+    {"RESIST_SWORD", POINT_RESIST_SWORD},
+    {"RESIST_TWOHAND", POINT_RESIST_TWOHAND},
+    {"RESIST_DAGGER", POINT_RESIST_DAGGER},
+    {"RESIST_BELL", POINT_RESIST_BELL},
+    {"RESIST_FAN", POINT_RESIST_FAN},
+    {"RESIST_BOW", POINT_RESIST_BOW},
+    {"RESIST_FIRE", POINT_RESIST_FIRE},
+    {"RESIST_ELEC", POINT_RESIST_ELEC},
+    {"RESIST_MAGIC", POINT_RESIST_MAGIC},
+    {"RESIST_WIND", POINT_RESIST_WIND},
+    {"REFLECT_MELEE", POINT_REFLECT_MELEE},
+    {"REFLECT_CURSE", POINT_REFLECT_CURSE},
+    {"POISON_REDUCE", POINT_POISON_REDUCE},
+    {"KILL_SP_RECOVER", POINT_KILL_SP_RECOVER},
+    {"EXP_DOUBLE_BONUS", POINT_EXP_DOUBLE_BONUS},
+    {"GOLD_DOUBLE_BONUS", POINT_GOLD_DOUBLE_BONUS},
+    {"ITEM_DROP_BONUS", POINT_ITEM_DROP_BONUS},
+    {"POTION_BONUS", POINT_POTION_BONUS},
+    {"KILL_HP_RECOVERY", POINT_KILL_HP_RECOVERY},
+    {"IMMUNE_STUN", POINT_IMMUNE_STUN},
+    {"IMMUNE_SLOW", POINT_IMMUNE_SLOW},
+    {"IMMUNE_FALL", POINT_IMMUNE_FALL},
+    {"PARTY_ATTACKER_BONUS", POINT_PARTY_ATTACKER_BONUS},
+    {"PARTY_TANKER_BONUS", POINT_PARTY_TANKER_BONUS},
+    {"ATT_BONUS", POINT_ATT_BONUS},
+    {"DEF_BONUS", POINT_DEF_BONUS},
+    {"ATT_GRADE_BONUS", POINT_ATT_GRADE_BONUS},
+    {"DEF_GRADE_BONUS", POINT_DEF_GRADE_BONUS},
+    {"MAGIC_ATT_GRADE_BONUS", POINT_MAGIC_ATT_GRADE_BONUS},
+    {"MAGIC_DEF_GRADE_BONUS", POINT_MAGIC_DEF_GRADE_BONUS},
+    {"RESIST_NORMAL_DAMAGE", POINT_RESIST_NORMAL_DAMAGE},
+    {"HIT_HP_RECOVERY", POINT_HIT_HP_RECOVERY},
+    {"HIT_SP_RECOVERY", POINT_HIT_SP_RECOVERY},
+    {"MANASHIELD", POINT_MANASHIELD},
+    {"PARTY_BUFFER_BONUS", POINT_PARTY_BUFFER_BONUS},
+    {"PARTY_SKILL_MASTER_BONUS", POINT_PARTY_SKILL_MASTER_BONUS},
+    {"HP_RECOVER_CONTINUE", POINT_HP_RECOVER_CONTINUE},
+    {"SP_RECOVER_CONTINUE", POINT_SP_RECOVER_CONTINUE},
+    {"STEAL_GOLD", POINT_STEAL_GOLD},
+    {"POLYMORPH", POINT_POLYMORPH},
+    {"MOUNT", POINT_MOUNT},
+    {"PARTY_HASTE_BONUS", POINT_PARTY_HASTE_BONUS},
+    {"PARTY_DEFENDER_BONUS", POINT_PARTY_DEFENDER_BONUS},
+    {"STAT_RESET_COUNT", POINT_STAT_RESET_COUNT},
+    {"HORSE_SKILL", POINT_HORSE_SKILL},
+    {"MALL_ATTBONUS", POINT_MALL_ATTBONUS},
+    {"MALL_DEFBONUS", POINT_MALL_DEFBONUS},
+    {"MALL_EXPBONUS", POINT_MALL_EXPBONUS},
+    {"MALL_ITEMBONUS", POINT_MALL_ITEMBONUS},
+    {"MALL_GOLDBONUS", POINT_MALL_GOLDBONUS},
+    {"MAX_HP_PCT", POINT_MAX_HP_PCT},
+    {"MAX_SP_PCT", POINT_MAX_SP_PCT},
+    {"SKILL_DAMAGE_BONUS", POINT_SKILL_DAMAGE_BONUS},
+    {"NORMAL_HIT_DAMAGE_BONUS", POINT_NORMAL_HIT_DAMAGE_BONUS},
+    {"SKILL_DEFEND_BONUS", POINT_SKILL_DEFEND_BONUS},
+    {"NORMAL_HIT_DEFEND_BONUS", POINT_NORMAL_HIT_DEFEND_BONUS},
+    {"PC_BANG_EXP_BONUS", POINT_PC_BANG_EXP_BONUS},
+    {"PC_BANG_DROP_BONUS", POINT_PC_BANG_DROP_BONUS},
+    {"RAMADAN_CANDY_BONUS_EXP", POINT_RAMADAN_CANDY_BONUS_EXP},
+    {"ENERGY", POINT_ENERGY},
+    {"ENERGY_END_TIME", POINT_ENERGY_END_TIME},
+    {"COSTUME_ATTR_BONUS", POINT_COSTUME_ATTR_BONUS},
+    {"MAGIC_ATT_BONUS_PER", POINT_MAGIC_ATT_BONUS_PER},
+    {"MELEE_MAGIC_ATT_BONUS_PER", POINT_MELEE_MAGIC_ATT_BONUS_PER},
+    {"RESIST_ICE", POINT_RESIST_ICE},
+    {"RESIST_EARTH", POINT_RESIST_EARTH},
+    {"RESIST_DARK", POINT_RESIST_DARK},
+    {"RESIST_CRITICAL", POINT_RESIST_CRITICAL},
+    {"RESIST_PENETRATE", POINT_RESIST_PENETRATE},
+    {"BOOST_CRITICAL", POINT_BOOST_CRITICAL},
+    {"BOOST_PENETRATE", POINT_BOOST_PENETRATE},
+    {"FREEZE_PCT", POINT_FREEZE_PCT},
+    {"LASTING_FIRE_PCT", POINT_LASTING_FIRE_PCT},
+    {"BLEEDING_PCT", POINT_BLEEDING_PCT},
+    {"BLEEDING_REDUCE", POINT_BLEEDING_REDUCE},
+    {"ATTBONUS_WOLFMAN", POINT_ATTBONUS_WOLFMAN},
+    {"RESIST_WOLFMAN", POINT_RESIST_WOLFMAN},
+    {"RESIST_CLAW", POINT_RESIST_CLAW},
+    {"ACCEDRAIN_RATE", POINT_ACCEDRAIN_RATE},
+    {"ATTBONUS_METIN", POINT_ATTBONUS_METIN},
+    {"ATTBONUS_TRENT", POINT_ATTBONUS_TRENT},
+    {"ATTBONUS_BOSS", POINT_ATTBONUS_BOSS},
+    {"RESIST_HUMAN", POINT_RESIST_HUMAN},
+    {"ENCHANT_ELECT", POINT_ENCHANT_ELECT},
+    {"ENCHANT_FIRE", POINT_ENCHANT_FIRE},
+    {"ENCHANT_ICE", POINT_ENCHANT_ICE},
+    {"ENCHANT_WIND", POINT_ENCHANT_WIND},
+    {"ENCHANT_EARTH", POINT_ENCHANT_EARTH},
+    {"ENCHANT_DARK", POINT_ENCHANT_DARK},
+    {"ATTBONUS_CZ", POINT_ATTBONUS_CZ},
+    {"ATTBONUS_LEGEND", POINT_ATTBONUS_LEGEND},
+    {"SKILLTREE_POINTS", POINT_SKILLTREE_POINTS},
+    {"ATTBONUS_SHADOW", POINT_ATTBONUS_SHADOW},
+
+
+};
+
+UInt32Table kApplyTypes[] = {
+    {"NONE", APPLY_NONE},
+    {"MAX_HP", APPLY_MAX_HP},
+    {"MAX_SP", APPLY_MAX_SP},
+    {"CON", APPLY_CON},
+    {"INT", APPLY_INT},
+    {"STR", APPLY_STR},
+    {"DEX", APPLY_DEX},
+    {"ATT_SPEED", APPLY_ATT_SPEED},
+    {"MOV_SPEED", APPLY_MOV_SPEED},
+    {"CAST_SPEED", APPLY_CAST_SPEED},
+    {"HP_REGEN", APPLY_HP_REGEN},
+    {"SP_REGEN", APPLY_SP_REGEN},
+    {"POISON_PCT", APPLY_POISON_PCT},
+    {"STUN_PCT", APPLY_STUN_PCT},
+    {"SLOW_PCT", APPLY_SLOW_PCT},
+    {"CRITICAL_PCT", APPLY_CRITICAL_PCT},
+    {"PENETRATE_PCT", APPLY_PENETRATE_PCT},
+    {"ATTBONUS_HUMAN", APPLY_ATTBONUS_HUMAN},
+    {"ATTBONUS_ANIMAL", APPLY_ATTBONUS_ANIMAL},
+    {"ATTBONUS_ORC", APPLY_ATTBONUS_ORC},
+    {"ATTBONUS_MILGYO", APPLY_ATTBONUS_MILGYO},
+    {"ATTBONUS_UNDEAD", APPLY_ATTBONUS_UNDEAD},
+    {"ATTBONUS_DEVIL", APPLY_ATTBONUS_DEVIL},
+    {"STEAL_HP", APPLY_STEAL_HP},
+    {"STEAL_SP", APPLY_STEAL_SP},
+    {"MANA_BURN_PCT", APPLY_MANA_BURN_PCT},
+    {"DAMAGE_SP_RECOVER", APPLY_DAMAGE_SP_RECOVER},
+    {"BLOCK", APPLY_BLOCK},
+    {"DODGE", APPLY_DODGE},
+    {"RESIST_SWORD", APPLY_RESIST_SWORD},
+    {"RESIST_TWOHAND", APPLY_RESIST_TWOHAND},
+    {"RESIST_DAGGER", APPLY_RESIST_DAGGER},
+    {"RESIST_BELL", APPLY_RESIST_BELL},
+    {"RESIST_FAN", APPLY_RESIST_FAN},
+    {"RESIST_BOW", APPLY_RESIST_BOW},
+    {"RESIST_FIRE", APPLY_RESIST_FIRE},
+    {"RESIST_ELEC", APPLY_RESIST_ELEC},
+    {"RESIST_MAGIC", APPLY_RESIST_MAGIC},
+    {"RESIST_WIND", APPLY_RESIST_WIND},
+    {"REFLECT_MELEE", APPLY_REFLECT_MELEE},
+    {"REFLECT_CURSE", APPLY_REFLECT_CURSE},
+    {"POISON_REDUCE", APPLY_POISON_REDUCE},
+    {"KILL_SP_RECOVER", APPLY_KILL_SP_RECOVER},
+    {"EXP_DOUBLE_BONUS", APPLY_EXP_DOUBLE_BONUS},
+    {"GOLD_DOUBLE_BONUS", APPLY_GOLD_DOUBLE_BONUS},
+    {"ITEM_DROP_BONUS", APPLY_ITEM_DROP_BONUS},
+    {"POTION_BONUS", APPLY_POTION_BONUS},
+    {"KILL_HP_RECOVER", APPLY_KILL_HP_RECOVER},
+    {"IMMUNE_STUN", APPLY_IMMUNE_STUN},
+    {"IMMUNE_SLOW", APPLY_IMMUNE_SLOW},
+    {"IMMUNE_FALL", APPLY_IMMUNE_FALL},
+    {"SKILL", APPLY_SKILL},
+    {"BOW_DISTANCE", APPLY_BOW_DISTANCE},
+    {"ATT_GRADE_BONUS", APPLY_ATT_GRADE_BONUS},
+    {"DEF_GRADE_BONUS", APPLY_DEF_GRADE_BONUS},
+    {"MAGIC_ATT_GRADE", APPLY_MAGIC_ATT_GRADE},
+    {"MAGIC_DEF_GRADE", APPLY_MAGIC_DEF_GRADE},
+    {"CURSE_PCT", APPLY_CURSE_PCT},
+    {"MAX_STAMINA", APPLY_MAX_STAMINA},
+    {"ATTBONUS_WARRIOR", APPLY_ATTBONUS_WARRIOR},
+    {"ATTBONUS_ASSASSIN", APPLY_ATTBONUS_ASSASSIN},
+    {"ATTBONUS_SURA", APPLY_ATTBONUS_SURA},
+    {"ATTBONUS_SHAMAN", APPLY_ATTBONUS_SHAMAN},
+    {"ATTBONUS_MONSTER", APPLY_ATTBONUS_MONSTER},
+    {"MALL_ATTBONUS", APPLY_MALL_ATTBONUS},
+    {"MALL_DEFBONUS", APPLY_MALL_DEFBONUS},
+    {"MALL_EXPBONUS", APPLY_MALL_EXPBONUS},
+    {"MALL_ITEMBONUS", APPLY_MALL_ITEMBONUS},
+    {"MALL_GOLDBONUS", APPLY_MALL_GOLDBONUS},
+    {"MAX_HP_PCT", APPLY_MAX_HP_PCT},
+    {"MAX_SP_PCT", APPLY_MAX_SP_PCT},
+    {"SKILL_DAMAGE_BONUS", APPLY_SKILL_DAMAGE_BONUS},
+    {"NORMAL_HIT_DAMAGE_BONUS", APPLY_NORMAL_HIT_DAMAGE_BONUS},
+    {"SKILL_DEFEND_BONUS", APPLY_SKILL_DEFEND_BONUS},
+    {"NORMAL_HIT_DEFEND_BONUS", APPLY_NORMAL_HIT_DEFEND_BONUS},
+    {"PC_BANG_EXP_BONUS", APPLY_PC_BANG_EXP_BONUS},
+    {"PC_BANG_DROP_BONUS", APPLY_PC_BANG_DROP_BONUS},
+    {"EXTRACT_HP_PCT", APPLY_EXTRACT_HP_PCT},
+    {"RESIST_WARRIOR", APPLY_RESIST_WARRIOR},
+    {"RESIST_ASSASSIN", APPLY_RESIST_ASSASSIN},
+    {"RESIST_SURA", APPLY_RESIST_SURA},
+    {"RESIST_SHAMAN", APPLY_RESIST_SHAMAN},
+    {"ENERGY", APPLY_ENERGY},
+    {"DEF_GRADE", APPLY_DEF_GRADE},
+    {"COSTUME_ATTR_BONUS", APPLY_COSTUME_ATTR_BONUS},
+    {"MAGIC_ATTBONUS_PER", APPLY_MAGIC_ATTBONUS_PER},
+    {"MELEE_MAGIC_ATTBONUS_PER", APPLY_MELEE_MAGIC_ATTBONUS_PER},
+    {"RESIST_ICE", APPLY_RESIST_ICE},
+    {"RESIST_EARTH", APPLY_RESIST_EARTH},
+    {"RESIST_DARK", APPLY_RESIST_DARK},
+    {"ANTI_CRITICAL_PCT", APPLY_ANTI_CRITICAL_PCT},
+    {"ANTI_PENETRATE_PCT", APPLY_ANTI_PENETRATE_PCT},
+    {"BLEEDING_REDUCE", APPLY_BLEEDING_REDUCE},
+    {"BLEEDING_PCT", APPLY_BLEEDING_PCT},
+    {"ATTBONUS_WOLFMAN", APPLY_ATTBONUS_WOLFMAN},
+    {"RESIST_WOLFMAN", APPLY_RESIST_WOLFMAN},
+    {"RESIST_CLAW", APPLY_RESIST_CLAW},
+    {"ATTBONUS_METIN", APPLY_ATTBONUS_METIN},
+    {"ATTBONUS_TRENT", APPLY_ATTBONUS_TRENT},
+    {"ATTBONUS_BOSS", APPLY_ATTBONUS_BOSS},
+    {"RESIST_HUMAN", APPLY_RESIST_HUMAN},
+    {"ENCHANT_ELECT", APPLY_ENCHANT_ELECT},
+    {"ENCHANT_FIRE", APPLY_ENCHANT_FIRE},
+    {"ENCHANT_ICE", APPLY_ENCHANT_ICE},
+    {"ENCHANT_WIND", APPLY_ENCHANT_WIND},
+    {"ENCHANT_EARTH", APPLY_ENCHANT_EARTH},
+    {"ENCHANT_DARK", APPLY_ENCHANT_DARK},
+    {"ATTBONUS_DESERT", APPLY_ATTBONUS_DESERT},
+    {"ATTBONUS_CZ", APPLY_ATTBONUS_CZ},
+    {"ATTBONUS_LEGEND", APPLY_ATTBONUS_LEGEND},
+};
+
+UInt32Table kCharTypes[] = {
+    {"MONSTER", CHAR_TYPE_MONSTER}, {"NPC", CHAR_TYPE_NPC},
+    {"STONE", CHAR_TYPE_STONE},     {"WARP", CHAR_TYPE_WARP},
+    {"DOOR", CHAR_TYPE_DOOR},       {"BUILDING", CHAR_TYPE_BUILDING},
+    {"PC", CHAR_TYPE_PC},           {"POLYMORPH_PC", CHAR_TYPE_POLYMORPH_PC},
+    {"HORSE", CHAR_TYPE_HORSE},     {"GOTO", CHAR_TYPE_GOTO},
+    {"SHOP", CHAR_TYPE_SHOP},       {"PET", CHAR_TYPE_PET},
+    {"MOUNT", CHAR_TYPE_MOUNT},     {"GROWTH_PET", CHAR_TYPE_GROWTH_PET},
+    {"BUFFBOT", CHAR_TYPE_BUFFBOT}, {"ATTACK_PET", CHAR_TYPE_ATTACK_PET},
+};
+
+UInt32Table kEmpires[] = {
+    {"NONE", EMPIRE_NONE},
+    {"SHINSU", EMPIRE_SHINSU},
+    {"CHUNJO", EMPIRE_CHUNJO},
+    {"JINNO", EMPIRE_JINNO},
+};
+
+UInt32Table kImmuneFlags[] = {
+    {"STUN", IMMUNE_STUN},     {"SLOW", IMMUNE_SLOW},     {"FALL", IMMUNE_FALL},       {"CURSE", IMMUNE_CURSE},
+    {"POISON", IMMUNE_POISON}, {"TERROR", IMMUNE_TERROR}, {"REFLECT", IMMUNE_REFLECT}, {"BLEEDING", IMMUNE_BLEEDING},
+};
+
+UInt32Table kGmLanguageFlags[] = {
+    {"hu", GM_LANGUAGE_HU}, {"pl", GM_LANGUAGE_PL}, {"cz", GM_LANGUAGE_CZ}, {"de", GM_LANGUAGE_DE},
+    {"ro", GM_LANGUAGE_RO}, {"tr", GM_LANGUAGE_TR}, {"es", GM_LANGUAGE_ES}, {"en", GM_LANGUAGE_EN},
+    {"pt", GM_LANGUAGE_PT}, {"it", GM_LANGUAGE_IT},
+
+};
+
+UInt32Table kParts[] = {
+    {"MAIN", PART_MAIN}, {"WEAPON", PART_WEAPON}, {"HEAD", PART_HEAD}, {"WEAPON_LEFT", PART_WEAPON_LEFT},
+    {"HAIR", PART_HAIR},
+};
+
+UInt32Table kJobs[] = {
+    {"WARRIOR", JOB_WARRIOR}, {"ASSASSIN", JOB_ASSASSIN}, {"SURA", JOB_SURA},
+    {"SHAMAN", JOB_SHAMAN},   {"WOLFMAN", JOB_WOLFMAN},   {"MAX_NUM", JOB_MAX_NUM},
+};
+
+UInt32Table kMainRaces[] = {
+    {"WARRIOR_M", MAIN_RACE_WARRIOR_M}, {"ASSASSIN_W", MAIN_RACE_ASSASSIN_W}, {"SURA_M", MAIN_RACE_SURA_M},
+    {"SHAMAN_W", MAIN_RACE_SHAMAN_W},   {"WARRIOR_W", MAIN_RACE_WARRIOR_W},   {"ASSASSIN_M", MAIN_RACE_ASSASSIN_M},
+    {"SURA_W", MAIN_RACE_SURA_W},       {"SHAMAN_M", MAIN_RACE_SHAMAN_M},     {"WOLFMAN_M", MAIN_RACE_WOLFMAN_M},
+    {"MAX_NUM", MAIN_RACE_MAX_NUM},
+};
+
+bool GetPointTypeString(storm::StringRef &s, uint32_t val)
+{
+    return storm::FormatValueWithTable(s, val, kPointTypes);
+}
+
+bool GetPointTypeValue(const storm::StringRef &s, uint32_t &val)
+{
+    return storm::ParseStringWithTable(s, val, kPointTypes);
+}
+
+bool GetApplyTypeString(storm::StringRef &s, uint32_t val)
+{
+    return storm::FormatValueWithTable(s, val, kApplyTypes);
+}
+
+bool GetApplyTypeValue(const storm::StringRef &s, uint32_t &val)
+{
+    return storm::ParseStringWithTable(s, val, kApplyTypes);
+}
+
+bool GetCharTypeString(storm::StringRef &s, uint32_t val)
+{
+    return storm::FormatValueWithTable(s, val, kCharTypes);
+}
+
+bool GetCharTypeValue(const storm::StringRef &s, uint32_t &val)
+{
+    return storm::ParseStringWithTable(s, val, kCharTypes);
+}
+
+bool GetEmpireString(storm::StringRef &s, uint32_t val)
+{
+    return storm::FormatValueWithTable(s, val, kEmpires);
+}
+
+bool GetEmpireValue(const storm::StringRef &s, uint32_t &val)
+{
+    return storm::ParseStringWithTable(s, val, kEmpires);
+}
+
+bool GetImmuneFlagsString(storm::String &s, uint32_t val)
+{
+    return storm::FormatBitflagWithTable(s, val, kImmuneFlags);
+}
+
+bool GetImmuneFlagsValue(const storm::String &s, uint32_t &val)
+{
+    return storm::ParseBitflagStringWithTable(s, val, kImmuneFlags);
+}
+
+bool GetGMLanguageFlagsString(storm::String &s, uint32_t val)
+{
+    return storm::FormatBitflagWithTable(s, val, kGmLanguageFlags);
+}
+
+bool GetGMLanguageFlagsValue(const storm::String &s, uint32_t &val)
+{
+    return storm::ParseBitflagStringWithTable(s, val, kGmLanguageFlags);
+}
+
+bool GetPartString(storm::StringRef &s, uint32_t val)
+{
+    return storm::FormatValueWithTable(s, val, kParts);
+}
+
+bool GetPartValue(const storm::StringRef &s, uint32_t &val)
+{
+    return storm::ParseStringWithTable(s, val, kParts);
+}
+
+bool GetJobString(storm::StringRef &s, uint32_t val)
+{
+    return storm::FormatValueWithTable(s, val, kJobs);
+}
+
+bool GetJobValue(const storm::StringRef &s, uint32_t &val)
+{
+    return storm::ParseStringWithTable(s, val, kJobs);
+}
+
+bool GetMainRaceString(storm::StringRef &s, uint32_t val)
+{
+    return storm::FormatValueWithTable(s, val, kMainRaces);
+}
+
+bool GetMainRaceValue(const storm::StringRef &s, uint32_t &val)
+{
+    return storm::ParseStringWithTable(s, val, kMainRaces);
+}
+
+uint32_t GetJobByRace(uint32_t race)
+{
+    switch (race)
+    {
+    case MAIN_RACE_WARRIOR_M:
+        return JOB_WARRIOR;
+    case MAIN_RACE_ASSASSIN_W:
+        return JOB_ASSASSIN;
+    case MAIN_RACE_SURA_M:
+        return JOB_SURA;
+    case MAIN_RACE_SHAMAN_W:
+        return JOB_SHAMAN;
+
+    case MAIN_RACE_WARRIOR_W:
+        return JOB_WARRIOR;
+    case MAIN_RACE_ASSASSIN_M:
+        return JOB_ASSASSIN;
+    case MAIN_RACE_SURA_W:
+        return JOB_SURA;
+    case MAIN_RACE_SHAMAN_M:
+        return JOB_SHAMAN;
+
+    case MAIN_RACE_WOLFMAN_M:
+        return JOB_WOLFMAN;
+
+    default:
+        return JOB_MAX_NUM;
+    }
+}
+
+uint32_t GetSexByRace(uint32_t race)
+{
+    switch (race)
+    {
+    case MAIN_RACE_WARRIOR_M:
+        return SEX_MALE;
+    case MAIN_RACE_ASSASSIN_W:
+        return SEX_FEMALE;
+    case MAIN_RACE_SURA_M:
+        return SEX_MALE;
+    case MAIN_RACE_SHAMAN_W:
+        return SEX_FEMALE;
+
+    case MAIN_RACE_WARRIOR_W:
+        return SEX_FEMALE;
+    case MAIN_RACE_ASSASSIN_M:
+        return SEX_MALE;
+    case MAIN_RACE_SURA_W:
+        return SEX_FEMALE;
+    case MAIN_RACE_SHAMAN_M:
+        return SEX_MALE;
+
+    case MAIN_RACE_WOLFMAN_M:
+        return SEX_MALE;
+
+    default:
+        return SEX_COUNT;
+    }
+}
+
+
+static std::map<std::string, uint8_t> langCodeReplace = {
+    {"hu", LANGUAGE_HU,},
+    {"pl", LANGUAGE_PL,},
+    {"de", LANGUAGE_DE,},
+    {"ro", LANGUAGE_RO,},
+    {"tr", LANGUAGE_TR,},
+    {"en", LANGUAGE_EN,},
+    {"pt", LANGUAGE_PT,},
+    {"it", LANGUAGE_IT,}
+};
+
+static std::map<uint8_t, std::string> codeLangReplace = {
+    {LANGUAGE_HU, "hu"},
+    {LANGUAGE_PL, "pl"},
+    {LANGUAGE_DE, "de"},
+    {LANGUAGE_RO, "ro"},
+    {LANGUAGE_TR, "tr"},
+    {LANGUAGE_EN, "en"},
+    {LANGUAGE_PT, "pt"},
+    {LANGUAGE_IT, "it"}
+};
+
+static std::map<uint8_t, std::string> displayNameByLangID = {
+    {LANGUAGE_HU, "Hungarian"},
+    {LANGUAGE_PL, "Polish"},
+    {LANGUAGE_DE, "German"},
+    {LANGUAGE_RO, "Romanian"},
+    {LANGUAGE_TR, "Turkish"},
+    {LANGUAGE_EN, "English"},
+    {LANGUAGE_PT, "Portuguese"},
+    {LANGUAGE_IT, "Italian"}
+};
+
+uint8_t GetLanguageIDByName(const std::string &lang)
+{
+    auto it = langCodeReplace.find(lang);
+    if (it == langCodeReplace.end())
+        return 0;
+
+    return it->second;
+}
+
+std::optional<std::string> GetLanguageNameByID(uint8_t code)
+{
+    auto it = codeLangReplace.find(code);
+    if (it == codeLangReplace.end())
+        return std::nullopt;
+
+    return it->second;
+}
+
+std::optional<std::string> GetLangDisplayName(uint8_t code)
+{
+    auto it = displayNameByLangID.find(code);
+    if (it == displayNameByLangID.end())
+        return std::nullopt;
+
+    return it->second;
+}

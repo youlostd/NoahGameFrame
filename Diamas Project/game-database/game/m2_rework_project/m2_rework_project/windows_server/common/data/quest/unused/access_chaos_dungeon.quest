@@ -1,0 +1,907 @@
+
+define GUARDIAN_TEMPLE 20408
+define GUARDIAN_FOREST 20409
+define BEATER_FOREST 20411
+define SENTINEL_FOREST 20410
+define ITEM1_1 31098
+define ITEM3_1 31100
+define ITEM6_1 31097
+define ITEM7_1 31096
+define ITEM8_1 31099
+define ITEM_REWARD 30613
+
+quest access_chaos_dungeon begin
+	state start begin
+		when login or levelup with pc.get_level() >= 95 begin
+			set_state(gotoinformation)
+		end
+	end
+	
+	state gotoinformation begin
+		when enter or login begin
+			local v = find_npc_by_vnum(GUARDIAN_TEMPLE) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(GUARDIAN_TEMPLE))
+			end			
+		end
+		
+		when GUARDIAN_TEMPLE.chat.gameforge.access_chaos_dungeon.say_tile_npc_1 begin 
+			target.delete("__TARGET__") 
+			say_title(c_mob_name(GUARDIAN_TEMPLE)) 
+			say(gameforge.access_chaos_dungeon.say_100) 
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_TEMPLE)) 
+			say(gameforge.access_chaos_dungeon.say_200) 
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_TEMPLE)) 
+			say(gameforge.access_chaos_dungeon.say_300) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_400) 
+			wait() 
+			
+			say_title(c_mob_name(GUARDIAN_TEMPLE)) 
+			say_reward(string.format(gameforge.access_chaos_dungeon.say_item_100, c_item_name(ITEM1_1),1,gameforge.locale.count_postfix))
+			pc.give_item2(ITEM1_1, 1)
+			set_state(state1_2)
+		end
+		
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	
+	state state1_2  begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_1)
+			local v = find_npc_by_vnum(GUARDIAN_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(GUARDIAN_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_1) 
+			say(gameforge.access_chaos_dungeon.say_410)
+		end	
+		
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_1 begin 
+			target.delete("__TARGET__")
+			pc.remove_item ( ITEM1_1, pc.count_item(ITEM1_1))
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_500) 
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_600) 
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_700) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_800)
+			set_state(state1_3)
+		end
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state1_3 begin
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_npc_1 begin 
+			target.delete("__TARGET__") 
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_900) 
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_910) 
+			wait()
+			
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_920)	
+			wait()
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_930) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_940)
+			wait()
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say_reward(string.format (gameforge.access_chaos_dungeon._190_sayReward, 3700300))
+			pc.give_exp2(3700300)
+			set_state(state2_1)
+		end
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+
+	state state2_1 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_2)
+			local v = find_npc_by_vnum(GUARDIAN_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(GUARDIAN_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_2) 
+			say(gameforge.access_chaos_dungeon.say_950)
+		end		
+
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_npc_1 begin
+			if get_time() < pc.getqf("next_use_time") then
+				say_title(c_mob_name(GUARDIAN_FOREST))	
+				say_reward(gameforge.access_chaos_dungeon.say_2065)
+				return
+			end		
+			target.delete("__TARGET__") 
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_970)
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_980) 
+			wait()
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_990)	
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_1000)
+			wait()
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_1010)	
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_1020)	
+			wait()	
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_1030)
+			set_state(state2_2)
+		end
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state2_2 begin
+		when enter begin 
+			pc.setqf("kill_count_1", 0)
+		end
+		
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_3)
+			q.set_counter_name("Rest")
+			local total_remain = 0
+			local remain1 = 40 - pc.getqf("kill_count_1")
+			if remain1 < 0 then
+				remain1 = 0
+			end
+			total_remain = total_remain + remain1
+			q.set_counter_value(total_remain)
+			if total_remain == 0 then
+				set_state(state2_3)
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_3) 
+			say(gameforge.access_chaos_dungeon.say_1060)
+			say(string.format(gameforge.access_chaos_dungeon._10_say, string.format(gameforge.access_chaos_dungeon.info_mob_total, 40 - pc.getqf("kill_count_1"))))
+		end
+		
+		when 6401.kill begin
+			local kill_count = pc.getqf("kill_count_1")
+			pc.setqf("kill_count_1", kill_count+1)
+			local total_remain = 0
+			local remain1 = 40 - pc.getqf("kill_count_1")
+			if remain1 < 0 then
+				remain1 = 0
+			end
+			total_remain = total_remain + remain1
+			q.set_counter_value(total_remain)
+			if total_remain == 0 then
+				set_state(state2_3)
+			end
+		end		
+		
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_3 begin
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_1050) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_1030)
+		end
+
+		when leave begin 
+			pc.setqf("kill_count_1", 0)
+			q.done()
+		end		
+	end
+	
+	state state2_3 begin
+		when enter begin 
+			notice_multiline(gameforge.access_chaos_dungeon.say_1070,notice)
+		end
+
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_2) 
+			local v = find_npc_by_vnum(GUARDIAN_FOREST)
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(GUARDIAN_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_2) 
+			say(gameforge.access_chaos_dungeon.say_1070) 
+		end	
+		
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_2 begin 
+			target.delete("__TARGET__") 
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_1080) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_1090)
+			wait()
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_1095)	
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2000)	
+			wait()	
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say_reward(string.format (gameforge.access_chaos_dungeon._190_sayReward, 5700300))
+			pc.give_exp2(5700300)
+			set_state(state3_1)
+		end
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state3_1 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_4)
+			local v = find_npc_by_vnum(GUARDIAN_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(GUARDIAN_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_4) 
+			say(gameforge.access_chaos_dungeon.say_2020)
+		end	
+		
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_4 begin 
+			target.delete("__TARGET__")
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2021) 
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2022) 
+			wait()
+			
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2023)
+			wait()	
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2024) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2025)
+			set_state(state3_2)
+		end	
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state3_2 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_4)	
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_4) 
+			say(gameforge.access_chaos_dungeon.say_2026)
+			say_item(c_item_name(ITEM3_1), ITEM3_1, "")
+		end
+		
+		when 6403.kill begin
+			if number(1,25) == 1 then
+				pc.give_item2(ITEM3_1, 1)
+				set_state(state3_3)
+			end
+		end
+		
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_4 begin
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2026)
+			say_item(c_item_name(ITEM3_1), ITEM3_1, "")
+		end
+		
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state3_3 begin
+		when enter begin 
+			notice_multiline(gameforge.access_chaos_dungeon.say_2027,notice)
+		end
+
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_4) 
+			local v = find_npc_by_vnum(GUARDIAN_FOREST)
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(GUARDIAN_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_4) 
+			say(gameforge.access_chaos_dungeon.say_2027) 
+		end	
+		
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_4 begin 
+			target.delete("__TARGET__")
+			pc.remove_item ( ITEM3_1, pc.count_item(ITEM3_1))
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2028) 
+			wait()
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2029)	
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2030)	
+			wait()	
+			
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say_reward(string.format (gameforge.access_chaos_dungeon._190_sayReward, 2700300))
+			pc.give_exp2(2700300)
+			set_state(state4_1)
+		end
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state4_1 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_4)
+			local v = find_npc_by_vnum(GUARDIAN_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(GUARDIAN_FOREST))
+			end
+		end
+		
+		when GUARDIAN_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_4 begin 
+			target.delete("__TARGET__")
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2031) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2032)
+			wait()
+
+			say_title(c_mob_name(GUARDIAN_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2033) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2034)
+			pc.give_item2(ITEM3_1, 1)
+			set_state(state4_2)
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state4_2 begin
+		when enter or login begin
+			local v = find_npc_by_vnum(BEATER_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(BEATER_FOREST))
+			end			
+		end
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_4) 
+			say(gameforge.access_chaos_dungeon.say_2035) 
+		end	
+		
+		when BEATER_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_4 begin 
+			target.delete("__TARGET__")
+			pc.remove_item ( ITEM3_1, pc.count_item(ITEM3_1))
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2036) 
+			wait()
+			
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2037)
+			wait()				
+			
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2038)	
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2039)	
+			wait()	
+			
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say_reward(string.format (gameforge.access_chaos_dungeon._190_sayReward, 1700300))
+			pc.give_exp2(1700300)
+			set_state(state5_1)
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state5_1 begin
+		when enter or login begin
+			local v = find_npc_by_vnum(BEATER_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(BEATER_FOREST))
+			end			
+		end
+		
+		when BEATER_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_5 begin 
+			target.delete("__TARGET__")
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2040) 
+			wait()
+			
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2041)	
+			wait()				
+			
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2042)	
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2043)	
+			set_state(state5_2)	
+		end
+		
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state5_2 begin
+		when enter begin 
+			pc.setqf("kill_count_2", 0)
+		end
+		
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_5)
+			q.set_counter_name("Rest")
+			local total_remain = 0
+			local remain1 = 5 - pc.getqf("kill_count_2")
+			if remain1 < 0 then
+				remain1 = 0
+			end
+			total_remain = total_remain + remain1
+			q.set_counter_value(total_remain)
+			if total_remain == 0 then
+				set_state(state5_3)
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_5) 
+			say(gameforge.access_chaos_dungeon.say_2044)
+			say(string.format(gameforge.access_chaos_dungeon._10_say, string.format(gameforge.access_chaos_dungeon.info_mob_total, 5 - pc.getqf("kill_count_2"))))
+		end
+		
+		when 8059.kill begin
+			local kill_count = pc.getqf("kill_count_2")
+			pc.setqf("kill_count_2", kill_count+1)
+			local total_remain = 0
+			local remain1 = 5 - pc.getqf("kill_count_2")
+			if remain1 < 0 then
+				remain1 = 0
+			end
+			total_remain = total_remain + remain1
+			q.set_counter_value(total_remain)
+			if total_remain == 0 then
+				set_state(state5_3)
+			end
+		end		
+		
+		when BEATER_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_5 begin
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2044)
+		end
+
+		function kill_count_1()
+
+		end
+		when leave begin 
+			pc.setqf("kill_count_2", 0)
+			q.done()
+		end			
+	end
+	
+	state state5_3 begin
+		when enter begin 
+			notice_multiline(gameforge.access_chaos_dungeon.say_2045,notice)
+		end
+
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_2) 
+			local v = find_npc_by_vnum(BEATER_FOREST)
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(BEATER_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_2) 
+			say(gameforge.access_chaos_dungeon.say_2045) 
+		end
+		
+		when BEATER_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_5 begin 
+			target.delete("__TARGET__")
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2046) 
+			wait()
+
+			say_title(c_mob_name(BEATER_FOREST)) 
+			say_reward(string.format (gameforge.access_chaos_dungeon._190_sayReward, 2800300))
+			pc.give_exp2(2800300)			
+			set_state(state6_1)	
+		end
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state6_1 begin
+		when enter or login begin
+			local v = find_npc_by_vnum(SENTINEL_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(SENTINEL_FOREST))
+			end			
+		end
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_6 begin 
+			target.delete("__TARGET__") 
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2047) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2048)
+			set_state(state6_2)
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state6_2 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_6_2)	
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_6_2) 
+			say(gameforge.access_chaos_dungeon.say_2049)
+			say_item(c_item_name(ITEM6_1), ITEM6_1, "")
+		end
+		
+		when 6414.kill or 6406.kill begin
+			if number(1,10) == 1 then
+				if pc.count_item(ITEM6_1) >= 4 then
+					pc.give_item2(ITEM6_1, 1)				
+					set_state(state6_3)
+				else
+					pc.give_item2(ITEM6_1, 1)
+				end
+			end
+		end
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_6_2 begin
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2049)
+			say_item(c_item_name(ITEM6_1), ITEM6_1, "")
+		end
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state6_3 begin
+		when enter begin 
+			notice_multiline(gameforge.access_chaos_dungeon.say_2050,notice)
+		end
+
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_2) 
+			local v = find_npc_by_vnum(SENTINEL_FOREST)
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(SENTINEL_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_2) 
+			say(gameforge.access_chaos_dungeon.say_2050) 
+		end
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_5 begin 
+			target.delete("__TARGET__")
+			pc.remove_item ( ITEM6_1, pc.count_item(ITEM6_1))
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2051) 
+			wait()
+
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say_reward(string.format (gameforge.access_chaos_dungeon._190_sayReward, 2800300))
+			pc.give_exp2(2800300)			
+			set_state(state7_1)	
+		end
+
+		when leave begin 
+			q.done()
+		end
+		
+	end
+	
+	state state7_1 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_7)
+			local v = find_npc_by_vnum(SENTINEL_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(SENTINEL_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_7) 
+			say(gameforge.access_chaos_dungeon.say_2052)
+		end	
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_7 begin 
+			target.delete("__TARGET__")
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2053) 
+			wait()
+
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2054) 
+			wait()
+			
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2055)
+			set_state(state7_2)
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state7_2 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_7)	
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_7) 
+			say(gameforge.access_chaos_dungeon.say_2056)
+			say_item(c_item_name(ITEM7_1), ITEM7_1, "")
+		end
+		
+		when 6407.kill begin
+			pc.give_item2(ITEM7_1, 1)
+			set_state(state7_3)
+		end
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_7 begin
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2056)
+			say_item(c_item_name(ITEM7_1), ITEM7_1, "")
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state7_3 begin
+		when enter begin 
+			notice_multiline(gameforge.access_chaos_dungeon.say_2057,notice)
+		end
+
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_7) 
+			local v = find_npc_by_vnum(SENTINEL_FOREST)
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(SENTINEL_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_7) 
+			say(gameforge.access_chaos_dungeon.say_2057) 
+		end	
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_7 begin 
+			target.delete("__TARGET__")
+			pc.remove_item ( ITEM7_1, pc.count_item(ITEM7_1))
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2058) 
+			wait()
+			
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say_reward(string.format (gameforge.access_chaos_dungeon._190_sayReward, 2700300))
+			pc.give_exp2(2700300)
+			set_state(state8_1)
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state8_1 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_8)
+			local v = find_npc_by_vnum(SENTINEL_FOREST) 
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(SENTINEL_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_8) 
+			say(gameforge.access_chaos_dungeon.say_2057)
+		end	
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_8 begin 
+			target.delete("__TARGET__")
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2059) 
+			wait()
+
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2060)
+			wait()
+			
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2061) 
+			wait()
+			
+			say_title(pc.getname()) 
+			say(gameforge.access_chaos_dungeon.say_2062)
+			set_state(state8_2)
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state8_2 begin
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_8)	
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_8) 
+			say(gameforge.access_chaos_dungeon.say_2063)
+			say_item(c_item_name(ITEM8_1), ITEM8_1, "")
+		end
+		
+		when 6407.kill begin
+			pc.give_item2(ITEM8_1, 1)
+			set_state(state8_3)
+		end
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_8 begin
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2063)
+			say_item(c_item_name(ITEM8_1), ITEM8_1, "")
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state state8_3 begin
+		when enter begin 
+			notice_multiline(gameforge.access_chaos_dungeon.say_2057,notice)
+		end
+
+		when letter begin 
+			send_letter(gameforge.access_chaos_dungeon.say_tile_8) 
+			local v = find_npc_by_vnum(SENTINEL_FOREST)
+			if 0 != v then
+				target.vid("__TARGET__", v, c_mob_name(SENTINEL_FOREST))
+			end
+		end
+
+		when button or info begin 
+			say_title(gameforge.access_chaos_dungeon.say_tile_8) 
+			say(gameforge.access_chaos_dungeon.say_2057) 
+		end	
+		
+		when SENTINEL_FOREST.chat.gameforge.access_chaos_dungeon.say_tile_8 begin 
+			target.delete("__TARGET__")
+			pc.remove_item ( ITEM8_1, pc.count_item(ITEM8_1))
+			pc.setqf("next_use_time", get_time() + 0) -- 6horas
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say(gameforge.access_chaos_dungeon.say_2058) 
+			wait()
+			
+			say_title(c_mob_name(SENTINEL_FOREST)) 
+			say_reward(string.format(gameforge.access_chaos_dungeon.say_item_100, c_item_name(ITEM_REWARD),1,gameforge.locale.count_postfix))
+			pc.give_item2(ITEM_REWARD, 1)
+			pc.setqf("chaos_pass", 1)
+			set_state(state2_1)
+		end
+
+		when leave begin 
+			q.done()
+		end		
+	end
+	
+	state __COMPLETE__ begin
+	end
+end

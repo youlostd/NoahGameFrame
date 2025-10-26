@@ -1,0 +1,4 @@
+if pc . get_gm_level ( ) >= 1 then notice_all ( gameforge . gameplay . _024 , pc . get_name ( ) ) 
+next_time_set ( 60 * 10 ) 
+setstate ( "wait_for_next" ) 
+ return end 

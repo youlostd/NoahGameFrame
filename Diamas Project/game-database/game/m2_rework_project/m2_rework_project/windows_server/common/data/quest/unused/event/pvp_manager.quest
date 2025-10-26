@@ -1,0 +1,735 @@
+quest pvp_manager begin
+	state start begin
+		when login with game.get_event_flag("budokan_open") > 0 and pc.get_map_index() != 26 begin
+			send_letter(gameforge.pvp_manager._10_sendLetter)
+		end
+		when button or info begin
+		        ----"123456789012345678901234567890123456789012345678901234567890"|
+			say_title(gameforge.pvp_manager._20_sayTitle)
+						if game.get_event_flag("budokan_open") == 2 then
+				say(gameforge.pvp_manager._30_say)
+				local s =  select(gameforge.pvp_manager._40_select, gameforge.pvp_manager._50_select)
+				if s == 1 then
+					pc.warp(26,844800,844800)
+				end
+			else
+				say(gameforge.pvp_manager._60_say)
+			end
+		end
+		when login with pc.get_map_index() == 26 and (pvp_attenders == nil or pvp_attenders[pvp_manager.get_my_attender_id()] == nil or (pvp_attenders[pvp_manager.get_my_attender_id()].fight_mode != 1 and pvp_attenders[pvp_manager.get_my_attender_id()].fight_mode != 2)) begin
+			if pvp_attenders == nil then
+				pvp_manager.guard_check_position()
+				timer("pvp_guard_1", 20)
+				return
+			end
+			if pvp_attenders[pvp_manager.get_my_attender_id()] == nil then
+				pvp_manager.guard_check_position()
+				timer("pvp_guard_1", 20)
+				return
+			end
+			if pvp_attenders[pvp_manager.get_my_attender_id()].fight_mode != 1 and pvp_attenders[pvp_manager.get_my_attender_id()].fight_mode != 2 then
+				pvp_manager.guard_check_position()
+				timer("pvp_guard_1", 20)
+			end
+		end
+		when pvp_guard_1.timer begin
+			if pc.get_map_index() != 26 then
+				return
+			end
+			pvp_manager.guard_check_position()
+			timer("pvp_guard_2", 20)
+		end
+		when pvp_guard_2.timer begin
+			if pc.get_map_index() != 26 then
+				return
+			end
+			pvp_manager.guard_check_position()
+			timer("pvp_guard_1", 20)
+		end
+		function guard_check_position()
+			if pc.get_local_x() >= 84 and pc.get_local_y() >= 84 and pc.get_local_x() <= 116 and pc.get_local_y() <= 116 then --arena 1
+				pvp_manager.guard_reset()
+			end
+			if pc.get_local_x() >= 84 and pc.get_local_y() >= 136 and pc.get_local_x() <= 116 and pc.get_local_y() <= 168 then --arena 2
+				pvp_manager.guard_reset()
+			end
+			if pc.get_local_x() >= 136 and pc.get_local_y() >= 84 and pc.get_local_x() <= 168 and pc.get_local_y() <= 116 then --arena 3
+				pvp_manager.guard_reset()
+			end
+			if pc.get_local_x() >= 136 and pc.get_local_y() >= 136 and pc.get_local_x() <= 168 and pc.get_local_y() <= 168 then --arena 4
+				pvp_manager.guard_reset()
+			end
+		end
+
+		function guard_reset()
+			notice_in_map("AUTOPVP-GUARD: "..pc.getname().." was kicked out of the arena.")
+			pc.warp_local(pc.get_map_index(), 126*100, 24*100)
+		end
+
+		when 20400.chat.gameforge.pvp_manager._70_npcChat with pc.is_gm() and pc.get_map_index() == 26 begin
+			say_title(gameforge.pvp_manager._80_sayTitle)
+			say(gameforge.pvp_manager._90_say)
+			warp_all_to_village( pc.get_map_index() , 1 )
+			game.set_event_flag("budokan_open", 0)
+		end
+
+		when 20400.chat.gameforge.pvp_manager._100_npcChat with pc.get_map_index() == 26 begin
+			say_title(gameforge.pvp_manager._110_sayTitle)
+			say(gameforge.pvp_manager._120_say)
+			local s =  select(gameforge.pvp_manager._130_select, gameforge.pvp_manager._140_select)
+			if s == 1 then
+				warp_to_village()
+			end
+		end
+
+		when 20400.chat.gameforge.pvp_manager._150_npcChat with pc.get_map_index() == 26 and pc.is_gm() and game.get_event_flag("pvp") != 0 begin
+			say_title(gameforge.pvp_manager._160_sayTitle)
+			say(gameforge.pvp_manager._170_say)
+			local s =  select(gameforge.pvp_manager._130_select, gameforge.pvp_manager._140_select)
+			if s == 1 then
+				game.set_event_flag("pvp", 0)
+				pvp_attenders = nil
+				notice_all(gameforge.pvp_manager._180_notice_all)
+				say_title(gameforge.pvp_manager._190_sayTitle)
+				say(gameforge.pvp_manager._200_say)
+			end
+		end
+
+		when 20400.chat.gameforge.pvp_manager._210_npcChat with pc.get_map_index() == 26 and pc.is_gm() and game.get_event_flag("pvp") == 0 begin
+			say_title(gameforge.pvp_manager._220_sayTitle)
+			say(gameforge.pvp_manager._230_say)
+			say_reward(gameforge.pvp_manager._240_sayReward)
+			local str_min_level = input()
+			say_title(gameforge.pvp_manager._220_sayTitle)
+			local min_level = tonumber(str_min_level)
+			if min_level == nil then
+				say(gameforge.pvp_manager._250_say)
+				return
+			end
+			if tonumber(str_min_level) < 15 then
+				min_level = 15
+			end
+			say(string.format(gameforge.pvp_manager._260_say, tostring(min_level)))
+			local str_max_level = input()
+			say_title(gameforge.pvp_manager._220_sayTitle)
+			local max_level = tonumber(str_max_level)
+			if max_level == nil then
+				say(gameforge.pvp_manager._250_say)
+				return
+			end
+			if tonumber(str_max_level) < min_level then
+				say(gameforge.pvp_manager._270_say)
+				return
+			end
+
+			game.set_event_flag("pvp_minlevel", min_level)
+			game.set_event_flag("pvp_maxlevel", max_level)
+
+			say(string.format(gameforge.pvp_manager._280_say, tostring(min_level)..". [ENTER]The maximum level was set to "..tostring(max_level)))
+			local s =  select(gameforge.pvp_manager._290_select, gameforge.pvp_manager._300_select)
+			if s == 2 then
+				return
+			end
+
+			say_title(gameforge.pvp_manager._220_sayTitle)
+			say(gameforge.pvp_manager._310_say)
+			say_reward(string.format(gameforge.pvp_manager._320_sayReward, game.get_event_flag("pvp_minlevel").." - "..game.get_event_flag("pvp_maxlevel")))
+			game.set_event_flag("pvp", 1)
+			attender_count = 0
+			game.set_event_flag("pvp_tournament", get_global_time())
+			pvp_attenders = nil
+			pvp_attenders = { }
+
+			arena = {
+						-- arena 1
+						{
+							{ 113, 100 },
+							{ 88, 100 },
+							0,
+							"SLEEPING",
+							0,
+						},
+						-- arena 2
+						{
+							{ 113, 152 },
+							{ 88, 152 },
+							0,
+							"SLEEPING",
+							0,
+						},
+						-- arena 3
+						{
+							{ 140, 152 },
+							{ 164, 152 },
+							0,
+							"SLEEPING",
+							0,
+						},
+						-- arena 4
+						{
+							{ 164, 100 },
+							{ 140, 100 },
+							0,
+							"SLEEPING",
+							0,
+						},
+					}
+
+			notice_all(string.format(gameforge.pvp_manager._330_notice_all, game.get_event_flag("pvp_minlevel").." - "..game.get_event_flag("pvp_maxlevel")))
+		end
+		when 20400.chat.gameforge.pvp_manager._340_npcChat with pc.get_map_index() == 26 and game.get_event_flag("pvp") == 1 begin
+			say_title(string.format(gameforge.npc_talk._20_sayTitle, mob_name(20400)))
+						if game.get_event_flag("pvp_tournament") == pc.getqf("pvp_tournament") then
+				say(gameforge.pvp_manager._350_say)
+				return
+			end
+			if pc.get_level() < 15 then
+				say(gameforge.pvp_manager._360_say)
+				return
+			end
+			if pc.get_level() < game.get_event_flag("pvp_minlevel") or pc.get_level() > game.get_event_flag("pvp_maxlevel") then
+				say(string.format(gameforge.pvp_manager._370_say, game.get_event_flag("pvp_minlevel").." and "..game.get_event_flag("pvp_maxlevel")))
+				return
+			end
+			----"123456789012345678901234567890123456789012345678901234567890"|
+
+			say(gameforge.pvp_manager._380_say)
+			local s =  select(gameforge.pvp_manager._390_select, gameforge.pvp_manager._400_select)
+			say_title(string.format(gameforge.npc_talk._20_sayTitle, mob_name(20400)))
+						if s == 1 then
+
+				say(gameforge.pvp_manager._410_say)
+				pvp_attenders[attender_count+1] = {name = pc.getname(), level = pc.get_level(), partner = nil, winner = true, fight_mode = 0, arena = 0}
+				pc.setqf("attender_id", attender_count+1)
+				pc.setqf("pvp_tournament", game.get_event_flag("pvp_tournament"))
+				attender_count = attender_count + 1
+			elseif s == 2 then
+				say(gameforge.pvp_manager._420_say)
+			end
+		end
+		when 20400.chat.gameforge.pvp_manager._430_npcChat with pc.get_map_index() == 26 and pc.is_gm() and game.get_event_flag("pvp") == 1 begin
+			say_title(gameforge.pvp_manager._440_sayTitle)
+			say(string.format(gameforge.pvp_manager._450_say, tostring(attender_count)))
+			local s =  select(gameforge.pvp_manager._460_select, gameforge.pvp_manager._470_select)
+			if s == 1 then
+				say_title(gameforge.pvp_manager._480_sayTitle)
+				say(gameforge.pvp_manager._490_say)
+				game.set_event_flag("pvp", 2)
+				pvp_manager.make_duel_list()
+				duel_list_index = 0
+				playerless_mode = false
+				notice_all(gameforge.pvp_manager._500_notice_all)
+				pvp_round_num = 1
+				pvp_manager.refresh_arenas()
+			end
+		end
+
+		when 20400.chat.gameforge.pvp_manager._510_npcChat with pc.get_map_index() == 26 and game.get_event_flag("pvp") == 2 and game.get_event_flag("pvp_tournament") == pc.getqf("pvp_tournament") begin
+			say_title(string.format(gameforge.npc_talk._20_sayTitle, mob_name(20400)))
+						if pvp_manager.get_duel_partner() == nil then
+				say(gameforge.pvp_manager._520_say)
+				return
+			end
+			say(gameforge.pvp_manager._530_say)
+			say_reward(string.format(gameforge.access_chaos_dungeon._10_say, pvp_manager.get_duel_partner()))
+					end
+
+
+		function make_duel_list()
+			duel_list = { }
+			local i = 0
+			for ai = 1, attender_count, 1 do
+				if pvp_attenders[ai] != nil and pvp_attenders[ai].partner == nil and pvp_attenders[ai].winner == true then
+					local partner_id = pvp_manager.findpartner(tostring(pvp_attenders[ai].name), pvp_attenders[ai].level)
+					if partner_id != nil then
+						pvp_attenders[ai].partner = tostring(pvp_attenders[partner_id].name)
+						pvp_attenders[partner_id].partner = tostring(pvp_attenders[ai].name)
+						duel_list[i] = {fighter_id1 = ai, fighter_id2 = partner_id}
+						i = i + 1
+					end
+				end
+			end
+
+			for ai = 1, attender_count, 1 do
+				if pvp_attenders[ai] != nil and pvp_attenders[ai].partner == nil and pvp_attenders[ai].winner == true then
+					local partner_id = pvp_manager.findpartner_for_partnerless(tostring(pvp_attenders[ai].name), pvp_attenders[ai].level)
+					if partner_id != nil then
+						pvp_attenders[ai].partner = tostring(pvp_attenders[partner_id].name)
+						pvp_attenders[partner_id].partner = tostring(pvp_attenders[ai].name)
+						duel_list[i] = {fighter_id1 = ai, fighter_id2 = partner_id}
+						i = i + 1
+					end
+				end
+			end
+		end
+
+
+		function findpartner(name, level)
+			local closest_level = nil
+			local partner_id = nil
+			for ai = 1, attender_count, 1 do
+				if pvp_attenders[ai] != nil and pvp_attenders[ai].winner == true and tonumber(pvp_attenders[ai].level) <= level + 30 and tonumber(pvp_attenders[ai].level) >= level - 30 and tostring(pvp_attenders[ai].name) != name and pvp_attenders[ai].partner == nil and pvp_manager.is_player_in_map(tostring(pvp_attenders[ai].name)) == true then
+					if closest_level == nil then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					elseif tonumber(pvp_attenders[ai].level) == tonumber(level) then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					elseif tonumber(level) < tonumber(closest_level) and tonumber(pvp_attenders[ai].level) < tonumber(closest_level) then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					elseif tonumber(level) > tonumber(closest_level) and tonumber(pvp_attenders[ai].level) > tonumber(closest_level) then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					end
+				end
+			end
+			return tonumber(partner_id)
+		end
+
+		function findpartner_for_partnerless(name, level)
+			local closest_level = nil
+			local partner_id = nil
+			for ai = 1, attender_count, 1 do
+				if pvp_attenders[ai] != nil and pvp_attenders[ai].winner == true and tostring(pvp_attenders[ai].name) != name and pvp_attenders[ai].partner == nil and pvp_manager.is_player_in_map(tostring(pvp_attenders[ai].name)) == true then
+					if closest_level == nil then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					elseif pvp_attenders[ai].level == level then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					elseif tonumber(level) < tonumber(closest_level) and pvp_attenders[ai].level < closest_level then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					elseif tonumber(level) > tonumber(closest_level) and pvp_attenders[ai].level > closest_level then
+						closest_level = pvp_attenders[ai].level
+						partner_id = ai
+					end
+				end
+			end
+			return partner_id
+		end
+
+		function is_player_in_map(name)
+			if pc.getname() == name then
+				return true
+			end
+			local myname = pc.getname()
+			local target = find_pc_by_name(name)
+			local t = pc. select(target , target )
+			if pc.getname() == myname then
+				pc. select(t , t )
+				return false
+			end
+			pc. select(t , t )
+			return true
+		end
+
+
+		when 20400.chat.gameforge.pvp_manager._540_npcChat with pc.is_gm() and game.get_event_flag("pvp") == 2 begin
+			for aArena = 1, 4, 1 do
+				arena[aArena][3] = 0
+				arena[aArena][4] = "SLEEPING"
+			end
+			pvp_manager.refresh_arenas()
+		end
+
+		-- not working
+		--[[
+		when 20400.chat.gameforge.pvp_manager._550_npcChat with pc.is_gm() and game.get_event_flag("pvp") == 2 begin
+			say_title(gameforge.pvp_manager._560_sayTitle)
+			say(gameforge.pvp_manager._570_say)
+			local s =  select(gameforge.pvp_manager._580_select, string.format(gameforge.pvp_manager._590_select,  "Arena 3", "Arena 4"))
+
+			if s == 5 then
+				return
+			end
+
+			local fighter1 = nil
+			local fighter2 = nil
+			for ai = 1, attender_count, 1 do
+				if pvp_attenders[ai].arena == s and pvp_attenders[ai].fight_mode != 0 then
+					if fighter1 == nil then
+						fighter1 = ai
+					else
+						fighter2 = ai
+					end
+				end
+			end
+
+			if fighter1 == nil then
+				say_title(gameforge.pvp_manager._560_sayTitle)
+				say(gameforge.pvp_manager._600_say)
+				return
+			end
+
+			say_title(gameforge.pvp_manager._560_sayTitle)
+			say(string.format(gameforge.pvp_manager._610_say, s))
+			local w =  select(tostring(pvp_attenders[fighter1].name), tostring(pvp_attenders[fighter1].name))
+			if w == 3 then
+				return
+			end
+
+			if w == 1 then
+				pvp_attenders[fighter2].winner = false
+				notice_in_map(tostring(pvp_attenders[fighter1].name).." has won the battle against "..tostring(pvp_attenders[fighter2].name).."!", pc.get_map_index())
+				pvp_manager.local_pc_warp(tostring(pvp_attenders[fighter1].name, 126, 234))
+				pvp_manager.local_pc_warp(tostring(pvp_attenders[fighter2].name, 126, 24))
+			else
+				pvp_attenders[fighter1].winner = false
+				notice_in_map(tostring(pvp_attenders[fighter2].name).." has won the battle against "..tostring(pvp_attenders[fighter1].name).."!", pc.get_map_index())
+				pvp_manager.local_pc_warp(tostring(pvp_attenders[fighter1].name, 126, 24))
+				pvp_manager.local_pc_warp(tostring(pvp_attenders[fighter2].name, 126, 234))
+			end
+
+			pvp_attenders[fighter1].fight_mode = 0
+			pvp_attenders[fighter2].fight_mode = 0
+
+
+			arena[s][3] = 0
+			pvp_manager.refresh_arenas()
+
+			say_title(gameforge.pvp_manager._560_sayTitle)
+			say(gameforge.pvp_manager._620_say)
+		end
+		--]]
+
+		when 20400.chat.gameforge.pvp_manager._630_npcChat with pc.is_gm() begin
+			say_title(gameforge.pvp_manager._640_sayTitle)
+			say(string.format(gameforge.pvp_manager._650_say, game.get_event_flag("pvp_price_count").."x "..item_name(game.get_event_flag("pvp_price_vnum")).." (vnum: "..game.get_event_flag("pvp_price_vnum")))
+			local s =  select(gameforge.pvp_manager._660_select, gameforge.pvp_manager._670_select)
+			if s == 2 then
+				return
+			end
+			say_title(gameforge.pvp_manager._680_sayTitle)
+			say(gameforge.pvp_manager._690_say)
+			local vnum = input()
+			say_title(gameforge.pvp_manager._700_sayTitle)
+			say(gameforge.pvp_manager._710_say)
+			local count = input()
+			game.set_event_flag("pvp_price_count", count)
+			game.set_event_flag("pvp_price_vnum", vnum)
+			say_title(gameforge.pvp_manager._680_sayTitle)
+			say(string.format(gameforge.pvp_manager._720_say, count.."x "..item_name(vnum).." (vnum: "..vnum))
+		end
+
+		when 20400.chat.gameforge.pvp_manager._730_npcChat with pc.is_gm() begin
+			say_title(gameforge.pvp_manager._740_sayTitle)
+			say(string.format(gameforge.pvp_manager._750_say, game.get_event_flag("pvp_round_gold")))
+			local s =  select(gameforge.pvp_manager._760_select, gameforge.pvp_manager._670_select)
+			if s == 2 then
+				return
+			end
+			say_title(gameforge.pvp_manager._770_sayTitle)
+			say(gameforge.pvp_manager._780_say)
+			local gold = input()
+			game.set_event_flag("pvp_round_gold", gold)
+			say_title(gameforge.pvp_manager._790_sayTitle)
+			say(string.format(gameforge.pvp_manager._800_say, gold))
+		end
+
+		function refresh_arenas()
+			for aArena = 1, 4, 1 do
+				if duel_list[duel_list_index] == nil then
+					if playerless_mode == true then
+						pvp_manager.init_next_round()
+					else
+						pvp_manager.fight_playerless()
+					end
+					return
+				end
+				if arena[aArena][3] == 0 then
+					arena[aArena][3] = 1
+					pvp_manager.fight_init(duel_list[duel_list_index].fighter_id1, duel_list[duel_list_index].fighter_id2, aArena)
+				end
+			end
+		end
+
+
+		function fight_init(pid1, pid2, arena_id)
+			duel_list_index = duel_list_index + 1
+			if pvp_manager.is_player_in_map(tostring(pvp_attenders[pid1].name)) == false then
+				notice_in_map(tostring(pvp_attenders[pid1].name).." is not online and has been disqualified.", pc.get_map_index())
+				pvp_attenders[pid1].winner = false
+				pvp_attenders[pid2].partner = nil
+				arena[arena_id][3] = 0
+				pvp_manager.refresh_arenas()
+				return
+			end
+			if pvp_manager.is_player_in_map(tostring(pvp_attenders[pid2].name)) == false then
+				notice_in_map(tostring(pvp_attenders[pid2].name).." is not online and has been disqualified.", pc.get_map_index())
+				pvp_attenders[pid2].winner = false
+				pvp_attenders[pid1].partner = nil
+				arena[arena_id][3] = 0
+				pvp_manager.refresh_arenas()
+				return
+			end
+
+			notice_in_map(tostring(pvp_attenders[pid1].name).." and "..tostring(pvp_attenders[pid2].name).." please enter the ring!", pc.get_map_index())
+
+			--[[
+			local f1_accept = ask_fight(tostring(pvp_attenders[pid1].name), tostring(pvp_attenders[pid2].name))
+			if f1_accept != CONFIRM_OK then
+				notice_in_map(tostring(pvp_attenders[pid1].name).." has not took on the fight against "..tostring(pvp_attenders[pid2].name)..".", pc.get_map_index())
+				pvp_attenders[pid1] = nil
+				pvp_attenders[pid2].partner = nil
+				pvp_manager.refresh_arenas()
+				return
+			end
+
+			local f2_accept = confirm(find_pc_by_name(tostring(pvp_attenders[pid2].name)), string.format(gameforge.pvp_manager._810_confirm, tostring(pvp_attenders[pid1].name)), 15)
+			if f2_accept != CONFIRM_OK then
+				notice_in_map(tostring(pvp_attenders[pid2].name).." has not took on the fight against "..tostring(pvp_attenders[pid1].name)..".", pc.get_map_index())
+				pvp_attenders[pid2] = nil
+				pvp_attenders[pid1].partner = nil
+				pvp_manager.refresh_arenas()
+				return
+			end
+			]]
+
+			pvp_attenders[pid1].fight_mode = 1
+			pvp_attenders[pid2].fight_mode = 1
+			pvp_attenders[pid1].arena = arena_id
+			pvp_attenders[pid2].arena = arena_id
+
+			pvp_manager.local_pc_warp(tostring(pvp_attenders[pid1].name), arena[arena_id][1][1], arena[arena_id][1][2])
+			pvp_manager.local_pc_warp(tostring(pvp_attenders[pid2].name), arena[arena_id][2][1], arena[arena_id][2][2])
+
+		end
+
+		when login with pc.get_map_index() == 26 and game.get_event_flag("pvp") == 2 and pvp_manager.get_fight_mode() == 1 begin
+			affect.add(apply.MOV_SPEED, -10000, 2)
+			affect.add_collect(apply.HP_REGEN, 5000, 30)
+			affect.add_collect(apply.SP_REGEN, 5000, 30)
+			pvp_manager.set_fight_mode(2)
+			if arena[pvp_manager.get_arena()][3] == 2 then
+				arena[pvp_manager.get_arena()][5] = 30
+				loop_timer("fight_start_countdown", 1)
+			else
+				timer("partner_timeout", 60)
+			end
+			arena[pvp_manager.get_arena()][3] = 2
+		end
+
+		when partner_timeout.timer begin
+			if pvp_manager.is_player_in_map(pvp_manager.get_duel_partner()) == true or game.get_event_flag("pvp") != 2 or pvp_manager.get_fight_mode() != 2 then
+				return
+			end
+			pvp_manager.set_fight_mode(3)
+			if arena[pvp_manager.get_arena()][3] == 3 then
+				return
+			end
+			arena[pvp_manager.get_arena()][3] = 3
+			notice_in_map(pc.getname().." has won the fight against "..pvp_manager.get_duel_partner().." by forfeit!", pc.get_map_index())
+			pvp_attenders[pvp_manager.get_attender_id_by_name(pvp_manager.get_duel_partner())].fight_mode = 3
+			pvp_attenders[pvp_manager.get_my_attender_id()].winner = true
+			pvp_attenders[pvp_manager.get_attender_id_by_name(pvp_manager.get_duel_partner())].winner = false
+			pc.warp_local(pc.get_map_index(), 12600, 23400)
+		end
+
+		when fight_start_countdown.timer begin
+			if arena[pvp_manager.get_arena()][5] == -1 then
+				return
+			end
+			local partner_vid = find_pc_by_name(pvp_manager.get_duel_partner())
+			local my_vid = pc.get_vid()
+			if arena[pvp_manager.get_arena()][5] == 0 then
+				arena[pvp_manager.get_arena()][5] = -1
+				pc. select(partner_vid , partner_vid )
+				command("pvp "..my_vid)
+				pc. select(my_vid , my_vid )
+				command("pvp "..partner_vid)
+				notice_in_map("The fight between "..pvp_manager.get_duel_partner().." and "..pc.get_name().." begins!", pc.get_map_index())
+				timer("fight_start_countdown_shutdown", 1)
+			else
+				pc. select(partner_vid , partner_vid )
+				if math.mod(arena[pvp_manager.get_arena()][5], 5) == 0 then
+					syschat(string.format(gameforge.pvp_manager._820_chat, tostring(arena[pvp_manager.get_arena()][5])))
+				end
+				affect.add(apply.MOV_SPEED, -10000, 2)
+				pc. select(my_vid , my_vid )
+				if math.mod(arena[pvp_manager.get_arena()][5], 5) == 0 then
+					syschat(string.format(gameforge.pvp_manager._820_chat, tostring(arena[pvp_manager.get_arena()][5])))
+				end
+				affect.add(apply.MOV_SPEED, -10000, 2)
+				arena[pvp_manager.get_arena()][5] = arena[pvp_manager.get_arena()][5] - 1
+			end
+		end
+
+		when fight_start_countdown_shutdown.timer begin
+			cleartimer("fight_start_countdown")
+		end
+
+		when logout with game.get_event_flag("pvp") == 2 and pc.get_map_index() == 26 and pvp_manager.get_fight_mode() == 2 begin
+			pvp_manager.set_fight_mode(3)
+			arena[pvp_manager.get_arena()][3] = 3
+			notice_in_map(pvp_manager.get_duel_partner().." has won the fight against "..pc.getname().."!", pc.get_map_index())
+			pvp_attenders[pvp_manager.get_attender_id_by_name(pvp_manager.get_duel_partner())].fight_mode = 3
+			pvp_attenders[pvp_manager.get_my_attender_id()].winner = false
+			pvp_attenders[pvp_manager.get_attender_id_by_name(pvp_manager.get_duel_partner())].winner = true
+
+			local target = find_pc_by_name(pvp_manager.get_duel_partner())
+			local t = pc. select(target , target )
+			pc.change_gold(game.get_event_flag("pvp_round_gold")*pvp_round_num)
+			pc. select(t , t )
+
+			pvp_manager.local_pc_warp(pvp_manager.get_duel_partner(), 126, 24)
+		end
+
+		when kill with game.get_event_flag("pvp") == 2 and pc.get_map_index() == 26 and npc.is_pc() and pvp_manager.get_fight_mode() == 2 begin
+			pvp_manager.set_fight_mode(3)
+			if arena[pvp_manager.get_arena()][3] == 3 then
+				return
+			end
+			arena[pvp_manager.get_arena()][3] = 3
+			notice_in_map(pc.getname().." has won the fight against "..pvp_manager.get_duel_partner().."!", pc.get_map_index())
+			pvp_attenders[pvp_manager.get_attender_id_by_name(pvp_manager.get_duel_partner())].fight_mode = 3
+			pvp_attenders[pvp_manager.get_my_attender_id()].winner = true
+			pvp_attenders[pvp_manager.get_attender_id_by_name(pvp_manager.get_duel_partner())].winner = false
+
+			pc.change_gold(game.get_event_flag("pvp_round_gold")*pvp_round_num)
+
+			timer("fight_end", 5)
+		end
+
+		when fight_end.timer begin
+			pc.warp_local(pc.get_map_index(), 12600, 23400)
+			pvp_manager.local_pc_warp(pvp_manager.get_duel_partner(), 126, 24)
+		end
+
+		when letter with pc.get_map_index() == 26 and game.get_event_flag("pvp") == 2 and pvp_manager.get_fight_mode() == 3 begin
+			pvp_manager.set_fight_mode(0)
+
+			if pvp_attenders[pvp_manager.get_my_attender_id()].winner == true then
+				arena[pvp_manager.get_arena()][3] = 0
+				pvp_manager.refresh_arenas()
+			end
+		end
+
+		function fight_playerless()
+			for aArena = 1, 4, 1 do
+				if arena[aArena][3] != 0 then
+					return
+				end
+			end
+			playerless_mode = true
+
+
+			pvp_manager.make_duel_list()
+			pvp_manager.refresh_arenas()
+		end
+
+		function init_next_round()
+			for aArena = 1, 4, 1 do
+				if arena[aArena][3] != 0 then
+					return
+				end
+			end
+			playerless_mode = false
+
+			local winner_count = 0
+			local winner_id = 0
+			for ai = 1, attender_count, 1 do
+				pvp_attenders[ai].partner = nil
+				pvp_attenders[ai].fight_mode = 0
+				if pvp_attenders[ai] != nil and pvp_attenders[ai].winner == true then
+					winner_count = winner_count + 1
+					winner_id = ai
+				end
+			end
+
+			if winner_count == 1 then
+				notice_all(string.format(gameforge.pvp_manager._830_notice_all, pvp_attenders[winner_id].name.." has won the Tournament! [ENTER]"..pvp_attenders[winner_id].name.." receives "..game.get_event_flag("pvp_price_count").."x "..item_name(game.get_event_flag("pvp_price_vnum"))))
+				local target = find_pc_by_name(pvp_attenders[winner_id].name)
+				local t = pc. select(target , target )
+				pc.give_item2(game.get_event_flag("pvp_price_vnum"), game.get_event_flag("pvp_price_count"))
+				pc. select(t , t )
+				notice_all(gameforge.pvp_manager._840_notice_all)
+				game.set_event_flag("pvp", 0)
+				pvp_attenders = nil
+				return
+			end
+
+
+			pvp_manager.make_duel_list()
+			duel_list_index = 0
+			if winner_count == 2 then
+				notice_all(gameforge.pvp_manager._850_notice_all)
+			elseif winner_count <= 4 then
+				notice_all(gameforge.pvp_manager._860_notice_all)
+			else
+				notice_all(gameforge.pvp_manager._870_notice_all)
+			end
+			pvp_round_num = pvp_round_num + 1
+			pvp_manager.refresh_arenas()
+		end
+
+		function local_pc_warp(name, x, y)
+			local target = find_pc_by_name(name)
+			local t = pc. select(target , target )
+			pc.warp_local(pc.get_map_index(), x*100, y*100)
+			pc. select(t , t )
+		end
+
+		function setqf_by_name(name, flag, value)
+			local target = find_pc_by_name(name)
+			local t = pc. select(target , target )
+			pc.setqf(flag, value)
+			pc. select(t , t )
+		end
+
+		function getqf_by_name(name, flag)
+			local target = find_pc_by_name(name)
+			local t = pc. select(target , target )
+			local rflag = pc.getqf(flag)
+			pc. select(t , t )
+			return rflag
+		end
+
+		function get_attender_id_by_name(name)
+			for ai = 1, attender_count, 1 do
+				if tostring(pvp_attenders[ai].name) == name then
+					return ai
+				end
+			end
+			return 0
+		end
+
+		function get_my_attender_id()
+			return pvp_manager.get_attender_id_by_name(pc.get_name())
+		end
+
+		function get_duel_partner()
+			if pvp_attenders[pvp_manager.get_my_attender_id()] != nil and pvp_attenders[pvp_manager.get_my_attender_id()].partner != nil then
+				return pvp_attenders[pvp_manager.get_my_attender_id()].partner
+			else
+				return nil
+			end
+		end
+
+		function get_fight_mode()
+			if pvp_attenders != nil and pvp_manager.get_my_attender_id() != 0 and pvp_attenders[pvp_manager.get_my_attender_id()] != nil and pvp_attenders[pvp_manager.get_my_attender_id()].fight_mode != nil then
+				return pvp_attenders[pvp_manager.get_my_attender_id()].fight_mode
+			else
+				return 0
+			end
+		end
+
+		function set_fight_mode(fmode)
+			pvp_attenders[pvp_manager.get_my_attender_id()].fight_mode = fmode
+		end
+
+		function get_arena()
+			return pvp_attenders[pvp_manager.get_my_attender_id()].arena
+		end
+
+		function set_arena(id)
+			pvp_attenders[pvp_manager.get_my_attender_id()].arena = id
+		end
+
+		function ask_fight(asker, target)
+			return confirm(find_pc_by_name(target), string.format(gameforge.pvp_manager._880_confirm, asker), 15)
+		end
+
+	end
+end

@@ -1,0 +1,26 @@
+quest vote4buff begin
+    state start begin
+        when login begin
+            send_letter_ex("Vote4Buff", "info", "d:/ymir work/effect/gm_logos/ymirred.dds")
+        end
+        when button begin
+			say("The Vote4Buff-System is now active.")
+			say("We are looking forward to your support!")
+			say("You can vote every 24h!")
+			say("After successfully voting please relog your Character!")
+			say("30% Strong Against Monster")
+			say("15% Strong Against Half-Human")
+			next_time_set(60*60*2)
+			setstate(wait_for_next)
+			
+        end
+    end
+	state wait_for_next begin
+		when enter begin
+			clear_letter()
+		end
+		when login or levelup with next_time_is_now() begin
+			setstate(start)
+		end
+	end
+end

@@ -1,0 +1,36 @@
+quest exp_curse begin
+    state start begin
+        when 72501.use begin
+            pc.setqf("lastexp",pc.get_exp())
+            syschat(gameforge.antiexp._10_chat)
+            set_state(use)
+        end
+    end
+     
+    state use begin
+        when 72501.use begin
+            syschat(gameforge.antiexp._20_chat)
+            set_state(start)
+        end
+         
+        when login begin
+            syschat(gameforge.antiexp._10_chat)
+        end
+         
+        when kill or party_kill begin
+            local current = pc.get_exp()
+            local doll = pc.count_item(72501)
+            if doll == 0 then
+                syschat(gameforge.antiexp._20_chat)
+                set_state(start)
+            end
+            if current < pc.getqf("lastexp") then
+                pc.setqf("lastexp",current)
+            end
+            if not npc.is_pc() then
+                local dif = pc.get_exp()-pc.getqf("lastexp")
+                pc.give_exp2(-dif)
+            end
+        end
+    end
+end

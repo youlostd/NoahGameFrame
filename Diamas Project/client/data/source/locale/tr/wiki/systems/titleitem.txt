@@ -1,0 +1,18 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/titleitem.png]
+[CENTER_ALIGN]Başlık sistemi
+
+
+"Başlık tentürü" itemi ile kendi Başlığını oluşturabilirsin, bu daha sonra
+adının veya lonca adının üzerinde görünür. Şartlar ve özellikler:
+
+- Alfanümerik karakterlere (a-Z, 0-9) izin verilir
+- RGB oluşturucu ile 16.581.375 renk seçilebilir
+- Seçilen başlığın önizlemesi
+- Aynı item ile başlık yenilenebilir
+- "Başlık tentürü (çıkarma)" ile çıkarılabilir
+
+Özel karakterlere veya hakaret edici / aşağılayıcı ifadelere izin verilmez.
+
+
+

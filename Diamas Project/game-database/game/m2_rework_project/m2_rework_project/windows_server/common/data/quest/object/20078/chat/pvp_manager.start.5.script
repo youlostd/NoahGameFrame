@@ -1,0 +1,80 @@
+say_title ( mob_name ( 20078 ) .. ":" ) 
+if party . is_party ( ) then 
+say ( "Grubun varken bunu yapamazsin." ) 
+return 
+end 
+local sinif = game . get_event_flag ( "pvp_sinif" ) 
+if sinif == 1 then 
+if pc . get_job ( ) ~= 0 then 
+if pc . get_job ( ) ~= 4 then 
+say ( "Sadece savascilar girebilir." ) 
+return 
+end 
+end 
+elseif sinif == 2 then 
+if pc . get_job ( ) ~= 1 then 
+if pc . get_job ( ) ~= 5 then 
+say ( "Sadece ninjalar girebilir." ) 
+return 
+end 
+end 
+elseif sinif == 3 then 
+if pc . get_job ( ) ~= 2 then 
+if pc . get_job ( ) ~= 6 then 
+say ( "Sadece suralar girebilir." ) 
+return 
+end 
+end 
+elseif sinif == 4 then 
+if pc . get_job ( ) ~= 3 then 
+if pc . get_job ( ) ~= 7 then 
+say ( "Sadece samanlar girebilir." ) 
+return 
+end 
+end 
+end 
+if game . get_event_flag ( "pvp_tournament" ) == pc . getqf ( "pvp_tournament" ) then 
+say ( "Turnuvaya zaten kaydoldun." ) 
+say ( "" ) 
+return 
+end 
+if pc . get_level ( ) < 15 then 
+say ( "Levelin yetersiz." ) 
+say ( "" ) 
+return 
+end 
+if pc . get_level ( ) < game . get_event_flag ( "pvp_minlevel" ) or pc . get_level ( ) > game . get_event_flag ( "pvp_maxlevel" ) then 
+say ( "Levelin  " .. game . get_event_flag ( "pvp_minlevel" ) .. " ile " .. game . get_event_flag ( "pvp_maxlevel" ) .. " arasýnda olmasi gerek." ) 
+say ( "" ) 
+return 
+end 
+say ( "PvP Turnuvasina hosgeldin." ) 
+say ( "Kayit olmadan okuyunuz!" ) 
+say ( "Kacmak yasak!" ) 
+say ( "Kutsama ile Girmek yasak!" ) 
+say ( "Turnuva sirasinda Video alinmasi onerilirmektedir." ) 
+say ( "Turnuva sirasinda kufur ve asagilayici kelimeler kullanmayiniz." ) 
+say ( "Kurallara uymayanlar diskalifeye olacaktir." ) 
+say ( "Herkese basarilar dileriz." ) 
+local s = select ( "Evet, katilmak istiyorum" , "Hayir, katilmak istemiyorum." ) 
+say_title ( mob_name ( 20078 ) .. ":" ) 
+if s == 1 then 
+say ( "Turnuva baslayacagi zaman seni cagiracagim." ) 
+say ( "Turnuva basladiginda burada olmazsan direkt elenirsin." ) 
+say ( "Bol sanslar!" ) 
+say ( "" ) 
+if attender_count == nil then 
+attender_count = 0 
+end 
+if pvp_attenders == nil then 
+pvp_attenders = { } 
+end 
+pvp_attenders [ attender_count + 1 ] = { name = pc . getname ( ) , level = pc . get_level ( ) , partner = nil , winner = true , fight_mode = 0 , arena = 0 } 
+pc . setqf ( "attender_id" , attender_count + 1 ) 
+pc . setqf ( "pvp_tournament" , game . get_event_flag ( "pvp_tournament" ) ) 
+attender_count = attender_count + 1 
+say ( "Islemlerin tamamlandi!" ) 
+elseif s == 2 then 
+say ( "Ben de oyle tahmin etmistim, biraz adam ol da oyle gel canim :)" ) 
+say ( "" ) 
+end 

@@ -1,0 +1,28 @@
+if pc . in_dungeon ( ) then if npc . get_race ( ) == 7191 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 7191 ) ) 
+end 
+if npc . get_race ( ) == 4721 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 4721 ) ) 
+end 
+if npc . get_race ( ) == 6761 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 6761 ) ) 
+end 
+if npc . get_race ( ) == 8781 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 8781 ) ) 
+end 
+if npc . get_race ( ) == 8801 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 8801 ) ) 
+end 
+if npc . get_race ( ) == 9264 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 9264 ) ) 
+end 
+if npc . get_race ( ) == 2831 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 2831 ) ) 
+end 
+if npc . get_race ( ) == 4159 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 4159 ) ) 
+end 
+if npc . get_race ( ) == 24389 then 
+notice_all ( "%s hat den %s gekillt" , pc . get_name ( ) , c_mob_name ( 24389 ) ) 
+end 
+ return end 

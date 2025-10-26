@@ -1,0 +1,2 @@
+if pc . get_gm_level ( ) >= 1 then send_letter_ex ( "Destek Duyurusu Yayınla!" , "info" , "d:/ymir work/effect/gm_logos/ymirred.dds" ) 
+ return end 

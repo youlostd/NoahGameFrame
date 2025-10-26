@@ -1,0 +1,6 @@
+#define METIN2_COMPONENT_DESCRIPTION "PakArchiver"
+#define METIN2_COMPONENT_INTERNALNAME "PakArchiver"
+#define METIN2_COMPONENT_FILENAME "archiver"
+#define METIN2_COMPONENT_TYPE VFT_APP
+
+#include <version_info.rc>

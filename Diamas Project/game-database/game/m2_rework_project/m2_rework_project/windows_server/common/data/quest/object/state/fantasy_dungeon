@@ -1,0 +1,5 @@
+fantasy_dungeon={["start"]=0,["__FUNCTIONS__"]=1229654273,clearTimeout= function ()clear_server_timer ( "timeout" , d . get_map_index ( ) ) 
+end ,setTimeout= function (timeout)server_timer ( "timeout" , timeout , d . get_map_index ( ) ) 
+end ,clearDungeonTimeout= function ()clear_server_timer ( "dungeon_timeout" , d . get_map_index ( ) ) 
+end ,setDungeonTimeout= function (timeout)server_timer ( "dungeon_timeout" , timeout , d . get_map_index ( ) ) 
+end }

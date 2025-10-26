@@ -1,0 +1,171 @@
+define COLLECT_ITEM_VNUM 30170
+define KEY_ITEM_VNUM 30225
+define COLLECT_DELAY 1800
+
+quest collect_quest_lv30_5  begin
+	state start begin
+	end
+	state run begin
+		when login or levelup with pc.level >= 15 begin
+			set_state(information)
+		end
+	end
+
+	state information begin
+		when letter begin
+			send_letter(gameforge.collect_quest_lv30_part6._10_sendLetter)
+		end
+
+		when button or info begin
+			say_title(gameforge.collect_herb_lv10._50_sayTitle)
+			say(gameforge.collect_quest_lv30_part6._40_say)
+			wait()
+			say_title(gameforge.collect_herb_lv10._50_sayTitle)
+			--say(gameforge.collect_quest_lv30_part6._50_say)
+			wait()
+			say_title(gameforge.collect_herb_lv10._150_sayTitle)
+			say(gameforge.collect_quest_lv30_part6._60_say)
+			set_state(go_to_disciple)
+			pc.setqf("duration",0) 
+			pc.setqf("collect_count",0)
+			pc.setqf("drink_drug",0)
+		end
+	end
+
+
+	state go_to_disciple begin
+		when letter begin
+			send_letter(gameforge.collect_quest_lv30_part6._70_sendLetter)
+			if pc.getqf("duration") - get_time() > 0 then
+				q.set_clock("Waiting-Time", pc.getqf("duration") - get_time())
+			else
+				q.set_clock_value(0)
+			end
+		end
+		when button or info begin
+			say_title(gameforge.collect_quest_lv30_part6._340_sayTitle)
+			--say(gameforge.collect_quest_lv30_part6._90_say)
+			say_item_vnum(COLLECT_ITEM_VNUM)
+			say_reward(string.format(gameforge.collect_quest_lv30_part6._100_sayReward, pc.getqf("collect_count")))
+			wait()
+			
+			if get_time() > pc.getqf("duration") then
+				if pc.count_item(COLLECT_ITEM_VNUM) >0 then 
+					say_title(gameforge.collect_herb_lv10._150_sayTitle)
+					say(gameforge.collect_quest_lv30_part6._150_say)
+					pc.remove_item(COLLECT_ITEM_VNUM, 1)
+					pc.setqf("duration",get_time()+COLLECT_DELAY) ---22Stunden
+					q.set_clock("Waiting-Time", COLLECT_DELAY)
+					wait()
+
+					local pass_percent
+					if pc.getqf("drink_drug")==0 then
+						pass_percent=100
+					else
+						pass_percent=100
+					end
+
+					-- notice(pass_percent)
+
+					local s= number(1,100)
+					if s <= pass_percent  then
+					   if pc.getqf("collect_count")< 9 then    
+							local index =pc.getqf("collect_count")+1
+							pc.setqf("collect_count",index)
+							say_title(gameforge.collect_herb_lv10._150_sayTitle)
+							say(string.format(gameforge.collect_quest_lv30_part6._160_say, 10-pc.getqf("collect_count")))
+							pc.setqf("drink_drug",0)	
+							return
+						end
+						say_title(gameforge.collect_herb_lv10._50_sayTitle)
+						--say(gameforge.collect_quest_lv30_part6._170_say)
+						pc.setqf("collect_count",0)
+						pc.setqf("drink_drug",0)
+						pc.setqf("duration",0)
+						set_state(key_item)
+						return
+					else
+						say_title(gameforge.collect_herb_lv10._50_sayTitle)
+						say(gameforge.collect_quest_lv30_part6._180_say)
+						pc.setqf("drink_drug",0)	
+						return
+					end
+				else
+					say_title(gameforge.collect_herb_lv10._50_sayTitle)
+					--say(string.format(gameforge.collect_quest_lv30_part6._190_say, c_item_name(COLLECT_ITEM_VNUM)))
+					say(gameforge.collect_quest_lv30_part6._190_say)
+					return
+				end
+			else
+			  say_title(gameforge.collect_herb_lv10._50_sayTitle)
+			  say(gameforge.collect_quest_lv30_part6._200_say)
+			  return
+			end
+			
+		end
+
+		--when 2598.kill begin
+		--	local s = number(1, 2)
+		--	if s <= 1 then
+		--		pc.give_item2(COLLECT_ITEM_VNUM, 1)
+		--	end 
+		--end
+
+	end
+
+
+	state key_item begin
+		when letter begin
+			send_letter(gameforge.collect_quest_lv30_part6._210_sendLetter)
+
+		end
+		when button or info begin
+			if pc.count_item(KEY_ITEM_VNUM) > 0 then 
+				say_title(gameforge.collect_herb_lv10._150_sayTitle)
+				--say(gameforge.collect_quest_lv30_part6._280_say)
+				pc.remove_item(KEY_ITEM_VNUM,1)
+				set_state(__reward)
+			else
+				say_title(gameforge.collect_herb_lv10._150_sayTitle)
+				--say(string.format(gameforge.collect_quest_lv30_part6._290_say, c_item_name(KEY_ITEM_VNUM)))
+				say(gameforge.collect_quest_lv30_part6._290_say)
+				return
+			end
+		end
+
+		--when 2598.kill  begin
+		--	local s = number(1, 1)
+		--	if s == 1 and pc.count_item(KEY_ITEM_VNUM)==0 then
+		--		pc.give_item2(KEY_ITEM_VNUM, 1)
+		--		send_letter(gameforge.collect_quest_lv30_part6._260_sendLetter)
+		--	end
+		--end
+
+	end
+
+	state __reward begin
+		when letter begin
+			send_letter(gameforge.collect_quest_lv30_part6._300_sendLetter)
+
+
+		end
+		when button or info begin
+			say_title(gameforge.collect_quest_lv30_part6._340_sayTitle)
+			say(gameforge.collect_quest_lv30_part6._350_say)
+			say_reward(gameforge.collect_quest_lv30_part6._360_sayReward)
+			notice_all(""..pc.get_name().." hat die 6. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 100% Stark gegen Kreaturen.")
+			affect.add(apply.ATTBONUS_TRENT, 100, 60*60*24*365*60) --60Jahre
+			
+			clear_letter()
+			set_quest_state("collect_quest_lv30_6", "run")
+			set_state(__complete)
+		end
+
+	end
+
+	state __complete begin
+	end
+end
+
+
+

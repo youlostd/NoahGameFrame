@@ -1,0 +1,6 @@
+[DELAY value;0]
+Os Ninjas são assassinos[ENTER]
+profissionais, capazes de[ENTER]
+levar a cabo ataques de[ENTER]
+emboscada silenciosos e[ENTER]
+mortíferos.

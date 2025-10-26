@@ -1,0 +1,23 @@
+quest alternativdrop begin
+	state start begin
+		when kill with not npc.is_pc() begin
+			local drop_items = {
+			-- vnum, amount, chance, max_level_diff, max_amount_inventory (-1 to disable)
+			{94040, 1, 0.30, 15, 500},
+			{94041, 1, 0.30, 15, 500},
+			{94042, 1, 0.30, 15, 500},
+			{94050, 1, 0.25, 15, 500},
+			{94051, 1, 0.25, 15, 500},
+			{94052, 1, 0.25, 15, 500},
+			{27987, 1, 0.15, 15, 500},
+			}
+			for i = 1, table.getn(drop_items), 1 do
+				if math.abs(pc.get_level() - npc.get_level()) <= drop_items[i][4] and drop_items[i][3] >= number(0, 100000) / 1000 and pc.count_item(drop_items[i][1]) < drop_items[i][5] and drop_items[i][5] > -1 then
+					pc.give_item2(drop_items[i][1], drop_items[i][2])
+				elseif math.abs(pc.get_level() - npc.get_level()) <= drop_items[i][4] and drop_items[i][3] >= number(0, 100000) / 1000 and drop_items[i][5] == -1 then
+					pc.give_item2(drop_items[i][1], drop_items[i][2])
+				end
+			end
+		end
+	end
+end

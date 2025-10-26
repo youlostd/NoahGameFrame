@@ -1,0 +1,6 @@
+#define METIN2_COMPONENT_DESCRIPTION "Python script (cythonized)"
+#define METIN2_COMPONENT_INTERNALNAME "cythonized_script"
+#define METIN2_COMPONENT_FILENAME "cythonized_script.exe"
+#define METIN2_COMPONENT_TYPE VFT_APP
+
+#include <version_info.rc>

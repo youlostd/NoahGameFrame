@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = ShadowZoneLIB3 . Settings ( ) ; 
+d . regen_file ( settings [ "regen_file" ] .. "regen_9a.txt" ) ; 
+end 

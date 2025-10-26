@@ -1,0 +1,6 @@
+if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 1 then local settings = PyramidDungeonLIB . Settings ( ) ; 
+clear_server_timer ( "PyramidDungeon_1st_stone" , get_server_timer_arg ( ) ) 
+d . setf ( "PyramidDungeon_stone1" , 2 ) ; 
+d . notice ( "Ancient pyramid: You will continue in few seconds." ) 
+server_timer ( "PyramidDungeon_1st_jump" , 6 , d . get_map_index ( ) ) 
+ return end 

@@ -1,0 +1,18 @@
+quest m2bob_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("m2bob_a") > 0 begin
+		send_letter("M2Bob/Botusing")
+	end
+	
+	when info or button begin
+		say_important("Trading")
+		say("Dear Player,")
+		say("The use of third-party programs will be punished[ENTER] with a ban on all accounts")
+		say("The hold of foreign programs will be punished[ENTER] with a ban on all accounts")
+		say("Respect the rules and you'll get no trouble")
+		say("")
+	end
+end
+end

@@ -1,0 +1,72 @@
+if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 2 then local settings = PyramidDungeonLIB . Settings ( ) ; local pergamen = d . getf ( "PyramidDungeon_pergamen" ) ; 
+if pc . get_x ( ) > 278 and pc . get_y ( ) > 88 and pc . get_x ( ) < 334 and 116 then 
+if pergamen == 0 then 
+d . setf ( "Pyramid_2floor_monsters" , d . getf ( "Pyramid_2floor_monsters" ) - 1 ) 
+if d . getf ( "Pyramid_2floor_monsters" ) < 1 then 
+game . drop_item ( settings [ "Items_2floor" ] [ 1 ] , 1 ) 
+d . setf ( "Pyramid_2floor_monsters" , 0 ) ; d . setf ( "PyramidDungeon_pergamen" , 1 ) ; 
+server_timer ( "PyramidDungeon_2floor_spawner" , 6 , d . get_map_index ( ) ) 
+end 
+end 
+if pergamen == 1 then 
+d . setf ( "Pyramid_2floor_monsters" , d . getf ( "Pyramid_2floor_monsters" ) - 1 ) 
+if d . getf ( "Pyramid_2floor_monsters" ) < 1 then 
+game . drop_item ( settings [ "Items_2floor" ] [ 2 ] , 1 ) 
+d . setf ( "Pyramid_2floor_monsters" , 0 ) ; d . setf ( "PyramidDungeon_pergamen" , 2 ) ; 
+server_timer ( "PyramidDungeon_2floor_spawner" , 6 , d . get_map_index ( ) ) 
+end 
+end 
+if pergamen == 2 then 
+d . setf ( "Pyramid_2floor_monsters" , d . getf ( "Pyramid_2floor_monsters" ) - 1 ) 
+if d . getf ( "Pyramid_2floor_monsters" ) < 1 then 
+game . drop_item ( settings [ "Items_2floor" ] [ 3 ] , 1 ) 
+d . setf ( "Pyramid_2floor_monsters" , 0 ) ; d . setf ( "PyramidDungeon_pergamen" , 3 ) ; 
+server_timer ( "PyramidDungeon_2floor_spawner" , 6 , d . get_map_index ( ) ) 
+end 
+end 
+if pergamen == 3 then 
+d . setf ( "Pyramid_2floor_monsters" , d . getf ( "Pyramid_2floor_monsters" ) - 1 ) 
+if d . getf ( "Pyramid_2floor_monsters" ) < 1 then 
+game . drop_item ( settings [ "Items_2floor" ] [ 4 ] , 1 ) 
+d . setf ( "Pyramid_2floor_monsters" , 0 ) ; d . setf ( "PyramidDungeon_CanUseSeal" , 1 ) ; d . setf ( "PyramidDungeon_pergamen" , 4 ) ; 
+d . notice ( "Ancient pyramid: You have all pieces! Go to seal and decipher it!" ) 
+end 
+end 
+end 
+ return end if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 5 then local settings = PyramidDungeonLIB . Settings ( ) ; 
+if pc . get_x ( ) > 103 and pc . get_y ( ) > 987 and pc . get_x ( ) < 246 and 1071 then 
+if d . getf ( "PyramidDungeon_5f_monsters1" ) == 1 then 
+if number ( 1 , 30 ) == 1 then 
+d . setf ( "PyramidDungeon_5f_monsters1" , 2 ) ; 
+game . drop_item ( settings [ "Item_5floor" ] , 1 ) ; 
+d . clear_regen ( ) ; 
+d . purge_area ( 906300 , 2.3515e+06 , 920600 , 2.3599e+06 ) ; 
+end 
+elseif d . getf ( "PyramidDungeon_5f_monsters2" ) == 1 then 
+if number ( 1 , 30 ) == 1 then 
+d . setf ( "PyramidDungeon_5f_monsters2" , 2 ) ; 
+game . drop_item ( settings [ "Item_5floor" ] , 1 ) ; 
+d . clear_regen ( ) ; 
+d . purge_area ( 906300 , 2.3515e+06 , 920600 , 2.3599e+06 ) ; 
+end 
+end 
+end 
+ return end if PyramidDungeonLIB . isActive ( ) and not npc . is_pc ( ) and d . getf ( "PyramidDungeon_level" ) == 6 then local settings = PyramidDungeonLIB . Settings ( ) ; 
+if pc . get_x ( ) > 782 and pc . get_y ( ) > 1056 and pc . get_x ( ) < 1051 and 1236 then 
+if d . getf ( "PyramidDungeon_6f_monsters1" ) == 1 then 
+d . setf ( "PyramidDungeon_6f_monsters1_c" , d . getf ( "PyramidDungeon_6f_monsters1_c" ) - 1 ) 
+if d . getf ( "PyramidDungeon_6f_monsters1_c" ) < 1 then 
+d . setf ( "PyramidDungeon_6f_monsters1" , 2 ) ; d . setf ( "PyramidDungeon_KeyPickUp" , 1 ) ; 
+d . clear_regen ( ) ; 
+d . purge_area ( 974200 , 2.3584e+06 , 1.0011e+06 , 2.3764e+06 ) ; 
+d . notice ( "Ancient pyramid: The spell is gone, you can take the %s" , c_mob_name ( 9342 ) ) ; 
+end 
+elseif d . getf ( "PyramidDungeon_6f_monsters2" ) == 1 then 
+d . setf ( "PyramidDungeon_6f_monsters2_c" , d . getf ( "PyramidDungeon_6f_monsters2_c" ) - 1 ) ; 
+if d . getf ( "PyramidDungeon_6f_monsters2_c" ) < 1 then 
+d . setf ( "PyramidDungeon_6f_monsters2" , 2 ) ; d . setf ( "PyramidDungeon_6f_monsters2_c" , 0 ) ; d . setf ( "PyramidDungeon_KeyPickUp" , 2 ) ; 
+d . notice ( "Ancient pyramid: The spell is gone, you can take the %s" , c_mob_name ( 9342 ) ) ; 
+end 
+end 
+end 
+ return end 

@@ -1,0 +1,9 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/locale:locale/" ArchivePath="../bin/pack/locale_m2.pak" XmlPath="xml/locale_create.xml">
+		<Ignore Pattern="*.psd" />
+		<Ignore Pattern="*.uas" />
+		<Ignore Pattern="*.bat" />
+		<Ignore Pattern="*.pdn" />
+		<Ignore Pattern="*.ufo" />
+	</CreateEterPackXml>
+</ScriptFile>

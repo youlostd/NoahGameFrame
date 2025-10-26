@@ -1,0 +1,706 @@
+Group animemob1
+{
+	Vnum	766
+	Min	1
+	Max	54
+}
+
+Group animemob2
+{
+	Vnum	767
+	Min	1
+	Max	54
+}
+
+Group animemob3
+{
+	Vnum	768
+	Min	1
+	Max	54
+}
+
+Group animemob4
+{
+	Vnum	8430
+	Min	1
+	Max	54
+}
+
+Group animemob11
+{
+	Vnum	1766
+	Min	100
+	Max	124
+}
+
+Group animemob21
+{
+	Vnum	1767
+	Min	100
+	Max	124
+}
+
+Group animemob31
+{
+	Vnum	1768
+	Min	100
+	Max	124
+}
+
+Group animemob41
+{
+	Vnum	18430
+	Min	100
+	Max	124
+}
+
+Group fm1mob1
+{
+	Vnum	710
+	Min	1
+	Max	54
+}
+
+Group fm1mob2
+{
+	Vnum	711
+	Min	1
+	Max	54
+}
+
+Group fm1mob3
+{
+	Vnum	713
+	Min	1
+	Max	54
+}
+
+Group fm1boss
+{
+	Vnum	689
+	Min	1
+	Max	54
+}
+
+Group fm1metin
+{
+	Vnum	8424
+	Min	1
+	Max	54
+}
+
+Group fm1metinboss
+{
+	Vnum	11506
+	Min	1
+	Max	54
+}
+
+Group dungeon1mob3
+{
+	Vnum	712
+	Min	1
+	Max	54
+}
+
+Group dungeon1mob5
+{
+	Vnum	714
+	Min	1
+	Max	54
+}
+
+Group dungeon1mob6
+{
+	Vnum	715
+	Min	1
+	Max	54
+}
+
+Group dungeon1mob7
+{
+	Vnum	716
+	Min	1
+	Max	54
+}
+
+Group dungeon1mob8
+{
+	Vnum	717
+	Min	1
+	Max	54
+}
+
+Group dungeon1boss1
+{
+	Vnum	718
+	Min	1
+	Max	54
+}
+
+Group dungeon1boss2
+{
+	Vnum	719
+	Min	1
+	Max	54
+}
+
+Group dungeon1boss21
+{
+	Vnum	7191
+	Min	1
+	Max	54
+}
+
+Group dungeon1metin1
+{
+	Vnum	8425
+	Min	1
+	Max	54
+}
+
+Group dungeon1metin2
+{
+	Vnum	8426
+	Min	1
+	Max	54
+}
+
+Group dungeon1metin3
+{
+	Vnum	8427
+	Min	1
+	Max	54
+}
+
+Group fm2mob1
+{
+	Vnum	463
+	Min	55
+	Max	74
+}
+
+Group fm2mob2
+{
+	Vnum	464
+	Min	55
+	Max	74
+}
+
+Group fm2mob3
+{
+	Vnum	465
+	Min	55
+	Max	74
+}
+
+Group fm2boss
+{
+	Vnum	879
+	Min	55
+	Max	74
+}
+
+Group fm2metin
+{
+	Vnum	8407
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob1
+{
+	Vnum	462
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob2
+{
+	Vnum	466
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob3
+{
+	Vnum	473
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob4
+{
+	Vnum	474
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob5
+{
+	Vnum	475
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob6
+{
+	Vnum	476
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob7
+{
+	Vnum	477
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob8
+{
+	Vnum	478
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob9
+{
+	Vnum	479
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob10
+{
+	Vnum	480
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob11
+{
+	Vnum	481
+	Min	55
+	Max	74
+}
+
+Group dungeon2mob12
+{
+	Vnum	468
+	Min	55
+	Max	74
+}
+
+Group dungeon2boss1
+{
+	Vnum	469
+	Min	55
+	Max	74
+}
+
+Group dungeon2boss2
+{
+	Vnum	470
+	Min	55
+	Max	74
+}
+
+Group dungeon2boss3
+{
+	Vnum	471
+	Min	55
+	Max	74
+}
+
+Group dungeon2boss4
+{
+	Vnum	472
+	Min	55
+	Max	74
+}
+
+Group dungeon2boss41
+{
+	Vnum	4721
+	Min	55
+	Max	74
+}
+
+Group dungeon2metin1
+{
+	Vnum	8431
+	Min	55
+	Max	74
+}
+
+Group dungeon2metin2
+{
+	Vnum	8432
+	Min	55
+	Max	74
+}
+
+Group dungeon2metin3
+{
+	Vnum	8438
+	Min	55
+	Max	74
+}
+
+Group fm3mob1
+{
+	Vnum	959
+	Min	75
+	Max	99
+}
+
+Group fm3mob2
+{
+	Vnum	960
+	Min	75
+	Max	99
+}
+
+Group fm3mob3
+{
+	Vnum	961
+	Min	75
+	Max	99
+}
+
+Group fm3boss
+{
+	Vnum	964
+	Min	75
+	Max	99
+}
+
+Group fm3metin
+{
+	Vnum	8421
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob1
+{
+	Vnum	670
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob2
+{
+	Vnum	671
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob3
+{
+	Vnum	672
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob4
+{
+	Vnum	673
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob5
+{
+	Vnum	674
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob6
+{
+	Vnum	675
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob7
+{
+	Vnum	676
+	Min	75
+	Max	99
+}
+
+Group dungeon3mob71
+{
+	Vnum	6761
+	Min	75
+	Max	99
+}
+
+Group dungeon3metin1
+{
+	Vnum	8416
+	Min	75
+	Max	99
+}
+
+Group dungeon3metin2
+{
+	Vnum	8417
+	Min	75
+	Max	99
+}
+
+Group dungeon3metin3
+{
+	Vnum	8418
+	Min	75
+	Max	99
+}
+
+Group fm4mob1
+{
+	Vnum	860
+	Min	100
+	Max	124
+}
+
+Group fm4mob2
+{
+	Vnum	861
+	Min	100
+	Max	124
+}
+
+Group fm4mob3
+{
+	Vnum	866
+	Min	100
+	Max	124
+}
+
+Group fm4metin
+{
+	Vnum	8433
+	Min	100
+	Max	124
+}
+
+Group fm4boss
+{
+	Vnum	878
+	Min	100
+	Max	124
+}
+
+Group fm4boss1
+{
+	Vnum	8781
+	Min	100
+	Max	124
+}
+
+Group dungeon4mob1
+{
+	Vnum	9330
+	Min	100
+	Max	124
+}
+
+Group dungeon4mob2
+{
+	Vnum	9331
+	Min	100
+	Max	124
+}
+
+Group dungeon4mob3
+{
+	Vnum	9332
+	Min	100
+	Max	124
+}
+
+Group dungeon4mob4
+{
+	Vnum	9333
+	Min	100
+	Max	124
+}
+
+Group dungeon4boss1
+{
+	Vnum	870
+	Min	100
+	Max	124
+}
+
+Group dungeon4boss2
+{
+	Vnum	871
+	Min	100
+	Max	124
+}
+
+Group dungeon4boss3
+{
+	Vnum	873
+	Min	100
+	Max	124
+}
+
+Group dungeon4boss4
+{
+	Vnum	880
+	Min	100
+	Max	124
+}
+
+Group dungeon4boss41
+{
+	Vnum	8801
+	Min	100
+	Max	124
+}
+
+Group dungeon4metin1
+{
+	Vnum	9334
+	Min	100
+	Max	124
+}
+
+Group dungeon4metin2
+{
+	Vnum	8303
+	Min	100
+	Max	124
+}
+
+Group easter1mob1
+{
+	Vnum	482
+	Min	1
+	Max	54
+}
+
+Group easter1mob2
+{
+	Vnum	483
+	Min	1
+	Max	54
+}
+
+Group easter1mob3
+{
+	Vnum	484
+	Min	1
+	Max	54
+}
+
+Group easter1mob4
+{
+	Vnum	485
+	Min	1
+	Max	54
+}
+
+Group easter1mob5
+{
+	Vnum	486
+	Min	1
+	Max	54
+}
+
+Group easter1mob6
+{
+	Vnum	487
+	Min	1
+	Max	54
+}
+
+Group easter1mob7
+{
+	Vnum	8434
+	Min	1
+	Max	54
+}
+
+Group easter1mob8
+{
+	Vnum	8435
+	Min	1
+	Max	54
+}
+
+Group easter1mob9
+{
+	Vnum	8436
+	Min	1
+	Max	54
+}
+
+Group eastermob1
+{
+	Vnum	1482
+	Min	100
+	Max	124
+}
+
+Group eastermob2
+{
+	Vnum	1483
+	Min	100
+	Max	124
+}
+
+Group eastermob3
+{
+	Vnum	1484
+	Min	100
+	Max	124
+}
+
+Group eastermob4
+{
+	Vnum	1485
+	Min	100
+	Max	124
+}
+
+Group eastermob5
+{
+	Vnum	1486
+	Min	100
+	Max	124
+}
+
+Group eastermob6
+{
+	Vnum	1487
+	Min	100
+	Max	124
+}
+
+Group eastermob7
+{
+	Vnum	18434
+	Min	100
+	Max	124
+}
+
+Group eastermob8
+{
+	Vnum	18435
+	Min	100
+	Max	124
+}
+
+Group eastermob9
+{
+	Vnum	18436
+	Min	100
+	Max	124
+}

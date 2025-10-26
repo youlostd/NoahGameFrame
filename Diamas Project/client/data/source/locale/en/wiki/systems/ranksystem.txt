@@ -1,0 +1,66 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/ranksystem.png]
+[CENTER_ALIGN]Rankpoints
+
++1,000,000      M = God                        W = Goddess
++900,000         M = Godlike                  W = Godlike
++800,000         M = Hunter                    W = Angel
++700,000         M = Witcher                  W = Fairy
++600.000         M = Ragnarok               W = Cutie
++500.000         M = Void Walker           W = Star Child
++400.000         M = Raikage                  W = Ginger
++300.000         M = Emperor                 W = Knightwalker
++200.000         M = Virtuoso                 W = Seraphine
++100.000         M = Ruler                      W = Empress
++90.000           M = Soul Thief              W = Soulstealer
++86,000           M = Hokage                  W = Hokage
++76,000           M = Anbu                      W = Anbu
++70,000           M = Major                     W = Commander
++66.000           M = Super Saiyajin       W = Karifura
++60.000           M = Saiyajin                  W = Kunoichi
++56.000           M = Gladiator                W = Enchanted
++50.000           M = Cast-off                  W = Legendary
++46,000           M = Legendary              W = Divine
++40,000           M = Divine                    W = Immortal
++36,000           M = Immortal                W = Holy
++30,000           M = Holy                      W = Blessed
++28,000           M = Blessed                  W = Tsarina
++26,000           M = Baron                     W = Baroness
++24,000           M = Prince                    W = Princess
++22,000           M = Noble                     W = Timeless
++20.000           M = Mystic                   W = Unique
++12,000           M = Unique                   W = Honorable 
++8,000             M = Honourable            W = Soft
++4.000             M = Good-natured        W = Likeable
++2.000             M = Sympathetic           W = Little
+
+
++/- 0                    = Neutral
+
+--2.000             M = Shameless            W = Shameless 
+-4,000             M = Naughty               W = Naughty
+-8.000             M = Peasant                 W = Combative
+-12,000           M = Malicious             W = Malicious
+-20,000           M = Belligerent           W = Belligerent
+-26,000           M = Hateful                 W = Hateful
+-30,000           M = Toxic                    W = Toxic
+-36.000           M = Devilish               W = Devilish
+-40,000           M = Cruel                    W = Cruel
+-46.000           M = Assassin               W = Exiled
+-50,000           M = Reprobate            W = Damned
+-56,000           M = Damned               W = Cursed
+-60,000           M = Godless                W = Godless
+-70,000           M = Demon                 W = Demoness
+-80,000           M = Shadowhunter      W = Succubus
+-90,000           M = Bloodthirsty         W = Bloodthirsty
+-100,000         M = Renegade             W = Renegade
+-200.000         M = Death Knight        W = Witch
+-300.000         M = Ghoul                   W = Ghoula
+-400.000         M = Nightmare            W = Nightmare
+-500.000         M = Undead                 W = Kijo
+-600.000         M = Oni                       W = Fallen Angel
+-700.000         M = Lucifer                 W = Bloodgoddess
+-800.000         M = Blood God           W = Hell Lady
+-1,000,000      M = Satan                    W = Lilith
+
+

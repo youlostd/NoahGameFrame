@@ -1,0 +1,12 @@
+hostname = "DataBase"
+test-server = false
+verbose = true
+china-event-server = false
+bind-addr = "0.0.0.0"
+bind-port = "15000"
+player-cache-flush-time = 420
+item-cache-flush-time = 300
+price-cache-flush-time = 1600
+player-delete-level-min = 1
+player-delete-level-max = 150
+current-battlepass-id = 2

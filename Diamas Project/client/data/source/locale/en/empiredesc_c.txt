@@ -1,0 +1,6 @@
+[DELAY value;10]
+The Jinno Kingdom is located[ENTER]
+in the eastern part of the[ENTER]
+continent. This kingdom is[ENTER]
+based on military power. Its[ENTER]
+people are aggressive and martial.

@@ -1,0 +1,34 @@
+if pc . in_dungeon ( ) then 
+say ( "Du kannst das Item hier nicht nutzen!" ) 
+return 
+end 
+if pc . get_empty_normal_inventory_count ( ) < 45 then 
+chat ( gameforge . anfangstruhe . _10_chat ) 
+return 
+else 
+pc . give_item2 ( 70007 ) 
+pc . give_item2 ( 39039 ) 
+pc . give_item2 ( 27003 , 500000 ) 
+pc . give_item2 ( 50821 ) 
+pc . give_item2 ( 71135 ) 
+pc . give_item2 ( 50053 ) 
+pc . give_item2 ( 53001 ) 
+pc . give_item2 ( 71084 ) 
+pc . give_item2 ( 39029 ) 
+pc . give_item2 ( 250411 ) 
+pc . give_gold ( 1e+10 ) 
+horse . set_level ( 21 ) 
+pc . set_skill_level ( 122 , 2 ) 
+pc . set_skill_level ( 137 , 20 ) 
+pc . set_skill_level ( 138 , 20 ) 
+pc . set_skill_level ( 139 , 20 ) 
+pc . set_skill_level ( 140 , 20 ) 
+pc . set_skill_level ( 131 , 10 ) 
+pc . set_skill_level ( 126 , 20 ) 
+pc . set_skill_level ( 127 , 20 ) 
+pc . set_skill_level ( 128 , 20 ) 
+pc . set_skill_level ( 121 , 40 ) 
+pc . set_skill_level ( 124 , 40 ) 
+pc . set_skill_level ( 129 , 40 ) 
+pc . remove_item ( 50187 , 1 ) 
+end 

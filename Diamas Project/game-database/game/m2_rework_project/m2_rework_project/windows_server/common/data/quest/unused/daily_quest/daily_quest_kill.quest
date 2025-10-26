@@ -1,0 +1,95 @@
+quest daily_quest_kill begin
+	state start begin
+	
+		when login begin
+			DAILYQUESTS.QUEST.KILLQUEST.INDEX = q.getcurrentquestindex()
+		end
+		
+		when kill begin
+			local questIndex = q.getcurrentquestindex()
+			
+			for i = 1, pc.getf('daily_quest','quest_count') do
+				local mission = dquest.get_current_mission("KILLQUEST", i, questIndex)
+				
+				if mission != nil then
+					for x = 1, table.getn(mission.MOBVNUM) do
+						local mobVnum = npc.get_race()
+						
+						if mission.MOBVNUM[x] == mobVnum then
+							pc.setf('daily_quest','quest_'..i..'_'..questIndex..'_var_'..mobVnum, pc.getf('daily_quest','quest_'..i..'_'..questIndex..'_var_'..mobVnum) + 1)
+							
+							local done = 0
+							
+							for y = 1, table.getn(mission.TOKILL) do
+								if pc.getf('daily_quest','quest_'..i..'_'..questIndex..'_var_'..mission.MOBVNUM[y]) >= mission.TOKILL[y] then
+									done = done + 1
+								end
+							end
+							
+							if done == table.getn(mission.TOKILL) then
+								dquest.set_quest_complete("KILLQUEST", i, questIndex)
+								mysql_query("UPDATE player.player SET dquest_succeed = dquest_succeed + 1 WHERE id = "..pc.get_player_id()..";")
+								
+								notice('Glueckwunsch! Du hast '..mission.QUESTNAME..' abgeschlossen!')
+								
+								if table.getn(mission.REWARD.ITEM.ITEMVNUM) > 0 then
+									for z = 1, table.getn(mission.REWARD.ITEM.ITEMVNUM) do
+										pc.give_item2(mission.REWARD.ITEM.ITEMVNUM[z],mission.REWARD.ITEM.ITEMCOUNT[z])
+									end
+								end
+								
+								if mission.REWARD.EXP > 0 then
+									pc.give_exp2(mission.REWARD.EXP)
+								end
+								
+								if mission.REWARD.YANG > 0 then
+									pc.give_gold(mission.REWARD.YANG)
+								end
+								
+								dquest.reload_quests()
+							end
+						end
+					end
+				end
+			end
+		end
+		
+		when button begin
+			local cmd = daily_quest_kill.client_command(getinput("DAILYQUEST QUESTCMD"))
+			local mission = dquest.get_current_mission("KILLQUEST", cmd[1], q.getcurrentquestindex())
+			
+			if mission == nil then chat('mission == nil') return end
+			
+			say_title(mission.QUESTNAME)
+			say(mission.QUESTTEXT..'[ENTER]')
+			
+			for i = 1, table.getn(mission.TOKILL) do
+				local killsLeft = (mission.TOKILL[i]-pc.getf('daily_quest','quest_'..cmd[1]..'_'..q.getcurrentquestindex()..'_var_'..mission.MOBVNUM[i]))
+				if killsLeft < 1 then killsLeft = 0 end
+				say_reward(mob_name(mission.MOBVNUM[i])..' uebrig: '..killsLeft)
+			end
+			
+			say_important('[ENTER]'..mission.REWARDTEXT)
+		end
+		
+		function client_command(command_)
+			return daily_quest_kill.split_(command_,"#")
+		end
+		
+		function split_(string_,delimiter)
+			local result = { }
+			local from  = 1
+			local delim_from, delim_to = string.find( string_, delimiter, from  )
+			
+			while delim_from do
+				table.insert( result, string.sub( string_, from , delim_from-1 ) )
+				from  = delim_to + 1
+				delim_from, delim_to = string.find( string_, delimiter, from  )
+			end
+			
+			table.insert( result, string.sub( string_, from  ) )
+			
+			return result
+		end
+	end
+end

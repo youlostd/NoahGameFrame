@@ -1,0 +1,2493 @@
+Group Huntfm11
+{
+	Vnum	1
+	Name	HUNTING_MISSION_1_NAME
+	NeedCount	1
+	MinLevel	20
+	
+	List MobVnums
+	{
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	List Rewards
+	{
+		TREE_POINT 5
+	}
+}
+
+Group Huntfm12
+{
+	Vnum	2
+	Name	HUNTING_MISSION_2_NAME
+	NeedCount	10
+	MinLevel	20
+	
+	List MobVnums
+	{
+		8424
+		8407
+		8421
+		8433
+		8406
+		8302
+	}
+	List Rewards
+	{
+		TREE_POINT 10
+	}
+}
+
+Group Huntfm13
+{
+	Vnum	3
+	Name	HUNTING_MISSION_2_NAME
+	NeedCount	2
+	MinLevel	20
+	List MobVnums
+	{
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	List Rewards
+	{
+		TREE_POINT 15
+	}
+}
+
+Group Huntfm14
+{
+	Vnum	4
+	Name	HUNTING_MISSION_4_NAME
+	NeedCount	20
+	MinLevel	20
+	List MobVnums
+	{
+		8424
+		8407
+		8421
+		8433
+		8406
+		8302
+	}
+	List Rewards
+	{
+		TREE_POINT 20
+	}
+}
+
+Group Huntfm15
+{
+	Vnum	5
+	Name	HUNTING_MISSION_5_NAME
+	NeedCount	3
+	MinLevel	20
+	List MobVnums
+	{
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	List Rewards
+	{
+		TREE_POINT 30
+	}
+}
+
+Group Huntfm16
+{
+	Vnum	6
+	Name	HUNTING_MISSION_6_NAME
+	NeedCount	30
+	MinLevel	20
+	List MobVnums
+	{
+		8424
+		8407
+		8421
+		8433
+		8406
+		8302
+	}
+	List Rewards
+	{
+		TREE_POINT 40
+	}
+}
+
+Group Huntfm17
+{
+	Vnum	7
+	Name	HUNTING_MISSION_7_NAME
+	NeedCount	4
+	MinLevel	20
+	List MobVnums
+	{
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	List Rewards
+	{
+		TREE_POINT 50
+	}
+}
+
+Group Huntfm18
+{
+	Vnum	8
+	Name	HUNTING_MISSION_8_NAME
+	NeedCount	40
+	MinLevel	20
+	
+	List MobVnums
+	{
+		8424
+		8407
+		8421
+		8433
+		8406
+		8302
+	}
+	List Rewards
+	{
+		TREE_POINT 60
+	}
+}
+
+Group Huntfm19
+{
+	Vnum	9
+	Name	HUNTING_MISSION_9_NAME
+	NeedCount	5
+	MinLevel	20
+	
+	List MobVnums
+	{
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	List Rewards
+	{
+		TREE_POINT 80
+	}
+}
+
+Group Huntfm110
+{
+	Vnum	10
+	Name	HUNTING_MISSION_10_NAME
+	NeedCount	50
+	MinLevel	20
+
+	List MobVnums
+	{
+		8424
+		8407
+		8421
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 122
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+	}
+}
+
+Group Huntfm21
+{
+	Vnum	11
+	Name	HUNTING_MISSION_11_NAME
+	NeedCount	2
+	MinLevel	55
+	List MobVnums
+	{
+		472
+		4721
+		719
+		7191
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	List Rewards
+	{
+		TREE_POINT 20
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm22
+{
+	Vnum	12
+	Name	HUNTING_MISSION_12_NAME
+	NeedCount	20
+	MinLevel	55
+	
+	List MobVnums
+	{
+		8407
+		8424
+		8421
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 40
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm23
+{
+	Vnum	13
+	Name	HUNTING_MISSION_13_NAME
+	NeedCount	3
+	MinLevel	55
+	
+	List MobVnums
+	{
+		472
+		4721
+		719
+		7191
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	
+	List Rewards
+	{
+		TREE_POINT 60
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm24
+{
+	Vnum	14
+	Name	HUNTING_MISSION_14_NAME
+	NeedCount	40
+	MinLevel	55
+	
+	List MobVnums
+	{
+		8407
+		8424
+		8421
+		8433
+		8406
+		8302
+	}
+	
+	List Rewards
+	{
+		TREE_POINT 90
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm25
+{
+	Vnum	15
+	Name	HUNTING_MISSION_15_NAME
+	NeedCount	4
+	MinLevel	55
+	
+	List MobVnums
+	{
+		472
+		4721
+		719
+		7191
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	
+	List Rewards
+	{
+		TREE_POINT 120
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm26
+{
+	Vnum	16
+	Name	HUNTING_MISSION_16_NAME
+	NeedCount	60
+	MinLevel	55
+	
+	List MobVnums
+	{
+		8407
+		8424
+		8421
+		8433
+		8406
+		8302
+	}
+	
+	List Rewards
+	{
+		TREE_POINT 150
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm27
+{
+	Vnum	17
+	Name	HUNTING_MISSION_17_NAME
+	NeedCount	5
+	MinLevel	55
+	
+	List MobVnums
+	{
+		472
+		4721
+		719
+		7191
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+	
+	List Rewards
+	{
+		TREE_POINT 180
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm28
+{
+	Vnum	18
+	Name	HUNTING_MISSION_18_NAME
+	NeedCount	80
+	MinLevel	55
+	
+	List MobVnums
+	{
+		8407
+		8424
+		8421
+		8433
+		8406
+		8302
+	}
+	
+	List Rewards
+	{
+		TREE_POINT 210
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm29
+{
+	Vnum	19
+	Name	HUNTING_MISSION_19_NAME
+	NeedCount	6
+	MinLevel	55
+
+	List MobVnums
+	{
+		472
+		4721
+		719
+		7191
+		676
+		6761
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 240
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+	}
+}
+
+Group Huntfm210
+{
+	Vnum	20
+	Name	HUNTING_MISSION_20_NAME
+	NeedCount	100
+	MinLevel	55
+
+	List MobVnums
+	{
+		8407
+		8424
+		8421
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 342
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+	}
+}
+
+Group Huntfm31
+{
+	Vnum	21
+	Name	HUNTING_MISSION_21_NAME
+	NeedCount	3
+	MinLevel	75
+
+	List MobVnums
+	{
+		676
+		6761
+		719
+		7191
+		472
+		4721
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 70
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm32
+{
+	Vnum	22
+	Name	HUNTING_MISSION_22_NAME
+	NeedCount	30
+	MinLevel	75
+
+	List MobVnums
+	{
+		8421
+		8407
+		8424
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 100
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm33
+{
+	Vnum	23
+	Name	HUNTING_MISSION_23_NAME
+	NeedCount	4
+	MinLevel	75
+
+	List MobVnums
+	{
+		676
+		6761
+		719
+		7191
+		472
+		4721
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 130
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm34
+{
+	Vnum	24
+	Name	HUNTING_MISSION_24_NAME
+	NeedCount	60
+	MinLevel	75
+
+	List MobVnums
+	{
+		8421
+		8407
+		8424
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 160
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm35
+{
+	Vnum	25
+	Name	HUNTING_MISSION_25_NAME
+	NeedCount	5
+	MinLevel	75
+
+	List MobVnums
+	{
+		676
+		6761
+		719
+		7191
+		472
+		4721
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 190
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm36
+{
+	Vnum	26
+	Name	HUNTING_MISSION_26_NAME
+	NeedCount	90
+	MinLevel	75
+
+	List MobVnums
+	{
+		8421
+		8407
+		8424
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 220
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm37
+{
+	Vnum	27
+	Name	HUNTING_MISSION_27_NAME
+	NeedCount	6
+	MinLevel	75
+
+	List MobVnums
+	{
+		676
+		6761
+		719
+		7191
+		472
+		4721
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 250
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm38
+{
+	Vnum	28
+	Name	HUNTING_MISSION_28_NAME
+	NeedCount	120
+	MinLevel	75
+
+	List MobVnums
+	{
+		8421
+		8407
+		8424
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 280
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm39
+{
+	Vnum	29
+	Name	HUNTING_MISSION_29_NAME
+	NeedCount	7
+	MinLevel	75
+
+	List MobVnums
+	{
+		676
+		6761
+		719
+		7191
+		472
+		4721
+		880
+		8801
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 310
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+	}
+}
+
+Group Huntfm310
+{
+	Vnum	30
+	Name	HUNTING_MISSION_30_NAME
+	NeedCount	150
+	MinLevel	75
+
+	List MobVnums
+	{
+		8421
+		8407
+		8424
+		8433
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 420
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+	}
+}
+
+Group Huntfm41
+{
+	Vnum	31
+	Name	HUNTING_MISSION_31_NAME
+	NeedCount	4
+	MinLevel	100
+
+	List MobVnums
+	{
+		880
+		8801
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 50
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm42
+{
+	Vnum	32
+	Name	HUNTING_MISSION_32_NAME
+	NeedCount	40
+	MinLevel	100
+
+	List MobVnums
+	{
+		8433
+		8424
+		8407
+		8421
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 100
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm43
+{
+	Vnum	33
+	Name	HUNTING_MISSION_33_NAME
+	NeedCount	5
+	MinLevel	100
+
+	List MobVnums
+	{
+		880
+		8801
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 150
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm44
+{
+	Vnum	34
+	Name	HUNTING_MISSION_34_NAME
+	NeedCount	80
+	MinLevel	100
+
+	List MobVnums
+	{
+		8433
+		8424
+		8407
+		8421
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 200
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm45
+{
+	Vnum	35
+	Name	HUNTING_MISSION_35_NAME
+	NeedCount	6
+	MinLevel	100
+
+	List MobVnums
+	{
+		880
+		8801
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 250
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm46
+{
+	Vnum	36
+	Name	HUNTING_MISSION_36_NAME
+	NeedCount	120
+	MinLevel	100
+
+	List MobVnums
+	{
+		8433
+		8424
+		8407
+		8421
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 300
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm47
+{
+	Vnum	37
+	Name	HUNTING_MISSION_37_NAME
+	NeedCount	7
+	MinLevel	100
+
+	List MobVnums
+	{
+		880
+		8801
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 350
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm48
+{
+	Vnum	38
+	Name	HUNTING_MISSION_38_NAME
+	NeedCount	160
+	MinLevel	100
+
+	List MobVnums
+	{
+		8433
+		8424
+		8407
+		8421
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 400
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm49
+{
+	Vnum	39
+	Name	HUNTING_MISSION_39_NAME
+	NeedCount	8
+	MinLevel	100
+
+	List MobVnums
+	{
+		880
+		8801
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		878
+		8781
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 450
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+	}
+}
+
+Group Huntfm410
+{
+	Vnum	40
+	Name	HUNTING_MISSION_40_NAME
+	NeedCount	200
+	MinLevel	100
+
+	List MobVnums
+	{
+		8433
+		8424
+		8407
+		8421
+		8406
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 652
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+	}
+}
+
+Group Huntfm51
+{
+	Vnum	41
+	Name	HUNTING_MISSION_41_NAME
+	NeedCount	5
+	MinLevel	125
+
+	List MobVnums
+	{
+		878
+		8781
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 120
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm52
+{
+	Vnum	42
+	Name	HUNTING_MISSION_42_NAME
+	NeedCount	80
+	MinLevel	125
+
+	List MobVnums
+	{
+		8406
+		8424
+		8407
+		8421
+		8433
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 160
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm53
+{
+	Vnum	43
+	Name	HUNTING_MISSION_43_NAME
+	NeedCount	6
+	MinLevel	125
+
+	List MobVnums
+	{
+		878
+		8781
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 210
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm54
+{
+	Vnum	44
+	Name	HUNTING_MISSION_44_NAME
+	NeedCount	160
+	MinLevel	125
+
+	List MobVnums
+	{
+		8406
+		8424
+		8407
+		8421
+		8433
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 270
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm55
+{
+	Vnum	45
+	Name	HUNTING_MISSION_45_NAME
+	NeedCount	7
+	MinLevel	125
+
+	List MobVnums
+	{
+		878
+		8781
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 330
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm56
+{
+	Vnum	46
+	Name	HUNTING_MISSION_46_NAME
+	NeedCount	240
+	MinLevel	125
+
+	List MobVnums
+	{
+		8406
+		8424
+		8407
+		8421
+		8433
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 390
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm57
+{
+	Vnum	47
+	Name	HUNTING_MISSION_47_NAME
+	NeedCount	8
+	MinLevel	125
+
+	List MobVnums
+	{
+		878
+		8781
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 460
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm58
+{
+	Vnum	48
+	Name	HUNTING_MISSION_48_NAME
+	NeedCount	320
+	MinLevel	125
+	
+	List MobVnums
+	{
+		8406
+		8424
+		8407
+		8421
+		8433
+		8302
+	}
+	
+	List Rewards
+	{
+		TREE_POINT 530
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm59
+{
+	Vnum	49
+	Name	HUNTING_MISSION_49_NAME
+	NeedCount	9
+	MinLevel	125
+
+	List MobVnums
+	{
+		878
+		8781
+		719
+		7191
+		472
+		4721
+		676
+		6761
+		880
+		8801
+		9263
+		9264
+	}
+
+	List Rewards
+	{
+		TREE_POINT 600
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+	}
+}
+
+Group Huntfm510
+{
+	Vnum	50
+	Name	HUNTING_MISSION_50_NAME
+	NeedCount	400
+	MinLevel	125
+
+	List MobVnums
+	{
+		8406
+		8424
+		8407
+		8421
+		8433
+		8302
+	}
+
+	List Rewards
+	{
+		TREE_POINT 824
+		9636 1
+	}
+	
+	List Required
+	{
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		11
+		12
+		13
+		14
+		15
+		16
+		17
+		18
+		19
+		20
+		21
+		22
+		23
+		24
+		25
+		26
+		27
+		28
+		29
+		30
+		31
+		32
+		33
+		34
+		35
+		36
+		37
+		38
+		39
+		40
+		41
+		42
+		43
+		44
+		45
+		46
+		47
+		48
+		49
+	}
+}

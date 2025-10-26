@@ -1,0 +1,19 @@
+quest hexagon_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("hexagon_a") > 0 begin
+		send_letter("Sechseckige-Schatztruhe")
+	end
+	
+	when info or button begin
+		say_important("Sechseckige-Schatztruhe")
+		say_item_vnum(50037)
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance wertvolle Sechseckige-Schatztruhen bei allen Monstern zu erhalten!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

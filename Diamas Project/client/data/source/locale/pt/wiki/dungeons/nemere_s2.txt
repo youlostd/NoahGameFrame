@@ -1,0 +1,83 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/nemere.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 100 - 105
+*Eintrittsitem: Passierschein
+[IMG=d:/ymir work/ui/wiki/rahmen.tga; Y=5; X=460]
+[IMG=d:/ymir work/ui/wiki/71095.tga; Y=15; X=482]
+
+
+[X_PADDING=469]Passierschein
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheiten:
+*Die Nemeres Warte hat eine Abklingzeit von 3 Stunden.
+*Die Nemeres Warte kann mit und ohne Gruppe betreten werden.
+*Man hat insgesamt 60 Minuten Zeit um die Nemeres Warte abzuschließen.
+*Es benötigen alle Gruppenmitglieder einen Passierschein.
+
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=150; CENTER_ALIGN]
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 1
+
+[X_PADDING=20]Tötet alle Monster.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 2
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=240; X=490]
+[IMG=d:/ymir work/ui/wiki/30331.tga; Y=246; X=496]
+
+[X_PADDING=20]Tötet solange Monster bis ihr einen Frostschlüssel droppt.
+[X_PADDING=20]Aktiviert solange die Frostschlüssel bis ihr den richtigen habt.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 3
+
+[X_PADDING=20]Tötet alle Monster.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 4
+
+[X_PADDING=20]Tötet alle Monster.
+[X_PADDING=20]Es gibt 2 Wellen die man töten muss.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 5
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=460; X=490]
+[IMG=d:/ymir work/ui/wiki/30332.tga; Y=466; X=497]
+
+[X_PADDING=20]Tötet solange Monster bis ihr einen Nordstern droppt.
+[X_PADDING=20]Zieht diesen auf einen Würfel des Arktos, wiederholt dies bis alle Würfel weg sind.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 6
+
+[X_PADDING=20]Tötet alle Monster.
+[X_PADDING=20]Tötet den Metin der Kälte.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 7
+
+[X_PADDING=20]Tötet den richtigen Szel.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 8
+[IMG=d:/ymir work/ui/wiki/rahmen_small.tga; Y=680; X=490]
+[IMG=d:/ymir work/ui/wiki/30333.tga; Y=686; X=496]
+
+[X_PADDING=20]Tötet solange Monster bis ihr einen Eisblumenschlüssel droppt. 
+[X_PADDING=20]Aktiviert solange die Eisblumenschlüssel bis ihr den richtigen habt.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 9
+
+[X_PADDING=20]Tötet die Säule des Norddrachen.
+[X_PADDING=20]Klickt auf den Eisigen Löwen um zu Nemere teleportiert zu werden.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 10
+
+[X_PADDING=20]Tötet Nemere.
+[IMG=d:/ymir work/ui/wiki/Nemere.tga; Y=750; X=402]
+
+
+

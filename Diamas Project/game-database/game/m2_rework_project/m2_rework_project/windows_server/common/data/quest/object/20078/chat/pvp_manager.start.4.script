@@ -1,0 +1,47 @@
+say_title ( "GM: PvP TURNUVA BASLAT canim:" ) 
+if game . get_event_flag ( "pvp_sinif" ) == 0 then 
+say ( "Sinif secimi yapmadin canim seni zorlarim." ) 
+return 
+end 
+say ( "Min level siniri gir canim (Min: 15):" ) 
+local str_min_level = input ( ) 
+say_title ( "Turnuvayi baslat?:" ) 
+local min_level = tonumber ( str_min_level ) 
+if min_level == nil then 
+say ( "Minimum leveli girmedin canim." ) 
+say ( "" ) 
+return 
+end 
+if tonumber ( str_min_level ) < 15 then 
+min_level = 15 
+end 
+say ( "Minimum leveli su sekilde ayarladim : " .. tostring ( min_level ) .. "." ) 
+say ( "Maximum leveli girmedin canim:" ) 
+local str_max_level = input ( ) 
+say_title ( "Turnuvayi baslat?:" ) 
+local max_level = tonumber ( str_max_level ) 
+if max_level == nil then 
+say ( "Maximum leveli girmedin canim." ) 
+say ( "" ) 
+return 
+end 
+if tonumber ( str_max_level ) < min_level then 
+say ( "Maks level min levelden yuksek olmali canim." ) 
+say ( "" ) 
+return 
+end 
+game . set_event_flag ( "pvp_minlevel" , min_level ) 
+game . set_event_flag ( "pvp_maxlevel" , max_level ) 
+say ( "Min Level: " .. tostring ( min_level ) .. " olarak ayarlandi canim." ) 
+say ( "Max Level: " .. tostring ( max_level ) .. " olarak ayarlandi canim." ) 
+say ( "" ) 
+local s = select ( "Baslat " , "iptal et " ) 
+if s == 2 then 
+return 
+end 
+say_title ( "PvP Turnuvasini baslat:" ) 
+say ( "" ) 
+say ( "PvP Turnuvasi basladi." ) 
+say ( "" ) 
+say_reward ( "Level Limiti: " .. game . get_event_flag ( "pvp_minlevel" ) .. " - " .. game . get_event_flag ( "pvp_maxlevel" ) ) 
+pvp_manager . open_registrations ( ) 

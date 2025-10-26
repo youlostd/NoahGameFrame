@@ -1,0 +1,19 @@
+1	Kill Monster	Left: {}	Monster: all Monsters	Kill Monster, to complete	the mission and get your	reward.
+2	Kill a Player	Left: {}	Player: |cffff9d9d|H|hNo Restriction|h|r	Kill |cffff9d9d|H|Player|h|r, to complete	the mission and get your	reward.
+3	Damage on Monster	Damage: {}	Monster: |cffff9d9d|H|h{}|h|r	Total Damage |cffff9d9d|H|h{}|h|r, to complete	the mission and get your	reward.
+4	Damage on Player	Damage: {}	Target: |cffff9d9d|H|Player|h|r	Do Damage on Player, to complete	the mission and get your	reward.
+5	Use an Item	Item: {}	Item: |cffff9d9d|H|h{}|h|r	Use |cffff9d9d|H|h{}|h|r, to complete	the mission and get your	reward.
+6	Sell an Item	Item: {}	Item: |cffff9d9d|H|h{}|h|r	Sell |cffff9d9d|H|h{}|h|r, to complete	the mission and get your	reward.
+7	Craft an Item	Item: {}	Item: |cffff9d9d|H|h{}|h|r	Craft |cffff9d9d|H|h{}|h|r, to complete	the mission and get your	reward.
+8	Refine	Item: {}	Item: |cffff9d9d|H|h{}|h|r	Refine |cffff9d9d|H|h{}|h|r, to complete	the mission and get your	reward.
+9	Destroy	Item: {}	Destroy this Item	Destroy this Item, to complete	the mission and get your	reward.
+10	Collect an Item	Item: {}	Collect this Item	Collect this Item, to complete	the mission and get your	reward.
+11	Fry a Fish	Already fried: {}	Location: Map1	Fry this Fish, to complete	the mission and get your	reward.
+12	Catch a Fish	Left: {}	Location: Map1	Catch this Fish, to complete	the mission and get your	reward.
+13	Spend Yang	Spend Yang: {}	You can spend Yang at the NPC or at the Crafter	Spend your Yang, to complete	the mission and get your	reward.
+14	Farm Yang	Yang received: {}	Farm Yang from Monsters	Farm Yang, to complete	the mission and get your	reward.
+15	Finish this Dungeon	Left: {}	Finish this Dungeon	Finish this Dungeon, to complete	the mission and get your	reward.
+16	Play this Minigame	Left: {}	Play this Minigame	Play this Minigame, to complete	the mission and get your	reward.
+17	Kill Boss	Left: {}	Boss: all Bosses	Kill Bosses, to complete	the mission and get your	reward.
+18	Kill Metinstone	Left: {}	Metinstone: all Metinstones	Kill Metinstones, to complete	the mission and get your	reward.
+19	Playtime	Playtime needed (minutes): {}	Playtime	Play the game, to complete	the mission and get your	reward.

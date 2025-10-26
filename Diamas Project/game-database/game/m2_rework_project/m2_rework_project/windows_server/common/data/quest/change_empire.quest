@@ -1,0 +1,107 @@
+quest change_empire begin
+	state start begin
+		--when 20090.chat.gameforge.change_empire._10_npcChat  with game.get_event_flag("c_e") >0  begin
+
+		--   local count = pc.get_change_empire_count() ;
+		--   if count >= 1 then
+		--		   say(gameforge.change_empire._20_say)
+		--		   return
+		--   end
+		--   say_title(gameforge.change_empire._10_npcChat)
+
+		--   say(gameforge.change_empire._30_say)
+		--   local s =  select(gameforge.locale.guild.yes, gameforge.locale.cancel)
+
+		--   if s == 1 then
+		--		   change_empire.move_pc()
+		--   end
+		--end
+
+	   when 71054.use begin
+	   
+	   
+			if pc.in_dungeon() then
+				say("Du kannst das Item hier nicht nutzen!")
+				return
+			end
+	   
+		   say_title(gameforge.change_empire._10_npcChat)
+
+		   say(gameforge.change_empire._40_say)
+		   if get_time() < pc.getqf("next_use_time") then
+					say_title(gameforge.change_empire._50_sayTitle)
+					say_reward(gameforge.change_empire._60_sayReward)
+
+					if pc.is_gm() then
+						say(gameforge.change_empire._70_say)
+						local s =  select(gameforge.locale.guild.yes, gameforge.locale.guild.no)
+						if s == 1 then
+							say(gameforge.change_empire._80_say)
+							pc.setqf("next_use_time", 0)
+						end
+				   end
+
+				   return
+		   end
+
+		   if change_empire.move_pc() == true then
+				   pc.setqf("next_use_time", get_time() + 0 * 0)
+		   end
+	   end
+
+	   function move_pc()
+		   if pc.is_engaged() then
+				say_title(gameforge.change_empire._50_sayTitle)
+				say_reward(gameforge.change_empire._90_sayReward)
+				say(gameforge.change_empire._100_say)
+				return false
+		   end
+
+		   if pc.is_married() then
+			   say_title(gameforge.change_empire._50_sayTitle)
+			   say_reward(gameforge.change_empire._90_sayReward)
+			   say(gameforge.change_empire._110_say)
+			   return false
+		   end
+
+		   if pc.is_polymorphed() then
+			   say_title(gameforge.change_empire._50_sayTitle)
+			   say_reward(gameforge.change_empire._120_sayReward)
+			   say(gameforge.change_empire._130_say)
+			   return false
+		   end
+
+		   if pc.has_guild() then
+			   say_title(gameforge.change_empire._50_sayTitle)
+			   say_reward(gameforge.change_empire._140_sayReward)
+			   say(gameforge.change_empire._150_say)
+			   return false
+		   end
+		   
+		   if party.is_party() then
+			   say_title(gameforge.change_empire._50_sayTitle)
+			   say_reward(gameforge.change_empire._170_sayReward)
+			   say(gameforge.change_empire._150_say)
+			   return false
+		   end
+
+
+		   say_reward(gameforge.change_empire._210_sayReward)
+
+		   local a =  select(gameforge.locale.guild.yes, gameforge.locale.cancel)
+
+		   if 2 == a then
+				   return false
+		   end
+		   
+			if pc.set_change_empire(1) then
+				pc.remove_item(71054) ;
+			else
+				return false
+			end
+			
+			return true
+	   end
+	end
+end
+

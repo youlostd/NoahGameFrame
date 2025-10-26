@@ -1,0 +1,8 @@
+quest stone_unbug begin
+	state start begin
+		when 20405.take begin
+			item.socket_repair()
+			chat("Stones repaired")
+		end
+	end
+end

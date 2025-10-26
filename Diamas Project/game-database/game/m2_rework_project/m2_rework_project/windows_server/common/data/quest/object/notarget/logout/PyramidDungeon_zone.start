@@ -1,0 +1,7 @@
+if PyramidDungeonLIB . isActive ( ) then local settings = PyramidDungeonLIB . Settings ( ) ; 
+local Items = { 30800 , 30801 , 30802 , 30803 , 30804 , 30805 } ; 
+for index = 1 , table . getn ( Items ) begin 
+pc . remove_item ( Items [ index ] , pc . count_item ( Items [ index ] ) ) ; 
+end 
+cmdchat ( "ClearDungeonCoolTime" ) ; 
+ return end 

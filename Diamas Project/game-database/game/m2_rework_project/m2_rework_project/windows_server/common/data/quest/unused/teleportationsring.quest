@@ -1,0 +1,410 @@
+quest warpring begin
+    state start begin
+        when 70007.use begin
+	     say("[WINDOW_SIZE width;330|height;400]")
+		 local empire = pc.get_empire()
+		 say_title("Warpring") 
+         say("Wohin möchtest du Teleportiert werden?[ENTER]")
+		local selectmap = select("Map1","Map2","Gildenzone","Orktal","Wüste","Hwang-Tempel","Eisland","Feuerland","Dämonenturm","Geisterwald","Roter Wald","Spinnendungeon","Land der Riesen","Schlangenfeld","Grotte der Verbannung","Kap des Drachenfeuers","Nephritbucht","Donnerberge","Gautamakliff","Abbrechen")
+		if selectmap == 17 then
+		return
+		elseif selectmap ==  then
+		return
+		elseif selectmap == 1 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local map1select = select("Rotes Reich","Gelbes Reich","Blaues Reich","Abbrechen")
+                    if map1select == 4 then
+                        return
+                    elseif map1select == 1 then
+            pc.warp(474300, 954800)
+                    elseif map1select == 2 then
+            pc.warp(63800, 166400)
+                    elseif map1select == 3 then
+            pc.warp(959900, 269200)
+            end
+		
+		 elseif selectmap == 2 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local map2select = select("Rotes Reich","Gelbes Reich","Blaues Reich","Abbrechen")
+                    if map2select == 4 then
+                        return
+                    elseif map2select == 1 then
+            pc.warp(353100, 882900)
+                    elseif map2select == 2 then
+            pc.warp(145500, 240000)
+                    elseif map2select == 3 then
+            pc.warp(863900, 246000)
+            end
+			
+		elseif selectmap == 3 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local guildselect = select("Miryang(Rot)","Songpa(Gelb)","Daeyami(Blau)","Abbrechen")
+                    if guildselect == 4 then
+                        return
+                    elseif guildselect == 1 then
+            pc.warp(204800, 204800)
+                    elseif guildselect == 2 then
+            pc.warp(614400, 384000)
+                    elseif guildselect == 3 then
+            pc.warp(256000, 819200)
+            end
+		
+		elseif selectmap == 4 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local otselect = select("Anfang","Mitte","Rek-Wiese","Abbrechen")
+                    if otselect == 4 then
+                        return
+                    elseif otselect == 1 then
+            if empire == 1 then
+            pc.warp(402100, 673900)
+                    elseif empire == 2 then
+            pc.warp(270400, 739900)
+                    elseif empire == 3 then
+            pc.warp(321300, 808000)
+            end
+                    elseif otselect == 3 then
+            pc.warp(280607, 800200)
+            end
+			
+			elseif selectmap == 5 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local wuesteselect = select("Oben","Mitte","Unten","Links","Abbrechen")
+                    if wuesteselect == 5 then
+                        return
+                    elseif wuesteselect == 1 then
+            pc.warp(278700, 507400)
+                    elseif wuesteselect == 2 then
+            pc.warp(221900, 502700)
+                    elseif wuesteselect == 3 then
+            pc.warp(269500, 615900)
+            end
+			elseif empire == 4 then
+            pc.warp(235800, 559100)
+            end
+                    elseif wuesteselect == 2 then
+            pc.warp(296800, 547100)
+            end
+			
+			elseif selectmap == 6 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local tempelselect = select("Anfang","Tempel-DT","Tempel-DC","Abbrechen")
+                    if tempelselect == 4 then
+                        return
+                    elseif tempelselect == 1 then
+            pc.warp(474300, 954800)
+                    elseif tempelselect == 2 then
+            pc.warp(589300 108900)
+                    elseif tempelselect == 3 then
+            pc.warp(588600 96800)
+            end
+			
+			 elseif selectmap == 7 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local eisselect = select("Anfang","Mitte","Ende","Memeres Warte","Abbrechen")
+                    if eisselect == 5 then
+                        return
+            elseif eisselect == 1 then
+            if empire == 1 then
+            pc.warp(434200, 290600)
+                    elseif empire == 2 then
+            pc.warp(375200, 174900)
+                    elseif empire == 3 then
+            pc.warp(491800, 173600)
+            end
+			elseif eisselect == 2 then
+			pc.warp(439300, 214300)
+			elseif eisselect == 3 then
+			pc.warp(495200, 274000)
+			elseif eisselect == 4 then
+			pc.warp(432700, 167500)
+			 
+			
+			elseif selectmap == 8 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local feuerselect = select("Anfang","Mitte","Brücke","Rptdrachenfestung","Abbrechen")
+                    if feuerselect == 5 then
+                        return
+			elseif feuerselect == 1 then
+            if empire == 1 then
+            pc.warp(599400, 756300)
+                    elseif empire == 2 then
+            pc.warp(597800, 622200)
+                    elseif empire == 3 then
+            pc.warp(730700, 689800)
+            end
+			
+			
+            elseif feuerselect == 2 then
+            pc.warp(600800, 687100)
+			end
+			
+			elseif feuerselect == 3 then
+            pc.warp(636300, 687000)
+			end
+			
+			elseif feuerselect == 4 then
+            pc.warp(612100, 706400)
+			end
+			
+			elseif selectmap == 9 then
+			say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+            pc.warp(590500,110800)
+			
+                    elseif selectmap == 10 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local geisterselect = select("Anfang","Teleporter","Ende","Abbrechen")
+                    if geisterselect == 4 then
+                        return
+                    elseif geisterselect == 1 then
+            pc.warp(290500,5700)
+			elseif geisterselect == 2 then
+            pc.warp(307300, 25200)
+                    elseif geisterselect == 3 then
+            pc.warp(286400,44200)
+            end
+			
+		elseif selectmap == 11 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+                    local roterselect = select("Anfang","Mitte","Arena","Ende","Abbrechen")
+                    if roterselect == 5 then
+                        return
+                    elseif roterselect == 1 then
+            pc.warp(1119900,70800)
+			elseif roterselect == 2 then
+            pc.warp(1085400, 17600)
+			elseif roterselect == 3 then
+            pc.warp(1104200, 53500)
+                    elseif roterselect == 4 then
+            pc.warp(1119100,7700)
+            end
+			
+			
+			elseif selectmap == 12 then
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+					local sdselect = select("Spinnendungeon1","Spinnendungeon2","Bruthöle(SD3)","Abbrechen")
+						if sdselect == 4 then 
+						return
+						elseif sdselect == 1 then 
+						pc.warp(82500, 525300)
+						elseif sdselect == 2 then 
+						pc.warp(715900, 514500)
+						elseif sdselect == 3 then 
+						pc.warp(70700, 609500)
+						end
+						
+						
+						
+			
+		elseif selectmap == 13 then --LDR
+		say_title("Warpring") 
+        say("Wohin möchtest du Teleportiert werden?")
+        pc.warp(819200, 716800)
+            end
+			
+		elseif selectmap == 14 then  --Schlangenfeld
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+						local ldrselect = select("Anfang","Mitte","Ende","Abbrechen")
+						if ldrselect == 4 then
+                        return
+						elseif ldrselect == 1 then
+						 pc.warp(1061700, 729600)
+						
+						elseif ldrselect == 2 then
+							pc.warp(1085400, 801200)
+							elseif ldrselect == 3 then
+							pc.warp(1061000, 756900)
+						end
+					
+			
+		elseif selectmap2 == 15 then
+						say_title("Warpring") 
+						say("Diese Maps sind erst ab level 75 erreichbar.")
+						say("Außerdem benötigst du 2x")
+						say_item_vnum(30191)
+						wait()
+						
+                        say_title("Warpring") 
+                        say("Wohin möchtest du Teleportiert werden?")
+						local grotteselect = select("Anfang Grotte1","Ende Grotte1","Anfang Grotte2","Ende Grotte2","Abbrechen")
+						if grotteselect == 5 then
+                        return
+						elseif grotteselect == 1 then
+						if pc.get_level() <= 74 or pc.get_item(30191) < 2 then
+						say("Du erfüllst die Anforderungen nicht!")
+						say("Diese Maps sind erst ab level 75 erreichbar.")
+						say("Außerdem benötigst du 2x")
+						say_item_vnum(30191)
+						else
+						 pc.warp(10900, 1206100)
+						 end
+						elseif grotteselect == 2 then
+						if pc.get_level() <= 74 or pc.get_item(30191) < 2 then
+						say("Du erfüllst die Anforderungen nicht!")
+						say("Diese Maps sind erst ab level 75 erreichbar.")
+						say("Außerdem benötigst du 2x")
+						say_item_vnum(30191)
+						else
+						 pc.warp(143200 1326200)
+						 end
+						
+						elseif grotteselect == 3 then
+						if pc.get_level() <= 74 or pc.get_item(30191) < 2 then
+						say("Du erfüllst die Anforderungen nicht!")
+						say("Diese Maps sind erst ab level 75 erreichbar.")
+						say("Außerdem benötigst du 2x")
+						say_item_vnum(30191)
+						else
+						 pc.warp(239000, 1273200)
+						 end
+						 
+						elseif grotteselect == 4 then
+						if pc.get_level() <= 74 or pc.get_item(30191) < 2 then
+						say("Du erfüllst die Anforderungen nicht!")
+						say("Diese Maps sind erst ab level 75 erreichbar.")
+						say("Außerdem benötigst du 2x")
+						say_item_vnum(30191)
+						else
+						 pc.warp(181400, 1219800)
+						 end
+						 
+						 
+						 
+						end
+			
+		elseif selectmap == 16 then
+		say_title("Warpring") 
+		local kapselect = select("Anfang","Strand","Ende1","Ende2","Abbrechen")
+		if kapselect == 5 then
+                        return
+        elseif kapselect == 1 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1085600, 1801000)
+						 end
+						 
+			elseif kapselect == 2 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1164800, 1778100)
+						 end
+						 
+			elseif kapselect == 3 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1092700, 1674800)
+						 end
+						 
+			elseif kapselect == 4 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1161700, 1684600)
+						 end
+            end
+		
+		elseif selectmap == 17 then
+		say_title("Warpring") 
+		local donnerselect = select("Anfang","Tempel","Ende","Abbrechen")
+		if donnerselect == 4 then
+                        return
+        elseif donnerselect == 1 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1149600, 1644800)
+						 end
+						 
+			elseif donnerselect == 2 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1175800, 1582400)
+						 end
+						 
+			elseif donnerselect == 3 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1196900, 1655500)
+						 end
+						 
+            end
+		
+			elseif selectmap == 18 then
+		say_title("Warpring") 
+		local kliffselect = select("Anfang","Mitte","Abbrechen")
+		if kliffselect == 3 then
+                        return
+        elseif kliffselect == 1 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1219600, 1684400)
+						 end
+						 
+			elseif kliffselect == 2 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1276900, 1744400)
+						 end
+						 
+						 
+            end
+		
+		
+			elseif selectmap == 19 then
+		say_title("Warpring") 
+		local buchtselect = select("Anfang","Mitte","Abbrechen")
+		if buchtselect == 3 then
+                        return
+        elseif buchtselect == 1 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1087000, 1649300)
+						 end
+						 
+			elseif buchtselect == 2 then
+						if pc.get_level() < 90 then
+						say("Diese Map ist erst ab level 90 erreichbar.")
+						return
+						else
+						 pc.warp(1079600, 1574000)
+						 end
+						 
+						 
+            end
+            end
+			
+ end
+                
+                    end
+                        end
+                           

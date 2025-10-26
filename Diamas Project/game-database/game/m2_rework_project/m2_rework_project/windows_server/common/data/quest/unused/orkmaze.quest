@@ -1,0 +1,242 @@
+define TELEPORT_NPC_ENTRY 20499
+define JOIN_MIN_LEVEL 150
+define JOIN_MAX_LEVEL 150
+define MAP_INDEX 353
+define STONE_MODE 0
+quest ork_maze begin
+	state start begin
+		function ClearDungeon()
+			local idx = d.get_map_index()
+			clear_server_timer("check_monster_count",idx)
+			clear_server_timer("cur_time_1",idx)
+			clear_server_timer("cur_time_2",idx)
+			clear_server_timer("cur_time_3",idx)
+			clear_server_timer("cur_time_4",idx)
+			clear_server_timer("bossroom",idx)
+			clear_server_timer("end_timer",idx)
+			d.setf("portal",0)
+			d.clear_regen()
+			d.setf("onlineg", 0)
+			d.kill_all()
+			end
+		function set_next_portal()
+			if d.getf("portal") == 4 then
+				d.regen_file("data/dungeon/orkmaze/e"..d.getf("portal")..".txt")
+				d.set_unique("ork_seal", d.spawn_mob(692,54,1383))
+				clear_server_timer("check_monster_count",d.get_map_index())
+			end
+			if d.getf("portal") == 2 then d.set_unique("s2", d.spawn_mob(604,714,1289)) 
+			elseif d.getf("portal") == 3 and d.getf("onlineg") == 3 then d.set_unique("s3", d.spawn_mob(604,483,1376)) end
+			
+			if d.getf("portal") < 4 then 
+				d.regen_file("data/dungeon/orkmaze/e"..d.getf("portal")..".txt")
+				d.setf("portal",d.getf("portal")+1)
+			end
+			d.notice(gameforge.ork_maze.portal_open_notice) --Die Portale wurden geöffnet.
+		end
+		function CheckParty()
+			local pids = {party.get_member_pids()}
+			if not party.is_party() then say(gameforge.ork_maze.say_2_party_fail) return false
+			elseif not party.is_leader() then say(gameforge.ork_maze.say_1_party_fail) return false -- Nur der Gruppenleiter kann euch zum Labyrinth Teleportieren.
+			elseif pc.get_level() < JOIN_MIN_LEVEL then say(string.format(gameforge.ork_maze.say_1_level_fail,JOIN_MIN_LEVEL)) return false -- Dein Level ist niedrig komm wieder wenn du %u bist.
+			elseif pc.get_level() > JOIN_MAX_LEVEL then say(string.format(gameforge.ork_maze.say_2_level_fail,JOIN_MIN_LEVEL,JOIN_MAX_LEVEL)) return false -- Dein Level ist zu hoch, dieser Run ist nur von Level %u bis %u erlaubt.
+			elseif table.getn(pids) > 3 then say(gameforge.ork_maze.full_party) return false --Deine Gruppe ist zu groß, es sind maximal 2 erlaubt.
+			elseif table.getn(pids) <= 1 then say(gameforge.ork_maze.empty_party) return false -- Deine Gruppe ist unvollständig. Mindestens ein Gruppen Mitglied muss Online sein.
+			elseif ork_maze.CheckPartyLevel() then return true
+			end
+		end
+		function CheckPartyLevel()
+			local pids = {party.get_member_pids()}
+			local user_fail_level = {}
+				for i=1, table.getn(pids), 1 do 
+					q.begin_other_pc_block(pids[i])
+					pc.setqf("orksiegel", 0)
+					if pc.get_level() < JOIN_MIN_LEVEL or pc.get_level() > JOIN_MAX_LEVEL then
+						table.insert(user_fail_level, table.getn(user_fail_level) +1, pc.get_name())
+					end
+					q.end_other_pc_block(pids[i])
+				end
+				for x = 1, table.getn(user_fail_level), 1 do
+					say(user_fail_level[x])
+			end
+			if table.getn(user_fail_level) >= 1 then
+				say_title(gameforge.ork_maze.title1)
+				say(gameforge.ork_maze.say_3_party_fail)
+				for x = 1, table.getn(user_fail_level), 1 do
+					say(user_fail_level[x])
+				end
+			else return true
+			end
+		end
+		when TELEPORT_NPC_ENTRY.chat.gameforge.ork_maze.title1 begin -- Das Ork Labyrinth
+			if party.is_party() then
+				if ork_maze.CheckParty() then
+					say(gameforge.ork_maze.say_1) --Willst du das Labyrinth mit deiner Gruppe betreten?(Bearbeiten)
+					if select(gameforge.yes, gameforge.no) == 2 then return end
+					timer("warp_delay", 1)
+				end
+			else
+				if pc.get_level() < JOIN_MIN_LEVEL or pc.get_level() > JOIN_MAX_LEVEL then
+					say("Level requirements not met")
+				end
+				say(gameforge.ork_maze.say_2) --Willst du das Labyrinth betreten?(Bearbeiten)
+				if select(gameforge.yes, gameforge.no) == 2 then return end
+				timer("warp_delay", 1)
+			end
+		end
+		when warp_delay.timer begin
+			if party.is_party() then
+				d.new_jump_party(MAP_INDEX,105,106)
+			else
+				d.new_jump(MAP_INDEX,105,106)
+			end
+			ork_maze.ClearDungeon()
+			if party.is_party() then
+				local pids = {party.get_member_pids()}
+				d.setf("onlineg", table.getn(pids))
+			else
+				d.setf("onlineg", 1)
+			end
+			d.setf("start_time", get_global_time())
+			server_loop_timer("check_monster_count", 10, d.get_map_index())
+			server_timer("cur_time_1", 60*10, d.get_map_index())
+			server_timer("notice1", 3, d.get_map_index())
+			if STONE_MODE == 1 then d.regen_file("data/dungeon/orkmaze/e_start.txt") end
+		end
+		when notice1.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				notice_multiline(gameforge.ork_maze.notice_min_time,d.notice) -- Ihr habt 30 Minuten Zeit den richtigen weg zu finden und den Oberork zu töten. Um die Portale der jeweiligen Ebenen zu Öffnen müsst ihr alle Monster töten.
+				d.notice("The dungeon master is checking your progress every 45 seconds")
+
+				if STONE_MODE == 0 then
+					d.set_unique("s1", d.spawn_mob(604,623,909))
+					d.regen_file("data/dungeon/orkmaze/e"..d.getf("portal")..".txt")
+					d.setf("portal",d.getf("portal")+1)
+				end
+			end
+		end
+		when cur_time_1.server_timer begin
+			if d.select(get_server_timer_arg()) and d.getf("finish_portal") == 0 then
+				d.notice(gameforge.ork_maze.time_20_min) -- Ihr habt noch 20 Minuten Zeit!
+				server_timer("cur_time_2", 60*10, d.get_map_index())
+			end
+		end
+		when cur_time_2.server_timer begin
+			if d.select(get_server_timer_arg()) and d.getf("finish_portal") == 0 then
+				d.notice(gameforge.ork_maze.time_10_min) -- Ihr habt noch 10 Minuten Zeit!
+				server_timer("cur_time_3", 60*5, d.get_map_index())
+			end
+		end
+		when cur_time_3.server_timer begin
+			if d.select(get_server_timer_arg()) and d.getf("finish_portal") == 0 then
+				d.notice(gameforge.ork_maze.time_5_min) -- Ihr habt noch 5 Minuten Zeit!
+				server_timer("cur_time_4", 60*5, d.get_map_index())
+			end
+		end
+		when cur_time_4.server_timer begin
+			if d.select(get_server_timer_arg()) and d.getf("finish_portal") == 0 then
+				d.notice(gameforge.ork_maze.time_fail_min) -- Ihr habt es leider nicht geschaft.
+				server_timer("end_timer", 10, d.get_map_index())
+			end
+		end
+		when end_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				ork_maze.ClearDungeon()
+				d.set_warp_location (75, 234,173)
+				d.exit_all()
+			end
+		end
+		when check_monster_count.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				if d.count_monster() <= 0 and d.getf("portal") < 5 then
+					d.notice("The dungeon master is checking right now")
+					ork_maze.set_next_portal()
+				end
+			end
+		end
+		when 692.kill with pc.in_dungeon() and d.get_unique_vid("ork_seal") begin
+			d.setf("finish_portal", 1)
+			notice_multiline(gameforge.ork_maze.ork_seal_dead,d.notice) -- Herzlichen Glückwunsch, ihr habt den Oberork getötet. Zieht nun eure Schlüssel auf die Siegel.
+			local tab = 
+					{
+						[1] = {54, 1383},
+						[2] = {54, 1383},
+						[3] = {54, 1383},
+					}
+			if party.is_party() then
+				local pids = {party.get_member_pids()}
+				local a = table.getn(pids)
+				for i = 1,a do
+					d.spawn_mob(30123, tab[i][1],tab[i][2])
+				end
+			else
+				d.spawn_mob(30123, tab[1][1],tab[1][2])
+			end
+		end
+		when 604.kill with npc.get_vid() == d.get_unique_vid("s1") or npc.get_vid() == d.get_unique_vid("s2") or npc.get_vid() == d.get_unique_vid("s3") begin
+			game.drop_item(39032,1)
+		end
+		when 693.kill with d.get_unique_vid("ork_verfl") begin
+			notice_multiline(gameforge.ork_maze.verfl_kill,d.notice) -- Ihr habt den Verfl. Oberork getötet und werdet in 60 Sekunden in den Boss Raum Teleportiert.
+			server_timer("bossroom", 10, d.get_map_index())
+			d.kill_all()
+		end
+		when bossroom.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.jump_all(138,932) -- zum boss raum
+				d.spawn_mob(691,137,891)
+				d.regen_file("data/dungeon/orkmaze/bossroom.txt")
+			end
+		end
+		when 691.kill with pc.in_dungeon() begin
+			d.notice(gameforge.ork_maze.finish_warp) -- Ihr werdet in 60 Sekunden raus Teleportiert.
+			notice_all(gameforge.ork_maze._190_notice_all1 .. pc.get_name() .. gameforge.ork_maze._190_notice_all2) --- GLOBAL NOTICE
+			server_timer("end_timer", 60, d.get_map_index())
+			
+			if party.is_party() then
+				highscore.register("omz_pt_time", get_global_time() - d.getf("start_time"), 0)
+			else
+				highscore.register("omz_time", get_global_time() - d.getf("start_time"), 0)
+			end
+			
+			
+			pc.setqf("691_kills", pc.getqf("691_kills") +  1)
+			d.kill_all()
+		end
+		-- when login begin
+			-- chat(pc.getqf("orksiegel"))
+		-- end
+		when 30123.chat.gameforge.ork_maze.get_last_bossroom begin -- Nächste Runde
+				say_title(gameforge.ork_maze.maze_title)
+				if party.is_party() and not party.is_leader() then say_reward(gameforge.ork_mae_say_fail_next_step) return end
+				say(gameforge.ork_maze.say_last_boss)
+				if select(gameforge.ork_maze.ready,gameforge.cancel) == 2 then return end
+				d.jump_all(118,394) -- stehen geblieben bei neuer jump posi, siegel dropp fehlt
+				d.set_unique("ork_verfl", d.spawn_mob(693,400,200))
+				d.regen_file("data/dungeon/orkmaze/last.txt")
+				d.notice(gameforge.ork_maze.notice_destroy_seals_next) -- Findet den Verfl. Oberork und tötet ihn.
+		end
+		when 20014.take with item.get_vnum() == 39032 begin
+			-- chat(pc.getqf("orksiegel"))
+			if pc.getqf("orksiegel") == 1 then say(gameforge.ork_maze.have_take_seal) return end -- Du hast bereits ein Siegel abgeben.
+			npc.purge()
+			item.remove()
+			d.setf("seal",d.getf("seal")+1)
+			pc.setqf("orksiegel", 1)
+			if party.is_party() then
+				local pids = {party.get_member_pids()}
+				if d.getf("seal") == table.getn(pids) then 
+					d.purge()
+					d.spawn_mob(30123,54,1383)
+				end
+			else 
+				if d.getf("seal") == 1 then 
+					d.purge()
+					d.spawn_mob(30123,54,1383)
+				end
+			end
+		end
+	--
+	end
+end
+	

@@ -1,0 +1,408 @@
+quest orc_maze_sg begin
+	state start begin
+
+	---****REVISION 1.3 ORC MAZE
+
+	function setting()
+		return
+
+		{
+
+		---***1 floor
+
+		["setup"] = { ["cordx"] = 1, ["cordy"] = 2},
+		["time"] = 3600,
+		["index_timer"] = 2180000,
+		["floor_1"] = {["index_map"] = 357, ["coord_x"] = 12182, ["coord_y"] = 7286},
+		["Lv"] = {["min"] = 29, ["max"] = 60},
+		["id_npc_access"] = 20396,
+		["object_acc"] = 71368,
+	
+		---***config key
+		["drop_key"] = {["object"] = 71369, ["cant"] = 1},
+
+		---***spawn orc chief
+		["seals"] = {["coords"] = {{60, 1396},{52,1397}}, ["seal"] = 20073},
+		["warrior"] = {["coord_x"] = 50, ["coord_y"] = 1384, ["npc"] = 30122},
+
+		---***2 floor
+		["floor_2"] = {["coord_x"] = 118, ["coord_y"] = 393},
+
+		---***3 floor
+		["floor_3"] = {["coord_x"] = 137, ["coord_y"] = 928, 
+
+						["seals"] = {["coordx1"] = 151, ["coordy1"] = 914, ["coordx2"] = 151, ["coordy2"] = 886, ["coordx3"] = 124, ["coordy3"] = 886, ["coordx4"] = 125, ["coordy4"] = 915, ["seal"] = 20073},
+
+						["final_boss"] = {["spawn"] = 693, ["coordx"] = 138, ["coordy"] = 887},
+
+						["final_floor"] = {["key"] = 71367}},	
+
+		--***SPAWN CHIEF
+		["chief"] = {["id"] = 692, ["coord_x"] = 411, ["coord_y"] = 201}
+
+
+
+		}
+	end
+
+
+----*****NPC ACCESS
+
+		when 20396.chat.akroma.orc_maze.sg_dungeon.npc_title_1 begin
+			if not party.is_party() then
+				say(akroma.orc_maze.no_1)
+				return
+			end
+
+				local pids = {party.get_member_pids()}
+				local notEnoughLevelMembers = {}
+				local noTicketMembers = {}
+				local notEnoughtTime = {}
+				local levelCheck = true
+				local ticketCheck = true
+					for i, pid in next, pids, nil do
+
+					q.begin_other_pc_block(pid)
+					local canPass = false
+
+						if pc.count_item(orc_maze_sg.setting().object_acc) >= 1 then
+							canPass = true
+						end
+						
+						if not canPass then
+							table.insert(noTicketMembers, pc.get_name())
+							ticketCheck = false
+						end	
+
+						if pc.get_level() < 29 or pc.get_level() > 60 then
+							table.insert(notEnoughLevelMembers, pc.get_name())
+							levelCheck = false
+						end	
+
+
+					q.end_other_pc_block(pid)
+
+					end					
+
+					if not ticketCheck then
+						say(akroma.orc_maze.no_4)
+						for i, name in next, noTicketMembers, nil do
+							say("    "..name)
+						end	
+						return
+					end					
+
+					if not levelCheck then
+						say_title(c_mob_name(20396))
+						say()
+						say(akroma.orc_maze.no_2)
+						for i, name in next, notEnoughLevelMembers, nil do
+							say("    "..name)
+						end
+
+						return
+					end	
+
+
+						if party.is_leader() then
+							say(akroma.orc_maze.leader_1)
+							say(akroma.orc_maze.leader_2)
+							local test = select(akroma.orc_maze.option_1, akroma.orc_maze.option_2)
+
+								if test == 1 then
+									timer("start_orc_maze", 4)
+									server_timer('orc_maze_lost1', 10*60, orc_maze_sg.setting().index_timer) --timer / time / argument (like pc.get_map_index())
+								else
+									return
+								end
+						else
+							say(akroma.orc_maze.no_3)
+						end
+		end
+
+
+
+---sg_dungeon
+
+	---***1 task
+
+		when start_orc_maze.timer begin
+			d.new_jump_party(orc_maze_sg.setting().floor_1.index_map, orc_maze_sg.setting().floor_1.coord_x, orc_maze_sg.setting().floor_1.coord_y)
+			d.regen_file("data/dungeon/orc_maze/regen_warp"..number(1,3)..".txt")
+			d.set_regen_file("data/dungeon/orc_maze/regen_orc.txt")
+			d.regen_file("data/dungeon/orc_maze/regen_chief.txt")
+			d.regen_file("data/dungeon/orc_maze/orc_labyrinth"..number(1,3)..".txt ")
+			d.setf("orc_maze", 1)
+			d.setf("seals", 2)
+			d.setf("keys", 0)
+			d.setf("start_time", get_global_time())
+		end
+
+----****first login
+
+		when login with d.getf("orc_maze") == 1 and d.getf("kill_secured") == 0 and pc.in_dungeon() begin
+			say(akroma.orc_maze.sg_dungeon.say_1)
+			pc.remove_item(orc_maze_sg.setting().object_acc, 1)
+		end
+
+---****kill spawn monsters 1 task
+
+		when 601.kill or 602.kill or 603.kill or 604.kill with d.getf("orc_maze") == 1 and pc.in_dungeon() begin
+
+			local n = number(1, 15)
+
+			if n > 14 and d.getf("keys") == 0 or d.getf("keys") == 1 then
+				pc.give_item2(orc_maze_sg.setting().drop_key.object,orc_maze_sg.setting().drop_key.cant)
+				d.setf("keys", d.getf("keys")+1)
+			end
+
+			if d.getf("keys") == 2 then
+				timer("orc_maze_2", 4)
+			end
+		end
+
+--****kill orc chief 1 task
+
+		when orc_maze_2.timer begin
+			d.jump_all(12419, 8561)
+		end
+
+		when 694.kill with d.getf("orc_maze") == 1 and pc.in_dungeon() begin
+			d.getf("kill_secured",1)
+
+			for i = 1, 2 do
+
+				d.spawn_mob(orc_maze_sg.setting().seals.seal, orc_maze_sg.setting().seals.coords[i][1], orc_maze_sg.setting().seals.coords[i][2])
+			end
+		end
+
+---***seals 1 task
+
+		when 20073.take with item.vnum == orc_maze_sg.setting().drop_key.object and d.getf("orc_maze") == 1 and pc.in_dungeon() begin
+			npc.purge()
+			d.setf("seals", d.getf("seals")-1)
+			item.remove()
+
+			if d.getf("seals") != 0 then
+				d.notice(string.format(akroma.orc_maze.dungeon_notice_12, d.getf("seals")))
+			else
+				d.notice(akroma.orc_maze.dungeon_notice_13)
+				d.spawn_mob(orc_maze_sg.setting().warrior.npc, orc_maze_sg.setting().warrior.coord_x, orc_maze_sg.setting().warrior.coord_y)
+			end
+
+		end
+
+---***warrior 1 task
+
+		when 30122.chat.akroma.orc_maze.npc_2 with d.getf("orc_maze") == 1 and pc.in_dungeon() begin
+		if not party.is_party() then
+				say(akroma.orc_maze.no_1)
+				return
+			end
+			say(c_mob_name(orc_maze_sg.setting().warrior.npc))
+					say()
+					say(akroma.orc_maze.say_3)
+
+					local t = select(akroma.orc_maze.option_3, akroma.orc_maze.option_4)
+
+					if t == 1 then
+						timer("second_orc_maze", 4)
+						npc.purge()
+						d.notice(akroma.orc_maze.dungeon_notice_3)
+					else
+						timer("exit_orc_maze", 5)
+						npc.purge()
+						d.notice(akroma.orc_maze.dungeon_notice_4)
+					end
+		end				
+
+----****EXIT ORC MAZE
+
+		when exit_orc_maze.timer begin
+			d.exit_all()
+		end
+
+---****second task
+
+		when second_orc_maze.timer begin
+			d.jump_all(orc_maze_sg.setting().floor_2.coord_x, orc_maze_sg.setting().floor_2.coord_y)
+			d.setf("orc_maze", 2)
+			d.setf("metins", 10)
+			d.regen_file("data/dungeon/orc_maze/regen_orc_maze_t.txt")
+			d.notice(akroma.orc_maze.dungeon_notice_5)
+			d.notice(akroma.orc_maze.dungeon_notice_6)
+		end
+
+---***metin 1
+
+		when 8035.kill with d.getf("orc_maze") == 2 begin
+			d.regen_file("data/dungeon/orc_maze/spawn_metins.txt")
+		end
+
+---***metins 10
+
+		when 8036.kill with d.getf("orc_maze") == 2 begin
+
+				d.setf("metins", d.getf("metins")-1)
+			if d.getf("metins") != 0 then
+				d.notice(string.format(akroma.orc_maze.get_seals, d.getf("metins")))
+			else
+				d.notice(akroma.orc_maze.completed_seals)
+				d.spawn_mob(orc_maze_sg.setting().chief.id, orc_maze_sg.setting().chief.coord_x, orc_maze_sg.setting().chief.coord_y)
+			end
+		end		
+
+
+---***chief 2 task
+
+		when 692.kill with pc.in_dungeon() and d.getf("orc_maze") == 2 begin
+			d.notice(akroma.orc_maze.dungeon_notice_7)
+			d.kill_all()
+			d.clear_regen()
+			d.notice(akroma.orc_maze.dungeon_notice_8)
+			timer("final_orc_maze", 4)
+		end
+
+---***3 task
+
+		when final_orc_maze.timer begin
+			d.jump_all(orc_maze_sg.setting().floor_3.coord_x, orc_maze_sg.setting().floor_3.coord_y)
+			d.set_regen_file("data/dungeon/orc_maze/regen_final_boss.txt")
+			d.notice(akroma.orc_maze.notice_seals)
+			d.setf("orc_maze", 4)
+			d.setf("seals", 4)
+			d.setf("keys", 4)
+
+				local seak = {
+				{orc_maze_sg.setting().floor_3.seals.coordx1, orc_maze_sg.setting().floor_3.seals.coordy1},
+				{orc_maze_sg.setting().floor_3.seals.coordx2, orc_maze_sg.setting().floor_3.seals.coordy2},
+				{orc_maze_sg.setting().floor_3.seals.coordx3, orc_maze_sg.setting().floor_3.seals.coordy3},
+				{orc_maze_sg.setting().floor_3.seals.coordx4, orc_maze_sg.setting().floor_3.seals.coordy4}
+
+				}
+
+				for i = 1, 4 do
+					d.spawn_mob(orc_maze_sg.setting().floor_3.seals.seal, seak[i][1], seak[i][2])
+				end
+
+		end
+
+----****drop key 3 task
+
+		when 601.kill or 602.kill or 603.kill or 604.kill with d.getf("orc_maze") == 4 and pc.in_dungeon() begin
+
+			local n = number(1, 50)
+
+			if n > 14 and d.getf("keys") == 4 or d.getf("keys") == 3 or d.getf("keys") == 2 or d.getf("keys") == 1 then
+				game.drop_item_with_ownership(orc_maze_sg.setting().floor_3.final_floor.key,orc_maze_sg.setting().drop_key.cant)
+				d.setf("keys", d.getf("keys")-1)
+			end
+		end
+
+
+---***SEALS 3 TASK
+
+		when 20073.take with item.vnum == orc_maze_sg.setting().floor_3.final_floor.key and d.getf("orc_maze") == 4 and pc.in_dungeon() begin
+			npc.purge()
+			d.setf("seals", d.getf("seals")-1)
+			item.remove()
+
+			if d.getf("seals") != 0 then
+				d.notice(string.format(akroma.orc_maze.dungeon_notice_12, d.getf("seals")))
+			else
+				d.notice(akroma.orc_maze.notice_seals2)
+				d.spawn_mob(orc_maze_sg.setting().floor_3.final_boss.spawn, orc_maze_sg.setting().floor_3.final_boss.coordx, orc_maze_sg.setting().floor_3.final_boss.coordy)
+			end
+		end	
+
+---***chief 3 task
+
+		when 693.kill with pc.in_dungeon() and d.getf("orc_maze") == 4 begin
+			d.notice(akroma.orc_maze.dungeon_notice_7)
+			d.kill_all()
+			d.clear_regen()
+			d.notice(akroma.orc_maze.dungeon_notice_9)
+			notice_all(akroma.orc_maze.dungeon_notice_10)
+			clear_server_timer('orc_maze_lost1', get_server_timer_arg())
+			clear_server_timer('orc_maze_lost2', get_server_timer_arg())
+			clear_server_timer('orc_maze_lost3', get_server_timer_arg())
+			clear_server_timer('orc_maze_lost4', get_server_timer_arg())
+			clear_server_timer('orc_maze_lost5', get_server_timer_arg())
+			clear_server_timer('orc_maze_lost6', get_server_timer_arg())
+			highscore.register("ork_maze_time", get_global_time() - d.getf("start_time"), 0)
+			
+			if party.is_party() then
+				highscore.register("omz_pt_time", get_global_time() - d.getf("start_time"), 0)
+			else
+				highscore.register("omz_time", get_global_time() - d.getf("start_time"), 0)
+			end
+			
+			pc.setqf("693_kills", pc.getqf("693_kills") +  1)
+			timer("exit_orc_maze", 30)
+		end		
+---TIMERS
+
+		---***50 timer
+
+		when orc_maze_lost1.server_timer begin
+
+			if d.select(get_server_timer_arg()) then
+				d.notice(akroma.orc_maze.timer_1)
+				server_timer('orc_maze_lost2', 10*60, get_server_timer_arg())
+			end
+		end
+
+		---***40 timer
+
+		when orc_maze_lost2.server_timer begin
+
+			if d.select(get_server_timer_arg()) then
+				d.notice(akroma.orc_maze.timer_2)
+				server_timer('orc_maze_lost3', 10*60, get_server_timer_arg())
+			end
+		end
+
+		---***30 timer
+
+		when orc_maze_lost3.server_timer begin
+
+			if d.select(get_server_timer_arg()) then
+				d.notice(akroma.orc_maze.timer_3)
+				server_timer('orc_maze_lost4', 10*60, get_server_timer_arg())
+			end
+		end
+
+		---***20 timer
+
+		when orc_maze_lost4.server_timer begin
+
+			if d.select(get_server_timer_arg()) then
+				d.notice(akroma.orc_maze.timer_4)
+				server_timer('orc_maze_lost5', 10*60, get_server_timer_arg())
+			end
+		end
+
+		---***10 timer
+
+		when orc_maze_lost5.server_timer begin
+
+			if d.select(get_server_timer_arg()) then
+				d.notice(akroma.orc_maze.timer_5)
+				server_timer('orc_maze_lost6', 10*60, get_server_timer_arg())
+			end
+		end
+
+		---***0 timer
+
+		when orc_maze_lost6.server_timer begin
+
+			if d.select(get_server_timer_arg()) then
+				d.notice(akroma.orc_maze_timer6)
+				d.exit_all()
+			end
+		end
+
+	end
+end
+
+

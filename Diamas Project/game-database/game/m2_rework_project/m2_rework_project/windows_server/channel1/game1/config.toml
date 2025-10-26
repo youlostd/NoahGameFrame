@@ -1,0 +1,4 @@
+hostname = "Game1_Core_1"
+channel = 1
+game-port = "13010"
+mark-server = true

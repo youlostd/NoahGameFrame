@@ -1,0 +1,168 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/guides.png]
+[CENTER_ALIGN]Guide
+
+
+1 Genel
+
+1.1 Ana karakterinin seçimi
+Oyunda ilerleyebilmek için yetenek ağacının (PvP ve/veya PvM) bonuslarına ihtiyacın olacak. 
+Bu nedenle, bir PvP karakterine önceden karar verip bu karakterle farm yapman tavsiye edilir. 
+Tabii ki karakterinin sınıfını (PvP ve/veya PvM) daha sonra değiştirebilirsin. 
+Bunun için (Çıraklık sertifikası) kullanılır.
+
+1.2 İlk adımlar
+Başlangıçta aşağıdaki eşyalardan oluşan bir sandığınız olcak.
+-Cesur Aslan, Ateş Ankası, Hilal Yüzüğü, Başlangıç İksiri, Keten Kemer
+-Tılsım (başlangıç), Hakim Kuşağı (temel)
+
+1.3 Yetenekler
+5. seviyeye ulaştığında yetenek türünü seçebilirsin. Yeteneklerinden biri "Usta" seviyesine ulaşınca
+Gökkuşağı Taşı ile üst seviyeye çıkarabilirsin. Gökkuşağı Taşlarını başlangıç ​​sandığından ve Satıcıdan 
+alabilirsin.
+
+1.4 Bufflar
+İlk farm haritasında (Shiva level 20-55) "Buffbot" dan iyileştirme ve ejderha gücü şaman bufflarını 
+elde edebilirsin. Tüm buffları almak için botu birkaç kez tıklaman yeterlidir. 14 gün boyunca kalır. 
+Başka bir oyuncu tarafından öldürülürsen tekrardan yapman gerekir.
+
+1.5 Seviye atlama
+Bu sunucuda seviye atlamak için belirli haritaları ziyaret etmene gerek yok. Farm yaparken bi yandan 
+karakterin seviye atlar. Harita için belirlenmiş en üst seviyeye ulaştığında, artık deneyim puanı 
+gelmeyecektir.
+
+1.6 Farm yapmak
+Her farm haritası için yeni bir PvM ekipmanına ihtiyacın var. İlgili farm haritasında, ekipmanın için 
+metin-taşı ve bosslardan + basmak için geren malzemeleri düşürebilirsin. Bir sonraki farm haritasında 
+hasar verebilmek için tüm ekipmanını +9'a yükseltmen gerekir. Farm haritalarındaki bosslardan farklı 
+kostümler düşürebilirsin. Bu kostümler sana 2 saatliğine PvM bonusları verir ve kolaylık sağlar.
+
+1.7 Zindanlar
+İlgili zindanlarda, ekipmanınızı +7'den +9'a yükseltebilmek için gereken malzemeleri düşürme şansın var.
+Ayrıntılı bilgi için wikide "Zindanlar" kısmına bakın.
+
+1.8 Ekipman
+20. seviyede Jagras-Zindanına girebilirsin. Oradan "Exile" elde edersin. "Exile", Satıcıdan PvM ve PvP 
+ekipmanı satın almak için gerekli olan malzemedir. Başlangıç için pvm silahları satın alıp onların 
+efsunlarını değiştirerek uygun hale getirmek iyi bir fikirdir.
+
+1.9 Ruh taşları
+Zindanlardan düşen "Exile" ile ruh taşları satın alabilir ve ekipmanınıza ekleyebilirsin. 5. Farm 
+haritasına karşılık gelen zindandan "Ruh Taşı Yuvası (PvM)" elde edebilirsin. Bu item ile PvM 
+ekipmanınına ruh taşları için üç taneye kadar ek yuva ekleyebilirsin.
+
+1.10 Avcılık görevleri
+Farm yaparken, her zaman aktif olan avcılık görevine dikkat et. Bu görevler yetenek ağacı için çok 
+önemlidir. Görevler gösterilen sırayla tamamlanmalıdır.
+
+1.11 Yetenek ağacı
+Yetenek ağacı üç farklı bölüme ayrılmıştır. PvP, PvM ve genel bonuslar. Yetenek ağacında geliştirmek 
+için gereken puanlarını avcılık görevleri aracılığıyla elde edersin.
+
+
+2.0 PvM-Ekipmanı / PvP-Ekipmanı
+
+2.1.1 PvM Kaskı: Zehirleme Şansı, Şeytanlara Karşı Güçlü, Ölümsüzlere Karşı
+Güçlü, HP-Üretimi, Saldırı Hızı
+2.1.2 PvP Kaskı: Zehirleme Şansı, Yarı İnsanlara Karşı Güçlü, HP-Üretimi,
+Oklardan Korunma Şansı
+
+2.2.1 PvM Kalkanı: Karakter sınıf bonusları, Karakter sınıf bonusları, Sersemlik karşısında
+bağışıklık, Şeytanlara Karşı Güçlü, Ölümsüzlere Karşı Güçlü, Beden karşısındaki atakların bloklanması
+2.2.2 PvP Kalkanı: Karakter sınıf bonusları, Karakter sınıf bonusları, Sersemlik
+karşısında bağışıklık, Yarı İnsanlara Karşı Güçlü, Beden karşısındaki atakların bloklanması.
+
+2.3.1 PvM Küpeleri: Ölümsüzlere Karşı Güçlü, Şeytanlara Karşı Güçlü, Hareket
+Hızı, Zehire Dayanıklılık
+2.3.2 PvP Küpeleri: Yarı İnsanlara Karşı Güçlü, 4-Yönlü Savunmalar
+
+2.4.1 PvM Bilezikleri: Max.HP, Ölümsüzlere Karşı Güçlü, Kritik Vuruş Şansı,
+Hasar Hp Tarafından Emilecek, Şeytanlara Karşı Güçlü 
+2.4.2 PvP Bilezikler: Max.HP, Yarı İnsanlara Karşı Güçlü, Kritik Vuruş Şansı,
+Büyü Dayanıklılığı, Delici Vuruş Şansı
+
+2.5.1 PvM Kolyesi: Max.HP, Hp Üretimi, Kritik Vuruş Şansı, Delici Vuruş Şansı
+2.5.2 PvP Kolyesi: Max.HP, 4-Yönlü Savunmalar
+
+2.6.1 PvM Ayakkabıları: Max.HP, Kritik Vuruş Şansı, Saldırı Hızı, 
+2.6.2 PvP Ayakkabıları: Max.HP, 4-Yönlü Savunmalar
+
+2.7.1 PvM Zırhı: Max.HP, Hasar Hp Tarafından Emilecek, Saldırı Değeri, Vücut
+darbelerini yansıtma şansı 
+2.7.2 PvP Zırhı: Max.HP, 4-Yönlü Savunmalar 
+
+2.8.1 PvM Silahı: 45+ Ortalama, Ölümsüzlere Karşı Güçlü, Şeytanlara Karşı Güçlü,
+Karakter sınıf bonusları.
+2.8.2 PvP Silahı: Yarı İnsanlara Karşı Güçlü, Kritik vuruş şansı, Büyü Hızı, Karakter
+sınıf bonusları, Karakter sınıf bonusları 
+
+2.9 Karakter sınıf bonusları = VIT,INT,STR,DEX
+2.9.1 Savaşçı = STR
+2.9.2 Ninja = DEX
+2.9.3 Şaman = INT
+2.9.4 Sura = INT
+
+
+3. Farmmap-Bosses
+
+On each farmmap, a farmmap boss spawns at the respective spawn points.
+This is the case for each of the 4 server channels.
+In the wiki category "Bosses" you can find an overview of the dropable items.
+The spawn times are as follows:
+
+Shiva:     10 minutes
+Artemis:   12 minutes
+Aqua:      15 minutes
+Eden:      18 minutes
+Terra:     20 minutes
+Ragnarok:  30 minutes
+
+
+
+POSSIBLE BONUSES OF ALCHEMY
+Dragon Diamond:
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Ice Resistance
+- Strong against Undead
+
+Dragon Onyx
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Enhanced Item Drop
+- Resistance against Darkness
+
+Dragon Garnet
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Lightning Resistance
+- Yang drop chance is increased
+
+Dragon Sapphire
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Increased Item drop
+- Earth Resistance
+
+Dragon Jade
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Chance to drop double yang
+- Wind Resistance
+
+Dragon Ruby
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Fire Resistance
+- Strong against Devils
+
+
+
+
+

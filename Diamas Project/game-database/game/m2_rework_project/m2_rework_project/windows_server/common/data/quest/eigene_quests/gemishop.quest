@@ -1,0 +1,118 @@
+quest frisurenshop begin
+	state start begin 
+		when 9010.chat."Nesne Market" begin		
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 20402.chat.gameforge.gemishop._230_npcChat begin		
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 9006.chat."Evlilik Market" begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 9236.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 60003.chat.gameforge.item_combination._10_npcChat begin
+			--say(gameforge.gemishop._180_say)
+			pc.open_item_combination()
+			setskin(NOWINDOW)
+		end
+		when 60003.chat.gameforge.item_combination._20_npcChat begin
+			--say(gameforge.gemishop._180_say)
+			cmdchat("ShowChangeDialog")
+			setskin(NOWINDOW)
+		end
+		when 40019.chat.gameforge.gemishop.oldwoman begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 30131.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 40015.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 40014.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 40012.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 40011.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 40018.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 32129.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 31129.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 30129.chat.gameforge.gemishop.oldwoman begin
+			--say(gameforge.gemishop._180_say)
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 41019.chat. "Kostümler 3" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 41029.chat. "Kostümler 2" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 41039.chat. "Kostümler" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 41049.chat. "Gelişmiş Silah Kostüm" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 9001.chat. "Silah Satıcısı" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end
+		when 9002.chat. "Zırh Satıcısı" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end	
+		when 9003.chat. "Market" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end	
+		when 21359.chat. "Giymeli Ünvan 1" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end	
+		when 20359.chat. "Giymeli Ünvan 2" begin
+			npc.open_shop()
+			setskin(NOWINDOW)
+		end	
+	end
+end

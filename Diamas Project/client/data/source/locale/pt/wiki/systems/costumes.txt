@@ -1,0 +1,110 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/costumes.tga]
+[CENTER_ALIGN]Ein Kostüm ist ein wertvoller Ausrüstungsgegenstand, das deinen Charakter wertvolle Boni verleihen kann. 
+[CENTER_ALIGN]Das Kostüm wird im Kostümfenster angezogen.
+[CENTER_ALIGN]Das Kostümfenster findest du im Inventar über den Kostüm Button.
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Allgemeine Informationen
+*2. Rüstung-Kostümboni
+*3. Waffen-Kostümboni
+*4. Frisur-Kostümboni
+*5. Reittier-Kostüme
+*6. Wie man die Boni eines Kostüms überträgt
+*7. Wie man die Boni eines Kostüms entfernt
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=160; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen
+
+Ein Kostüm kann maximal 5 Boni haben. Bis zum 3. Bonus werden sie mit Waffenkostüm verstärken (),
+Rüstungskostüm verstärken () & Frisur verstärken hinzugefügt.
+
+Die 4. und die 5. Boni werden mit Waffenkostüm verstärken+ (),
+Rüstungskostüm verstärken+ () & Frisur verstärken+ hinzugefügt.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=280; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Rüstung-Kostümboni
+
+*Max. TP: 2000, 2500, 3000
+*Schwerverteidigung: 10%
+*Zweihandverteidigung: 10%
+*Dolchverteidigung: 10%
+*Pfeilwiderstand: 10%
+*Glockenverteidigung: 10%
+*Fächerverteidigung: 10%
+*Magiewiderstand: 10%
+*Chance Nahkampf Angriff abzublocken: 10%
+*Chance, Pfeilangriff auszuweichen: 10%
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=460; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Waffen-Kostümboni
+
+*Vitalität: + 12
+*Intelligenz: + 12
+*Stärke: + 12
+*Beweglichkeit: + 12
+*Stark gegen Halbmenschen 10%
+*Chance auf kritische Treffer: 10%
+*Chance auf durchbohrende Treffer: 10%
+*Stark gegen Tiere: 20%
+*Stark gegen Orks: 20%
+*Stark gegen Esoterische: 20%
+*Stark gegen Teufel: 20%
+*Stark gegen Untote: 20%
+*Stark gegen Bosse: 10, 15, 20%
+*Stark gegen Monster: 10, 15, 20%
+*Stark gegen Metinsteine: 10, 15, 20%
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=710; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Frisur-Kostümboni
+
+*Max. TP: 1500
+*Stark gegen Halbmenschen: 5%
+*Stark gegen Tiere: 10%
+*Stark gegen Orks: 10%
+*Stark gegen Esoterische: 10%
+*Stark gegen Teufel: 10%
+*Stark gegen Untote: 10%
+*Bruch von Schwertverteidigung: 5%
+*Bruch von Zweihandverteidigung: 5%
+*Bruch von Dolchverteidigung: 5%
+*Bruch von Pfeilwiderstand: 5%
+*Bruch von Glockenverteidigung: 5%
+*Bruch von Fächerverteidigung: 5%
+*Giftwiderstand: 10%
+*Stark gegen Bosse: 10,15,20%
+*Stark gegen Monster: 10,15,20%
+*Stark gegen Metinsteine: 10, 15, 20%
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=980; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]5. Reittier-Kostüme
+
+Die Kostüme haben keine Boni, aber sie bieten einen schönen Look und Abwechslung.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=1080; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]6. Wie man die Boni eines Kostüms überträgt
+
+Man kann die Boni eines Kostüms mit einem Kostümbonitransfer bei Theowahdan auf ein anderes übertragen.
+Das Kostüm im linken Slot wird geleert und die Boni werden auf das rechte Kostüm übertragen.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=1165; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]7. Wie man die Boni eines Kostüms entfernt
+
+Man kann die Boni eines Kostüms mit einem "Kostümbonus entfernen" entfernen.
+Den ausgewählten Bonus erhält man nicht zurück!
+
+
+

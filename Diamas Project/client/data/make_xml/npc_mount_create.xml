@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/npc_mount:d:/ymir work/npc_mount/" ArchivePath="../bin/pack/npc_mount.pak" XmlPath="xml/npc_mount_create.xml">
+		<Ignore Pattern="*.psd" />
+		<Ignore Pattern="*.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

@@ -1,0 +1,40 @@
+<item-attrs>
+	<item-attr apply="ATTBONUS_MONSTER" prob="1">
+		<values>
+			<value index="0" value="10"/>
+			<value index="1" value="10"/>
+			<value index="2" value="10"/>
+			<value index="3" value="10"/>
+			<value index="4" value="10"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="BODY" max="5"/>
+			<set type="WRIST" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="HEAD" max="5"/>
+			<set type="SHIELD" max="5"/>
+			<set type="EAR" max="5"/>
+		</sets>
+	</item-attr>
+	<item-attr apply="ATTBONUS_HUMAN" prob="1">
+		<values>
+			<value index="0" value="10"/>
+			<value index="1" value="10"/>
+			<value index="2" value="10"/>
+			<value index="3" value="10"/>
+			<value index="4" value="10"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="BODY" max="5"/>
+			<set type="WRIST" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="HEAD" max="5"/>
+			<set type="SHIELD" max="5"/>
+			<set type="EAR" max="5"/>
+		</sets>
+	</item-attr>
+</item-attrs>

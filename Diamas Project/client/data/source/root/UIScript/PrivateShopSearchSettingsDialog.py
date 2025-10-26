@@ -1,0 +1,258 @@
+import uiScriptLocale
+
+WINDOW_WIDTH = 210
+WINDOW_HEIGHT = 250
+
+ROOT_PATH = "d:/ymir work/ui/gui/fix/"
+
+LOCALE_PATH = "d:/ymir work/ui/privatesearch/"
+GOLD_COLOR = 0xFFFEE3AE
+window = {
+    "name": "PrivateShopSearchSettingsDialog",
+    "x": SCREEN_WIDTH / 2 - WINDOW_WIDTH / 2,
+    "y": SCREEN_HEIGHT / 2 - WINDOW_HEIGHT / 2,
+    "style": (
+        "moveable",
+        "float",
+    ),
+    "width": WINDOW_WIDTH,
+    "height": WINDOW_HEIGHT,
+    "children": (
+        {
+            "name": "board",
+            "type": "board_with_titlebar",
+            "style": ("attach",),
+            "x": 0,
+            "y": 0,
+            "width": WINDOW_WIDTH,
+            "height": WINDOW_HEIGHT,
+            "title": "Settings",
+            "children": (
+                {
+                    "name": "inner_board",
+                    "type": "thinboard_old",
+                    "style": ("attach",),
+                    "x": 7,
+                    "y": 7 + 35,
+                    "width": WINDOW_WIDTH - 13,
+                    "height": WINDOW_HEIGHT - 7 - 35,
+                    "children": (
+                        ## minLevelEditLine
+                        {
+                            "name": "minLevelSlot",
+                            "type": "slotbar",
+                            "x": 15 - 7,
+                            "y": 36 + 30 - 7 - 35,
+                            "width": 85,
+                            "height": 22,
+                            "children": (
+                                {
+                                    "name": "minLevelValue",
+                                    "type": "editline",
+                                    "x": 8,
+                                    "y": 3,
+                                    "width": 66,
+                                    "height": 15,
+                                    "input_limit": 3,
+                                    "only_number": 1,
+                                    "placeholder_text": "Min Lv",
+                                    "placeholder_color": 0xFFD2C18C,
+                                },
+                            ),
+                        },
+                        {
+                            "name": "LevelText2",
+                            "type": "text",
+                            "x": 103 - 7,
+                            "y": 40 + 30 - 7 - 35,
+                            "text": "-",
+                        },
+                        ## maxLevelEditLine
+                        {
+                            "name": "maxLevelSlot",
+                            "type": "slotbar",
+                            "x": 110 - 7,
+                            "y": 36 + 30 - 7 - 35,
+                            "width": 85,
+                            "height": 22,
+                            "children": (
+                                {
+                                    "name": "maxLevelValue",
+                                    "type": "editline",
+                                    "x": 8,
+                                    "y": 3,
+                                    "width": 66,
+                                    "height": 15,
+                                    "input_limit": 3,
+                                    "only_number": 1,
+                                    "placeholder_text": "Max Lv",
+                                    "placeholder_color": 0xFFD2C18C,
+                                },
+                            ),
+                        },
+                        ## minAvgDmg
+                        {
+                            "name": "minAvgDmgSlot",
+                            "type": "slotbar",
+                            "x": 15 - 7,
+                            "y": 96 - 7 - 35,
+                            "width": 85,
+                            "height": 22,
+                            "children": (
+                                {
+                                    "name": "minAvgDmgValue",
+                                    "type": "editline",
+                                    "x": 8,
+                                    "y": 3,
+                                    "width": 66,
+                                    "height": 15,
+                                    "input_limit": 3,
+                                    "only_number": 1,
+                                    "placeholder_text": "Min Dmg",
+                                    "placeholder_color": 0xFFD2C18C,
+                                },
+                            ),
+                        },
+                        {
+                            "name": "AvgDmgText",
+                            "type": "text",
+                            "x": 103 - 7,
+                            "y": 100 - 7 - 35,
+                            "text": "-",
+                        },
+                        ## maxAvgDmg
+                        {
+                            "name": "maxAvgDmgSlot",
+                            "type": "slotbar",
+                            "x": 110 - 7,
+                            "y": 96 - 7 - 35,
+                            "width": 85,
+                            "height": 22,
+                            "children": (
+                                {
+                                    "name": "maxAvgDmgValue",
+                                    "type": "editline",
+                                    "x": 8,
+                                    "y": 3,
+                                    "width": 66,
+                                    "height": 15,
+                                    "input_limit": 3,
+                                    "only_number": 1,
+                                    "placeholder_text": "Max Dmg",
+                                    "placeholder_color": 0xFFD2C18C,
+                                },
+                            ),
+                        },
+                        ## minSkillDmg
+                        {
+                            "name": "minSkillDmgSlot",
+                            "type": "slotbar",
+                            "x": 15 - 7,
+                            "y": 126 - 7 - 35,
+                            "width": 85,
+                            "height": 22,
+                            "children": (
+                                {
+                                    "name": "minSkillDmgValue",
+                                    "type": "editline",
+                                    "x": 8,
+                                    "y": 3,
+                                    "width": 66,
+                                    "height": 15,
+                                    "input_limit": 3,
+                                    "only_number": 1,
+                                    "placeholder_text": "Min SkillDmg",
+                                    "placeholder_color": 0xFFD2C18C,
+                                },
+                            ),
+                        },
+                        {
+                            "name": "SkillDmgText",
+                            "type": "text",
+                            "x": 103 - 7,
+                            "y": 130 - 7 - 35,
+                            "text": "-",
+                        },
+                        ## maxSkillDmg
+                        {
+                            "name": "maxSkillDmgSlot",
+                            "type": "slotbar",
+                            "x": 110 - 7,
+                            "y": 126 - 7 - 35,
+                            "width": 85,
+                            "height": 22,
+                            "children": (
+                                {
+                                    "name": "maxSkillDmgValue",
+                                    "type": "editline",
+                                    "x": 8,
+                                    "y": 3,
+                                    "width": 66,
+                                    "height": 15,
+                                    "input_limit": 3,
+                                    "only_number": 1,
+                                    "placeholder_text": "Max SkillDmg",
+                                    "placeholder_color": 0xFFD2C18C,
+                                },
+                            ),
+                        },
+                        {
+                            "name": "gender_button_01",
+                            "type": "radio_button",
+                            "x": 17 - 7,
+                            "y": 126 + 30 - 7 - 35,
+                            "default_image": "d:/ymir work/ui/gui/create/man.png",
+                            "over_image": "d:/ymir work/ui/gui/create/man_over.png",
+                            "down_image": "d:/ymir work/ui/gui/create/man_down.png",
+                            "disable_image": "d:/ymir work/ui/gui/create/man_down.png",
+                        },
+                        {
+                            "name": "gender_button_02",
+                            "type": "radio_button",
+                            "x": 110 - 7,
+                            "y": 126 + 30 - 7 - 35,
+                            "default_image": "d:/ymir work/ui/gui/create/woman.png",
+                            "over_image": "d:/ymir work/ui/gui/create/woman_over.png",
+                            "down_image": "d:/ymir work/ui/gui/create/woman_down.png",
+                            "disable_image": "d:/ymir work/ui/gui/create/woman_down.png",
+                        },
+                        # Save & Search button
+                        {
+                            "name": "saveBtn",
+                            "type": "button",
+                            "x": -100,
+                            "y": 15,
+                            "horizontal_align": "center",
+                            "vertical_align": "bottom",
+                            "text_auto": uiScriptLocale.OK,
+                            "text_height": -5,
+                            "text_color": 0xFFFFC539,
+                            "default_image": "d:/ymir work/ui/gui/normal_button.sub",
+                            "over_image": "d:/ymir work/ui/gui/normal_button_hover.sub",
+                            "down_image": "d:/ymir work/ui/gui/normal_button_down.sub",
+                            "x_scale": 0.4,
+                            "y_scale": 1.0,
+                        },
+                        # Save & Search button
+                        {
+                            "name": "resetBtn",
+                            "type": "button",
+                            "x": 100,
+                            "y": 15,
+                            "horizontal_align": "center",
+                            "vertical_align": "bottom",
+                            "text_auto": "Reset",
+                            "text_height": -5,
+                            "text_color": 0xFFFFC539,
+                            "default_image": "d:/ymir work/ui/gui/normal_button.sub",
+                            "over_image": "d:/ymir work/ui/gui/normal_button_hover.sub",
+                            "down_image": "d:/ymir work/ui/gui/normal_button_down.sub",
+                            "x_scale": 0.4,
+                            "y_scale": 1.0,
+                        },
+                    ),
+                },
+            ),
+        },
+    ),
+}

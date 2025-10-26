@@ -1,0 +1,6 @@
+#define METIN2_COMPONENT_DESCRIPTION "Dump Proto Tables"
+#define METIN2_COMPONENT_INTERNALNAME "DumpProto"
+#define METIN2_COMPONENT_FILENAME "dump_proto"
+#define METIN2_COMPONENT_TYPE VFT_APP
+
+#include <version_info.rc>

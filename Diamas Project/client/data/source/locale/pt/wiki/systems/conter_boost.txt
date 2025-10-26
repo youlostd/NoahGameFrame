@@ -1,0 +1,54 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/conterboost.tga]
+[CENTER_ALIGN]Das Konter & Boost Skill System zielt darauf ab deinen Charakter zu verstärken.
+[CENTER_ALIGN]Du kannst deinem Charakter einige nützliche Fertigkeiten erlernen...
+
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Allgemeine Informationen
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=90; CENTER_ALIGN]
+
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1. Allgemeine Informationen
+[X_PADDING=20]*Die Konter- und Boostfertigkeiten erlauben es deinen Charakter zu verstärken.
+[X_PADDING=20]*Du kannst alle Konterfertigkeiten und eine Boostfertigkeit bis Stufe P erlernen.
+[X_PADDING=20]*Um eine Fertigkeit von 0 bis M1 zu trainieren benötigt man Skillpunkte oder ein Konter/Boost Fertigkeitsbuch.
+[X_PADDING=20]*Um eine Fertigkeit von M1 bis G1 zu trainieren benötigt man maximal 55 Konter/Boost Fertigkeitsbücher.
+[X_PADDING=20]*Um eine Fertigkeit von G1 nach P1 zu trainieren benötigt man Seelenstein+.
+[X_PADDING=20]*Anstatt von normalen Exorzismus-Schriftrollen und Konzentriertem Lesen, benötigst du
+[X_PADDING=20]*Legendäre Exorzismus-Schriftrollen und Legendäres Konzentriertes Lesen.
+
+[IMG=d:/ymir work/ui/wiki/divider_small.tga; Y=230; CENTER_ALIGN]
+
+
+[COLOR=ef4f00;FONT_SIZE=15]1.1 Konter Fertigkeiten
+[X_PADDING=20]The Ward skills reduce the incoming damage from certain abilities which are: 
+[X_PADDING=20]*Schwertwirbel
+[X_PADDING=20]*Blitz heraufbeschwören
+[X_PADDING=20]*Dunkler Schlag
+[X_PADDING=20]*Feuerpfeil
+[X_PADDING=20]*Durchschlag
+[X_PADDING=20]*Drachenschießen
+[X_PADDING=20]*Fingerschlag
+[X_PADDING=20]*Hinterhalt
+[X_PADDING=20]Je höher die Konterfertigkeit, desto weniger Schaden erhälst du von der jeweiligen Fertigkeit.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_small.tga; Y=400; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]1.2 Boost Fertigkeiten
+[X_PADDING=20]Die Boost-Fähigkeiten erhöhen den ausgehenden Schaden aus den folgenden Fertigkeiten:
+[X_PADDING=20]*Körper-Krieger: Schwertwirbel
+[X_PADDING=20]*Mental-Krieger: Durchschlag
+[X_PADDING=20]*Waffen-Sura: Fingerschlag
+[X_PADDING=20]*Magie-Sura: Dunkler Schlag
+[X_PADDING=20]*Nah-Ninja: Hinterhalt
+[X_PADDING=20]*Fern-Ninja: Feuerpfeil
+[X_PADDING=20]*Heil-Schamane: Blitz heraufbeschwören
+[X_PADDING=20]*Drachen-Schamane: Drachenschießen
+[X_PADDING=20]Man hat nur 1 aktive Boost-Fähigkeit, je nach Klasse, wie zuvor beschrieben.
+[X_PADDING=20]Je höher die Boostfertigkeit, desto mehr Schaden verteilst du mit der jeweiligen Fertigkeit.
+
+
+

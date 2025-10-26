@@ -1,0 +1,69 @@
+List NoSnowMaps
+{
+	green_screen
+}
+
+List NoBoomMaps
+{
+	green_screen
+}
+
+List NoHorseSkillMaps
+{
+	metin2_map_a1
+	metin2_map_a3
+	metin2_map_b1
+	metin2_map_b3
+	metin2_map_c1
+	metin2_map_c3
+}
+
+List DuelMaps
+{
+	160
+	175
+	229
+	223
+	320
+	234
+}
+
+List MapIndex
+{
+	1	metin2_map_a1	enter_the_east.mp3
+	3	metin2_map_a3	back_to_back.mp3
+	21	metin2_map_b1	enter_the_east.mp3
+	23	metin2_map_b3	back_to_back.mp3
+	28	metin2_map_duel2	enter_the_east.mp3
+	41	metin2_map_c1	enter_the_east.mp3
+	43	metin2_map_c3	back_to_back.mp3
+	81	metin2_map_wedding_01	wedding.mp3
+	110	metin2_map_t3	last-war2.mp3
+	111	metin2_map_t4	last-war2.mp3
+	113	metin2_map_oxevent	open_the_gate.mp3
+	160	metin2_map_n_desert_01	open_the_gate.mp3
+	175	metin2_map_n_desert_01	desert.mp3
+	229	gm_guild_build	enter_the_east.mp3
+	400	map_a2	enter_the_east.mp3
+	500	metin2_map_skipia_dungeon_02	enter_the_east.mp3
+}
+
+List MapIndexTranslation
+{
+	1 MAP_A1
+	3 MAP_A3
+	21 MAP_B1
+	23 MAP_B3
+	28	MAP_DUEL2
+	41 MAP_C1
+	43 MAP_C3
+	81 MAP_WEDDING_01
+	110 MAP_T3
+	111 MAP_T4
+	113 MAP_OXEVENT
+	160 MAP_DESERT
+	175 MAP_DESERT22
+	229 MAP_PATHWAY_ICE_02
+	400	MAP_N_THREEWAY
+	500	MAP_SKIPIA_DUNGEON_02
+}

@@ -1,0 +1,12 @@
+if pc . get_map_index ( ) == 226 and not pc . in_dungeon ( ) then pc . warp ( 167 , 26400 , 18400 ) 
+ return end if pc . in_dungeon ( 226 ) and isDungeonLeader ( ) and getDungeonStage ( ) == 0 then d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_1.txt" ) 
+d . notice ( "Easter dungeon: 10 minutes left!" ) 
+pc . setqf ( "dungeon_start_time" , get_global_time ( ) ) 
+d . add_boss_vnum ( 9263 ) 
+d . add_boss_vnum ( 9264 ) 
+icestorm_dungeon . setDungeonTimeout ( 60 * 60 ) 
+setDungeonWarpLocation ( 167 , 264 , 184 ) 
+increaseDungeonStage ( ) 
+setDungeonExitCounter ( 10 ) 
+setNeededMonsterCount ( 15 ) 
+ return end 

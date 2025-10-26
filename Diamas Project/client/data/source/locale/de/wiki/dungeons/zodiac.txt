@@ -1,0 +1,73 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/zodiactemple.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 90
+*Eintrittsitem: 12 Animasphaeren
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Der Zodiaktempel hat keine Abklingkeit, jedoch benötigt man pro Eintritt 12 Animasphaeren.
+*Jeder Spieler erhält 1 Animasphaere jede Stunde, egal ob er online oder offline ist.
+*Jeder Premium Spieler erhält 2 Animasphaeren jede Stunde, egal ob er online oder offline ist.
+*Mit einem Animasphaeren-Gutschein kann erhält man 12 Animasphaeren.
+*Der Dungeon kann sowohl mit als auch ohne Gruppe betreten werden.
+*Jeden Tag sind zwei Portale geöffnet, am Sonntag sind alle 12 Portale geöffnet.
+*Stirbt man im Zodiak Tempel so benötigt man ein Prism of Rivival.
+*Es gibt 40 verschiedene Ebenen, für jede Ebene hat man 10 Minuten Zeit.
+*Ist man in einer Ebene schnell, besteht die Möglichkeit Ebenen zu überspringen.
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Die Phasen:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=185; CENTER_ALIGN]
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1 (Ebene 1-33)
+
+[X_PADDING=20]Man erhält eine zufällige Aufgabe, die man in einer vorgegebenen Zeit abschließen muss.
+[X_PADDING=20]Man kann Ebenen überspringen, wenn man bestimmte Ebenen sehr schnell abschließt.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2 (Ebene 34)
+
+[X_PADDING=20]Töte den jeweiligen Zodiak Boss
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 3 (Ebene 35-39)
+
+[X_PADDING=20]Töte den richtigen Metinstein um mit Insignias belohnt zu werden.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 4 (Ebene 40)
+
+[X_PADDING=20]Du kannst beim Zodiak Händler Insignias kaufen (50 Stück für 12.500.000 Yang).
+[X_PADDING=20]Diese benötigst du für den Zodiak Kalender
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Der Kalender:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=500; CENTER_ALIGN]
+
+Um ein Feld in der Tabelle auszufüllen werden jeweils 50 gleiche Wächter- und Sternzeicheninsignen 
+benötigt. Das Feld wird ausgefüllt indem man auf es klickt. Anschließend werden die 100 Insignen 
+aus dem Inventar entfern und es erscheint ein Haken an der jeweiligen Stelle in der Tabelle.
+
+
+Um den Aventurinschatz zu erhalten müssen alle grüne Kästchen abgehakt sein. Dafür benötigt man 
+insgesamt 1.500 Wächter- und 1.500 Sternzeicheninsignen. Dabei wird jede Wächterinsigne 250 Mal 
+benötigt, jede Sternzeicheninsigne hingegen 300 Mal. Nachdem alle grünen Kästchen abgehakt sind, 
+erscheint die Belohnung unten links an der Tabelle unter dem grünen Button.
+
+
+Um den Aureolinschatz zu erhalten müssen alle gelben Kästchen abgehakt sein. Dafür benötigt man 
+insgesamt 1.500 Wächter- und 1.500 Sternzeicheninsignen. Dabei wird jede Wächterinsigne 250 Mal 
+benötigt, jede Sternzeicheninsigne hingegen 300 Mal. Nachdem alle gelben Kästchen abgehakt sind, 
+erscheint die Belohnung unten links an der Tabelle unter dem linken Button.
+
+
+Erst nachdem alle grünen und gelben Kästchen abgehakt sind, kann man die dritte mögliche Belohnung
+erhalten. Den Sternenschatz. Man bekommt jeweils einen Sternenschatz wenn alle Kästchen ausgefüllt sind.
+Es ist auch möglich, dass bspw. die grünen Kästchen dreimal ausgefüllt worden sind und die gelben nur 
+einmal. Man erhält jedoch nur einen Sternenschatz dafür. Füllt man aber die gelben Kästchen noch zweimal aus,
+so erhält man zwei weitere Sternenschätze ohne die grünen Kästchen wieder auszufüllen. Die Truhe lässt sich 
+unter dem braunen Button unten rechts abholen.
+
+
+
+

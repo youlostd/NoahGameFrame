@@ -1,0 +1,97 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/guides.png]
+[CENTER_ALIGN]System-Guides
+
+1. Seelenbindung
+
+1.1 Mithilfe des Gegenstands "Pergament der Bindung" ist es möglich, 
+einzelne Gegenstände an den Charakter zu binden.
+Seelengebundene Gegenstände sind nicht handelbar & nicht zerstörbar.
+Ins Lager können die gebundenden Gegenstände jedoch trotzdem gelegt werden.
+
+1.2 Mithilfe des Gegenstands "Pergament der Lösung" ist es möglich, 
+seelengebundene Gegenstände zu entbinden. 
+Diese Gegenstände sind nach der Lösung noch für 24h Echtzeit seelengebunden. 
+Nach Ablauf der Zeit, können sie wieder gehandelt und auch zerstört werden.
+
+2. Switchbot
+
+Du findest den Switchbot in deiner Sidebar, links neben deinem Inventar. 
+Wenn Du den Switchbot geöffnet hast, findest du 6 leere Slots, 
+die du zum Switchen verwenden kannst.
+Sobald du einen Gegenstand zum Switchen in den leeren Slot eingefügt hast, 
+kannst du dir über das Dropdown-Feld, deinen Wunsch-Bonus aussuchen. 
+Um den Switchbot zu starten, musst du deine Boni bestätigen 
+(grüner Haken hinter dem Bonus). Nun Startet der Switcher. 
+Neben den Boni kannst du Slot 1-3 auswählen, um dir alternative Boni auszusuchen.
+Wenn der Switchbot erfolgreich deinen Gegenstand geswitcht hat, 
+erhälst du eine Informations-PN über das System. 
+Nun kannst du den Switchbot öffnen und per Drag and Drop
+deinen Gegenstand ins Inventar transferieren.
+
+3. Reichsauswahl
+
+Es ist möglich, mit jedem der 5 Charaktere pro Account in verschiedene Reiche zu gehen.
+Bei Erstellung eines neuen Charakters kommt man zum Auswahlfenster, 
+wo man sich für ein Reich entscheiden kann.
+Spätere Reichswechsel sind noch mit "Tinktur der Reiche", welches man bei der Gemi findet, möglich.
+
+4. Erze-System
+
+4.1 Erze kannst du nur in dein End-PvM Equipment (Kadashi-Ohrringe/Armband/Halskette) einfügen. 
+
+4.2 Mit Diamanten fügst du Sockel in dein Equipment ein 
+(3 Slots pro Equipment). 
+Das Kadashi-Erz kannst du in die Sockel einfügen, doch es ist zeitlich begrenzt .
+Mit dem Erzverstärker kannst du die Erze, die zeitlich begrenzt sind, permanent machen 
+Wenn du alle Erze verstärkt hast, bekommst du einen zusätzlichen Set Bonus.
+
+4.3 Du kannst deinen Gürtel auch Sockel einfügen, 
+allerdings hier auch schon bei dem ersten PvM Gürtel.
+Bei dem Gürtel funktioniert das Einfügen auch mit Diamanten 
+3 Slots.
+In die Sockel von dem Gürtel fügst du Rotflammensteine ein, welche auch zeitlich begrenzt sind.
+Mit dem Erzverstärker kannst du die zeitliche Begrenzung von den 
+Rotflammensteinen permanent machen und bekommst dadurch ebenfalls einen Set Bonus.
+
+5. L-Skill-System
+
+5.1 Wenn man Legendären Seelensteine gefarmt hat, braucht man pro Fertigkeit 10 Seelensteine, 
+um sie von Perfekt (P) auf Legendär (L) zu steigern.
+Legendäre Fertigkeiten sind stärker als Perfekte. 
+(WICHTIG! L-Buffs von Schamanen sind BESSER als die Buffs von dem Buffbot)
+
+5.2 Sobald man legendäre Fertigkeiten besitzt, kann man über das Fertigkeiten-Fenster 
+(Taste "V") 
+eine eigene Farbe für die ausgewählte Fertigkeit aussuchen.
+Dazu muss man bei dem Icon der Fertigkeit das kleine "c" anklicken und dort über den 
+Generator eine Farbe auswählen.
+
+6. GK-K/D-System
+
+Innerhalb eines GK's ist es möglich, mit der TAB-Taste eine GUI zu öffnen. 
+In dieser GUI kann man erkennen,
+wie viele Kills oder Tode die einzelnen Spieler während des GK's gesammelt haben. 
+
+7. Projektions-System
+
+Bei dem NPC Theowahdan ist es möglich, eine Projektion durchzuführen. 
+Es lassen sich Flügel, Frisuren, Rüstungen, Waffen, Reittiere & Pets projezieren. 
+Auf den Gegenstand, welcher im linken Slot hinzugefügt wird, wird die Projektion angewandt. 
+Der Gegenstand im rechten Slot verschwindet nach der abgeschlossenen Projektion 
+& der Gegenstand im Linken besitzt 
+das Aussehen des verbrauchten Gegenstands. 
+
+8. Kostüm-/Bonustransfer-System 
+
+8.1 Auf N2 existieren Kostüme mit und ohne Bonis. Kostüme können mit Bonis versehen werden 
+mithilfe von "Kostüm verwandeln".
+Es können bis zu 3 Bonis auf ein Kostüm hinzugefügt werden. Mithilfe von "Kostüm verzaubern" 
+können die Kostümbonis geswitcht werden. 
+8.2 Es ist möglich auch hier Bonis zu transferieren auf ein anderes Kostüm, hier funktioniert 
+es ähnlich wie beim Projektionssystem.
+Linker Slot = Fertiger Gegenstand
+Rechter Slot = Gegsntand, von dem die Bonis genommen werden & zerstört wird nach dem Vorgang. 
+
+
+

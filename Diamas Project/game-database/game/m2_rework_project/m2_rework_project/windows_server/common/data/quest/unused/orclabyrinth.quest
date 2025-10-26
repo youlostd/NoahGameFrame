@@ -1,0 +1,276 @@
+quest orclabyrinth begin
+    state start begin
+        
+        when 20396.chat.'Labyrinth-Wächter' with pc.get_map_index() == 64 begin
+            
+            say_title('Labyrinth-Wächter:')
+            say('Möchtest du wirklich versuchen mit deiner[ENTER]Gruppe denn Boss des Ork Labyrinths zu besiegen?[ENTER]')
+            
+            if select('Ja, wir wollen es versuchen!','Nein. Ein anderes mal') == 2 then return end
+            
+            if not party.is_party() then
+                
+                say_title('Labyrinth-Wächter:')
+                say('[ENTER]Betreten des Dungeons leider nicht möglich![ENTER]Du musst folgende Voraussetzungen erfüllen:[ENTER][ENTER]Minimales Level: 30[ENTER]Maximales Level: 75[ENTER]Betreten nur als Gruppe[ENTER][ENTER]')
+                return
+            elseif not party.is_leader() then
+				say_title('Labyrinth-Wächter:')
+                say('[ENTER]Du bist nicht der Anführer der Gruppe, du kannst das nicht entscheiden.')
+                return
+            elseif pc.get_level() < 30 or pc.get_level() > 75 then
+                
+                say('[ENTER]Betreten des Dungeons leider nicht möglich![ENTER]Du musst folgende Voraussetzungen erfüllen:[ENTER][ENTER]Minimales Level: 30[ENTER]Maximales Level: 75[ENTER]Betreten nur als Gruppe[ENTER][ENTER]')
+                return
+            elseif get_global_time() - pc.getf('orclabyrinth','last_exit_time') < 30 * 60 then
+                say('[ENTER]Die Wartezeit für den Wiedereintritt in denn[ENTER]Ork Dungeon ist noch nicht abgelaufen.[ENTER]')
+                return
+            end
+            
+            d.new_jump_party(357, 150,118)
+        end
+        
+        when 11106.chat.'Belohnung abholen' with pc.in_dungeon() begin
+            
+            if pc.getqf('oz_belohnung') <= 0 then
+                local belohnung_vnum = 27001 --- Vnum für das Belohnungs-item
+                
+                say_title('Ork-Labyrinth General:')
+                say('[ENTER]Als Belohnung erhältst du folgendes Item:[ENTER][ENTER][ENTER]')
+                say_item_vnum(belohnung_vnum)
+                say('[ENTER][ENTER]')
+                
+                pc.setqf('oz_belohnung',1)
+                pc.give_item2(belohnung_vnum,1)
+				return
+            else
+				say_title('Ork-Labyrinth General:')
+                say('Du hast bereits die Belohnung erhalten!')
+				say('[ENTER][ENTER]')
+                return
+            end
+        end
+        
+        when logout begin
+            local idx = pc.get_map_index()
+            if idx == 357 or idx >= (357 * 10000) and idx < ((357 + 1) * 10000) then
+                pc.setf('orclabyrinth','last_exit_time', get_global_time())
+                d.setf(''..pc.get_account_id()..'', 2)
+            end
+        end
+        
+        when login begin
+            
+            local idx = pc.get_map_index()
+            
+            if idx >= (357 * 10000) and idx < ((357 + 1) * 10000) then
+                
+                if pc.get_level() < 30 or pc.get_level() > 75 then
+                    syschat('Du erfüllst die Vorraussetzungen nicht!')
+                    timer('return_to_village', 5)
+                elseif d.getf('set_server_timer50m') <= 0 then
+                    server_timer('orclabyrinth_50m_timer',60 * 10, d.get_map_index())
+                    d.setf('set_server_timer50m',1)
+                elseif d.getf(''..pc.get_account_id()..'') >= 1 and pc.in_dungeon() then
+                    pc.warp(64, 1469*100, 654*100)
+                end
+                timer('orclabyrinth_info_01', 1)
+                d.setf('needed_seal', d.getf('needed_seal')+1)
+                --syschat('#Debug: '..d.getf('needed_seal')..'')
+                if d.getf('boss_spawn') <= 0 then
+                    local random_number_spawn = number(1,3)
+                    d.setf('boss_spawn', 1)
+                    d.spawn_mob(691, 53, 1383)
+                    d.regen_file('data/dungeon/orc_maze/main_regen.txt')
+                    d.regen_file('data/dungeon/orc_maze/random_0'..random_number_spawn..'.txt')
+                end
+            end
+            if idx == 357 then
+                pc.warp(64, 1469*100, 654*100)
+            end
+        end
+        
+        when 20081.take with pc.in_dungeon() begin
+            if item.get_vnum() == 30107 then
+                --   if d.getf(''..pc.get_account_id()..'') >= 1 then
+                --       syschat('Du hast bereits ein Siegel abgegeben!')
+                --   else
+                d.setf('needed_seal', d.getf('needed_seal')-1)
+                if d.getf('needed_seal') <= 0 then
+                    d.spawn_mob(30122, 52, 1380)
+                    d.setf(''..pc.get_account_id()..'', 1)
+                    item.remove()
+                    npc.purge()
+                else
+                    --chat('#Debug '..d.getf('needed_seal')..'')
+                    d.setf(''..pc.get_account_id()..'', 1)
+                    d.setf('needed_seal', d.getf('needed_seal')-1)
+                    item.remove()
+                    npc.purge()
+                    --   end
+                end
+            end
+        end
+        
+        when 30122.chat.'Ork Dungeon' with npc.lock() begin
+            if not party.is_leader() then
+                say_title(string.format("%s:", c_mob_name(string.format("%d", npc.get_race()))))
+                say('[ENTER]Nur euer Anführer kann mit mir reden![ENTER]')
+				npc.unlock()
+            else
+                say_title(string.format("%s:", c_mob_name(string.format("%d", npc.get_race()))))
+                say('[ENTER]Ihr habt die erste Challenge bestanden![ENTER][ENTER]2 weitere Gegner warten auf euch.[ENTER]Möchtet ihr denn Kampf fortsetzen?[ENTER]')
+                
+                if select('Kampf Fortsetzen','Nein, wir wollen Aufgeben') == 2 then return end
+                
+                d.notice('Seid ihr bereit denn Oberork in seiner Stadt zu bekämpfen?')
+                d.regen_file('data/dungeon/orc_maze/reborn_orc.txt')
+                npc.unlock()
+				timer('orclabyrinth_ebene2', 5)
+                d.spawn_mob(692, 415, 187)
+            end
+        end
+        
+        
+        when kill begin
+            
+            local idx = pc.get_map_index()
+            
+            if pc.in_dungeon and idx >= (357 * 10000) and idx < ((357 + 1) * 10000) then
+                
+                if npc.get_race() == 691 then
+                    timer('orclabyrinth_ebene1',1)
+                elseif npc.get_race() == 692 then
+                    d.clear_regen()
+                    d.notice('Der Wiedergeborene Oberork wurde besiegt! Ihr werdet in denn Boss Raum gebracht.')
+                    timer('orclabyrinth_ebene3', 5)
+                    d.regen_file('data/dungeon/orc_maze/boss_room.txt')
+                    d.spawn_mob(693, 138,930)
+                elseif npc.get_race() == 693 then
+                    d.spawn_mob(11106, pc.get_local_x(),pc.get_local_y())
+                    d.notice('Der Verfluchte Oberork wurde besiegt!')
+                    --server_timer('orclabyrinth_belohnung', 1*1, get_server_timer_arg())
+                    server_timer('check_boss_room01', 60*1, pc.get_map_index())
+                    d.clear_regen()
+                else
+                    
+                    local random_number = number(1, 125)
+                    if random_number == 1 then
+                        game.drop_item (30107, 1)
+                    end
+                end
+            end
+        end
+        
+        --	when orclabyrinth_belohnung.server_timer begin
+        --	if pc.getqf('orclabyrinth_belohnung') < 1 then
+        
+        --		local item_belohnung = 19
+        
+        --		chat('Herzlichen Glückwunsch, du hast denn Dungeon erfolgreich abgeschlossen!')
+        --		chat('Als Belohnung erhälst du: '..c_item_name(item_belohnung)..'')
+        
+        --	pc.give_item2(item_belohnung, 1)
+        --		end
+        --	end
+        
+        when orclabyrinth_ebene1.timer begin
+            for a = 1, d.getf('needed_seal') do
+                d.regen_file('data/dungeon/orc_maze/seal_'..a..'.txt')
+            end
+        end
+        
+        when orclabyrinth_ebene2.timer begin
+            d.jump_all(118,394)
+            d.notice('Wiedergeborener Oberork befindet sich hier! Besiegt ihn!')
+        end
+        
+        when orclabyrinth_ebene3.timer begin
+            d.jump_all(138,930)
+            d.notice('Der Verfluchte Oberork befindet sich hier, besiegt ihn!')
+        end
+        
+        when return_to_village.timer begin
+            d.setf('needed_seal', d.getf('needed_seal')-1)
+            warp_to_village()
+        end
+        
+        when orclabyrinth_info_01.timer begin
+            say_title('Ork-Labyrinth Informationen:')
+            say('[ENTER]Ihr habt denn Ork-Labyrinth betreten![ENTER]Der Dungeon steht unter einem Fluch.[ENTER]Betretet das Portal und sammelt alle Siegel,[ENTER]die ihr von denn Monstern dort erhaltet.[ENTER][ENTER](Pro Gruppenmitglied wird 1 Siegel benötigt)[ENTER]')
+            chat('Ihr habt 60 Minuten Zeit! Viel Glück!')
+        end
+        
+        when orclabyrinth_50m_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice('Ihr habt noch 50 Minuten Zeit!')
+                server_timer('orclabyrinth_40m_timer', 60*10, get_server_timer_arg())
+            end
+        end
+        
+        when orclabyrinth_40m_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice('Ihr habt noch 40 Minuten Zeit!')
+                server_timer('orclabyrinth_30m_timer', 60*10, get_server_timer_arg())
+            end
+        end
+        
+        when orclabyrinth_30m_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice('Ihr habt noch 30 Minuten Zeit!')
+                server_timer('orclabyrinth_20m_timer', 60*10, get_server_timer_arg())
+            end
+        end
+        
+        when orclabyrinth_20m_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice('Ihr habt noch 20 Minuten Zeit!')
+                server_timer('orclabyrinth_10m_timer', 60*10, get_server_timer_arg())
+            end
+        end
+        
+        when orclabyrinth_10m_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice('Ihr habt noch 10 Minuten Zeit!')
+                server_timer('orclabyrinth_1m_timer', 60*10, get_server_timer_arg())
+            end
+        end
+        
+        when orclabyrinth_1m_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice('Ihr habt noch 1 Minuten Zeit!')
+                server_timer ('orclabyrinth_0m_timer', 60*1, get_server_timer_arg())
+            end
+        end
+        
+        when orclabyrinth_0m_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice ('Zeit ist abgelaufen, ihr werdet wieder zum Eingang gebracht.')
+                server_timer('orclabyrinth_exit_timer', 7, get_server_timer_arg())
+            end
+        end
+        
+        when check_boss_room01.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.clear_regen()
+                d.set_warp_location(64, 1469, 654)
+                clear_server_timer ("orclabyrinth_0m_timer", get_server_timer_arg())
+                server_timer("orclabyrinth_exit_timer", 60, get_server_timer_arg())
+            end
+        end
+     
+        
+        when orclabyrinth_exit_timer.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                clear_server_timer('orclabyrinth_50m_timer', get_server_timer_arg())
+                clear_server_timer('orclabyrinth_40m_timer', get_server_timer_arg())
+                clear_server_timer('orclabyrinth_30m_timer', get_server_timer_arg())
+                clear_server_timer('orclabyrinth_20m_timer', get_server_timer_arg())
+                clear_server_timer('orclabyrinth_10m_timer', get_server_timer_arg())
+                clear_server_timer('orclabyrinth_1m_timer', get_server_timer_arg())
+                clear_server_timer('orclabyrinth_0m_timer', get_server_timer_arg())
+                d.clear_regen()
+                d.exit_all()
+            end
+        end
+    end
+end

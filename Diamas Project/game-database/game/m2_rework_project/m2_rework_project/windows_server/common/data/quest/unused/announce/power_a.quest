@@ -1,0 +1,19 @@
+quest power_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("power_a") > 0 begin
+		send_letter("Powermount-Drop")
+	end
+	
+	when info or button begin
+		say_important("Powermount-Drop")
+		say_item_vnum(52701)
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance Powermount-Urkunden bei allen Boss-Monstern zu erhalten!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

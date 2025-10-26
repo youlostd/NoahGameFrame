@@ -1,0 +1,17 @@
+quest adv_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("adv_a") > 0 begin
+		send_letter("foreign advertising")
+	end
+	
+	when info or button begin
+		say_important("foreign advertising")
+		say("Dear Player,")
+		say("Where advertising is punished with a ban on all accounts")
+		say("Respect the rules and you'll get no trouble")
+		say("")
+	end
+end
+end

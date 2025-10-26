@@ -1,0 +1,1033 @@
+<skill-proto>
+	<skill vnum="1" name="Dreiwege-Schnitt" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND" cooltime="12">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="5" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(0.8*atk+(0.7*atk+1.5*str)*k)" master-value="-(0.8*atk+(0.7*atk+1.5*str)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="2" name="Schwertwirbel" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="12" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1*atk+(0.6*atk+str*25+dex*15)*k)" master-value="-(1*atk+(0.6*atk+str*25+dex*15)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="3" name="Kampfrausch" type="WARRIOR" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="ATT_SPEED" value="24*k" master-value="24*k" duration="999999*k" />
+		<second-property point="NORMAL_HIT_DAMAGE_BONUS" value="4*k" duration="999999*k" />
+		<third-property point="PENETRATE_PCT" value="15" duration="999999*k" />
+	</skill>
+	<skill vnum="4" name="Aura des Schwertes" type="WARRIOR" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1" />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="ATT_GRADE_BONUS" value="(315+str)*k" master-value="(315+str)*k" duration="999999*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="5" name="Sausen" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | SPLASH | CRUSH" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="4" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(0.4*atk+(atk+dex*15+str*20)*k)" master-value="-(0.4*atk+(atk+dex*15+str*20)*k)" />
+		<second-property point="MOV_SPEED" value="150" duration="3" />
+	</skill>
+	<skill vnum="6" name="Lebenswille" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND" cooltime="60">
+		<level step="1"  />
+		<cost sp="1" />
+		<target max-hit="5" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(2*atk+(atk+2.4*str)*k)*1.17" master-value="-(2*atk+(atk+2.4*str)*k)*1.17" duration="60+90*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="16" name="Durchschlag" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | CRUSH" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="4" splash-range="100" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1*atk+(2.8*atk+str*15)*k)" master-value="-(1*atk+(2.8*atk+str*25)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="17" name="Heftiges Schlagen" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="8" splash-range="210" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1*atk+(2.5*atk+str*15)*k)" master-value="-(1*atk+(2.5*atk+str*15)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="18" name="Stampfer" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | SELFONLY | SPLASH | STUN" cooltime="25">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="10" splash-range="540" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1*atk+(2*atk+10*dex+str*10)*k)" master-value="-(1*atk+(2*atk+10*dex+str*10)*k)" />
+		<second-property point="NONE" value="100+k*1000/6" duration="2" />
+	</skill>
+	<skill vnum="19" name="Starker Körper" type="WARRIOR" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="DEF_GRADE_BONUS" value="225*k" master-value="225*k" duration="999999*k" />
+		<second-property point="SKILL_DAMAGE_BONUS" value="4*k" duration="999999*k" />
+	</skill>
+	<skill vnum="20" name="Schwertschlag" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | SPLASH" cooltime="20">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1200" max-hit="10" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(0.1*atk+(1.7*atk+dex*10+str*10)*k)" master-value="-(0.1*atk+(1.7*atk+dex*10+str*10)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="21" name="Schwerztzirkel" type="WARRIOR" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND" cooltime="60">
+		<level step="1"  />
+		<cost sp="1" />
+		<target max-hit="10" splash-range="400" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1*atk+(2*atk+30*dex+2*con+str*4)*k)*1.1" master-value="-(1*atk+(2*atk+30*dex+2*con+str*4)*k)*1.1" duration="60+90*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="31" name="Hinterhalt" type="ASSASSIN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="6" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(1.8*atk+dex*30+str*30)*k)" master-value="-((atk+(0.1*atk+dex*40+str*13)*k)*3/4)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="32" name="Blitzangriff" type="ASSASSIN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND" cooltime="20">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="800" max-hit="6" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(2.0*atk+dex*30+str*30)*k)" master-value="-((atk+(0.1*atk+dex*40+str*18)*k)*3/4)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="33" name="Degenwirbel" type="ASSASSIN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | POISON" cooltime="25">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="12" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(0.9*atk+dex*30+str*30)*k)" master-value="-((atk+(0.1*atk+dex*40+str*10)*k)*3/4)" />
+		<second-property point="NONE" value="40*k" />
+	</skill>
+	<skill vnum="34" name="Tarnung" type="ASSASSIN" attr-type="NORMAL" flags="SELFONLY" cooltime="60">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="NONE" duration="15+30*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="35" name="Giftwolke" type="ASSASSIN" attr-type="MAGIC" flags="ATTACK | USE_MELEE_DAMAGE | WIND | SPLASH | POISON" cooltime="25">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="800" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(0.6*atk+(dex*3+str*3)*k)" master-value="-(1.0*atk+(dex*50+str*1)*k)" />
+		<second-property point="NONE" value="60*k" duration="5+25*k" />
+	</skill>
+	<skill vnum="36" name="Schleichendes Gift" type="ASSASSIN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | SPLASH" cooltime="60">
+		<level step="1"  />
+		<cost sp="1" />
+		<target range="800" max-hit="10" splash-dmg-poly="0.5" />
+		<first-property point="HP" value="-(lv*2+(atk+str*3+dex*18)*k)*3.1)" master-value="-(lv*2+(atk+str*3+dex*18)*k)*3.1)" duration="60+90*k" />
+		<second-property point="NONE" value="60*k" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="46" name="Wiederholter Schuss" type="ASSASSIN" attr-type="RANGE" flags="ATTACK | USE_ARROW_DAMAGE | WIND" cooltime="12">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2500" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1.4*atk+(2.2*atk+dex*30+str*30)*k)" master-value="-((0.1*atk+(0.4*atk+dex*50+str*10)*k)*3/4)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="47" name="Pfeilregen" type="ASSASSIN" attr-type="RANGE" flags="ATTACK | USE_ARROW_DAMAGE | WIND" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2500" max-hit="1" splash-range="200" splash-dmg-poly="0.6" />
+		<first-property point="HP" value="-(atk+(2.2*atk+dex*30+str*30)*k)" master-value="-((atk+(0.1*atk+dex*40+str*7)*k)*3/4)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="48" name="Feuerpfeil" type="ASSASSIN" attr-type="RANGE" flags="ATTACK | SPLASH | USE_ARROW_DAMAGE | WIND | FIRE_CONT" cooltime="20">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2500" max-hit="1" splash-range="300" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(2.5*atk+(2.5*atk+dex*30+str*30)*k)" master-value="-(0.1*atk+(0.1*atk+dex*55+str*10)*k)" />
+		<second-property point="NONE" value="lv+5*iq*k" duration="iq*10*k" />
+	</skill>
+	<skill vnum="49" name="Federschreiten" type="ASSASSIN" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="BLOCK" value="8*k" master-value="10*k" duration="999999*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="50" name="Giftpfeil" type="ASSASSIN" attr-type="RANGE" flags="ATTACK | USE_ARROW_DAMAGE | WIND | POISON" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2500" max-hit="1" splash-range="600" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(2.7*atk+dex*30+str*30)*k)" master-value="-((atk+(0.1*atk+dex*50+str*10)*k)*3/4)" />
+		<second-property point="NONE" value="80*k" duration="15+30*k" />
+	</skill>
+	<skill vnum="51" name="Funkschlag" type="ASSASSIN" attr-type="MELEE" flags="ATTACK | SPLASH | USE_ARROW_DAMAGE | WIND | CRUSH | POISON" cooltime="60">
+		<level step="1"  />
+		<cost sp="1" />
+		<target max-hit="5" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(0.5*atk+number(100,200)+dex*30+str*2)*k)*1.1)" master-value="-(atk+(0.5*atk+number(100,200)+dex*30+str*2)*k)*1.1)" duration="60+90*k" />
+		<second-property point="NONE" value="80*k" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="61" name="Fingerschlag" type="SURA" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | PENETRATE" cooltime="10">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="4" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1.8*atk+6*lv+iq*2+(1.7*atk+str*4+iq*14)*k)" master-value="-(0.1*atk+6*lv+iq*2+(1.7*atk+str*4+iq*14)*k)" />
+		<second-property point="NONE" value="1+k*9" />
+	</skill>
+	<skill vnum="62" name="Drachenwirbel" type="SURA" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | WIND | SELFONLY | SPLASH | IGNORE_TARGET_RATING" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="12" splash-range="500" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1.9*atk+6*lv+iq*2+(1.2*atk+str+iq*12)*k)" master-value="-(0.1*atk+6*lv+iq*2+(1.7*atk+str*4+iq*14)*k)" />
+		<second-property point="NONE" value="1+k*9" />
+	</skill>
+	<skill vnum="63" name="Verzauberte Klinge" type="SURA" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="ATT_GRADE_BONUS" value="(626+iq)*k" master-value="(315+iq)*k" duration="999999*k" duration-sp="1" />
+		<second-property point="STEAL_HP" value="10*k" duration="999999*k" />
+	</skill>
+	<skill vnum="64" name="Furcht" type="SURA" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="DODGE" value="22*k" master-value="22*k" duration="999999*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="65" name="Verzauberte Rüstung" type="SURA" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="DEF_GRADE_BONUS" value="(iq*0.574)*k" master-value="(iq*0.574)*k" duration="999999*k" />
+		<second-property point="REFLECT_MELEE" value="(iq*0.2109425287356322)*k" duration="999999*k" />
+	</skill>
+	<skill vnum="66" name="Zauber aufheben" type="SURA" attr-type="NORMAL" flags="ATTACK | COMPUTE_MAGIC_DAMAGE | SPLASH | WIND | REMOVE_GOOD_AFFECT" cooltime="12">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1800" max-hit="5" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(3.1*atk+2*lv+iq*30+(2.5*atk+str+iq*30)*k)" master-value="-(3.1*atk+2*lv+iq*30+(2.5*atk+str+iq)*k)" />
+		<second-property point="NONE" value="10+40*k" duration="7+23*k" />
+	</skill>
+	<skill vnum="76" name="Dunkler Schlag" type="SURA" attr-type="MAGIC" flags="ATTACK | COMPUTE_MAGIC_DAMAGE | WIND | SPLASH" cooltime="7">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1500" max-hit="5" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(2*lv+(5*dex+10*iq+5*mwep)*k)" master-value="-(2*lv+(5*dex+10*iq+5*mwep)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="77" name="Flammenschlag" type="SURA" attr-type="MAGIC" flags="ATTACK | SELFONLY | COMPUTE_MAGIC_DAMAGE | WIND | SPLASH" cooltime="12">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="15" splash-range="500" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(4*lv+(5*dex+10*iq+7.5*mwep)*k)" master-value="-(4*lv+(5*dex+10*iq+7.5*mwep)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="78" name="Geist der Flamme" type="SURA" attr-type="MAGIC" flags="ATTACK | COMPUTE_MAGIC_DAMAGE | WIND | SPLASH | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="800" max-hit="1" splash-range="100" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(2*lv+(5*dex+5*iq+2.6*mwep)*k)" master-value="-(2*lv+(5*dex+5*iq+2.6*mwep)*k)" duration="999999*k" duration-sp="1" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="79" name="Dunkler Schutz" type="SURA" attr-type="MAGIC" flags="SELFONLY | TOGGLE" cooltime="0">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="DEF_GRADE_BONUS" value="(iq*0.574)*k" master-value="(iq*0.574)*k" duration="999999*k" duration-sp="1" />
+		<second-property point="MANASHIELD" value="17" duration="999999*k" />
+	</skill>
+	<skill vnum="80" name="Geisterschlag" type="SURA" attr-type="MAGIC" flags="ATTACK | COMPUTE_MAGIC_DAMAGE | WIND | SPLASH | SLOW" cooltime="12">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1200" max-hit="9" splash-range="400" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(2*lv+(5*dex+15*iq+5*mwep)*k)" master-value="-(2*lv+(5*dex+15*iq+5*mwep)*k)" />
+		<second-property point="NONE" value="333+300*k" duration="10+10*k" />
+	</skill>
+	<skill vnum="81" name="Dunkler Stein" type="SURA" attr-type="MAGIC" flags="ATTACK | COMPUTE_MAGIC_DAMAGE | WIND | SPLASH" cooltime="24">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1500" max-hit="9" splash-range="200" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(lv+(5*dex+20*iq+8*mwep)*k)" master-value="-(lv+(5*dex+20*iq+8*mwep)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="91" name="Fliegender Talisman" type="SHAMAN" attr-type="MAGIC" flags="ATTACK | COMPUTE_MAGIC_DAMAGE | WIND | SPLASH" cooltime="7">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1800" max-hit="5" splash-range="400" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(70+5*lv+(18*iq+str*7+3*mwep)*ar*k)" master-value="-(70+5*lv+(18*iq+str*7+6*mwep)*ar*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="92" name="Drachenschießen" type="SHAMAN" attr-type="MAGIC" flags="ATTACK | FIRE_CONT | WIND" cooltime="8">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="10" splash-range="250" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(5*lv+(16*iq+dex*6+6*mwep+120)*ar*k)" master-value="-(9*lv+(16*iq+dex*6+6*mwep+120)*ar*k)" />
+		<second-property point="NONE" value="lv+5*iq *k" duration="iq*0.2*k" />
+	</skill>
+	<skill vnum="93" name="Drachengebrüll" type="SHAMAN" attr-type="MAGIC" flags="ATTACK | SELFONLY | SPLASH | FIRE_CONT | WIND" cooltime="20">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target max-hit="15" splash-range="500" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(3*lv+(20*iq+str*3+10*mwep)*ar*k)" master-value="-(15*lv+(20*iq+str*3+10*mwep)*ar*k)" />
+		<second-property point="NONE" value="lv+5*iq *k" duration="iq*0.2*k" />
+	</skill>
+	<skill vnum="94" name="Segen" type="SHAMAN" attr-type="NORMAL" flags="" cooltime="8">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2100" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="RESIST_NORMAL_DAMAGE" value="(iq*0.1609195402298851)*k" master-value="(iq*0.1609195402298851)*k" duration="999999*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="95" name="Reflektieren" type="SHAMAN" attr-type="NORMAL" flags="" cooltime="8">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2100" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="REFLECT_MELEE" value="(iq*0.1149425287356322)*k" master-value="(iq*0.2709425287356322)*k" duration="999999*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="96" name="Hilfe des Drachen" type="SHAMAN" attr-type="NORMAL" flags="" cooltime="8">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2100" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="CRITICAL_PCT" value="(iq*0.1609195402298851)*k" master-value="(iq*0.1609195402298851)*k" duration="999999*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="106" name="Blitzwurf" type="SHAMAN" attr-type="MAGIC" flags="ATTACK | SPLASH | WIND" cooltime="8">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1800" max-hit="5" splash-range="400" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(15*lv+(8*iq+dex*2+6*mwep)*ar*k)" master-value="-(35*lv+(8*iq+dex*2+6*mwep)*ar*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="107" name="Blitz heraufbeschwören" type="SHAMAN" attr-type="MAGIC" flags="ATTACK | SPLASH | STUN | WIND" cooltime="15">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1500" max-hit="15" splash-range="400" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(14*lv+(13*iq+str*2+9*mwep)*ar*k)" master-value="-(32*lv+(13*iq+str*2+9*mwep)*ar*k)" />
+		<second-property point="NONE" value="50+1000*k/6" duration="5" />
+	</skill>
+	<skill vnum="108" name="Blitzkralle" type="SHAMAN" attr-type="MAGIC" flags="ATTACK | WIND" cooltime="9">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2500" max-hit="7" splash-range="100" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(10*lv+(8*iq+str*2+6*mwep)*ar*k)*(1-chain*0.13)" master-value="-(35*lv+(8*iq+str*2+6*mwep)*ar*k)*(1-chain*0.13)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="109" name="Kurieren" type="SHAMAN" attr-type="NORMAL" flags="REMOVE_BAD_AFFECT" cooltime="13">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="1500" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="HP" value="15*lv+(10*iq+50*mwep)*(k+0.15)" master-value="15*lv+(10*iq+5*mwep)*(k+0.15)" />
+		<second-property point="NONE" value="80*k" />
+	</skill>
+	<skill vnum="110" name="Schnelligkeit" type="SHAMAN" attr-type="NORMAL" flags="" cooltime="8">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2100" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="MOV_SPEED" value="22*k" master-value="22*k" duration="999999*k" />
+		<second-property point="CASTING_SPEED" value="22*k" duration="999999*k" />
+	</skill>
+	<skill vnum="111" name="Angriff+" type="SHAMAN" attr-type="NORMAL" flags="" cooltime="8">
+		<level step="1"  />
+		<cost sp="1" grand-master-sp="1" />
+		<target range="2100" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="ATT_GRADE_BONUS" value="(iq*0.5747126436781609)*k" master-value="(iq*0.5747126436781609)*k" duration="999999*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="121" name="Führung" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="40" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="122" name="Combo" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="2" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="124" name="Bergbau" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="40" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="125" name="Herstellung von Gegenständen" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="40" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" duration="10+1000*k" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="126" name="Shinsoo" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="20" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="127" name="Chunjo" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="20" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="128" name="Jinno" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="20" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="129" name="Verwandlung" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="40" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="130" name="Reiten" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1"  />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="131" name="Pferd rufen" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="10" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="137" name="Kampf vom Pferderücken" type="HORSE" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | CRUSH" cooltime="5-(4*k)">
+		<level step="1" />
+		<cost sp="1" />
+		<target range="300" max-hit="10" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(0.1*atk*k))" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="138" name="Pferdestampfer" type="HORSE" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH | CRUSH_LONG" cooltime="15">
+		<level step="1" />
+		<cost sp="1" />
+		<target range="400" max-hit="6" splash-range="100" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(0.4*(200+1.5*lv)+(3*200*k))" />
+		<second-property point="MOV_SPEED" value="50" duration="5" />
+	</skill>
+	<skill vnum="139" name="Kraftwelle" type="HORSE" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SELFONLY | SPLASH | CRUSH" cooltime="20">
+		<level step="1" />
+		<cost sp="1" />
+		<target range="400" max-hit="12" splash-range="250" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(0.1*(200+1.5*lv)+(3*200*k))" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="140" name="Pfeilhagel" type="HORSE" attr-type="NONE" flags="ATTACK | USE_ARROW_DAMAGE | CRUSH" cooltime="10">
+		<level step="1" />
+		<cost sp="1" />
+		<target range="2500" max-hit="5" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(0.0001*atk*k))" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="141" name="Heart of the Dragon" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="40" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16000*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="142" name="Dragon's Claw" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="40" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="20*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="143" name="Monsterboost" type="SECONDARY" attr-type="NORMAL" flags="DISABLE_BY_POINT_UP" cooltime="">
+		<level step="1" max="40" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="40*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="151" name="Drachenaugen" type="SECONDARY" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1" max="7" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="152" name="Blut des Drachengotts" type="SECONDARY" attr-type="NORMAL" flags="" cooltime="120">
+		<level step="1" max="7" />
+		<cost sp="1" />
+		<target splash-dmg-poly="1" />
+		<first-property point="MAX_HP" value="60000*k" duration="3600" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="153" name="Segnung des Drachengotts" type="SECONDARY" attr-type="NORMAL" flags="" cooltime="120">
+		<level step="1" max="7" />
+		<cost sp="1" />
+		<target splash-dmg-poly="1" />
+		<first-property point="MAX_SP" value="maxsp*0.2*k" duration="3600" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="154" name="Heilige Rüstung" type="SECONDARY" attr-type="NORMAL" flags="" cooltime="120">
+		<level step="1" max="7" />
+		<cost sp="1" />
+		<target splash-dmg-poly="1" />
+		<first-property point="DEF_GRADE_BONUS" value="odef*0.1*k" duration="3600" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="155" name="Beschleunigung" type="SECONDARY" attr-type="NORMAL" flags="" cooltime="120">
+		<level step="1" max="7" />
+		<cost sp="1" />
+		<target splash-dmg-poly="1" />
+		<first-property point="MOV_SPEED" value="10*k" duration="3600" />
+		<second-property point="ATT_SPEED" value="10*k" duration="3600" />
+	</skill>
+	<skill vnum="156" name="Wut des Drachengottes" type="SECONDARY" attr-type="NORMAL" flags="SELFONLY" cooltime="120">
+		<level step="1" max="7" />
+		<cost sp="1" />
+		<target splash-dmg-poly="1" />
+		<first-property point="CRITICAL_PCT" value="15*k" duration="3600" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="157" name="Zauberhilfe" type="SECONDARY" attr-type="NORMAL" flags="SELFONLY" cooltime="120">
+		<level step="1" max="7" />
+		<cost sp="1" />
+		<target splash-dmg-poly="1" />
+		<first-property point="CASTING_SPEED" value="15*k" duration="3600" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="158" name="Â±Ã¦ÂµÃ¥Ã€ÃŒÂµÂ¿" type="SECONDARY" attr-type="NORMAL" flags="SELFONLY" cooltime="">
+		<level step="1" max="3" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="159" name="Â°Ã¸Â°Â£Ã€Ã‡Â¹Â®" type="SECONDARY" attr-type="NORMAL" flags="SELFONLY" cooltime="">
+		<level step="1" max="5" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="160" name="Â°Â¡Â¼Ã“ÃˆÂ­" type="SECONDARY" attr-type="NORMAL" flags="SELFONLY" cooltime="">
+		<level step="1" max="5" />
+		<cost sp="80-12*k" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" value="3*k" duration="300" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="161" name="Â°Ã¸Â°Â£Ã€Ã‡Â¹Â®" type="SECONDARY" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1" max="2" />
+		<cost sp="50" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="162" name="Â°Ã¸Â°Â£Ã€ÃŒÂµÂ¿" type="SECONDARY" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1" max="2" />
+		<cost sp="20" />
+		<target splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="170" name="????" type="WOLFMAN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="12">
+		<level step="1"  />
+		<cost sp="40+100*k" />
+		<target range="300" max-hit="5" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(1.1*atk+(0.3*atk+1.5*str)*k)" master-value="-(1.1*atk+(0.3*atk+1.5*str)*k)" />
+		<second-property point="NONE" value="60*k" duration="5+25*k" />
+	</skill>
+	<skill vnum="171" name="???" type="WOLFMAN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH | STUN | CRUSH" cooltime="20">
+		<level step="1"  />
+		<cost sp="40+120*k" />
+		<target range="1000" max-hit="10" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(2*atk+(atk+dex*3+str*5+con)*k)" master-value="-(2*atk+(atk+dex*3+str*5+con)*k)" />
+		<second-property point="NONE" value="100+k*1000/6" duration="2" />
+	</skill>
+	<skill vnum="172" name="??????" type="WOLFMAN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE" cooltime="12">
+		<level step="1"  />
+		<cost sp="40+100*k" />
+		<target range="800" max-hit="5" splash-range="100" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(atk+(1.6*atk+200+dex*7+str*7)*k)" master-value="-(atk+(1.6*atk+200+dex*7+str*7)*k)" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="173" name="???" type="WOLFMAN" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE" cooltime="12">
+		<level step="1"  />
+		<cost sp="40+100*k" />
+		<target range="800" max-hit="10" splash-range="100" splash-dmg-poly="1" />
+		<first-property point="HP" value="-(3*atk+(0.8*atk+str*6+dex*2+con)*k)" master-value="-(3*atk+(0.8*atk+str*6+dex*2+con)*k)" />
+		<second-property point="DEF_GRADE_BONUS" value="-30*k" duration="5" />
+	</skill>
+	<skill vnum="174" name="????????" type="WOLFMAN" attr-type="NORMAL" flags="SELFONLY | TOGGLE" cooltime="2">
+		<level step="1"  />
+		<cost sp="20+240*k" />
+		<target max-hit="1" splash-dmg-poly="1" />
+		<first-property point="ATT_GRADE_BONUS" value="7+(5*iq+13)*k" master-value="7+(5*iq+13)*k" duration="60+600*k" duration-sp="2+23*k" />
+		<second-property point="DEF_GRADE_BONUS" value="-30*k" duration="50+100*k" />
+	</skill>
+	<skill vnum="175" name="û??????" type="WOLFMAN" attr-type="NORMAL" flags="PARTY" cooltime="2">
+		<level step="1"  />
+		<cost sp="80+220*k" />
+		<target range="1000" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="ATT_SPEED" value="20*k" master-value="20*k" duration="60+600*k" />
+		<second-property point="DODGE" value="1+10*k" duration="200" />
+	</skill>
+	<skill vnum="221" name="Sword Spin Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="222" name="Ambush Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="223" name="Finger Strike Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="224" name="Shooting Dragon Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="225" name="Spirit Strike Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="226" name="Fire Arrow Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="227" name="Dark Strike Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="228" name="Summon Lightning Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="229" name="Wolfs Breath Ward" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="24*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="236" name="Sword Spin Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="237" name="Ambush Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="238" name="Finger Strike Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="239" name="Shooting Dragon Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="240" name="Spirit Strike Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="241" name="Fire Arrow Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="242" name="Dark Strike Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="243" name="Summon Lightning Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="244" name="Wolfs Breath Boost" type="COMMON" attr-type="NORMAL" flags="" cooltime="">
+		<level step="1"  />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="NONE" value="16*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="256" name="CRUSH200Â½ÂºÃ…Â³" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="4">
+		<level step="1"  />
+		<target splash-range="300" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="257" name="Ã€ÃÂ¹ÃÂ¹Ã¼Ã€Â§350Â½ÂºÃ…Â³" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="6">
+		<level step="1"  />
+		<target splash-range="525" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="258" name="CRUSH300Â½ÂºÃ…Â³" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="8">
+		<level step="1"  />
+		<target splash-range="450" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="259" name="Ã€ÃÂ¹ÃÂ¹Ã¼Ã€Â§200Â½ÂºÃ…Â³" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="10">
+		<level step="1"  />
+		<target splash-range="300" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="260" name="CURSH400Â½ÂºÃ…Â³" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="12">
+		<level step="1"  />
+		<target splash-range="600" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="261" name="ÂµÂ¶250Â½ÂºÃ…Â³" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH | POISON" cooltime="10">
+		<level step="1"  />
+		<target splash-range="375" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="NONE" value="80" />
+	</skill>
+	<skill vnum="262" name="SLOW300Â½ÂºÃ…Â³" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="14">
+		<level step="1"  />
+		<target splash-range="450" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="MOV_SPEED" value="-20" duration="10" />
+	</skill>
+	<skill vnum="263" name="SLOW4000??" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="12">
+		<level step="1"  />
+		<target range="2000" splash-range="6000" splash-dmg-poly="1" />
+		<first-property point="HP" value="-5*k*atk" />
+		<second-property point="MOV_SPEED" value="-70" duration="3" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="264" name="THUNDER??" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH | CRUSH" cooltime="12">
+		<level step="1"  />
+		<target splash-range="500" splash-dmg-poly="1" />
+		<first-property point="HP" value="-maxhp*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="265" name="HEAL4000??" type="SECONDARY" attr-type="NORMAL" flags="PARTY" cooltime="5">
+		<level step="1"  />
+		<target range="3000" max-hit="1" splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="266" name="ATTACK_SLOW" type="SECONDARY" attr-type="NORMAL" flags="SELFONLY | SPLASH" cooltime="">
+		<level step="1"  />
+		<target max-hit="1" splash-range="3000" splash-dmg-poly="1" />
+		<first-property point="NONE" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="267" name="S1 Dragon Queen Meley" type="SECONDARY" attr-type="MAGIC" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH" cooltime="3">
+		<level step="1"  />
+		<target range="500" max-hit="7" splash-range="300" splash-dmg-poly="0.9" />
+		<first-property point="HP" value="-2*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="268" name="S2 Dragon Queen Meley" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH | FIRE_CONT" cooltime="6">
+		<level step="1"  />
+		<target range="600" splash-range="800" splash-dmg-poly="1" />
+		<first-property point="HP" value="-3*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="269" name="S3 Dragon Queen Meley" type="SECONDARY" attr-type="MELEE" flags="ATTACK | USE_MELEE_DAMAGE | SPLASH | FIRE_CONT" cooltime="5">
+		<level step="1"  />
+		<target range="700" splash-range="800" splash-dmg-poly="1" />
+		<first-property point="HP" value="-3*k*atk" />
+		<second-property point="NONE" />
+	</skill>
+	<skill vnum="180" name="Skill Tree 1" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="2*(k+1)" max="50" limit="55" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="STEAL_HP" value="10*k" master-value="10*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="181" name="Skill Tree 2" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="75" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="ATTBONUS_UNDEAD" value="10*k" master-value="10*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="180" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="182" name="Skill Tree 3" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="75" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="ATTBONUS_UNDEAD" value="10*k" master-value="10*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="180" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="183" name="Skill Tree 4" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="12*(k+1)" max="50" limit="125" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="ATTBONUS_DEVIL" value="10*k" master-value="10*k" />
+		<second-property point="ATTBONUS_MONSTER" value="10*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="184" skill-level="50"/>
+			<requirement skill-vnum="185" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="184" name="Skill Tree 5" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="4.5*(k+1)" max="50" limit="100" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="ATTBONUS_UNDEAD" value="10*k" master-value="10*k" />
+		<second-property point="ATTBONUS_METIN" value="10*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="181" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="185" name="Skill Tree 6" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="4.5*(k+1)" max="50" limit="100" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="ATTBONUS_UNDEAD" value="10*k" master-value="10*k" />
+		<second-property point="ATTBONUS_BOSS" value="10*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="182" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="186" name="Skill Tree 7" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="2*(k+1)" max="50" limit="55" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="CASTING_SPEED" value="10*k" master-value="10*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="187" name="Skill Tree 8" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="75" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_WARRIOR" value="6*k" master-value="6*k" />
+		<second-property point="RESIST_ASSASSIN" value="6*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="186" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="188" name="Skill Tree 9" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="75" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_SURA" value="6*k" master-value="6*k" />
+		<second-property point="RESIST_SHAMAN" value="6*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="186" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="189" name="Skill Tree 10" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="100" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_SWORD" value="6*k" master-value="6*k" />
+		<second-property point="RESIST_TWOHAND" value="6*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="187" skill-level="50"/>
+			<requirement skill-vnum="188" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="190" name="Skill Tree 11" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="100" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_DAGGER" value="6*k" master-value="6*k" />
+		<second-property point="RESIST_BOW" value="6*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="187" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="191" name="Skill Tree 12" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="100" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_BELL" value="6*k" master-value="6*k" />
+		<second-property point="RESIST_MAGIC" value="6*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="188" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="192" name="Skill Tree 13" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="6*(k+1)" max="50" limit="125" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="CRITICAL_PCT" value="30*k" master-value="30*k" />
+		<second-property point="ATTBONUS_HUMAN" value="30*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="189" skill-level="50"/>
+			<requirement skill-vnum="191" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="193" name="Skill Tree 14" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="6*(k+1)" max="50" limit="125" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="PENETRATE_PCT" value="30*k" master-value="30*k" />
+		<second-property point="ATTBONUS_HUMAN" value="30*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="189" skill-level="50"/>
+			<requirement skill-vnum="190" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="194" name="Skill Tree 15" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="2*(k+1)" max="50" limit="55" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_ELEC" value="10*k" master-value="10*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+	</skill>
+	<skill vnum="195" name="Skill Tree 16" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="75" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_WIND" value="10*k" master-value="10*k" />
+		<second-property point="MAX_HP" value="2000*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="194" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="196" name="Skill Tree 17" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="3.2*(k+1)" max="50" limit="75" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_DARK" value="10*k" master-value="10*k" />
+		<second-property point="MAX_HP" value="2000*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="194" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="197" name="Skill Tree 18" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="12*(k+1)" max="50" limit="125" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_EARTH" value="10*k" master-value="10*k" />
+		<second-property point="MALL_GOLDBONUS" value="20*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="198" skill-level="50"/>
+			<requirement skill-vnum="199" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="198" name="Skill Tree 19" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="4.5*(k+1)" max="50" limit="100" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="ITEM_DROP_BONUS" value="20*k" master-value="20*k" />
+		<second-property point="GOLD_DOUBLE_BONUS" value="20*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="195" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="199" name="Skill Tree 20" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="4.5*(k+1)" max="50" limit="100" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="MAX_HP" value="5000*k" master-value="5000*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="196" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="200" name="Skill Tree 21" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="15.9*(k+1)" max="50" limit="150" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="ATTBONUS_DEVIL" value="40*k" master-value="40*k" />
+		<second-property point="MAX_HP" value="10000*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="180" skill-level="50"/>
+			<requirement skill-vnum="181" skill-level="50"/>
+			<requirement skill-vnum="182" skill-level="50"/>
+			<requirement skill-vnum="183" skill-level="50"/>
+			<requirement skill-vnum="184" skill-level="50"/>
+			<requirement skill-vnum="185" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="201" name="Skill Tree 22" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="15.9*(k+1)"  max="50" limit="150" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="MAX_HP" value="30000*k" master-value="30000*k" />
+		<second-property point="NONE" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="186" skill-level="50"/>
+			<requirement skill-vnum="187" skill-level="50"/>
+			<requirement skill-vnum="188" skill-level="50"/>
+			<requirement skill-vnum="189" skill-level="50"/>
+			<requirement skill-vnum="190" skill-level="50"/>
+			<requirement skill-vnum="191" skill-level="50"/>
+			<requirement skill-vnum="192" skill-level="50"/>
+			<requirement skill-vnum="193" skill-level="50"/>
+		</requirement>
+	</skill>
+	<skill vnum="202" name="Skill Tree 23" type="SKILLTREE" attr-type="NORMAL" flags="" cooltime="">
+		<level step="15.9*(k+1)"  max="50" limit="150" />
+		<target range="1000" splash-dmg-poly="1" />
+		<first-property point="RESIST_FIRE" value="10*k" master-value="10*k" />
+		<second-property point="MALL_ITEMBONUS" value="20*k" />
+		<third-property point="NONE" />
+		<requirements>
+			<requirement skill-vnum="194" skill-level="50"/>
+			<requirement skill-vnum="195" skill-level="50"/>
+			<requirement skill-vnum="196" skill-level="50"/>
+			<requirement skill-vnum="197" skill-level="50"/>
+			<requirement skill-vnum="198" skill-level="50"/>
+			<requirement skill-vnum="199" skill-level="50"/>
+		</requirement>
+	</skill>
+</skill-proto>

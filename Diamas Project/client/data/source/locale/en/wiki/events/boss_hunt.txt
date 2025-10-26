@@ -1,0 +1,50 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/bosshunt.tga]
+[CENTER_ALIGN;FONT_SIZE=18]Boss-Hunting Event
+
+[COLOR=0xffd700;FONT_SIZE=15]Content List:
+*1. Allgemeine Informationen
+*2. Event Erklärung
+*3. Bossjagd Punkte & Belohnung
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=85; CENTER_ALIGN]
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen
+
+Das Event ist für jeden Spieler ab Lv30.
+Jeder Schlag macht 1 Damage an dem Boss und du erhälst für jeden Schlag Punkte. Deinen aktuellen
+Punktestand kannst du ganz einfach in der UI links unten in deinem Spielfenster nachschauen.
+
+Die gesammelten Punkte können bei Uriel gegen verschiedene Truhen eingetauscht werden.
+Hinweis: Der Boss reduziert deine Angriffsgeschwindigkeit um 100.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=210; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Event Erklärung:
+
+Schattenkrieger spawnen auf vier neutralen Maps, Orktal, Eisland, Feuerland
+und in der Wüste. (2 pro Channel und Map)
+Um den Schattenkrieger ist das PvP deaktiviert.
+Man erhält für jeden Schlag 1 Punkt.
+
+Brutale Schattenkrieger spawnen auf den vier Lv 90 Maps, Kap des Drachenfeuers,
+Donnerberge, Gautamakliff und Nephritbucht. (2 pro Channel und Map)
+Um den Brutalen Schattenkrieger ist das PvP aktiviert.
+Man erhält für jeden Schlag 2 Punkte.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=400; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Bossjagd Punkte & Belohnung
+
+Du kannst die Punkte bei Uriel gegen eine Bronzene Decimustruhe, Silberne Decimustruhe,
+Goldene Decimustruhe oder gegen eine Prunkvolle Decimustruhe eintauschen.
+
+Hinweis: Die Punkte verschwinden sobald das Event beendet ist, tausche sie also frühzeitig ein!
+
+*500 Punkte: Bronzene Decimustruhe
+*1000 Punkte: Silberne Decimustruhe
+*2000 Punkte: Goldene Decimustruhe
+*5000 Punkte: Prunkvolle Decimustruhe
+
+

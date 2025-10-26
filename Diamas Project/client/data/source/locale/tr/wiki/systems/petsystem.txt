@@ -1,0 +1,43 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/petsystem.png]
+[CENTER_ALIGN]Pet Sistemi
+
+
+1. Genel
+
+Sıradan petlerden farklı petler de var. Bu tür petler seviye atlayabilir ve güçlenebilir.
+Böyle bir peti sunucuda bulunan tüm canavarlardan düşürebilirsin. "X" tuşuna basarak petin
+özelliklerini görebilirsin.
+
+2. Seviye 
+
+Bu petler seviye atlayabilir. Seviyeleri yükseldikçe boyutları da büyür ve statü puanı kazanırsın.
+Petin seviyesini yükseltmek için ihtiyacın olanlar:
+
+- Pet-Gıda (1-10)
+- Pet-Gıda (10-30)
+- Pet-Gıda (30-60)
+- Pet-Gıda (60-100)
+- Pet-Gıda (100-150)
+
+Bu itemleri petin üzerine sürükleyerek seviyesini yükseltebilirsin.
+
+3. Statü Puanları
+
+Petin özellik penceresini açtıktan sonra, orada aldığın statü puanlarını dağıtabilirsin.
+150. seviyede dağıtım için 447 statü puanın olcaktır. Bonuslar ayrıca "Pet Efsun Değiştirici"
+itemi ile değiştirilebilir. Bonusları değiştirmek, kullanmış olduğun statü puanlarını geri getirir.
+tum bonusları açmak için önce petin seviyesi yükseltilmelidir.
+Bonus Dağılımı aşağıdaki gibidir:
+
+- Seviye 1: 2 Bonus
+- Seviye 10: 3 Bonus
+- Seviye 30: 4 Bonus
+- Seviye 60: 5 Bonus
+- Seviye 100: 6 Bonus
+- Seviye 150: 7 Bonus
+
+Mevcut olan 447 statü puanı ile tüm bonuslarını son seviyeye getiremessin. Akıllıca davran!
+
+
+

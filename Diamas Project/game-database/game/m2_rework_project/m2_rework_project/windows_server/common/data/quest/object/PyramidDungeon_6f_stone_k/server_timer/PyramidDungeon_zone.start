@@ -1,0 +1,7 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+if d . getf ( "PyramidDungeon_6f_stone" ) == 0 then 
+d . setf ( "PyramidDungeon_6f_stone" , 1 ) ; 
+else 
+return ; 
+end 
+end 

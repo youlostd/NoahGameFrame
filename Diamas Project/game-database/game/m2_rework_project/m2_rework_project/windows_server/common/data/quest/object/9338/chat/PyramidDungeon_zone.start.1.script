@@ -1,0 +1,20 @@
+say_size ( 350 , 350 ) ; addimage ( 25 , 10 , "pyramid_dungeon_bg1.tga" ) ; addimage ( 220 , 200 , "pyramid_guard.tga" ) 
+say ( "[ENTER][ENTER]" ) 
+say_title ( string . format ( "%s:[ENTER]" , c_mob_name ( npc . get_race ( ) ) ) ) 
+say ( "People have forgotten to majestic gods of[ENTER]the greatest empire ever existed! They have returned![ENTER]Dark power brought them back from the underworld.[ENTER]They are still stuck in this pyramid, but my power has limits.[ENTER]I feel them, they are stronger every day and trying[ENTER]to get out." ) 
+wait ( ) 
+say_size ( 350 , 350 ) ; addimage ( 25 , 10 , "pyramid_dungeon_bg1.tga" ) ; addimage ( 220 , 200 , "pyramid_guard.tga" ) 
+say ( "[ENTER][ENTER]" ) 
+say_title ( string . format ( "%s:[ENTER]" , c_mob_name ( npc . get_race ( ) ) ) ) 
+say ( "It's extremly dangeours. Undiscovered forces rule to that place." ) 
+say_reward ( "Do you think you could stop it?" ) 
+if ( select ( "Yes" , "No" ) == 1 ) then 
+if PyramidDungeonLIB . checkEnter ( ) then 
+say_size ( 350 , 350 ) ; addimage ( 25 , 10 , "pyramid_dungeon_bg1.tga" ) ; addimage ( 225 , 200 , "pyramid_guard.tga" ) 
+say_reward ( "[ENTER]You must finish the dungeon in 2 hours.[ENTER]Otherwise you will be teleported out[ENTER]of the dungeon.[ENTER][ENTER]I wish you best luck!" ) 
+wait ( ) 
+PyramidDungeonLIB . CreateDungeon ( ) ; 
+d . add_boss_vnum ( 4158 ) 
+d . add_boss_vnum ( 4159 ) 
+end 
+end 

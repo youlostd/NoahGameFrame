@@ -1,0 +1,11 @@
+[DELAY value;0]
+Mit der Weisheit langer und intensiver Studien[ENTER]
+gesegnet, nutzen Schamanen im Kampf Zauber[ENTER]
+und Magie. Dabei kommen ihre mystischen[ENTER]
+Fähigkeiten nicht nur ihnen selbst, sondern[ENTER]
+auch der Unterstützung ihrer Kampfgefährten[ENTER]
+zugute. Durch Spezialisierung besitzen[ENTER]
+Schamanen die Möglichkeit, Angriffe zu[ENTER]
+[WAIT]
+verstärken oder einzelne Heil- und[ENTER]
+Unterstützungszauber weiter zu entwickeln.

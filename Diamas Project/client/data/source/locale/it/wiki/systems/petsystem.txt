@@ -1,0 +1,44 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/petsystem.png]
+[CENTER_ALIGN]Sistema del Pet
+
+
+1.  Generale
+
+Questi pet sono molto diversi da quelli ordinari. Essi possono essere migliorati tramite l'apposito cibo. Qualsiasi mostro
+ha una piccola probabilità di poter lasciar cadere il sigillo del pet stesso. 
+Puoi aprire la finestra del pet posizionando il mouse sulla sua icona  e premendo "x".
+
+2. Aumento di Livello
+
+E' possibile aumentare il livello di questi pet. I cibi del pet, oltre ad ottenere Punti Status importanti,
+gli permetteranno di crescere in dimensione.
+Per aumentare il livello del tuo pet avrai bisogno di: 
+
+- Cibo per Animali (1-10)
+- Cibo per Animali (10-30)
+- Cibo per Animali (30-60)
+- Cibo per Animali (60-100)
+- Cibo per Animali (100-150)
+
+E' sufficiente trascinare il cibo corrispondente sul pet per farlo crescere.
+
+3. Punti Status
+
+Al livello 150, avrai a disposizione 447 Punti Status da poter distribuire tra i vari bonus presenti.
+I bonus possono essere cambiati tramite l'apposito oggetto "Incanta Bonus per Pet".
+Questo oggetto ripristinerà automaticamente tutti i Punti Status assegnati precedentemente e assegnerà nuovi bonus che potrai aumentare.
+Otterrai nuovi bonus del pet all'aumentare del livello dello stesso.
+La distribuzione dei bonus segue questo schema:
+
+- Dal Livello 1: 2 Bonus
+- Dal Livello 10: 3 Bonus
+- Dal Livello 30: 4 Bonus
+- Dal Livello 60: 5 Bonus
+- Dal Livello 100: 6 Bonus
+- Dal Livello 150: 7 Bonus
+
+Avendo a disposizione solamente 447 punti abilità, non avrai così la possiiblità di poter maxare tutti i bonus. Percui,scegli con attenzione! 
+
+
+

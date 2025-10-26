@@ -1,0 +1,12 @@
+if pc . in_dungeon ( ) then 
+say ( "Du kannst das Item hier nicht nutzen!" ) 
+return 
+end 
+say_title ( gameforge . comboback . _10_say ) 
+say ( gameforge . comboback . _11_say ) 
+local f = select ( gameforge . comboback . _12_say , gameforge . comboback . _13_say ) 
+if f == 1 then 
+pc . set_skill_level ( 122 , 0 ) 
+pc . remove_item ( 30011 , 1 ) 
+pc . update_packet ( ) 
+end 

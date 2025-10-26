@@ -1,0 +1,12 @@
+if pc . get_map_index ( ) == 225 and not pc . in_dungeon ( ) then pc . warp ( 161 , 40200 , 70400 ) 
+ return end if pc . in_dungeon ( 225 ) and isDungeonLeader ( ) and getDungeonStage ( ) == 0 then d . regen_file ( "data/dungeon/wooddungeon/" .. "stage_1.txt" ) 
+d . notice ( "Easter dungeon: 10 minutes left!" ) 
+pc . setqf ( "dungeon_start_time" , get_global_time ( ) ) 
+d . add_boss_vnum ( 878 ) 
+d . add_boss_vnum ( 8781 ) 
+wood_dungeon . setDungeonTimeout ( 60 * 60 ) 
+setDungeonWarpLocation ( 161 , 402 , 704 ) 
+increaseDungeonStage ( ) 
+setDungeonExitCounter ( 10 ) 
+setNeededMonsterCount ( 15 ) 
+ return end 

@@ -1,0 +1,680 @@
+USE_ITEM_QUESTION_02	Möchtest du an den Ort zurückkehren, an dem du getötet wurdest?\n Das kostet dich %s Yang.
+REVIVE_QUESTION	Möchtest du %s wiederbeleben? Anzahl Prismen des Erwachens: %d
+TOOLTIP_USE_SKILL_YONGKWON_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Drachenwirbel: -%d Sek. mit 10%% Chance
+MINI_GAME_BNW_GAME_RESULT_DRAW	Gleichstand! Du hast %d Sehermünze(n) erhalten.
+TOOLTIP_AFFECT_FISHING_MOVE_SPEED_DOWN	Nasse Kleidung\nBewegungsgeschwindigkeit -50
+PARTY_MATCH_FAIL_NO_ITEM	Du hast nicht genug %s.
+PRIVATE_SHOP_SEARCH_VNUM_ITEM_NOT_FOUND	Kein Ergebnis gefunden.
+TARGET_BUTTON_BLOCK_REMOVE	Entsperren
+TOOLTIP_USE_SKILL_GICHEON_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Hilfe des Drachen
+MAP_CZ_DUNGEON	Zodiak-Tempel
+MAILBOX_POST_WRITE_CAN_NOT_SPLIT_ITEM	Lege den geteilten Stapel erst im Inventar ab, bevor du ihn einer Nachricht anhängst.
+TOOLTIP_SKILL_DAMAGE_NOEJEON	Blitzwurfschaden +%d%%
+PET_CAN_NOT_ATTRCHANGE_BECUASE_LIFE_TIME_END	Du kannst die Attribute eines toten Pets nicht wandeln.
+GEM_SYSTEM_REFRESH_SHOP_ITEMS	Möchtest du zurücksetzen?
+PET_ATTR_CHANGE_DIALOG_TEXT	Möchtest du die Attribute deines Pets jetzt ändern?\n Das Item "Pet verzaubern" wird dabei verbraucht.\n Der Prozess kann fehlschlagen.
+CHANGE_PET_PLEASE_APPEND_FIRST	Das Pet muss zuerst ausgewählt werden.
+GUILD_DONATE_QUESTION_MIDDLE	Möchtest du eine mittlere Spende machen?
+TOOLTIP_ENCHANT_PER_ICE	Kraft des Eises (+%d%% d. Gesamtwerts)
+SECOND_CONFIRM_PET_FEED_QUESTION_2	Bist du sicher, dass du ihn deinem Pet verfüttern möchtest?
+SECOND_CONFIRM_PET_FEED_QUESTION_1	Dein Gegenstand besitzt %d oder mehr Boni.
+TOOLTIP_ATTBONUS_PER_ANIMAL	Stark gegen Tiere (+%d%% d. Gesamtwerts)
+SELECT_CAN_NOT_DELETE_MARRIAGE	Du kannst keinen verheirateten Charakter löschen.
+MAP_BOSS_AWAKEN_DAWNMIST	EW: Verwunschener Wald
+TOOLTIP_SKILL_DAMAGE_SALPOONG	Schaden von Atem des Wolfes +%d%%
+TOOLTIP_USE_SKILL_SALPOONG_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Atem des Wolfes: -%d Sek. mit 10%% Chance
+TOOLTIP_SKILL_DAMAGE_PABEOB	Schaden von Zauber aufheben +%d%%
+MISTS_ISLAND_MSG_01	%s wurde von %s zerstört!
+MISTS_ISLAND_MSG_02	%s hat %s erobert!
+TOOLTIP_USE_SKILL_KWANKYEOK_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Pfeilregen: -%d Sek. mit 10%% Chance
+MISTS_ISLAND_MSG_04	%s greift %s an!
+MISTS_ISLAND_MSG_05	%s hat den %s erfolgreich auf Level %d verstärkt!
+MISTS_ISLAND_MSG_06	%s ist auf dem Schlachtfeld erschienen!
+TOOLTIP_POTION_PLUS_RESIST_EARTH	ERD-RESI : +%d%%
+MAILBOX_POST_ALL_GET_ITEMS_FAIL_EMPTY	Du hast keine Nachrichten mit Anhang in deinem Postfach.
+TOOLTIP_USE_SKILL_AMSEOP_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Hinterhalt
+GEM_SYSTEM_OPEN_GEMSHOP	[Gaya] Öffne zuerst den Gayahandel.
+TOOLTIP_RESIST_PER_ICE	Eiswiderstand (+%d%% d. Gesamtwerts)
+SHOP_NOT_ENOUGH_GUILD_LEVEL	Gildenlevel ist zu niedrig.
+REFINE_ELEMENT_TEXT_EARTH	Kraft der Erde +%d
+TOOLTIP_RESIST_PER_FIRE	Feuerwiderstand (+%d%% d. Gesamtwerts)
+TOOLTIP_ATTBONUS_PER_STONE	Stark gegen Metinsteine (+%d%% d. Gesamtwerts)
+TOOLTIP_USE_SKILL_BIPABU_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Fliegender Talisman: -%d Sekunden mit 20%% Chance
+PET_CANNOT_FEED_CUBEOPEN	Du kannst dein Pet nicht füttern, während das Veredelungsfenster geöffnet ist.
+PARTY_MATCH_FAIL_NONE_MAP_INDEX	Bitte wähle zuerst einen Dungeon.
+TOOLTIP_USE_SKILL_JEOKRANG_DEF_BONUS	Erhalte Verteidigungsbonus für %d Sek. bei Verwendung von Purpurwolfseele
+PET_SKILL_DELETE_QUESTION_DLG_MSG2	Möchtest du fortfahren?
+MINIGAME_FISH_EVENT_USE_ACCEPT	Willst du das verwenden?
+PET_SKILL_DELETE_QUESTION_DLG_MSG1	Das Zurücksetzen der Fertigkeit(en) deines Pets ist unwiderruflich.
+MINI_GAME_BNW_NOT_ENOUGH_ITEM	Du benötigst zum Spielen ein Tarotkartenset.
+TOOLTIP_APPLY_NO_DEATH_PENALTY_PLUS	Der Drachengott hält seine schützenden Schwingen über dich. Wenn du an Bord wiederbelebt wirst, verlierst du keine Erfahrungspunkte.
+MAILBOX_POST_ALL_DELETE_QUESTION1	Alle Nachrichten löschen?
+AURA_TOOLTIP_NOW	Aktuell
+MAILBOX_POST_ALL_DELETE_QUESTION2	Nachrichten mit Anhang werden nicht gelöscht.
+MISTS_ISLAND_BUFF_MSG_03	Stärke, Intelligenz, Vitalität, Beweglichkeit +3
+MISTS_ISLAND_BUFF_MSG_02	Item-Droprate +10%
+MISTS_ISLAND_BUFF_MSG_01	Energie +2
+TOOLTIP_USE_SKILL_NOEGEOM_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Schwertzirkel
+MISTS_ISLAND_BUFF_MSG_05	Kostümboni um 3% erhöht
+MISTS_ISLAND_BUFF_MSG_04	Yang-Droprate +10%
+FISHING_RENEWAL_CANNOT_OPEN_2	Du kannst diese Aktion nicht ausführen, während du angelst.
+WORLD_BOSS_TIER_2_SYMBOL	II
+MD_POPUP_MSG_1	Du kannst nur vom Zodiak-Tempel aus eintreten.
+AURA_IMPOSSIBLE_EVOLUTION_ITEMCOUNT	[Aura] Anzahl der Gegenstände reicht nicht aus, um zu entwickeln.
+LOGIN_FAILURE_STEAM_SESSION	Die Sitzung ist abgelaufen. Bitte starte den Client erneut.
+SERVER_STATUS_NEW	NEU
+TOOLTIP_HIT_BUFF_ENCHANT_ELEC	Erhalte Kraft d. Blitze für %d Sek. im Kampf
+TOOLTIP_USE_SKILL_PASWAE_SP_ABSORB	Absorbiert %d%% MP beim Verwenden von Wolfskralle
+MAILBOX_POST_GET_ITEMS_YANG_OVERFLOW	Du kannst kein Yang mehr annehmen.
+CUBE_NOT_ENOUGH_GOLD	Nicht genug Yang zur Herstellung.
+DETAILS_TOOLTIP_0	Stark gegen Metinsteine: Fügt Metinsteinen größeren Schaden zu.
+REFINE_ELEMENT_TEXT_DARK	Kraft der Dunkelheit +%d
+PET_ATTR_DETERMINE_TYPE4	Pettyp 4: mutig. Mäßig stark.\nTreuer Gefährte, dessen Fähigkeiten mit der Zeit noch wachsen.
+MAILBOX_POST_NOT_CONFIRM_INFO_1	Ungelesene Nachrichten: %d
+PET_ATTR_DETERMINE_TYPE5	Pettyp 5: tollkühn. Stark.\nMit der Zeit kannst du seine Fähigkeiten weiter steigern.
+TOOLTIP_SKILL_DAMAGE_YONGBI	Schaden von Drachenschießen +%d%%
+AURA_EVOLUTION_GOLD	[Aura] Nicht genug Yang, um zu entwickeln.
+TOOLTIP_AFFECT_WORLD_BOSS_REWARD	Rangbonus des Weltboss-Events\n Itemdrop +%d
+GUILD_DRAGONLAIR_PARTY_LINE_THREE	4. - 10. Platz: 200 Gaya
+CUBE_CATEGORY_ACCESSORY	Schmuck
+ATTR_6TH_7TH_DESC4	d. Es dauert 24 Stunden, den Bonus hinzuzufügen. Der NPC behält den Gegenstand, für den der Bonus hinzugefügt werden soll. Sobald der Prozess abgeschlossen ist, kannst du ihn dir wieder abholen.
+ATTR_6TH_7TH_DESC2	b. Jedes Fragment steigert die Erfolgsquote um 2%.
+ATTR_6TH_7TH_DESC3	c. Verwende eine Ergänzung, um die Erfolgsquote zusätzlich zu steigern.
+ATTR_6TH_7TH_DESC1	a. Du musst die Materialien einfügen, die für den Gegenstand benötigt werden, um den 6. und 7. Bonus hinzuzufügen.
+TOOLTIP_AFFECT_LATE_SUMMER_EVENT_BUFF	Seelen (%d/20)
+PET_ATTR_DETERMINE_TYPE2	Pettyp 2: neugierig. Nicht besonders stark.\nTreuer Gefährte, dessen Fähigkeiten mit der Zeit wachsen.
+REFINE_ELEMENT_NOT_ENOUGHT_GRADE	Die Elementarverzauberung ist nur für +7 Waffen oder höher verfügbar.
+CHARGE_BEAD_QUESTION	Benötige Animasphären: %d. Möchtest du fortfahren?
+PET_ATTR_DETERMINE_TYPE3	Pettyp 3: beherzt. Mäßig stark.\nMit der Zeit kannst du seine Fähigkeiten steigern.
+TOOLTIP_SKILL_DAMAGE_YONGKWON	Schaden von Drachenwirbel +%d%%
+TOOLTIP_POTION_PLUS_RESIST_ICE	EIS-RESI : +%d%%
+TOOLTIP_USE_SKILL_GONGDAB_KNOCKBACK	Wolfssprung schlägt Gegner mit einer Chance von %d%% zurück
+TOOLTIP_USE_SKILL_NOEJEON_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Blitzwurf: -%d Sekunden mit 20%% Chance
+MINIGAME_FISH_EVENT_ADD_ACCEPT	Willst du das hinzufügen?
+DS_SYSTEM_MSG_1	Du benötigst %s %d-mal.
+GUILD_DRAGONLAIR_RANKING_NONE	NEU
+TOOLTIP_PROTECTION_OF_ELEMENTAL	Immun gegen Elementarfluch
+TOOLTIP_USE_SKILL_YONGBI_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Drachenschießen
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+TENTH_EVENT_ASK_EXCHANGE	Du benötigst %d Jubiläumsflaggen. Möchtest du fortfahren?
+MINI_GAME_YUTNORI_PC_WIN	So sehen Sieger aus, schalalalala!
+TOOLTIP_SKILL_DAMAGE_GYOKSAN	Schaden von Heftiges Schlagen +%d%%
+TOOLTIP_USE_SKILL_SAMYEON_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Dreiwege-Schnitt: -%d Sekunden mit 20%% Chance
+TOOLTIP_POTION_OF_ELEMENTAL	Schutztrank der Elemente. +5% Magie-/Nahkampfangriff | +10% Elementwiderstände
+TOOLTIP_APPLY_ENCHANT_ICE2	Kraft des Eises +%d%% ~ +%d%%
+TOOLTIP_USE_SKILL_MANASHILED_CASTING_SPEED	Erhöhe Zaubergeschwindigkeit für %d Sek. bei Verwendung von Dunkler Schutz
+ROULETTE_REWARD_TEXT	Gegenstand erhalten
+TOOLTIP_APPLY_ATTBONUS_INSECT	Stark gegen Insekten +%d%%
+MAILBOX_POST_WRITE_QUESTION1	Möchtest du die Nachricht an %s jetzt senden?
+MAILBOX_POST_WRITE_QUESTION2	Zustellgebühr: %d Yang
+TOOLTIP_SKILL_DAMAGE_KWANKYEOK	Pfeilregenschaden +%d%%
+MINI_GAME_YUTNORI_RETHROW_POPUP	Glückspilz! Du bist noch einmal an der Reihe.
+REFINE_ELEMENT_CHANGE_TEXT	%s hat nun das Element %s!
+TOOLTIP_PVP_TOURNAMENT_EXPBONUS	PvP-Turnier EXP +%d%%
+TENTH_COIN	Jubiläumsmünze(n)
+MAP_ELEMENTAL_DUNGEON	Elementarwelt
+TOOLTIP_POTION_PLUS_DEF_POINT	VERT: +%d
+PARTY_MATCH_FAIL_LEVEL	Dein Level ist zu niedrig.
+TOOLTIP_APPLY_ATTBONUS_CLAW	Bruch von Krallenverteidigung +%d%%
+GEM_SYSTEM_NOT_ENOUGHT_REFRESHITEM	[Gaya] Du besitzt nicht genügend 'Gayahandel zurücksetzen'.
+TOOLTIP_SKILL_DAMAGE_GEOMPUNG	Schwertschlagschaden +%d%%
+TOOLTIP_APPLY_ENCHANT_WIND	Kraft des Windes +%d%%
+PARTY_MATCH_FAIL_NOT_LEADER	Nur der Gruppenanführer kann die Anmeldung durchführen.
+MAP_DEFENSE_WAVE_PORT	Hafen
+TOOLTIP_FIRST_ATTRIBUTE_BONUS	1. hinzugefügter Bonus +%d%%
+MAILBOX_POST_ALL_GET_ITEMS_QUESTION	Anhang annehmen? (Abzügl. 5% Steuern für Yang)
+TOOLTIP_APPLY_ATTBONUS_DESERT	Stark gegen Wüstenmonster +%d%%
+TOOLTIP_SKILL_DAMAGE_BIPABU	Schaden von Fliegender Talisman +%d%%
+WORLD_BOSS_STATE_BREAK_TIME	Abklingzeit
+TOOLTIP_HIT_BUFF_ENCHANT_DARK	Erhalte Kraft d. Dunkelheit für %d Sek. im Kampf
+MINI_GAME_CATCHKING_POPUP_CATCH_FAIL	Der König ist entkommen! Das Spiel ist nun beendet. \nHast du mindestens 10 Punkte erzielt, kannst du jetzt deinen Gewinn einlösen.
+TOOLTIP_SKILL_DAMAGE_MARYUNG	Schaden von Dunkler Schlag +%d%%
+SET_ITEM_DO_NOT_EQUIP_ITEM	Ausgerüsteten Gegenständen kannst du keine Set-Effekte verleihen.
+COMB_ACCE_WILL_REMOVE_MATERIAL	Bei Erfolg oder Teilerfolg wird das Original zerstört.
+GUILD_ATTENDANCE_FAIL_ALREADY	Du hast heute bereits teilgenommen.
+TOOLTIP_ATTBONUS_PER_DEVIL	Stark gegen Teufel (+%d%% d. Gesamtwerts)
+TOOLTIP_APPLY_ENCHANT_EARTH	Kraft der Erde +%d%%
+TOOLTIP_USE_SKILL_GYOKSAN_KNOCKBACK	Heftiges Schlagen schlägt Gegner mit einer Chance von %d%% zurück
+MINI_GAME_BNW_NOT_ENOUGH_INVEN	Du hast nicht genügend Platz im Inventar.
+PARTY_RK_CATEGORY_CZ_MOUSE	Rangliste des Wächter Zi
+TOOLTIP_HIT_BUFF_ENCHANT_WIND	Erhalte Kraft d. Windes für %d Sek. im Kampf
+TOOLTIP_APPLY_ENCHANT_DARK	Kraft der Dunkelheit +%d%%
+GUILD_DRAGONLAIR_PARTY_LINE_FOUR	ab 11. Platz: 100 Gaya
+CUBE_CATEGORY_WEAPON	Waffe
+MAILBOX_POST_GET_ITEMS_NOT_ENOUGHT_INVENTORY	Items konnten nicht angenommen werden. Dein Inventar ist voll.
+TOOLTIP_SKILL_DURATION_INCREASE_EUNHYUNG	Dauer von Tarnung +%d Sek.
+TOOLTIP_AFFECT_MI_BUFF	Besetzungs-Buff %s
+SOUL_ITEM_TOOLTIP_UNAPPLIED	Effekt nicht aktiviert
+RESTART_POPUP_GIVEUP_MIST_ISLAND	Du bist in der Schlacht der fünf Schreine gefallen.\n Du kehrst nun ins Dorf zurück.
+CUBE_CATEGORY_ETC	Etc.
+MINIGAME_FISH_EVENT_REWARD_MSG	Du hast %s erhalten.
+WORLD_BOSS_TIER_3_SYMBOL	III
+TOOLTIP_APPLY_ENCHANT_FIRE	Kraft des Feuers +%d%%
+TOOLTIP_APPLY_ENCHANT_DARK2	Kraft der Dunkelheit +%d%% ~ +%d%%
+TOOLTIP_USE_SKILL_SANGONG_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Giftwolke
+TOOLTIP_USE_SKILL_GIGUNG_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Giftpfeil
+MINI_GAME_BNW_START_QUESTION	Du benötigst zum Spielen 30.000 Yang und ein Tarotkartenset. Möchtest du am Wettstreit teilnehmen?
+CANNOT_DOING_PRIVATE_SHOP_OPEN	Du kannst nichts anderes tun, solange du einen privaten Laden geöffnet hast.
+WORLD_BOSS_STATE_BOSS_KILLED	Entkommen
+MISTS_ISLAND_QUESTION_01	Möchtest du die Schlacht der fünf Schreine verlassen?
+MISTS_ISLAND_QUESTION_02	Möchtest du zum kürzlich angegriffenen Schrein teleportieren? \n Kosten: %s Yang
+TOOLTIP_ENCHANT_PER_FIRE	Kraft des Feuers (+%d%% d. Gesamtwerts)
+SELECT_CAN_NOT_DELETE_LIMITE_LEVEL	Du kannst deinen Charakter nur bis maximal Level 69 löschen.
+AURA_TITLE_EVOLUTION	Auragewand entwickeln
+MAILBOX_POST_WRITE_LEVEL_LIMIT	Du kannst ab Level 20 Nachrichten versenden.
+TOOLTIP_USE_SKILL_CHAYEOL_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Zerreißen
+SHOP_NOT_ENOUGH_10TH_COIN	Du besitzt nicht genügend Jubiläumsmünzen.
+TOOLTIP_ATTBONUS_PER_INSECT	Stark gegen Insekten (+%d%% d. Gesamtwerts)
+MAILBOX_POST_WRITE_MONEY_NOT_ENOUGHT	Du besitzt nicht genug Yang, um diese Nachricht zu senden.
+TOOLTIP_SKILL_DAMAGE_MAHWAN	Schaden von Dunkler Stein +%d%%
+GIVEUP_QUESTION	Möchtest du wirklich aufgeben?
+ATTR_6TH_7TH_CHANGE_FAIL	Du kannst den Bonus nicht ändern.
+MINI_GAME_BNW_RESULT_DRAW1	Deine Zahl ist gleich groß.
+MINI_GAME_BNW_RESULT_DRAW2	Gleichstand!
+SOUL_ITEM_TOOLTIP_REMOVE_TIME	Seele erlischt in
+MAILBOX_POST_WRITE_WRONG_MESSAGE	Die Nachricht enthält unzulässige Wörter.
+TOOLTIP_USE_SKILL_YONGKWON_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Drachenwirbel: -%d Sekunden mit 20%% Chance
+IS_NOT_PET_ITEM	Das ist kein Pet.
+MAP_DEFENSE_WAVE	Schiffsverteidigung
+REFINE_ELEMENT_TEXT_ICE	Kraft des Eises +%d
+SELECT_CAN_NOT_DELETE_PRIVATE_CODE_ERROR	Der Lösch-Code war nicht korrekt.
+CUBE_NOT_ENOUGH_GEM	Du hast nicht genügend Gaya.
+MC_ACHIEV_SHOW_APPLYS	Status anzeigen
+TOOLTIP_USE_SKILL_GEOMPUNG_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Schwertschlag: -%d Sekunden mit 20%% Chance
+SOUL_ITEM_TOOLTIP_RED1	Spielzeit: %d/%d Min.
+FRAGMENT_COMB_COST	Kombinationskosten: %s
+CUBE_CATEGORY_SETADD_WEAPON	Set-Waffe herstellen
+AURA_NOTICE_DEL_ABSORDITEM	[Aura] Übertragener Gegenstand wird zerstört.
+PET_ATTR_CHANGE_USE	Während die Pet-Attribute gewandelt werden, kann diese Aktion nicht ausgeführt werden.
+SAFEBOX_NEED_CHANGE_PASSWORD	Dein Passwort ist abgelaufen.\nWähle bitte ein neues.
+MISTS_ISLAND_MSG_03	%s hat %s besetzt!
+TOOLTIP_USE_SKILL_CHAIN_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Blitzkralle
+GUILD_DONATE_FAIL_NOT_ENOUGH_HIGH_ITEM	Du besitzt nicht genügend hohe Spendenscheine.
+TOOLTIP_DAMAGE_SP_RECOVERY	Absorbiert Schaden zu %d%% als MP
+MAILBOX_POST_DELETE_FAIL_EXIST_ITEMS	Nachricht konnte nicht gelöscht werden. Nimm bitte erst den Anhang darin an.
+COMB_ACCE_WARNING_MESSAGE3	Bei Fehlschlag oder Teilerfolg wird die Aufnahmerate des Empfängers reduziert.
+COMB_ACCE_WARNING_MESSAGE2	Der Transfer kann fehlschlagen.
+COMB_ACCE_WARNING_MESSAGE1	Bei Erfolg oder Teilerfolg wird das Original zerstört.
+TOOLTIP_POTION_PLUS_ATTBONUS_MONSTER	ANG-BONUS MONSTER : +%d%%
+UNLIMIT_ENTER_CZ_QUESTION	Du darfst den Zodiak-Tempel für %d Min. betreten. Möchtest du es verwenden?
+TOOLTIP_APPLY_ATTBONUS_FAN	Bruch von Fächerverteidigung +%d%%
+CUBE_CATEGORY_BELT	Gürtel
+GUILD_DRAGONLAIR_PARTY_TIME	Zeit
+TOOLTIP_ENCHANT_PER_ELECT	Kraft der Blitze (+%d%% d. Gesamtwerts)
+DRAGON_SOUL_NOT_ENOUGH_MONEY	Du hast nicht genug Yang, um den Bonus zu ändern.
+MAILBOX_POST_WRITE_SEND_MONEY_TITLE	Geldsumme
+MC_ACHIEV_SHOW_MONSTER	Bild anzeigen
+UPDATE_TIME	Datum
+MINI_GAME_BNW_GAME_GIVEUP_MSG1	Möchtest du das Spiel wirklich abbrechen?
+MINI_GAME_BNW_GAME_GIVEUP_MSG2	Denk daran, dass du Belohnungen erhältst, wenn du gewinnst.
+TOOLTIP_USE_SKILL_MUYEONG_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Geist der Flamme
+TOOLTIP_POTION_PLUS_ATT_POINT	ANG: +%d
+TOOLTIP_SEASON_RANKING_BUFF	Erhöht Rangpunkte 10 Min. um 20%.
+TOOLTIP_SKILL_DURATION_INCREASE_GYEONGGONG	Dauer von Federschreiten +%d Sek.
+SHOP_NOT_ENOUGH_MEDAL_OF_HONOR	Nicht genügend Tapferkeitsmedaillen.
+TOOLTIP_AFFECT_WORLD_BOSS_DAILY_REWARD	Täglicher Questbonus des Weltboss-Events\n Angriffswert +%d%%
+MAP_BOSS_CRACK_DAWNMIST	ZR: Verwunschener Wald
+TOOLTIP_SKILL_DAMAGE_HWAJO	Feuerpfeilschaden +%d%%
+SHOP_NOT_ENOUGH_BNW	Du hast nicht genügend Sehermünzen.
+MINI_GAME_CATCHKING_TOOLTIP_CARD2	Kann folgende Karten fangen: [1], [2]
+PARTY_RK_CATEGORY_CZ_DRAGON	Rangliste des Wächter Chen
+TOOLTIP_USE_SKILL_JEONGEOP_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Kurieren
+AURA_LEVEL_STEP	Lvl %d (Stufe %d)
+TOOLTIP_FIFTH_ATTRIBUTE_BONUS	5. hinzugefügter Bonus +%d%%
+TOOLTIP_HIT_BUFF_RESIST_WIND	Erhalte Windwiderstand für %d Sek. im Kampf
+AURA_TOOLTIP_NEED_YANG	%s Yang
+SET_ITEM_CLEAR_CONFIRM_QUESTION	Möchtest du den Set-Effekt entfernen?
+TOOLTIP_POTION_PLUS_STR_POINT	STR: +%d
+TOOLTIP_USE_SKILL_PASWAE_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Wolfskralle: -%d Sek. mit 10%% Chance
+TOOLTIP_HIT_BUFF_ENCHANT_EARTH	Erhalte Kraft d. Erde für %d Sek. im Kampf
+TOOLTIP_APPLY_ATTBONUS_CZ	Stark gegen Zodiakmonster +%d%%
+SELECT_CAN_NOT_DELETE_REMAIN_TIME	Du kannst diesen Charakter nicht direkt nach seiner Erstellung löschen. Wartezeit: %s
+TOOLTIP_USE_SKILL_GWIGEOM_DEF_BONUS	Erhalte Verteidigungsbonus für %d Sek. bei Verwendung von Verzauberte Klinge
+MAILBOX_POST_ALL_DELETE_FAIL_EMPTY	Keine Nachrichten
+TOOLTIP_SKILL_DAMAGE_BYEURAK	Schaden von Blitz heraufbeschwören +%d%%
+TOOLTIP_HIT_BUFF_ENCHANT_FIRE	Erhalte Kraft d. Feuers für %d Sek. im Kampf
+AURA_POSSIBLE_AURAITEM	[Aura] Nur Auragewand ist möglich.
+MAP_BOSS_CRACK_SNOW	ZR: Nemeres Warte
+CUBE_LIST_TEXT_MAKE_QUANTITY	[%d]
+TOOLTIP_AFFECT_DEF_GRADE_DOWN	Verteidigung verringern
+CHANGE_TOOLTIP2_LINE4	Wird das Aussehen eines Reittiers mit einer Laufzeit geändert, bleibt die ursprüngliche Laufzeit bestehen.
+CHANGE_TOOLTIP2_LINE5	Für den Fall, dass das Ziel-Reittier permanent ist und das Material-Reittier eine Laufzeit besitzt, behält das Reittier das geänderte Aussehen für die Laufzeit des Material-Reittiers.
+CHANGE_TOOLTIP2_LINE1	Füge links den Zielgegenstand und rechts das Material ein.
+CHANGE_TOOLTIP2_LINE2	Klicke auf das Häkchen, um Yang oder eine Verwandlungsmarke zu verwenden und das Aussehen deines Reittiers zu ändern.
+CHANGE_TOOLTIP2_LINE3	Eine Verwandlungsmarke ändert das Aussehen deines Reittiers, ohne Yang zu verbrauchen. (Die Marke wird dabei zerstört.)
+CUBE_CATEGORY_PET	Pet
+TOOLTIP_USE_SKILL_SEOMJEON_KNOCKBACK	Schleichendes Gift schlägt Gegner mit einer Chance von %d%% zurück
+TOOLTIP_AFFECT_RCAST_SPEED	Abklingzeit erhöhen
+WORLD_BOSS_TIER_1_SYMBOL	I
+SELECT_CAN_NOT_DELETE_GUILD_MEMBER	Du kannst deinen Charakter nicht löschen, solange er Mitglied in einer Gilde ist.
+TOOLTIP_SKILL_DAMAGE_PASWAE	Wolfskrallenschaden +%d%%
+TOOLTIP_USE_SKILL_KWANKYEOK_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Pfeilregen: -%d Sekunden mit 20%% Chance
+TOOLTIP_POTION_PLUS_RESIST_MAGIC	MAGIE-RESI : +%d%%
+REFINE_ELEMENT_EXIST	Der Gegenstand besitzt bereits ein anderes Element.
+AURA_TOOLTIP_NEXT	Neu
+MINI_GAME_YUTNORI_START_QUESTION	Um Yutnori zu starten, benötigst du %d Yang und %d Yutnori-Spielbrett. \n Jetzt spielen?
+LUCKY_BOX_DIALOG_RETRY_TEXT	Möchstest du dein Glück neu versuchen?
+MAP_MISTS_OF_ISLAND	Inseln des Nebels
+MAP_BOSS_AWAKEN_FLAME	EW: Rotdrachenfestung
+SERVER_STATUS_CLOSE	GESCHLOSSEN
+TOOLTIP_USE_SKILL_TERROR_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Furcht
+TOOLTIP_APPLY_RESIST_MOUNT_FALL	Widerstand gegen Sturz +%d%%
+TOOLTIP_USE_SKILL_GONGDAB_STUN	Wolfssprung betäubt Gegner mit %d%% Chance
+PARTY_RK_CATEGORY_CZ_RABBIT	Rangliste der Wächterin Mao
+COMB_ACCE_WARNING_MESSAGE	Bei Erfolg oder Teilerfolg wird das Original zerstört. Der Transfer kann fehlschlagen. Bei Fehlschlag oder Teilerfolg wird die Aufnahmerate des Empfängers reduziert.
+TOOLTIP_SKILL_DAMAGE_GIGONGCHAM	Durchschlagsschaden +%d%%
+TOOLTIP_USE_SKILL_CHUNKEON_CASTING_SPEED	Erhöhe Zaubergeschwindigkeit für %d Sek. bei Verwendung von Starker Körper
+AURA_ITEM_NEED_REGISTER	[Aura] Es müssen Gegenstände eingefügt werden.
+CUBE_CATEGORY_EVENT	Event
+RESTART_POPUP_GIVEUP_ELEMENTAL_DUNGEON	Du bist gestorben. \nKehre aus der Elementarwelt zurück!
+MAP_MINIBOSS_01	Blauer Dungeon – Lvl 40-80
+MAP_MINIBOSS_02	Roter Dungeon – ab Lvl 81
+CHANGE_LOOK_NEED_MONEY	Du hast entweder nicht genügend Yang oder nicht genügend Gegenstände.
+PARTY_RK_CATEGORY_CZ_SHEEP	Rangliste des Wächter Wei
+TOOLTIP_APPLY_ATTBONUS_DAGGER	Bruch von Dolchverteidigung +%d%%
+GUILD_DONATE_QUESTION_NORMAL	Möchtest du eine kleine Spende machen?
+CUBE_PLEASE_SELECT	Es wurden keine Gegenstände ausgewählt.
+TOOLTIP_POTION_PLUS_RESIST_DARK	DUNKEL-RESI : +%d%%
+AURA_TOOLTIP_RESOURCE	Verbrauchsgegenstand
+ATTR_6TH_7TH_ADD_QUESTION2	Möchtest du den Bonus wirklich hinzufügen?
+ATTR_6TH_7TH_ADD_QUESTION1	Du kannst diesen Gegenstand nicht verwenden, während ein Bonus hinzugefügt wird.
+TOOLTIP_SKILL_DAMAGE_SWAERYUNG	Fingerschlagschaden +%d%%
+WORLD_BOSS_STATE_WAIT_FOR_SPAWN	Noch nicht erschienen
+COMB_CANT_MATCH_DRAINRATE	Für einen Bonustransfer muss die Aufnahmerate beider Items identisch sein.
+GUILD_DONATE_FAIL_NOT_ENOUGH_MIDDLE_ITEM	Du besitzt nicht genügend mittlere Spendenscheine.
+CHANGE_LOOK_TITLE2	Reittier-Verwandlung
+CHANNEL_STATUS_FULL	Voll
+MINI_GAME_CATCHKING_POPUP_REWARD_FAIL	Du kannst keinen Gewinn einlösen.
+TOOLTIP_POTION_PLUS_HIT_DEFEND_POINT	SCHADEN-WIDERSTAND : +%d%%
+GEM_SYSTEM_ADD_SLOT	Erforderlicher Gegenstand: %s.\nMöchtest du jetzt %d davon einsetzen, um einen weiteren Platz zu öffnen?
+REFINE_QUESTION_WARNING_PREFIX_REMOVE	Wenn du das Item aufwertest, wird der Set-Effekt entfernt.
+AURA_IMPOSSIBLE_SEALITEM	[Aura] Seelengebundene Gegenstände können nicht übertragen werden.
+TOOLTIP_USE_SKILL_SAMYEON_STUN	Dreiwege-Schnitt betäubt Gegner mit %d%% Chance
+TOOLTIP_ATTBONUS_PER_MILGYO	Stark gegen Esoterische (+%d%% d. Gesamtwerts)
+REFINE_ELEMENT_UPGRADE_FAIL_TEXT	Elementarverzauberung fehlgeschlagen.
+TOOLTIP_ENCHANT_PER_WIND	Kraft des Windes (+%d%% d. Gesamtwerts)
+TOOLTIP_CURSE_OF_ELEMENTAL	Elementarfluch (%d-mal gestapelt). Deine HP sinken kontinuierlich. Kann bis zu 10-mal gestapelt werden.
+MAILBOX_POST_GET_ITEMS_QUESTION	Anhang annehmen? (Abzügl. 5% Steuern für Yang)
+SOUL_REFINE_SUCCESS	Entwicklung war erfolgreich!
+TOOLTIP_ATTBONUS_STONE	+%d%% Stark gegen Metinsteine
+MINI_GAME_BNW_GAME_RESULT_LOSE	Niederlage! Du hast %d Sehermünze(n) erhalten.
+TOOLTIP_ATTBONUS_PER_CZ	Stark gegen Zodiakmonster (+%d%% d. Gesamtwerts)
+LEADER_NAME	Name des Anführers
+MINIGAMEUI_CALENDAR	Eventkalender
+CHANNEL_STATUS_RECOMMENDED	Empfohlen
+PET_SKILL_TOOLTIP_FEATHER	Das Pet aktiviert Federschreiten mit einer Chance von %d%% für %.1f Sekunden.\n Angriff %d - %d
+SHOP_LIMITED_DATA_LOADING	Die Daten werden gerade geladen. Versuche es später noch einmal.
+CUBE_NOT_ENOUGH_MATERIAL	Nicht genug Material zur Herstellung.
+AUTO_TOOLTIP_CLEAR	Zurücksetzen
+MINI_GAME_BNW_RESULT_LOSE2	Niederlage!
+MINI_GAME_BNW_RESULT_WIN1	Deine Zahl ist größer.
+MINI_GAME_BNW_RESULT_WIN2	Sieg!
+MINI_GAME_BNW_RESULT_LOSE1	Deine Zahl ist kleiner.
+GUILD_DONATE_FAIL_NOT_ENOUGH_INVENTORY	Dein Inventar ist voll. Du kannst nicht spenden.
+TOOLTIP_RESIST_PER_MAGIC	Magiewiderstand (+%d%% d. Gesamtwerts)
+MEDAL_OF_HONOR_SYSTEM_PICK	Erhaltener Gegenstand: Tapferkeitsmedaille x %d
+TOOLTIP_USE_SKILL_MARYUNG_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Dunkler Schlag: -%d Sekunden mit 20%% Chance
+FISHING_RENEWAL_QUESTION	Ein Fisch hat angebissen. Möchtest du ihn fangen?
+GUILD_DRAGONLAIR_PARTY_PAST	Vorherige Bestenliste
+TOOLTIP_HIT_BUFF_ENCHANT_ICE	Erhalte Kraft d. Eises für %d Sek. im Kampf
+SHOP_LIMITED_ITEM_REMAIN_COUNT	Verbleibende Gegenstände: %d
+COMB_CANT_MATERIAL_ITEM	Das Original-Item muss über einen Bonus verfügen.
+MAP_BOSS_CRACK_SKIPIA	ZR: Grotte der Verbann.
+USE_ITEM_QUESTION_03	Du wirst an eine zufällige Position teleportiert. Möchtest du eintreten?
+TOOLTIP_SKILL_DAMAGE_CHAIN	Blitzkrallenschaden +%d%%
+USE_ITEM_QUESTION_01	Möchtest du an der Schlacht der fünf Schreine teilnehmen?
+MAILBOX_POST_WRITE_SEND_FAIL_EMPTY_NAME	Gib einen Empfänger ein.
+USE_ITEM_QUESTION_05	Sobald du die Schlacht der fünf Schreine betrittst, werden all deine Buffs deaktiviert.\nMöchtest du an die Stelle zurückkehren, an der du gestorben bist?\nKosten: %s Yang.
+USE_ITEM_QUESTION_04	Sobald du die Schlacht der fünf Schreine betrittst, werden all deine Buffs deaktiviert.\nDu wirst an eine zufällige Stelle teleportiert.\nMöchtest du eintreten?
+SHOP_LIMITED_PURCHASE_OVER	Ausverkauft
+MC_ACHIEV_REGIST_QUESTION_2	Deine Wahl kann nicht rückgängig gemacht werden. Möchtest du fortfahren?
+MAP_BOSS_AWAKEN_SNOW	EW: Nemeres Warte
+GEM_SYSTEM_NOT_ENOUGH_HP_GEM	[Gaya] Du besitzt nicht genug Gaya.
+AURA_IMPOSSIBLE_REFINEITEM	[Aura] Nur Auragewand, Schild, Halskette, Ohrring und Armband sind möglich.
+TOOLTIP_USE_SKILL_SAMYEON_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Dreiwege-Schnitt: -%d Sek. mit 10%% Chance
+REFINE_FAILURE_GRADE_DOWN	Die Veredelung ist fehlgeschlagen. Der Grad des Gegenstands wurde gemindert.
+SOUL_ITEM_TOOLTIP_APPLY	Effekt aktiviert
+TOOLTIP_NORMAL_DAMAGE_GUARD	Angriffsschaden geblockt mit %d%% Chance
+TOOLTIP_AFFECT_CRITICAL_GRADE_DOWN	Chance auf kritischen Treffer verringern
+TOOLTIP_AFFECT_ATT_GRADE_DOWN	Schaden verringern
+MAILBOX_POST_WRITE_ALREADY_ITEM	Du kannst nur ein Item pro Nachricht versenden.
+PARTY_RK_CATEGORY_CZ_CHICKEN	Rangliste des Wächter Yu
+SOUL_REFINE_FAILURE	Entwicklung ist fehlgeschlagen.
+FISHING_RENEWAL_CANNOT_OPEN_1	Du kannst es nicht öffnen, während du angelst.
+MINI_GAME_YUTNORI_SCORE_FONT	Tahoma:24b
+SELECT_CAN_NOT_DELETE_ATTR67	Du kannst deinen Charakter nicht löschen,\n während ein Bonus hinzugefügt wird.
+LIMIT_LEVEL_GUILD	Gildenlevel: %d
+AURA_DRAIN_PER	Aufnahmerate %.1f%%
+LOGIN_FAILURE_COUNTRY_ERR	Der Ländercode ist nicht korrekt.\nBitte wende dich an den Support.
+MD_POPUP_MSG_2	Die Zodiak-Wächter müssen ihre Macht regenierieren.\nGib ihnen etwas Zeit.
+PRIVATE_SHOP_SEARCH_VNUM_ITEM_NOT_SELECTED	Wähle ein Item, um zu suchen.
+AURA_IMPOSSIBLE_GROWTHITEM	[Aura] Kann nicht verbessert werden.
+SAFEBOX_UNAVILABLE_PASSWORD_03	Du hast dein aktuelles Passwort eingegeben. Bitte wähle ein neues.
+PARTY_MATCH_FAIL_MEMBER_NOT_CONDITION	Mitglied %s erfüllt nicht die notwendigen Bedingungen.
+TOOLTIP_POTION_PLUS_ATT_POINT_PER	ANG: +%d%%
+TOOLTIP_ALIGNMENT_DAMAGE_BONUS	Bei niedrigen Rangpunkten wird verursachter Schaden erhöht.
+GUILD_DONATE_FAIL_NOT_ENOUGH_LEVEL	Du musst mindestens Level 30 erreicht haben, um spenden zu können.
+SOUL_ITEM_TOOLTIP_RED2	Bei Erreichen der Spielzeit erhöht sich der Angriffsschaden um x%.1f
+TOOLTIP_USE_SKILL_CHEONGRANG_CASTING_SPEED	Erhöhe Zaubergeschwindigkeit für %d Sek. bei Verwendung von Indigowolfseele
+PARTY_RK_CATEGORY_CZ_MONKEY	Rangliste des Wächter Shen
+TOOLTIP_USE_SKILL_GIHYEOL_ATT_GRADE_BONUS	Erhalte Angriffsbonus für %d Sek. bei Verwendung von Lebenswille
+TOOLTIP_USE_SKILL_MARYUNG_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Dunkler Schlag: -%d Sek. mit 10%% Chance
+TOOLTIP_THIRD_ATTRIBUTE_BONUS	3. hinzugefügter Bonus +%d%%
+AURA_OPEN_OTHER_WINDOW	Du kannst das nicht tun, während ein Fenster für Verbesserung, Entwicklung oder Werteübertragung geöffnet ist.
+TOOLTIP_SKILL_DAMAGE_GIGUNG	Giftpfeilschaden +%d%%
+SERVER_NOTIFY_CLOSED	Geschlossener Server: Nur Accounts, die vor der Schließung erstellt wurden, haben Zutrittsrecht.
+MINI_GAME_YUTNORI_COM_WIN	Mal verliert man und mal gewinnen die anderen.
+TOOLTIP_RESIST_PER_HUMAN	Widerstand gegen Halbmenschen (+%d%% d. Gesamtwerts)
+BNW_COIN	Sehermünze
+TOOLTIP_AFFECT_FISHING_GOLD_TUNA	Goldener Thunfisch-Bonus
+CHANNEL_STATUS_BUSY	Stark besucht
+MAILBOX_POST_WRITE_WRONG_ITEM	Du kannst keine seelengebundene Items versenden.
+PARTY_MATCH_FAIL_FULL_MEMBER	Deine Gruppe kann kein Mitglied mehr aufnehmen.
+PET_REVIVE_UI_MATERIAL_COUNT	%d/%d
+MINI_GAME_BNW_GAME_RESULT_SCORE	Endstand: %d
+AURA_IMPOSSIBLE_EQUIPITEM	[Aura] Ausgerüstete Gegenstände können nicht übertragen werden.
+TOOLTIP_USE_SKILL_SALPOONG_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Atem des Wolfes: -%d Sekunden mit 20%% Chance
+MINI_GAME_NOTICE_10	Ha! Du hast den Computer rausgeworfen.
+MINI_GAME_NOTICE_11	So ein Pech! Der Computer hat dich rausgeworfen.
+MINI_GAME_NOTICE_12	Du hattest Yut oder Mo und darfst ein weiteres Mal werfen.
+MINI_GAME_NOTICE_13	Das Spiel ist zu Ende. Hole deine Belohnung ab.
+AURA_TOOLTIP_EXP	EXP (%d%% / 100%%)
+REFINE_ELEMENT_NOT_ENOUGHT_YANG	Nicht genügend Yang.
+SAFEBOX_UNAVILABLE_PASSWORD_02	Dein Passwort sollte aus mindestens %d Zeichen bestehen.
+SAFEBOX_UNAVILABLE_PASSWORD_01	Du kannst dieses Passwort nicht verwenden.
+TOOLTIP_ENCHANT_PER_DARK	Kraft der Dunkelheit (+%d%% d. Gesamtwerts)
+SAFEBOX_UNAVILABLE_PASSWORD_05	Keine Sonderzeichen gestattet. Erlaubte Zeichen: a-z, A-Z, 0-9
+SAFEBOX_UNAVILABLE_PASSWORD_04	Dein Passwort kann nicht %d gleiche oder direkt aufeinanderfolgende Zahlen enthalten.
+FISHING_RENEWAL_TIMEOUT	Du hast zu lange gezögert. Der Fisch ist entwischt.
+TOOLTIP_SKILL_DAMAGE_SANGONG	Schaden von Giftwolke +%d%%
+REFINE_ELEMENT_TEXT_ELECT	Kraft der Blitze +%d
+PARTY_RK_CATEGORY_CZ_PIG	Rangliste des Wächter Hai
+TOOLTIP_SKILL_DAMAGE_BONUS_BOSS_OR_MORE	Fertigkeitsschaden gegen Bosse +%d%%
+TOOLTIP_HIT_BUFF_RESIST_ELEC	Erhalte Blitzwiderstand für %d Sek. im Kampf
+TOOLTIP_HIT_BUFF_RESIST_EARTH	Erhalte Erdwiderstand für %d Sek. im Kampf
+LOGIN_FAILURE_NOT_MAIL_CONFIRM	Eine Verifizierung per E-Mail ist erforderlich.
+AURA_TITLE_ABSORB	Werte auf Auragewand übertragen
+WORLD_BOSS_TIER_4_SYMBOL	IV
+REFINE_FAILURE_DEL_ITEM	Die Veredelung ist fehlgeschlagen. Der Gegenstand wurde zerstört.
+SET_ITEM_CLEAR_CONFIRM_QUESTION_1	Dieses Item besitzt %d Boni/Geiststeine.
+SET_ITEM_CLEAR_CONFIRM_QUESTION_2	Bist du sicher?
+SELECT_CAN_NOT_DELETE_HAVE_SEALED_ITEM	Du kannst deinen Charakter nicht löschen, da er seelengebundene Items besitzt.
+CUBE_CATEGOR_SKILL_BOOK	Fertigkeitsbuch
+TOOLTIP_AFFECT_RED_DRAGONLAIR_BUFF	Widerstand gegen Fertigkeitsschaden +15% | Widerstand gegen normalen Angriffsschaden +15%
+MAILBOX_POST_GM_ARRIVE	GM-Nachricht
+TOOLTIP_RESIST_PER_ELEC	Blitzwiderstand (+%d%% d. Gesamtwerts)
+TOOLTIP_FOURTH_ATTRIBUTE_BONUS	4. hinzugefügter Bonus +%d%%
+SECOND_CONFIRM_SELL_ITEM_QUESTION_2	Bist du sicher, dass du ihn verkaufen möchtest?
+SECOND_CONFIRM_SELL_ITEM_QUESTION_1	Dein Gegenstand besitzt %d oder mehr Boni.
+GEM_SYSTEM_NO_MORE_ADDSLOT	[Gaya] Es können keine Plätze mehr erweitert werden.
+CHARACTER_NAME	Name
+MISTS_ISLAND_TOOLTIP_02	Besetzendes Reich: %s
+MISTS_ISLAND_TOOLTIP_03	Verbesserungslevel: +%d
+MISTS_ISLAND_TOOLTIP_01	[%s]
+MISTS_ISLAND_TOOLTIP_06	1. Um einen Schrein einzunehmen, muss er zunächst zerstört werden.
+MISTS_ISLAND_TOOLTIP_07	2. Das Reich, das nach 1 Minute die meisten Mitglieder in der Nähe hat, erobert den Schrein.
+MISTS_ISLAND_TOOLTIP_04	Besetzungs-Buff: %s
+MISTS_ISLAND_TOOLTIP_05	Eroberung der Schreine
+ATTR_6TH_7TH_POSSIBILITY	Du kannst einen zusätzlichen Bonus hinzufügen.
+MISTS_ISLAND_TOOLTIP_08	3. Nach 3 Minuten erscheint der Schrein in der Farbe des Reiches, das ihn erobert hat.
+MISTS_ISLAND_TOOLTIP_09	4. Je länger ein Schrein unter der Kontrolle desselben Reiches steht, desto schwieriger lässt er sich zerstören.
+PARTY_RK_CATEGORY_CZ_SNAKE	Rangliste der Wächterin Si
+AFF_LOVE_POINT	Liebespunkte: %d%%
+IS_NOT_PET_CHANGE_ITEM	Das ist nicht das Item Pet verzaubern.
+PARTY_RK_CATEGORY_CZ_HORSE	Rangliste des Wächter Wu
+TOOLTIP_USE_SKILL_GUNGSIN_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Blitzangriff: -%d Sek. mit 10%% Chance
+DUTCH_AUCTION_CLOSE_OTHER_WINDOW	Schließ bitte alle Fenster, bevor du die Blitzauktionen öffnest.
+TOOLTIP_APPLY_ATTBONUS_BOW	Bruch von Pfeilverteidigung +%d%%
+DO_NOT_INSERT_UPBRINGING_PET	Das aktive Pet kann nicht angewählt werden.
+REFINE_FAILURE_CAN_NOT_ATTACH	%s kann diesem Gegenstand nicht beigefügt werden.
+UI_BOLD_FONT	Tahoma:12b
+REFINE_ELEMENT_DOWNGRADE_TEXT	Die Stufe der Elementarverzauberung wurde verringert.
+MAILBOX_POST_READ_BLOCK	Bist du sicher, dass du %s blockieren möchtest?
+GEM_SYSTEM_NAME	Gaya
+LOGIN_FAILURE_SERVER_GRADE	Das ist ein exklusiver Server, zu dem dieser Account leider keinen Zutritt hat.
+TOOLTIP_USE_SKILL_CHAYEOL_CRITICAL_PCT	Erhöhe Chance auf Kritischen Angriff für %d Sek. bei Verwendung von Zerreißen
+AURA_IMPOSSIBLE_ABSORBITEM	[Aura] Es können keine weiteren Boni übertragen werden.
+TOOLTIP_USE_SKILL_CHARYUN_STUN	Degenwirbel betäubt Gegner mit %d%% Chance
+TOOLTIP_APPLY_ATTBONUS_TWOHAND	Bruch von Zweihandverteidigung +%d%%
+TOOLTIP_AFFECT_RESEARCHER_ELIXIR	Elixier des Forschers
+GEM_SYSTEM_BUY_ITEM	Möchtest du diesen Gegenstand kaufen?
+GUILD_DRAGONLAIR_PARTY_ALL	Gesamtbestenliste
+MINI_GAME_GIVEUP_QUESTION	Möchtest du das Spiel wirklich abbrechen? Du verzichtest damit auf eine Belohnung.
+WORLD_BOSS_STATE_BOSS_SPAWNED	Erschienen
+TIGER_COIN_ITEM_USE_QUESTION	Du tauschst deinen Gutschein gegen Tigermünzen. Möchtest du fortfahren?
+TOOLTIP_RESIST_PER_EARTH	Erdwiderstand (+%d%% d. Gesamtwerts)
+MC_ACHIEV_NAME	%s (%d)
+GUILD_DRAGONLAIR_PARTY_MEMBER	Mitglieder
+TOOLTIP_SKILL_DAMAGE_PALBANG	Schaden von Schwertwirbel +%d%%
+GUILD_DRAGONLAIR_PARTY_TOOLTIP_TITLE	Belohnung
+SHOP_MY_MEDAL_OF_HONOR	Tapferkeitsmedaille: %d
+MAILBOX_POST_WRITE_NAME_EMPTY	Gib einen Empfänger ein.
+PET_ATTR_DETERMINE_TYPE8	Pettyp 8: prismatisch. Extrem stark.\nTreuer Gefährte, auf den du dich verlassen kannst.
+TOOLTIP_SET_ITEM_5	Majest.
+TOOLTIP_SET_ITEM_4	Fürstl.
+PET_ATTR_DETERMINE_TYPE6	Pettyp 6: legendär. Stark.\nTreuer Gefährte, dessen Fähigkeiten mit der Zeit sogar noch wachsen.
+PET_ATTR_DETERMINE_TYPE7	Pettyp 7: mythisch. Sehr stark.\nWird mit der Zeit sein volles Potenzial entfalten.
+TOOLTIP_SET_ITEM_1	Heil.
+PET_ATTR_DETERMINE_TYPE1	Pettyp 1: tollpatschig. Nicht besonders stark.\nMit der Zeit kannst du seine Fähigkeiten steigern.
+TOOLTIP_SET_ITEM_3	Ritt.
+TOOLTIP_SET_ITEM_2	Prächt.
+MINI_GAME_BNW_DONATE_QUESTION1	Möchtest du spenden?
+MINI_GAME_BNW_DONATE_QUESTION2	Eine Spende verbraucht 15 Sehermünzen.
+GUILD_DRAGONLAIR_PARTY_NOW	Wochenbestenliste
+TOOLTIP_HIT_BUFF_RESIST_DARK	Erhalte Widerstand vs Dunkelheit für %d Sek. im Kampf
+GUILD_DRAGONLAIR_PARTY_LINE_ONE	1. Platz: 400 Gaya
+TOOLTIP_HALLOWEEN_EVENT_BUFF	+20% EXP | +5% Itemdrop | +10% Stark gegen Monster
+CUBE_CATEGORY_SETADD_HELMET	Set-Helm herstellen
+PARTY_MATCH_START	Du hast deine Gruppe für folgenden Dungeon angemeldet: [%s]!
+MINI_GAME_YUTNORI_PC_WIN_SCORE	Punktestand: %d
+MAILBOX_POST_WRITE_CONFIRM_FAIL	Unbekannter Empfänger. Nachricht konnte nicht gesendet werden.
+AURA_TOOLTIP_LEVEL	Lvl %d (Stufe %d) (Aufnahmerate %.1f%%)
+RANKING	Rang
+TOOLTIP_HIT_BUFF_RESIST_ICE	Erhalte Eiswiderstand für %d Sek. im Kampf
+LOGIN_FAILURE_IOVATION_ERR	Leider ist ein Fehler aufgetreten. Wende dich bitte an den Support.
+RANKING_BOARD_MEMBER	Mitglieder
+TOOLTIP_ENCHANT_PER_EARTH	Kraft der Erde (+%d%% d. Gesamtwerts)
+TOOLTIP_APPLY_ENCHANT_ELECT	Kraft der Blitze +%d%%
+BUY_LIMIT_LEVEL	Kauflimit: %s
+TOOLTIP_ATTBONUS_PER_UNDEAD	Stark gegen Untote (+%d%% d. Gesamtwerts)
+SET_ITEM_DO_NOT_SEAL_ITEM	Das kannst du nicht mit einem seelengebundenen Gegenstand tun.
+MINI_GAME_CATCHKING_TOOLTIP_CARD5	Kann folgende Karten fangen: [1], [2], [3], [4], [5].\nGrenzt eine weitere [5] an deiner aufgedeckten Karte an,\nwird der Spielzug beendet und du erhältst keine Punkte.
+MINI_GAME_CATCHKING_TOOLTIP_CARD4	Kann folgende Karten fangen: [1], [2], [3], [4]
+MAILBOX_POST_WRITE_CONFIRM_FULL_MAILBOX	Postfach des Empfängers ist voll. Nachricht konnte nicht gesendet werden.
+MINI_GAME_CATCHKING_TOOLTIP_CARD6	Kann folgende Karte fangen: [K]
+MINI_GAME_CATCHKING_TOOLTIP_CARD1	Kann folgende Karte fangen: [1]
+MINI_GAME_CATCHKING_TOOLTIP_CARD3	Kann folgende Karten fangen: [1], [2], [3]
+PARTY_MATCH_FAIL_IMPOSSIBLE_MAP	Du kannst dich für diesen Dungeon nicht anmelden.
+TOOLTIP_MORE_THEN_HP90_DAMAGE_REDUCE	Hast du mehr als 90%% TP, reduziert sich dein erhaltener Schaden um %d%%.
+GEM_SYSTEM_PICK_GEM	[Gaya] Anzahl Gaya: %d
+TOOLTIP_RESIST_PER_WIND	Windwiderstand (+%d%% d. Gesamtwerts)
+PET_REVIVE_FAIL_NOT_ENOUGHT_MATERIAL	Du hast nicht genügend Material.
+MEDAL_OF_HONOR	Tapferkeitsmedaille
+TOOLTIP_USE_SKILL_GEOMPUNG_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Schwertschlag: -%d Sek. mit 10%% Chance
+MINI_GAME_BNW_FONT	Arial:15
+REVIVE_SELF_QUESTION	Möchtest du Wiederbeleben ausführen? Anzahl Prismen des Erwachens: %d
+TOOLTIP_APPLY_ENCHANT_FIRE2	Kraft des Feuers +%d%% ~ +%d%%
+REFINE_ELEMENT_TEXT_WIND	Kraft des Windes +%d
+TOOLTIP_DAMAGE_HP_RECOVERY	Absorbiert Schaden zu %d%% als TP
+MAILBOX_FAIL_USE_TIME_LIMIT	Das Postfach wird aktualisiert. Bitte versuche es später erneut.
+CUBE_LIST_TEXT_ITEM_INFO	%s (%d%%)
+LOGIN_FAILURE_TNT_SESSION	Der Client kann nicht geöffnet werden. Bitte starte den Launcher erneut und logge dich ein.
+TOOLTIP_USE_SKILL_JEUNGRYEOK_DEF_BONUS	Erhalte Verteidigungsbonus für %d Sek. bei Verwendung von Angriff+
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS_BOSS_OR_MORE	Angriffsschaden von Bossen -%d%%
+OPEN_THE_SPECIAL_ACTION_KIT	%s wurde den Emotionen hinzugefügt.
+CHANNEL_STATUS_OFFLINE	Unbekannt
+DETAILS_0	Stark vs. Metin
+TOOLTIP_SKILL_DURATION_INCREASE_JEOKRANG	Dauer von Purpurwolfseele +%d Sek.
+AURA_POSSIBLE_REGISTER_AURAITEM	[Aura] Auragewand muss zuerst eingefügt werden.
+REFINE_QUESTION_WARNING_DOWN_GRADE_AND_REFIX_REMOVE	Falls die Aufwertung fehlschlägt, sinkt die Stufe unter den Mindestwert für Set-Effekte und der Set-Effekt wird dadurch entfernt.
+MC_ACHIEV_REGIST_FAIL	Du kannst gerade keinen Erfolg einfordern.
+TOOLTIP_AFFECT_CZ_UNLIMIT_ENTER	Signum der Wächter
+TOOLTIP_USE_SKILL_PAERYONG_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Drachengebrüll
+PARTY_RK_CATEGORY_CZ_DOG	Rangliste des Wächter Xu
+TOOLTIP_SKILL_DAMAGE_PAERYONG	Schaden von Drachengebrüll +%d%%
+SELECT_CAN_NOT_DELETE_LAST_CHAR_SAFEBOX	Du kannst deinen einzigen Charakter nicht löschen, da sich noch Items in deinem Lager befinden.
+PET_EMPTY_SKILL_SLOT_USE_ITEM	Das Pet besitzt keine Fertigkeiten zum Zurücksetzen.
+TOOLTIP_ATTBONUS_PER_HUMAN	Stark gegen Halbmenschen (+%d%% d. Gesamtwerts)
+TOOLTIP_SKILL_DAMAGE_GONGDAB	Schaden von Wolfssprung +%d%%
+TOOLTIP_HIT_BUFF_RESIST_FIRE	Erhalte Feuerwiderstand für %d Sek. im Kampf
+TOOLTIP_SKILL_DAMAGE_AMSEOP	Schaden von Hinterhalt +%d%%
+SOUL_ITEM_TOOLTIP_REMAIN_COUNT	Verbleibende Angriffe: %d
+GUILD_DRAGONLAIR_RANKING_FAIL	GESCHEITERT
+COMB_CANT_BASE_ITEM	Ein Band, das bereits über einen Bonus verfügt, kann nicht Empfänger sein.
+TOOLTIP_POTION_PLUS_EXP_BONUS	EXP: +%d%%
+MINI_GAME_BNW_NOT_ENOUGH_YANG	Du hast nicht genügend Yang, um das Spiel zu starten.
+MINI_GAME_CATCHKING_SEARCH_NUMBER5	Eine [5] ist in der Nähe.
+LOGIN_FAILURE_INTEGRTING	Dieser Account wird derzeit fusioniert. Bitte versuche es später noch einmal.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL2	Für deinen %s\n benötigst du: %s %dx
+PARTY_MATCH_SEARCHING	Suchen
+TOOLTIP_ROLE_PROFICIENCY_LEADER_EFFECT	Anführerbonus: %d%%
+GUILD_ATTENDANCE_FAIL_JOIN_TIME	Du kannst jetzt nicht teilnehmen. Die Teilnahme wird immer um 5:00 Uhr zurückgesetzt.
+TOOLTIP_PVP_TOURNAMENT_ENTER	Teilnahme am PvP-Turnier
+TOOLTIP_USE_SKILL_GIGONGCHAM_STUN	Durchschlag betäubt Gegner mit %d%% Chance
+MC_ACHIEV_REGIST_FAIL_CHECK_COUNT	Du kannst den Erfolg nicht einfordern. Schließe das Fenster und versuche es erneut.
+GUILD_DRAGONLAIR_RANKING_SUCCESS	GESCHAFFT
+CUBE_MAKE_CONFIRM_QUESTION_1	Mindestens ein verwendetes Item ist besonders wertvoll (hat mehr als %d Boni).
+GUILD_DRAGONLAIR_PARTY_LINE_TWO	2. - 3. Platz: 300 Gaya
+CUBE_MAKE_CONFIRM_QUESTION_2	Möchtest du wirklich fortfahren?
+TOOLTIP_USE_SKILL_KWANKYEOK_KNOCKBACK	Pfeilregen schlägt Gegner mit einer Chance von %d%% zurück
+ClosePetChangeWndButton	Schließen
+CLEAR_FLOOR	Ebene
+MAP_BOSS_CRACK_FLAME	ZR: Rotdrachenfestung
+CLEAR_TIME	Zeit
+TOOLTIP_SKILL_DAMAGE_SAMYEON	Dreiwege-Schnitt-Schaden +%d%%
+REFINE_ELEMENT_NOT_EXSIT	Kann nicht mit diesem Gegenstand verwendet werden.
+PARTY_RK_CATEGORY_CZ_TIGER	Rangliste des Wächter Yin
+TOOLTIP_FLOWER_EVENT_SHOOT_ENVELOPE	Blumensamen
+TOOLTIP_USE_SKILL_PALBANG_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Schwertwirbel
+MINI_GAME_YUTNORI_RETHROW_BUTTON	Werfen
+FISHING_RENEWAL_CANNOT_EMOTION	Du kannst keine Emotionen verwenden, während du angelst.
+REFINE_ELEMENT_UPGRADE_SUCCESS_TEXT	Elementarverzauberung erfolgreich!
+MINIMAP_OPEN_INGAMEEVENT	Events
+CUBE_CATEGORY_SETADD_ARMOR	Set-Rüstung herstellen
+TOOLTIP_APPLY_ENCHANT_WIND2	Kraft des Windes +%d%% ~ +%d%%
+PARTY_MATCH_CANCEL	Die Gruppensuche für [%s] wurde abgebrochen.
+GUILD_DONATE_QUESTION_HIGH	Möchtest du eine hohe Spende machen?
+LOGIN_FAILURE_BACKEND_ERR	Ein Fehler ist aufgetreten. Bitte wende dich an den Support.
+TOOLTIP_AFFECT_ELECTRIC_SHOCK	Blitz
+USE_ITEM_BUTTON_01	Abbrechen
+USE_ITEM_BUTTON_02	Betreten
+TOOLTIP_AFFECT_DEFENSEWAVE_LASER	Der Hydrostrahl konnte nicht unterbrochen werden.
+TOOLTIP_AFFECT_LATE_SUMMER_EVENT_PRIMIUM_BUFF	Kostbare Seelen (%d/150)
+MAP_BOSS_LABYRINTH	Plateau der Illusionen
+GUILDWINDOW_BUTTON_DONATE	Spende
+SERVER_STATUS_STANDBY	GESCHLOSSEN
+PET_SKILL_LEARN_FAIL_CONDITIONS	Dein Pet ist nicht alt genug oder besitzt nicht die erforderliche Stufe. Nur Heldenpets können Fertigkeiten erlernen.
+TOOLTIP_AFFECT_MOUNT_FALL	Sturz vom Reittier
+TOOLTIP_APPLY_ATTBONUS_SWORD	Bruch von Schwertverteidigung +%d%%
+COMB_ACCE_IS_CONTINUE_PROCESS	Möchtest du fortfahren?
+PET_REVIVE_FAIL_EMPTY_PET_SLOT	Es gibt kein Pet zum Wiederbeleben.
+MINI_GAME_CATCHKING_HELP_MSG2	Gut gemacht! Die Karten haben den gleichen Wert.\n Dein Spielzug ist beendet. Wähle ein neue Karte aus deinem Deck.
+MINI_GAME_CATCHKING_HELP_MSG3	Weiter so! Der Wert deiner Karte ist höher.\nDecke eine weitere Karte auf.
+MINI_GAME_CATCHKING_HELP_MSG1	Schade! Der Wert deiner Karte ist niedriger.\nDu erhältst keine Punkte. Wähle ein neue Karte aus deinem Deck.
+CUBE_CATEGORY_ARMOR	Rüstung
+MINI_GAME_CATCHKING_HELP_MSG4	Eine [5] lag in Reichweite deiner aufgedeckten Karte.\nDu erhältst leider keine Punkte. Wähle nun deinen König [K].
+AURA_IMPOSSIBLE_EVOLUTION_ITEM	[Aura] Kann nicht entwickelt werden.
+TOOLTIP_USE_SKILL_HOSIN_DEF_BONUS	Erhalte Verteidigungsbonus für %d Sek. bei Verwendung von Segen
+FLOWER_EVENT_USE_ITEM_TEXT2	Versuch kann fehlschlagen, die Blume verwelkt dabei.
+FLOWER_EVENT_USE_ITEM_TEXT1	Möchtest du den aktivierten Effekt ersetzen?
+MAP_BOSS_AWAKEN_SKIPIA	EW: Grotte der Verbann.
+SOUL_ITEM_TOOLTIP_COMMON	Nicht für: PvP, Verwandlung
+TOOLTIP_INSIGHT_SKILL_LEVEL	Aktuelles Level: %d
+TOOLTIP_USE_SKILL_MAHWAN_STUN	Dunkler Stein betäubt Gegner  mit %d%% Chance
+TOOLTIP_SKILL_DAMAGE_YEONSA	Schaden von Wiederholter Schuss +%d%%
+MISTS_ISLAND_INFO_03	Momentan findet keine Schlacht statt.
+PVP_TOURNAMENT_DO_NOT_AUTO	Automatisch angreifen kannst du während des PvP-Turniers nicht nutzen.
+TOOLTIP_USE_SKILL_TUSOK_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Geisterschlag
+TOOLTIP_POTION_PLUS_DEX_POINT	DEX: +%d
+TOOLTIP_USE_SKILL_GUNGSIN_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Blitzangriff: -%d Sekunden mit 20%% Chance
+TOOLTIP_SKILL_DAMAGE_HWAYEOMPOK	Schaden von Flammenschlag +%d%%
+GUILD_DONATE_FAIL_TIME	Du kannst 24 Stunden, nachdem du der Gilde beigetreten bist, nicht spenden.
+MAILBOX_POST_WRITE_WRONG_TITLE	Der Betreff enthält unzulässige Wörter.
+MINI_GAME_CATCHKING_TOOLTIP_SCORE4	Du erhältst 10 Extrapunkte, wenn du alle Karten einer Reihe aufdeckst.
+MINI_GAME_CATCHKING_TOOLTIP_SCORE2	%s: 400 ~ 549
+MINI_GAME_CATCHKING_TOOLTIP_SCORE3	%s: 10 ~ 399
+MINI_GAME_CATCHKING_TOOLTIP_SCORE1	%s: 550 oder mehr
+GUILDWINDOW_CHANGE_BLACKSMITH	Profession ändern
+ATTR_6TH_7TH_TOTAL_SUCCESS_PERCENT	Erfolgswahrscheinlichkeit: %.1f%%
+TARGET_TOOLTIP_ATTACK_COUNT	Gesamtpunkte: %d
+QUEST_HOUR	Stunde(n)
+TOOLTIP_RESIST_PER_DARK	Widerstand gegen Dunkelheit (+%d%% d. Gesamtwerts)
+GUILD_DONATE_FAIL_NOT_ENOUGH_YANG	Nicht genügend Yang.
+TOOLTIP_USE_SKILL_BIPABU_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Fliegender Talisman: -%d Sek. mit 10%% Chance
+MINIGAME_FISH_EVENT_DROP_ACCEPT	Willst du diesen Gegenstand wirklich fallen lassen?
+TOOLTIP_SECOND_ATTRIBUTE_BONUS	2. hinzugefügter Bonus +%d%%
+TOOLTIP_ROLE_PROFICIENCY_SKILL_LEVEL	Aktuelles Level: %d
+TOOLTIP_USE_SKILL_HWAYEOMPOK_KNOCKBACK	Flammenschlag schlägt Gegner mit einer Chance von %d%% zurück
+TOOLTIP_AFFECT_SET_ITEM_4	Fürstlicher Set-Bonus
+TOOLTIP_AFFECT_SET_ITEM_5	Majestätischer Set-Bonus
+TOOLTIP_SEASON_PVE_BUFF	Erhöht PvE-Schaden 10 Min. um 80%.
+TOOLTIP_AFFECT_SET_ITEM_1	Heiliger Set-Bonus
+TOOLTIP_AFFECT_SET_ITEM_2	Prächtiger Set-Bonus
+TOOLTIP_AFFECT_SET_ITEM_3	Ritterlicher Set-Bonus
+LUCKY_BOX_DIALOG_RECV_TEXT	Möchtest du das Item annehmen?
+TOOLTIP_USE_SKILL_SWAERYUNG_KNOCKBACK	Fingerschlag schlägt Gegner mit einer Chance von %d%% zurück
+MAP_GUILD_PVE	Palast des Drachenkönigs
+TOOLTIP_APPLY_ENCHANT_ICE	Kraft des Eises +%d%%
+MD_SYSTEM_MSG_1	Du bist kein Zombie. Du kannst nicht kämpfen, während du tot bist.
+MC_ACHIEV_REGIST_ABLE	Du erfüllst die Voraussetzungen für den Erfolg %s (%d Sterne).
+USE_ITEM_POPUP_01	Die Schlacht der fünf Schreine ist beendet. \n Nächste Schlacht:
+REFINE_ELEMENT_TEXT_FIRE	Kraft des Feuers +%d
+REFINE_FAILURE_KEEP_GRADE	Die Veredelung ist fehlgeschlagen.\nGlücklicherweise bleibt dein Gegenstand erhalten.
+TOOLTIP_APPLY_ENCHANT_ELECT2	Kraft der Blitze +%d%% ~ +%d%%
+MAILBOX_POST_WRITE_NAME_CHECK	Bestätige den Empfängernamen per Klick auf "Empfänger prüfen".
+MC_ACHIEV_REGIST_QUESTION_1	Möchtest du den Erfolg %s einfordern? Du benötigst dazu %d Karten der jeweiligen Monster.
+MAILBOX_POST_GET_ITEMS_WON_OVERFLOW	Du kannst kein Won mehr annehmen.
+TOOLTIP_APPLY_ENCHANT_EARTH2	Kraft der Erde +%d%% ~ +%d%%
+SOUL_ITEM_TOOLTIP_BLUE2	Bei Erreichen der Spielzeit erhöht sich der Fertigkeitsschaden um x%.1f
+SOUL_ITEM_TOOLTIP_BLUE1	Spielzeit: %d/%d Min.
+TOOLTIP_APPLY_ATTBONUS_BELL	Bruch von Glockenverteidigung +%d%%
+MAILBOX_POST_NOT_CONFIRM_INFO_2	Ohne Anhang: %d / Mit Anhang: %d
+MINI_GAME_NOTICE_2	Yut-Stäbe werfen.
+MINI_GAME_NOTICE_3	Computer wirft Yut-Stäbe, um den Startspieler zu ermitteln.
+MINI_GAME_NOTICE_1	Klicke "Werfen", um den Startspieler zu ermitteln.
+MINI_GAME_NOTICE_6	Dein Wurf: %s. Ziehe %d Feld(er) vorwärts.
+MINI_GAME_NOTICE_7	Dein Wurf: %s. Du musst 1 Feld zurück.
+MINI_GAME_NOTICE_4	Computer hat den niedrigeren oder gleichwertigen Wurf und darf beginnen.
+MINI_GAME_NOTICE_5	Du hast den niedrigeren Wurf und darfst beginnen.
+MINI_GAME_NOTICE_8	Wurf: %s
+MINI_GAME_NOTICE_9	Der Computer ist am Zug.
+TOOLTIP_USE_SKILL_NOEJEON_NEXT_COOLTIME_DECREASE_10PER	Abklingzeit Blitzwurf: -%d Sek. mit 10%% Chance
+SERVER_STATUS_SPECIAL	SPEZIAL
+CHANNEL_STATUS_VACANT	Wenig besucht
+TOOLTIP_SKILL_DEFEND_BONUS_BOSS_OR_MORE	Fertigkeitsschaden von Bossen -%d%%
+MINI_GAME_BNW_GAME_RESULT_WIN	Sieg! Du hast %d Sehermünze(n) erhalten.
+TOOLTIP_ATTBONUS_PER_DESERT	Stark gegen Wüstenmonster (+%d%% d. Gesamtwerts)
+TOOLTIP_USE_SKILL_PABEOB_STUN	Zauber aufheben betäubt Gegner mit %d%% Chance
+MAILBOX_POST_WRITE_SEND_FAIL_EMPTY_TITLE	Gib einen Betreff ein.
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS_BOSS_OR_MORE	Angriffsschaden gegen Bosse +%d%%
+TOOLTIP_USE_SKILL_YEONSA_HP_ABSORB	Absorbiert %d%% TP beim Verwenden von Wiederholter Schuss
+TOOLTIP_SKILL_DURATION_INCREASE_GEOMKYUNG	Dauer von Aura des Schwertes +%d Sek.
+REFINE_ELEMENT_GRADE_MAX	Die maximale Stufe der Elementarverzauberung wurde bereits erreicht.
+TOOLTIP_AFFECT_RHP_REGEN	Erholen nicht möglich
+COMB_CANT_MATCH_GRADE	Für einen Bonustransfer muss der Grad beider Items identisch sein.
+MINI_GAME_CATCHKING_CHALLENGE_TOOLTIP1	Setzt du mehrere %ss ein, erhältst du die gleiche Anzahl an Truhen als Gewinn.
+MISTS_ISLAND_INFO_01	Dein Level ist zu niedrig.
+MISTS_ISLAND_INFO_02	Nicht genügend Yang.
+MINI_GAME_CATCHKING_CHALLENGE_TOOLTIP2	Maximal %d Königsdecks als Einsatz möglich.
+TOOLTIP_SKILL_DAMAGE_GUNGSIN	Schaden von Blitzangriff +%d%%
+AURA_TITLE_GROWTH	Auragewand verbessern
+GUILD_DRAGONLAIR_PARTY_LINE_HELP	Hilfe
+TOOLTIP_SKILL_DAMAGE_CHAYEOL	Schaden von Zerreißen +%d%%
+TOOLTIP_SKILL_DAMAGE_CHARYUN	Schaden von Degenwirbel +%d%%
+TOOLTIP_AFFECT_SAFEBOX_BUFF_04	Lager-Bonus\n+3% Stark gegen Monster
+TOOLTIP_SKILL_DAMAGE_TANHWAN	Schaden von Sausen +%d%%
+TOOLTIP_AFFECT_SAFEBOX_BUFF_01	Lager-Bonus\n +3% EXP
+TOOLTIP_AFFECT_SAFEBOX_BUFF_03	Lager-Bonus\n+1% Trefferpunkte
+TOOLTIP_AFFECT_SAFEBOX_BUFF_02	Lager-Bonus\n+20 Verteidigung
+AURA_MAX_LEVEL	[Aura] Auragewand hat das maximale Level.
+TOOLTIP_AFFECT_CONFUSION	Du wurdest betäubt.
+MINI_GAME_CATCHKING_START_QUESTION	Für diese Runde wird dir abgezogen: %d Yang sowie %s: %d Stück\nMöchtest du jetzt spielen?
+TOOLTIP_ATTBONUS_PER_ORC	Stark gegen Orks (+%d%% d. Gesamtwerts)
+PARTY_RK_CATEGORY_CZ_COW	Rangliste des Wächter Chou
+TOOLTIP_USE_SKILL_BYEURAK_HP_ABSORB	Du absorbierst bis zu %d%% TP bei Verwendung von Blitz heraufbeschwören.
+REFINE_QUESTION_CONFIRM	Möchtest du fortfahren?
+TOOLTIP_USE_SKILL_CHEONGRANG_MOV_SPEED	Erhöhe Bewegungsgeschwindigkeit für %d Sek. bei Verwendung von Indigowolfseele
+TOOLTIP_USE_SKILL_PASWAE_NEXT_COOLTIME_DECREASE_20PER	Abklingzeit Wolfskralle: -%d Sekunden mit 20%% Chance
+MAILBOX_POST_DELETE_QUESTION	Möchtest du diese Nachricht wirklich löschen?
+CATEGORY_JEWELRY_ARMOR_PENDANT	Talisman
+TOOLTIP_ATTBONUS_PER_MONSTER	Stark gegen Monster (+%d%% d. Gesamtwerts)

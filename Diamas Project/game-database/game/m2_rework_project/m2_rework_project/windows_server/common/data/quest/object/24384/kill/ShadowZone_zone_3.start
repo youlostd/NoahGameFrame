@@ -1,0 +1,7 @@
+if ShadowZoneLIB3 . isActive ( ) and not npc . is_pc ( ) and d . getf ( "ShadowZone_floor" ) == 5 then local settings = ShadowZoneLIB3 . Settings ( ) ; 
+clear_server_timer ( "ShadowZone_FifthFloor" , d . get_map_index ( ) ) ; 
+ShadowZoneLIB3 . clearCoolTimer ( ) ; 
+ShadowZoneLIB3 . clearDungeon ( ) ; 
+d . notice ( "Shadow tower: Great job! You will proceed in few seconds!" ) 
+d . spawn_mob ( 29382 , pc . get_local_x ( ) , pc . get_local_y ( ) ) ; 
+ return end 

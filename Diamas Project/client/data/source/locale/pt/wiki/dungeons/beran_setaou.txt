@@ -1,0 +1,30 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/beransetoul.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 75
+*Eintrittsitem: Gewundener Schlüssel
+[RIGHT_ALIGN]Gewundener Schlüssel
+[IMG=d:/ymir work/ui/wiki/30179.tga; Y=5; X=493]
+
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Der Drachenraum hat eine Abklingzeit von 60 Minuten.
+*Jedes Gruppenmitglied benötigt einen Gewundenen Schlüssel.
+*Jeder Metinstein hat eine besondere Wirkung, die durch die Anzahl des selben Metines erhöht wird.
+[X_PADDING=20]*Die TP-Regeneration-Menge des Drachens wird durch den Metin des Hochmuts vergrößert.
+[X_PADDING=20]*Der Schaden den der Drachen verteilt wird durch den Metin der Rache vergrößert.
+[X_PADDING=20]*Die TP Regenerations-Geschwindigkeit wird durch den Metin der Einsamkeit gesteigert.
+[X_PADDING=20]*Die Verteidigung des Drachens wird durch den Metin des Berges gesteigert. 
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Die Phasen:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=185; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 1
+
+[X_PADDING=20]Zerstöre Metinsteine, bis deine gewünschten Metinsteine erscheinen.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Phase 2
+
+[X_PADDING=20]Töte Beran-Setaou.

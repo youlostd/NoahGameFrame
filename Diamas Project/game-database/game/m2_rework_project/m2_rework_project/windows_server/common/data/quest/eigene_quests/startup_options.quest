@@ -1,0 +1,31 @@
+quest basic_weapon begin
+	state start begin
+		when login with pc.getqf("basic_weapon") == 0 begin
+			local krallik = { " Shinsoo " , " Chunjo " , " Jinno " }
+			local karakter = {" Savaşçı ", " Ninja ", " Sura ", " Şaman ", " Lycan "}
+			if pc.getqf("hosgeldinsnck") == 0 then
+				pc.setqf("hosgeldinsnck", 1)
+				if pc.job == 0 then
+				notice_all("Yeni oyuncumuz "..pc.get_name()..","..karakter[pc.get_job()+1].."karakteri ile"..krallik[pc.get_empire()].."imparatorluğunu seçerek Diamas'a katıldı!")
+				end
+
+				if pc.job == 1 then
+				notice_all("Yeni oyuncumuz "..pc.get_name()..","..karakter[pc.get_job()+1].."karakteri ile"..krallik[pc.get_empire()].."imparatorluğunu seçerek Diamas'a katıldı!")
+
+				end
+				if pc.job == 2 then
+				notice_all("Yeni oyuncumuz "..pc.get_name()..","..karakter[pc.get_job()+1].."karakteri ile"..krallik[pc.get_empire()].."imparatorluğunu seçerek Diamas'a katıldı!")
+
+				end
+				if pc.job == 3 then
+				notice_all("Yeni oyuncumuz "..pc.get_name()..","..karakter[pc.get_job()+1].."karakteri ile"..krallik[pc.get_empire()].."imparatorluğunu seçerek Diamas'a katıldı!")
+
+				end
+				if pc.job == 4 then
+				notice_all("Yeni oyuncumuz "..pc.get_name()..","..karakter[pc.get_job()+1].."karakteri ile"..krallik[pc.get_empire()].."imparatorluğunu seçerek Diamas'a katıldı!")
+
+				end
+			end
+		end
+	end
+end

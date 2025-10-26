@@ -1,0 +1,31 @@
+guild_create_item = false 
+if game . get_event_flag ( "guild_withdraw_delay" ) * 1 > 
+get_global_time ( ) - pc . getqf ( "new_withdraw_time" ) then 
+say_title ( gameforge . find_squareguard . _10_targetVid ) 
+say ( gameforge . guild_manage . _180_say ) 
+return 
+end 
+if game . get_event_flag ( "guild_disband_delay" ) * 1 > 
+get_global_time ( ) - pc . getqf ( "new_withdraw_time" ) then 
+say_title ( gameforge . find_squareguard . _10_targetVid ) 
+say ( gameforge . guild_manage . _200_say ) 
+return 
+end 
+say_title ( gameforge . find_squareguard . _10_targetVid ) 
+say ( "Lonca kurmak istiyor musun? " ) 
+local s = select ( gameforge . locale . guild . yes , gameforge . locale . guild . no ) 
+if s == 2 then 
+return 
+end 
+if pc . level >= 0 then 
+if pc . gold >= 0 then 
+game . request_make_guild ( ) 
+else 
+say_title ( gameforge . find_squareguard . _10_targetVid ) 
+say ( gameforge . guild_manage . _220_say ) 
+return 
+end 
+else 
+say_title ( gameforge . find_squareguard . _10_targetVid ) 
+say ( gameforge . guild_manage . _230_say ) 
+end 

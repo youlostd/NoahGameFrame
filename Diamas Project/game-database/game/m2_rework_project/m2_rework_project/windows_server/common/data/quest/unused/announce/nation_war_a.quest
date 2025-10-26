@@ -1,0 +1,20 @@
+quest nation_war_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("nation_war_a") > 0 begin
+		send_letter("Reichsschlacht")
+	end
+	
+	when info or button begin
+		say_important("Reichsschlacht")
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance bei dem Schlachtenverwalter an")
+		say("unserer Reichsschlacht teilzunehmen!")
+		say("Das Gewinner-Reich erhält eine Belohnung in Form eines Boosts!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

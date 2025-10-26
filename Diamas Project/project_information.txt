@@ -1,0 +1,7 @@
+Source 
+Cmake
+Visual Studio 17 VS 2022 
+Python API: PyBind
+Mariadb Windows Server 11.3.2
+Windows Server 2022 X64 
+Game-Client x64

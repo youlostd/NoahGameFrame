@@ -1,0 +1,156 @@
+if pc . in_dungeon ( 226 ) then local stage = getDungeonStage ( ) 
+local race = npc . race if stage == 1 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8300 , 271 , 243 ) 
+d . spawn_mob ( 8300 , 269 , 258 ) 
+d . spawn_mob ( 8300 , 268 , 270 ) 
+d . spawn_mob ( 8300 , 266 , 282 ) 
+d . spawn_mob ( 8300 , 265 , 292 ) 
+d . spawn_mob ( 8300 , 270 , 250 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 2 and race == 8300 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_3.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 3 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8752 , 263 , 369 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 4 and race == 8752 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_5.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 5 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8300 , 129 , 323 ) 
+d . spawn_mob ( 8300 , 109 , 309 ) 
+d . spawn_mob ( 8300 , 93 , 292 ) 
+d . spawn_mob ( 8300 , 80 , 270 ) 
+d . spawn_mob ( 8300 , 65 , 246 ) 
+d . spawn_mob ( 8300 , 55 , 208 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 6 and race == 8300 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_7.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 7 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8752 , 170 , 102 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 8 and race == 8752 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_9.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 9 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8300 , 255 , 93 ) 
+d . spawn_mob ( 8300 , 265 , 85 ) 
+d . spawn_mob ( 8300 , 276 , 76 ) 
+d . spawn_mob ( 8300 , 289 , 76 ) 
+d . spawn_mob ( 8300 , 300 , 77 ) 
+d . spawn_mob ( 8300 , 313 , 78 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 10 and race == 8300 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_15.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 11 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8752 , 373 , 85 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+end 
+elseif stage == 12 and race == 8752 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_18.txt" ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 15 ) 
+end 
+elseif stage == 13 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . spawn_mob ( 8300 , 392 , 76 ) 
+d . spawn_mob ( 8300 , 384 , 79 ) 
+d . spawn_mob ( 8300 , 376 , 83 ) 
+d . spawn_mob ( 8300 , 369 , 88 ) 
+d . spawn_mob ( 8300 , 363 , 91 ) 
+d . spawn_mob ( 8300 , 356 , 95 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 6 ) 
+end 
+elseif stage == 14 and race == 8300 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_unique ( "stone" , d . spawn_mob ( 8304 , 373 , 85 ) ) 
+server_loop_timer ( "check_stone_hp" , 1 , getDungeonMapIndex ( ) ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 16 and race == 8750 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_unique ( "stone" , d . spawn_mob ( 8304 , 373 , 85 ) ) 
+d . unique_set_hp_perc ( "stone" , 50 ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 18 and race == 8753 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . set_unique ( "stone" , d . spawn_mob ( 8304 , 373 , 85 ) ) 
+d . unique_set_hp_perc ( "stone" , 25 ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 19 and race == 8304 then 
+clear_server_timer ( "check_stone_hp" , getDungeonMapIndex ( ) ) 
+d . spawn_mob ( 8753 , 373 , 85 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+elseif stage == 20 and race == 8753 then 
+setMonsterCount ( getMonsterCount ( ) + 1 ) 
+if getMonsterCount ( ) == getNeededMonsterCount ( ) then 
+d . regen_file ( "data/dungeon/icestorm_dungeon/" .. "stage_boss.txt" ) 
+increaseDungeonStage ( ) 
+end 
+elseif stage == 21 and race == 9263 or race == 9264 then 
+pc . setqf ( "boss_kills" , pc . getqf ( "boss_kills" ) + 1 ) 
+if math . mod ( pc . getqf ( "boss_kills" ) , 5 ) == 0 then 
+notice_all ( "%s hat den %s bereits %s Mal gekillt (%s Sekunden)" , pc . get_name ( ) , c_mob_name ( 9263 ) , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) ) 
+end 
+dungeon_info . set_ranking ( DUNGEON_ID_ICESTORM , pc . getqf ( "boss_kills" ) , get_global_time ( ) - pc . getqf ( "dungeon_start_time" ) , d . get_boss_max_dmg ( race ) ) 
+pc . update_dungeon_progress ( DUNGEON_ID_ICESTORM ) 
+d . completed ( ) 
+setDungeonWarpLocation ( 167 , 264 , 184 ) 
+server_timer ( "exit_dungeon_final" , 15 , pc . get_map_index ( ) ) 
+end 
+ return end 

@@ -1,0 +1,69 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/skilltree.png]
+[CENTER_ALIGN]Missões de Caça e Árvore de Habilidades
+
+
+1 Começar
+As missões de caça são ativas imediatamente e não precisam
+de ser iniciadas.
+A janela correspondente pode ser encontrada abrindo o inventário
+e rolando para baixo no
+símbolos à esquerda até chegar ao símbolo para as missões de caça.
+
+2 Estrutura
+Os alvos das missões de caça são divididos em pedras de metin e Boss's
+de masmorra.
+Assim que você derrotar um alvo, você pode ver o progresso da respectiva
+missão por
+a barra verde. Você pode ver todas as missões abertas na parte superior e
+todas as concluídas na parte inferior.
+Sempre há duas missões ativas, uma para as pedras metin e outra para os
+Boss's das masmorras.
+
+
+3 Subindo de nível
+Para obter pontos de experiência para subir de nível no próximo mapa de
+farm, você precisa de um item, que
+você obterá quando tiver concluído todas as missões de caça no mapa anterior.
+Então, se você completar todas as missões no mapa de far Shiva, você vai
+obtenha "Extensão Jagras (55-75)". Ao clicar com o botão direito neste
+item, você obterá experiência
+até o nível 75 no próximo mapa. O mesmo sistema se aplica a todos os
+outros mapas farm .
+
+
+4 Pontos de Árvore de Habilidades
+Completar as missões de caça não é apenas essencial para subir de
+nível, mas também para
+a Árvore de Habilidades. As recompensas para cada missão de caça são pontos
+para a Árvore de Habilidades.
+O número de pontos da Árvore de Habilidades aumenta com o progresso das
+missões de caça.
+Eles podem ser usados ​​para desbloquear e fortalecer os campos individuais
+da Árvore de Habilidades, que
+é recompensado com bônus adicionais.
+
+5 Árvore de Habilidades
+A Árvore de Habilidades é essencial para PvM e PvP.
+Os bônus, que podem ser desbloqueados através da Árvore Habilidades, não
+apenas ajudam com a
+defesa e ataque no PvM, mas também são essenciais no PvP.
+A Árvore de Habilidades é desbloqueada por etapas. Depois de completar
+todas as missões de caça, você
+também desbloqueia automaticamente todo o Skilltree e ganha todos os
+bônus adicionais.
+
+6 Árvore de Habilidades Pontos de desbloqueio
+No mapa de Farm Shiva, você desbloqueia a linha inferior de todas as
+três categorias.
+No mapa de Farm Artemis você desbloqueia a segunda linha para todas as
+três categorias.
+No mapa de Farm Aqua, você desbloqueia a terceira linha da categoria do meio.
+Nas categorias esquerda e direita, os dois campos externos da terceira
+linha são desbloqueados.
+No mapa de Farm Eden, você desbloqueia a quarta linha da categoria do meio.
+Nas categorias esquerda e direita, é o campo do meio da terceira linha.
+No mapa da Terre você desbloqueia a última linha, e portanto o último campo de
+todas as categorias, o que completa a Árvore de Habilidades.
+
+

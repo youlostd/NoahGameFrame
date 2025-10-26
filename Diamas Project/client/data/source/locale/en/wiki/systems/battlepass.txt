@@ -1,0 +1,173 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/battlepass.tga]
+[CENTER_ALIGN] Ein Battlepass ist eine Reihe von Missionen, die nach erfolgreichem Abschluss belohnt werden.
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Monatlicher Battlepass
+*2. Starterpass
+*3. Battlepass der Baumwesen
+*4. Battlepass (Dungeons)
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Monatlicher Battlepass
+
+[CENTER_ALIGN]Zu Beginn eines jeden Monats wird ein Battlepass aus dem Item-Shop verkauft, der, wie auch die übrigen
+[CENTER_ALIGN]Battlepässe, 7 normale Missionen und 3 Legendärmissionen enthält. Das Highlight eines jeden
+[CENTER_ALIGN]Battlepasses sind in der Regel 2x Kostümgutscheine zusammen mit vielen anderen Belohnungen.
+[CENTER_ALIGN]Der Monatliche Battlepass ist NICHT handelbar und ist auf 1 pro ID begrenzt.
+[CENTER_ALIGN]Die Aufgaben und Missionen zum monatlichen Battlepass könnt ihr im Forum in Itemshop News finden.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=180; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Starterpass
+
+[CENTER_ALIGN]Wenn man auf den Starterpass drückt, erhält man 7 normale Missionen und 3 legendäre Missionen.
+[CENTER_ALIGN]Das ist wahrscheinlich das wichtigste Feature, das man als Anfänger hat.
+[CENTER_ALIGN]Die Fertigstellung jeder Mission ist ganz einfach und belohnt dich mit grundlegenden Ausrüstungen,
+[CENTER_ALIGN]wie: Runen Items, Meisterband (maßgefertigt), Cor Draconis (Legendär), etc ...
+[CENTER_ALIGN]Starte die Missionen also direkt und zögere nicht damit.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.1 Die Sorgen Uriels
+[X_PADDING=20]Quest: Sprich mit Uriel
+[X_PADDING=20]Belohnung: 100x Grüner Zauber, 20x Grüne Stärke
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.2 Die Fertigkeiten
+[X_PADDING=20]Quest: Zerstöre 30 Metinsteine in Map2
+[X_PADDING=20]Belohnung: 10x Smaragdkristall, 20x Exorzismus Schriftrolle, 20x Konzentriertes Lesen
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.3 Boss Monster
+[X_PADDING=20]Quest: Zerstöre 30 Bossmonster (Oberork, Königinnenspinne, Flammenkönig, ...)
+[X_PADDING=20]Belohnung: 3x Erfahrungsring, 1x Diebeshandschuh, 10x Weißer Tau, 5x Seelenstein
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.4 Die Missionsbücher
+[X_PADDING=20]Quest: Schließe 5 Missionsbücher ab (Egal welches Missionsbuch)
+[X_PADDING=20]Belohnung: 25x Drachengott Verteidigung, 25x Drachengote-Angriff,
+[X_PADDING=20]25x Drachengott Leben, 25x Drachengott Intelligenz
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.5 Der Rote Wald
+[X_PADDING=20]Quest: Zerstöre 100 Metinsteine im Roten Wald
+[X_PADDING=20]Belohnung: Ork-Pergament, Arachnidenschlüssel, Bossraum Ticket (Azrael)
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.6 Equipment Fortschritt
+[X_PADDING=20]Quest: Töte 10 Bosse (Sensenmann, Azrael, Beran Setaou, Spinnenbaroness, Verfl. Ork-König)
+[X_PADDING=20]Belohnung: 200x Gegegenstand verzaubern, 25x Schmuckstein, 2x Trank des Diebes,
+[X_PADDING=20]2x Trank der Weisheit
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.7 Die Runen
+[X_PADDING=20]Quest: Zerstöre 50 Metinsteine auf den 90 Maps
+[X_PADDING=20]Belohnung: 60x alle Runen Items
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.8 Der Fortschritt 1
+[X_PADDING=20]Quest: Erreiche Lv50
+[X_PADDING=20]Belohnung: 5x Cor Draconis (Legendär)
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.9 Der Fortschritt 2
+[X_PADDING=20]Quest: Erreiche Lv75
+[X_PADDING=20]Belohnung: Meisterband(maßgefertigt)[11%], 25x Schmuckstein
+
+[COLOR=ef4f00;FONT_SIZE=15]2.1.10 Der Fortschritt 3
+[X_PADDING=20]Quest: Erreiche Lv90
+[X_PADDING=20]Belohnung: 10x Schmiede-Handbuch, 10x Trank des Vergessens, 10x Elixier des Forschers
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=833; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Battlepass der Baumwesen
+
+[CENTER_ALIGN]Er umfasst 7 normale Missionen und 3 legendäre Missionen. Der Pass enthält gute Belohnungen
+[CENTER_ALIGN]für deinen weiteren Fortschritt, beginne ihn also so schnell wie möglich.
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.1 Destroy
+[X_PADDING=20]Quest: Töte 100 En-Tai-Zerstörer
+[X_PADDING=20]Tipp: En-Tai-Zerstörer kannst du im Verwunschenen Wald und Düsterwald oder aus dem Metin der Baumwesen finden.
+[X_PADDING=20]Belohnung: 10x Verwandlungstasche (g)
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.2 Macht der Druiden
+[X_PADDING=20]Quest: Töte 300 En-Tai Druiden
+[X_PADDING=20]Tipp: En-Tai Druiden kannst du im Verwunschenen Wald und Düsterwald oder aus dem Metin der Baumwesen finden.
+[X_PADDING=20]Belohnung: 3x Wurzel der Baumwesen
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.3 Meerjungfrau
+[X_PADDING=20]Quest: Töte 250 Sirenen Königinnen
+[X_PADDING=20]Tipp: Sirenen Königinnen kannst du in der Schiffsverteidigung finden.
+[X_PADDING=20]Belohnung: 4x Elixier der Zeit (G)
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.4 Kappa
+[X_PADDING=20]Quest: Töte 500 Kappa Anführer
+[X_PADDING=20]Tipp: Kappa Anführer kannst du in der Schiffsverteidigung finden.
+[X_PADDING=20]Belohnung: 1x Blaue Drachenbohne
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.5 Mehr als ein Kopf?
+[X_PADDING=20]Quest: Töte 25 Hydra Köpfe
+[X_PADDING=20]Tipp: Hydra Köpfe kannst du in der Schiffsverteidigung finden.
+[X_PADDING=20]Belohnung: 1x Schatztruhe der Black Pearl
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.6 Jotuns Rache
+[X_PADDING=20]Quest: Töte 5x Jotun Thrym
+[X_PADDING=20]Tipp: Jotun Thrym kannst du im Jotun Dungeon (F6) oder aus der Boss Rufrolle (expert) finden.
+[X_PADDING=20]Reward: 1x Boss Roll (expert)
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.7 Kristalldrache
+[X_PADDING=20]Quest: Töte 5 König der Kristalldrachen
+[X_PADDING=20]Tipp: Den König der Kristalldrachen kannst du im Jotun Dungeon (F6) oder aus der Boss Rufrolle (expert) finden.
+[X_PADDING=20]Belohnung: 1x Legendärer Seelenstein
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.8 Schattenkönig
+[X_PADDING=20]Quest: Töte 3 En-Tai- Schattenkönnig
+[X_PADDING=20]Tipp: Den En-Tai-Schattenkönig kannst du im Düsterwald oder aus der Boss Rufrolle (expert) finden.
+[X_PADDING=20]Belohnung: 1x Seelenstein der Baumwesen
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.9 Lichtkönig
+[X_PADDING=20]Quest: Töte 3 En-Tai-Lichtkönig
+[X_PADDING=20]Tipp: Den En-Tai-Lichtkönig kannst du im Düsterwald oder aus der Boss Rufrolle (expert) finden.
+[X_PADDING=20]Belohnung: 3x Magischer Talisman
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1.10 Metinschauer
+[X_PADDING=20]Quest: Zerstöre 1000x Metin der Baumwesen
+[X_PADDING=20]Tipp: Metin der Baumwesen findest du im Verwunschenem Wald oder im Düsterwald
+[X_PADDING=20]Belohnung: 25x Erfahrungskugel
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]4. Battlepass (Dungeons)
+
+[CENTER_ALIGN]It includes 7 normal missions and 3 Legendary missions. The rewards are really rare for absolving 
+[CENTER_ALIGN]different dungeons.
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.1 Seele der Dryaden
+[X_PADDING=20]Description: Töte 25x Jotun Thrym
+[X_PADDING=20]Reward: 10x Dungeonsplitter (Jotun), 10x Elixier der Zeit (G)
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.2 Infizierte Pflanzen
+[X_PADDING=20]Description: Töte 25x Garden Tyrant
+[X_PADDING=20]Reward: 10x Dungeonsplitter (Infected Garden), 3x Animasphären Gutschein
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.3 Ein Drache mit Kristallen?
+[X_PADDING=20]Description: Töte 25x König der Kristalldrachen
+[X_PADDING=20]Reward: 10x Dungeonsplitter (Kristalldrache), 3x Legendärer Seelenstein
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.4 Baum oder Stein?
+[X_PADDING=20]Description: Töte 25x Thranduil
+[X_PADDING=20]Reward: 10x Dungeonsplitter (Thranduil), 25x Veredeltes verzaubern
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.5 Wie viele Köpfe?
+[X_PADDING=20]Description: Töte 25x Hydra
+[X_PADDING=20]Reward: 10x Dungeonsplitter (Hydra), 25x Gaya Gutschein (1)
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.6 Nemere
+[X_PADDING=20]Description: Töte 25x Nemere
+[X_PADDING=20]Reward: 10x Dungeonsplitter (Nemere), 1x Stein des Eises
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.7 Razador
+[X_PADDING=20]Description: Töte 25x Razador
+[X_PADDING=20]Reward: 10x Dungeonsplitter (Razador), 1x Stein der Lava
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.8 Missionen? Missionen!
+[X_PADDING=20]Description: Schließe 150 Missionsbücher ab
+[X_PADDING=20]Reward: 1x Kostümsplitter, 2x Stein der Hoffnung
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.9 Dungeonmeister
+[X_PADDING=20]Description: Schließe 150 Dungeons ab
+[X_PADDING=20]Reward: 1x Vollmondring, 2x Schriftrolle der Hoffnung
+
+[COLOR=ef4f00;FONT_SIZE=15]4.1.10 Bosse, überall Bosse!
+[X_PADDING=20]Description: Kill 150 Bosse über Lv. 100
+[X_PADDING=20]Reward: 1x Spitznamen Rolle (Pet), 1x Spitznamen Rolle (Mount)

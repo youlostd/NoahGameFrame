@@ -1,0 +1,25 @@
+quest pvmchest1 begin
+	state start begin
+		when 253735.use begin
+		
+			if pc.in_dungeon() then
+				say("Du kannst das Item hier nicht nutzen!")
+				return
+			end
+		
+			if pc.get_empty_inventory_count() < 45 then
+				chat(gameforge.anfangstruhe._10_chat)
+				return
+			else
+				pc.give_item2(8989)
+				pc.give_item2(72809)
+				pc.give_item2(18089)
+				pc.give_item2(8919)
+				pc.give_item2(85002)
+				pc.give_item2(56022)
+				pc.give_item2(55973)
+				pc.remove_item(253735, 1)
+			end
+		end
+	end
+end

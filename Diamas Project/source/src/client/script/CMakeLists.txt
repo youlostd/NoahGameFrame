@@ -1,0 +1,128 @@
+set(source_files
+	camModule.py
+	colorInfo.py
+	consoleModule.py
+	constInfo.py
+	debugInfo.py
+	dragon_soul_refine_settings.py
+	emoji_config.py
+	emotion.py
+	game.py
+	inGameWiki.py
+	inGameWikiUI.py
+	interfaceModule.py
+	introCreate.py
+	introEmpire.py
+	introLoading.py
+	introLogin.py
+	introLogo.py
+	introSelect.py
+	localeInfo.py
+	looptimer.py
+	mouseModule.py
+	musicInfo.py
+	networkModule.py
+	playerSettingModule.py
+	Prototype.py
+	serverCommandParser.py
+	serverInfo.py
+	stringCommander.py
+	switchbot.py
+	system.py
+	ui.py
+	ui12zi.py
+	uiAcce.py
+	uiAffectShower.py
+	uiAttachMetin.py
+	uiBattlePass.py
+	uiChangeLook.py
+	uiCharacter.py
+	uiCharacterDetails.py
+	uiChat.py
+	uiCommon.py
+	uiCube.py
+	uiDetachMetin.py
+	uidragonlairranking.py
+	uiDragonSoul.py
+	uiDungeonInfo.py
+	uiDungeonCooltime.py
+	uiEquipmentDialog.py
+	uiEx.py
+	uiEx2.py
+	uiExchange.py
+	uiFishingGame.py
+	uiGameButton.py
+	uiGemShop.py
+	uiGuild.py
+	uiGuildStorage.py
+	uiHelp.py
+	uiHuntingMissions.py
+	uiInfoChat.py
+	uiInventory.py
+	uiItemCombination.py
+	uiItemPreview.py
+	uiMaintenance.py
+	uiMapNameShower.py
+	uiMessagePopup.py
+	uiMessenger.py
+	uiMiniGame.py
+	uiMiniGameAttendance.py
+	uiMiniGameFishEvent.py
+	uiMiniGameRoulette.py
+	uiMiniGameRumi.py
+	uiMiniGameYutnori.py
+	uiMiniMap.py
+	uiMyShopDecoration.py
+	uiNation.py
+	uiofflineshop.py
+	uiOptionWindow.py
+	uiParty.py
+	uiPetInfo.py
+	uiPetSystem.py
+	uiPhaseCurtain.py
+	uiPickMoney.py
+	uiPlayerGauge.py
+	uiPointReset.py
+	uiPrivateShopBuilder.py
+	uiPrivateShopSearch.py
+	uiQuest.py
+	uiQuestTimer.py
+	uiRefine.py
+	uiRestart.py
+	uiSafebox.py
+	uiScriptLocale.py
+	uiSelectAttr.py
+	uiSelectItem.py
+	uiSelectItemEx.py
+	uiSelectLanguage.py
+	uiSelectMusic.py
+	uiSelectStorage.py
+	uiShop.py
+	uiSkillTree.py
+	uiSplitItem.py
+	uiSwitchChannel.py
+	uiSystem.py
+	uiTarget.py
+	uiTaskBar.py
+	uiTip.py
+	uiToolTip.py
+	uiUploadMark.py
+	uiWeb.py
+	uiWhisper.py
+	uiPlayTime.py
+	uiWorldBossInfo.py
+	uiWarBoard.py
+	ui_event.py
+	ui_modern_controls.py
+	utils.py
+)
+
+message(STATUS "Adding python scripts")
+
+metin2_add_python_library(
+	TARGET metin2client_script
+	SOURCES ${source_files}
+	INCLUDE_DIRECTORIES ${METIN2_ROOT}/src/client/lib
+)
+
+target_link_libraries(metin2client_script PRIVATE metin2client_lib metin2client_game devil_shared)

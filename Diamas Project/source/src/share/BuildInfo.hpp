@@ -1,0 +1,10 @@
+#ifndef METIN2_BUILDINFO_HPP
+#define METIN2_BUILDINFO_HPP
+
+#define METIN2_GIT_REV "10172e90dd75ea818c0aefce2167c4380cc88d60"
+#define METIN2_GIT_BRANCH "develop"
+#define METIN2_BUILD_USER "N2Build"
+#define METIN2_BUILD_MACHINE "N2hBuildMachine"
+#define METIN2_BUILD_NAME "rel"
+
+#endif

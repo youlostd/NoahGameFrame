@@ -1,0 +1,19 @@
+quest monarch_a begin
+	state start begin
+	-- Lern selber quest schreiben Tim
+	
+	when login with game.get_event_flag("monarch_a") > 0 begin
+		send_letter("Kaiserwahl")
+	end
+	
+	when info or button begin
+		say_important("Kaiserwahl")
+		say_item_vnum(11971)
+		say("Liebe Spieler,")
+		say("Ihr habt derzeit die Chance einen Kaiser für euer Reich zu ernennen!")
+		say("Alle nötigen Informationen könnt ihr im Wiki[ENTER] unseres Forums nachlesen!")
+		say("Viel Spaß dabei! Wünscht euch euer Rubinum-Team.")
+		say("")
+	end
+end
+end

@@ -1,0 +1,19 @@
+-- The item used with the use_to_item event needs to have the flags QUEST_USE and APPLICABLE to work
+define ITEM_VNUM 342111
+quest item_ds_adder begin
+	state start begin
+		when ITEM_VNUM.use_to_item begin
+			attrType, attrValue = item.get_attrib(0)
+			if attrType != apply.NORMAL_HIT_DAMAGE_BONUS then
+				return;
+			end
+			
+			if attrValue >= 70 then
+				return;
+			end
+			
+			item.set_attrib(0, apply.NORMAL_HIT_DAMAGE_BONUS, attrValue + 1)
+			pc.remove_item(ITEM_VNUM, 1)
+		end
+	end
+end

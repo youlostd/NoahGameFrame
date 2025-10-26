@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+setDungeonEndFlag ( ) 
+server_loop_timer ( "exit_dungeon" , 1 , get_server_timer_arg ( ) ) 
+end 

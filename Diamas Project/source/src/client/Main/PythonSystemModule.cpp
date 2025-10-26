@@ -1,0 +1,8 @@
+#include "StdAfx.h"
+#include "../EterLib/Engine.hpp"
+#include "PythonCharacterManager.h"
+#include "../EterLib/ResourceManager.h"
+#include "../GameLib/NpcManager.h"
+#include "../eterlib/Camera.h"
+#include "PythonBackground.h"
+#include "PythonBindings.h"

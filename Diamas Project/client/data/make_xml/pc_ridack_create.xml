@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/pc/ridack_work:d:/ymir work/pc/ridack_work/" ArchivePath="../bin/pack/pc_ridack.pak" XmlPath="xml/pc_ridack_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

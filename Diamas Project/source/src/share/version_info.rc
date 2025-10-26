@@ -1,0 +1,49 @@
+#include <winver.h>
+
+#include <Version.hpp>
+
+//
+// The following macros have to be set before including this file:
+// METIN2_COMPONENT_TYPE - Type of this PE (i.e. VFT_DLL or VFT_APP)
+// METIN2_COMPONENT_DESCRIPTION - Description of this PE
+// METIN2_COMPONENT_INTERNALNAME - Internal name of this PE
+// METIN2_COMPONENT_FILENAME - Expected filename of this PE
+//
+
+#ifndef DEBUG
+#define METIN2_DEBUG 0
+#else
+#define METIN2_DEBUG VS_FF_DEBUG
+#endif
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION METIN2_PRODUCTVERSION
+PRODUCTVERSION METIN2_PRODUCTVERSION
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS METIN2_DEBUG
+FILEOS VOS__WINDOWS32
+FILETYPE METIN2_COMPONENT_TYPE // VFT_DLL
+FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "Games"
+            VALUE "FileDescription", METIN2_COMPONENT_DESCRIPTION
+            VALUE "FileVersion", METIN2_PRODUCTVERSION_STR
+            VALUE "InternalName", METIN2_COMPONENT_INTERNALNAME
+            VALUE "LegalCopyright", "Copyright (C) 2009-2020"
+            VALUE "OriginalFilename", METIN2_COMPONENT_FILENAME
+            VALUE "ProductName", "GAME"
+            VALUE "ProductVersion", METIN2_PRODUCTVERSION_STR
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#undef METIN2_DEBUG

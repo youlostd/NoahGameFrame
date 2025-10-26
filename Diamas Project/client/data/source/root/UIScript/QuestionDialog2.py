@@ -1,0 +1,65 @@
+import uiScriptLocale
+
+window = {
+    "name": "QuestionDialog",
+    "style": (
+        "moveable",
+        "float",
+    ),
+    "x": SCREEN_WIDTH / 2 - 125,
+    "y": SCREEN_HEIGHT / 2 - 52,
+    "width": 280,
+    "height": 105,
+    "children": (
+        {
+            "name": "board",
+            "type": "board_with_titlebar",
+            "close_button": 0,
+            "x": 0,
+            "y": 0,
+            "width": 280,
+            "height": 105,
+            "title": "Dikkat!",
+            "children": (
+                {
+                    "name": "message1",
+                    "type": "text",
+                    "x": 0,
+                    "y": 35,
+                    "text": uiScriptLocale.MESSAGE,
+                    "horizontal_align": "center",
+                },
+                {
+                    "name": "message2",
+                    "type": "text",
+                    "x": 0,
+                    "y": 50,
+                    "text": uiScriptLocale.MESSAGE,
+                    "horizontal_align": "center",
+                },
+                {
+                    "name": "accept",
+                    "type": "button",
+                    "x": 80,
+                    "y": 70,
+                    "horizontal_align": "left",
+                    # "text" : uiScriptLocale.YES,
+                    "default_image": "d:/ymir work/ui/public/acceptbutton00.sub",
+                    "over_image": "d:/ymir work/ui/public/acceptbutton01.sub",
+                    "down_image": "d:/ymir work/ui/public/acceptbutton02.sub",
+                },
+                {
+                    "name": "cancel",
+                    "type": "button",
+                    "x": 80,
+                    "y": 70,
+                    "horizontal_align": "right",
+                    # "text" : uiScriptLocale.NO,
+                    "default_image": "d:/ymir work/ui/public/canclebutton00.sub",
+                    "over_image": "d:/ymir work/ui/public/canclebutton01.sub",
+                    "down_image": "d:/ymir work/ui/public/canclebutton02.sub",
+                },
+            ),
+        },
+    ),
+}

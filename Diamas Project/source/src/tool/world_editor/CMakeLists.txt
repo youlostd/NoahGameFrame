@@ -1,0 +1,170 @@
+include_directories(
+	${METIN2_ROOT}/src/client
+	${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+set(SOURCE_FILES
+	${METIN2_SHARE}/WinMsgBoxErrorHandlers.cpp
+
+	MainFrm.cpp
+	Type.cpp
+	Util.cpp
+	ViewportManager.cpp
+	WorldEditor.cpp
+	WorldEditorDoc.cpp
+	WorldEditorView.cpp
+	DataCtrl/ActorInstanceAccessor.cpp
+	DataCtrl/EffectAccessor.cpp
+	DataCtrl/MapAccessorArea.cpp
+	DataCtrl/MapAccessorOutdoor.cpp
+	DataCtrl/MapAccessorTerrain.cpp
+	DataCtrl/MapAccessorUndo.cpp
+	DataCtrl/MapManagerAccessor.cpp
+	DataCtrl/MapManagerUndo.cpp
+	DataCtrl/MiniMapRenderHelper.cpp
+	DataCtrl/ModelInstanceAccessor.cpp
+	DataCtrl/ObjectAnimationAccessor.cpp
+	DataCtrl/ObjectData.cpp
+	DataCtrl/ObjectDataFile.cpp
+	DataCtrl/ObjectDataLight.cpp
+	DataCtrl/ShadowRenderHelper.cpp
+	DataCtrl/UndoBuffer.cpp
+	Dialog/ColorAnimationDlg.cpp
+	Dialog/DlgGoto.cpp
+	Dialog/dlginitbasetexture.cpp
+	Dialog/DlgPerspective.cpp
+	Dialog/EffectBoundingSphere.cpp
+	Dialog/EffectParticleTimeEventGraph.cpp
+	Dialog/EffectTimeBar.cpp
+	Dialog/EffectTimeBarGraph.cpp
+	Dialog/EffectTranslationDialog.cpp
+	Dialog/FloatEditDialog.cpp
+	Dialog/GraphCtrl.cpp
+	Dialog/InputNumber.cpp
+	Dialog/MapArrangeHeightProgressDialog.cpp
+	Dialog/MapObjectDirectory.cpp
+	Dialog/MapObjectProperty.cpp
+	Dialog/MapObjectPropertyPageAmbience.cpp
+	Dialog/MapObjectPropertyPageBase.cpp
+	Dialog/MapObjectPropertyPageBuilding.cpp
+	Dialog/MapObjectPropertyPageDungeonBlock.cpp
+	Dialog/MapObjectPropertyPageEffect.cpp
+	Dialog/MapObjectPropertyPageTree.cpp
+	Dialog/MapPortalDialog.cpp
+	Dialog/NewMapDlg.cpp
+	Dialog/ObjectAnimationEvent.cpp
+	Dialog/ObjectAnimationEventAttack.cpp
+	Dialog/ObjectAnimationEventCharacterHide.cpp
+	Dialog/ObjectAnimationEventCharacterShow.cpp
+	Dialog/ObjectAnimationEventEffect.cpp
+	Dialog/ObjectAnimationEventEffectToTarget.cpp
+	Dialog/ObjectAnimationEventFly.cpp
+	Dialog/ObjectAnimationEventScreenFlashing.cpp
+	Dialog/ObjectAnimationEventScreenWaving.cpp
+	Dialog/ObjectAnimationEventSound.cpp
+	Dialog/ObjectAnimationEventWarp.cpp
+	DockingBar/EffectCtrlBar.cpp
+	DockingBar/EffectLightPage.cpp
+	DockingBar/EffectMeshPage.cpp
+	DockingBar/EffectParticlePage.cpp
+	DockingBar/EffectParticleTexturePreview.cpp
+	DockingBar/EffectTabPage.cpp
+	DockingBar/EffectTexturePage.cpp
+	DockingBar/EffectUI.cpp
+	DockingBar/FlyCtrlBar.cpp
+	DockingBar/FlyTabPage.cpp
+	DockingBar/MapAttributePage.cpp
+	DockingBar/MapCtrlBar.cpp
+	DockingBar/MapEnvironmentPage.cpp
+	DockingBar/MapFilePage.cpp
+	DockingBar/MapObjectPage.cpp
+	DockingBar/MapTabPage.cpp
+	DockingBar/MapTerrainPage.cpp
+	DockingBar/mapterraintexlistctrl.cpp
+	DockingBar/mapterraintexturepreview.cpp
+	DockingBar/MapTreeLoader.cpp
+	DockingBar/ObjectAnimationEventGraph.cpp
+	DockingBar/ObjectAnimationPage.cpp
+	DockingBar/ObjectCtrlBar.cpp
+	DockingBar/ObjectModelAttachEffectSubPage.cpp
+	DockingBar/ObjectModelAttachObjectSubPage.cpp
+	DockingBar/ObjectModelCollisionSubPage.cpp
+	DockingBar/ObjectModelPage.cpp
+	DockingBar/ObjectModelTypeCharacterSubPage.cpp
+	DockingBar/ObjectModelTypeEquipmentSubPage.cpp
+	DockingBar/ObjectTabPage.cpp
+	DockingBar/PageCtrl.cpp
+	DockingBar/SizeCBar.cpp
+	DockingBar/texturepropertydlg.cpp
+	Scene/PickingArrow.cpp
+	Scene/SceneBase.cpp
+	Scene/SceneBaseLocalCamera.cpp
+	Scene/SceneEffect.cpp
+	Scene/SceneEffectGizmo.cpp
+	Scene/SceneFly.cpp
+	Scene/SceneMap.cpp
+	Scene/SceneMapCursor.cpp
+	Scene/SceneObject.cpp
+	Scene/SceneObjectModelInstance.cpp
+	ToolBar/ToolBar256.cpp
+	ToolBar/ToolBarFile.cpp
+	UI/FOHyperLink.cpp
+	UI/GTColorDialogDlg.cpp
+	UI/GTColorSelectorWnd.cpp
+	UI/GTColorSliderWnd.cpp
+	UI/GTColorWellWnd.cpp
+	UI/GTDrawHelper.cpp
+	UI/SimpleUI.cpp
+	UI/XBrowseForFolder.cpp
+)
+
+metin2_add_msvc_precompiled_header("StdAfx.h" "StdAfx.cpp" SOURCE_FILES)
+
+add_executable(metin2tool_worldeditor WIN32 ${SOURCE_FILES} WorldEditor.rc)
+set_target_properties(metin2tool_worldeditor PROPERTIES OUTPUT_NAME "world_editor")
+add_definitions(-D_AFXDLL)
+set(CMAKE_MFC_FLAG 2)
+
+target_link_libraries(metin2tool_worldeditor
+	vstl
+	storm
+	metin2_base
+	metin2_lzo
+	metin2_pak
+
+	metin2client_base
+	metin2client_lib
+	metin2client_granny
+	metin2client_ui
+	metin2client_effects
+	metin2client_game
+	metin2client_miles
+	metin2client_terrain
+	metin2client_speedtree
+	metin2client_spherelib
+
+	version
+	imagehlp
+	winmm
+	imm32
+	dinput8
+	dxguid
+	ws2_32
+	Crypt32
+	mssmp3
+	mssdsp
+	mssdolby
+	mssds3d
+	msseax
+	legacy_stdio_definitions.lib
+	d3d9.lib
+	
+	lzo-pro
+	lz4::lz4
+	spdlog::spdlog
+	effolkronium_random
+	devil_static
+	ilu_shared
+	Microsoft.GSL::GSL
+	crashpad
+)

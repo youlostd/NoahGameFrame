@@ -1,0 +1,47 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/caveofcrystal.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 115
+*Eintrittsitem: Roter Höllenquarz
+[RIGHT_ALIGN]Roter Höllenquarz
+[IMG=d:/ymir work/ui/wiki/31006.tga; Y=5; X=490]
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Der Kristalldrache hat eine Abklingzeit von 180 Minuten.
+*Der Dungeon kann sowohl mit als auch ohne Gruppe betreten werden.
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Die Ebenen:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=120; CENTER_ALIGN]
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 1
+
+[X_PADDING=20]Besiege alle Monster und anschließend die Metinsteine.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 2
+
+[X_PADDING=20]Besiege alle Monster und erhalte einen Schlüsselstein, um das Siegel zu zerstören.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 3
+
+[X_PADDING=20]Besiege alle Monster auf dieser Ebene, anschließend den Kristalldrachen.
+[X_PADDING=20]Du hast nur 10 Minuten Zeit für diese Ebene.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 4
+
+[X_PADDING=20]Besiege alle Meinsteine und erhalte den richtigen Schlüssel.
+[X_PADDING=20]Ziehe den Roten Kristall auf die Säule.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 5
+
+[X_PADDING=20]Besiege alle Monster auf dieser Ebene, um den Boss zu erwecken und niederzustrecken.
+[X_PADDING=20]Du hast nur 10 Minuten Zeit für diese Ebene
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 6
+
+[X_PADDING=20]Besiege alle Monster auf dieser Ebene und anschließend den Kristall-Rex.
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 7
+
+[X_PADDING=20]Zerstöre alle Metinsteine und anschließend den König der Kristalldrachen.
+
+

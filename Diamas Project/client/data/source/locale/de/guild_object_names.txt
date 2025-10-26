@@ -1,0 +1,73 @@
+20139	Gildenbanner (lila)
+14401	Baum (2)
+20140	Gildenbanner (blau/grün)
+14202	Wandrückseite
+20141	Gildenbanner (rot/gold)
+14100	Haus (1)
+14101	Steinmauer (1-1)
+14102	Steinmauer (1-2)
+14103	Steinmauer (1-3)
+14104	Tor (1)
+14105	Mauer (1)
+14407	Baum (8)
+14309	Stein (10)
+14110	Haus (2)
+14111	Steinmauer (2-1)
+14112	Steinmauer (2-2)
+14113	Steinmauer (2-3)
+14114	Tor (2)
+14115	Mauer (2)
+14120	Haus (3)
+14121	Steinmauer (3-1)
+14122	Steinmauer (3-2)
+14123	Steinmauer (3-3)
+14124	Tor (3)
+14125	Mauer (3)
+14301	Stein (2)
+14200	Gildensymbol
+14302	Stein (3)
+14303	Stein (4)
+14013	Waffenschmiede
+14014	Rüstungsschmiede
+14015	Juwelier
+14400	Baum (1)
+14304	Stein (5)
+14402	Baum (3)
+14403	Baum (4)
+14404	Baum (5)
+14405	Baum (6)
+14406	Baum (7)
+14305	Stein (6)
+14408	Baum (9)
+14306	Stein (7)
+14033	Trainings-Center
+14307	Stein (8)
+14201	Wandvorderseite
+14308	Stein (9)
+14043	Diamantofen
+14300	Stein (1)
+14045	Fossilholzofen
+14046	Kupferofen
+14047	Silberofen
+14048	Goldofen
+14049	Jadeofen
+14050	Ebenholzofen
+14051	Perlenofen
+14052	Weißgoldofen
+14053	Kristallofen
+14054	Quarzofen
+14055	Himmelstränenofen
+14204	Wand rechts
+14061	Altar der Kraft
+14062	Altar der Kraft
+14063	Altar der Kraft
+14203	Wand links
+14071	Gildenlager
+14072	Gildenlager
+14073	Gildenlager
+14074	Seelenkristallofen
+14075	Rubinofen
+14076	Granatofen
+14077	Smaragdofen
+14078	Saphirofen
+14079	Turmalinofen

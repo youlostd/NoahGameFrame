@@ -1,0 +1,7 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/icon:icon/" ArchivePath="../bin/pack/icon.pak" XmlPath="xml/icon_create.xml">
+		<Ignore Pattern="*.psd" />
+		<Ignore Pattern="*.uas" />
+		<Ignore Pattern="*.pdn" />
+	</CreateEterPackXml>
+</ScriptFile>

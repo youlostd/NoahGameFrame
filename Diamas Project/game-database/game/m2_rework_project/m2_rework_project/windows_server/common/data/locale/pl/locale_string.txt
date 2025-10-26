@@ -1,0 +1,1187 @@
+%d 권을 더 읽어야 수련을 완료 할 수 있습니다.	Musisz przeczytać jeszcze %d Ksiąg Umiejętności aby ulepszyć tę Umiejętność. 
+%d 냥을 투자하셨습니다.	Zainwestowałeś %d Yang. 
+%d 냥을 획득하셨습니다.	Wygrałeś %d Yang. 
+%d 레벨이 되어야 다시 염색하실 수 있습니다.	Musisz osiągnąć poziom %d, aby móc ponownie zmienić kolor fryzury. 
+%d 분 %d 초 동안 채팅금지 상태입니다	Twoja blokada czatu trwa jeszcze %d minut %d sekund 
+%d 시간 %d 분 %d 초 동안 채팅금지 상태입니다	Twoja blokada czatu trwa jeszcze %d godzin %d minut %d sekund 
+%d 시간 %d 초 동안 채팅금지 상태입니다	Twoja blokada czatu trwa jeszcze %d godzin %d sekund 
+%d 종류 %d 마리 낚음	Złapałeś %d z %d . 
+%d 초 동안 채팅금지 상태입니다	Pozostało %d sekund do końca twojej blokady pisania 
+%d 초 후에 군주의 축복을 사용할 수 있습니다	Po %d sekundach możesz użyć Błogosławieństwa Imperatora. 
+%d 초간 쿨타임이 적용중입니다.	Regeneracja około %d sekund. 
+%d 초후 목적지로 이동됩니다.	Osiągniesz miejsce docelowe w %d sekund po wykonaniu. 
+%d%% 확률로 관통 공격	Szansa na Przeszywający Atak od %d%% 
+%d%% 확률로 적퇴치시 경험치 추가 상승	Jeśli wygrasz, Doświadczenie wzrośnie do %d%%. 
+%d%% 확률로 적퇴치시 돈 2배 드롭	Jeśli wygrasz, Yang wzrosną do %d%%. 
+%d%% 확률로 적퇴치시 생명력 회복	%d%% szansa na uzupełnienie Punktów Energii po zwycięstwie. 
+%d%% 확률로 적퇴치시 아이템 2배 드롭	Jeśli wygrasz, Ilość przejętych przedmiotów wzrośnie do %d%%. 
+%d%% 확률로 적퇴치시 정신력 회복	Jeśli wygrasz, Mana zostanie podniesiona do %d%% 
+%d%% 확률로 치명타 공격	Szansa na Krytyczny Atak %d%% 
+%d%% 확률로 타격시 상대 전신력 소모	Z szansą %d%% Many zostanie zabranej od wroga. 
+%d%% 확률로 피해시 정신력 회복	Absorbowanie Many z szansą %d%% . 
+%d분의 결제시간이 추가 되었습니다. (결제번호 %d)	Czas gry ( %d ) dodany do Twojego konta. (Numer płatności %d) 
+%d의 경험치를 획득했습니다.	Otrzymałeś %d Punktów Doświadczenia. 
+%d초 남았습니다.	%d sekund do wyłączenia. 
+%d초 만큼 충전되었습니다.	Naładowano %d sek. 
+%d초 후 게임이 셧다운 됩니다.	Gra zostanie zamknięta po %d sekundach. 
+%s : %d 마리	%s: %d 
+%s SP소모: %d	%s Użycie FP: %d 
+%s killcount %d mobkillcount %d bosskillcount %d 성지 진입수 %d	%s licznik zabójstw %d zabitych potworów %d zabitych bossów %d liczba świętej ziemi %d 
+%s 군주 후보에서 삭제하였습니다	Kandydatura %s na Imperatora została skasowana. 
+%s 군주로 입명 했습니다.	%s został nominowany na Imperatora. 
+%s 군주르 제거 하였습니다..	Imperator %s został odwołany. 
+%s 군주를 제거 할수 없습니다.	Imperator %s nie może zostać odwołany. 
+%s 길드가 %s 길드에 선전포고를 하였습니다!	Gildia %s wypowiedziała wojnę Gildii %s! 
+%s 길드가 %s 길드와의 전쟁에서 승리 했습니다.	Gildia %s wygrała wojnę przeciwko Gildii %s. 
+%s 길드가 %s 길드의 깃발을 빼앗았습니다!	Gildia %s przejęła flagę Gildii %s! 
+%s 길드와 %s 길드 사이의 전쟁이 무승부로 끝났습니다.	Wojna pomiędzy Gildiami %s oraz %s zakończona remisem. 
+%s 길드와 %s 길드 사이의 전쟁이 취소되었습니다.	Wojna pomiędzy Gildiami %s oraz %s została anulowana. 
+%s 길드와 %s 길드가 잠시 후 전쟁을 시작합니다!	Wojna pomiędzy Gildiami %s oraz %s rozpocznie się za kilka minut! 
+%s 길드와 %s 길드가 전쟁을 시작하였습니다!	Wojna pomiędzy Gildiami %s oraz %s rozpoczęta! 
+%s 길드의 %s이 %d%% 증가했습니다!	%s Gildii %s wzrósł do %d%%! 
+%s 길드의 %s이 정상으로 돌아왔습니다.	%s Gildii %s jest ponownie normalny. 
+%s 길드의 깃발을 %s 님이 획득하였습니다.	Flaga Gildii %s została ukradziona przez gracza %s. 
+%s 는 군주 후보가 아닙니다.	%s nie jest kandydatem na Imperatora. 
+%s 는 군주로 입명할수 없습니다 .	%s nie może być nominowany na Imperatora. 
+%s 님과의 교환이 성사 되었습니다.	Handel z %s zakończony pomyślnie. 
+%s 님에게 파티가입 신청을 했습니다.	Chcesz dołączyć się do Grupy %s. 
+%s 님으로 부터 친구 등록을 거부 당했습니다.	%s odrzucił zaproszenie. 
+%s 님은 %d 채널에 접속 중 입니다. (현재 채널: %d)	Gracz %s obecnie przebywa na kanale %d. (Twój Kanał: %d) 
+%s 님은 접속되 있지 않습니다.	%s nie jest online. 
+%s 님은 정상적으로 출마를 하였습니다.	%s graczy oddało już swój głos. 
+%s 님을 소환하였습니다.	Zrekrutowałeś %s graczy. 
+%s 님이 대련에서 승리하였습니다.	%s wygrał pojedynek. 
+%s 님이 승리하였습니다.	%s wygrał. 
+%s 블럭! (%d%%)	%s blokuje! (%d%%) 
+%s 아이템 을 획득하셨습니다	Wygrałeś %s przedmiotów. 
+%s 아이템이 필요합니다	Potrzebujesz %s. 
+%s 에게로 이동합니다	Teleport do %s. 
+%s 회피! (%d%%)	%s robi unik! (%d%%) 
+%s: 존재하지 않는 길드 입니다.	%s: Ta Gildia nie istnieje. 
+%s[%d]가 공격 위치: %d %d	%s[%d]s Pozycja ataku: %d %d 
+%s님과의 대결 시작!	Pojedynek z %s rozpoczęty! 
+%s님이 대결신청을 했습니다. 승낙하려면 대결동의를 하세요.	%s wyzwał Cię na pojedynek! 
+%s님이 주사위를 굴려 %d가 나왔습니다. (%d-%d)	%s rzuca kostką. Wyrzucona liczba to %d (%d-%d). 
+%s를 구웠습니다.	Pieczesz %s nad ogniem. 
+%s에 박혀있던 보석이 사라집니다.	Zniknął klejnot z %s. 
+%s에 전쟁의 시작을 알리는 봉화가 나타났습니다.	Ognisko zostało zapalone w %s by ostrzec o bitwie. 
+%s에게 대결신청을 했습니다.	Wyzwałeś %s na pojedynek. 
+%s에서 봉화를 둘러싸고 전투가 진행중입니다.	Są %s wojny, by zapalić ogniska. 
+%s에서 소켓 빠질때까지 남은 시간 %d	Pozostały czas do usunięcia Kieszeni %s: %d 
+%s의 %s이 %d%% 증가했습니다!	%s: %s wzrósł o %d%%! 
+%s의 %s이 정상으로 돌아왔습니다.	%s %s jest ponownie normalny. 
+%s의 군주가 %s 님으로 교체되었습니다.	Imperator z %s został zmieniony na %s. 
+%s이 모든 봉화를 파괴하였습니다.	%s zniszczył ognisko. 
+%s이 봉화를 파괴했습니다.	%s zniszczył ognisko. 
+%s이 수성에 성공했습니다.	%s był w stanie obronić pomyślnie. 
+%s이 수성에 실패하여 전쟁에 패배하였습니다..	%s przegrali wojnę, ponieważ nie byli w stanie obronić zamku. 
+%s이 필요합니다.	Aby to zrobić potrzebujesz: %s 
+(%s) 길드가 생성되었습니다. [임시]	(%s) Gildia utworzona. [Tymczasowo] 
+(만료일 : %d년 %d월 %d일)	(Procedura: %d y- %d m - %d d) 
+. 너희가 성지의 수호자를 잡게 된다면 너희는 성지의 주인이 된다.[ENTER][ENTER] 	Jeśli pokonasz Strażnika Świętej Ziemi, staniesz się jego właścicielem. 
+1-50 사이의 수치를 선택해주세요	Wybierz liczbę pomiędzy 1 a 50. 
+10초뒤 다음 판을 시작합니다.	Następna runda rozpoczyna się za 10 sekund. 
+10초뒤 대련이 시작됩니다.	Walka rozpoczyna się za 10 sekund. 
+10초뒤 마을로 되돌아갑니다.	Zostaniesz przeniesiony do Miasta za 10 sekund. 
+10초뒤 마을로 이동합니다.	Za 10 sekund zostaniesz przeniesiony do miasta. 
+10초뒤 판정하겠습니다.	Wyniki zostaną ukazane za 10 sekund. 
+10초후 자동으로 접속이 종료되며,	Zostaniesz rozłączony za 10 sekund. 
+1분 이내에 아무도 접속하지 않으면 길드전이 자동 종료됩니다.	Jeśli nie ma przeciwników, wojna Gildii zakończy się automatycznie. 
+20억 냥을 초과하여 상점을 열수가 없습니다	Nie możesz otworzyć Magazynu, ponieważ masz przy sobie więcej niż 2 miliardy Yang. 
+20억냥이 초과하여 물품을 팔수 없습니다.	Masz przy sobie więcej niż 2 miliardy Yang, nie możesz handlować. 
+30분이 경과했습니다.. 봉화가 사라집니다.	30 minut minęło. Ogniska zgasły. 
+5분 후에 정상적으로 접속하실수 있습니다.	Możesz połączyć się ponownie za 5 minut. 
+5초 뒤 틀리신 분들을 바깥으로 이동 시키겠습니다.	Po 5 sekundach, uczestnicy, którzy udzielili złej odpowiedzi zostaną wykluczeni. 
+<길드> %d 스킬을 사용함 (%d, %d) to %u	<Gildia> %d umiejętność użyta (%d, %d) na %u. 
+<길드> %s 길드가 길드전을 거부하였습니다.	<Gildia> %s odrzuciła wojnę gildii. 
+<길드> %u의 경험치를 투자하였습니다.	<Gildia> Wykorzystane Punkty Doświadczenia: %u. 
+<길드> %u의 용신력을 회복하였습니다.	<Gildia> Zregenerowano %u Ducha Smoka. 
+<길드> [%s] 길드가 생성되었습니다.	<Gildia> [%s] Gildia została stworzona. 
+<길드> 가지고 있는 돈이 부족합니다.	<Gildia> Nie masz wystarczającej liczby Yang. 
+<길드> 경험치 투자에 실패하였습니다.	<Gildia> Przekazanie Punktów Doświadczenia nieudane. 
+<길드> 공지글을 작성할 권한이 없습니다.	<Gildia> Nie możesz umieszczać ogłoszeń. 
+<길드> 그러한 사람을 찾을 수 없습니다.	<Gildia> Poszukiwana osoba nie została odnaleziona. 
+<길드> 그런 길드가 없습니다.	<Gildia> Gildia o tej nazwie nie istnieje. 
+<길드> 길드 금고에선 길드장만 출금할 수 있습니다.	<Gildia> Tylko Lider Gildii może pobrać Yang. 
+<길드> 길드 생성에 실패하였습니다.	<Gildia> Zakładanie gildii nieudane. 
+<길드> 길드 스킬 레벨을 변경할 권한이 없습니다.	<Gildia> Nie możesz zmienić poziomu umiejętności gildii. 
+<길드> 길드 스킬은 길드전 중에만 사용할 수 있습니다.	<Gildia> Ta umiejętność gildii może być użyta tylko podczas wojny. 
+<길드> 길드 이름이 적합하지 않습니다.	<Gildia> Nazwa gildii jest niepoprawna. 
+<길드> 길드가 이미 최고 레벨입니다.	<Gildia> Twoja Gildia osiągnęła już maksymalny poziom. 
+<길드> 길드를 생성할 수 없습니다.	<Gildia> Nie możesz stworzyć gildii. 
+<길드> 길드를 해산한 지 %d일이 지나지 않은 사람은 길드에 초대할 수 없습니다.	<Gildia> Możesz zapraszać członków dopiero po %d dniach od reorganizacji. 
+<길드> 길드에 속해있지 않습니다.	<Gildia> To nie należy do gildii. 
+<길드> 길드원 %s 님을 강제 탈퇴 시켰습니다.	<Gildia> Członek Gildii %s został usunięty. 
+<길드> 길드원을 강제 탈퇴 시켰습니다.	<Gildia> Członek Gildii został usunięty. 
+<길드> 길드원을 강제 탈퇴 시킬 권한이 없습니다.	<Gildia> Nie możesz wyrzucać członków gildii. 
+<길드> 길드원을 초대할 권한이 없습니다.	<Gildia> Nie możesz zapraszać osób do Gildii. 
+<길드> 길드장으로 직위를 변경할 수 없습니다.	<Gildia> Nie możesz sam siebie mianować mistrzem gildii. 
+<길드> 길드장의 권한은 변경할 수 없습니다.	<Gildia> Prawa Lidera Gildii nie mogą zostać zmienione. 
+<길드> 길드장의 직위 이름은 변경할 수 없습니다.	<Gildia> Moce Mistrza Gildii nie mogą być zmienione. 
+<길드> 길드장의 직위는 변경할 수 없습니다.	<Gildia> Ranga Mistrza Gildii nie może być zmieniona. 
+<길드> 길드전에 대한 권한이 없습니다.	<Gildia> Nikt nie ma uprawnień do wojen gildii. 
+<길드> 길드전을 하기 위해선 최소한 %d명이 있어야 합니다.	<Gildia> Przynajmniej %d graczy musi uczestniczyć w wojnie gildii. 
+<길드> 길드전이 취소 되었습니다.	<Gildia> Wojna gildii została anulowana. 
+<길드> 길드전중에는 사냥에 따른 이익이 없습니다.	<Gildia> Podczas wojny gildii nie otrzymuje się Punktów Doświadczenia z polowania. 
+<길드> 다른 제국 사람을 길드에 초대할 수 없습니다.	<Gildia> Nie możesz zapraszać do Gildii graczy z innych Królestw. 
+<길드> 더이상 장수를 지정할 수 없습니다.	<Gildia> Nie możesz wybrać więcej Liderów. 
+<길드> 돈이 부족합니다.	<Gildia> Niewystarczająca ilość Yang. 
+<길드> 래더 점수가 %d 점이 되었습니다	<Gildia> Ranga osiągnęła %d Punktów. 
+<길드> 레더 점수가 모자라서 길드전을 할 수 없습니다.	<Gildia> Za niska ranga aby uczestniczyć w wojnie gildii. 
+<길드> 삭제할 수 없는 글입니다.	<Gildia> Wiadomość nie może zostać usunięta. 
+<길드> 상대가 %d 채널에 있습니다. (현재 채널 %d)	<Gildia> Gracz jest na kanale %d (aktualny kanał: %d). 
+<길드> 상대가 온라인 상태가 아닙니다.	<Gildia> Gracz nie jest online. 
+<길드> 상대방 길드가 이미 전쟁 중 입니다.	<Gildia> Ta gildia jest już zaangażowana w inną wojnę. 
+<길드> 상대방 길드의 길드원 수가 부족하여 길드전을 할 수 없습니다.	<Gildia> Gildia nie posiada wystarczająco dużo członków, aby uczestniczyć w wojnie gildii. 
+<길드> 상대방 길드의 길드장이 접속중이 아닙니다.	<Gildia> Lider Gildii przeciwnika jest offline. 
+<길드> 상대방 길드의 레더 점수가 모자라서 길드전을 할 수 없습니다.	<Gildia> Ta gildia nie posiada wystarczającej liczby punktów rankingu, aby uczestniczyć w wojnie gildii. 
+<길드> 상대방 길드의 전비가 부족하여 길드전을 할 수 없습니다.	<Gildia> Gildia nie posiada wystarczającej ilości Yang by uczestniczyć w wojnie gildii. 
+<길드> 상대방이 같은 길드가 아닙니다.	<Gildia> Ta osoba nie jest w tej samej gildii. 
+<길드> 상대방이 길드 초대 거부 상태입니다.	<Gildia> Gracz odrzucił zaproszenie do Gildii. 
+<길드> 상대방이 이미 다른 길드에 속해있습니다.	<Gildia> Ten gracz należy już do innej Gildii. 
+<길드> 상대방이 초대 신청을 받을 수 없는 상태입니다.	<Gildia> Ta postać nie może otrzymać twojego zaproszenia. 
+<길드> 용신력 회복에 실패하였습니다.	<Gildia> Duch Smoka nie został zregenerowany. 
+<길드> 용신력이 부족합니다. (%d, %d)	<Gildia> Za mało Ducha Smoka. (%d, %d) 
+<길드> 이미 같은 이름의 길드가 있습니다.	<Gildia> Ta nazwa jest już zajęta. 
+<길드> 이미 다른 전쟁에 참전 중 입니다.	<Gildia> Twoja gildia w tym momencie jest zaangażowana w inną wojnę. 
+<길드> 이미 전쟁 중인 길드입니다.	<Gildia> Ta gildia aktualnie uczestniczy w innej wojnie. 
+<길드> 이미 전쟁이 예약된 길드 입니다.	<Gildia> Ta gildia jest już zapisana do innej wojny gildii. 
+<길드> 잘못된 금액입니다.	<Gildia> To nie jest poprawna ilość Yang. 
+<길드> 잠시후에 이용해주십시오	<Gildia> Spróbuj ponownie później. 
+<길드> 잠시후에 이용해주십시오.	<Gildia> Spróbuj ponownie później. 
+<길드> 장군을 지정할 권한이 없습니다.	<Gildia> Nie możesz wybrać Lidera. 
+<길드> 적합하지 않은 직위 이름 입니다.	<Gildia> Ranga jest niepoprawna. 
+<길드> 전비가 부족하여 길드전을 할 수 없습니다.	<Gildia> Nie ma wystarczającej ilości Yang, aby uczestniczyć w wojnie gildii. 
+<길드> 제공하고자 하는 경험치가 남은 경험치보다 많습니다.	<Gildia> Ilość przekazanego doświadczenie jest prawdopodobnie za duża. 
+<길드> 직위 권한을 변경할 권한이 없습니다.	<Gildia> Nie możesz zmienić swojej pozycji. 
+<길드> 직위 이름을 변경할 권한이 없습니다.	<Gildia> Nie możesz zmienić swojej rangi. 
+<길드> 직위를 변경할 권한이 없습니다.	<Gildia> Nie możesz zmieniać pozycji. 
+<길드> 최대 길드원 수를 초과했습니다.	<Gildia> Pojemność Gildii osiągnęła górny limit. 
+<길드> 쿨타임이 끝나지 않아 길드 스킬을 사용할 수 없습니다.	<Gildia> Jeszcze nie możesz używać umiejętności gildii. 
+<길드> 탈퇴한 후 %d일 이내에는 길드를 만들 수 없습니다.	<Gildia> Po opuszczeniu gildii, nie możesz stworzyć nowej przez %d dni. 
+<길드> 탈퇴한 후 %d일이 지나지 않은 사람은 길드에 초대할 수 없습니다.	<Gildia> Gracz może zostać zaproszony ponownie za %d dni. 
+<길드> 해산한 후 %d일 이내에는 길드를 만들 수 없습니다.	<Gildia> Po usunięciu gildii, nie możesz stworzyć nowej przez %d dni. 
+<길드> 현재 길드가 전쟁 중 입니다.	<Gildia> Obecnie ta Gildia uczestniczy już w walce. 
+<메신져> %s 님을 메신저에서 삭제하였습니다.	<Przyjaciele> Usunąłeś %s z listy. 
+<메신져> %s 님을 친구로 추가하였습니다.	<Przyjaciele> Dodałeś %s do Listy Przyjaciół. 
+<메신져> 운영자는 메신져에 추가할 수 없습니다.	<Przyjaciele> Nie możesz dodać GM do Listy Przyjaciół. 
+<창고> 거리가 멀어서 창고를 열 수 없습니다.	<Magazyn> Odległość pomiędzy Tobą a magazynem jest zbyt duża, aby go otworzyć. 
+<창고> 기존 비밀번호가 틀렸습니다.	<Magazyn> Wprowadzono nieprawidłowe hasło. 
+<창고> 옮길 수 없는 위치입니다.	<Magazyn> Ruch niemożliwy. 
+<창고> 이 아이템은 넣을 수 없습니다.	<Magazyn> Ten przedmiot nie może być przechowany. 
+<창고> 잘못된 암호를 입력하셨습니다.	<Magazyn> Podałeś złe hasło. 
+<창고> 창고 비밀번호가 변경되었습니다.	<Magazyn> Hasło do magazynu zostało zmienione. 
+<창고> 창고가 이미 열려있습니다.	<Magazyn> Magazyn jest już otwarty. 
+<창고> 창고로 옮길 수 없는 아이템 입니다.	<Magazyn> Nie możesz przenieść tego przedmiotu do swojego Magazynu. 
+<창고> 창고를 닫은지 10초 안에는 열 수 없습니다.	<Magazyn> Musisz odczekać 10 sekund zanim otworzysz Magazyn ponownie. 
+<퀘스트> 이전에 같은 보상을 받은 적이 있어 다시 받지 않습니다.	<Misja> Odebrałeś już swoją nagrodę. 
+<파티> %s 님이 파티 거부 상태입니다.	<Grupa> %s odrzucił zaproszenie do twojej Grupy. 
+<파티> %s님의 파티에 참가하셨습니다.	<Grupa> %s dołączył do twojej Grupy. 
+<파티> %s님이 파티 초대를 거절하셨습니다.	<Grupa> %s odrzucił twoje zaproszenie. 
+<파티> %s님이 파티에 참가하셨습니다.	<Grupa> %s dołączył do Grupy. 
+<파티> -30 ~ +30 레벨 이내의 상대방만 초대할 수 있습니다.	<Grupa> Tylko gracze z różnicą poziomu -30 do +30 mogą zostać zaproszeni. 
+<파티> 관전 모드에선 파티 초대를 할 수 없습니다.	<Grupa> Nie możesz zaprosić innych graczy, gdy jesteś w Trybie Obserwatora. 
+<파티> 다른 제국과 파티를 이룰 수 없습니다.	<Grupa> Nie możesz utworzyć Grupy z graczami z innych Królestw. 
+<파티> 다른 파티원을 탈퇴시킬 수 없습니다.	<Grupa> Nie możesz wyrzucać członków grupy. 
+<파티> 대상을 소환할 수 없습니다.	<Grupa> Nie możesz przenieść celu. 
+<파티> 더 이상 파티원을 초대할 수 없습니다.	<Grupa> Nie możesz zaprosić więcej graczy do swojej Grupy. 
+<파티> 던전 안에서는 파티 초대를 할 수 없습니다.	<Grupa> Nie możesz zaprosić innych graczy, gdy jesteś w lochu. 
+<파티> 던전 안에서는 파티 초대에 응할 수 없습니다.	<Grupa> Nie możesz przyjąć zaproszenia będąc w lochu. 
+<파티> 던전 안에서는 파티에서 나갈 수 없습니다.	<Grupa> Nie możesz opuścić Grupy podczas przebywania w Lochu. 
+<파티> 던전 안에서는 파티에서 추방할 수 없습니다.	<Grupa> Nie możesz wyrzucić gracza jeśli jesteś w lochu. 
+<파티> 던젼내에서는 파티를 나갈 수 없습니다.	<Grupa> Nie możesz opuścić grupy w lochach. 
+<파티> 던젼내에서는 파티원을 추방할 수 없습니다.	<Grupa> Nie możesz wyrzucić gracza jeśli jesteś w lochu. 
+<파티> 리더만 변경할 수 있습니다.	<Grupa> Tylko lider grupy może to zmienić. 
+<파티> 상태를 변경하려는 사람이 파티원이 아닙니다.	<Grupa> Wskazany cel nie jest członkiem twojej grupy. 
+<파티> 서버 문제로 파티 관련 처리를 할 수 없습니다.	<Grupa> Serwer nie może wykonać żądania Grupy. 
+<파티> 소환하려는 대상을 찾을 수 없습니다.	<Grupy> Cel nie został znaleziony. 
+<파티> 이미 %s님은 파티에 속해 있습니다.	<Grupa> %s jest już w Grupie. 
+<파티> 파티 기술은 파티장만 사용할 수 있습니다.	<Grupa> Tylko lider grupy może używać zdolności grupy. 
+<파티> 파티 초대에 응할 수 없습니다.	<Grupa> Nie możesz przyjąć zaproszenia. 
+<파티> 파티가 해산 되었습니다.	<Grupa> Grupa została skasowana. 
+<파티> 파티내 최고 레벨 보다 30레벨이 낮아 초대할 수 없습니다.	<Grupa> Nie możesz zaprosić tego gracza, jego poziom jest za niski. 
+<파티> 파티내 최저 레벨 보다 30레벨이 높아 초대할 수 없습니다.	<Grupa> Nie możesz zaprosić tego gracza, jego poziom jest za wysoki. 
+<파티> 파티에서 나가셨습니다.	<Grupa> Opuściłeś grupę. 
+<파티> 파티에서 추방당하셨습니다.	<Grupa> Zostałeś usunięty z Grupy. 
+<파티> 파티요청을 한 캐릭터를 찾을수 없습니다.	<Grupa> Zaproszony gracz jest offline. 
+<파티> 파티원을 초대할 수 있는 권한이 없습니다.	<Grupa> Nie masz prawa, aby zapraszać kogokolwiek. 
+<파티> 파티원을 현재 위치로 소환할 수 없습니다.	<Grupa> Nie możesz teleportować członków grupy na swoją aktualną pozycję. 
+<파티> 파티의 인원제한이 초과하여 파티에 참가할 수 없습니다.	<Grupa> Nie możesz dołączyć do tej Grupy, ponieważ ma ona już maksymalną ilość członków. 
+O 입니다	Tak (O) 
+OX 문제 스크립트 로딩 성공	OX Quiz został załadowany. 
+OX 문제 스크립트 로딩 실패	Pytanie OX nie zostało załadowane. 
+OX 상품을 지급하였습니다. ID: %d 수량: %d	Nagroda za OX została wydana. ID: %d Ilość: %d 
+OX 이벤트가 시작되었습니다.	Konkurs OX rozpoczęty. 
+OX 이벤트가 이미 진행중입니다(flag: %d)	Wydarzenie już trwa. (Flag: %d) 
+OX 이벤트를 마치겟습니다.	Event OX zostanie zakończony. 
+OX이벤트 맵을 먼저 닫아 주세요.(Flag: %d)	Najpierw zamknij Mapę OX. (Flag: %d) 
+OX이벤트가 닫히지 않았거나, 퀴즈 출제중입니다.(flag: %d)	Konkurs OX nie został jeszcze zakończony, wystąpiły błędy. (Flag: %d) 
+OX이벤트가 열려 있지 않거나 문제 출제중입니다.(Flag: %d)	Event OX został zakończony. Nie wystąpiły żadne błędy. (Flag: %d) 
+OX이벤트를 강제 종료 시킵니다.	Konkurs OX zakończony. 
+OX이벤트의 나머지 인원 기록을 실패했습니다.	OX Inni uczestnicy Wydarzenia nie są na liście. 
+OX이벤트의 나머지 인원을 기록하였습니다.	OX Inni uczestnicy Wydarzenia są na liście. 
+TEST : 현재 국고 : %d	TEST: W skarbcu twojego królestwa są: %d 
+TEST : 황금두꺼비가 국고로 환원되었습니다.	TEST: Złota sztabka została wpłacona do skarbca twojego królestwa. 
+TEST : 황금두꺼비를 국고로 환원할 수 없습니다.	TEST: Nie możesz wpłacić złotej sztabki do skarbca twojego królestwa. 
+X 입니다	Nie (X) 
+[%s군주] : %s	[Monarcha %s] : %s 
+[%s군주] : %s  보유금액 %lld	[Monarcha %s] : %s Posiadanie Yang %lld 
+[TEST_ONLY]현재 국고 : %d	[TEST_ONLY] Podatek: %d 
+가만히 있을 때만 착용할 수 있습니다.	Musisz stać w miejscu, aby wyposażyć się w ten przedmiot. 
+각제국 진행 정보	Informacje dla Królestw 
+감지기를 작용하였으나 감지되는 영석이 없습니다.	Obecnie na tej mapie nie ma żadnego kamienia Metin. 
+갑옷을 벗어야 개인 상점을 열 수 있습니다.	Możesz otworzyć Sklep tylko gdy zdejmiesz Zbroję. 
+값을 잘못 입력하였습니다.	Podałeś złą wartość. 
+강화에 성공했습니다.	Wzmocnienie powiodło się. 
+강화에 실패했습니다.	Wzmocnienie nie powiodło się. 
+강화에 필요한 재료가 아닙니다.	Nie posiadasz odpowiednich materiałów do wzmocnienia Smoczego Kamienia. 
+강화창을 연 상태에서는 아이템을 옮길 수 없습니다.	Nie możesz przesuwać tego przedmiotu w obrębie okienka uszlachetniania. 
+강화할 수 없는 용혼석입니다.	Tego Smoczego Kamienia nie można użyć w celu wzmocnienia. 
+같은 개량서를 합칠 수는 없습니다.	Nie możesz połączyć identycznych zwojów ulepszających. 
+같은 종류의 메틴석은 여러개 부착할 수 없습니다.	Nie możesz umieścić kilku Kamieni Duszy tego samego rodzaju. 
+같은 종류의 유니크 아이템 두 개를 동시에 장착할 수 없습니다.	Nie możesz założyć tego przedmiotu dwukrotnie. 
+같이 지을 수 없는 종류의 건물이 지어져 있습니다.	Ten typ budynku może być zbudowany tylko raz. 
+개량된 후 아이템의 레벨 제한보다 레벨이 낮습니다.	Twój poziom jest niższy niż poziom przedmiotu po ulepszeniu. 
+개량을 하기 위한 돈이 부족합니다.	Nie posiadasz wystarczająco Yang. 
+개량을 하기 위한 재료가 부족합니다.	Masz za mało materiału na ulepszenie. 
+개인상점 사용후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	Nie możesz użyć Zwoju Powrotu przez %d sek. po otwarciu Magazynu. 
+거래 후 %d초 이내에 창고를 열수 없습니다.	Po dokonaniu handlu musisz odczekać %d sekund, zanim będziesz mógł otworzyć Magazyn. 
+거래 후 %d초 이내에는 귀환부,귀환기억부등을 사용할 수 없습니다.	Po dokonaniu handlu nie możesz skorzystać ze Zwoju Powrotu przez %d sek. 
+거래 후 %d초 이내에는 다른지역으로 이동 할 수 없습니다.	Nie możesz udać się w inne miejsce przez %d sekund po zakończeniu handlu. 
+거래창,창고 등을 연 상태에서는 귀환부,귀환기억부 를 사용할수 없습니다.	Nie możesz skorzystać ze Zwoju Powrotu gdy masz otwarte inne okno. 
+거래창,창고 등을 연 상태에서는 다른곳으로 이동,종료 할수 없습니다	Nie możesz udać się w inne miejsce przez chwilę po zakończeniu handlu. 
+거래창,창고 등을 연 상태에서는 보따리,비단보따리를 사용할수 없습니다.	Nie możesz otworzyć Magazynu, jeśli otwarte jest inne okno. 
+거짓	FALSE 
+건물 비용 정보 이상으로 건설 작업에 실패했습니다.	Budowa zakończona niepowodzeniem z powodu błędnej wyceny. 
+건물을 지을 수 없는 위치입니다.	Nie możesz zbudować tego budynku w tym miejscu. 
+건설 비용이 부족합니다.	Nie masz wystarczającej ilości Yang, aby zbudować ten Budynek. 
+건설에 필요한 건물이 지어져 있지 않습니다.	Musisz najpierw zbudować Główny Budynek. 
+게임을 종료 합니다. 잠시만 기다리세요.	Zostaniesz rozłączony z serwerem. Proszę czekać. 
+결재기간이 %d분 후 만료 됩니다.	Twój czas gry dobiega końca za %d minut. 
+결혼 상태가 아니면 결혼반지를 사용할 수 없습니다.	Nie możesz nosić obrączki jeśli nie jesteś w związku małżeńskim. 
+결혼식이 종료됩니다.	Ślub wkrótce dobiegnie końca. 
+결혼하지 않은 상태에서 예물을 착용할 수 없습니다.	Nie możesz użyć tego przedmiotu, ponieważ nie jesteś w związku małżeńskim. 
+경험치 %d%%	Doświadczenie %d%% 
+경험치 %d%% 추가 획득 이벤트 중입니다.	Bonus dodatkowego doświadczenia wynosi obecnie %d%%. 
+경험치 배율	Procent Doświadczenia 
+경험치가 부족하여 책을 읽을 수 없습니다.	Nie możesz tego przeczytać, ponieważ brakuje Ci doświadczenia. 
+고기가 미끼만 빼먹고 잽싸게 도망칩니다.	Straciłeś swoją przynętę. 
+고기가 잡혔습니다! (%s)	Złapałeś rybę! (%s) 
+고기가 흔적도 없이 사라집니다.	Ryba zniknęła w głębinach wody. 
+곡괭이 수련도가 최대(%d)가 되었습니다.	Twoje Punkty Wydobycia osiągnęły limit. (%d) 
+곡괭이가 최대 수련도에 도달하였습니다.	Twoje punkty Wydobycia osiągnęły najwyższy poziom. 
+곡괭이를 들고 있지 않아서 캘 수 없습니다.	Nie możesz wydobywać bez kilofu. 
+곡괭이를 장착하세요.	Do wydobywania surowców potrzebny jest Kilof! 
+곡괭이의 수련도가 증가하였습니다! (%d/%d)	Twoje Punkty Wydobycia wzrosły! (%d/%d) 
+골드 드롭률 %d%% 추가 이벤트 중입니다.	Ilość wypadających Yang jest zwiększona o: %d%% 
+공격력 +%d	Siła Ataku +%d 
+공격력 +%d%%	Atak +%d%% 
+공격속도 +%d	Szybkość Ataku +%d 
+공부하기 싫어지네.	Nie chcę już się więcej uczyć. 
+관전 모드로 길드전에 참가하셨습니다.	Możesz uczestniczyć w Bitwie Gildii jako Obserwator. 
+관전 상태에서는 교환을 할 수 없습니다.	Nie możesz handlować podczas obserwacji. 
+관통 추가 데미지 %d	Dodatkowe obrażenia od pchnięcia %d 
+국고에 돈이 부족하거나 돈을 가져올수 없는 상황입니다	Nie masz wystarczającej ilości Yang. 
+국고에 돈이 부족합니다. 현재 : %u 필요금액 : %u	Brakuje podatków. Aktualny kapitał : %u Brakujący kapitał : %u 
+국고에 자금이 모자랍니다 국고 : %d	Za mały przychód z podatków : %d 
+군주 정보	Informacje Imperatora 
+군주가 내린 축복으로 모든 에너지가 가득 채워집니다	Energia została odbita z powodu Błogosławieństwa Imperatora. 
+군주만이 사용 가능한 기능입니다	Ta czynność może być użyta tylko przez Imperatora. 
+군주만이 사용가능 한 기능입니다	Tylko Imperator może tego użyć. 
+군주만이 사용할수 있는 기능입니다	Tylko Imperator może tego użyć 
+군주의 금강권 영향으로 이지역 %s 유저는 3분간 10 %% 의 방어력이  증가됩니다	Dzięki Imperatorowi Geum-Gang-Gwon, gracz %s otrzymuje 10%% więcej obrony przez 3 minuty. 
+군주의 사자후 영향으로 이지역 %s 유저는 3분간 10 %% 의 공격력이  증가됩니다	Dzięki Imperatorowi Sa-Za-Hu, gracz %s otrzymuje 10%% więcej siły ataku przez 3 minuty. 
+군주의 자격을 가지고 있지 않습니다	Nie nadajesz się na Imperatora. 
+군주의 축복으로 이지역 %s 유저는 HP,SP가 모두 채워집니다.	Gdy Błogosławieństwo Imperatora jest użyte, przywraca ponownie %s punktów PŻ i PE. 
+군주의 축복을 사용하였습니다.	Błogosławieństwo Imperatora jest aktywne. 
+군직이 맞지않아 이 아이템을 사용할 수 없습니다.	Nie możesz użyć tego przedmiotu, ponieważ nie masz wszystkich kwalifikacji. 
+귀환에 실패하였습니다.	Teleportacja niepomyślna. 
+그것으로 수련은 끝난 거야!	Trening zakończony. 
+그래, 이 느낌이야. 체내에 기가 아주 충만해.	Tak, to uczucie jest świetne. Moje ciało jest pełne Chi. 
+그래, 천천히. 좀더 천천히, 그러나 막힘 없이 빠르게!	Powoli, ale spokojnie.... Bez zatrzymywania. 
+그랜드 마스터 수련을 할 수 없는 스킬입니다.	Nie możesz szkolić się w tej umiejętności do Wielkiego Mistrza. 
+그런 명령어는 없습니다	Ta komenda nie istnieje. 
+그런 사람이 없습니다.	Ta osoba nie istnieje. 
+그런 이름 또는 번호의 길드가 없습니다.	Gildia o takiej nazwie lub liczbie nie istnieje. 
+근력 +%d	Siła +%d 
+근력이 낮아 착용할 수 없습니다.	Nie jesteś wystarczająco silny, aby wyposażyć się w ten przedmiot. 
+금액이 부족합니다.	Błędny Yang. 
+기억된 위치가 타제국에 속해 있어서 귀환할 수 없습니다.	Nie możesz przenieść się do zapisanej pozycji w obcym Królestwie. 
+기억해 둘 수 없는 위치 입니다.	Nie możesz zapisać tej pozycji. 
+기절하지 않음 %d%%	Brak Ogłuszenia %d%% 
+길드에 가입하지 않았습니다.	Nie dołączyłeś do tej Gildii. 
+길드원	Członek 
+길드장	Lider 
+길드전에 참가한 상대방 길드원이 아무도 없습니다.	Nie ma żadnych przeciwników. 
+길드전이 일찍 종료되어 무승부로 판정 되었습니다. (5분이 지나지 않음)	Jako że wojna Gildii zakończyła się przed czasem, zostanie uznana jako remis. 
+꿈속에서 어떻게요?	W moich snach? Że co? 
+나무꾼를 통해 다음 레벨의 곡괭이로 업그레이드 할 수 있습니다.	Możesz ulepszyć swój Kilof u Drwala Deokbae. 
+나무에서 부터 신비한 빛이 나옵니다.	Tajemnicze światło dobiega z drzewa. 
+나보다 너무 높은 레벨의 몬스터로는 변신 할 수 없습니다.	Nie możesz się przemienić w postać, która ma wyższy poziom od Ciebie. 
+나의 군주 정보	Informacje Mojego Imperatora 
+나의 삼거리 진행정보	Informacje o Bitwie Królestw 
+낚시 중에 미끼를 갈아끼울 수 없습니다.	Nie możesz zmienić przynęty podczas wędkowania. 
+낚시대가 아닌 물건으로 낚시를 할 수 없습니다!	Nie możesz łowić bez Wędki! 
+낚시대가 최대 수련도에 도달하였습니다.	Osiągnąłeś maksymalną ilość Punktów Wędkarskich. 
+낚시대를 장착 하세요.	Proszę wybrać Wędkę. 
+낚시대에 %s를 미끼로 끼웁니다.	Umieściłeś %s jako przynętę na haczyku. 
+낚시대의 수련도가 증가하였습니다! (%d/%d)	Twoje punkty wędkarskie wzrosły! (%d/%d) 
+낚시를 할 수 있는 곳이 아닙니다	Nie możesz tutaj łowić. 
+낚시이벤트월척붕어	Konkurs Wędkarski 'Najlepszy Rybak' 
+낚시이벤트잉어	Konkurs Wędkarski 'Karp' 
+남은 생명력 양이 모자라 사용할 수 없습니다.	Masz za mało PŻ. 
+남은 스탯 포인트가 없습니다.	Nie zostały żadne Punkty Statusu. 
+남은 스탯 포인트가 적습니다.	Pozostało zbyt mało punktów statystyk. 
+남은 정신력 양이 모자라 사용할 수 없습니다.	Masz za mało Punktów Energii aby tego użyć. 
+너무 가까이 있습니다.	Jesteś za blisko. 
+너무 멀리 있습니다	Jesteś za daleko. 
+넘어지지 않음 %d%%	Brak Upadku %d%% 
+녀석들은 이곳 성지에 있을 자격을 잃었다. 모두 성지에서 물러나거라~~[ENTER][ENTER] 10초 후에 모두 마을로 이동하게 됩니다.	nie masz prawa tu przebywać. To jest święte miejsce: Odejdź stąd! Wrócisz do swojej wioski za 10 sekund. 
+느려지지 않음 %d%%	Brak Spowolnienia %d%% 
+님의 말	Koń 
+다 읽었다! 이제 비급에 적혀있는 대로 전신에 기를 돌리기만 하면,	Przeczytałem! Teraz Chi musi popłynąć przez moje ciało. 
+다른 거래중(창고,교환,상점)에는 개인상점을 사용할 수 없습니다.	Nie możesz skorzystać teraz z prywatnego Magazynu. 
+다른 거래중(창고,교환,상점)에는 사용할 수 없습니다.	Nie możesz nic budować, gdy jest otwarte inne okno handlu/magazynu. 
+다른 거래중일경우 개인상점을 열수가 없습니다.	Nie możesz otworzyć prywatnego Magazynu, dopóki handlujesz z innymi. 
+다른 거래창이 열려있을경우 거래를 할수 없습니다.	Jeśli okno handlu jest otwarte, nie możesz handlować z innymi. 
+다른 거래창이 열린상태에서는 상점거래를 할수 가 없습니다.	Nie możesz handlować w Magazynie jeśli masz otwarte inne okno handlu. 
+다른 제국 유저는 소환할 수 없습니다.	Nie możesz rekrutować graczy z innego królestwa. 
+다른 컴퓨터에서 로그인 하여 접속을 종료 합니다.	Ktoś zalogował się na Twoje konto. Zostaniesz rozłączony. 
+다른거래창이 열린상태에서는 창고를 열수가 없습니다.	Nie możesz otworzyć Magazynu jeśli jest otwarte okno handlu. 
+다음 문제 준비해주세요.	Gotowi na następne pytanie? 
+다이아몬드로 소켓을 추가해야합니다.	Musisz dodać slot, jeśli chcesz użyć Diamentu. 
+단계 개량에 성공했습니다.	Podwyższenie stopnia jakości powiodło się. 
+단계 개량에 실패했습니다.	Podwyższenie stopnia jakości nie powiodło się. 
+단계 개량에 필요한 재료가 아닙니다.	Przedmiot ten nie jest potrzebny do uszlachetniania. 
+단계 개량할 수 없는 용혼석입니다.	Tego Smoczego Kamienia nie można użyć w celu uszlachetniania. 
+닫기	Zamknij 
+당신이 주사위를 굴려 %d가 나왔습니다. (%d-%d)	Rzuciłeś kostką. Wyrzuciłeś %d (%d-%d). 
+대련 강제 종료 성공	Pojedynek przerwany pomyślnie. 
+대련 강제 종료 실패	Pojedynek nie został przerwany. 
+대련 상대가 사라져 대련을 종료합니다.	Pojedynek został zakończony, ponieważ zniknął twój przeciwnik. 
+대련 시간 초과로 대련을 중단합니다.	Pojedynek został zakończony z powodu upływu czasu. 
+대련 시작에 문제가 있습니다.	Napotkano problem przy rozpoczęciu pojedynku. 
+대련 중에는 이용할 수 없는 물품입니다.	Nie możesz użyć tego przedmiotu w pojedynku. 
+대련이 성공적으로 시작 되었습니다.	Pojedynek rozpoczęty pomyślnie. 
+대련이 시작되었습니다.	Pojedynek rozpoczęty. 
+대련자 문제로 인하여 대련을 종료합니다.	Pojedynek został zakończony ponieważ jest problemów z przeciwnikiem. 
+대련자 문제로 인하여 대련을 중단합니다.	Pojedynek jest zakończony z powodu problemów z areną. 
+대련자가 없습니다.	Brak przeciwników. 
+대련장 문제로 인하여 대련을 종료합니다.	Pojedynek został zakończony z powodu problemów z areną. 
+대련장에서 사용하실 수 없습니다.	Nie możesz użyć tego na arenie. 
+대박골드 드롭률 %d%% 추가 이벤트 중입니다.	Ilość wypadających Yang jest w tej chwili plus %d%% 
+더 높은 경지의 수련을 성공적으로 끝내셨습니다.	Pomyślnie zakończyłeś trening przy pomocy książki. 
+더 이상 OX이벤트 참가자를 받지 않습니다.	Konkurs OX nie przyjmuje już nowych uczestników. 
+더 이상 개량할 수 없습니다.	Postęp nie jest możliwy 
+더 이상 수련할 수 없습니다.	Nie możesz już udoskonalić tej Umiejętności. 
+더 이상 승마 수련서를 읽을 수 없습니다.	Nie możesz czytać więcej przewodników Jeździectwa. 
+더 이상 이 아이템을 이용하여 속성을 추가할 수 없습니다.	Tego przedmiotu nie można już ulepszać w ten sposób. Maksymalna ilość bonusów została osiągnięta. 
+더이상 이 아이템을 이용하여 속성을 추가할 수 없습니다.	Aby dodać kolejny bonus do tego przedmiotu, musisz użyć Marmuru Błogosławieństwa. 
+더이상 캐낼 수 없습니다.	Nie ma tu nic do wydobycia. 
+던전 안에서는 %s%s 사용할 수 없습니다.	%s%s nie może być użyty w lochu. 
+독 저항 %d%%	Odporność na Trucizny %d%% 
+독공격 %d	Atak Trucizny %d 
+돈 %d 냥을 획득했습니다.	Otrzymałeś %d Yang. 
+돈 대박이 나올 확률	Procent upuszczanych Yang 
+돈 드롭율 %.1f배	Szansa na znalezienie Yang %.1f 
+돈이 나올 확률	Częstotliwość wypadania Yang 
+돈이 부족하거나 아이템이 제자리에 없습니다.	Za mało Yang lub brak miejsca w ekwipunku. 
+동물류 몬스터 타격치 +%d%%	Siła Ataku Konia przeciwko Potworom +%d%% 
+동일한 머리 스타일로는 교체할 수 없습니다.	Masz już taką fryzurę. 
+두손검 방어 %d%%	Odporność na Broń Dwuręczną %d%% 
+둔갑 중에는 능력을 올릴 수 없습니다.	Nie możesz zmienić swojego stanu, gdy jesteś przemieniony. 
+둔갑 중에는 착용중인 장비를 변경할 수 없습니다.	Nie możesz zmienić używanych przedmiotów, gdy jesteś przemieniony. 
+둔갑서 수련을 마첬습니다. 신선에게 찾아가세요.	Całkowicie nauczyłeś się przekształcania. 
+둔갑에 실패 하였습니다	Błąd podczas przemiany. 
+둔갑할 수 없는 상태입니다.	Nie możesz się przemienić, podczas jazdy konnej. 
+드디어 끝이 보이는 건가...  이 기술은 이해하기가 너무 힘들어..	Tę technikę ciężko zrozumieć. Muszę kontynuować trening. 
+등급 개량에 성공했습니다.	Uszlachetnienie o jedną klasę wzwyż powiodło się. 
+등급 개량에 실패했습니다.	Uszlachetnienie o jedną klasę wzwyż nie powiodło się. 
+등급 개량에 필요한 재료가 아닙니다.	Przedmiot ten nie jest potrzebny do podwyższenia stopnia jakości. 
+떨어진 아이템은 %d분 후 사라집니다.	Upuszczony przedmiot znika po %d minutach. 
+떨어진 아이템은 3분 후 사라집니다.	Wyrzucony przedmiot zniknie za 3 minuty. 
+뜨거운 무엇이 계속 용솟음치고 있어! 이건, 이것은!	Widać już skutki treningu... 
+레벨 20 이하는 핸드폰 번호를 등록할 수 없습니다.	Twój poziom musi być wyższy niż 20, aby zapisać numer telefonu komórkowego. 
+레벨 30이 되기 전에는 습득할 수 있을 것 같지 않습니다.	Musisz być na 30 poziomie, aby zrozumieć tą Księge. 
+레벨 50이 되기 전에는 습득할 수 있을 것 같지 않습니다.	Musisz być na 50 poziomie, aby zrozumieć tą Księgę. 
+레벨이 낮아 착용할 수 없습니다.	Twój poziom jest za niski, aby wyposażyć się w ten przedmiot. 
+로그인 화면으로 돌아 갑니다. 잠시만 기다리세요.	Powrót do okna logowania. Proszę czekać. 
+룻렛을 돌립니다. 금액 %d	Rozpocznij ruletkę o %d Yang. 
+를	the 
+마법 공격력 +%d	Atak Magiczny +%d 
+마법 방어력 +%d	Obrona Magiczna +%d 
+마법 저항 %d%%	Odporność na Magię %d%% 
+마음이 맑아지는군. 가슴을 짓누르던 무언가가 좀 가벼워진 느낌이야.	Twój umysł jest czysty. Możesz się skoncentrować. 
+많은 참여 부탁드립니다.	Prosimy o liczny udział graczy. 
+말 소환 아이템을 사용하세요.	Proszę użyć przedmiotu, aby przywołać konia. 
+말 소환에 실패하였습니다.	Nie udało się przywołać konia. 
+말에게 %s%s 주었습니다.	Nakarmiłeś konia (%s%s). 
+말에게 사료를 주었습니다.	Nakarmiłeś konia. 
+말에게 선초를 주었습니다.	Nakarmiłeś konia ziołami. 
+말에서 먼저 내려야 합니다.	Musisz zejść z konia. 
+말을 돌려보냈습니다.	Odesłałeś swojego konia. 
+말을 먼저 소환해주세요.	Najpierw zawołaj swojego konia. 
+말을 소유하고 있지 않습니다.	Nie masz konia. 
+말을 탄 상대와 감정표현을 할 수 없습니다.	Nie możesz okazywać emocji graczowi, który jest na koniu. 
+말을 탄 상태에서 감정표현을 할 수 없습니다.	Nie możesz okazywać emocji będąc na koniu. 
+말을 탄 상태에서 예복을 입을 수 없습니다.	Nie możesz tego użyć siedząc na koniu. 
+말을 탄 상태에서는 먹이를 줄 수 없습니다.	Nie możesz karmić konia podczas siedzenia na nim. 
+말의 스테미너가 부족하여 말을 탈 수 없습니다.	Wytrzymałość Twojego konia jest za niska. 
+말이 없습니다. 마굿간 경비병을 찾아가세요.	Nie ma tu konia. Zapytaj Stajennego. 
+말이 죽어있는 상태 입니다.	Twój koń zdechł. 
+맞으면 O, 틀리면 X로 이동해주세요	Jeśli TAK, przejdź na pole O, jeśli NIE, przejdź na pole X. 
+머니  룰렛 시작.	Rozpocznij Ruletkę Yang. 
+먼저 다이아몬드로 악세서리에 소켓을 추가해야합니다.	Musisz wpierw dodać slot. Użyj do tego Diamentu. 
+먼저 용혼석 퀘스트를 완료하셔야 합니다.	Zanim otworzysz Cor Draconis, musisz zakończyć misję Smoczego Kamienia i aktywować Alchemię Smoczych Kamieni. 
+먼저 일어 나세요.	Najpierw wstań. 
+먼저 재가비서를 이용하여 속성을 추가시켜 주세요.	Marmur Błogosławieństwa może zostać użyty tylko na przedmiotach, które już mają 4 bonusy. 
+메틴2인증번호: %s	Numer potwierdzający Metin2: %s 
+메틴석 부착에 성공하였습니다.	Pomyślnie umieściłeś Kamień Duszy. 
+메틴석 부착에 실패하였습니다.	Kamień Duszy pękł podczas umieszczania. 
+명령어를 모두 입력하세요.	Proszę wpisać pełne polecenie. 
+명령어의 서브 커맨드가 잘못 되었습니다.	Polecenie jest nieprawidłowe. 
+모닥불을 피울 수 없는 지점입니다.	Nie możesz założyć tutaj obozu. 
+몬스터에게 강함 +%d%%	Silny przeciwko Potworom +%d%% 
+몸 속이 뜨겁군. 하지만 아주 편안해. 이대로 기를 안정시키자.	Płonę wewnątrz, ale to uspokaja moje ciało. 
+몸에서 뭔가 힘이 터져 나오는 기분이야!	Moje ciało jest pełne energii! 
+무기와 갑옷에만 사용 가능합니다.	Można użyć tylko na broń i zbroje. 
+무당공격에 %d%% 저항	%d%% Odporność na Ataki Szamana 
+무당에게 강함 +%d%%	Silny przeciwko Szamanom +%d%% 
+무료 개량 기회는 20 이하의 무기만 가능합니다	Darmowe ulepszenie broni może być użyte jedynie w broniach do 20 poziomu. 
+무사공격에 %d%% 저항	%d%% Odporność na Ataki Wojownika 
+무사에게 강함 +%d%%	Silny przeciwko Wojownikom +%d%% 
+문자 메세지 전송에는 2000원이 필요 합니다.	Potrzebujesz 2000 Yang, aby wysłać wiadomość tekstową. 
+문자 메세지 전송은 레벨 20부터 할 수 있습니다.	Musisz być co najmniej na poziomie 20, aby wysyłać wiadomości tekstowe. 
+문자 메세지를 전송 했습니다.	Twoja wiadomość została wysłana. 
+문제 입니다.	Pytanie. 
+문제를 출제하였습니다.	Wystąpił błąd. 
+문제를 출제하지 못했습니다.	Nie wystąpiły błędy. 
+물 속에 모닥불을 피울 수 없습니다.	Nie możesz rozpalić Ogniska pod wodą. 
+물리타격시 블럭 확률 %d%%	%d%% szans na blok ataku z bliskiej odległości. 
+물약 사용시 %d%% 성능 증가	Gdy weźmiesz miksturę, Moc wzrośnie do %d%%. 
+물약 제조에 실패했습니다.	Mieszanie napoju nie powiodło się. 
+물약 제한이 없습니다.	Nie ma limitu mikstur. 
+물약 조합을 위한 재료가 부족합니다.	Nie masz wszystkich materiałów potrzebnych do zrobienia mikstury. 
+물약을 %d 개 까지 사용 가능합니다.	Możesz użyć tylko %d mikstur. 
+뭔가 몸 안에 힘이 생기는 기분인 걸.	Czuję się odświeżony. 
+미끼를 끼고 던져 주세요.	Najpierw umieść przynętę na haczyku. 
+민첩 +%d	Zręczność +%d 
+민첩이 낮아 착용할 수 없습니다.	Masz za niską Zręczność, aby wyposażyć się w ten przedmiot. 
+밀교류 타격치 +%d%%	Wzmocnienie ataku przeciwko Mistykom + %d%% 
+바람 저항 %d%%	Odporność na Wiatr %d%% 
+방어력 +%d	Obrona +%d 
+방어력 +%d%%	Obrona +%d%% 
+방울 방어 %d%%	Odporność na Dzwony %d%% 
+배 속에서 조개가 나왔습니다.	W rybie znajduje się muszla. 
+배 속에서 지렁이가 나왔습니다.	W rybie znajduje się robak. 
+버릴 수 없는 아이템입니다.	Nie możesz wyrzucić tego przedmiotu. 
+변경할 속성이 없습니다.	Nie masz ulepszenia, które mógłbyś zmienić. 
+변신 상태에서는 말에 탈 수 없습니다.	Gdy jesteś przemieniony, nie możesz jeździć konno. 
+변신중에는 책을 읽을수 없습니다.	Nie możesz czytać Książek gdy jesteś przemieniony. 
+부착할 수 있는 슬롯이 없습니다.	Brak wolnych miejsc. 
+부채 방어 %d%%	Odporność na Wachlarze %d%% 
+불법 프로그램이 감지 되어 게임이 종료 됩니다.	Wykryto niedozwolone oprogramowanie. Gra zostanie zakończona. 
+비속어나 은어가 포함된 상점 이름으로 상점을 열 수 없습니다.	Nie możesz nadać niewłaściwej nazwy swojemu Magazynowi. 
+빈 병이 모자릅니다.	Nie masz wystarczającej liczby pustych butelek. 
+빼낼 수 있는 메틴석이 없습니다.	Nie ma już więcej Kamieni do wyjęcia. 
+빼낼 영석이 없습니다	Nie ma Kamienia do usunięcia. 
+사귀 타워 완료 보상은 한번까지 사용가능합니다.	Możesz zostać nagrodzony tylko raz za każdą wyprawę do Wieży Demonów. 
+사용 제한량을 초과하였습니다.	To jest powyżej limitu. 
+사용법: transfer <name>	Użyj: transfer <nazwa> 
+사용법: warpto <character name>	Rozkaz: teleport do <nazwa postaci> 
+사용할수 없습니다.	Nie możesz teleportować twojego partnera w tym momencie. 
+삼거리 몹 리젠	Liczba potworów w Wojnie Królestw: 
+삼거리 전투 참가중에는 귀환부,귀환기억부를 사용할수 없습니다.	Nie możesz użyć Zwoju Powrotu podczas Bitwy Królestw. 
+삼거리 전투에서 %s 국가가 가장먼저 탈락을 하였습니다	Królestwo %s zostało pokonane i odpada z Wojny Królestw. 
+상대방 캐릭터가 접속을 종료하여 대련을 중지합니다.	Wojownicy się rozdzielili. Pojedynek zakończony. 
+상대방 캐릭터의 문제로 인하여 대련을 종료합니다.	Twój przeciwnik ma jakieś problemy. Pojedynek zakończony. 
+상대방의 돈이 부족하거나 아이템이 제자리에 없습니다.	Druga osoba nie ma wystarczającej ilości Yang lub nie ma miejsca w ekwipunku. 
+상대방의 소지품에 빈 공간이 없습니다.	Druga osoba nie ma miejsca w ekwipunku. 
+상대방의 총금액이 20억 냥을 초과하여 거래를 할수가 없습니다..	Ten gracz posiada więcej niż 2 miliardy Yang. Nie możesz z nim handlować. 
+상대방이 %d 채널에 있습니다. (현재 채널 %d)	Gracz ten jest na kanale %d. (Ty jesteś na kanale %d.) 
+상대방이 교환 거부 상태입니다.	Druga osoba zablokowała handel. 
+상대방이 다른 거래를 하고 있는 중입니다.	W tej chwili ten gracz handluje z kimś innym. 
+상대방이 다른 거래중이라 거래를 할수 없습니다.	Druga osoba już handluje. 
+상대방이 대련중입니다.	Gracz bierze udział w walce. 
+상대방이 메신져 추가 거부 상태입니다.	Gracz odrzucił twoje zaproszenie do Listy Przyjaciół. 
+상대방이 온라인 상태가 아닙니다.	Ten gracz nie jest online. 
+상대방이 있는 곳으로 워프할 수 없습니다.	Nie możesz przenieść się do gracza. 
+상대방이 친구 추가를 받을 수 없는 상태입니다.	Nie możesz dołączyć tej postaci do swoich przyjaciół. 
+상대방이 파티에 속해있지 않습니다.	Ten gracz nie jest w tej Grupie. 
+상자가 갑자기 폭발하였습니다! 생명력이 감소했습니다.	Skrzynia niespodziewanie wybuchła! Straciłeś Punkty Życia. 
+상자에서 %s 가 %d 개 나왔습니다.	Otrzymano %s, %d sztuk. 
+상자에서 %s 가 나왔습니다.	Ze skrzyni wypadł następujący przedmiot: %s. 
+상자에서 나온 녹색 연기를 들이마시자 독이 온몸으로 퍼집니다!	Jeśli będziesz wdychać zielony dym ze skrzyni, rozprzestrzenisz truciznę w swoim ciele! 
+상자에서 나온 빨간 연기를 들이마시자 움직이는 속도가 느려졌습니다!	Jeśli będziesz wdychać czerwony dym ze skrzyni, będziesz szybszy! 
+상자에서 몬스터가 나타났습니다!	Potwór wyskoczył ze skrzyni! 
+상자에서 부터 신비한 빛이 나옵니다.	Tajemnicze światło dobiega z tej skrzynki. 
+상점과의 거리가 너무 멀어 물건을 살 수 없습니다.	Aby cokolwiek kupić, musisz podejść bliżej. 
+상점과의 거리가 너무 멀어 물건을 팔 수 없습니다.	Znajdujesz się za daleko od Magazynu aby sprzedawać. 
+상품을 받을 인벤토리가 부족합니다. 인벤토리를 비워주세요!	Masz za mało miejsca w ekwipunku, aby przyjąć nagrodę. 
+생각만큼 읽기가 쉽지가 않군. 이해도 어렵고 내용도 난해해.	To jest dużo trudniejsze niż się spodziewałem. 
+생명력 회복 +%d	Odnawianie Energii +%d 
+서버에 치명적인 오류가 발생하여 자동으로 재부팅됩니다.	Krytyczny błąd serwera. Serwer zostanie uruchomiony ponownie. 
+선악치가 %d 증가하였습니다.	Twoja Ranga została zwiększona o %d punktów. 
+선악치를 더 이상 올릴 수 없습니다.	Punkty Rangi sięgnęły już limitu. 
+선택 맵 정보 성지 %d 통로 %d %d %d	Wybierz mapy Świętej Ziemi %d Wejście %d %d %d 
+성별이 맞지않아 이 아이템을 사용할 수 없습니다.	Nie możesz użyć tego przedmiotu, ponieważ nie jesteś odpowiedniej płci. 
+성별이 맞지않아 이 아이템을 열 수 없습니다.	Ten przedmiot może zostać otwarty tylko przez inną płeć. 
+성에서만 사용할 수 있는 기능입니다.	Możesz używać tą czynność jedynie jak jesteś w zamku. 
+성지에서 부활 기회를 모두 잃었습니다! 마을로 이동합니다!	Minął czas oczekiwania. Zostaniesz wskrzeszony w mieście. 
+성지의 마왕: 너희	Diabeł Świętej Ziemi 
+세금이 %d %로 설정되었습니다	Podatki ustawione na %d % . 
+셧다운이 %d초 남았습니다.	%d sekund do wyłączenia. 
+소유 돈이 20억냥을 넘어 거래를 핼수가 없습니다.	Masz więcej niż 2 miliardy Yang. Nie możesz handlować. 
+소지금이 부족하여 이 아이템을 사용할 수 없습니다.	Masz za mało Yang, aby móc użyć tego przedmiotu. 
+소지품에 빈 공간이 없습니다.	Masz za mało miejsca w ekwipunku. 
+소지하고 있는 아이템이 너무 많습니다.	Masz za dużo przedmiotów w ekwipunku. 
+소켓 추가에 실패하였습니다.	Slot nie został dodany. 
+소켓이 성공적으로 추가되었습니다.	Slot dodano pomyślnie. 
+소환할수 없는 몬스터 입니다. 소환가능한 몬스터는 홈페이지를 참조하세요	Potwór nie może być przywołany. Sprawdź numer Potwora. 
+속성 추가에 성공하였습니다.	Ulepszenie dodane pomyślnie. 
+속성 추가에 실패하였습니다.	Ulepszenie nie zostało dodane. 
+속성을 바꾼지 %d분 이내에는 다시 변경할 수 없습니다.(%d 분 남음)	Możesz tego dokonać tylko w %d minut po ulepszeniu. (Zostało %d minut) 
+속성을 변경하였습니다.	Zmieniłeś ulepszenie. 
+속성을 변경할 수 없는 아이템입니다.	Nie możesz zmienić ulepszenia tego Przedmiotu. 
+수라공격에 %d%% 저항	%d%% Odporność na Ataki Sura 
+수라에게 강함 +%d%%	Silny przeciwko Sura +%d%% 
+수련이 실패로 끝났습니다. 다시 도전해주시기 바랍니다.	Szkolenie niepomyślne. Proszę spróbować później. 
+수련할 수 없는 스킬입니다.	Nie możesz szkolić się w tej umiejętności. 
+스킬 데미지 %d%%	Obrażenia Umiejętności %d%% 
+스킬 데미지 저항 %d%%	Odporność na Obrażenia Umiejętności %d%% 
+스킬 레벨을 내리는데 성공하였습니다.	Obniżyłeś swój poziom umiejętności. 
+스킬 레벨을 내릴 수 없습니다.	Nie możesz obniżyć swojego poziomu umiejętności. 
+스턴 +%d	Gwiazda +%d 
+슬로우 +%d	Redukcja Szybkości +%d 
+승마 수련서 이해에 실패하였습니다.	Nie zrozumiałeś Przewodnika Jeździectwa. 
+승마 수련서를 읽어 승마 스킬 포인트를 얻었습니다.	Otrzymałeś punkt jeździectwa po przeczytaniu przewodnika jeździectwa. 
+시체류 타격치 +%d%%	Wzmocnienie ataku przeciwko Nieumarłym + %d%% 
+신수국	Królestwo Shinsoo 
+쓰러진 상태에서는 말에 탈 수 없습니다.	Nie możesz wsiąść na Konia gdy leżysz na ziemi. 
+쓰러진 상태에서는 할 수 없습니다.	Nie możesz wykonać tej akcji leżąc na ziemi. 
+아니 어떻게 된 게 종일 읽어도 머리에 안 들어오냐.	Czytam tą samą linię ponownie. 
+아무것도 얻을 수 없었습니다.	Nic nie dostałeś. 
+아이템 개량후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	Nie możesz użyć Zwoju przez %d sek. po handlu. 
+아이템 드롭률  %d%% 추가 이벤트 중입니다.	Aktualnie szansa na wypadnięcie przedmiotu to: +%d%% 
+아이템 드롭율 %.1f배	Szansa na znalezienie przedmiotu %.1f 
+아이템 룰렛 시작.	Rozpocznij Ruletkę Przedmiotów. 
+아이템 전달: %s 님에게 %s	%s otrzymał: %s 
+아이템 획득: %s	Otrzymałeś %s. 
+아이템 획득: %s 님으로부터 %s	Otrzymałeś %s, %s sztuk 
+아이템로그가 syslog 에 남았습니다	Log przedmiotów umieszczony w logu systemowym. 
+아이템을 건네줄 수 없습니다.	Nie możesz sprzedać tego przedmiotu. 
+아이템의 레벨 제한보다 레벨이 낮습니다.	Twój poziom jest niższy od poziomu przedmiotu po ulepszeniu. 
+아이템이 나올 확률	Częstotliwość wypadania przedmiotów 
+아직 골드를 버릴 수 없습니다.	Nie możesz wyrzucić złota. 
+아직 마을에서 재시작 할 수 없습니다. (%d 초 남음)	Wznowienie w mieście jeszcze nie jest możliwe. Odczekaj %d sekund. 
+아직 사용할 수 없습니다.	Nie można użyć. 
+아직 승마 스킬을 수련할 수 있는 레벨이 아닙니다.	Trening Jeździectwa jest dostępny dopiero od poziomu 50. 
+아직 이 머리를 사용할 수 없는 레벨입니다.	Twój poziom jest za niski, aby móc nosić tą fryzurę. 
+아직 재시작 할 수 없습니다. (%d초 남음)	Wznowienie jeszcze nie jest możliwe. Odczekaj %d sekund. 
+아직 재시작 할 수 없습니다.(%d초 남음 )	Wznowienie jeszcze nie jest możliwe. Odczekaj %d sekund. 
+아직 재시작 할 수 없습니다.(%d초 남음)	Wznowienie jeszcze nie jest możliwe. Odczekaj %d sekund. 
+악마류 타격치 +%d%%	Wzmocnienie ataku przeciwko Diabłom + %d%% 
+안녕하세요. 메틴2 입니다.	Witamy w Metin2. 
+액수가 20억 냥을 초과하여 거래를 할수가 없습니다..	Masz więcej niż 2 miliardy Yang. Nie możesz handlować. 
+양손검 방어 %d%%	Odporność na Broń Dwuręczną %d%% 
+어느정도 이 기술에 대해 이해가 되었지만 조금 부족한듯 한데..	Robię postępy ale nie zrozumiałem jeszcze wszystkiego. 
+어부를 통해 다음 레벨의 낚시대로 업그레이드 할 수 있습니다.	Ulepsz swoją wędkę u Rybaka! 
+얻은 포인트로는 승마 스킬의 레벨을 올릴 수 있습니다.	Możesz podnieść swoje umiejętności jeździeckie poprzez otrzymany punkt. 
+얼마 안 남았어! 조금만 더!	Prawie koniec! Jeszcze tylko troszeczkę! 
+여자만 할 수 있습니다.	Tylko kobiety mogą to zrobić. 
+연계기는 더이상 수련할 수 없습니다.	Nie możesz wytrenować więcej kombinacji. 
+열쇠가 맞지 않는 것 같다.	Ten klucz chyba nie pasuje do zamka. 
+열쇠는 맞으나 아이템 주는 부분 구현이 안되었습니다.	To jest właściwy klucz. 
+열쇠로 여는 물건이 아닌것 같다.	Ten przedmiot nie może zostać otwarty za pomocą klucza. 
+열쇠로 잠겨 있어서 열리지 않는것 같다. 열쇠를 구해보자.	Zamknięte. Powinieneś poszukać klucza. 
+열심히 하는 배움을 가지는 것만이 기술을 배울수 있는 유일한 길이다..	Ten rozdział już zrozumiałem, ale czeka mnie jeszcze mnóstwo ciężkiej pracy. 
+열정의 가면을 착용시에만 할 수 있습니다.	Możesz to zrobić jedynie z założoną Maską Uczuć. 
+영석 감지기가 신비로운 빛을 내며 사라집니다.	Kompas Kamieni Metin zniknął wraz z tajemniczym światłem. 
+영석 감지기가 흔적도 없이 사라집니다.	Kompas Kamieni Metin zniknął. 
+예복을 입은 상태에서 말을 탈 수 없습니다.	Nie możesz jeździć konno, gdy masz na sobie Suknię Ślubną lub Smoking. 
+외치기는 레벨 %d 이상만 사용 가능 합니다.	Musisz mieć co najmniej %d poziom aby móc wołać. 
+외치기는 유료회원만 사용할수 있습니다	Aby móc wołać, musisz mieć wyższy poziom postaci. 
+용신의 가호로 경험치가 떨어지지 않았습니다.	Nie straciłeś doświadczenia dzięki Błogosławieństwu Boga Smoków. 
+용신의 보호로 아이템이 떨어지지 않았습니다.	Nie upuściłeś żadnego przedmiotu, ponieważ jesteś chroniony przez Boga Smoków. 
+용심 추출에 성공하였습니다.	Ekstrakcja pozostałego czasu trwania Smoczego Kamienia powiodła się. 
+용심 추출에 실패하였습니다.	Ekstrakcja pozostałego czasu trwania nie powiodła się. 
+용혼석 상자가 활성화되지 않았습니다.	Smoczy Kamień nie jest uaktywniony. 
+용혼석 추출에 성공하였습니다.	Smoczy Kamień został usunięty. 
+용혼석 추출에 실패하여 %s를 얻었습니다.	Usunięcie Smoczego Kamienia nie powiodło się. Otrzymano jednak: %s 
+용혼석 추출에 실패하였습니다.	Usunięcie Smoczego Kamienia nie powiodło się. 
+운영자 제제로 채팅이 금지 되었습니다.	Możliwość pisania została zablokowana przez GM! 
+웅귀족 타격치 +%d%%	Wzmocnienie ataku przeciwko Wonggui + %d%% 
+원래 위치로 복귀	Wróciłeś do punktu wyjścia. 
+월병 또는 종자 를 사용하였습니다	Użyto Księżycowego Torcika lub Nasionka. 
+월병,종자 사용후 5초동안 사용할수 없습니다.	Możesz używać Księżycowych Torcików tylko raz na 5 sekund. 
+유료화 아이템은 개인상점에서 판매할 수 없습니다.	Nie możesz sprzedawać Przedmiotów z ItemShop w prywatnym Sklepie. 
+을	the 
+을두지를 통하여 입장 가능합니다.	Uriel zezwolił na wejście. 
+이 개량서로 개량할 수 없습니다.	Nie możesz ulepszać tym zwojem. 
+이 개량서로 더 이상 개량할 수 없습니다.	Zwój Wojny nie funkcjonuje z przedmiotami +4 lub wyżej. 
+이 곳에서 영석 감지기가 동작하지 않는것 같습니다.	Kompas Kamieni Metin nie funkcjonuje w Lochach. 
+이 곳에선 이벤트용 감지기가 동작하지 않는것 같습니다.	Nie możesz użyć wykrawacza zdarzeń z tej pozycji. 
+이 메틴석은 무기에 부착할 수 없습니다.	Nie możesz umieścić tego Kamienia Duszy w broni. 
+이 메틴석은 장비에 부착할 수 없습니다.	Ten Kamień Duszy nie może zostać umieszczony w przedmiocie tego rodzaju. 
+이 스킬은 아직 그랜드 마스터 수련을 할 경지에 이르지 않았습니다.	Twoja umiejętność nie jest na tyle wysoka, aby zostać Wielkim Mistrzem. 
+이 스킬은 아직 책으로 수련할 경지에 이르지 않았습니다.	Umiejętność nie jest odpowiednio rozwinięta, aby szkolić ją przy pomocy Książki. 
+이 스킬은 책으로 더이상 수련할 수 없습니다.	Nie możesz szkolić tej umiejętności za pomocą Książki. 
+이 아이템으로 소켓을 추가할 수 없는 아이템입니다.	Nie możesz przydzielić slotu dla tego przedmiotu. 
+이 아이템은 PC방에서만 사용할 수 있습니다.	Ten przedmiot może być użyty tylko w kafejce internetowej. 
+이 아이템은 개량할 수 없습니다.	Ten przedmiot nie może być ulepszony. 
+이 아이템은 이 방식으로는 개량할 수 없습니다.	Ten przedmiot nie może być ulepszony w ten sposób. 
+이 아이템을 장착할 수 없습니다.	Te przedmioty nie mogą zostać użyte razem. 
+이 액세서리에는 더이상 보석을 장착할 수 없습니다.	Do tego przedmiotu nie można dodać więcej klejnotów. 
+이 액세서리에는 더이상 소켓을 추가할 공간이 없습니다.	Do tego przedmiotu nie możesz dodać więcej nowych slotów. 
+이 액세서리에는 더이상 장착할 소켓이 없습니다.	Nie ma tu slotu z Klejnotami. 
+이 책으로는 더 이상 수련할 수 없습니다.	Nie możesz już trenować z tą książką. 
+이 책은 너무 어려워 이해하기가 힘듭니다.	Nie jest łatwo zrozumieć tę książkę. 
+이 책은 너무 어려워서 수련할 수 없습니다.	Książka jest za trudna do nauki. 
+이 책은 아무리 봐도 도움이 될 것 같지 않습니다.	Ta książka Ci nie pomoże. 
+이 책을 읽으려면 레벨을 더 올려야 합니다.	Musisz podnieść swój poziom, aby zrozumieć tę książkę. 
+이 행동은 상호동의 하에 가능 합니다.	Potrzebujesz potwierdzenia partnera do tego. 
+이동 되어질 위치와 너무 가까워 귀환부를 사용할수 없습니다.	Nie możesz użyć Zwoju Powrotu, ponieważ odległość jest zbyt mała. 
+이동속도 %d	Szybkość Ruchu %d 
+이동할 준비가 되어있음으로 귀환부를 사용할수 없습니다	Jesteś gotowy do przeniesienia, więc nie możesz skorzystać ze zwoju powrotu. 
+이래서야 공부가 안된다구.	Nie potrafię się skoncentrować. Powinienem zrobić sobie przerwę. 
+이미 같은 종류의 용혼석을 착용하고 있습니다.	Nosisz już ten rodzaj Smoczego Kamienia. 
+이미 꽂혀있던 미끼를 빼고 %s를 끼웁니다.	Zmieniłeś aktualną przynętę na %s. 
+이미 둔갑중인 상태입니다.	Jesteś już przemieniony. 
+이미 선전포고 중인 길드입니다.	Wypowiedziałeś wojnę tej Gildii. 
+이미 완벽하게 알아들을 수 있는 언어이다.	Już mówisz płynnie tym językiem. 
+이미 입후보되어있습니다	Już jest kandydatura 
+이미 장비를 착용하고 있습니다.	Już masz na sobie taki Smoczy Kamień. 
+이미 전쟁이 끝났습니다.	Wojna już się zakończyła. 
+이미 제조창이 열려있습니다.	Okno budowania jest już otwarte. 
+이미 탈것을 이용중입니다.	Jesteś na koniu. Najpierw musisz zsiąść. 
+이미 파티에 속해 있으므로 가입신청을 할 수 없습니다.	Nie możesz przyjąć zaproszenia, ponieważ jesteś już w Grupie. 
+이미 효과가 걸려 있습니다.	Ten efekt jest już aktywny. 
+이미투표를 했음	Już zagłosowałeś. 
+이번에 잡은 물고기의 길이는 %.2fcm	Długość złapanej ryby wynosi %.2fcm. 
+이벤트용 감지기가 신비로운 빛을 내며 사라집니다.	Wykrywacz zdarzeń zniknął w rozbłysku tajemniczego światła. 
+이벤트용 감지기가 흔적도 없이 사라집니다.	Wykrywacz eventów zniknął. 
+이성간에만 할 수 있습니다.	Ta akcja może zostać wykonana tylko z inną płcią. 
+이제 좀 슬슬 가닥이 잡히는 것 같은데.	Teraz rozumiem! 
+이제 책의 마지막 장이야! 수련의 끝이 눈에 보이고 있어!	Jestem na ostatniej stronie! Trening jest prawie zakończony! 
+인간류 몬스터 타격치 +%d%%	Siła Ataku Gracza przeciwko Potworom +%d%% 
+인벤토리가 꽉 차서 내릴 수 없습니다.	Twój ekwipunek jest przepełniony. Nie możesz wziąć tego przedmiotu. 
+인증번호가 틀렸습니다. 다시 시도하세요.	Twój numer potwierdzający jest błędny. Proszę spróbować ponownie. 
+입력하신 이름을 가진 사용자가 없습니다.	Nie ma gracza o tej nazwie. 
+자객공격에 %d%% 저항	%d%% Odporność na Ataki Ninja 
+자객에게 강함 +%d%%	Silny przeciwko Ninja +%d%% 
+자동으로 나가게됩니다.	Zostanie automatycznie opuszczony. 
+자신을 선택하시면 밖으로 나갈 수 있는 <관람 종료> 버튼이 나옵니다.	Po zaznaczeniu postaci pojawi się guzik do Zakończenia Obserwacji. 
+자신을 소환할 수 없습니다.	Nie możesz przyjąć samego siebie. 
+자재가 부족하여 건설할 수 없습니다.	Nie masz wystarczająco surowców na ten budynek. 
+잘못된 둔갑 아이템입니다.	To jest zły przedmiot na handel. 
+잘못된 선택을 했습니다	Twój wybór jest błędny. 
+잠시 후 OX 이벤트를 다시 시작하겠습니다.	Za chwilę wydarzenie OX zostanie zrestartowane. 
+잠시 후 마을로 이동되겠습니다.	Za chwilę gracze zostaną przeniesieni do miasta. 
+잠시후 모두 마을로 이동됩니다.	Wszyscy ludzie zostaną przeniesieni do miasta. 
+잠시후 해당 마을은  마을로 이동됩니다.	Za chwilę wszyscy ludzie zostaną przeniesieni do wybranego miasta. 
+장비중인 아이템은 개인상점에서 판매할 수 없습니다.	Nie możesz sprzedawać założonych przedmiotów w prywatnym Magazynie. 
+장착에 성공하였습니다.	Uzbrajanie pomyślne. 
+장착에 실패하였습니다.	Uzbrajanie niepomyślne. 
+재료(%s)가 부족합니다.	Nie masz wystarczająco materiałów (%s). 
+저주 되돌리기 확률 %d%%	Odbicie Klątwy: %d%% 
+적용 레벨보다 높아 사용이 불가능합니다.	Poziom Twojego przedmiotu jest za wysoki. 
+적합하지 않은 길드 이름 입니다.	Nazwa Gildii jest błędna. 
+전기 저항 %d%%	Odporność na Błyskawice %d%% 
+전쟁 서버가 열려있지 않아 길드전을 시작할 수 없습니다.	Bitwa Gildii nie może się rozpocząć, ponieważ serwer nie jest online. 
+전제국	Wszystkie Królestwa 
+전투가 시작 되어 취소 되었습니다.	Akcja anulowana. Bitwa została rozpoczęta. 
+정답은	Prawidłowa odpowiedź to: 
+정답입니다!	Prawidłowo! 
+정상적으로 투표를하였습니다.	Głosowanie. 
+정신력 회복 +%d	Odnawianie Many +%d 
+제조 재료가 부족합니다	Nie masz właściwego materiału. 
+제조에 실패하였습니다.	Nie powiodło się ulepszenie twojego przedmiotu. 
+제조창이 열려있지 않습니다	Okno budowania nie jest otwarte 
+조개가 흔적도 없이 사라집니다.	Muszla zniknęła. 
+조개에서 돌조각이 나왔습니다.	W muszli znajdujesz jedynie zwyczajny Kawałek Kamienia. 
+조개에서 백진주가 나왔습니다.	W muszli jest Biała Perła. 
+조개에서 청진주가 나왔습니다.	W muszli jest Niebieska Perła. 
+조개에서 피진주가 나왔습니다.	W muszli jest Krwawa Perła. 
+존재하지 않는 건물입니다.	Budynek nie istnieje. 
+존재하지 않는 아이템 입니다	Ta rzecz nie istnieje. 
+존재하지 않는 캐릭터 입니다.	Ta postać nie istnieje. 
+좋아, 이 기세로 계속 나간다!	Dobrze, teraz muszę pozostać skoncentrowanym! 
+좋았어! 조금만 더 읽으면 끝이다!	Zostałem oświecony! Przeczytałem prawie wszystko! 
+주안술서를 통해 주화입마에서 빠져나왔습니다.	Uniknąłeś klątwy Złego Ducha przy pomocy Zwoju Egzorcyzmu. 
+죽은 말에게 사료를 먹일 수 없습니다.	Nie możesz karmić martwego konia. 
+죽은 정보 %s deadcount %d Empire %d killcount %d(Purpose %d) killmobcount %d, RegenFlag %d	%s deadcount %d Empire %d killcount %d(Purpose %d) killmobcount %d, RegenFlag %d 
+죽지 않은 말에게 선초를 먹일 수 없습니다.	Zioło z małp nie nadaje się na karmę. Służy ożywianiu martwych koni. 
+지금부터 %s은 30분간 봉화를 파괴하여 보상을 획득 할 수 있습니다.	Przez 30 minut od teraz gracz %s może dostać nagrodę, gdyż zniszczył ognisko. 
+지능 +%d	Inteligencja +%d 
+지능이 낮아 착용할 수 없습니다.	Twój poziom Inteligencji jest za niski, aby wyposażyć się w ten przedmiot. 
+직접 타격치 반사 확률 : %d%%	Odbicie bezpośredniego uderzenia: %d%% 
+진노국	Królestwo Jinno 
+착용 중인 아이템은 판매할 수 없습니다.	Nie możesz sprzedawać założonych przedmiotów. 
+착용 중인 용혼석은 추출할 수 없습니다.	Nie można usunąć tego Smoczego Kamienia. 
+참	TRUE 
+창고,거래창등이 열린 상태에서는 개량을 할수가 없습니다	Nie możesz ulepszyć, podczas gdy Sklep albo Okno Handlu jest otwarte. 
+창고를 연후 %d초 이내에는 거래를 할수 없습니다.	Możesz handlować ponownie za %d sekund. 
+창고를 연후 %d초 이내에는 귀환부,귀환기억부를 사용할 수 없습니다.	Nie możesz użyć Zwoju Powrotu przez %d sekund po otwarciu Magazynu. 
+창고를 연후 %d초 이내에는 다른곳으로 이동할수 없습니다.	Nie możesz udać się w inne miejsce przez %d sekund po otwarciu Magazynu. 
+채광에 성공하였습니다.	Wydobycie zakończone pomyślnie. 
+채광에 실패하였습니다.	Wydobycie niepomyślne. 
+채광을 중단하였습니다.	Górnictwo zakończone. 
+채팅 금지 상태입니다.	Twój Chat jest zablokowany. 
+채팅 금지가 풀렸습니다.	Twój Chat został odblokowany. 
+책으로 더 높은 경지의 수련을 성공적으로 끝내셨습니다.	Pomyślnie zakończyłeś trening przy pomocy książki. 
+책장도 이제 얼마 남지 않았군.	Zostało mi już tylko kilka stron do przeczytania. 
+천조국	Królestwo Chunjo 
+청소할 석이 박혀있지 않습니다.	Nie posiadasz Odłamu Kamienia do usuwania. 
+체력 +%d	Wytrzymałość +%d 
+체력이 낮아 착용할 수 없습니다.	Twoja Witalność jest za niska, aby wyposażyć się w ten przedmiot. 
+총 퀴즈 수: %d	Całkowita liczba Pytań: %d 
+최대 생명력 +%d	Punkty Życia +%d 
+최대 생명력 +%d%%	Górny limit Energii +%d%% 
+최대 정신력 +%d	Punkty Energii +%d 
+최대 정신력 +%d%%	Górny limit Energii +%d%% 
+최대 지구력 +%d	Maksymalna Wytrzymałość +%d 
+축복의 서와 현철을 합칠 수 있습니다.	Zwój Błogosławieństwa oraz Magiczny Metal mogą zostać połączone. 
+출마를 할수가 없습니다	Nie może być głosowany. 
+충전할 수 없습니다.	Tego Smoczego Kamienia nie możesz ponownie napełnić. 
+취소 되었습니다.	Wylogowanie zostało anulowane. 
+캐릭터를 전환 합니다. 잠시만 기다리세요.	Zmieniłeś postać. Proszę czekać. 
+쿨타임 -%d	Czas wypoczynku -%d 
+쿨타임 적용중  %d 후 사용가능	Gotowe. Będzie nadawać się do użytku po %d. 
+퀘스트를 로드하는 중입니다. 잠시만 기다려 주십시오.	Twoja prośba jest wczytywana. Proszę czekać. 
+크윽, 기가 역류하고 있어! 이거 설마 주화입마인가!? 젠장!	To nie zadziałało. Bleh! 
+클라이언트 버전이 틀려 로그아웃 됩니다. 정상적으로 패치 후 접속하세요.	Twoja wersja klienta jest niewłaściwa. Proszę zainstalować normalny patch. 
+타격치 %d%% 를 생명력으로 흡수	Pochłanianie Energii %d%% podczas ataku. 
+타력치 %d%% 를 정신력으로 흡수	Pochłanianie Many %d%% podczas ataku. 
+타제국 유저는 소환 할수 없습니다	Nie możesz przenosić nieznanych graczy. 
+타제국 유저에게는 이동할수 없습니다	Nie możesz przenieść się do nieznanego gracza. 
+탄 상태에서는 할 수 없습니다.	Nie możesz tego zrobić, gdy dosiadasz konia. 
+테스트 서버 시간제한 통과	Limit czasowy na serwerze testowym został przekroczony. 
+파티 중이 아닙니다.	Nie jesteś w tej Grupie. 
+파티의 협동력이 높아져 지금부터 추가 경험치 보너스를 받습니다.	Twoja grupa jest bardzo zgrana i otrzymała bonus doświadczenia. 
+파티장이 접속 상태가 아니라서 요청을 할 수 없습니다.	<Grupa> Nie możesz wysłać Prośby, ponieważ Lider grupy jest offline. 
+판매금액의 %d %% 가 세금으로 나가게됩니다	Podatek od sprzedaży: %d%%. 
+퍼펙트 마스터된 스킬입니다. 더 이상 수련 할 수 없습니다.	Jesteś już mistrzem w tej umiejętności. Nie możesz jej już szkolić. 
+평타 데미지 %d%%	Obrażenia Uderzeń %d%% 
+평타 데미지 저항 %d%%	Odporność na Trafienia %d%% 
+플레이어 %d 와 플레이어  %d를 파혼시킵니다..	Zerwany kontrakt pomiędzy graczami %d i %d. 
+한손검 방어 %d%%	Odporność na Miecze %d%% 
+해당 유저는 %d 채널에 있습니다. (현재 채널 %d)	Dodawanie gracza %d do kanału. (Aktualny kanał %d) 
+핸드폰 번호가 등록 되었습니다.	Numer komórkowy jest zarejestrowany. 
+핸드폰 번호가 등록되어 있지 않습니다.	Numer telefonu komórkowego nie jest zapisany. 
+현재 %s 국고에는 %d 의 돈이 있습니다	%s nadal ma %d Yang. 
+현재 %s 국고에는 %u 의 돈이 있습니다	%s nadal ma %u Yang. 
+현재 남은 참가자수 : %d	Liczba innych uczestników: %d 
+현재 스코어 신수국:%d 천조국:%d 진노국:%d	Aktualna punktacja: Shinsoo %d, Chunjo %d, Jinno %d 
+현재 온라인 상태 입니다. 귓말을 이용하세요.	Gracz jest dostępny. Proszę skorzystać z szeptów. 
+현재 위치에서 사용할 수 없습니다.	Nie możesz tego użyć z Twojego aktualnego położenia. 
+현재 이벤트 참가자 분들은 마을로 이동 되겠습니다.	Aktualny Wydarzenie jest ograniczone tylko do jednego obszaru. 
+현재 전쟁중인 길드 입니다	Ta Gildia jest w stanie wojny. 
+현재 헤어스타일에서는 염색과 탈색이 불가능합니다.	Nie możesz pofarbować lub wybielić swojej aktualnej fryzury. 
+화염 저항 %d%%	Odporność na Ogień %d%% 
+활 공격 회피 확률 %d%%	%d%% szans na blok ataku dystansowego 
+활공격 저항 %d%%	Odporność na Atak z odległości %d%% 
+
+
+
+
+%s accounts were banned permanently because of: %s	%s accounts were banned permanently because of: %s. 
+%s bloklandi	%s has been blocked. 
+%s does not exist.	%s doesnt exist. 
+%s has been banned for %s because of: %s	%s has been banned for %s because of: %s. 
+%s has been banned permanently with reason: %s	%s has been banned permanently with reason: %s. 
+%s_ADDED_%d_OF_EXCHANGE_ITEM_%s	%s has added %d to %s. 
+%s_ADDED_EXCHANGE_ITEM_%s	%s addet the item %s. 
+%s_DECREASED_EXCHANGE_GOLD_TO_%s	%s has reduced to %s. 
+%s_INCREASED_EXCHANGE_GOLD_TO_%s	%s has increased the gold to %s. 
+%s_READIED_UP_EXCHANGE	%s prepared the trading. 
+%s_REMOVED_%d_OF_EXCHANGE_ITEM_%s	%s removed %d to %s. 
+%s_REMOVED_EXCHANGE_ITEM_%s	%s has removed the item %s. 
+%s_REMOVED_READY_EXCHANGE	%s has stopped the trading. 
+'s Mount	's Mount 
+AUTOLOOT	Third Hand
+Automatic unstuck did not find a valid position. Ask a GM.	Automatic unstuck did not find a valid position. 
+CANNOT_RIDE_WHILE_POLYMORPHED	You cannot ride while your transformed. 
+CHANGE_CHANNEL_UNAVAILABLE	Channel not available. 
+CHANGE_CHANNEL_ALREADY	You are already on the selected channel. 
+CHANGING_CHANNEL	Zmieniasz kanał! 
+Cannot equip a costume not matching the weapon type.	You cannot equip a costume not matching the weapon type. 
+Cannot equip a costume without a weapon	You cannot equip a costume without a weapon. 
+Chat has been banned on the operator form.	Chat has been banned on the operator form. 
+Do not spam the chat!	Do not spam the chat! 
+ELK_SET_TO_%lld	%lld has been added.
+FISH_MIND	Fish Skill 
+ITEM_CANNOT_BE_DESTROYED	This item cannot be destroyed. 
+ITEM_IS_NOT_SEALED	This item is not sealed! 
+ITEM_IS_SEALED_CANNOT_DO	This item is sealed! 
+Inventory sorting only every 15 seconds	Inventory sorting only every 15 seconds
+NO_PLAYER_FOUND_BY_NAME	The character was not found. 
+OFFLINE_MESSAGE_SUCCESS	The offline message was sent successfully! 
+PRIVATE_SHOP_SEARCH_SYSTEM_DISABLED	Currently the shopsearch is disabled. 
+SAFEBOX	Storage Place 
+TRADE_COMPLETED_WITHOUT_GOODS_EXCHANGE	The trade was without any items and gold successful. 
+TRADE_STARTED	Trading started. 
+This is not the correct evolution item for this item or it has none	This is not the correct evolution item for this item or it has none. 
+This item cannot be used on this map	This item cannot be used on this map 
+WEDDING_ENDING_LEAVE	The wedding ended. 
+WEDDING_ENDING_SOON	The wedding will end soon. 
+YOU_ADDED_%d_OF_EXCHANGE_ITEM_%s	You have added %d to %s. 
+YOU_ADDED_EXCHANGE_ITEM_%s	You added %s. 
+YOU_CANNOT_DROP_GOLD	You cannot drop gold. 
+YOU_CANNOT_OPEN_SHOP_ON_THIS_MAP	You cannot open a shop on this map. 
+YOU_CAN_ONLY_CHANGE_YOUR_SHOP_NAME_ONCE_IN_60_MINUTES_(%02d:%02d_left)	You can only change your shopname once in 60 minutes (%02d:%02d übrig) 
+YOU_DECREASED_EXCHANGE_GOLD_TO_%s	You reduced the gold to %s. 
+YOU_HAVE_%s_GOLD_WAITING_WITHDRAW_SHOP	you have %s gold in your offlineshop. 
+YOU_INCREASED_EXCHANGE_GOLD_TO_%s	You increased the gold to %s. 
+YOU_READIED_UP_EXCHANGE	You prepare the trading. 
+YOU_REMOVED_%d_OF_EXCHANGE_ITEM_%s	you removed %d to %s. 
+YOU_REMOVED_EXCHANGE_ITEM_%s	You removed the item %s. 
+YOU_REMOVED_READY_EXCHANGE	You have stopped the trading. 
+You blocked %s	%s ist blockiert! 
+You can not change the equipment you are wearing while you are polymorphed.	You can not change the equipment you are wearing while you are polymorphed.
+You can only adjust your points while you are still.	You can only adjust your points without moving.
+You can post a new comment in: %02d minutes and %02d seconds!	You can post a new comment in: %02d minutes and %02d seconds seconds! 
+You can wear it only when you are still.	You can wear it only when you dont move.
+You cannot activate two items of this kind.	You cannot activate two items of this kind.
+You cannot block a game master	You cannot block a game master! 
+You cannot change your teaching this way after choosing one.	You cannot change your teaching this way after choosing one. 
+You cannot define a sealed item	You cannot define a sealed item! 
+You cannot do this so fast.	You cannot do this so fast. 
+You cannot equip this sash on this map	You cannot equip this sash on this map
+You cannot open the guild storage without a guild.	You cannot open the guild storage without a guild.
+You cannot use skills for 2 seconds after changing your equipment.	You cannot use skills for 0.5 seconds after changing your equipment. 
+You have blocked private messages	You have blocked private messages! 
+You need at least 3 free inventory slots to open a chest.	You need at least 3 free inventory slots to open a chest.
+You need to be atleast level %d to use the shout chat.	You need to be atleast level %d to use the shout chat.
+you cannot use this item on this map.	You cannot use this pet-seal-item on this map. 
+{} do not spam in whispers	{} do not spam in whispers! 
+{} does not accept private messages	{} does not accept private messages! 
+{} is not online	{} is not online! 
+더 이상 이 아이템으로 속성을 추가할 수 없습니다	The maximum number of bonuses has already been reached. 
+성공적으로 속성이 추가 되었습니다	The bonus was added. 
+The dungeon master is checking right now	The dungeon master is checking right now
+The dungeon master is checking your progress every 45 seconds	The dungeon master is checking your progress every 45 seconds
+Valentine chasm: Destroy all metins and get a gem!	Destroy all metins and get a gem!
+Valentine chasm: You still have to destroy 5 metins	You still have to destroy 5 metins!
+Valentine chasm: You still have to destroy 4 metins	You still have to destroy 4 metins!
+Valentine chasm: You still have to destroy 3 metins	You still have to destroy 3 metins!
+Valentine chasm: You still have to destroy 2 metins	You still have to destroy 2 metins!
+Valentine chasm: You still have to destroy 1 metins	You still have to destroy 1 metins!
+Valentine chasm: You destroyed all metin stones!	Valentine chasm: You destroyed all metin stones!
+Valentine chasm: Monsters are coming!alentine chasm: Now put the gem to monument and destroy it!	Valentine chasm: Monsters are coming!alentine chasm: Now put the gem to monument and destroy it!
+Valentine chasm: Monsters are coming!	Valentine chasm: Monsters are coming!
+Valentine chasm: Kill them all!	Valentine chasm: Kill them all!
+Valentine chasm: Find an unknown herb and take it to Lady.	Valentine chasm: Find an unknown herb and take it to Lady.
+Valentine chasm: You will be teleported to the next level.	Valentine chasm: You will be teleported to the next level.
+Valentine chasm: Kill all monsters!	Valentine chasm: Kill all monsters!
+Valentine chasm: Destroy the right metin to spawn rhodolite ore!	Valentine chasm: Destroy the right metin to spawn rhodolite ore!
+Valentine chasm: Rhodolite ore was just spawned!	Valentine chasm: Rhodolite ore was just spawned!
+Valentine chasm: There was nothing in this metin.	Valentine chasm: There was nothing in this metin.
+Valentine chasm: This ore is too hard.	Valentine chasm: This ore is too hard.
+Valentine chasm: Even a pick is too weak for it.	Valentine chasm: Even a pick is too weak for it.
+Valentine chasm: Let's speak with dryade again.	Valentine chasm: Let's speak with dryade again.
+Valentine chasm: Open the ore with magic dust	Valentine chasm: Open the ore with magic dust
+Valentine chasm: Give the rhodolite to dryade.	Valentine chasm: Give the rhodolite to dryade.
+Valentine chasm: You get a chocolate.	Valentine chasm: You get a chocolate.
+Valentine chasm: Look, Lady Valentine. Go to speak with her!	Valentine chasm: Look, Lady Valentine. Go to speak with her!
+Valentine chasm: Fast!!	Valentine chasm: Fast!!
+Valentine chasm: Give the poisoned chocolate to dryade!	Valentine chasm: Give the poisoned chocolate to dryade!
+Dryade: You've killed me!	Dryade: You've killed me!
+Dryade: You fooooool!	Dryade: You fooooool!
+Valentine chasm: You've killed valentine tree!	Valentine chasm: You've killed valentine tree!
+Valentine chasm: Dungeon was succesfully finished!	Valentine chasm: Dungeon was succesfully finished!
+Valentine chasm: Kill the Valentine tree	Valentine chasm: Kill the Valentine tree
+Valentine chasm: You have killed all monsetrs!	Valentine chasm: You have killed all monsetrs!
+Valentine chasm: Let's speak with ghost of Lady Valentine	Valentine chasm: Let's speak with ghost of Lady Valentine
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: Another wave of monsters is coming!	Valentine chasm: Another wave of monsters is coming!
+Valentine chasm: Valentine tree doesn't want to give up!"	Valentine chasm: Valentine tree doesn't want to give up!"
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: You have killed all monsetrs!	Valentine chasm: You have killed all monsetrs!
+Valentine chasm: But something is wrong.. Lady Valentine is not here	Valentine chasm: But something is wrong.. Lady Valentine is not here
+Valentine chasm: Look, Dryade!	Valentine chasm: Look, Dryade!
+Valentine chasm: You still have to kill %d mobs to move on.	Valentine chasm: You still have to kill %d mobs to move on.
+Valentine chasm: 15 minutes left!	Valentine chasm: 15 minutes left!
+Valentine chasm: 10 minutes left!	Valentine chasm: 10 minutes left!
+Valentine chasm: 5 minutes left!	Valentine chasm: 5 minutes left!
+Valentine chasm: You are running out of time! Hurry up!	Valentine chasm: You are running out of time! Hurry up!
+Valentine chasm: 1 minute left!	Valentine chasm: 1 minute left!
+Valentine chasm: You are almost failed!!	Valentine chasm: You are almost failed!!
+Valentine chasm: Time has expired!	Valentine chasm: Time has expired!
+Valentine chasm: You failed!	Valentine chasm: You failed!
+Valentine chasm: You will be teleported out of dungeon!	Valentine chasm: You will be teleported out of dungeon!
+
+Easter dungeon: Now destroy all metin stones.	Easter dungeon: Now destroy all metin stones.
+Easter dungeon: Defeat Evil easter rabbit!	Easter dungeon: Defeat Evil easter rabbit!
+Easter dungeon: Well done! Now kill all monsters!	Easter dungeon: Well done! Now kill all monsters!
+Easter dungeon: Give the coin to rabbit!	Easter dungeon: Give the coin to rabbit!
+Easter dungeon: He has cheated on you!	Easter dungeon: He has cheated on you!
+Easter dungeon: Be careful! Monsters are coming!	Easter dungeon: Be careful! Monsters are coming!
+Easter dungeon: Well done! Now kill all monsters!	Easter dungeon: Well done! Now kill all monsters!
+Easter dungeon: You've succefuly finished the dungeon!	Easter dungeon: You've succefuly finished the dungeon!
+Easter dungeon: You will be teleported in 30 seconds.	You will be teleported in 30 seconds.
+Easter dungeon: Well done! Now destroy an easter egg!	Easter dungeon: Well done! Now destroy an easter egg!
+Easter dungeon: You've succesfuly killed all monsters.	Easter dungeon: You've succesfuly killed all monsters.
+Easter dungeon: Destroy a metin stone to move on!	Easter dungeon: Destroy a metin stone to move on!
+Easter dungeon: You will jump to next level!	Easter dungeon: You will jump to next level!
+Easter dungeon: Destroy evil egg to get a key.	Easter dungeon: Destroy evil egg to get a key.
+Easter dungeon: Kill all metin stones!	Easter dungeon: Kill all metin stones!
+Easter dungeon: 15 minutes left!	Easter dungeon: 15 minutes left!
+Easter dungeon: 10 minutes left!	60 minutes left!
+Easter dungeon: 5 minutes left! The time is running out!	Easter dungeon: 5 minutes left! The time is running out!
+Easter dungeon: 1 minutes left! You're almost failed!	Easter dungeon: 1 minutes left! You're almost failed!
+Easter dungeon: You will be teleported out of dungeon!	Easter dungeon: You will be teleported out of dungeon!
+
+Jagras: Kill all owls	Jagras: Kill all owls
+Jagras: You have killed all monsetrs.	Jagras: You have killed all monsetrs.
+Jagras: Now place %s to the totem and destroy it!	Jagras: Now place %s to the totem and destroy it!
+Jagras: You still have to kill %s mobs to get a key.	Jagras: You still have to kill %s mobs to get a key.
+Jagras: Something happened...	Jagras: Something happened...
+Jagras: This key doesn't works. Next %s are coming!!	Jagras: This key doesn't works. Next %s are coming!!
+Jagras: Kill them fast!!	Jagras: Kill them fast!!
+Jagras: You have killed all monsetrs.	Jagras: You have killed all monsetrs.
+Jagras: Now place %s to the totem and destroy it!	Jagras: Now place %s to the totem and destroy it!
+Jagras: You still have to kill %s mobs to get a key.	Jagras: You still have to kill %s mobs to get a key.
+Jagras: Destroy the metin in 2 minutes!!	Jagras: Destroy the metin in 2 minutes!!
+Jagras: If you won't destroy it in 2 minutes,	Jagras: If you won't destroy it in 2 minutes,
+Jagras: you will be out of the dungeon.	Jagras: you will be out of the dungeon.
+Jagras: You succesfuly destroyed the metin!	Jagras: You succesfuly destroyed the metin!
+Jagras: Monsters are coming!!	Jagras: Monsters are coming!!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: 4 metin stones left!	Jagras: 4 metin stones left!
+Jagras: 3 metin stones left!	Jagras: 3 metin stones left!
+Jagras: 2 metin stones left!	Jagras: 2 metin stones left!
+Jagras: 1 metin stone left!	Jagras: 1 metin stone left!
+Jagras: You've destroyed all metin stones.	Jagras: You've destroyed all metin stones.
+Jagras: The gate to next floor is open!	Jagras: The gate to next floor is open!
+Jagras: You've found first ingredient!	Jagras: You've found first ingredient!
+Jagras: Be careful! Owls are coming!	Jagras: Be careful! Owls are coming!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: There was nothing in this metin.	Jagras: There was nothing in this metin.
+Jagras: Suran was defeated!	Jagras: Suran was defeated!
+Jagras: You get another ingredient!	Jagras: You get another ingredient!
+Jagras: Lira is alive thanks to you!	Jagras: Lira is alive thanks to you!
+Jagras: Final floor is open now!	Jagras: Final floor is open now!
+Jagras: 3 statues has left!	Jagras: 3 statues has left!
+Jagras: 2 statues has left!	Jagras: 2 statues has left!
+Jagras: 1 statue has left!	Jagras: 1 statue has left!
+Jagras: All statues was destroyed!	Jagras: All statues was destroyed!
+Jagras: Monsters are coming!	Jagras: Monsters are coming!
+Jagras: Kill them all!	Jagras: Kill them all!
+Jagras: Perfect! Be prepared!	Jagras: Perfect! Be prepared!
+Jagras: Jagras-Mu-Tai is coming!!!	Jagras: Jagras-Mu-Tai is coming!!!
+Jagras: You succesfully finished the dungeon!	Jagras: You succesfully finished the dungeon!
+Jagras: You will be teleported in 2 minutes	Jagras: You will be teleported in 30 seconds.
+Jagras: out of dungeon.	Jagras: out of dungeon.
+Jagras: You have killed all monsetrs!	Jagras: You have killed all monsetrs!
+Jagras: Watch out! Stronger monsters are coming!	Jagras: Watch out! Stronger monsters are coming!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: You have killed all monsetrs!	Jagras: You have killed all monsetrs!
+Jagras: Destroy all metin stones!	Jagras: Destroy all metin stones!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: Suran is here!	Jagras: Suran is here!
+Jagras: Defeat him!	Jagras: Defeat him!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: Great job!	Jagras: Great job!
+Jagras: Be careful now!	Jagras: Be careful now!
+Jagras: 2 Surans are coming!	Jagras: 2 Surans are coming!
+Jagras: Kill them!	Jagras: Kill them!
+Jagras: You still have to kill %s mobs to move on.	Jagras: You still have to kill %s mobs to move on.
+Jagras: 30 minutes left!	Jagras: 30 minutes left!
+Jagras: 15 minutes left!	Jagras: 15 minutes left!
+Jagras: 10 minutes left!	Jagras: 10 minutes left!
+Jagras: 5 minutes left!	Jagras: 5 minutes left!
+Jagras: Hurry up!!	Jagras: Hurry up!!
+Jagras: 1 minute left!	Jagras: 1 minute left!
+Jagras: You are almost failed!!	Jagras: You are almost failed!!
+Jagras: Time has expired!	Jagras: Time has expired!
+Jagras: You failed!	Jagras: You failed!
+Jagras: You will be teleported out of dungeon!	Jagras: You will be teleported out of dungeon!
+
+PRIVATE_SHOP_SEARCH_NEED_WAIT_%d_LEFT_(%d)	You must wait %d seconds. %d seconds left. 
+PRIVATE_SHOP_SEARCH_NO_SHOPS_FOUND	No item found. 
+Die Gruppe von	The group of 
+hat den Unterwasser-Dungeon absolviert, Glückwunsch!	 absolved the Underwater-Dungeon, congratulations! 
+%s hat den %s bereits %s Mal gekillt (%s Sekunden)	Grupa %s uczyniła %s %s. Pokonany! Gratulacje! (%s Seconds)
+%s hat den %s gekillt	Grupa %s uczyniła %s! Gratulacje!
+%s hat das maximale Level erreicht, Glückwunsch!	%s osiągnął maksymalny poziom, gratulacje!
+You cannot enhance the time of this item while it is stacked.	You cannot enhance the time of this item while it is stacked. 
+Maintenance shutdown will begin in %d seconds.	Maintenance shutdown will begin in %d seconds.
+We compliment the Guild %s they defeated Meley, the Queen of the Dragons!	We compliment the Guild %s they defeated Meley, the Queen of the Dragons!
+All demons were defeated.	All demons were defeated.
+Visits the Maw of the in heh to open another to fate castle.	Visits the Maw of the in heh to open another to fate castle.
+There isn't enough space in the inventory.	There isn't enough space in the inventory.
+%s has married %s	%s has %s married.
+Block: 	Block: 
+Guild	Guild
+Exchange	Exchange
+Duel	Duel
+Request	Request
+Chat	Chat
+Whisper	Whisper
+Friend	Friend
+Equip	Equip
+Shop	Shop
+Group	Group
+There are invalid characters in your title.	There are invalid characters in your title.
+You cannot use this color in your title.	You cannot use this color in your title.
+The player %s blocked viewing of his equipment!	The player %s blocked viewing of his equipment!
+You blocked duel requests for %s	You blocked duel requests for %s
+You cannot activate and deactivate this so quickly	You cannot activate and deactivate this so quickly
+You can only change your equipment while you are still.	You can only change your equipment while you are still.
+Töte Metinsteine solange, bis du einen Frostschlüssel erhältst und öffne damit die Säulen.	Kill Metin Stones until you get a Frost Key and open the pillars with it.
+Die Siegel sind geöffnet, der Baron Nashor erscheint!	The seals are opened, the Baron Nashor appears!
+Besiegt den Boss!	Defeat the boss!
+%s hat die 1. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 20% Halbmenschen.	%s has successfully completed the 1st Biologist Quest. The biologist awards you 20% half-human.
+%s hat die 2. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 30% Halbmenschen.	%s has successfully completed the 2nd Biologist Quest. The biologist awards you 30% half-human.
+%s hat die 3. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 40% Halbmenschen.	%s has successfully completed the 3rd Biologist Quest. The biologist awards you 40% half-human.
+%s hat die 4. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 60% Halbmenschen.	%s has successfully completed the 4th Biologist Quest. The biologist awards you 60% half-human.
+%s hat die 5. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 50% Stark gegen Kreaturen.	%s has successfully completed the 5th Biologist Quest. The biologist awards you 50% Strong against Creatures.
+%s hat die 6. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 100% Stark gegen Kreaturen.	%s has successfully completed the 6th Biologist Quest. The biologist awards you 100% Strong against Creatures.
+%s hat die 7. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 50% Stark gegen Esoterische.	%s has successfully completed the 7th Biologist Quest. The biologist awards you 50% Strong against Mystics.
+%s hat die 8. Biologenquest erfolgreich absolviert. Der Biologe verleiht dir 100% Stark gegen Esoterische.	%s has successfully completed the 8th Biologist Quest. The biologist awards you 100% Strong against Mystics.
+Easter dungeon: You still have to defeat %s monsters to move on.	You still have to defeat %s monsters to move on.
+Easter dungeon: %s eggs has left!	%s easter eggs has left!
+Easter dungeon: %s metin stones has left!	%s metin stones has left!
+CANNOT_WARP_NOW	You can't do this activity yet.
+You cannot perform this action right now.	You cannot perform this action right now.
+You can't open an empty shop.	Du kannst keinen leeren Laden eröffnen.
+You already have a shop opened.	Du hast bereits einen Laden offen. 
+You sold %dx %s for %lld Yang.	You sold %dx %s for %lld Yang.
+You've withdrawn %lld Yang from your shop sales stash.	Du hast %lld Yang vom Laden abgehoben. 
+ITEM_SEALED	This item was successfully soulbound.
+ITEM_SEALED_CANNOT_MODIFY	Soulbound items cannot be modified.
+변경 시킬 속성이 없습니다	You cannot enchant this item without the 6/7 bonus.
+You cannot open a storage if another Window is already open.	Du kannst keinen Laden öffnen, wenn bereits ein anderes Fenster offen ist.
+Switchbot Slot %d stopped out of bonus changers.	Switchbot Slot %d stopped out of bonus changers.
+Du wirst in %s Sekunden herausteleportiert.	You will be teleported in %s seconds.
+You don't have enough money!	You don't have enough money!
+You can not open a shop while you are trading.	You can not open a shop while you are trading.
+Your cannot spawn your pet while having the status window open.	Your cannot spawn your pet while having the status window open.
+You cannot add attributes to this item.	You cannot add attributes to this item.
+You cannot change the attributes of this item.	You cannot change the attributes of this item.
+This food can only be used for pet level %d to %d	This food can only be used for pet level %d to %d
+This food is only for pets	This food is only for pets
+Your pet no longer listens to you. Your level is too low.	Your pet no longer listens to you. Your level is too low.
+The pet already has reached its maximum level	The pet already has reached its maximum level
+<Guild> The field war is disabled on this server.	<Guild> The field war is disabled on this server.
+You can not use this so fast.	You can not use this so fast.
+You have successfully added a socket to this item.	You have successfully added a socket to this item.
+You cannot add sockets to this item.	You cannot add sockets to this item.
+Successfully added a socket to this item	Successfully added a socket to this item
+This item already cannot gain more sockets.	This item already cannot gain more sockets.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_SHOPPING	You cannot move items while you are in a Shop.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_EDITING	You cannot move items while you are in a Shop.
+OFFLINE_SHOP_CANNOT_MOVE_ITEMS_WHILE_CREATING	You cannot move items while you are in a Shop.
+You cannot add sockets to an item with less than 3 sockets.	You cannot add sockets to an item with less than 3 sockets.
+You can only change your shop name once every hour (%02d:%02d:%02d).	You can only change your shop name once every hour (%02d:%02d:%02d).
+You tried to put at least one item into the shop which can not be traded yet.	You tried to put at least one item into the shop which can not be traded yet.
+You cannot use this item on this map.	You cannot use this item on this map.
+%s scored first blood	%s scored first blood
+You cannot unequip the armor. Not enough space for your armor effect	You cannot unequip the armor. Not enough space for your armor effect
+You need to wait some time for the next emotion.	You need to wait some time for the next emotion.
+%s blocks duel requests	%s blocks duel requests
+Failed to make one socket permanent	Failed to make one socket permanent
+Successfully to made one socket permanent	Successfully to made one socket permanent
+Already every socket permanent	Already every socket permanent
+A world boss is [%s] spawned.	A world boss is [%s] spawned.
+You cannot use this item in this area.	You cannot use this item in this area.
+Missing %s %s to create the recipe you have chosen	Missing %s %s to create the recipe you have chosen
+Double Drop Amount	Double-Loot-Event
+Double-Loot Event is active!	Double-Loot Event is active!
+%s: Double-Loot Event is active	%s: Double-Loot Event is active
+%s: Double-Loot Event ended	%s: Double-Loot Event ended
+%s has killed you with hp %d left over.	%s zabił cię, a pozostało ci jeszcze %d hp.
+There is no one currently registered in the ranking.	There is no one currently registered in the ranking.
+Player %s successfully finished Battle Pass %s.	Player %s successfully finished Battle Pass %s.
+Ancient pyramid: Destroy the stone within 4 minutes!	Kulve Taroth: Zniszcz kamień w ciągu 4 minut!
+Ancient pyramid: Otherwise, you will be teleported out of dungeon.	Kulve Taroth: W przeciwnym razie zostaniesz teleportowany z dungeonu.
+Ancient pyramid: You will continue in few seconds.  Kulve Taroth: Za kilka sekund będziesz kontynuować.
+Ancient pyramid: You have failed!	Kulve Taroth: Nie udało ci się!
+Ancient pyramid: Kill monsters to collect pieces of pergamen, once you have 4 pieces	Kulve Taroth: Zabijaj potwory, aby zbierać kawałki pergamenu, gdy masz 4 kawałki
+Ancient pyramid: destroy the %s!	Kulve Taroth: zniszczyć %s!
+Ancient pyramid: You have all pieces! Go to seal and decipher it!	Kulve Taroth: Masz wszystkie kawałki! Idź do pieczęci i rozszyfruj ją!
+Ancient pyramid: It was spell to summon %s, kill it!	Kulve Taroth: To było zaklęcie przywołujące %s, zabij je!
+Ancient pyramid: You will jump to next floor in few seconds	Kulve Taroth: W ciągu kilku sekund przeskoczysz na następne piętro
+Ancient pyramid: Find and destroy right %s within 21 minutes!	Kulve Taroth: Znajdź i zniszcz właściwe %s w ciągu 21 minut!
+Ancient pyramid: Be careful, something strong is hiding inside of them!	Kulve Taroth: Uważaj, kryje się w nich coś silnego!
+Ancient pyramid: You have destroyed the right stone!	Kulve Taroth: Zniszczyłeś właściwy kamień!
+Ancient pyramid: %s is coming!	Kulve Taroth: %s nadchodzi!
+Ancient pyramid: This stone was just an illusion.	Kulve Taroth: Ten kamień był tylko iluzją.
+Ancient pyramid: You have failed!	Kulve Taroth: Nie udało ci się!
+Ancient pyramid: You will jump to next floor in few seconds	Kulve Taroth: W ciągu kilku sekund przeskoczysz na następne piętro
+Ancient pyramid: Find a way out from this maze!	Kulve Taroth: Znajdź wyjście z tego labiryntu!
+Ancient pyramid: At the end, you have to kill real %s!	Kulve Taroth: Na końcu musisz zabić prawdziwych %s!
+Ancient pyramid: This was the real %s	Kulve Taroth: To był prawdziwy %s
+Ancient pyramid: You will be moved to next floor in few seconds	Kulve Taroth: Za kilka sekund zostaniesz przeniesiony na następne piętro
+Ancient pyramid: This was a fake %s!	Kulve Taroth: To był fałszywy %s!
+Ancient pyramid: Destroy all %s, but be careful, it has its own mechanism!	Kulve Taroth: Zniszcz wszystkie %s, ale uważaj, ma on swój własny mechanizm!
+Ancient pyramid: You need to destroy them in exact sequence!	Kulve Taroth: Musisz zniszczyć je w dokładnej kolejności!
+Ancient pyramid: This was the right one!	Kulve Taroth: To był ten właściwy!
+Ancient pyramid: Now destroy %s to get another item!	Kulve Taroth: Teraz zniszcz %s, aby zdobyć kolejny przedmiot!
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: Musisz zniszczyć inne %s
+Ancient pyramid: Great! Monsters are coming! One of them has another item!	Kulve Taroth: Wspaniale! Nadchodzą potwory! Jeden z nich ma jeszcze jeden przedmiot!
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: Musisz zniszczyć inne %s
+Ancient pyramid: You need to destroy other %s	Kulve Taroth: Musisz zniszczyć inne %s
+Ancient pyramid: Great, but now, to alert!!!	Kulve Taroth: Świetnie, ale teraz, do alarmu!!!
+Ancient pyramid: Real Anubis is coming!	Kulve Taroth: Prawdziwy Anubis nadchodzi!
+Ancient pyramid: %s stones has left!	Kulve Taroth: %s kamieni zostało!
+Ancient pyramid: You will be moved to next floor in few seconds	Kulve Taroth: Za kilka sekund zostaniesz przeniesiony na następne piętro.
+Ancient pyramid: Destroy %s to be able summon a real boss!	Kulve Taroth: Zniszcz %s, aby móc przywołać prawdziwego bossa!
+Ancient pyramid: Kill all monsters now!	Kulve Taroth: Zabij wszystkie potwory teraz!
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: Zaklęcie zniknęło, możesz wziąć %s
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: Zaklęcie zniknęło, możesz wziąć %s
+Ancient pyramid: %s is gonna appear.	Kulve Taroth: %s pojawi się.
+Ancient pyramid: It can spawn any previous monsters and bosses!	Kulve Taroth: Może zrodzić wszystkie poprzednie potwory i bossów!
+Ancient pyramid: If you destroy it within 5 minutes, you avoid attracting another monsters!	Kulve Taroth: Jeśli zniszczysz go w ciągu 5 minut, unikniesz przyciągnięcia kolejnych potworów!
+Ancient pyramid: The spell is gone, you can take the %s	Kulve Taroth: Zaklęcie zniknęło, możesz wziąć %s
+Ancient pyramid: You were too slow, monsters have beholded you!	Kulve Taroth: Byłeś zbyt wolny, potwory cię dopadły!
+Ancient pyramid: They are coming, kill them all!	Kulve Taroth: Nadchodzą, zabijcie ich wszystkich!
+Ancient pyramid: %s has spawned!	Kulve Taroth: %s złożył ikrę!
+Ancient pyramid: Destroy it within 3 minutes! Otherwise, the dungeon will be closed	Kulve Taroth: Zabij go w ciągu 3 minut! W przeciwnym razie dungeon zostanie zamknięty
+Ancient pyramid: The %s has no power to do magic anymore!	Kulve Taroth: %s nie ma już siły, by robić magię!
+Ancient pyramid: Kill it!!	Kulve Taroth: Zabić go!!!
+Ancient pyramid: You have failed!	Kulve Taroth: Nie udało ci się!
+Ancient pyramid: The %s has been protected!	Kulve Taroth: Obiekt %s został zabezpieczony!
+Anci group: You did it! Spectacular job!	Kulve Taroth: Udało Ci się! Spektakularna robota!
+Anci group: Dungeon will be automatically closed in 3 minutes.	Kulve Taroth: Loch zostanie automatycznie zamknięty za 3 minuty.
+Ancient pyramid: You have failed!	Kulve Taroth: Nie udało ci się!
+%s benötigte %s Sekunden	%s potrzebuje%s sekund!
+Shadow tower: Destroy all %s! You have only limited time! Hurry up!	Vaal Hazak: Zniszcz wszystkie %s! Masz tylko ograniczony czas! Pospiesz się!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s jest wykryte! Możesz przejść na następne piętro!
+Shadow tower: Time is up. You have failed! Vaal Hazak:Czas minął. Nie udało ci się!
+Shadow tower: %s is coming!	Vaal Hazak: %s nadchodzi!
+Shadow tower: Kill second wave of monsters to destroy second %s!	Vaal Hazak: Zabij drugą falę potworów, aby zniszczyć drugi %s!
+Shadow tower: Time is up. You have failed! Vaal Hazak:Czas minął. Nie udało ci się!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s jest wykryte! Możesz przejść na następne piętro!
+Shadow tower: You have destroyed the right stone!	Vaal Hazak: Zniszczyłeś właściwy kamień!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s jest wykryte! Możesz przejść na następne piętro!
+Shadow tower: This one was just an illusion!	Vaal Hazak: Ten był tylko iluzją!
+Shadow tower: Well done! Now destroy the %s to able to continue!	Vaal Hazak: Dobra robota! Teraz zniszcz %s, aby móc kontynuować!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s jest wykryte! Możesz przejść na następne piętro!
+Shadow tower: Great job! You will proceed in few seconds!	Vaal Hazak: Dobra robota! Za kilka sekund przejdziesz dalej!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Czas minął. Nie udało ci się!
+Shadow tower: Protection of %s is gone. You can kill him now!	Vaal Hazak: Ochrona %s zniknęła. Możesz go teraz zabić!
+Shadow tower: %s wasn't destroyed yet. %s was recovered from shadows!	Vaal Hazak: %s nie został jeszcze zniszczony. %s został wydobyty z cienia!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s jest wykryte! Możesz przejść na następne piętro!
+Shadow tower: You died three times. You have failed.	Vaal Hazak: Umarłeś trzy razy. Nie udało ci się
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Czas minął. Nie udało ci się!
+Shadow tower: Beware! %s is coming!	Vaal Hazak: Uwaga! %s nadchodzi!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s jest wykryte! Możesz przejść na następne piętro!
+Shadow tower: If you have %s, you have last %s seconds to use it!	Vaal Hazak: Jeśli masz %s, masz ostatnie %s sekund, aby go użyć!
+Shadow tower: %s is now active! %s is gonna be much weaker!	Vaal Hazak: %s jest teraz aktywny! %s będzie znacznie słabszy!
+Shadow tower: This effect is already active!	Vaal Hazak: Ten efekt jest już aktywny!
+Shadow tower: You can use this only during first 8 floors!	Vaal Hazak: Możesz go używać tylko podczas pierwszych 8 pięter!
+Shadow tower: %s was revealed! You can proceed to next floor!	Vaal Hazak: %s jest wykryte! Możesz przejść na następne piętro!
+Shadow tower: Time is up. You have failed!	Vaal Hazak: Czas minął. Nie udało ci się!
+Shadow tower: One more wave is coming!	Vaal Hazak: Jeszcze jedna fala nadchodzi!
+Shadow tower: A monster is coming, its unknown!	Vaal Hazak: Nadchodzi potwór, który jest nieznany!
+Shadow tower: You are almost at the end. But the worst is just about to come!	Vaal Hazak: Jesteś już prawie u samego końca. Ale najgorsze dopiero nadejdzie!
+Shadow tower: Time is up. You have failed	Vaal Hazak: Czas minął. Nie udało ci się!
+Shadow tower: You will be teleported out of dungeon in %s minutes.	Vaal Hazak: Będziesz teleportowany z dungeonu za %s minut.
+Shadow tower: Destroy both %s! Destroy all monsters to get a key!	Vaal Hazak: Zniszcz oba %s! Zniszcz wszystkie potwory, aby zdobyć klucz!
+Shadow tower: Find real %s and destroy it!	Vaal Hazak: Znajdź prawdziwe %s i zniszcz je!
+Shadow tower: Every wrong stone hides %s inside!	Vaal Hazak: Każdy zły kamień kryje w sobie %s!
+Shadow tower: The more fake stones you destroy, the more HP will have a next boss!	Vaal Hazak: Im więcej fałszywych kamieni zniszczysz, tym więcej HP będzie miał następny boss!
+Shadow tower: Kill all monsters to get %s, then start to build a %s	Vaal Hazak: Zabij wszystkie potwory, aby zdobyć %s, a następnie zacznij budować %s
+Shadow tower: Destroy %s in %s minutes! Otherwise you will have to finish next mission 2x!	Vaal Hazak: Zniszcz %s w ciągu %s minut! W przeciwnym razie będziesz musiał ukończyć następną misję 2x!
+You are not allowed to create a shop on this map.	You are not allowed to create a shop on this map.

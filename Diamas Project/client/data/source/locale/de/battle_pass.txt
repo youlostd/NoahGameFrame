@@ -1,0 +1,19 @@
+1	Töte Monster	Übrig: {}	Monster: alle Monster	Töte Monster, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+2	Töte Spieler	Übrig: {}	Spieler: |cffff9d9d|H|hKeine Beschränkung|h|r	Töte |cffff9d9d|H|hSpieler|h|r, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+3	Schaden an Monster	Schaden: {}	Monster: |cffff9d9d|H|h{}|h|r	Totalschaden |cffff9d9d|H|h{}|h|r, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+4	Schaden an Spieler	Benötigter Schaden: {}	Ziel: |cffff9d9d|H|hSpieler|h|r	Mache Schaden an Spieler, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+5	Benutzte Gegenstände	Gegenstand: {}	Gegenstand: |cffff9d9d|H|h{}|h|r	Benutze |cffff9d9d|H|h{}|h|r, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+6	Verkaufte Gegenstände	Gegenstand: {}	Gegenstand: |cffff9d9d|H|h{}|h|r	Verkaufe |cffff9d9d|H|h{}|h|r, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+7	Crafte Gegenstand	Gegenstand: {}	Gegenstand: |cffff9d9d|H|h{}|h|r	Crafte |cffff9d9d|H|h{}|h|r, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+8	Verbesserung	Gegenstand: {}	Gegenstand: |cffff9d9d|H|h{}|h|r	Verbessere |cffff9d9d|H|h{}|h|r, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+9	Zerstörung 	Gegenstand: {}	Zerstöre: |cffff9d9d|H|h{}|h|r	Zerstöre |cffff9d9d|H|h{}|h|r, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+10	Sammele einen Gegenstand	Gegenstand: {}	Sammle diesen Gegenstand	Sammle diesen Gegenstand, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+11	Brate einen Fisch	Bereits gebraten: {}	Fundort: Map1	Brate diesen Fisch, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+12	Fange einen Fisch	Übrig: {}	Fundort: Map1	Fange einen Fisch, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+13	Yang ausgeben	Yang ausgegeben: {}	Yang kannst du beim NPC oder beim Crafter ausgeben	Gebe deinen Yang aus, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+14	Farme Yang	Yang erhalten: {}	Farme Yang von Monstern	Farme Yang, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+15	Absolviere Dungeon	Übrig: {}	Absolviere diesen Dungeon	Absolvier diesen Dungeon, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+16	Spiele dieses Minispiel	Übrig: {}	Spiele dieses Minispiel	Spiele dieses Minispiel, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+17	Töte Boss	Übrig: {}	Boss: alle Bosse	Töte Bosse, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+18	Töte Metinstein	Übrig: {}	Metinstein: alle Metinsteine	Töte Metinsteine, um die	Mission abzuschließen und deine	Belohnung zu erhalten.
+19	Spielzeit	Spielzeit nötig (Minuten): {}	Spielzeit	Spiele das Spiel, um die	Mission abzuschließen und deine	Belohnung zu erhalten.

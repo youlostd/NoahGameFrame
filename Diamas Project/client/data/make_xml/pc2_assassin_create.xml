@@ -1,0 +1,6 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/pc2/assassin:d:/ymir work/pc2/assassin/" ArchivePath="../bin/pack/pc2_assassin.pak" XmlPath="xml/pc2_assassin_create.xml">
+		<Ignore Pattern="*.xml" />
+		<Ignore Pattern="*.psd" />
+	</CreateEterPackXml>
+</ScriptFile>

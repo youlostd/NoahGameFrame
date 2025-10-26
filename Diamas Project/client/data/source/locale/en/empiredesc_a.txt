@@ -1,0 +1,6 @@
+[DELAY value;10]
+Shinsoo Kingdom The Shinsoo[ENTER]
+Kingdom is in the south of[ENTER]
+the continent. The[ENTER]
+inhabitants are mainly[ENTER]
+involved in trade.

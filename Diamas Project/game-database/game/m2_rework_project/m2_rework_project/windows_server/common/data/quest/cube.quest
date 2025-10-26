@@ -1,0 +1,29 @@
+quest cube begin
+    state start begin	
+		when 40018.chat.gameforge.cube._14_npcChatsh with pc.level >=1 begin
+            setskin(NOWINDOW)
+            command("cube open")
+		end
+		when 40016.chat.gameforge.cube._14_npcChatsh with pc.level >=1 begin
+            setskin(NOWINDOW)
+            command("cube open")
+		end
+		when 40019.chat.gameforge.cube._14_npcChatsh with pc.level >=1 begin
+            setskin(NOWINDOW)
+            command("cube open")
+		end
+		when 9207.chat.gameforge.cube._35_npcChatsh with pc.level >=1 begin
+            setskin(NOWINDOW)
+            command("cube open")
+		end
+		when 9208.chat.gameforge.cube._36_npcChatsh with pc.level >=1 begin
+            setskin(NOWINDOW)
+            command("cube open")
+		end
+		when 9215.chat.gameforge.cube._41_npcChatsh with pc.level >=1 begin
+            setskin(NOWINDOW)
+            command("cube open")
+		end
+    end
+end
+

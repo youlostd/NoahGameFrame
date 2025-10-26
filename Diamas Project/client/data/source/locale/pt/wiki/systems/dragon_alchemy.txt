@@ -1,0 +1,87 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/guides.png]
+[CENTER_ALIGN]System-Guides
+
+1. Soul-binding
+
+1.1 With the help of the item "Scroll of Binding" it is possible to bind individual items to the character.
+Soul-bound items are not tradable and cannot be destroyed.
+However, the bound items can still be placed in storage.
+
+1.2 With the help of the item "Scroll of Unbinding" it is possible to unbind soulbound items. 
+These items are still soul-bound for 24 hours in real time after the solution.
+After the time has expired, they can be traded again and also destroyed.
+
+2. Switchbot
+
+You will find the Switchbot in your sidebar, to the left of your inventory. 
+When you have opened the Switchbot, you will find 6 empty slots which you can use for switching.
+As soon as you have inserted an item for switching into the empty slot, 
+you can choose your desired bonus via the dropdown field, to select your desired bonus. 
+To start the Switchbot, you have to confirm your bonuses (green tick behind the bonus). 
+Now the switcher starts. 
+Next to the bonuses you can select slot 1-3 to choose alternative bonuses.
+If the switchbot has successfully switched your item, you will receive an 
+information PM about the system. 
+Now you can open the Switchbot and transfer your item to the inventory by drag and drop 
+your item into the inventory.
+
+3. Empire selection
+
+It is possible to go to different empires with each of the 5 characters per account.
+When creating a new character, you will see the selection window where you can choose an empire.
+Later changes are still possible with "Tincture of Kingdoms", which can be found at the Gemi.
+
+4. Ores-system
+
+4.1 You can only add ores to your end PvM equipment (Kadashi earrings/bracelet/necklace). 
+
+4.2 With diamonds you insert sockets into your equipment (3 slots per equipment). 
+You can insert the Kadashi ore into the sockets, but it is time-limited.
+With the ore amplifier you can make the ores that are time-limited permanent. 
+When you have boosted all ores, you get an additional set bonus.
+
+4.3 You can also insert sockets into your belt, but this is already the case with the first PvM belt. 
+-> but this can be done to all PvM belts, no matter the level.
+With the belt, the insertion also works with diamonds (3 slots.
+In the sockets of the belt you insert red flame stones, which are also limited in time. 
+With the ore amplifier you can make the time limit of the red flame stones permanent and 
+get a set bonus as well.
+With the ore enhancer you can make the time limit of the red flame stones permanent and 
+get a set bonus as well.
+
+5. L-Skill-System
+
+5.1 If you have farmed Legendary Soulstones, you need 10 Soulstones per skill, 
+to raise it from Perfect (P) to Legendary (L).
+Legendary skills are stronger than Perfect ones. 
+(IMPORTANT! L buffs from shamans are BETTER than the buffs from the buffbot).
+
+5.2 Once you have legendary skills, you can use the skills window ("V" key) to 
+choose your own colour for the selected skill.
+To do this, click on the small "c" next to the skill icon and use the generator to select a colour.
+
+6 GW-K/D-System
+
+Within a GK it is possible to open a GUI with the TAB key. In this GUI you can see
+how many kills or deaths the individual players have collected during the GW. 
+
+7. Projection system
+
+With the NPC Theowahdan it is possible to do a projection. 
+Wings, hairstyles, armour, weapons, mounts & pets can be projected. 
+The projection is applied to the item added in the left slot. 
+The item in the right slot disappears after the projection is completed & the item in the left slot has 
+the appearance of the used item.
+
+8 Costume/Bonus Transfer System 
+
+8.1 On N2 there are costumes with and without bonuses. Costumes can be given bonuses by using 
+"Transform Costume".
+Up to 3 bonuses can be added to a costume. Costume bonuses can be switched using "Enchant Costume".
+8.2 It is also possible to transfer bonuses to another costume, in a similar way to the 
+projection system.
+Left slot = finished item 
+Right slot = item from which the bonuses are taken & destroyed after the process. 
+
+

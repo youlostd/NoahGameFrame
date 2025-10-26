@@ -1,0 +1,28 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/spiderbaroness.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 60 - 85
+*Eintrittsitem: Arachnidenschlüssel
+[IMG=d:/ymir work/ui/wiki/rahmen.tga; Y=5; X=460]
+[IMG=d:/ymir work/ui/wiki/30324.tga; Y=15; X=482]
+
+
+[X_PADDING=467]Arachnidenschlüssel
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheiten:
+*Die Bruthöhle der Spinnenbaroness hat eine Abklingzeit von 1 Stunde.
+*Die Bruthöhle der Spinnenbaroness kann mit und ohne Gruppe betreten werden.
+*Man hat insgesamt 20 Minuten Zeit um die Bruthöhle der Spinnenbaroness abzuschließen.
+*Nur der Gruppenleader benötigt einen Arachnidenschlüssel.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=148; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 1
+
+[X_PADDING=20]Tötet den Spinnenbaron und aktiviert die Arachnidenflöte.
+
+
+[COLOR=ef4f00;FONT_SIZE=15]Ebene 2
+
+[X_PADDING=20]Tötet die Spinnenbaroness.
+[IMG=d:/ymir work/ui/wiki/Spinnenbaroness.tga; Y=160; X=320]

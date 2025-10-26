@@ -1,0 +1,16 @@
+<ScriptFile>
+	<CreateEterPackXml Input="source/root" ArchivePath="../bin/pack/root.pak" XmlPath="xml/root_cython_create.xml">
+		<Ignore Pattern="*.csv" />
+		<Ignore Pattern=".idea" />
+		<Add Pattern="*.py" />
+		<Add Pattern="*.pyx" />
+		<Add Pattern="uiscript/*.py" />
+		<Add Pattern="UIScript/*.py" />
+		<Add Pattern="stdlib/*.py" />
+		<Add Pattern="stdlib/*.pyc" />
+		<Add Pattern="stdlib/*.pyd" />
+		<Patch Search="stdlib/" Replace="" />
+		<Ignore Pattern="*error_lookup.pyc" />
+		<Ignore Pattern="*test*.pyc" />
+	</CreateEterPackXml>
+</ScriptFile>

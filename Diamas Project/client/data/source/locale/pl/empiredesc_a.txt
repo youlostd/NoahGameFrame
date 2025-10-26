@@ -1,0 +1,5 @@
+[DELAY value;0]
+Królestwo Shinsoo znajduje[ENTER]
+siê na po³udniu kontynentu.[ENTER]
+Mieszkañcy s¹ w wiêkszoœci[ENTER]
+zajêci handlem.

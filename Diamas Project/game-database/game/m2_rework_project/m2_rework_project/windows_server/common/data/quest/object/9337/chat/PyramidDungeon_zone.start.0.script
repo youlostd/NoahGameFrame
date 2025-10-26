@@ -1,0 +1,14 @@
+local settings = PyramidDungeonLIB . Settings ( ) ; 
+if pc . getqf ( "PyramidDungeon_reward" ) == 0 then 
+pc . setqf ( "PyramidDungeon_reward" , 1 ) 
+pc . give_item2 ( settings [ "Item_reward" ] , 1 ) 
+addimage ( 25 , 10 , "pyramid_dungeon_bg1.tga" ) ; addimage ( 225 , 150 , "pyramid_npc7.tga" ) 
+say ( "[ENTER][ENTER]" ) 
+say_title ( "Reward[ENTER]" ) 
+say_reward ( "You have recieved:" ) 
+say_item ( "" .. c_item_name ( settings [ "Item_reward" ] ) .. "" , settings [ "Item_reward" ] , "" ) 
+return 
+else 
+setskin ( NOWINDOW ) 
+syschat ( "Ancient pyramid: You have already picked up the reward" ) 
+end 

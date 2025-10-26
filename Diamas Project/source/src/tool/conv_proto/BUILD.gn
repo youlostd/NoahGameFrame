@@ -1,0 +1,18 @@
+executable("conv_proto") {
+  sources = [
+    "Actions.cpp",
+    "CsvReader.cpp",
+    "Format.cpp",
+    "ItemList.cpp",
+    "Main.cpp",
+    "NpcList.cpp",
+    "ProtoReader.cpp",
+    "resource.rc",
+  ]
+
+  deps = [
+    "//src/share:console_app",
+    "//src/share/base",
+    "//src/share/game",
+  ]
+}

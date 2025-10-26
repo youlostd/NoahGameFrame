@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( "Ancient pyramid: You have failed!" ) 
+server_timer ( "PyramidDungeon_final_exit" , 3 , d . get_map_index ( ) ) 
+end 

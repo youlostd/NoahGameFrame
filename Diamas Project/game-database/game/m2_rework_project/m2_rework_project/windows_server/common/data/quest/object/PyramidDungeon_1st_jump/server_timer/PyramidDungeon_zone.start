@@ -1,0 +1,10 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = PyramidDungeonLIB . Settings ( ) ; 
+d . jump_all ( settings [ "insidePos_2f" ] [ 1 ] , settings [ "insidePos_2f" ] [ 2 ] ) ; 
+d . setf ( "PyramidDungeon_level" , 2 ) ; d . setf ( "PyramidDungeon_pergamen" , 0 ) ; d . setf ( "PyramidDungeon_CanUseSeal" , 0 ) ; 
+d . spawn_mob_dir ( 9339 , 306 , 158 , 5 ) ; 
+d . regen_file ( "data/dungeon/pyramid_dungeon/regen_2f_a.txt" ) ; 
+d . setf ( "Pyramid_2floor_monsters" , d . count_monster ( ) ) 
+d . notice ( "Ancient pyramid: Kill monsters to collect pieces of pergamen, once you have 4 pieces" ) 
+d . notice ( "Ancient pyramid: destroy the %s!" , c_mob_name ( 9339 ) ) 
+end 

@@ -1,0 +1,52 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/skilcolor.tga]
+[CENTER_ALIGN]Das Skill Color System bringt mehr Individualität für deine Fertigkeiten.
+[CENTER_ALIGN]Gestalte jede deiner Fertigkeiten in deiner Farbe nach Wahl.
+
+[COLOR=0xffd700;FONT_SIZE=15]Gliederung:
+*1. Die Mission "Customize yourself?"
+*2. Wie man alle Skills färben kann
+*3. Anpassbare Felder
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=100; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Die Mission "Customize yourself?"
+
+Beschreibung: Gehe zum Gaya Händler.
+Mission: Zerstöre 250 Metinstones über Lv.85
+Belohnung: Du darfst eine Fertigkeit deiner Wahl färben.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=200; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Wie man alle Skills färben kann
+
+Mit einem Färbemittel kannst du eine Fertigkeit auswählen, die du färben willst (einschließlich Buffi).
+Der Skill muss auf der Stufe L sein und die Buffi-Fertikeiten müssen auf der Stufe P sein.
+Ebenso benötigt man Premium um die Farben seines Buffi-Siegels zu ändern. 
+Du kannst jederzeit die Farbe resetten, dafür drückt man einfach auf den "Standard" Button.
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=295; CENTER_ALIGN]
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Anpassbare Felder und coole Kombinationen
+
+Eine Fähigkeit konstiliert die Kombination vieler Felder. Für den Zweck der Individualität
+haben wir jede Fähigkeit in 5 verschiedene Felder unterteilt, die man individuell anpassen können.
+Wenn man 1 von 5 Feldern wechselt, bedeutet das nicht, dass die Fähigkeit 100% der Farbe sein wird,
+die man ausgewählt hat. Man sollte sich mit allen 5 Bereichen spielen und seine Lieblingsfarbe finden.
+
+[IMG=d:/ymir work/ui/wiki/divider_small.tga; Y=410; CENTER_ALIGN]
+
+[COLOR=ef4f00;FONT_SIZE=15]3.1 Coole Kombinationen
+
+[X_PADDING=20]*0% Rot + 0% Grün + 0% Blau = Schwarz
+[X_PADDING=20]*100% Rot + 100% Grün + 100% Blau = Weiß
+[X_PADDING=20]*100% Rot + 100% Grün + 0% Blau = Gelb
+[X_PADDING=20]*100% Rot + 0% Grün + 100% Blau = Violett
+[X_PADDING=20]*0% Rot + 100% Grün + 100% Blau = Hellblau
+[X_PADDING=20]*50% Rot + 50% Grün + 50% Blau = Grau
+
+[X_PADDING=20]Und so weiter, finde deine passende Farbe!
+
+

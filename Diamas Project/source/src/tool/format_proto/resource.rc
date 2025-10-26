@@ -1,0 +1,6 @@
+#define METIN2_COMPONENT_DESCRIPTION "Format Protos"
+#define METIN2_COMPONENT_INTERNALNAME "FormatProto"
+#define METIN2_COMPONENT_FILENAME "format_proto"
+#define METIN2_COMPONENT_TYPE VFT_APP
+
+#include <version_info.rc>

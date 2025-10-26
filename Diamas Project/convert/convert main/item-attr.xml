@@ -1,0 +1,489 @@
+<item-attrs>
+	<item-attr apply="MAX_HP" prob="35">
+		<values>
+			<value index="0" value="3500"/>
+			<value index="1" value="3500"/>
+			<value index="2" value="3500"/>
+			<value index="3" value="3500"/>
+			<value index="4" value="3500"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="WRIST" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="CON" prob="11">
+		<values>
+			<value index="0" value="12"/>
+			<value index="1" value="12"/>
+			<value index="2" value="12"/>
+			<value index="3" value="12"/>
+			<value index="4" value="12"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="SHIELD" max="5"/>
+		</sets>
+	</item-attr>
+	<item-attr apply="INT" prob="11">
+		<values>
+			<value index="0" value="12"/>
+			<value index="1" value="12"/>
+			<value index="2" value="12"/>
+			<value index="3" value="12"/>
+			<value index="4" value="12"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="SHIELD" max="5"/>
+		</sets>
+	</item-attr>
+	<item-attr apply="STR" prob="11">
+		<values>
+			<value index="0" value="12"/>
+			<value index="1" value="12"/>
+			<value index="2" value="12"/>
+			<value index="3" value="12"/>
+			<value index="4" value="12"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="SHIELD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="DEX" prob="11">
+		<values>
+			<value index="0" value="12"/>
+			<value index="1" value="12"/>
+			<value index="2" value="12"/>
+			<value index="3" value="12"/>
+			<value index="4" value="12"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="SHIELD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="ATT_SPEED" prob="8">
+		<values>
+			<value index="0" value="8"/>
+			<value index="1" value="8"/>
+			<value index="2" value="8"/>
+			<value index="3" value="8"/>
+			<value index="4" value="8"/>
+		</values>
+		<sets>
+			<set type="FOOTS" max="5"/>
+			<set type="HEAD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="MOV_SPEED" prob="18">
+		<values>
+			<value index="0" value="25"/>
+			<value index="1" value="25"/>
+			<value index="2" value="25"/>
+			<value index="3" value="25"/>
+			<value index="4" value="25"/>
+		</values>
+		<sets>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="CAST_SPEED" prob="8">
+		<values>
+			<value index="0" value="20"/>
+			<value index="1" value="20"/>
+			<value index="2" value="20"/>
+			<value index="3" value="20"/>
+			<value index="4" value="20"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="BODY" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="HP_REGEN" prob="65">
+		<values>
+			<value index="0" value="30"/>
+			<value index="1" value="30"/>
+			<value index="2" value="30"/>
+			<value index="3" value="30"/>
+			<value index="4" value="30"/>
+		</values>
+		<sets>
+			<set type="NECK" max="5"/>
+			<set type="HEAD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="POISON_PCT" prob="8">
+		<values>
+			<value index="0" value="8"/>
+			<value index="1" value="8"/>
+			<value index="2" value="8"/>
+			<value index="3" value="8"/>
+			<value index="4" value="8"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="HEAD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="CRITICAL_PCT" prob="18">
+		<values>
+			<value index="0" value="10"/>
+			<value index="1" value="10"/>
+			<value index="2" value="10"/>
+			<value index="3" value="10"/>
+			<value index="4" value="10"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="WRIST" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="PENETRATE_PCT" prob="30">
+		<values>
+			<value index="0" value="10"/>
+			<value index="1" value="10"/>
+			<value index="2" value="10"/>
+			<value index="3" value="10"/>
+			<value index="4" value="10"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="WRIST" max="5"/>
+			<set type="NECK" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="ATTBONUS_HUMAN" prob="10">
+		<values>
+			<value index="0" value="10"/>
+			<value index="1" value="10"/>
+			<value index="2" value="10"/>
+			<value index="3" value="10"/>
+			<value index="4" value="10"/>
+		</values>
+		<sets>
+			<set type="WEAPON" max="5"/>
+			<set type="WRIST" max="5"/>
+			<set type="HEAD" max="5"/>
+			<set type="SHIELD" max="5"/>
+			<set type="EAR" max="5"/>
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="STEAL_HP" prob="50">
+		<values>
+			<value index="0" value="10"/>
+			<value index="1" value="10"/>
+			<value index="2" value="10"/>
+			<value index="3" value="10"/>
+			<value index="4" value="10"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="WRIST" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="BLOCK" prob="10">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="SHIELD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="DODGE" prob="10">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="HEAD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="RESIST_SWORD" prob="18">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="RESIST_TWOHAND" prob="18">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="RESIST_DAGGER" prob="18">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="RESIST_BELL" prob="18">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="RESIST_BOW" prob="18">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="RESIST_FAN" prob="18">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="FOOTS" max="5"/>
+			<set type="NECK" max="5"/>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="RESIST_MAGIC" prob="25">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="WRIST" max="5"/>
+			<set type="HEAD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="REFLECT_MELEE" prob="18">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			<set type="SHIELD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="POISON_REDUCE" prob="18">
+		<values>
+			<value index="0" value="10"/>
+			<value index="1" value="10"/>
+			<value index="2" value="10"/>
+			<value index="3" value="10"/>
+			<value index="4" value="10"/>
+		</values>
+		<sets>
+			<set type="EAR" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="IMMUNE_STUN" prob="50">
+		<values>
+			<value index="0" value="100"/>
+			<value index="1" value="100"/>
+			<value index="2" value="100"/>
+			<value index="3" value="100"/>
+			<value index="4" value="100"/>
+		</values>
+		<sets>
+			<set type="SHIELD" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="ATT_GRADE_BONUS" prob="9">
+		<values>
+			<value index="0" value="50"/>
+			<value index="1" value="50"/>
+			<value index="2" value="50"/>
+			<value index="3" value="50"/>
+			<value index="4" value="50"/>
+		</values>
+		<sets>
+			<set type="BODY" max="5"/>
+			
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="ATTBONUS_MONSTER" prob="10">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="COSTUME_HAIR" max="5"/>
+			<set type="COSTUME_BODY" max="5"/>
+			<set type="COSTUME_WEAPON" max="5"/>
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="ATTBONUS_METIN" prob="10">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="COSTUME_HAIR" max="5"/>
+			<set type="COSTUME_BODY" max="5"/>
+			<set type="COSTUME_WEAPON" max="5"/>
+			
+			
+		</sets>
+	</item-attr>
+	<item-attr apply="ATTBONUS_BOSS" prob="10">
+		<values>
+			<value index="0" value="15"/>
+			<value index="1" value="15"/>
+			<value index="2" value="15"/>
+			<value index="3" value="15"/>
+			<value index="4" value="15"/>
+		</values>
+		<sets>
+			<set type="COSTUME_HAIR" max="5"/>
+			<set type="COSTUME_BODY" max="5"/>
+			<set type="COSTUME_WEAPON" max="5"/>
+			
+			
+		</sets>
+	</item-attr>
+</item-attrs>

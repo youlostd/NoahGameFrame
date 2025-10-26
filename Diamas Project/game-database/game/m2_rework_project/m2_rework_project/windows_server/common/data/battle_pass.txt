@@ -1,0 +1,74 @@
+List BattlePass
+{
+	1	FreeBattlepass
+	2	PremiumBattlepass
+}
+
+Group FreeBattlepass
+{
+
+	List Reward
+	{
+		#	ItemVnum	ItemCount
+		80014	1
+	}
+		
+	Group Mission_1
+	{
+		Type	REACH_PLAYTIME
+		Count	1
+		
+	List Rewards
+	{
+		80014	1
+	}		
+
+	}
+	
+}
+
+
+Group PremiumBattlepass
+{
+	List Reward
+	{
+		#	ItemVnum	ItemCount
+		80017	1
+	}
+		
+	Group Mission_1
+	{
+		Type	PLAYER_KILL
+		MinLevel	99
+		Count	4500
+	
+	List Rewards
+	{
+		80014	1
+	}	
+		
+	}
+	Group Mission_2
+	{
+		Type	CATCH_FISH
+		Count	5
+		
+	List Rewards
+	{
+		80014	1
+	}		
+		
+	}
+
+	Group Mission_3
+	{
+		Type	REACH_PLAYTIME
+		Count	1
+		
+	List Rewards
+	{
+		80014	1
+	}		
+		
+	}
+}

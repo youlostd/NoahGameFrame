@@ -1,0 +1,57 @@
+import uiScriptLocale
+
+window = {
+    "name": "OfflineShopViewer",
+    "style": ("moveable", "float"),
+    "x": 0,
+    "y": 0,
+    "width": 194 * 2,
+    "height": 365,
+    "children": (
+        {
+            "name": "bBoard",
+            "type": "board_with_titlebar",
+            "x": 0,
+            "y": 0,
+            "width": 194 * 2,
+            "height": 365,
+            "title": uiScriptLocale.PRIVATE_SHOP_TITLE,
+            "children": (
+                {
+                    "name": "background_border",
+                    "type": "border_a",
+                    "width": 194 * 2 - 20,
+                    "height": 365 - 40,
+                    "x": 10,
+                    "y": 30,
+                },
+                {
+                    "name": "gtItems",
+                    "type": "grid_table",
+                    "x": 33,
+                    "y": 40,
+                    "start_index": 0,
+                    "x_count": 10,
+                    "y_count": 9,
+                    "x_step": 32,
+                    "y_step": 32,
+                    "image": "d:/ymir work/ui/public/Slot_Base.sub",
+                },
+                {
+                    "name": "btnBuy",
+                    "type": "toggle_button",
+                    "active": False,
+                    "x": 0,
+                    "y": 332,
+                    "text": uiScriptLocale.SHOP_BUY,
+                    "text_height": -5,
+                    # "text_color": 0xFFEDD970,
+                    "default_image": "d:/ymir work/ui/dragonsoul/l_button01.tga",
+                    "over_image": "d:/ymir work/ui/dragonsoul/l_button02.tga",
+                    "down_image": "d:/ymir work/ui/dragonsoul/l_button03.tga",
+                    "horizontal_align": "center",
+                },
+            ),
+        },
+    ),
+}

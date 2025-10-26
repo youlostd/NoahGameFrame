@@ -1,0 +1,6 @@
+[DELAY value;10]
+Chunjo Kingdom The Chunjo[ENTER]
+Kingdom is located in the[ENTER]
+west of the continent. It is[ENTER]
+a theocratic Kingdom led by[ENTER]
+its spiritual leader.

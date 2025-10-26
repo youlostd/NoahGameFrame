@@ -1,0 +1,49 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/skilltree.png]
+[CENTER_ALIGN]Jagdquests und Skillbaum
+
+1 Start
+Die Jagdquests sind sofort aktiv und müssen nicht erst gestartet werden.
+Das dazugehörige Fenster findet man, indem man das Inventar öffnet und links die Symbole 
+runterscrollt bis zum Symbol für die Jagdquests.
+
+2 Aufbau
+Die Ziele der Jagdquests teilen sich auf in Metin-Steine und Dungeon-Bosse.
+Sobald man ein Ziel besiegt, sieht man den Fortschritt der jeweiligen Quest anhand des 
+grünen Balkens. Alle offenen Quests sind oben und alle abgeschlossenen ganz unten. 
+Es sind immer zwei Quests aktiv, eine für Metin-Steine und eine für Dungeon-Bosse.
+Erledigt man eine Quest, beginnt automatisch die nächst höhere.
+
+3 Weiterleveln
+Um auf der nächsten Farmmap Erfahrungspunkte zum Weiterleveln zu bekommen, benötigt man ein
+Item, welches man bekommt, wenn man die Jagdquests auf der vorherigen Map alle erledigt hat.
+Wenn man also auf der Shiva-Farmmap alle Quests erledigt, bekommt man "Jagras-Erweiterung (55-75)".
+Durch einen Rechtsklick auf dieses Item, bekommt man bis Level 75 auf der nächsten Map Erfahrung.
+Das gleiche System gilt für alle weiteren Farmmaps.
+
+4 Skillbaumpunkte
+Das Erledigen der Jagdquests ist nicht nur essenziell für das Weiterleveln, sondern auch für den 
+Skillbaum. Die Belohnungen für die einzelnen Jagdquests sind Skillbaumpunkte. Die Anzahl der 
+Skillbaumpunkte erhöht sich mit dem Fortschritt der Jagdquests. Sie können dazu verwendet
+werden, um die einzelnen Felder des Skillbaums freizuschalten und zu verstärken, was mit 
+zusätzlichen Bonis belohnt wird.
+
+5 Skillbaum
+Der Skillbaum ist essenziell wichtig für PvM UND PvP und in 3 Kategorien unterteilt.
+Die Bonis, die man durch den Skillbaum freischalten kann, helfen nicht nur bei der Defensive 
+sowie Offensive im PvM Bereich, sondern sind auch wesentlich im Bereich des PvP. 
+Den Skillbaum schaltet man stufenweise frei. Hat man alle Jagdquests erledigt, hat man 
+automatisch auch den gesamten Skillbaum freigeschaltet und alle zusätzlichen Bonis dazugewonnen.
+
+6 Skillbaum - Aufteilung
+Auf der Shiva-Farmmap schaltet man die unterste Reihe bei allen drei Kategorien frei.
+Auf der Artemis-Farmmap schaltet man die zweite Reihe bei allen drei Kategorien frei.
+Auf der Aqua-Farmmap schaltet man die dritte Reihe der mittleren Kategorie frei.
+Bei der linken und rechten Kategorie sind es die jeweils äußeren Zwei Felder der dritten Reihe.
+Auf der Eden-Farmmap schaltet man die vierte Reihe der mittleren Kategorie frei.
+Bei der linken und rechten Kategorie ist es jeweils das mittlere Feld der dritten Reihe.
+Auf der Terra-Farmmap schaltet man die letzte Reihe und somit das jeweils letzte Feld aller
+Kategorien frei, womit man den Skillbaum vervollständigt.
+
+
+

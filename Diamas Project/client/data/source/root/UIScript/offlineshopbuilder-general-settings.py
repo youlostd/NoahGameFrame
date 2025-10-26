@@ -1,0 +1,81 @@
+import uiScriptLocale
+
+window = {
+    "name": "OfflineShopBuilderGeneralSettings",
+    "style": ("moveable", "float"),
+    "x": 0,
+    "y": 0,
+    # "width" : 303,
+    "width": 302,
+    "height": 105,
+    "children": (
+        {
+            "name": "bBoard",
+            "type": "board_with_titlebar",
+            "x": 0,
+            "y": 0,
+            # "width" : 303,
+            "width": 302,
+            "height": 105,
+            "color": 0x000000,
+            "title": uiScriptLocale.PRIVATE_SHOP_NAME,
+            "children": (
+                {
+                    "name": "slotBarShopName",
+                    "type": "slotbar",
+                    "x": 0,
+                    "y": 44,
+                    "width": 200,
+                    "height": 18,
+                    "horizontal_align": "center",
+                    "children": (
+                        {
+                            "name": "txtShopName",
+                            "type": "editline",
+                            "x": 3,
+                            "y": 3,
+                            "width": 200,
+                            "height": 15,
+                            "input_limit": 32,
+                            "text": "",
+                        },
+                    ),
+                },
+                # 				{
+                # 					"name" : "btnPosition",
+                # 					"type" : "button",
+                #
+                # 					"x" : 50,
+                # 					"y" : 58,
+                #
+                # 					"text" : "Positionieren",
+                # 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+                # 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+                # 					"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+                # 				},
+                {
+                    "name": "btnSubmit",
+                    "type": "button",
+                    "x": 300 / 2 - 61 - 5,
+                    "y": 75,
+                    "default_image": "d:/ymir work/ui/public/acceptbutton00.sub",
+                    "over_image": "d:/ymir work/ui/public/acceptbutton01.sub",
+                    "down_image": "d:/ymir work/ui/public/acceptbutton02.sub",
+                    "x_scale": 1.0,
+                    "y_scale": 1.0,
+                },
+                {
+                    "name": "btnCancel",
+                    "type": "button",
+                    "x": 300 / 2 + 5,
+                    "y": 75,
+                    "default_image": "d:/ymir work/ui/public/canclebutton00.sub",
+                    "over_image": "d:/ymir work/ui/public/canclebutton01.sub",
+                    "down_image": "d:/ymir work/ui/public/canclebutton02.sub",
+                    "x_scale": 1.0,
+                    "y_scale": 1.0,
+                },
+            ),
+        },
+    ),
+}

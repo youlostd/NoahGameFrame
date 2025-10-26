@@ -1,0 +1,12 @@
+if pc . get_map_index ( ) == 213 and not pc . in_dungeon ( ) then pc . warp ( 219 , 37000 , 29700 ) 
+ return end if pc . in_dungeon ( 213 ) and isDungeonLeader ( ) and getDungeonStage ( ) == 0 then d . regen_file ( "data/dungeon/deep_cave/" .. "stage_1.txt" ) 
+d . notice ( "Easter dungeon: 10 minutes left!" ) 
+pc . setqf ( "dungeon_start_time" , get_global_time ( ) ) 
+d . add_boss_vnum ( 676 ) 
+d . add_boss_vnum ( 6761 ) 
+deep_cave . setDungeonTimeout ( 60 * 60 ) 
+setDungeonWarpLocation ( 219 , 370 , 297 ) 
+setDungeonExitCounter ( 10 ) 
+increaseDungeonStage ( ) 
+setNeededMonsterCount ( 1 ) 
+ return end 

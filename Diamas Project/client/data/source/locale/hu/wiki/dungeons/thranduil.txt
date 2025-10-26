@@ -1,0 +1,51 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/thranduils.tga]
+[COLOR=0xffd700;FONT_SIZE=15]Vorraussetzungen:
+*Benötigtes Level: 110
+*Eintrittsitem: Passierschein+
+[RIGHT_ALIGN]Passage Ticket+
+[IMG=d:/ymir work/ui/wiki/93264.tga; Y=5; X=485]
+
+[COLOR=0xffd700;FONT_SIZE=15]Besonderheit:
+*Thranduils Versteck hat eine Abklingzeit von 180 Minuten.
+*Der Dungeon kann sowohl mit als auch ohne Gruppe betreten werden.
+*Es besteht eine 10% Chance, dass der Wächter des Waldes erscheint am Ende des Dungeons.
+
+
+[CENTER_ALIGN;FONT_SIZE=18]Die Phasen:
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=132; CENTER_ALIGN]
+[COLOR=ef4f00;FONT_SIZE=15]Level 1
+
+[X_PADDING=20]Beschwöre 100 Monster innerhalb 90 Sekunden, in dem du immer mehr Monster tötest.
+[X_PADDING=20]Für jedes getötete Monster erscheint die doppelte Anzahl.
+[X_PADDING=20]Sobald 100 Monster beschworen wurden, habt ihr 60 Sekunden Zeit um alle Monster zu töten.
+
+[COLOR=ef4f00;FONT_SIZE=15]Level 2
+
+[X_PADDING=20]Zerstöre den richtigen Metinstein.
+
+[COLOR=ef4f00;FONT_SIZE=15]Level 3
+
+[X_PADDING=20]Sammelt Schlüssel des Waldes von den kommenden Monsterwellen. Die Schlüssel 
+[X_PADDING=20]des Waldes werden benötigt um Sindarins Sprössling zu zerstören.
+[X_PADDING=20]Jeder Schlüssel zieht dem Sprössling 10% des Lebens ab.
+
+[COLOR=ef4f00;FONT_SIZE=15]Level 4
+
+[X_PADDING=20]Töte Sindarin.
+
+[COLOR=ef4f00;FONT_SIZE=15]Level 5
+
+[X_PADDING=20]Überlebe 3 Minuten und besiege alle Monster. Alle 30 Sekunden erscheint eine Safezone auf dem Boden, 
+[X_PADDING=20]solltet ihr diese nicht rechzeitig erreichen, sterbt ihr und die Ebene bekonnt von vorne.
+
+[COLOR=ef4f00;FONT_SIZE=15]Level 6
+
+[X_PADDING=20]Besiege alle 3 Monsterwellen innerhalb von 3 Minuten. Schaffst du dies nicht, so beginnt die Ebene von vorne.
+
+[COLOR=ef4f00;FONT_SIZE=15]Level 7
+
+[X_PADDING=20]Besiege Thranduils
+[X_PADDING=20]Nachdem Thranduil besiegt wurde besteht eine 10% Chance, dass ihr den Wächter des Waldes herbeiruft.
+[X_PADDING=20]Bei diesem könnt ihr das neue PvP-Equipment herstellen.
+

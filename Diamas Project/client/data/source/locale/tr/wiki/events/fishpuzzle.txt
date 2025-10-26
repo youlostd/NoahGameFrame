@@ -1,0 +1,45 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/fichpuzzle.tga]
+[CENTER_ALIGN;FONT_SIZE=18]Fishpuzzle
+
+[COLOR=0xffd700;FONT_SIZE=15]Content List:
+*1. Allgemeine Informationen
+*2. Spielanleitung
+*3. Belohnungen
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=110; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Allgemeine Informationen
+
+Jeder Spieler ab Lv 30 kann an dem Event teilnehmen.
+Du bruachst eine Angelrute, Wurm oder Paste.
+Im rechten oberen Eck des Spielfensters findest du den Button für das Fischpuzzle Event.
+Dort kannst du das Fenster öffnen. Du erhälst für jeden erfolgreich geangelten Fisch eine
+Fischpuzzle Truhe. Mit einer Fischerei Lizenz (erwerbbar aus dem Itemshop, Dauer: 3 Stunden)
+kannst du eine Fischpuzzle Deluxe Truhe erhalten, welche große Puzzleteile enthält.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=250; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Spielanleitung
+
+Das Ziel des Spiels ist es, die freien Felder mit den Puzzleteilen mit möglichst wenigen Zügen zu vervollständigen.
+Im unteren Feld kommtn die normalen Fischpuzzle Truhen und in das obere Feld kommen die Fischpuzzle Deluxe Truhen.
+Mit der linken Maustaste kannst du auf eine Truhe klicken, um sie zu öffnen. Zieh nun das Puzzleteil mit deiner 
+Maus auf den gewünschten Ort und platziere es. Klick mit der rechten Maustaste auf ein Puzzleteil, wenn du es
+wegwerfen willst und nicht benötigst.
+
+
+[IMG=d:/ymir work/ui/wiki/divider_long.tga; Y=380; CENTER_ALIGN]
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]3. Belohnungen
+
+Je nach den gebrauchten Versuchen erhält man eine Belohnung. Ziel ist es so wenig Puzzleteile wie möglich zu benutzen.
+Die Belohnungen sehen wie folgt aus:
+
+*10 oder weniger: 3x Goldene Fischtruhe
+*11 bis 24: 2x Goldene Fischtruhe
+*25 oder mehr: 1x Goldene Fischtruhe 
+
+

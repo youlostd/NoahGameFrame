@@ -1,0 +1,168 @@
+
+[BANNER_IMG = d:/ymir work/ui/wiki/banners/guides.png]
+[CENTER_ALIGN]Guide
+
+
+1 General
+
+1.1 Choice of your main character
+For the later course of the game you need the bonuses of the skill tree (PvP and PvM).
+It is therefore advisable to decide on a PvP race in advance and to farm with this character
+farm with this character. The class of your character can, of course, still be changed later on.
+change your character's class later (certificate oef apprenticeship).
+
+1.2 The first steps
+At the start, you will receive a beginner's chest with the following items:
+- Lion Seal, Fire Phoenix, Crescent Moon Ring (Starter), Starter Elixir, Linen Belt (Starter).
+- Starter Talisman, Ruler Band (Starter).
+This chest is to help you start the game.
+
+1.3 Skills
+At level 5 you can choose your skill-lore. As soon as one of your skills reaches the level
+"Master" you can use a rainbow stone to perfect the skill.
+You can get rainbow stones from the starting chest and from the general merchant. 
+
+1.4 Buffs
+On the first farm map (level 20) you can get healing and dragon shaman buffs from the "Buffbot".
+Click the bot several times to get all buffs. The buffs last 14 days. They disappear
+only if you are killed by another player. 
+
+1.5 Leveling
+To level up on this server, you do not need to visit any specific level maps.
+Your character will level up while farming. As soon as you have reached the maximum level for the
+map, you will no longer receive experience points.
+
+1.6 Farming
+You need a new PvM EQ for each farm map. On the respective farm map you have the possibility to drop
+uppitems for your equipment from the Metinstone and the bosses.
+You need the complete equipment on +9 to do damage on the following farmmap.
+The bosses on the farm maps can drop different costumes. These give you PvM bonuses for
+2 hours PvM bonuses. 
+
+1.7 Dungeons
+In the respective dungeons you have the chance to drop uppitems with which you can upgrade your
+equipment from +7 to +9.
+from +7 to +9. Check the wiki under "Dungeons".
+
+1.8 Equipment
+At level 20 you can enter the Jagras Dungeon. There you will receive an "Exile", which you can use to
+buy PvM and PvP equipment from the general dealer. Here it is a good idea to
+first step is to buy some PvM weapons and switch them. 
+
+1.9 Spirit stones
+With the "Exile" from the dungeons you can buy spirit stones and add them to your equipment.
+From the 5th farm map on you can drop "spirit stone slots" from the corresponding dungeon. With this
+With this item you can add up to three additional slots for spirit stones to your PvM equipment.
+
+1.10 Hunting missions
+When farming, keep an eye on your active hunting orders at all times. These are crucial for the
+skill tree. The hunting orders must be completed in the order shown.
+
+1.11 Skill tree
+The skill tree is divided into three different categories. PvP, PvM and general bonuses.
+You get the points for the skill tree through the hunting missions.
+
+
+2.0 PvM-Equipment / PvP-Equipment
+
+2.1.1 PvM Helmet: Poisoning Chance, Strong against Devils, 
+Strong against Undead, TP Regeneration, Attack Speed
+2.1.2 PvP helmet: Poisoning chance, Strong against half-humans, 
+TP regeneration, chance to dodge arrow attacks
+
+2.2.1 PvM Shield: Class bonuses, Class bonuses, Immune to fainting, 
+Strong against devils, Strong against undead, Chance to block melee attack 
+2.2.2 PvP Shield: Class bonuses, Class bonuses, Class bonuses, 
+Immune to fainting, Strong against half-humans, Chance to block melee attack. 
+
+2.3.1 PvM Earrings: Strong against Undead, Strong against Devils, Movement Speed, 
+Poison Resistance
+2.3.2 PvP Earrings: Strong against half-humans, 4-side def
+
+2.4.1 PvM Bracelet: MAX-TP, Strong against Undead, Chance of Crit. Hit, 
+damage is absorbed by TP, strong against devils 
+2.4.2 PvP bracelet: MAX HP, Strong against half-humans, chance of crit. hit, 
+magic resistance, chance to pierce
+
+2.5.1 PvM-chain: MAX-TP, TP-regeneration, chance to crit. Hit, chance to Pierce
+2.5.2 PvP chain: MAX-TP, 4-Side-Def
+
+2.6.1 PvM shoes: MAX-TP, chance to crit. Hit, attack speed, 
+2.6.2 PvP shoes: MAX-TP, 4-Side-Def
+
+2.7.1 PvM armour: MAX-TP, damage is absorbed by TP, attack value, 
+chance of melee refect. 
+2.7.2 PvP armour: MAX-TP, 4-Side-Def 
+
+2.8.1 PvM weapon: 45+ DSS, Strong against undead, Strong against devils, 
+class bonuses.
+2.8.2 PvP weapon: Strong against half-humans, chance to crit. Hit, Spell Speed, 
+Class bonuses, Class bonuses 
+
+2.9 Class bonuses = VIT,INT,STR,DEX
+2.9.1 Warrior = STR,VIT
+2.9.2 Ninja = DEX,STR
+2.9.3 Shaman = INT,STR
+2.9.4 Sura = INT,STR
+
+
+3. Farmmap-Bosses
+
+On each farmmap, a farmmap boss spawns at the respective spawn points.
+This is the case for each of the 4 server channels.
+In the wiki category "Bosses" you can find an overview of the dropable items.
+The spawn times are as follows:
+
+Shiva:     10 minutes
+Artemis:   12 minutes
+Aqua:      15 minutes
+Eden:      18 minutes
+Terra:     20 minutes
+Ragnarok:  30 minutes
+
+
+POSSIBLE BONUSES OF ALCHEMY
+Dragon Diamond:
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Ice Resistance
+- Strong against Undead
+
+Dragon Onyx
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Enhanced Item Drop
+- Resistance against Darkness
+
+Dragon Garnet
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Lightning Resistance
+- Yang drop chance is increased
+
+Dragon Sapphire
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Increased Item drop
+- Earth Resistance
+
+Dragon Jade
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Chance to drop double yang
+- Wind Resistance
+
+Dragon Ruby
+- Strong against Monsters
+- Strong against Metins
+- Strong against Bosses
+- Fire Resistance
+- Strong against Devils
+
+
+

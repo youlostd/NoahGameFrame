@@ -1,0 +1,73 @@
+20139	Lonca flamasý (eflatun)
+14401	Tahta (2)
+20140	Lonca flamasý (mavi/yeþil)
+14202	Duvarýn Arka Yüzü
+20141	Lonca flamasý (kýrmýzý/altýn)
+14100	Ev (1)
+14101	Taþ Duvar (1-1)
+14102	Taþ Duvar (1-2)
+14103	Taþ Duvar (1-3)
+14104	Kapý (1)
+14105	Duvar (1)
+14407	Tahta (8)
+14309	Taþ (10)
+14110	Ev (2)
+14111	Taþ Duvar (2-1)
+14112	Taþ Duvar (2-2)
+14113	Taþ Duvar (2-3)
+14114	Kapý (2)
+14115	Duvar (2)
+14120	Ev (3)
+14121	Taþ Duvar (3-1)
+14122	Taþ Duvar (3-2)
+14123	Taþ Duvar (3-3)
+14124	Kapý (3)
+14125	Duvar (3)
+14301	Taþ (2)
+14200	Lonca Ýþareti
+14302	Taþ (3)
+14303	Taþ (4)
+14013	Silah Ustasý
+14014	Zýrh Ustasý
+14015	Kuyumcu
+14400	Tahta (1)
+14304	Taþ (5)
+14402	Tahta (3)
+14403	Tahta (4)
+14404	Tahta (5)
+14405	Tahta (6)
+14406	Tahta (7)
+14305	Taþ (6)
+14408	Tahta (9)
+14306	Taþ (7)
+14033	Egitim Merkezi
+14307	Taþ (8)
+14201	Duvarýn Ön Yüzü
+14308	Taþ (9)
+14043	Elmas Ocaðý
+14300	Taþ (1)
+14045	Fosil Tahta Ocaðý
+14046	Bakýr Ocaðý
+14047	Gümüþ Ocaðý
+14048	Altýn Ocaðý
+14049	Yeþim Taþý Ocaðý
+14050	Abanoz Ocaðý
+14051	Ýnci Ocaðý
+14052	Beyaz Altýn Ocaðý
+14053	Kristal Ocaðý
+14054	Ametist Ocaðý
+14055	Cennet Gözü Ocaðý
+14204	Duvar-Sað
+14061	Güç Sunaðý
+14062	Güç Sunaðý
+14063	Güç Sunaðý
+14203	Duvar-Sol
+14071	Lonca Deposu
+14072	Lonca Deposu
+14073	Lonca Deposu
+14074	Ruh Kristali Ocaðý
+14075	Yakut Ocaðý
+14076	Grena Ocaðý
+14077	Zümrüt Ocaðý
+14078	Safir Ocaðý
+14079	Turmalin Ocaðý

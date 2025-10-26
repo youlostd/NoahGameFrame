@@ -1,0 +1,17 @@
+define ITEM_COMBINATION_NPC 60003
+quest acce begin
+	state start begin
+		when ITEM_COMBINATION_NPC.chat.gameforge.item_combination._10_npcChat begin
+			say_title(string.format(gameforge.acce._20_sayTitle, c_mob_name(ITEM_COMBINATION_NPC)))
+			say(gameforge.item_combination._10_say)
+			
+			local confirm =  select(gameforge.yes, gameforge.no)
+			if confirm == 2 then
+				return
+			end
+			
+			setskin(NOWINDOW)
+			pc.open_item_combination()
+		end
+	end
+end

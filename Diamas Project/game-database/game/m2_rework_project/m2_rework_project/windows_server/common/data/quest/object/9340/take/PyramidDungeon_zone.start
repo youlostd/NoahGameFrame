@@ -1,0 +1,53 @@
+if item . get_vnum ( ) == 30804 and PyramidDungeonLIB . isActive ( ) and d . getf ( "PyramidDungeon_level" ) == 5 then if d . getf ( "PyramidDungeon_5f_NpcMech" ) == 1 then 
+if npc . get_vid ( ) == d . get_unique_vid ( "anubis_head_1" ) then 
+d . kill_unique ( "anubis_head_1" ) 
+item . remove ( ) ; 
+d . spawn_mob ( 8474 , 178 , 1054 ) ; 
+d . setf ( "PyramidDungeon_5f_NpcMech" , 2 ) ; d . setf ( "PyramidDungeon_5f_Stone1" , 1 ) ; 
+d . notice ( "Ancient pyramid: This was the right one!" ) ; 
+d . notice ( "Ancient pyramid: Now destroy %s to get another item!" , c_mob_name ( 8474 ) ) ; 
+else 
+item . remove ( ) ; 
+d . setf ( "PyramidDungeon_5f_monsters1" , 1 ) ; 
+d . set_regen_file ( "data/dungeon/pyramid_dungeon/regen_5f_a.txt" ) ; 
+d . notice ( "Ancient pyramid: You need to destroy other %s" , c_mob_name ( 9340 ) ) ; 
+end 
+elseif d . getf ( "PyramidDungeon_5f_NpcMech" ) == 2 then 
+if npc . get_vid ( ) == d . get_unique_vid ( "anubis_head_2" ) then 
+item . remove ( ) ; 
+d . kill_unique ( "anubis_head_2" ) 
+d . setf ( "PyramidDungeon_5f_NpcMech" , 3 ) ; d . setf ( "PyramidDungeon_5f_monsters2" , 1 ) ; 
+d . notice ( "Ancient pyramid: Great! Monsters are coming! One of them has another item!" ) ; 
+server_timer ( "PyramidDungeon_5th_monster2" , 5 , d . get_map_index ( ) ) 
+else 
+item . remove ( ) ; 
+d . setf ( "PyramidDungeon_5f_Stone1" , 1 ) ; 
+d . spawn_mob ( 8474 , 178 , 1054 ) ; 
+d . notice ( "Ancient pyramid: You need to destroy other %s" , c_mob_name ( 9340 ) ) ; 
+end 
+elseif d . getf ( "PyramidDungeon_5f_NpcMech" ) == 3 then 
+if npc . get_vid ( ) == d . get_unique_vid ( "anubis_head_3" ) then 
+item . remove ( ) ; 
+d . kill_unique ( "anubis_head_3" ) 
+d . setf ( "PyramidDungeon_5f_NpcMech" , 4 ) ; d . setf ( "PyramidDungeon_5f_Stone2" , 1 ) ; 
+d . regen_file ( "data/dungeon/pyramid_dungeon/regen_5f_c.txt" ) ; 
+else 
+item . remove ( ) ; 
+d . setf ( "PyramidDungeon_5f_monsters2" , 1 ) ; 
+d . set_regen_file ( "data/dungeon/pyramid_dungeon/regen_5f_b.txt" ) ; 
+d . notice ( "Ancient pyramid: You need to destroy other %s" , c_mob_name ( 9340 ) ) ; 
+end 
+elseif d . getf ( "PyramidDungeon_5f_NpcMech" ) == 4 then 
+if npc . get_vid ( ) == d . get_unique_vid ( "anubis_head_4" ) then 
+item . remove ( ) ; 
+d . kill_unique ( "anubis_head_4" ) 
+d . setf ( "PyramidDungeon_5f_NpcMech" , 0 ) ; d . setf ( "PyramidDungeon_5f_Boss" , 1 ) ; 
+d . notice ( "Ancient pyramid: Great, but now, to alert!!!" ) ; 
+d . notice ( "Ancient pyramid: Real Anubis is coming!" ) ; 
+server_timer ( "PyramidDungeon_5th_boss" , 5 , d . get_map_index ( ) ) 
+else 
+syschat ( "Ancient pyramid: Something wrong" ) 
+return ; 
+end 
+end 
+ return end 
